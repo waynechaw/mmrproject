@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  background-color: #333354;
+  color: #fafafa;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+}
+.loading {
+  width:  26px;
+}
+.intro {
+    text-align: center;
+    width: 31%;
+    margin: 32px auto;
+}
+.container {
+  text-align: center;
+  margin: 27px auto 5px;
+  width: 500px;
+  padding: 50px;  
+  border: 1px solid gray;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: honeydew;
+  font-size: 0.8em;
+}
+
+#legal{
+  width: 700px;
+  margin:  5px auto;
+  font-size: 0.7em;
+  color: gray;
+  padding: 0 10px;
+}
+
+#matchHistory{
+  height: 360px;
+}
+
+.historyContainer {
+  padding-top: 40px;
+}
+
+
+.mmr {
+  font-size:  48px;
+}
+
+
+.bold{
+  font-weight:bolder;
+}
+
+.block{
+  display:inline-block;
+  width: 150px;
+}
+
+.block2{
+  display:inline-block;
+  width: 100px;
+}
+
+#status{
+  color:#B3B3B3;
+}
+
+.mmr-container {
+  display: none;
+  text-align: center;
+}
+
+
+
+
+/* Center tables for demo */
+table {
+  margin: 0 auto;
+}
+
+/* Default Table Style */
+table {
+  color: #333;
+  background: white;
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+}
+table thead th,
+table tfoot th {
+  color: #777;
+  background: rgba(0,0,0,.1);
+}
+table caption {
+  padding:.5em;
+}
+table th,
+table td {
+  padding: .5em;
+  border: 1px solid lightgrey;
+}
+/* Zebra Table Style */
+[data-table-theme*=zebra] tbody tr:nth-of-type(odd) {
+  background: rgba(0,0,0,.05);
+}
+[data-table-theme*=zebra][data-table-theme*=dark] tbody tr:nth-of-type(odd) {
+  background: rgba(255,255,255,.05);
+}
+/* Dark Style */
+[data-table-theme*=dark] {
+  color: #ddd;
+  background: #333;
+  font-size: 12pt;
+  border-collapse: collapse;
+}
+[data-table-theme*=dark] thead th,
+[data-table-theme*=dark] tfoot th {
+  color: #aaa;
+  background: rgba(0255,255,255,.15);
+}
+[data-table-theme*=dark] caption {
+  padding:.5em;
+}
+[data-table-theme*=dark] th,
+[data-table-theme*=dark] td {
+  padding: .5em;
+  border: 1px solid grey;
+}

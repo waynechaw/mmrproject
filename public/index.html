@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>MMR Checker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <h1 class="header">MMR Checker</h1>
+
+
+<p class="intro">
+Check your mmr for normals! Currently only works for NA.
+To get the most accurate mmr, play 20 games solo in normals. Queueing with other players will cause inaccurate result. <br><br>
+The tool uses this <a href="/table.html" target="_blank" class="raw-data">table</a> to convert rank to mmr. If you would like to report any inaccuracies with the data, please contact Wayne.
+</p>
+
+
+    <div class="container">
+      <input id="userName" placeholder="Summoner Name"/>
+      <input type="submit" value="Submit" id="btn"/><br><br>
+
+      <div id="matchHistory">
+        <span id="status"></span>
+        <div class="historyContainer">
+          
+          <div class="mmr-container">
+            <h1>Your MMR is:</h1>
+            <h2 class="mmr"></h2>
+
+            <p>
+              Want to see how this value was calculated? <a target="_blank" class="raw-data">View the raw data</a>.
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="champ.js"></script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
