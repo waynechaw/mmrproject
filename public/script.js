@@ -26,6 +26,7 @@ $('#btn').click(function() {
                   intervalID = setInterval( checkRenewal, 1000);
                 } else {
                   $('#status').html("error has occured");
+                  $("input").prop("disabled", false);
                 }
               },
               error: function (XMLHttpRequest, textStatus, errorThrown) {
