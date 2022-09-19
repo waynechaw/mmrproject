@@ -128,6 +128,13 @@ app.get('/renew-status/:encryptedID', function (req, res) {
 
   console.log(`getting renew status for ${req.params.encryptedID}`);
 
+  if (!encryptedID) {
+      return res.json({
+        error: true,
+        errorDetail: 'no encryptedID'
+      });
+  }
+
   request.post(`https://na.op.gg/api/summoners/na/${req.params.encryptedID}/renewal-status`, function (errorResp, response, body) {
 
     console.log(`renew status for ${req.params.encryptedID}: ${body}`);
