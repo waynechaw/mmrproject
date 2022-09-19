@@ -75,6 +75,9 @@ function checkRenewal(){
           });
 
 
+        } else if (data.error){ 
+            clearInterval(intervalID);
+           $('#status').html("error has occured");
         }
       },
       error: function (XMLHttpRequest, textStatus, errorThrown) {
