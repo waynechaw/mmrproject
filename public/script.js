@@ -20,9 +20,13 @@ $('#btn').click(function() {
               type: 'GET',
               contentType: 'application/json',
               success: function(data) {
-                  console.log(data);
+
+                if (data.encryptedID) {
                   encryptedID = data.encryptedID;
                   intervalID = setInterval( checkRenewal, 1000);
+                } else {
+                  $('#status').html("error has occured");
+                }
               },
               error: function (XMLHttpRequest, textStatus, errorThrown) {
 
