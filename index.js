@@ -126,11 +126,11 @@ app.get('/renew/:name', function (req, res) {
 
 app.get('/renew-status/:encryptedID', function (req, res) {
 
-  console.log(12312313);
+  console.log(`getting renew status for ${req.params.encryptedID}`);
 
   request.post(`https://na.op.gg/api/summoners/na/${req.params.encryptedID}/renewal-status`, function (error, response, body) {
 
-    console.log(body);
+    console.log(`renew status for ${req.params.encryptedID}: ${body}`);
     body = JSON.parse(body);
 
 
