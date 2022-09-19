@@ -134,14 +134,26 @@ app.get('/renew-status/:encryptedID', function (req, res) {
     body = JSON.parse(body);
 
 
-    let renewedFinished = false;;
+    let renewedFinished = false;
+    let error;
     if (body && ((body.message == 'Already renewed.') || (body.message == 'Failed to renew.')) ) {
       renewedFinished = true;
     }
 
-    res.json({
-      renewedFinished: renewedFinished,
-    });
+    if (body && body.code == '404') {
+
+      res.json({
+        error: true,
+        errorDetail: body
+      });
+
+    } else  {
+      res.json({
+        renewedFinished: renewedFinished,
+      });
+    }
+
+
 
   })
 
