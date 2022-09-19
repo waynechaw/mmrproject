@@ -173,12 +173,8 @@ app.get('/mmr/:encryptedID', function (req, res) {
     });
 
     res.json({
-      user: req.params.name,
-      recentMatchesAvgMMR: recentMatchesAvgMMR,
-      numberOfMatchesAnalyzed: jsonData.data.length,
-      recentMatchesTiers: recentMatchesTiers,
+      rawData: rawData,
       rankToMMR: rankToMMR,
-      rawData: rawData
     });
 
   });
