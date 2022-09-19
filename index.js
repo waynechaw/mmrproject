@@ -128,7 +128,8 @@ app.get('/renew-status/:encryptedID', function (req, res) {
 
   console.log(`getting renew status for ${req.params.encryptedID}`);
 
-  if (!encryptedID) {
+  if (!req.params.encryptedID) {
+    console.log('no encryptedID, aborting');
       return res.json({
         error: true,
         errorDetail: 'no encryptedID'
