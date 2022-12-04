@@ -22,8 +22,34 @@ $('#btn').click(function() {
               success: function(data) {
 
                 if (data.encryptedID) {
-                  encryptedID = data.encryptedID;
-                  intervalID = setInterval( checkRenewal, 1000);
+
+                  if (data.renewedFinished) {
+                    $.ajax({
+                        url: '/mmr/' + data.encryptedID,
+                        type: 'GET',
+                        contentType: 'application/json',
+                        success: function(data) {
+                            console.log(data);
+
+                            $(".mmr").text(data.recentMatchesAvgMMR);
+                            $(".mmr-container").css("display", "block"); 
+                            $('#status').html("");
+
+                            $(".raw-data").attr("href", '/mmr/' + encryptedID);
+
+                            $("input").prop("disabled", false);
+
+                        },
+                        error: function (XMLHttpRequest, textStatus, errorThrown) {
+                            $("#sLevel").html("summoner name not found");
+                            $("#sLevel").css("color", "red"); 
+                        }
+                    });
+                  } else {
+                    encryptedID = data.encryptedID;
+                    intervalID = setInterval( checkRenewal, 1000);
+                  }
+
                 } else {
                   $('#status').html("error has occured");
                   $("input").prop("disabled", false);
