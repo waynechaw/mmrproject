@@ -16,17 +16,21 @@ let rankToMMR = {
   DIAMOND2:2600,
   DIAMOND3:2500,
   DIAMOND4:2400,
-  PLATINUM1:2300,
-  PLATINUM2:2200,
-  PLATINUM3:2100,
-  PLATINUM4 :2000,
-  GOLD1:1900,
-  GOLD2:1800,
-  GOLD3:1700,
-  GOLD4:1600,
-  SILVER1:1500,
-  SILVER2:1400,
-  SILVER3:1300,
+  EMERALD1: 2350,
+  EMERALD2: 2300,
+  EMERALD3: 2240,
+  EMERALD4:2160,
+  PLATINUM1:2080,
+  PLATINUM2:2000,
+  PLATINUM3:1920,
+  PLATINUM4 :1840,
+  GOLD1:1760,
+  GOLD2:1680,
+  GOLD3:1600,
+  GOLD4:1520,
+  SILVER1:1440,
+  SILVER2:1360,
+  SILVER3:1280,
   SILVER4:1200,
   BRONZE1:1100,
   BRONZE2:1000,
@@ -174,6 +178,11 @@ app.get('/renew-status/:encryptedID', function (req, res) {
 })
 
 
+function average(array) {
+  const sum = array.reduce((acc, curr) => acc + curr, 0);
+  const average = sum / array.length;
+  return average;
+}
 
 
 app.get('/mmr/:encryptedID', function (req, res) {
@@ -188,7 +197,7 @@ app.get('/mmr/:encryptedID', function (req, res) {
       return res.send('no matches for this user')
     }
     let recentMatchesTiers = jsonData.data.map(match => match.average_tier_info.tier + match.average_tier_info.division);
-    let recentMatchesAvgMMR = jsonData.data.map(match => rankToMMR[match.average_tier_info.tier + match.average_tier_info.division]).reduce((a, b) => a + b)/jsonData.data.length;
+    // let recentMatchesAvgMMR = jsonData.data.map(match => rankToMMR[match.average_tier_info.tier + match.average_tier_info.division]).reduce((a, b) => a + b)/jsonData.data.length;
 
     let rawData =  jsonData.data.map(match => {
       delete match.participants;
@@ -197,8 +206,10 @@ app.get('/mmr/:encryptedID', function (req, res) {
       return match;
     });
 
+    console.log(recentMatchesTiers.map(tier => rankToMMR[tier]));
+
     res.json({
-      recentMatchesAvgMMR: recentMatchesAvgMMR,
+      recentMatchesAvgMMR: average(recentMatchesTiers.map(tier => rankToMMR[tier])),
       rankToMMR: rankToMMR,
       rawData: rawData
     });
