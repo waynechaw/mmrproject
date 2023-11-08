@@ -128,7 +128,7 @@ $('.submit').click(function() {
 
   groups = divideIntoTwoGroups(listOfMMR);
 
-  groups.filter( (item, index) => {
+  groups = groups.filter( (item, index) => {
     return index % 2 == 0;
   })
 
