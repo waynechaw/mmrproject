@@ -171,7 +171,7 @@ table td {
 
 
 /* CSS */
-.copybtn {
+.prettybtn {
   background-color: #FFFFFF;
   border: 0;
   border-radius: .5rem;
@@ -194,15 +194,15 @@ table td {
   display: none;
 }
 
-.copybtn:hover {
+.prettybtn:hover {
   background-color: rgb(249,250,251);
 }
 
-.copybtn:focus {
+.prettybtn:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
-.copybtn:focus-visible {
+.prettybtn:focus-visible {
   box-shadow: none;
 }

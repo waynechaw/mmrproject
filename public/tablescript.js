@@ -36,9 +36,7 @@ function divideIntoTwoGroups(arr) {
 
  
 
-    let minDifference = Infinity;
-
-    let bestCombination = null;
+    const bestCombinations = [];
 
  
 
@@ -50,19 +48,19 @@ function divideIntoTwoGroups(arr) {
 
         const difference = Math.abs(avg1 - avg2);
 
-        if (difference < minDifference) {
+ 
 
-            minDifference = difference;
-
-            bestCombination = [group1, group2];
-
-        }
+       bestCombinations.push({ difference, groups: [group1, group2] });
 
     }
 
  
 
-    return bestCombination;
+    bestCombinations.sort((a, b) => a.difference - b.difference);
+
+ 
+
+    return bestCombinations.slice(0, 10).map(combination => combination.groups);
 
 }
 
@@ -92,10 +90,16 @@ var team1Text = [];
 var team2Text = [];
 
 
+var groups = [];
+var group = [];
+
+var groupIndex = 0;
+
+
 $('.clear').click(function() {
   $('textarea').val('');
   $('.output-area').css('display', 'none');
-  $('.copybtn').css('display', 'none');
+  $('.prettybtn').css('display', 'none');
 });
 
 $('.submit').click(function() {
@@ -104,6 +108,13 @@ $('.submit').click(function() {
 
   team1Text = [];
   team2Text = [];
+
+
+   groups = [];
+   group = [];
+
+   groupIndex = 0;
+
 
   let data = $('textarea').val();
   data = data.split(',');
@@ -115,9 +126,15 @@ $('.submit').click(function() {
 
   console.log(divideIntoTwoGroups(listOfMMR));
 
-  let team1 = divideIntoTwoGroups(listOfMMR)[0];
+  groups = divideIntoTwoGroups(listOfMMR);
 
-  let team2 = divideIntoTwoGroups(listOfMMR)[1];
+  console.log(groups);
+
+  group = groups[groupIndex];
+
+  let team1 = group[0];
+
+  let team2 = group[1];
 
   $('.team1mmr b').text(average(team1));
   $('.team2mmr b').text(average(team2));
@@ -146,7 +163,7 @@ $('.submit').click(function() {
 
 
   $('.output-area').css('display', 'flex');
-  $('.copybtn').css('display', 'inline');
+  $('.prettybtn').css('display', 'inline');
 
 });
 
@@ -170,4 +187,53 @@ $('.copybtn').click(function() {
     },
   );
 });
+
+$('.try').click(function() {
+
+  console.log(groupIndex);
+
+  if (groupIndex == 8) {
+
+    $('.try').css('display', 'none');
+  }
+
+  groupIndex = groupIndex + 1;
+
+
+ group = groups[groupIndex];
+
+  let team1 = group[0];
+
+  let team2 = group[1];
+
+  $('.team1mmr b').text(average(team1));
+  $('.team2mmr b').text(average(team2));
+
+  $('.team2').empty();
+
+  $('.team1').empty();
+
+  team1.forEach(player => {
+    let playerName = mmrNameMap[player];
+
+    $('.team1').append(`<h4>${playerName}</h4>`);
+
+    team1Text.push(`${playerName} (${player})`);
+
+  })
+
+  team2.forEach(player => {
+    let playerName = mmrNameMap[player];
+
+    $('.team2').append(`<h4>${playerName}</h4>`);
+
+    team2Text.push(`${playerName} (${player})`);
+
+  })
+
+
+
+
+});
+
 
