@@ -69,7 +69,7 @@ function divideIntoTwoGroups(arr) {
  
    for (let i = 0; i < data.length; i++) {
      const [stringKey, value] = data[i].split(':');
-     object[value] = stringKey;
+     object[parseInt(value)] = stringKey;
      listOfMMR.push(parseInt(value));
    }
  
@@ -157,6 +157,7 @@ $('.submit').click(function() {
   })
 
   team2.forEach(player => {
+    console.log(player);
     let playerName = mmrNameMap[player];
 
     $('.team2').append(`<h4>${playerName}</h4>`);
@@ -185,6 +186,8 @@ $('.copybtn').click(function() {
       setTimeout(()=> {
         $('.copybtn').text('Copy Team');
       }, 1500)
+
+
     },
     () => {
       /* clipboard write failed */
@@ -195,6 +198,10 @@ $('.copybtn').click(function() {
 $('.try').click(function() {
 
   console.log(groupIndex);
+
+         team1Text = [];
+         team2Text = [];
+
 
   if (groupIndex == 4) {
 
