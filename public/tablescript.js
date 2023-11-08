@@ -128,6 +128,10 @@ $('.submit').click(function() {
 
   groups = divideIntoTwoGroups(listOfMMR);
 
+  groups.filter( (item, index) => {
+    return index % 2 == 0;
+  })
+
   console.log(groups);
 
   group = groups[groupIndex];
@@ -192,7 +196,7 @@ $('.try').click(function() {
 
   console.log(groupIndex);
 
-  if (groupIndex == 8) {
+  if (groupIndex == 4) {
 
     $('.try').css('display', 'none');
   }
