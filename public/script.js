@@ -32,6 +32,7 @@ $('#btn').click(function() {
                             console.log(data);
 
                             $(".mmr").text(data.recentMatchesAvgMMR);
+                                                        $(".mmr2").text(data.recentMatchesAvgMMR2);
                             $(".mmr-container").css("display", "block"); 
                             $('#status').html("");
 

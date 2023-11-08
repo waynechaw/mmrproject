@@ -42,6 +42,40 @@ let rankToMMR = {
   IRON4:100
 }
 
+let rankToMMR2 = {
+  CHALLENGER: 9001,
+  GRANDMASTER1: 3100,
+  MASTER1: 3000,
+  DIAMOND1:2700,
+  DIAMOND2:2600,
+  DIAMOND3:2500,
+  DIAMOND4:2400,
+  EMERALD1: 2350,
+  EMERALD2: 2300,
+  EMERALD3: 2240,
+  EMERALD4:2160,
+  PLATINUM1:2080,
+  PLATINUM2:2000,
+  PLATINUM3:1920,
+  PLATINUM4 :1840,
+  GOLD1:1760,
+  GOLD2:1680,
+  GOLD3:1600,
+  GOLD4:1520,
+  SILVER1:1440,
+  SILVER2:1360,
+  SILVER3:1280,
+  SILVER4:1200,
+  BRONZE1:1100,
+  BRONZE2:1000,
+  BRONZE3:900,
+  BRONZE4:880,
+  IRON1:700,
+  IRON2:600,
+  IRON3:500,
+  IRON4:400
+}
+
 app.get('/mmr', function (req, res) {
 
 
@@ -210,6 +244,7 @@ app.get('/mmr/:encryptedID', function (req, res) {
 
     res.json({
       recentMatchesAvgMMR: average(recentMatchesTiers.map(tier => rankToMMR[tier])),
+      recentMatchesAvgMMR2: average(recentMatchesTiers.map(tier => rankToMMR2[tier])),
       rankToMMR: rankToMMR,
       rawData: rawData
     });
