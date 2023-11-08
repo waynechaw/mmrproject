@@ -9,9 +9,15 @@
 
   <body>
 
-        <h1 class="header">Team Maker</h1>
 
-    <p>
+<div class="navigation">
+    <a href="/">MMR Checker</a>
+    <a href="/team.html">Team Maker</a>
+</div>
+
+<div class="team-container">
+
+    <p style="font-size: 17px;">
       Submit comma separated list of teammates with the format <code>username:mmr</code>
     </p>
 
@@ -19,7 +25,6 @@
       Two teams will be created with closest possible MMR averages.
     </p>
 
-    <p>Remove decimals and make sure everyone has a unique mmr in your input!</p>
 
     <h3>Sample Input</h3>
       <pre>
@@ -29,12 +34,14 @@
   <div class="input-area">
     <textarea rows="4" cols="50" placeholder="Input comma separated data"></textarea>
     <br>
-    <button class="submit">Submit</button>
-    <button class="clear">Clear</button>
+    <div  style="text-align: center;">
+    <button  style="margin-right: 12px;" class="button-6 submit">Submit</button>
+    <button class="button-6 clear">Clear</button>
+  </div>
   </div>
 
 
-<div class="output-area">
+  <div class="output-area">
   <div style="margin-right: 100px;" class="team">
     <h3>Team 1</h3>
     <div class="team1">
@@ -59,9 +66,13 @@
   </div>
 </div>
 
-<button class="copybtn prettybtn" role="button">Copy Team</button>
+<button style="margin-right: 12px;" class="copybtn prettybtn" role="button">Copy Team</button>
 
 <button class="try prettybtn" role="button">Try Next Best Team</button>
+
+</div>
+
+
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="champ.js"></script>

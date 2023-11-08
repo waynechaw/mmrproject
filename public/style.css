@@ -1,40 +1,86 @@
+@font-face {
+    font-family: 'ff';
+    src: url('./FontFont_FF.Mark.Pro.Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: 'ff', serif;
   width: 100%;
   color: #333;
   margin: 0;
   text-align: center;
+  background: url("https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-thousand-pierced-volibear.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  background-color: black;
 }
 
-.header {
-  width: 100%;
-  background-color: #333354;
-  color: #fafafa;
-  margin: 0;
-  padding: 25px;
-  text-align: center;
+
+.navigation {
+    padding: 24px;
+    background-color: #111;
 }
+
+.navigation a {
+    color: white;
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 24px;
+    display: inline-block;
+    padding: 4px 13px;
+    border-radius: 9px;
+}
+
+.navigation a:hover {
+  background: #ffffff24;
+}
+
 .loading {
   width:  26px;
 }
+
 .intro {
-    text-align: center;
-    width: 31%;
-    margin: 32px auto;
+    color: #d1d1d1;
+    font-size: 16px;
+    margin-top: 91px;
 }
+
 .container {
-  text-align: center;
-  margin: 27px auto 5px;
-  width: 500px;
-  padding: 50px;  
-  border: 1px solid gray;
-  border-radius: 5px;
-  overflow: hidden;
-  background-color: honeydew;
-  font-size: 0.8em;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 468px;
+    text-align: center;
+    margin: 27px auto 5px;
+    width: 500px;
+    padding: 34px;
+    color: white;
+    border-radius: 5px;
+
+    font-size: 0.8em;
+    background-color: #111111c4;
+}
+
+.container input {
+    border-style: hidden;
+    outline: none;
+    transition: width ease 1s;
+    text-indent: 40px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    border-radius: 24px;
+    padding: 10px 10px;
+    width: 100%;
+    color: white;
+    background: #00000059;
 }
 
 #legal{
@@ -50,7 +96,7 @@ body {
 }
 
 .historyContainer {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 
@@ -150,16 +196,15 @@ table td {
   margin-bottom: 10px;
 }
 .output-area {
-    display: flex;
-    text-align: left;
+
+text-align: left;
     width: 500px;
     margin: 0 auto;
     justify-content: center;
     margin-top: 50px;
     border-radius: 8px;
     padding: 10px;
-    border: 1px solid black;
-    background-color: honeydew;
+    border: 1px solid white;
     display: none;
 
 }
@@ -205,4 +250,71 @@ table td {
 
 .prettybtn:focus-visible {
   box-shadow: none;
+}
+
+
+.team-container {
+position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 738px;
+    text-align: center;
+    margin: 27px auto 5px;
+    width: 926px;
+    padding: 29px;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.8em;
+    background-color: #111111c4;
+}
+
+
+/* CSS */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
 }
