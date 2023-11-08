@@ -254,10 +254,6 @@ text-align: left;
 
 
 .team-container {
-position: absolute;
-    top: 51%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     width: 500px;
     height: 738px;
     text-align: center;
