@@ -281,8 +281,8 @@ $('.loading').css('display', 'none');
 
   let team2 = group[1];
 
-  $('.team1mmr b').text(average(team1.map(item => Number(item.mmr))));
-  $('.team2mmr b').text(average(team2.map(item => Number(item.mmr))));
+  $('.team1mmr b').text(average(team1.map(item => Number(item.mmr))).toFixed(2));
+  $('.team2mmr b').text(average(team2.map(item => Number(item.mmr))).toFixed(2));
 
   $('.team2').empty();
 
@@ -293,7 +293,7 @@ $('.loading').css('display', 'none');
 
     $('.team1').append(`<h4>${player.name}</h4>`);
 
-    team1Text.push(`${player.name} (${player.mmr})`);
+    team1Text.push(`${player.name} (${player.mmr.toFixed(2)})`);
 
   })
 
@@ -302,7 +302,7 @@ $('.loading').css('display', 'none');
 
     $('.team2').append(`<h4>${player.name}</h4>`);
 
-    team2Text.push(`${player.name} (${player.mmr})`);
+    team2Text.push(`${player.name} (${player.mmr.toFixed(2)})`);
 
   })
 
@@ -387,8 +387,8 @@ $('.try').click(function() {
 
   let team2 = group[1];
 
-  $('.team1mmr b').text(average(team1.map(item => Number(item.mmr))));
-  $('.team2mmr b').text(average(team2.map(item => Number(item.mmr))));
+  $('.team1mmr b').text(average(team1.map(item => Number(item.mmr).toFixed(2))));
+  $('.team2mmr b').text(average(team2.map(item => Number(item.mmr).toFixed(2))));
 
   $('.team2').empty();
 
@@ -399,7 +399,7 @@ $('.try').click(function() {
 
     $('.team1').append(`<h4>${player.name}</h4>`);
 
-    team1Text.push(`${player.name} (${player.mmr})`);
+    team1Text.push(`${player.name} (${player.mmr.toFixed(2)})`);
 
   })
 
@@ -408,7 +408,7 @@ $('.try').click(function() {
 
     $('.team2').append(`<h4>${player.name}</h4>`);
 
-    team2Text.push(`${player.name} (${player.mmr})`);
+    team2Text.push(`${player.name} (${player.mmr.toFixed(2)})`);
 
   })
 

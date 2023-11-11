@@ -52,14 +52,14 @@ var intervalID;
 
                   if (data.renewedFinished) {
                     $.ajax({
-                        url: '/flexmmrmmr/' + data.encryptedID,
+                        url: '/flexmmr/' + data.encryptedID,
                         type: 'GET',
                         contentType: 'application/json',
                         success: function(data) {
                             console.log(data);
 
-                            $(".mmr").text(data.recentMatchesAvgMMR);
-                            $(".mmr2").text(data.recentMatchesAvgMMR2);
+                            $(".mmr").text(data.recentMatchesAvgMMR.toFixed(2));
+                            $(".mmr2").text(data.recentMatchesAvgMMR2.toFixed(2));
                             $(".mmr-container").css("display", "block"); 
                             $('#status').html("");
                             $('#status').css("display", "none");
@@ -119,8 +119,8 @@ function checkRenewal(){
               success: function(data) {
                   console.log(data);
 
-                  $(".mmr").text(data.recentMatchesAvgMMR);
-                  $(".mmr2").text(data.recentMatchesAvgMMR2);
+                  $(".mmr").text(data.recentMatchesAvgMMR.toFixed(2));
+                  $(".mmr2").text(data.recentMatchesAvgMMR2.toFixed(2));
                   $(".mmr-container").css("display", "block"); 
                   $('#status').html("");
                   $('#status').css("display", "none");
