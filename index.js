@@ -256,4 +256,41 @@ app.get('/mmr/:encryptedID', function (req, res) {
 
 })
 
+app.get('/flexmmr/:encryptedID', function (req, res) {
+
+
+  request(`https://op.gg/api/v1.0/internal/bypass/games/na/summoners/${req.params.encryptedID}?&limit=20&hl=en_US&game_type=flexranked`, function (error, response, body) {
+
+    let jsonData = JSON.parse(body);
+    jsonData.data = jsonData.data.filter(match => match.average_tier_info);
+
+    if (jsonData.data.length == 0) {
+      return res.send('no matches for this user')
+    }
+    let recentMatchesTiers = jsonData.data.map(match => match.average_tier_info.tier + match.average_tier_info.division);
+    // let recentMatchesAvgMMR = jsonData.data.map(match => rankToMMR[match.average_tier_info.tier + match.average_tier_info.division]).reduce((a, b) => a + b)/jsonData.data.length;
+
+    let rawData =  jsonData.data.map(match => {
+      delete match.participants;
+      delete match.teams;
+      delete match.myData;
+      return match;
+    });
+
+
+
+    res.json({
+      recentMatchesAvgMMR: average(recentMatchesTiers.map(tier => rankToMMR[tier])),
+      recentMatchesAvgMMR2: average(recentMatchesTiers.map(tier => rankToMMR2[tier])),
+      rankToMMR: rankToMMR,
+      rawData: rawData
+    });
+
+  });
+
+
+
+})
+
+
 app.listen(port, () => console.log(`App listening on port ${port}!`));
