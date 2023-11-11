@@ -1,8 +1,7 @@
+
 var backgrounds = [
-  "https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-nilah-eclipsel.jpg",
   "https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-thousand-pierced-volibear.jpg",
   "https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-airis.jpg",
-  "https://www.iamag.co/wp-content/uploads/2022/04/kudos-productions-arcane-jinx-lv1.jpg",
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-52.jpg",
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-92.jpg",
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-112.jpg",
@@ -10,7 +9,13 @@ var backgrounds = [
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-183.jpg",
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-199.jpg",
   "https://i.imgur.com/uBE6rS8.png",
-  "https://images5.alphacoders.com/131/1311515.jpeg"
+  "https://images5.alphacoders.com/131/1311515.jpeg",
+  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-131.jpg",
+  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-132.jpg",
+  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-204.jpg",
+  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-205.jpg",
+  "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-34.jpg",
+  "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-7.jpg"
 ];
 
 var random = backgrounds[Math.floor(Math.random() * backgrounds.length)];
@@ -34,10 +39,13 @@ var intervalID;
 
         $('#status').html("Getting latest matches. This may take some time <br><br> <img  class='loading' src='https://c.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif'/>");
         $('#status').css("display", "block");
+          let data = { name: SUMMONER_NAME };
           $.ajax({
-              url: '/renew/' + SUMMONER_NAME,
-              type: 'GET',
+              url: '/renew/',
+              type: 'POST',
+              data:  JSON.stringify(data),
               contentType: 'application/json',
+              dataType: "json",
               success: function(data) {
 
                 if (data.encryptedID) {

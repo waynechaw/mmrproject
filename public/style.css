@@ -314,3 +314,12 @@ text-align: left;
   color: rgba(0, 0, 0, 0.65);
   transform: translateY(0);
 }
+
+.unsorted-list {
+  columns: 2;
+}
+
+.player-item {
+  width: 200px;
+  text-align: center;
+}

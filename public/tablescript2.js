@@ -116,6 +116,7 @@ function convertData (data) {
   return average;
 }
 
+var playersList = [];
 
 
 var mmrNameMapArr;
@@ -131,35 +132,142 @@ var group = [];
 var groupIndex = 0;
 
 
-$('.clear').click(function() {
-  $('textarea').val('');
-  $('.output-area').css('display', 'none');
-  $('.prettybtn').css('display', 'none');
-});
+function getMMR(user) { 
+  let encryptedID;
+  let intervalID;
 
-$('.submit').click(function() {
-  listOfMMR = [];
-  mmrNameMapArr = [];
+  let data = { name: user };
+          $.ajax({
+              url: '/renew/',
+              type: 'POST',
+              data:  JSON.stringify(data),
+              contentType: 'application/json',
+              dataType: "json",
+              success: function(data) {
 
-  team1Text = [];
-  team2Text = [];
+                if (data.encryptedID) {
+
+                  if (data.renewedFinished) {
+                    $.ajax({
+                        url: '/mmr/' + data.encryptedID,
+                        type: 'GET',
+                        contentType: 'application/json',
+                        success: function(data) {
+                                      console.log(data);
+                                      playersList.push({
+                                        name: user,
+                                        mmr: data.recentMatchesAvgMMR
+                                      });
+
+                                      console.log(playersList);
+
+                                      
+                                      $('.unsorted-list').empty();
+                                      playersList.forEach(player => {
 
 
-   groups = [];
-   group = [];
+                                        $('.unsorted-list').append(`<div class="player-item">${player.name}: <b>${player.mmr}</b</div>`);
 
-   groupIndex = 0;
-
-
-  let data = $('textarea').val();
-  data = data.split(',');
-  data = data.map(item => $.trim(item));
+                                        if (playersList.length == 10) {
+                                          sort();
+                                        }
 
 
-  mmrNameMapArr = convertData(data);
+
+                                      })
+
+                        },
+                        error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+                        }
+                    });
+                  } else {
+                    encryptedID = data.encryptedID;
+                    intervalID = setInterval( () => {
 
 
-  groups = divideIntoTwoGroups(mmrNameMapArr);
+
+                      $.ajax({
+                          url: '/renew-status/' + encryptedID,
+                          type: 'GET',
+                          contentType: 'application/json',
+                          success: function(data) {
+                            if (data.renewedFinished) {
+                              clearInterval(intervalID);
+                              console.log('renewed!');
+                              $.ajax({
+                                  url: '/mmr/' + encryptedID,
+                                  type: 'GET',
+                                  contentType: 'application/json',
+                                  success: function(data) {
+                                      console.log(data);
+
+
+
+
+                                      playersList.push({
+                                        name: user,
+                                        mmr: data.recentMatchesAvgMMR
+                                      });
+
+
+                                      console.log(playersList);
+                                      
+
+                                      $('.unsorted-list').empty();
+                                      playersList.forEach(player => {
+
+
+                                        $('.unsorted-list').append(`<div class="player-item">${player.name}: <b>${player.mmr}</b</div>`);
+
+
+
+                                      })
+
+
+
+                                        if (playersList.length == 10) {
+                                          sort();
+                                        }
+
+
+                                  },
+                                  error: function (XMLHttpRequest, textStatus, errorThrown) {
+                                      console.log('error');
+                                  }
+                              });
+
+
+                            } else if (data.error){ 
+                                clearInterval(intervalID);
+                            }
+                          },
+                          error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+                          }
+                      });
+
+                    }, 1000);
+                  }
+
+                } else {
+                  console.log(user, 'error');
+                }
+              },
+              error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+              }
+          });
+}
+
+
+
+function sort () {
+
+  $('.output-area').css('display', 'flex');
+$('.loading').css('display', 'none');
+
+  groups = divideIntoTwoGroups(playersList);
 
   groups = groups.filter( (item, index) => {
     return index % 2 == 0;
@@ -201,6 +309,32 @@ $('.submit').click(function() {
 
   $('.output-area').css('display', 'flex');
   $('.prettybtn').css('display', 'inline');
+}
+
+
+$('.clear').click(function() {
+  $('textarea').val('');
+  $('.output-area').css('display', 'none');
+  $('.prettybtn').css('display', 'none');
+});
+
+
+$('.submit').click(function() {
+
+  $('.unsorted-list-container').css('display', 'block');
+
+  $('.input-area').css('display', 'none');
+
+
+  let players = $('textarea').val();
+  console.log(players);
+
+  players = players.split(',');
+
+  players.forEach( player => {
+    getMMR(player);
+  })
+
 
 });
 
@@ -226,6 +360,10 @@ $('.copybtn').click(function() {
     },
   );
 });
+
+$('.restart').click(function() {
+  location.reload(true)
+})
 
 $('.try').click(function() {
 

@@ -4,7 +4,7 @@ const app = express();
 var bodyParser = require('body-parser')
 const port = process.env.PORT || 3001;
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 
@@ -123,10 +123,13 @@ app.post('/mmr/submit', function (req, res) {
   return res.redirect(`/mmr/${req.body.summonerName}`); 
 })
 
-app.get('/renew/:name', function (req, res) {
+app.post('/renew/', function (req, res) {
 
-  request(`https://na.op.gg/summoners/na/${req.params.name}`, function (error, response, body) {
+  console.log(123123, req.body);
+
+  request(encodeURI(`https://na.op.gg/summoners/na/${req.body.name}`), function (error, response, body) {
       let opggdata = body;
+
       var encryptedID = opggdata.match(/"summoner_id":"(.*?)","acct_id/);
 
       if (!encryptedID) {
@@ -141,10 +144,10 @@ app.get('/renew/:name', function (req, res) {
 
 
       request.post(`https://op.gg/api/v1.0/internal/bypass/summoners/na/${encryptedID}/renewal`, function (error, response, body) {
-        console.log(123, body);
+
         body = JSON.parse(body);
 
-        console.log(222, body);
+
 
 
         let renewedFinished = false;;
@@ -179,9 +182,7 @@ app.get('/renew-status/:encryptedID', function (req, res) {
 
   request.get(`https://op.gg/api/v1.0/internal/bypass/summoners/na/${req.params.encryptedID}/renewal-status`, function (errorResp, response, body) {
 
-    console.log(11113,`https://op.gg/api/v1.0/internal/bypass/summoners/na/${req.params.encryptedID}/renewal-status` );
 
-    console.log(`renew status for ${req.params.encryptedID}: ${body}`);
     body = JSON.parse(body);
 
 
@@ -240,7 +241,7 @@ app.get('/mmr/:encryptedID', function (req, res) {
       return match;
     });
 
-    console.log(recentMatchesTiers.map(tier => rankToMMR[tier]));
+
 
     res.json({
       recentMatchesAvgMMR: average(recentMatchesTiers.map(tier => rankToMMR[tier])),

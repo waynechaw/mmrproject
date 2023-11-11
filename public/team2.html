@@ -19,18 +19,12 @@
 <div class="team-container">
 
     <p style="font-size: 17px;">
-      Submit comma separated list of teammates with the format <code>username:mmr</code>
+      Submit comma separated list of summoner names
     </p>
 
     <p>
       Two teams will be created with closest possible MMR averages.
     </p>
-
-
-    <h3>Sample Input</h3>
-      <pre>
-        zika:2414, tarzan:1635, scout:1245, gala:2156, hang:1429, zeus:3514, oner:2425, faker:3524, gumayusi:2421, keria:2321
-      </pre>
 
   <div class="input-area">
     <textarea rows="4" cols="50" placeholder="Input comma separated data"></textarea>
@@ -41,31 +35,47 @@
   </div>
   </div>
 
+  <div class="output-area unsorted-list-container">
+    
+    <img class="loading" src="https://c.tenor.com/On7kvXhzml4AAAAj/loading-gif.gif" style="
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin: 0 auto;
+    ">
 
-  <div class="output-area">
-  <div style="margin-right: 100px;" class="team">
-    <h3>Team 1</h3>
-    <div class="team1">
-      <h6>zika</h6>
-      <h6>zika</h6>
-      <h6>zika</h6>
-      <h6>zika</h6>
-      <h6>zika</h6>
+    <div class="unsorted-list">
+      
     </div>
-    <p class="team1mmr">Avg MMR: <b>2000</b></p>
   </div>
-  <div class="team">
-    <h3>Team 2</h3>
-    <div class="team2">
-      <h6>zika</h6>
-      <h6>zika</h6>
-      <h6>zika</h6>
-      <h6>zika</h6>
-      <h6>zika</h6>
+
+
+  <div style="margin-top: 20px;" class="output-area">
+    <div style="margin-right: 100px;" class="team">
+      <h3>Team 1</h3>
+      <div class="team1">
+        <h6>zika</h6>
+        <h6>zika</h6>
+        <h6>zika</h6>
+        <h6>zika</h6>
+        <h6>zika</h6>
+      </div>
+      <p class="team1mmr">Avg MMR: <b>2000</b></p>
     </div>
-    <p class="team2mmr">Avg MMR: <b>2000</b></p>
-  </div>
+    <div class="team">
+      <h3>Team 2</h3>
+      <div class="team2">
+        <h6>zika</h6>
+        <h6>zika</h6>
+        <h6>zika</h6>
+        <h6>zika</h6>
+        <h6>zika</h6>
+      </div>
+      <p class="team2mmr">Avg MMR: <b>2000</b></p>
+    </div>
 </div>
+
+<button style="margin-right: 12px;" class="restart prettybtn" role="button">Restart</button>
 
 <button style="margin-right: 12px;" class="copybtn prettybtn" role="button">Copy Team</button>
 
@@ -77,6 +87,6 @@
 
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="champ.js"></script>
-    <script src="tablescript.js"></script>
+    <script src="tablescript2.js"></script>
 </body>
 </html>
