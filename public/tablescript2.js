@@ -156,7 +156,7 @@ function getMMR(user) {
                                       console.log(data);
                                       playersList.push({
                                         name: user,
-                                        mmr: data.recentMatchesAvgMMR
+                                        mmr: data.recentMatchesAvgMMR2
                                       });
 
                                       console.log(playersList);
@@ -207,7 +207,7 @@ function getMMR(user) {
 
                                       playersList.push({
                                         name: user,
-                                        mmr: data.recentMatchesAvgMMR
+                                        mmr: data.recentMatchesAvgMMR2
                                       });
 
 
