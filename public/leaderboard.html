@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        h1 {
+            margin: 20px auto;
+                text-align: center;
+                color: white;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+    <title>League of Legends Players</title>
+
+</head>
+<body>
+
+<h1 class="header">Challenge Leaderboard (Fixed)</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Region</th>
+            <th>Points</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Inserting data dynamically using JavaScript -->
+        <script>
+            var sortedItemsObjects = [
+    {
+        "name": "imJM#KR1",
+        "region": "kr",
+        "points": 27700
+    },
+    {
+        "name": "Wayne#NA1",
+        "region": "na",
+        "points": 27680
+    },
+    {
+        "name": "ponzels#EUW",
+        "region": "euw",
+        "points": 27630
+    },
+    {
+        "name": "Itâchi Senpai#Aka",
+        "region": "euw",
+        "points": 27545
+    },
+    {
+        "name": "Cillitbang#ADC",
+        "region": "euw",
+        "points": 27465
+    },
+    {
+        "name": "Amethia Kheøs#kheos",
+        "region": "euw",
+        "points": 27450
+    },
+    {
+        "name": "tbandee#69420",
+        "region": "eune",
+        "points": 27440
+    },
+    {
+        "name": "여 신# KR1",
+        "region": "kr",
+        "points": 27360
+    },
+    {
+        "name": "Zeios#EUW",
+        "region": "euw",
+        "points": 27260
+    },
+    {
+        "name": "一一一一一一一一一一一一一一一一-ーーー",
+        "region": "na",
+        "points": 27245
+    },
+    {
+        "name": "이상혁이미래다#KR1",
+        "region": "kr",
+        "points": 27235
+    },
+    {
+        "name": "Big Romes#777",
+        "region": "na",
+        "points": 27200
+    },
+    {
+        "name": "最美不過õ初相見õ#TW2",
+        "region": "tw",
+        "points": 27190
+    },
+    {
+        "name": "Dêmôn#EUW",
+        "region": "euw",
+        "points": 27115
+    },
+    {
+        "name": "Sínister Bláde-EUW",
+        "region": "euw",
+        "points": 27105
+    },
+    {
+        "name": "BALENCIAGA#KR2",
+        "region": "kr",
+        "points": 27005
+    },
+    {
+        "name": "Synicle#NA1",
+        "region": "na",
+        "points": 26970
+    },
+    {
+        "name": "hideonbush#KR664",
+        "region": "kr",
+        "points": 26965
+    },
+    {
+        "name": "Gã Du Mục#Top 1",
+        "region": "vn",
+        "points": 26940
+    },
+    {
+        "name": "인간사냥꾼 탈론#탈 론",
+        "region": "kr",
+        "points": 26935
+    },
+    {
+        "name": "황홀한 강타를 쓰는 보석게이#황홀한강타",
+        "region": "kr",
+        "points": 26925
+    },
+    {
+        "name": "Zarax#EUW",
+        "region": "euw",
+        "points": 26805
+    },
+    {
+        "name": "BaronMuchi#NA1",
+        "region": "na",
+        "points": 26745
+    },
+    {
+        "name": "Ghionova#EUW",
+        "region": "euw",
+        "points": 26730
+    },
+    {
+        "name": "달 빛#0505",
+        "region": "kr",
+        "points": 26725
+    },
+    {
+        "name": "TS Panda#EUW",
+        "region": "euw",
+        "points": 26705
+    },
+    {
+        "name": "西屯扛霸子#1224",
+        "region": "tw",
+        "points": 26650
+    },
+    {
+        "name": "Toki#Kat",
+        "region": "na",
+        "points": 26625
+    },
+    {
+        "name": "Quìn Quìn#0808",
+        "region": "vn",
+        "points": 26620
+    },
+    {
+        "name": "RATIRL#EUNE",
+        "region": "eune",
+        "points": 26575
+    },
+    {
+        "name": "coman#1212",
+        "region": "euw",
+        "points": 26555
+    },
+    {
+        "name": "Shini 彡#Solar",
+        "region": "br",
+        "points": 26530
+    },
+    {
+        "name": "Thường Sành Điệu#99999",
+        "region": "vn",
+        "points": 26525
+    },
+    {
+        "name": "DErZdvELHztVTt8L#NA1",
+        "region": "na",
+        "points": 26500
+    },
+    {
+        "name": "칸 쵸#1984",
+        "region": "kr",
+        "points": 26480
+    },
+    {
+        "name": "쯔와이스 트위#KR2",
+        "region": "kr",
+        "points": 26470
+    },
+    {
+        "name": "Thresh Talk#Flay",
+        "region": "euw",
+        "points": 26415
+    },
+    {
+        "name": "KrisWald#KWald",
+        "region": "na",
+        "points": 26415
+    },
+    {
+        "name": "돼지왕#꿀꿀꿀",
+        "region": "kr",
+        "points": 26375
+    },
+    {
+        "name": "Vegeta Mentality#Chall",
+        "region": "euw",
+        "points": 26355
+    },
+    {
+        "name": "StepBro#WYD",
+        "region": "na",
+        "points": 26350
+    },
+    {
+        "name": "Saya1#CAT",
+        "region": "jp",
+        "points": 26285
+    },
+    {
+        "name": "Moldish Rambo#EUW",
+        "region": "euw",
+        "points": 26025
+    },
+    {
+        "name": "SharkraMa#KR1",
+        "region": "kr",
+        "points": 25070
+    }
+];
+
+
+            sortedItemsObjects.forEach(function (item, index) {
+                document.write('<tr>');
+                document.write('<td>' + (parseInt(index) + 1) + '</td>');
+                document.write('<td>' + item.name + '</td>');
+                document.write('<td>' + item.region + '</td>');
+                document.write('<td>' + item.points + '</td>');
+                document.write('</tr>');
+            });
+
+
+
+        </script>
+    </tbody>
+</table>
+
+</body>
+</html>
