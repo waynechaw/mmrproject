@@ -164,6 +164,7 @@ var defaultItems = [
   {
     name: 'Frozen Mallet',
     checked: false,
+    hide: true
   },
   {
     name: 'Gargoyle Stoneplate',
@@ -585,6 +586,7 @@ if (!items) {
   items = defaultItems;
 } else {
   items = JSON.parse(items);
+  items[33].hide = true;
 }
 
 
