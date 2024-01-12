@@ -22,6 +22,28 @@ var random = backgrounds[Math.floor(Math.random() * backgrounds.length)];
 
 $("body").css("background-image", `url("${random}")`); 
 
+
+var region = 'na';
+var mode = 'normal';
+
+
+$(".region" ).on( "click", ".option", function() {
+
+
+  region = ($( this ).text().trim());
+  $('.region .option').removeClass('selected');
+  $( this ).addClass('selected');
+});
+
+$(".mode" ).on( "click", ".option", function() {
+
+
+  mode = ($( this ).text().trim());
+  $('.mode .option').removeClass('selected');
+  $( this ).addClass('selected');
+});
+
+
 var encryptedID;
 var intervalID;
 
@@ -32,7 +54,7 @@ var intervalID;
   $(".intro").css("display", "none"); 
 
       var SUMMONER_NAME = "";
-      SUMMONER_NAME = $("#userName").val().replace(/ /g, "").toLowerCase();
+      SUMMONER_NAME = $("#userName").val().replace(/ /g, "").replace(/#/g, "-").toLowerCase();
       if (SUMMONER_NAME !== "") {
 
         $(".mmr-container").css("display", "none"); 
@@ -41,18 +63,20 @@ var intervalID;
         $('#status').css("display", "block");
           let data = { name: SUMMONER_NAME };
           $.ajax({
-              url: '/renew/',
+              url: '/renew/' + region,
               type: 'POST',
               data:  JSON.stringify(data),
               contentType: 'application/json',
               dataType: "json",
               success: function(data) {
 
+      
+
                 if (data.encryptedID) {
 
                   if (data.renewedFinished) {
                     $.ajax({
-                        url: '/mmr/' + data.encryptedID,
+                        url: '/mmr/' + data.encryptedID + '/' + region + '/' + mode,
                         type: 'GET',
                         contentType: 'application/json',
                         success: function(data) {
@@ -64,7 +88,7 @@ var intervalID;
                             $('#status').html("");
                             $('#status').css("display", "none");
 
-                            $(".raw-data").attr("href", '/mmr/' + encryptedID);
+                            $(".raw-data").attr("href", '/mmr/' + encryptedID + '/' + region + '/' + mode);
 
                             $("input").prop("disabled", false);
 
@@ -86,6 +110,10 @@ var intervalID;
               },
               error: function (XMLHttpRequest, textStatus, errorThrown) {
 
+
+                  $('#status').html(XMLHttpRequest.responseText);
+                  $("input").prop("disabled", false);
+
               }
           });
       } else {
@@ -102,7 +130,7 @@ function checkRenewal(){
 
 
   $.ajax({
-      url: '/renew-status/' + encryptedID,
+      url: '/renew-status/' + encryptedID + '/' + region,
       type: 'GET',
       contentType: 'application/json',
       success: function(data) {
@@ -113,7 +141,7 @@ function checkRenewal(){
  
           $('#status').css("display", "block");
           $.ajax({
-              url: '/mmr/' + encryptedID,
+              url: '/mmr/' + encryptedID + '/' + region + '/' + mode,
               type: 'GET',
               contentType: 'application/json',
               success: function(data) {
@@ -125,7 +153,7 @@ function checkRenewal(){
                   $('#status').html("");
                   $('#status').css("display", "none");
 
-                  $(".raw-data").attr("href", '/mmr/' + encryptedID);
+                  $(".raw-data").attr("href", '/mmr/' + encryptedID + '/' + region + '/' + mode);
 
                   $("input").prop("disabled", false);
 

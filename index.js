@@ -123,11 +123,13 @@ app.post('/mmr/submit', function (req, res) {
   return res.redirect(`/mmr/${req.body.summonerName}`); 
 })
 
-app.post('/renew/', function (req, res) {
+app.post('/renew/:region', function (req, res) {
 
   console.log(123123, req.body);
 
-  request(encodeURI(`https://na.op.gg/summoners/na/${req.body.name}`), function (error, response, body) {
+  let region = req.params.region;
+
+  request(encodeURI(`https://na.op.gg/summoners/${region}/${req.body.name}`), function (error, response, body) {
       let opggdata = body;
 
       var encryptedID = opggdata.match(/"summoner_id":"(.*?)","acct_id/);
@@ -143,7 +145,7 @@ app.post('/renew/', function (req, res) {
 
 
 
-      request.post(`https://op.gg/api/v1.0/internal/bypass/summoners/na/${encryptedID}/renewal`, function (error, response, body) {
+      request.post(`https://op.gg/api/v1.0/internal/bypass/summoners/${region}/${encryptedID}/renewal`, function (error, response, body) {
 
         body = JSON.parse(body);
 
@@ -168,9 +170,11 @@ app.post('/renew/', function (req, res) {
 
 })
 
-app.get('/renew-status/:encryptedID', function (req, res) {
+app.get('/renew-status/:encryptedID/:region', function (req, res) {
 
   console.log(`getting renew status for ${req.params.encryptedID}`);
+
+  let region = req.params.region;
 
   if (!req.params.encryptedID) {
     console.log('no encryptedID, aborting');
@@ -180,7 +184,7 @@ app.get('/renew-status/:encryptedID', function (req, res) {
       });
   }
 
-  request.get(`https://op.gg/api/v1.0/internal/bypass/summoners/na/${req.params.encryptedID}/renewal-status`, function (errorResp, response, body) {
+  request.get(`https://op.gg/api/v1.0/internal/bypass/summoners/${region}/${req.params.encryptedID}/renewal-status`, function (errorResp, response, body) {
 
 
     body = JSON.parse(body);
@@ -220,10 +224,13 @@ function average(array) {
 }
 
 
-app.get('/mmr/:encryptedID', function (req, res) {
+app.get('/mmr/:encryptedID/:region/:mode', function (req, res) {
+
+  let region = req.params.region;
+  let mode = req.params.mode;
 
 
-  request(`https://op.gg/api/v1.0/internal/bypass/games/na/summoners/${req.params.encryptedID}?&limit=20&hl=en_US&game_type=normal`, function (error, response, body) {
+  request(`https://op.gg/api/v1.0/internal/bypass/games/${region}/summoners/${req.params.encryptedID}?&limit=20&hl=en_US&game_type=${mode}`, function (error, response, body) {
 
     let jsonData = JSON.parse(body);
     jsonData.data = jsonData.data.filter(match => match.average_tier_info);
