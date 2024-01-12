@@ -70,8 +70,7 @@ var defaultItems = [
   },
   {
     name: 'Bloodsong',
-    checked: false,
-    hide: true
+    checked: false, 
   },
   {
     name: 'Bloodthirster',
@@ -83,9 +82,8 @@ var defaultItems = [
     hide: true
   },
   {
-    name: 'Celestian Opposition',
+    name: 'Celestial Opposition',
     checked: false,
-    hide: true
   },
   {
     name: 'Chempunk Chainsword',
@@ -129,7 +127,6 @@ var defaultItems = [
   {
     name: 'Dream Maker',
     checked: false,
-    hide: true
   },
   {
     name: 'Echoes of Helia',
@@ -437,7 +434,6 @@ var defaultItems = [
   {
     name: 'Solstice Sleigh',
     checked: false,
-    hide: true
   },
   {
     name: 'Spear of Shojin',
@@ -567,7 +563,6 @@ var defaultItems = [
   {
     name: 'ZakZak Realmspike',
     checked: false,
-    hide: true
   },
   {
     name: 'Zeke Convergence',
@@ -592,11 +587,11 @@ if (!items) {
 } else {
   items = JSON.parse(items);
   items[33].hide = true;
-  items[11].hide = true;
-  items[14].hide = true;
-  items[24].hide = true;
-  items[97].hide = true;
-  items[128].hide = true;
+  items[11].hide = false; //bloodsong
+  items[14].hide = false; //bloodsong
+  items[24].hide = false; //bloodsong
+  items[97].hide = false; //bloodsong
+  items[128].hide = false; //bloodsong
 }
 
 
