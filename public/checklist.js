@@ -640,51 +640,59 @@ getScore();
 
 function getScore () {
   score = 0;
-items.forEach(item => {
-  if (item.checked && !item.hide) {
-    score++;
-  }
-})
+    items.forEach(item => {
+      if (item.checked && !item.hide) {
+        score++;
+      }
+    })
 
-if (score < 3) {
-  currentRank = 'Unranked';
-  nextRank = 'Iron';
-  nextUpgrade = '3';
-} else if (score >= 3 && score < 7) {
-  currentRank = 'Iron';
-  nextRank = 'Bronze';
-  nextUpgrade = '7';
-} else if (score >= 7 && score < 16) {
-  currentRank = 'Bronze';
-  nextRank = 'Silver';
-  nextUpgrade = '16';
-} else if (score >= 16 && score < 25) {
-  currentRank = 'Silver';
-  nextRank = 'Gold';
-  nextUpgrade = '25';
-} else if (score >= 25 && score < 40) {
-  currentRank = 'Gold';
-  nextRank = 'Platinum';
-  nextUpgrade = '40';
-} else if (score >= 40 && score < 60) {
-  currentRank = 'Platinum';
-  nextRank = 'Diamond';
-  nextUpgrade = '60';
-} else if (score >= 60 && score < 85) {
-  currentRank = 'Diamond';
-  nextRank = 'Master';
-  nextUpgrade = '85';
-} else if (score >= 85) {
-  currentRank = 'Master';
-  nextRank = null;
-  nextUpgrade = null;
-}
+    if (score < 3) {
+      currentRank = 'Unranked';
+      nextRank = 'Iron';
+      nextUpgrade = '3';
+       $('.current-rank').css('color', '#2e2e2e');
+    } else if (score >= 3 && score < 7) {
+      currentRank = 'Iron';
+      nextRank = 'Bronze';
+      nextUpgrade = '7';
+       $('.current-rank').css('color', '#646464');
+    } else if (score >= 7 && score < 16) {
+      currentRank = 'Bronze';
+      nextRank = 'Silver';
+      nextUpgrade = '16';
+      $('.current-rank').css('color', '#CD7F32');
+    } else if (score >= 16 && score < 25) {
+      currentRank = 'Silver';
+      nextRank = 'Gold';
+      nextUpgrade = '25';
+      $('.current-rank').css('color', 'silver');
+    } else if (score >= 25 && score < 40) {
+      currentRank = 'Gold';
+      nextRank = 'Platinum';
+      nextUpgrade = '40';
+      $('.current-rank').css('color', 'gold');
+    } else if (score >= 40 && score < 60) {
+      currentRank = 'Platinum';
+      nextRank = 'Diamond';
+      nextUpgrade = '60';
+      $('.current-rank').css('color', '#00b389');
+    } else if (score >= 60 && score < 85) {
+      currentRank = 'Diamond';
+      nextRank = 'Master';
+      nextUpgrade = '85';
+      $('.current-rank').css('color', '#CCFFFF');
+    } else if (score >= 85) {
+      currentRank = 'Master';
+      nextRank = null;
+      nextUpgrade = null;
+      $('.current-rank').css('color', 'purple');
+    }
 
-$('.current-rank').text(currentRank);
-if (nextRank) {
-  $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
-} else {
-  $('.next-rank').text('');
-}
+    $('.current-rank').text(currentRank);
+    if (nextRank) {
+      $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
+    } else {
+      $('.next-rank').text('');
+    }
 
 }
