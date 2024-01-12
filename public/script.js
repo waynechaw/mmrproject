@@ -39,6 +39,9 @@ $(".mode" ).on( "click", ".option", function() {
 
 
   mode = ($( this ).text().trim());
+  if (mode == 'Norm SR') {
+    mode = 'normal';
+  }
   $('.mode .option').removeClass('selected');
   $( this ).addClass('selected');
 });
@@ -75,15 +78,21 @@ var intervalID;
                 if (data.encryptedID) {
 
                   if (data.renewedFinished) {
+                    encryptedID = data.encryptedID;
                     $.ajax({
                         url: '/mmr/' + data.encryptedID + '/' + region + '/' + mode,
                         type: 'GET',
                         contentType: 'application/json',
                         success: function(data) {
-                            console.log(data);
 
-                            $(".mmr").text(data.recentMatchesAvgMMR.toFixed(2));
-                            $(".mmr2").text(data.recentMatchesAvgMMR2.toFixed(2));
+                            if (typeof data == 'string') {
+                              $('#status').html(data);
+                              $("input").prop("disabled", false)
+                              return;
+                            }
+
+                            $(".mmr").text(data.recentMatchesAvgMMR.toLocaleString());
+                            $(".mmr2").text(data.recentMatchesAvgMMR2.toLocaleString());
                             $(".mmr-container").css("display", "block"); 
                             $('#status').html("");
                             $('#status').css("display", "none");
@@ -94,8 +103,8 @@ var intervalID;
 
                         },
                         error: function (XMLHttpRequest, textStatus, errorThrown) {
-                            $("#sLevel").html("summoner name not found");
-                            $("#sLevel").css("color", "red"); 
+                          $('#status').html(XMLHttpRequest.responseText);
+                          $("input").prop("disabled", false);
                         }
                     });
                   } else {
@@ -145,10 +154,14 @@ function checkRenewal(){
               type: 'GET',
               contentType: 'application/json',
               success: function(data) {
-                  console.log(data);
+                            if (typeof data == 'string') {
+                              $('#status').html(data);
+                              $("input").prop("disabled", false)
+                              return;
+                            }
 
-                  $(".mmr").text(data.recentMatchesAvgMMR.toFixed(2));
-                  $(".mmr2").text(data.recentMatchesAvgMMR2.toFixed(2));
+                  $(".mmr").text(data.recentMatchesAvgMMR.toLocaleString());
+                  $(".mmr2").text(data.recentMatchesAvgMMR2.toLocaleString());
                   $(".mmr-container").css("display", "block"); 
                   $('#status').html("");
                   $('#status').css("display", "none");
@@ -159,8 +172,8 @@ function checkRenewal(){
 
               },
               error: function (XMLHttpRequest, textStatus, errorThrown) {
-                  $("#sLevel").html("summoner name not found");
-                  $("#sLevel").css("color", "red"); 
+                  $('#status').html(XMLHttpRequest.responseText);
+                  $("input").prop("disabled", false);
               }
           });
 
