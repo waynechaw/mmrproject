@@ -627,4 +627,64 @@ $(".checklist" ).on( "click", ".item", function() {
   foundItem.checked = !foundItem.checked;
 
   localStorage.setItem("items", JSON.stringify(items));
+  getScore();
 });
+
+var score = 0;
+var currentRank;
+var nextRank;
+var nextUpgrade;
+
+getScore();
+
+
+function getScore () {
+  score = 0;
+items.forEach(item => {
+  if (item.checked && !item.hide) {
+    score++;
+  }
+})
+
+if (score < 3) {
+  currentRank = 'Unranked';
+  nextRank = 'Iron';
+  nextUpgrade = '7';
+} else if (score >= 3 && score < 7) {
+  currentRank = 'Iron';
+  nextRank = 'Bronze';
+  nextUpgrade = '16';
+} else if (score >= 7 && score < 16) {
+  currentRank = 'Bronze';
+  nextRank = 'Silver';
+  nextUpgrade = '25';
+} else if (score >= 16 && score < 25) {
+  currentRank = 'Silver';
+  nextRank = 'Gold';
+  nextUpgrade = '40';
+} else if (score >= 25 && score < 40) {
+  currentRank = 'Gold';
+  nextRank = 'Platinum';
+  nextUpgrade = '60';
+} else if (score >= 40 && score < 60) {
+  currentRank = 'Platinum';
+  nextRank = 'Diamond';
+  nextUpgrade = '85';
+} else if (score >= 60 && score < 85) {
+  currentRank = 'Diamond';
+  nextRank = 'Master';
+  nextUpgrade = '85';
+} else if (score >= 85) {
+  currentRank = 'Master';
+  nextRank = null;
+  nextUpgrade = null;
+}
+
+$('.current-rank').text(currentRank);
+if (nextRank) {
+  $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
+} else {
+  $('.next-rank').text('');
+}
+
+}
