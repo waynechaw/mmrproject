@@ -649,7 +649,7 @@ items.forEach(item => {
 if (score < 3) {
   currentRank = 'Unranked';
   nextRank = 'Iron';
-  nextUpgrade = '7';
+  nextUpgrade = '3';
 } else if (score >= 3 && score < 7) {
   currentRank = 'Iron';
   nextRank = 'Bronze';
