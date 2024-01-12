@@ -57,7 +57,7 @@ var intervalID;
   $(".intro").css("display", "none"); 
 
       var SUMMONER_NAME = "";
-      SUMMONER_NAME = $("#userName").val().replace(/ /g, "").replace(/#/g, "-").toLowerCase();
+      SUMMONER_NAME = $("#userName").val().replace(/ /g, "").replace(/#/g, "-");
       if (SUMMONER_NAME !== "") {
 
         $(".mmr-container").css("display", "none"); 

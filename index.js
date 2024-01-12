@@ -132,6 +132,8 @@ app.post('/renew/:region', function (req, res) {
   request(encodeURI(`https://na.op.gg/summoners/${region}/${req.body.name}`), function (error, response, body) {
       let opggdata = body;
 
+      console.log(encodeURI(`https://na.op.gg/summoners/${region}/${req.body.name}`));
+
       var encryptedID = opggdata.match(/"summoner_id":"(.*?)","acct_id/);
 
       if (!encryptedID) {
@@ -159,7 +161,8 @@ app.post('/renew/:region', function (req, res) {
 
         res.json({
           renewedFinished: renewedFinished,
-          encryptedID: encryptedID
+          encryptedID: encryptedID,
+          data: opggdata
         });
 
 
