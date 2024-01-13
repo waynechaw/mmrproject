@@ -314,6 +314,7 @@ var defaultItems = [
   {
     name: 'Muramana',
     checked: false,
+    hide: true
   },
   {
     name: 'Nashors Tooth',
@@ -394,6 +395,7 @@ var defaultItems = [
   {
     name: 'Seraphs Embrace',
     checked: false,
+    hide: true
   },
   {
     name: 'Serpents Fang',
@@ -587,11 +589,8 @@ if (!items) {
 } else {
   items = JSON.parse(items);
   items[33].hide = true;
-  items[11].hide = false; //bloodsong
-  items[14].hide = false; //bloodsong
-  items[24].hide = false; //bloodsong
-  items[97].hide = false; //bloodsong
-  items[128].hide = false; //bloodsong
+  items[69].hide = true;
+  items[88].hide = true;
 }
 
 
