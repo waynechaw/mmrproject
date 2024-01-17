@@ -195,7 +195,7 @@ app.get('/renew-status/:encryptedID/:region', function (req, res) {
 
     let renewedFinished = false;
     let error;
-    if (body && ((body.data.message == 'Already renewed.') || (body.data.message == 'Failed to renew.')) ) {
+    if (body && body.data && ((body.data.message == 'Already renewed.') || (body.data.message == 'Failed to renew.')) ) {
       renewedFinished = true;
     }
 
