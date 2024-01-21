@@ -155,7 +155,7 @@ app.post('/renew/:region', function (req, res) {
 
 
         let renewedFinished = false;;
-        if (body && body.data.message == 'Already renewed.') {
+        if (body && body.data && body.data.message == 'Already renewed.') {
           renewedFinished = true;
         }
 
