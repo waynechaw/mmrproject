@@ -9,6 +9,10 @@
 
     <style>
 
+
+
+
+
 .lookup-container {
 
     text-align: center;
@@ -38,7 +42,7 @@
 }
 
       .checkbox-container {
-
+        margin-top: 2%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -234,6 +238,54 @@ background: #000c9d94;
   filter: brightness(3.0);
 }
 
+.main-content {
+  width: 57%
+}
+
+
+
+
+@media (max-width: 600px) {
+  .challenge-progress {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .main-content {
+    width: 100%
+  }
+
+  .checklist {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+
+  }
+
+  .info-block {
+    width: 45%;
+  }
+
+  .img-wrapper {
+      width: 4rem;
+      height: 4rem;
+  }
+
+  .checkbox-container {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+
+
+}
+
+
 
     </style>
   </head>
@@ -276,7 +328,7 @@ background: #000c9d94;
 
 
 
-  <div class="checkbox-container" style="display: flex; margin-top: 2%;">
+  <div class="checkbox-container" style="display: flex;">
 
 
     <div class="challenge-progress">
@@ -305,7 +357,7 @@ background: #000c9d94;
             </div>
     </div>
 
-    <div style="width: 57%;">
+    <div class="main-content">
       
             <div class="checklist">
 

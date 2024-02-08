@@ -55,6 +55,8 @@ import { LolApi, RiotApi, Constants  } from 'twisted';
 let apikey = process.env.key;
 console.log(apikey);
 
+apikey = 'RGAPI-5d58b8f9-028a-4058-9785-307ee97ffd94';
+
 
 const api = new RiotApi({
   key: apikey
