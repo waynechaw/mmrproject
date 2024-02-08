@@ -49,8 +49,6 @@ let rankToMMR = {
   IRON4:100
 }
 
-node -v
-
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
 
