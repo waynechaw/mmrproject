@@ -9578,7 +9578,10 @@ var backgrounds = [
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-204.jpg",
   "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-205.jpg",
   "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-34.jpg",
-  "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-7.jpg"
+  "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-7.jpg",
+
+  "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/76/76003.jpg",
+  "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/champion-splashes/17/17014.jpg",
   ];
 
 var random = backgrounds[Math.floor(Math.random() * backgrounds.length)];
