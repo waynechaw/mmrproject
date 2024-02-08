@@ -9684,6 +9684,7 @@ $("div" ).on( "click", ".role-option", function() {
 
 
 $(".refresh" ).on( "click" , function() {
+
   $('.champ-loading').show();
   $('.role-container').hide();
   $('.champions-list').empty();
@@ -9751,6 +9752,8 @@ function getMasteryData(name, tag, selectedMappedRegion) {
       $('.lookup-container').hide();
 
             localStorage.setItem("activeprofile", objKey);
+
+            activeProfile = objKey;
 
 
       masteryData.forEach(item=> {
