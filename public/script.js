@@ -23,9 +23,19 @@ var random = backgrounds[Math.floor(Math.random() * backgrounds.length)];
 $("body").css("background-image", `url("${random}")`); 
 
 
-var region = 'na';
-var mode = 'normal';
 
+let region  = localStorage.getItem("selectedRegion");
+
+if (!region) {
+  region = 'NA';
+} else {
+  $('.region .option').removeClass('selected');
+  $(`.${region}`).addClass('selected');
+}
+
+console.log(region);
+
+var mode = 'normal';
 
 $(".region" ).on( "click", ".option", function() {
 
@@ -33,6 +43,7 @@ $(".region" ).on( "click", ".option", function() {
   region = ($( this ).text().trim());
   $('.region .option').removeClass('selected');
   $( this ).addClass('selected');
+  localStorage.setItem("selectedRegion", region);
 });
 
 $(".mode" ).on( "click", ".option", function() {
@@ -92,7 +103,6 @@ var intervalID;
                             }
 
                             $(".mmr").text(data.recentMatchesAvgMMR.toLocaleString());
-                            $(".mmr2").text(data.recentMatchesAvgMMR2.toLocaleString());
                             $(".mmr-container").css("display", "block"); 
                             $('#status').html("");
                             $('#status').css("display", "none");
@@ -161,7 +171,6 @@ function checkRenewal(){
                             }
 
                   $(".mmr").text(data.recentMatchesAvgMMR.toLocaleString());
-                  $(".mmr2").text(data.recentMatchesAvgMMR2.toLocaleString());
                   $(".mmr-container").css("display", "block"); 
                   $('#status').html("");
                   $('#status').css("display", "none");

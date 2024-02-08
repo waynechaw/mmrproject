@@ -1,10 +1,17 @@
-const express = require("express");
-const request = require("request");
+import express from 'express';
+
+import path from 'path';
+const __dirname = path.resolve();
+
+import request from 'request';
+
 const app = express();
-var bodyParser = require('body-parser')
+
+app.use(express.json()); 
+app.use(express.urlencoded({extended: true}));
+
+
 const port = process.env.PORT || 3001;
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/public'));
 
@@ -42,86 +49,74 @@ let rankToMMR = {
   IRON4:100
 }
 
-let rankToMMR2 = {
-  CHALLENGER: 9001,
-  GRANDMASTER1: 3100,
-  MASTER1: 3000,
-  DIAMOND1:2700,
-  DIAMOND2:2600,
-  DIAMOND3:2500,
-  DIAMOND4:2400,
-  EMERALD1: 2350,
-  EMERALD2: 2300,
-  EMERALD3: 2240,
-  EMERALD4:2160,
-  PLATINUM1:2080,
-  PLATINUM2:2000,
-  PLATINUM3:1920,
-  PLATINUM4 :1840,
-  GOLD1:1760,
-  GOLD2:1680,
-  GOLD3:1600,
-  GOLD4:1520,
-  SILVER1:1440,
-  SILVER2:1360,
-  SILVER3:1280,
-  SILVER4:1200,
-  BRONZE1:1100,
-  BRONZE2:1000,
-  BRONZE3:900,
-  BRONZE4:880,
-  IRON1:700,
-  IRON2:600,
-  IRON3:500,
-  IRON4:400
-}
+import { LolApi, RiotApi, Constants  } from 'twisted';
 
-app.get('/mmr', function (req, res) {
+
+let apikey = process.env.key;
+console.log(apikey);
+
+apikey = 'RGAPI-5d58b8f9-028a-4058-9785-307ee97ffd94';
+
+
+const api = new RiotApi({
+  key: apikey
+});
+
+const lolapi = new LolApi({
+  key: apikey
+});
+
+export async function getMastery(name, tag, region, regionGroup, req, res) {
 
 
 
-  let mmrRows = '';
+  try {
 
-  for (const property in rankToMMR) {
-    mmrRows = mmrRows + `
-      <tr>
-        <td>${property}</td>
-        <td>${rankToMMR[property]}</td>
-      </tr>
-    `;
+   const resByRiotId = (await api.Account.getByRiotId(name, tag, regionGroup)).response;
+   const resByPuuid = (await api.Account.getByPUUID(resByRiotId.puuid,   regionGroup)).response
+   const response = await fetch(`https://${region}.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-puuid/${resByRiotId.puuid}?api_key=${apikey}`)
+   const data = await response.json();
+
+    return res.json({
+      error: false,
+      data: data.slice(0, 150),
+      id: resByRiotId.puuid
+    });
+
+  } catch (error) {
+
+    if (error && error.body && error.status) {
+
+      return res.json({
+        error: true,
+        errorDetail: error.body.status.message
+      });
+
+    } else {
+      return res.json({
+        error: true,
+        errorDetail: error.message
+      });
+    }
   }
 
-
-  res.send(`
-
-    <h1>Simple MMR Checker</h1>
-
-    <p>This tool checks user's MMR in normals. Currently only works for NA. <br> 
-    To get the most accurate mmr, <b>play 20 games solo in normals</b>. Queueing with other players will cause inaccurate result.<br>
-    The tool uses below table to convert rank to mmr. This is mostly a guess, so contact wayne to help improve this table</p>    
-
-    <form method='post' action='/mmr/submit'>
-         <input placeholder="Enter Summoner's Name" name="summonerName" value=""/>
-         <button type='submit'>Submit</button>
-    </form>
-
-    <br><br>
-    <table>
-      <tr>
-        <th>Rank</th>
-        <th>MMR</th>
-      </tr>
-      ${mmrRows}
-    </table>
+}
 
 
-  `);
+app.get('/catch/:name/:tag/:region', function (req, res) {
+
+  let name = req.params.name;
+  let tag = req.params.tag;
+  let region = req.params.region;
+
+  let regionGroup = Constants.regionToRegionGroup(region);
+
+  getMastery(name, tag, region, regionGroup, req, res);
+
 })
 
-app.post('/mmr/submit', function (req, res) {
-  console.log('submit');
-  return res.redirect(`/mmr/${req.body.summonerName}`); 
-})
+
+
 
 app.post('/renew/:region', function (req, res) {
 
@@ -255,7 +250,6 @@ app.get('/mmr/:encryptedID/:region/:mode', function (req, res) {
 
     res.json({
       recentMatchesAvgMMR: average(recentMatchesTiers.map(tier => rankToMMR[tier])),
-      recentMatchesAvgMMR2: average(recentMatchesTiers.map(tier => rankToMMR2[tier])),
       rankToMMR: rankToMMR,
       rawData: rawData
     });
@@ -265,42 +259,5 @@ app.get('/mmr/:encryptedID/:region/:mode', function (req, res) {
 
 
 })
-
-app.get('/flexmmr/:encryptedID', function (req, res) {
-
-
-  request(`https://op.gg/api/v1.0/internal/bypass/games/na/summoners/${req.params.encryptedID}?&limit=20&hl=en_US&game_type=flexranked`, function (error, response, body) {
-
-    let jsonData = JSON.parse(body);
-    jsonData.data = jsonData.data.filter(match => match.average_tier_info);
-
-    if (jsonData.data.length == 0) {
-      return res.send('no matches for this user')
-    }
-    let recentMatchesTiers = jsonData.data.map(match => match.average_tier_info.tier + match.average_tier_info.division);
-    // let recentMatchesAvgMMR = jsonData.data.map(match => rankToMMR[match.average_tier_info.tier + match.average_tier_info.division]).reduce((a, b) => a + b)/jsonData.data.length;
-
-    let rawData =  jsonData.data.map(match => {
-      delete match.participants;
-      delete match.teams;
-      delete match.myData;
-      return match;
-    });
-
-
-
-    res.json({
-      recentMatchesAvgMMR: average(recentMatchesTiers.map(tier => rankToMMR[tier])),
-      recentMatchesAvgMMR2: average(recentMatchesTiers.map(tier => rankToMMR2[tier])),
-      rankToMMR: rankToMMR,
-      rawData: rawData
-    });
-
-  });
-
-
-
-})
-
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));

@@ -5,6 +5,10 @@
     font-style: normal;
 }
 
+body {
+  font-family: 'ff' !important;
+}
+
 * {
   box-sizing: border-box;
 }
