@@ -1,333 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            background-color: black;
-        }
-
-        h1 {
-            margin: 20px auto;
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .leaderboard-content {
+                width: 70vw;
+                margin: 50px auto 0;
+            }
+            .leaderboard-header {
+                background: #0f1923;
+                color: #efefef;
                 text-align: center;
-                color: white;
+                padding: 12px 0 8px;
+                font-size: 22px;
+            }
 
-    text-shadow:
-        0.05em 0 black,
-        0 0.05em black,
-        -0.05em 0 black,
-        0 -0.05em black,
-        -0.05em -0.05em black,
-        -0.05em 0.05em black,
-        0.05em -0.05em black,
-        0.05em 0.05em black;
+            .leaderboard-filter {
+                background: #1b2733;
+                padding: 15px;
+            }
 
-        }
+            .form-control {
+                background: #34495d;
+                border-color: transparent;
+                color: white; 
+                padding-left: 36px;
+            }
 
-        table {
-            width: 50%;
-            border-collapse: collapse;
-            margin: 0 auto;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            overflow: hidden;
-            margin-bottom: 10px;
-        }
+            ::placeholder {
+              color: #b8bfc6;
+              opacity: 1; /* Firefox */
+            }
 
-        th, td {
-            padding: 15px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
+            .leaderboard-column-names {
+                background: #09111a;
+                color: #99abbf;
+                position: sticky;
+                top: 55px;
+                padding: 8px 0;
+                z-index: 1;
+            }
 
-        th {
-            background-color: #3498db;
-            color: #fff;
-        }
+            .leaderboard-column-names div {
+                text-align: left;
+            }
 
-        tr:hover {
-            background-color: #f5f5f5;
-        }
-    </style>
-    <title>League of Legends Players</title>
-    <link rel="stylesheet" href="style.css">
+            .leaderboard-data {
+                padding: 12px 0;
+                color: #efefef;
+            }
 
-</head>
-<body>
 
-<div class="navigation">
-    <a href="/leaderboard.html">Challenge Leaderboard</a>
+            .leaderboard-data:nth-child(odd) {
+                background: #0f1923;
+            }
+
+            .leaderboard-data:nth-child(even) {
+                background: #1b2733d1;
+            }
+
+
+            .leaderboard-data div {
+                text-align: left;
+            }
+
+            .tag {
+                background: #ffffff29;
+                border-radius: 7px;
+                padding: 2px 5px 1px;
+                font-size: 9px;
+                color: #efefef;
+                margin: 0 7px;
+            }
+
+            .name-cell {
+    display: flex;
+    align-items: center;
+            }
+
+            .player-region {
+                
+                    font-size: 10px;
+    opacity: .5;
+            }
+
+            .notable-rank {
+                font-size: 10px;
+                margin-left: 10px;
+                opacity: .7;
+            }
+
+        </style>
+        <title>League of Legends Players</title>
+        
+
+    </head>
+
+    <body>
+
+        <div class="navigation">
+            <a href="/leaderboard.html">Challenge Leaderboard</a>
             <a href="/catch.html">Catch'em All Tracker</a>
-    <a href="/checklist.html">Legendary Items Checklist</a>
-    <a href="/">MMR Checker</a>
-    <a href="/team.html">Team Maker</a>
-</div>
+            <a href="/checklist.html">Legendary Items Checklist</a>
+            <a href="/">MMR Checker</a>
+            <a href="/team.html">Team Maker</a>
+        </div>
+
+        <div style="width: 70vw; margin: 50px auto 0;" class="leaderboard-content">
+            <div class="leaderboard-header">
+                Challenge Points Ranking
+                <i style="font-size: 15px; vertical-align: text-top;"  class="fa-solid fa-circle-info" data-toggle="tooltip" data-placement="right" title="Points total shown in client may include seasonal and legacy points due to bug. Ranking is based on actual points only."></i>
+            </div>
+
+            <div class="leaderboard-filter">
+                <div class="d-flex">
+                    <div class="dropdown mr-4 ml-4">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Global
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Global</a>
+                        <a class="dropdown-item" href="#">BR</a>
+                        <a class="dropdown-item" href="#">EUNE</a>
+                        <a class="dropdown-item" href="#">EUW</a>
+                        <a class="dropdown-item" href="#">JP</a>
+                        <a class="dropdown-item" href="#">KR</a>
+                        <a class="dropdown-item" href="#">LAN</a>
+                        <a class="dropdown-item" href="#">LAS</a>
+                        <a class="dropdown-item" href="#">NA</a>
+                        <a class="dropdown-item" href="#">EUW</a>
+                        <a class="dropdown-item" href="#">OCE</a>
+                        <a class="dropdown-item" href="#">PH</a>
+                        <a class="dropdown-item" href="#">RU</a>
+                        <a class="dropdown-item" href="#">SG</a>
+                        <a class="dropdown-item" href="#">TH</a>
+                        <a class="dropdown-item" href="#">TR</a>
+                        <a class="dropdown-item" href="#">TW</a>
+                        <a class="dropdown-item" href="#">VN</a>
+                      </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <i style="position: absolute;left: 9px;font-size: 20px; top: 10px; color: white;" class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="form-control" placeholder="Search Player">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex leaderboard-column-names">
+                <div  class="text-center" style="width: 5%">#</div>
+                <div style="width: 29%">Player</div>
+                <div style="width: 15%">Points</div>
+                <div style="width: 15%">
+                    % Completion  
+                    <i style="font-size: 10px; vertical-align: text-top;"  class="fa-solid fa-circle-info" data-toggle="tooltip" data-placement="right" title="A challenge is considered completed when at least master tier is reached, except for challenges that max out at lower tiers."></i>
+                </div>
+                <div>Most Notable Challenge</div>
+            </div>
+
+            <div class="leaderboard-data-container">
+
+            </div>
 
 
+        </div>
 
-<h1 class="header">Challenge Leaderboard (Fixed)</h1>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="leaderboard.js"></script>
 
-<table>
-    <thead>
-        <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Region</th>
-            <th>Points</th>
-        </tr>
-    </thead>
-    <tbody>
-        <!-- Inserting data dynamically using JavaScript -->
-        <script>
-            var sortedItemsObjects = [
-    {
-        "name": "Wayne#NA1",
-        "region": "na",
-        "points": 27720
-    },
-    {
-        "name": "imJM#KR1",
-        "region": "kr",
-        "points": 27700
-    },
-    {
-        "name": "ponzels#EUW",
-        "region": "euw",
-        "points": 27635
-    },
-    {
-        "name": "Itâchi Senpai#Aka",
-        "region": "euw",
-        "points": 27545
-    },
-    {
-        "name": "Cillitbang#ADC",
-        "region": "euw",
-        "points": 27545
-    },
-    {
-        "name": "Amethia Kheøs#kheos",
-        "region": "euw",
-        "points": 27450
-    },
-    {
-        "name": "tbandee#69420",
-        "region": "eune",
-        "points": 27440
-    },
-    {
-        "name": "Big Romes#777",
-        "region": "na",
-        "points": 27415
-    },
-    {
-        "name": "여 신# KR1",
-        "region": "kr",
-        "points": 27360
-    },
-    {
-        "name": "Zeios#EUW",
-        "region": "euw",
-        "points": 27260
-    },
-    {
-        "name": "一一一一一一一一一一一一一一一一-ーーー",
-        "region": "na",
-        "points": 27245
-    },
-    {
-        "name": "이상혁이미래다#KR1",
-        "region": "kr",
-        "points": 27235
-    },
-    {
-        "name": "最美不過õ初相見õ#TW2",
-        "region": "tw",
-        "points": 27190
-    },
-    {
-        "name": "Dêmôn#EUW",
-        "region": "euw",
-        "points": 27115
-    },
-    {
-        "name": "Sínister Bláde-EUW",
-        "region": "euw",
-        "points": 27105
-    },
-    {
-        "name": "BALENCIAGA#KR2",
-        "region": "kr",
-        "points": 27005
-    },
-    {
-        "name": "Synicle#NA1",
-        "region": "na",
-        "points": 26970
-    },
-    {
-        "name": "hideonbush#KR664",
-        "region": "kr",
-        "points": 26965
-    },
-    {
-        "name": "Gã Du Mục#Top 1",
-        "region": "vn",
-        "points": 26940
-    },
-    {
-        "name": "인간사냥꾼 탈론#탈 론",
-        "region": "kr",
-        "points": 26935
-    },
-    {
-        "name": "황홀한 강타를 쓰는 보석게이#황홀한강타",
-        "region": "kr",
-        "points": 26925
-    },
-    {
-        "name": "Zarax#EUW",
-        "region": "euw",
-        "points": 26805
-    },
-    {
-        "name": "BaronMuchi#NA1",
-        "region": "na",
-        "points": 26745
-    },
-    {
-        "name": "Ghionova#EUW",
-        "region": "euw",
-        "points": 26730
-    },
-    {
-        "name": "달 빛#0505",
-        "region": "kr",
-        "points": 26725
-    },
-    {
-        "name": "TS Panda#EUW",
-        "region": "euw",
-        "points": 26705
-    },
-    {
-        "name": "西屯扛霸子#1224",
-        "region": "tw",
-        "points": 26650
-    },
-    {
-        "name": "Toki#Kat",
-        "region": "na",
-        "points": 26625
-    },
-    {
-        "name": "Quìn Quìn#0808",
-        "region": "vn",
-        "points": 26620
-    },
-    {
-        "name": "RATIRL#EUNE",
-        "region": "eune",
-        "points": 26575
-    },
-    {
-        "name": "coman#1212",
-        "region": "euw",
-        "points": 26555
-    },
-    {
-        "name": "vkie#EUW",
-        "region": "euw",
-        "points": 26545
-    },
-    {
-        "name": "Shini 彡#Solar",
-        "region": "br",
-        "points": 26530
-    },
-    {
-        "name": "Thường Sành Điệu#99999",
-        "region": "vn",
-        "points": 26525
-    },
-    {
-        "name": "DErZdvELHztVTt8L#NA1",
-        "region": "na",
-        "points": 26500
-    },
-    {
-        "name": "칸 쵸#1984",
-        "region": "kr",
-        "points": 26480
-    },
-    {
-        "name": "쯔와이스 트위#KR2",
-        "region": "kr",
-        "points": 26470
-    },
-    {
-        "name": "Thresh Talk#Flay",
-        "region": "euw",
-        "points": 26415
-    },
-    {
-        "name": "KrisWald#KWald",
-        "region": "na",
-        "points": 26415
-    },
-    {
-        "name": "돼지왕#꿀꿀꿀",
-        "region": "kr",
-        "points": 26375
-    },
-    {
-        "name": "Vegeta Mentality#Chall",
-        "region": "euw",
-        "points": 26355
-    },
-    {
-        "name": "StepBro#WYD",
-        "region": "na",
-        "points": 26350
-    },
-    {
-        "name": "Saya1#CAT",
-        "region": "jp",
-        "points": 26285
-    },
-    {
-        "name": "Moldish Rambo#EUW",
-        "region": "euw",
-        "points": 26025
-    },
-    {
-        "name": "SharkraMa#KR1",
-        "region": "kr",
-        "points": 25070
-    }
-];
-
-
-            sortedItemsObjects.forEach(function (item, index) {
-                document.write('<tr>');
-                document.write('<td>' + (parseInt(index) + 1) + '</td>');
-                document.write('<td>' + item.name + '</td>');
-                document.write('<td>' + item.region + '</td>');
-                document.write('<td>' + item.points + '</td>');
-                document.write('</tr>');
-            });
-
-
-
-        </script>
-    </tbody>
-</table>
-
-</body>
+    </body>
 </html>

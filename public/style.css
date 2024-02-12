@@ -1,13 +1,10 @@
-@font-face {
+  @font-face {
     font-family: 'ff';
     src: url('./FontFont_FF.Mark.Pro.Medium.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
-body {
-  font-family: 'ff' !important;
-}
 
 * {
   box-sizing: border-box;
@@ -36,7 +33,7 @@ body {
 
 
 body {
-  font-family: 'ff', serif;
+  font-family: 'ff' !important;
   width: 100%;
   color: #333;
   margin: 0;
@@ -44,6 +41,8 @@ body {
   background: url("https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-thousand-pierced-volibear.jpg")  no-repeat center center fixed;
   background-size: cover;
   background-color: black;
+  background-position: 0px 50px;
+
 }
 
 .region, .mode {
@@ -75,6 +74,13 @@ body {
 .navigation {
     padding: 13px;
     background-color: #111;
+    text-align: center;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+
 }
 
 .navigation a {

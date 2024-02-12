@@ -9656,6 +9656,12 @@ $(".dropdown-menu" ).on( "click", ".dropdown-item", function() {
 
 $("div" ).on( "click", ".new-search", function() {
   $('.lookup-container').show();
+
+  $('.checkbox-container').css('margin-top', '0');
+  $('.lookup-container').css('margin-top', '5%');
+
+
+
 });
 
 $("div" ).on( "click", ".role-option", function() {
@@ -9753,6 +9759,7 @@ function getMasteryData(name, tag, selectedMappedRegion) {
       $('.checkbox-container').show();
       $('.lookup-container').removeClass('center-div');
       $('.lookup-container').hide();
+      $('.checkbox-container').css('margin-top', '6%');
 
             localStorage.setItem("activeprofile", objKey);
 

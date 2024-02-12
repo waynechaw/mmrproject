@@ -36,7 +36,6 @@ if (!region) {
   $(`.${region}`).addClass('selected');
 }
 
-console.log(region);
 
 var mode = 'normal';
 
