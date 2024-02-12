@@ -28063,10 +28063,24 @@ function renderTable() {
 
     let completedPercent = ((item.completed / 294) * 100).toFixed(2);
 
+    let displayedRank;
+
+    if (searchText) {
+      displayedRank = item.rank;
+    } else {
+
+      if (selectedRegion == 'Global') {
+        displayedRank = item.rank;
+      } else {
+        displayedRank = i + 1;
+      }
+
+    }
+
 
     $('.leaderboard-data-container').append(`
       <div class="d-flex leaderboard-data">
-          <div  class="text-center" style="width: 5%">${selectedRegion == 'Global' ? item.rank : (i + 1)}</div>
+          <div  class="text-center" style="width: 5%">${displayedRank}</div>
           <div class="name-cell" style="width: 29%">${name}<span class="tag">#${tag}</span> <span class="player-region">${item.region}</span> </div>
           <div style="width: 15%">${item.score}</div>
           <div style="color: gold;width: 15%">${completedPercent}%</div>
