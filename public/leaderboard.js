@@ -5131,78 +5131,6 @@ var data = [
         "rank": 70
     },
     {
-        "name": "amylee#doll",
-        "score": 25600,
-        "region": "NA",
-        "completed": 237,
-        "legacyCompleted": 43,
-        "mostNotableChallenge": {
-            "id": 301304,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 20,
-                "MASTER": 10,
-                "PLATINUM": 3,
-                "GRANDMASTER": 15,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "Score aces after minions spawn but before 15 minutes",
-                "name": "Team Diff",
-                "shortDescription": "Score aces between minion spawn and 15 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301300",
-                "source": "EOGD"
-            },
-            "parent": "301300",
-            "parentCategory": "4",
-            "percentiles": {
-                "BRONZE": 0,
-                "MASTER": 0.004,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.046,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.022,
-                "IRON": 0,
-                "GOLD": 0.122,
-                "NONE": 1,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                929,
-                1,
-                19,
-                2973,
-                14,
-                12310
-            ]
-        },
-        "mostNotableChallengePosition": 10,
-        "rank": 71
-    },
-    {
         "name": "Luca Perini#1997",
         "score": 25580,
         "region": "EUW",
@@ -5274,7 +5202,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 30,
-        "rank": 72
+        "rank": 71
     },
     {
         "name": "Kronos#BR3",
@@ -5346,7 +5274,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 73
+        "rank": 72
     },
     {
         "name": "BXN#1V9",
@@ -5418,7 +5346,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 11,
-        "rank": 74
+        "rank": 73
     },
     {
         "name": "Etoli#EUW",
@@ -5484,7 +5412,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2539,
-        "rank": 75
+        "rank": 74
     },
     {
         "name": "PoCa#1102",
@@ -5543,7 +5471,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 76
+        "rank": 75
     },
     {
         "name": "Sebberman#EUW",
@@ -5615,7 +5543,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 41,
-        "rank": 77
+        "rank": 76
     },
     {
         "name": "못이기#0523",
@@ -5687,7 +5615,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 78
+        "rank": 77
     },
     {
         "name": "Förever With Him#0210",
@@ -5760,7 +5688,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 73,
-        "rank": 79
+        "rank": 78
     },
     {
         "name": "Slap Bass 1#awe",
@@ -5836,7 +5764,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 97,
-        "rank": 80
+        "rank": 79
     },
     {
         "name": "Ножки Гвен#Feet",
@@ -5909,7 +5837,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 81
+        "rank": 80
     },
     {
         "name": "anna#Heart",
@@ -5985,7 +5913,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 18,
-        "rank": 82
+        "rank": 81
     },
     {
         "name": "차 방#차 방",
@@ -6059,7 +5987,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 83
+        "rank": 82
     },
     {
         "name": "Szabikakas#EUNE",
@@ -6118,7 +6046,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 67,
-        "rank": 84
+        "rank": 83
     },
     {
         "name": "갓블리#KR1",
@@ -6190,7 +6118,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 17,
-        "rank": 85
+        "rank": 84
     },
     {
         "name": "Safa#4242",
@@ -6263,7 +6191,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 23,
-        "rank": 86
+        "rank": 85
     },
     {
         "name": "Kasno3#GOD",
@@ -6338,7 +6266,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 87
+        "rank": 86
     },
     {
         "name": "Reanimation#KR1",
@@ -6410,7 +6338,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 9,
-        "rank": 88
+        "rank": 87
     },
     {
         "name": "Akai Zetsumei#Zetsu",
@@ -6483,7 +6411,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 89
+        "rank": 88
     },
     {
         "name": "Wu Tangs Clan#lgbm",
@@ -6558,7 +6486,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 90
+        "rank": 89
     },
     {
         "name": "魔流劍#TW2",
@@ -6633,7 +6561,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 91
+        "rank": 90
     },
     {
         "name": "Yaa  º  KUH#55555",
@@ -6706,6 +6634,79 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
+        "rank": 91
+    },
+    {
+        "name": "rnlrhdwk97#KR1",
+        "score": 25345,
+        "region": "KR",
+        "completed": 232,
+        "legacyCompleted": 52,
+        "mostNotableChallenge": {
+            "id": 303405,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "CHALLENGER": 18,
+                "MASTER": 8,
+                "PLATINUM": 3,
+                "GRANDMASTER": 12,
+                "DIAMOND": 5,
+                "GOLD": 1
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with stealth (camouflage or invisibility count)",
+                "name": "Where'd They Go?",
+                "shortDescription": "Win with a 5-stack with 3+ champs with stealth"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'stealth' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.002,
+                "MASTER": 0,
+                "PLATINUM": 0.005,
+                "GRANDMASTER": 0,
+                "GOLD": 0.027,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                121,
+                1,
+                18,
+                326,
+                12,
+                1623
+            ]
+        },
+        "mostNotableChallengePosition": 51,
         "rank": 92
     },
     {
@@ -6782,79 +6783,6 @@ var data = [
         "rank": 93
     },
     {
-        "name": "rnlrhdwk97#KR1",
-        "score": 25345,
-        "region": "KR",
-        "completed": 232,
-        "legacyCompleted": 52,
-        "mostNotableChallenge": {
-            "id": 303405,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 18,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 12,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with stealth (camouflage or invisibility count)",
-                "name": "Where'd They Go?",
-                "shortDescription": "Win with a 5-stack with 3+ champs with stealth"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'stealth' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0.002,
-                "MASTER": 0,
-                "PLATINUM": 0.005,
-                "GRANDMASTER": 0,
-                "GOLD": 0.027,
-                "BRONZE": 0,
-                "IRON": 0,
-                "NONE": 1
-            },
-            "leaderboardThresholds": [
-                121,
-                1,
-                18,
-                326,
-                12,
-                1623
-            ]
-        },
-        "mostNotableChallengePosition": 51,
-        "rank": 94
-    },
-    {
         "name": "Le Petit Prince#EUNE",
         "score": 25340,
         "region": "EUNE",
@@ -6927,7 +6855,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 36,
-        "rank": 95
+        "rank": 94
     },
     {
         "name": "Anonymous L#KR1",
@@ -6992,7 +6920,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 96
+        "rank": 95
     },
     {
         "name": "YIMUZIC#00001",
@@ -7068,7 +6996,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 97
+        "rank": 96
     },
     {
         "name": "堂本獸#2749",
@@ -7140,7 +7068,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 77,
-        "rank": 98
+        "rank": 97
     },
     {
         "name": "Miss ツ#Love",
@@ -7212,7 +7140,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 99
+        "rank": 98
     },
     {
         "name": "Arnauiih#EUW",
@@ -7284,7 +7212,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 15,
-        "rank": 100
+        "rank": 99
     },
     {
         "name": "E Z#999",
@@ -7356,7 +7284,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 37,
-        "rank": 101
+        "rank": 100
     },
     {
         "name": "Giraffe Throat#NA1",
@@ -7428,7 +7356,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 13,
-        "rank": 102
+        "rank": 101
     },
     {
         "name": "Tít#lan1",
@@ -7500,7 +7428,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 103
+        "rank": 102
     },
     {
         "name": "SvetIeishiy#RU1",
@@ -7575,7 +7503,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 208,
-        "rank": 104
+        "rank": 103
     },
     {
         "name": "Azar06#EUW",
@@ -7649,7 +7577,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 105
+        "rank": 104
     },
     {
         "name": "GS Kaptyn#EUNE",
@@ -7724,7 +7652,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 84,
-        "rank": 106
+        "rank": 105
     },
     {
         "name": "Jadominik113#EUNE",
@@ -7796,7 +7724,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 107
+        "rank": 106
     },
     {
         "name": "suisooo#0530",
@@ -7872,7 +7800,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 108
+        "rank": 107
     },
     {
         "name": "Khang x T#2212",
@@ -7945,7 +7873,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 401,
-        "rank": 109
+        "rank": 108
     },
     {
         "name": "Sleepyyvoice#212",
@@ -8004,7 +7932,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 452,
-        "rank": 110
+        "rank": 109
     },
     {
         "name": "Zargoz#47337",
@@ -8076,7 +8004,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 111
+        "rank": 110
     },
     {
         "name": "Avril#UwU",
@@ -8151,7 +8079,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 112
+        "rank": 111
     },
     {
         "name": "Heyss#3009",
@@ -8224,7 +8152,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 126,
-        "rank": 113
+        "rank": 112
     },
     {
         "name": "phunky#phunk",
@@ -8297,7 +8225,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1717,
-        "rank": 114
+        "rank": 113
     },
     {
         "name": "Slippy#Slipp",
@@ -8369,7 +8297,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 34,
-        "rank": 115
+        "rank": 114
     },
     {
         "name": "Chiko#001",
@@ -8441,7 +8369,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 21,
-        "rank": 116
+        "rank": 115
     },
     {
         "name": "Saylan#EUX",
@@ -8517,7 +8445,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 117
+        "rank": 116
     },
     {
         "name": "Caracal#277",
@@ -8589,7 +8517,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 91,
-        "rank": 118
+        "rank": 117
     },
     {
         "name": "Fel#Fire",
@@ -8661,7 +8589,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 16,
-        "rank": 119
+        "rank": 118
     },
     {
         "name": "Eremiso#EUNE",
@@ -8735,7 +8663,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 120
+        "rank": 119
     },
     {
         "name": "d w#1234",
@@ -8807,7 +8735,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 19,
-        "rank": 121
+        "rank": 120
     },
     {
         "name": "Xshina#9527",
@@ -8883,7 +8811,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 60,
-        "rank": 122
+        "rank": 121
     },
     {
         "name": "しぃば#ちゃんねる",
@@ -8955,7 +8883,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 123
+        "rank": 122
     },
     {
         "name": "팬 티#스타킹",
@@ -9031,7 +8959,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 18,
-        "rank": 124
+        "rank": 123
     },
     {
         "name": "Shynce#EUW",
@@ -9104,7 +9032,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 565,
-        "rank": 125
+        "rank": 124
     },
     {
         "name": "SharkraMa#KR1",
@@ -9178,7 +9106,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 126
+        "rank": 125
     },
     {
         "name": "Artas#artas",
@@ -9253,7 +9181,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 127
+        "rank": 126
     },
     {
         "name": "Wo Hen Xiang Ta#FVK",
@@ -9326,7 +9254,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 27,
-        "rank": 128
+        "rank": 127
     },
     {
         "name": "Affienia#OCE",
@@ -9398,7 +9326,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 129
+        "rank": 128
     },
     {
         "name": "uRxp#NA1",
@@ -9473,7 +9401,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 874,
-        "rank": 130
+        "rank": 129
     },
     {
         "name": "ADAMKISS#1337",
@@ -9548,7 +9476,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 23,
-        "rank": 131
+        "rank": 130
     },
     {
         "name": "ChocolateCookies#34202",
@@ -9622,7 +9550,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 132
+        "rank": 131
     },
     {
         "name": "Monkey#NA10",
@@ -9695,7 +9623,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 174,
-        "rank": 133
+        "rank": 132
     },
     {
         "name": "Zapdos#Wint",
@@ -9769,7 +9697,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 134
+        "rank": 133
     },
     {
         "name": "유니엔마#KR1",
@@ -9842,7 +9770,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 135
+        "rank": 134
     },
     {
         "name": "Ghostility#EUW",
@@ -9917,7 +9845,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 136
+        "rank": 135
     },
     {
         "name": "Dreamy#4442",
@@ -9989,7 +9917,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 98,
-        "rank": 137
+        "rank": 136
     },
     {
         "name": "imbut#KR1",
@@ -10064,7 +9992,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 199,
-        "rank": 138
+        "rank": 137
     },
     {
         "name": "Micoz#AARMY",
@@ -10136,7 +10064,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 21,
-        "rank": 139
+        "rank": 138
     },
     {
         "name": "EisohneWaffel#BIER",
@@ -10208,7 +10136,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 172,
-        "rank": 140
+        "rank": 139
     },
     {
         "name": "SzyNa#bebe",
@@ -10274,7 +10202,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 274,
-        "rank": 141
+        "rank": 140
     },
     {
         "name": "GH Mikasa#Lux",
@@ -10349,7 +10277,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 55,
-        "rank": 142
+        "rank": 141
     },
     {
         "name": "Katarina#Ryoji",
@@ -10421,7 +10349,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 21,
-        "rank": 143
+        "rank": 142
     },
     {
         "name": "Chief Hyena#EUW",
@@ -10494,7 +10422,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1728,
-        "rank": 144
+        "rank": 143
     },
     {
         "name": "MårküŞ ÐęŞTR#6996",
@@ -10553,7 +10481,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 145
+        "rank": 144
     },
     {
         "name": "Maroxin#Maro",
@@ -10625,7 +10553,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 42,
-        "rank": 146
+        "rank": 145
     },
     {
         "name": "CrazyGurkä#EUW",
@@ -10698,7 +10626,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 85,
-        "rank": 147
+        "rank": 146
     },
     {
         "name": "불곰파 인정순#KR1",
@@ -10771,7 +10699,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 148
+        "rank": 147
     },
     {
         "name": "Zerlox#Fran",
@@ -10844,7 +10772,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 15,
-        "rank": 149
+        "rank": 148
     },
     {
         "name": "VexBezZobowiazan#EUNE",
@@ -10917,7 +10845,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 47,
-        "rank": 150
+        "rank": 149
     },
     {
         "name": "Lunariz#EUW",
@@ -10992,7 +10920,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 151
+        "rank": 150
     },
     {
         "name": "Jennifer#KDA",
@@ -11064,7 +10992,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 92,
-        "rank": 152
+        "rank": 151
     },
     {
         "name": "Mighti1#EUW",
@@ -11122,7 +11050,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 291,
-        "rank": 153
+        "rank": 152
     },
     {
         "name": "topalov#EUW",
@@ -11194,7 +11122,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 35,
-        "rank": 154
+        "rank": 153
     },
     {
         "name": "アライグマ#5092",
@@ -11266,7 +11194,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 52,
-        "rank": 155
+        "rank": 154
     },
     {
         "name": "佐久良咲希のぞみ#NMH",
@@ -11338,7 +11266,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 98,
-        "rank": 156
+        "rank": 155
     },
     {
         "name": "Galur#Main",
@@ -11396,7 +11324,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1344,
-        "rank": 157
+        "rank": 156
     },
     {
         "name": "P0kimanesToilet#EUNE",
@@ -11472,7 +11400,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 15,
-        "rank": 158
+        "rank": 157
     },
     {
         "name": "AI Falocco DVE01#EUW",
@@ -11538,7 +11466,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 50,
-        "rank": 159
+        "rank": 158
     },
     {
         "name": "すーま#JP1",
@@ -11613,7 +11541,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 160
+        "rank": 159
     },
     {
         "name": "GoPlayRandomDice#Int",
@@ -11671,7 +11599,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 77,
-        "rank": 161
+        "rank": 160
     },
     {
         "name": "JoshButterJamal#Abdo",
@@ -11743,7 +11671,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 309,
-        "rank": 162
+        "rank": 161
     },
     {
         "name": "Mantarochen Manu#JULE",
@@ -11816,7 +11744,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 219,
-        "rank": 163
+        "rank": 162
     },
     {
         "name": "븅딱발#KR1",
@@ -11891,7 +11819,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 17,
-        "rank": 164
+        "rank": 163
     },
     {
         "name": "iwo#000",
@@ -11964,7 +11892,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 157,
-        "rank": 165
+        "rank": 164
     },
     {
         "name": "Rhio#69420",
@@ -12037,7 +11965,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 166
+        "rank": 165
     },
     {
         "name": "JohnnyW#NA1",
@@ -12095,7 +12023,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 483,
-        "rank": 167
+        "rank": 166
     },
     {
         "name": "Agiandor#EUW",
@@ -12169,7 +12097,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 168
+        "rank": 167
     },
     {
         "name": "Legend Never Die#NA1",
@@ -12227,7 +12155,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 21,
-        "rank": 169
+        "rank": 168
     },
     {
         "name": "도 리#1004",
@@ -12300,7 +12228,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 170
+        "rank": 169
     },
     {
         "name": "Wish to Dream#EUW",
@@ -12373,7 +12301,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 748,
-        "rank": 171
+        "rank": 170
     },
     {
         "name": "MIEL MOUTARDE#YUK",
@@ -12448,7 +12376,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 20,
-        "rank": 172
+        "rank": 171
     },
     {
         "name": "킹올챔#KR1",
@@ -12520,7 +12448,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 93,
-        "rank": 173
+        "rank": 172
     },
     {
         "name": "UpperBlackVise#みさき美咲",
@@ -12592,7 +12520,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 9,
-        "rank": 174
+        "rank": 173
     },
     {
         "name": "너희아보키같아#1004",
@@ -12665,7 +12593,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 175
+        "rank": 174
     },
     {
         "name": "HateIovePain#EUW",
@@ -12737,7 +12665,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 81,
-        "rank": 176
+        "rank": 175
     },
     {
         "name": "MrMajoor#EUW",
@@ -12810,7 +12738,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 172,
-        "rank": 177
+        "rank": 176
     },
     {
         "name": "별수호자징크스 프레스티지에디션#KR1",
@@ -12884,7 +12812,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 178
+        "rank": 177
     },
     {
         "name": "AnnieLover#ANNIE",
@@ -12957,7 +12885,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 306,
-        "rank": 179
+        "rank": 178
     },
     {
         "name": "oro na rurach#EUNE",
@@ -13029,7 +12957,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 278,
-        "rank": 180
+        "rank": 179
     },
     {
         "name": "Thằng Nhỏ#thanh",
@@ -13088,7 +13016,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 82,
-        "rank": 181
+        "rank": 180
     },
     {
         "name": "Gerap4#EUNE",
@@ -13160,7 +13088,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 182
+        "rank": 181
     },
     {
         "name": "John Park#존 박",
@@ -13235,7 +13163,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 24,
-        "rank": 183
+        "rank": 182
     },
     {
         "name": "RIP Solo Queue#RIPs",
@@ -13307,7 +13235,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 184
+        "rank": 183
     },
     {
         "name": "我爱她#maomi",
@@ -13379,7 +13307,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 63,
-        "rank": 185
+        "rank": 184
     },
     {
         "name": "THE CPTN#EUNE",
@@ -13452,7 +13380,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 959,
-        "rank": 186
+        "rank": 185
     },
     {
         "name": "FLaMeQ#EUW",
@@ -13524,7 +13452,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 49,
-        "rank": 187
+        "rank": 186
     },
     {
         "name": "Alecc#EUW",
@@ -13596,7 +13524,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 56,
-        "rank": 188
+        "rank": 187
     },
     {
         "name": "Jesvee#TURKU",
@@ -13669,7 +13597,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 141,
-        "rank": 189
+        "rank": 188
     },
     {
         "name": "Cenci#777",
@@ -13741,7 +13669,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 76,
-        "rank": 190
+        "rank": 189
     },
     {
         "name": "Kroou#bird",
@@ -13817,7 +13745,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 435,
-        "rank": 191
+        "rank": 190
     },
     {
         "name": "탱글수현#탱글수현",
@@ -13889,7 +13817,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 192
+        "rank": 191
     },
     {
         "name": "78th#78th",
@@ -13961,7 +13889,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 173,
-        "rank": 193
+        "rank": 192
     },
     {
         "name": "리안드리의 고뇌#US1",
@@ -14027,7 +13955,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 194
+        "rank": 193
     },
     {
         "name": "EckeLucas#EUW",
@@ -14085,7 +14013,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2990,
-        "rank": 195
+        "rank": 194
     },
     {
         "name": "Fanat VaRdilki#6166",
@@ -14160,7 +14088,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 32,
-        "rank": 196
+        "rank": 195
     },
     {
         "name": "Bardstardo#EUW",
@@ -14234,7 +14162,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 64,
-        "rank": 197
+        "rank": 196
     },
     {
         "name": "24 4 24 4#NOEGO",
@@ -14306,7 +14234,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 83,
-        "rank": 198
+        "rank": 197
     },
     {
         "name": "GUTS#5599",
@@ -14378,7 +14306,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 50,
-        "rank": 199
+        "rank": 198
     },
     {
         "name": "FNC KappeX#LoLko",
@@ -14451,7 +14379,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 4,
-        "rank": 200
+        "rank": 199
     },
     {
         "name": "SephirothX07#BR1",
@@ -14526,7 +14454,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 24,
-        "rank": 201
+        "rank": 200
     },
     {
         "name": "phenomist#NA1",
@@ -14602,7 +14530,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 50,
-        "rank": 202
+        "rank": 201
     },
     {
         "name": "Lâm Thành#vn123",
@@ -14669,7 +14597,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2137,
-        "rank": 203
+        "rank": 202
     },
     {
         "name": "Don Rigoni#Doni",
@@ -14743,7 +14671,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 204
+        "rank": 203
     },
     {
         "name": "Silkan#Dama",
@@ -14809,7 +14737,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 88,
-        "rank": 205
+        "rank": 204
     },
     {
         "name": "iOuZo#0001",
@@ -14881,7 +14809,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 10,
-        "rank": 206
+        "rank": 205
     },
     {
         "name": "隨風而起Ü又消散#12190",
@@ -14955,7 +14883,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 207
+        "rank": 206
     },
     {
         "name": "DBZ Sasorite#1510",
@@ -15027,7 +14955,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 15,
-        "rank": 208
+        "rank": 207
     },
     {
         "name": "Eeki#6666",
@@ -15085,7 +15013,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 633,
-        "rank": 209
+        "rank": 208
     },
     {
         "name": "Mr Senuai#1823",
@@ -15158,7 +15086,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 36,
-        "rank": 210
+        "rank": 209
     },
     {
         "name": "Vavara50#DÉFI",
@@ -15231,7 +15159,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 7,
-        "rank": 211
+        "rank": 210
     },
     {
         "name": "Style Rank S#NA1",
@@ -15303,7 +15231,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 24,
-        "rank": 212
+        "rank": 211
     },
     {
         "name": "max5745#TH2",
@@ -15379,7 +15307,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 213
+        "rank": 212
     },
     {
         "name": "Legiloe#Cait",
@@ -15451,7 +15379,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 154,
-        "rank": 214
+        "rank": 213
     },
     {
         "name": "Yiroy Jenkins#EUW",
@@ -15524,7 +15452,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 105,
-        "rank": 215
+        "rank": 214
     },
     {
         "name": "하늘아 잘 해봐#KR1",
@@ -15596,7 +15524,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 14,
-        "rank": 216
+        "rank": 215
     },
     {
         "name": "GeeGee#Sir",
@@ -15669,7 +15597,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 14,
-        "rank": 217
+        "rank": 216
     },
     {
         "name": "Viya#IRON4",
@@ -15741,7 +15669,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 36,
-        "rank": 218
+        "rank": 217
     },
     {
         "name": "Janeway#kiss",
@@ -15813,7 +15741,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 147,
-        "rank": 219
+        "rank": 218
     },
     {
         "name": "Sett0nMyFàce#EUW",
@@ -15888,7 +15816,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 39,
-        "rank": 220
+        "rank": 219
     },
     {
         "name": "FallenSte#Kayn",
@@ -15964,7 +15892,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 403,
-        "rank": 221
+        "rank": 220
     },
     {
         "name": "Hennalan Jeesus#6940",
@@ -16039,7 +15967,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 467,
-        "rank": 222
+        "rank": 221
     },
     {
         "name": "train to failure#EUNE",
@@ -16111,7 +16039,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 35,
-        "rank": 223
+        "rank": 222
     },
     {
         "name": "黯魔陰帝ü達守羌#三民權志龍",
@@ -16183,7 +16111,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 224
+        "rank": 223
     },
     {
         "name": "Dead Account#Perma",
@@ -16258,7 +16186,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 210,
-        "rank": 225
+        "rank": 224
     },
     {
         "name": "Holub#Vrků",
@@ -16331,7 +16259,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 15,
-        "rank": 226
+        "rank": 225
     },
     {
         "name": "윤 성#윤 성",
@@ -16403,7 +16331,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 227
+        "rank": 226
     },
     {
         "name": "Last Remnant#EUNE",
@@ -16475,7 +16403,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 228
+        "rank": 227
     },
     {
         "name": "RSW Jo0r#00000",
@@ -16548,7 +16476,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 572,
-        "rank": 229
+        "rank": 228
     },
     {
         "name": "Wrong One#Ward",
@@ -16620,7 +16548,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 123,
-        "rank": 230
+        "rank": 229
     },
     {
         "name": "God#ofriz",
@@ -16692,7 +16620,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1198,
-        "rank": 231
+        "rank": 230
     },
     {
         "name": "Rươngg#ruong",
@@ -16766,7 +16694,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 240,
-        "rank": 232
+        "rank": 231
     },
     {
         "name": "jia KR#OCE",
@@ -16838,7 +16766,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 233
+        "rank": 232
     },
     {
         "name": "괜탐켄치#괜찮켄치",
@@ -16912,7 +16840,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 234
+        "rank": 233
     },
     {
         "name": "Massie#JGGAP",
@@ -16985,7 +16913,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2082,
-        "rank": 235
+        "rank": 234
     },
     {
         "name": "Satori#WuWei",
@@ -17057,7 +16985,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 7,
-        "rank": 236
+        "rank": 235
     },
     {
         "name": "Ñhungg Gấuuºº#1928",
@@ -17117,7 +17045,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 57,
-        "rank": 237
+        "rank": 236
     },
     {
         "name": "白桃梳打#TW2",
@@ -17190,7 +17118,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 189,
-        "rank": 238
+        "rank": 237
     },
     {
         "name": "애쉬의 수정화살#KR1",
@@ -17250,7 +17178,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 98,
-        "rank": 239
+        "rank": 238
     },
     {
         "name": "TrollTrashRito#FFS",
@@ -17324,7 +17252,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 240
+        "rank": 239
     },
     {
         "name": "Unholy Daddy#RU1",
@@ -17396,7 +17324,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 41,
-        "rank": 241
+        "rank": 240
     },
     {
         "name": "El Jambo#EUW",
@@ -17470,7 +17398,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 356,
-        "rank": 242
+        "rank": 241
     },
     {
         "name": "FPX Doind#JP1",
@@ -17545,7 +17473,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 243
+        "rank": 242
     },
     {
         "name": "呆呆鳥#Mokif",
@@ -17603,7 +17531,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 20,
-        "rank": 244
+        "rank": 243
     },
     {
         "name": "魚仔仔#魚的啦",
@@ -17676,7 +17604,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 163,
-        "rank": 245
+        "rank": 244
     },
     {
         "name": "Orion#bun",
@@ -17749,7 +17677,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 68,
-        "rank": 246
+        "rank": 245
     },
     {
         "name": "Gamb#3544",
@@ -17821,7 +17749,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 95,
-        "rank": 247
+        "rank": 246
     },
     {
         "name": "자크는열린문#zac",
@@ -17894,7 +17822,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 244,
-        "rank": 248
+        "rank": 247
     },
     {
         "name": "Jeremy1117#1117",
@@ -17969,7 +17897,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 860,
-        "rank": 249
+        "rank": 248
     },
     {
         "name": "Sieumeu Tevuri#EUW",
@@ -18044,7 +17972,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1383,
-        "rank": 250
+        "rank": 249
     },
     {
         "name": "Ash#3292",
@@ -18120,7 +18048,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 165,
-        "rank": 251
+        "rank": 250
     },
     {
         "name": "Yv Naul#1282",
@@ -18178,7 +18106,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 443,
-        "rank": 252
+        "rank": 251
     },
     {
         "name": "호 야#3223",
@@ -18253,7 +18181,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 25,
-        "rank": 253
+        "rank": 252
     },
     {
         "name": "Breez#DANI",
@@ -18328,7 +18256,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 212,
-        "rank": 254
+        "rank": 253
     },
     {
         "name": "Tobe Tobe#00000",
@@ -18402,7 +18330,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 255
+        "rank": 254
     },
     {
         "name": "돌덜쥐#돌덜쥐",
@@ -18468,7 +18396,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1003,
-        "rank": 256
+        "rank": 255
     },
     {
         "name": "要到飯了兄弟們#7788",
@@ -18540,7 +18468,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 65,
-        "rank": 257
+        "rank": 256
     },
     {
         "name": "Nolife Fynn#EUW",
@@ -18598,7 +18526,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 36,
-        "rank": 258
+        "rank": 257
     },
     {
         "name": "Waydromeda#Jinx",
@@ -18670,7 +18598,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 67,
-        "rank": 259
+        "rank": 258
     },
     {
         "name": "PrettyHS#RU1",
@@ -18745,7 +18673,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 166,
-        "rank": 260
+        "rank": 259
     },
     {
         "name": "Seal#Sea",
@@ -18821,7 +18749,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 261
+        "rank": 260
     },
     {
         "name": "Omar Ali#NASUS",
@@ -18895,7 +18823,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 15,
-        "rank": 262
+        "rank": 261
     },
     {
         "name": "Alune#001",
@@ -18968,7 +18896,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 223,
-        "rank": 263
+        "rank": 262
     },
     {
         "name": "神龍ー長山ライト#9999",
@@ -19040,7 +18968,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 26,
-        "rank": 264
+        "rank": 263
     },
     {
         "name": "Troglodyte Seks#beton",
@@ -19116,7 +19044,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 404,
-        "rank": 265
+        "rank": 264
     },
     {
         "name": "Tonelico#Fae",
@@ -19188,7 +19116,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 4,
-        "rank": 266
+        "rank": 265
     },
     {
         "name": "Dorweee#Coach",
@@ -19254,7 +19182,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 716,
-        "rank": 267
+        "rank": 266
     },
     {
         "name": "Tοmahawk#xbox",
@@ -19326,7 +19254,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 173,
-        "rank": 268
+        "rank": 267
     },
     {
         "name": "Darkly Fox#00035",
@@ -19400,7 +19328,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 105,
-        "rank": 269
+        "rank": 268
     },
     {
         "name": "Proxima Midnight#uwu",
@@ -19473,7 +19401,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 24,
-        "rank": 270
+        "rank": 269
     },
     {
         "name": "Ninmery#BR1",
@@ -19549,7 +19477,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 271
+        "rank": 270
     },
     {
         "name": "최형배#KR1",
@@ -19607,7 +19535,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 212,
-        "rank": 272
+        "rank": 271
     },
     {
         "name": "머리족나얼큰하네#KR1",
@@ -19682,7 +19610,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 256,
-        "rank": 273
+        "rank": 272
     },
     {
         "name": "Holub#Vrků",
@@ -19755,7 +19683,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 274
+        "rank": 273
     },
     {
         "name": "Nakarm Poro#EUNE",
@@ -19827,7 +19755,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 16,
-        "rank": 275
+        "rank": 274
     },
     {
         "name": "못하면 버릴거야#KR3",
@@ -19903,7 +19831,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 329,
-        "rank": 276
+        "rank": 275
     },
     {
         "name": "BOM7#TOMÁŠ",
@@ -19978,7 +19906,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 158,
-        "rank": 277
+        "rank": 276
     },
     {
         "name": "Nadrogen#XFX",
@@ -20050,7 +19978,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 77,
-        "rank": 278
+        "rank": 277
     },
     {
         "name": "Jungwald#EUW",
@@ -20108,7 +20036,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1028,
-        "rank": 279
+        "rank": 278
     },
     {
         "name": "금붕어새끼#KR1",
@@ -20183,7 +20111,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 17,
-        "rank": 280
+        "rank": 279
     },
     {
         "name": "Desmond Doss#2137",
@@ -20255,7 +20183,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 20,
-        "rank": 281
+        "rank": 280
     },
     {
         "name": "HERMES KDA#LAN",
@@ -20330,7 +20258,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 282
+        "rank": 281
     },
     {
         "name": "FreakRB#001",
@@ -20402,7 +20330,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1831,
-        "rank": 283
+        "rank": 282
     },
     {
         "name": "Nut#sfc",
@@ -20474,7 +20402,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 28,
-        "rank": 284
+        "rank": 283
     },
     {
         "name": "Stin God#SWAG",
@@ -20547,7 +20475,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1467,
-        "rank": 285
+        "rank": 284
     },
     {
         "name": "Yordle#Teemo",
@@ -20619,7 +20547,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 31,
-        "rank": 286
+        "rank": 285
     },
     {
         "name": "Pom#000",
@@ -20691,7 +20619,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 287
+        "rank": 286
     },
     {
         "name": "Łexas#Lexas",
@@ -20755,7 +20683,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1509,
-        "rank": 288
+        "rank": 287
     },
     {
         "name": "Sclivian#EUW",
@@ -20827,7 +20755,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 19,
-        "rank": 289
+        "rank": 288
     },
     {
         "name": "Cone#Sett",
@@ -20901,7 +20829,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 60,
-        "rank": 290
+        "rank": 289
     },
     {
         "name": "Shoxy#EUW",
@@ -20974,7 +20902,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 65,
-        "rank": 291
+        "rank": 290
     },
     {
         "name": "SJHaubi#brum",
@@ -21047,7 +20975,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 16,
-        "rank": 292
+        "rank": 291
     },
     {
         "name": "Abraxas#EUW",
@@ -21121,7 +21049,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 601,
-        "rank": 293
+        "rank": 292
     },
     {
         "name": "Squallzera#GAREN",
@@ -21193,7 +21121,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 8,
-        "rank": 294
+        "rank": 293
     },
     {
         "name": "BillChan#293",
@@ -21267,7 +21195,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 40,
-        "rank": 295
+        "rank": 294
     },
     {
         "name": "9ï6#191",
@@ -21339,7 +21267,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 358,
-        "rank": 296
+        "rank": 295
     },
     {
         "name": "Dawidsonek#2137",
@@ -21414,7 +21342,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 26,
-        "rank": 297
+        "rank": 296
     },
     {
         "name": "That Dunk Master#NA1",
@@ -21490,7 +21418,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 521,
-        "rank": 298
+        "rank": 297
     },
     {
         "name": "Mauriciog7#BR1",
@@ -21562,7 +21490,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 36,
-        "rank": 299
+        "rank": 298
     },
     {
         "name": "지켜줬잖아#1126",
@@ -21627,7 +21555,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 95,
-        "rank": 300
+        "rank": 299
     },
     {
         "name": "Bánh Mì xD#0810",
@@ -21685,7 +21613,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 18,
-        "rank": 301
+        "rank": 300
     },
     {
         "name": "Robo#RXTN",
@@ -21759,7 +21687,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1682,
-        "rank": 302
+        "rank": 301
     },
     {
         "name": "STAYWITHYOU#TW2",
@@ -21832,7 +21760,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 43,
-        "rank": 303
+        "rank": 302
     },
     {
         "name": "Simaniac#SIM",
@@ -21904,7 +21832,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 65,
-        "rank": 304
+        "rank": 303
     },
     {
         "name": "가장 큰 몽둥이를 가진 사나이#KR1",
@@ -21977,7 +21905,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 68,
-        "rank": 305
+        "rank": 304
     },
     {
         "name": "Zepshun#Shaco",
@@ -22050,7 +21978,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 38,
-        "rank": 306
+        "rank": 305
     },
     {
         "name": "PAR Bank#77777",
@@ -22108,7 +22036,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 13,
-        "rank": 307
+        "rank": 306
     },
     {
         "name": "Zoe#Jinx",
@@ -22184,7 +22112,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 530,
-        "rank": 308
+        "rank": 307
     },
     {
         "name": "Kaisa#XĐG",
@@ -22256,7 +22184,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 29,
-        "rank": 309
+        "rank": 308
     },
     {
         "name": "Proxima Midnight#uwu",
@@ -22331,7 +22259,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 310
+        "rank": 309
     },
     {
         "name": "tempest124#ミズゴロウ",
@@ -22403,7 +22331,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 31,
-        "rank": 311
+        "rank": 310
     },
     {
         "name": "隱姓埋名躲公安#9527",
@@ -22475,7 +22403,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 312
+        "rank": 311
     },
     {
         "name": "korro90#Lili",
@@ -22550,7 +22478,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5,
-        "rank": 313
+        "rank": 312
     },
     {
         "name": "LoneSavage#67676",
@@ -22623,7 +22551,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 311,
-        "rank": 314
+        "rank": 313
     },
     {
         "name": "Karina#펠리빼",
@@ -22698,7 +22626,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 13,
-        "rank": 315
+        "rank": 314
     },
     {
         "name": "RIPChiefAkkiri#EUW",
@@ -22774,7 +22702,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 38,
-        "rank": 316
+        "rank": 315
     },
     {
         "name": "katarina1v9#OuO",
@@ -22850,7 +22778,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 317
+        "rank": 316
     },
     {
         "name": "In4mati0n#In4",
@@ -22925,7 +22853,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 792,
-        "rank": 318
+        "rank": 317
     },
     {
         "name": "Prédά#0000",
@@ -22999,7 +22927,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 319
+        "rank": 318
     },
     {
         "name": "Glimpse of Her#TURTS",
@@ -23074,7 +23002,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 21,
-        "rank": 320
+        "rank": 319
     },
     {
         "name": "Mikethegod9#NA1",
@@ -23133,7 +23061,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 478,
-        "rank": 321
+        "rank": 320
     },
     {
         "name": "Nunu and Willump#PDF",
@@ -23205,7 +23133,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 67,
-        "rank": 322
+        "rank": 321
     },
     {
         "name": "Get Jinxed#Meeku",
@@ -23278,7 +23206,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 104,
-        "rank": 323
+        "rank": 322
     },
     {
         "name": "Måke#uwu",
@@ -23344,7 +23272,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 10,
-        "rank": 324
+        "rank": 323
     },
     {
         "name": "나미양#KR1",
@@ -23416,7 +23344,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 10,
-        "rank": 325
+        "rank": 324
     },
     {
         "name": "Staticks#0109",
@@ -23489,7 +23417,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 16,
-        "rank": 326
+        "rank": 325
     },
     {
         "name": "Mortensen#0000",
@@ -23561,7 +23489,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 113,
-        "rank": 327
+        "rank": 326
     },
     {
         "name": "Anas#2317",
@@ -23620,7 +23548,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 10,
-        "rank": 328
+        "rank": 327
     },
     {
         "name": "Malinks#BR1",
@@ -23692,7 +23620,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 23,
-        "rank": 329
+        "rank": 328
     },
     {
         "name": "Coach Finn#EUW",
@@ -23766,7 +23694,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 360,
-        "rank": 330
+        "rank": 329
     },
     {
         "name": "Memoryofme#2205",
@@ -23838,7 +23766,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 12,
-        "rank": 331
+        "rank": 330
     },
     {
         "name": "Feonard Margeaux#TR1",
@@ -23913,7 +23841,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 332
+        "rank": 331
     },
     {
         "name": "Vi King v1#EUW",
@@ -23986,7 +23914,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 13,
-        "rank": 333
+        "rank": 332
     },
     {
         "name": "gugu#ole",
@@ -24059,7 +23987,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 334
+        "rank": 333
     },
     {
         "name": "Scraf#2052",
@@ -24132,7 +24060,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1353,
-        "rank": 335
+        "rank": 334
     },
     {
         "name": "Ludens Echo#Item",
@@ -24191,7 +24119,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 866,
-        "rank": 336
+        "rank": 335
     },
     {
         "name": "Clymbax#NA1",
@@ -24265,7 +24193,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1077,
-        "rank": 337
+        "rank": 336
     },
     {
         "name": "PTDRRRRRRRRRR XD#PTDR",
@@ -24340,7 +24268,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 127,
-        "rank": 338
+        "rank": 337
     },
     {
         "name": "BklynSoulja#NA1",
@@ -24412,7 +24340,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 6,
-        "rank": 339
+        "rank": 338
     },
     {
         "name": "Muh Faker#1002",
@@ -24485,7 +24413,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 340
+        "rank": 339
     },
     {
         "name": "Toasteri#EUW",
@@ -24544,7 +24472,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 137,
-        "rank": 341
+        "rank": 340
     },
     {
         "name": "Justínian#NA1",
@@ -24616,7 +24544,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 179,
-        "rank": 342
+        "rank": 341
     },
     {
         "name": "Easy#Bake",
@@ -24692,7 +24620,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 358,
-        "rank": 343
+        "rank": 342
     },
     {
         "name": "dundeekrumplee#EUNE",
@@ -24767,7 +24695,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 492,
-        "rank": 344
+        "rank": 343
     },
     {
         "name": "iseul#2511",
@@ -24840,7 +24768,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 648,
-        "rank": 345
+        "rank": 344
     },
     {
         "name": "66아와99#KR1",
@@ -24914,7 +24842,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 64,
-        "rank": 346
+        "rank": 345
     },
     {
         "name": "Demon Zed#Zed99",
@@ -24989,7 +24917,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 24,
-        "rank": 347
+        "rank": 346
     },
     {
         "name": "Nawé#GIRLS",
@@ -25062,7 +24990,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 348
+        "rank": 347
     },
     {
         "name": "T1 Hwei#0000",
@@ -25135,7 +25063,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 14,
-        "rank": 349
+        "rank": 348
     },
     {
         "name": "PROJECT Capybara#2000",
@@ -25210,7 +25138,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 211,
-        "rank": 350
+        "rank": 349
     },
     {
         "name": "Trần Nhật1#2002",
@@ -25268,7 +25196,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 161,
-        "rank": 351
+        "rank": 350
     },
     {
         "name": "NotreDan#EUW",
@@ -25341,7 +25269,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 837,
-        "rank": 352
+        "rank": 351
     },
     {
         "name": "Preyit#EUW",
@@ -25399,7 +25327,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3433,
-        "rank": 353
+        "rank": 352
     },
     {
         "name": "Drafonix#EUW",
@@ -25474,7 +25402,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3651,
-        "rank": 354
+        "rank": 353
     },
     {
         "name": "Bakaboy#8198",
@@ -25547,7 +25475,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 355
+        "rank": 354
     },
     {
         "name": "鞠大帥#666",
@@ -25620,7 +25548,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 77,
-        "rank": 356
+        "rank": 355
     },
     {
         "name": "Vault Breaker#5649",
@@ -25694,7 +25622,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 5378,
-        "rank": 357
+        "rank": 356
     },
     {
         "name": "feva#4241",
@@ -25769,7 +25697,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 145,
-        "rank": 358
+        "rank": 357
     },
     {
         "name": "Siph#80085",
@@ -25841,7 +25769,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 95,
-        "rank": 359
+        "rank": 358
     },
     {
         "name": "Rudíkun#Rudi",
@@ -25900,7 +25828,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 7,
-        "rank": 360
+        "rank": 359
     },
     {
         "name": "GVR NLghtBlade#Nr 1",
@@ -25976,7 +25904,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 192,
-        "rank": 361
+        "rank": 360
     },
     {
         "name": "Todessehnsucht#Vegan",
@@ -26051,7 +25979,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 139,
-        "rank": 362
+        "rank": 361
     },
     {
         "name": "Negan#Nys",
@@ -26126,7 +26054,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 767,
-        "rank": 363
+        "rank": 362
     },
     {
         "name": "Superjombombo2#Neeko",
@@ -26200,7 +26128,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 364
+        "rank": 363
     },
     {
         "name": "Samoranski#NA1",
@@ -26275,7 +26203,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 356,
-        "rank": 365
+        "rank": 364
     },
     {
         "name": "Kimchi#fall",
@@ -26350,7 +26278,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1,
-        "rank": 366
+        "rank": 365
     },
     {
         "name": "Luciƒero Cræmisi#OUT",
@@ -26424,7 +26352,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2041,
-        "rank": 367
+        "rank": 366
     },
     {
         "name": "毀天滅地的派大星#0616",
@@ -26499,7 +26427,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 219,
-        "rank": 368
+        "rank": 367
     },
     {
         "name": "Moradinho#0505",
@@ -26571,7 +26499,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 36,
-        "rank": 369
+        "rank": 368
     },
     {
         "name": "Arcterra#EUW",
@@ -26645,7 +26573,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 10,
-        "rank": 370
+        "rank": 369
     },
     {
         "name": "Kurumi Ebisuzawa#PALA",
@@ -26718,7 +26646,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 495,
-        "rank": 371
+        "rank": 370
     },
     {
         "name": "APeck#Carry",
@@ -26776,7 +26704,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 893,
-        "rank": 372
+        "rank": 371
     },
     {
         "name": "Muse#0226",
@@ -26836,7 +26764,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 367,
-        "rank": 373
+        "rank": 372
     },
     {
         "name": "요기여#KR1",
@@ -26912,7 +26840,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 284,
-        "rank": 374
+        "rank": 373
     },
     {
         "name": "Zera#God",
@@ -26988,7 +26916,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 19,
-        "rank": 375
+        "rank": 374
     },
     {
         "name": "Felix Blümchen#BLUME",
@@ -27063,7 +26991,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1884,
-        "rank": 376
+        "rank": 375
     },
     {
         "name": "Xiao Zhong Chen#0907",
@@ -27137,7 +27065,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 3,
-        "rank": 377
+        "rank": 376
     },
     {
         "name": "Showtíme#EUW",
@@ -27211,7 +27139,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 879,
-        "rank": 378
+        "rank": 377
     },
     {
         "name": "Rocky#DIFFF",
@@ -27283,7 +27211,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 73,
-        "rank": 379
+        "rank": 378
     },
     {
         "name": "Jade#yours",
@@ -27356,7 +27284,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1355,
-        "rank": 380
+        "rank": 379
     },
     {
         "name": "hipsu#001",
@@ -27428,7 +27356,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 118,
-        "rank": 381
+        "rank": 380
     },
     {
         "name": "Ножки Гвен#Feet",
@@ -27486,7 +27414,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 188,
-        "rank": 382
+        "rank": 381
     },
     {
         "name": "Ńeato#NA1",
@@ -27562,7 +27490,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 37,
-        "rank": 383
+        "rank": 382
     },
     {
         "name": "BanKuYi ded#1Yi",
@@ -27638,7 +27566,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 25,
-        "rank": 384
+        "rank": 383
     },
     {
         "name": "Passiv Abuser#KART",
@@ -27711,7 +27639,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1251,
-        "rank": 385
+        "rank": 384
     },
     {
         "name": "내가하고싶은대로할거니깐말리지마#자유로운",
@@ -27786,7 +27714,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 22,
-        "rank": 386
+        "rank": 385
     },
     {
         "name": "iFeli#0000",
@@ -27858,7 +27786,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 44,
-        "rank": 387
+        "rank": 386
     },
     {
         "name": "Wynore#0000",
@@ -27933,7 +27861,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 2,
-        "rank": 388
+        "rank": 387
     },
     {
         "name": "God#ofriz",
@@ -28005,7 +27933,7 @@ var data = [
             ]
         },
         "mostNotableChallengePosition": 1974,
-        "rank": 389
+        "rank": 388
     }
 ];
 
