@@ -28038,7 +28038,7 @@ function renderTable() {
   if (searchText) {
 
     filteredData = filteredData.filter(item => {
-      return item.name.toLowerCase().indexOf(searchText) > -1;
+      return item.name.toLowerCase().indexOf(searchText.toLowerCase()) > -1;
     })
 
   }
