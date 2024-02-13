@@ -305,10 +305,10 @@ background: #000c9d94;
         <div style="align-items: center; display: flex; position: relative;width: 95%;margin: 0 auto;">
 
             <div style="margin-right: 10px" class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle region-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 NA
               </button>
-              <div style="min-width: 100px;" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div style="min-width: 100px;" class="dropdown-menu region-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">NA</a>
                 <a class="dropdown-item" href="#">EUW</a>
                 <a class="dropdown-item" href="#">EUNE</a>
@@ -333,6 +333,21 @@ background: #000c9d94;
             <h3 class="name"></h3>
             <div class="current-rank"></div>
             <div class="next-rank"></div>
+
+            <div class="dropdown mr-4 ml-4">
+              <button class="btn btn-secondary dropdown-toggle goal-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Check Higher Ranks
+              </button>
+              <div class="dropdown-menu goal-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item iron-option" href="#">Iron</a>
+                <a class="dropdown-item bronze-option" href="#">Bronze</a>
+                <a class="dropdown-item silver-option" href="#">Silver</a>
+                <a class="dropdown-item gold-option" href="#">Gold</a>
+                <a class="dropdown-item platinum-option" href="#">Platinum</a>
+                <a class="dropdown-item diamond-option" href="#">Diamond</a>
+                <a class="dropdown-item master-option" href="#">Master</a>
+              </div>
+            </div>
 
             <hr>
 

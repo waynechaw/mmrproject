@@ -9610,7 +9610,7 @@ let selectedRegion  = localStorage.getItem("selectedRegion");
 if (!selectedRegion) {
   selectedRegion = 'NA';
 } else {
-  $('.dropdown-toggle').text(selectedRegion);
+  $('.region-toggle').text(selectedRegion);
 }
 
 
@@ -9646,9 +9646,9 @@ var currentRank;
 var nextRank;
 var nextUpgrade;
 
-$(".dropdown-menu" ).on( "click", ".dropdown-item", function() {
+$(".region-menu" ).on( "click", ".dropdown-item", function() {
   selectedRegion = ( $( this ).text().trim()  );
-  $('.dropdown-toggle').text(selectedRegion);
+  $('.region-toggle').text(selectedRegion);
   selectedMappedRegion = regionMap[selectedRegion];
   localStorage.setItem("selectedRegion", selectedRegion);
 });
@@ -9713,7 +9713,7 @@ $(".reset-tracking" ).on( "click" , function() {
 });
 
 
-
+let expEarned;
 
 function getMasteryData(name, tag, selectedMappedRegion) {
 
@@ -9824,7 +9824,7 @@ function getMasteryData(name, tag, selectedMappedRegion) {
 
       let startingEXP;
       let updatedEXP;
-      let expEarned;
+
       let currentDate = new Date();
 
 
@@ -9881,7 +9881,7 @@ function getMasteryData(name, tag, selectedMappedRegion) {
 
       console.log(uncompletedChampions);
 
-      let tenHighestChampions = uncompletedChampions.slice(0, 10);
+      let tenHighestChampions = uncompletedChampions.slice(0, 100);
 
       $('.champions-list').empty();
 
@@ -9938,17 +9938,17 @@ function renderChampions(type) {
   let uncompletedChampions = masteryData.filter(item => item.championPoints < nextUpgrade);
   let filteredList;
   if (type == 'all') {
-    filteredList = uncompletedChampions.slice(0, 10);
+    filteredList = uncompletedChampions.slice(0, 100);
   } else if (type == 'bot') {
-    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("ADC") > -1).slice(0, 10);
+    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("ADC") > -1).slice(0, 100);
   } else if (type == 'jg') {
-    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("JUNGLE") > -1).slice(0, 10);
+    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("JUNGLE") > -1).slice(0, 100);
   } else if (type == 'mid') {
-    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("MID") > -1).slice(0, 10);
+    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("MID") > -1).slice(0, 100);
   } else if (type == 'sup') {
-    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("SUPPORT") > -1).slice(0, 10);
+    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("SUPPORT") > -1).slice(0, 100);
   } else if (type == 'top') {
-    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("TOP") > -1).slice(0, 10);
+    filteredList = uncompletedChampions.filter(item => item.lanes.indexOf("TOP") > -1).slice(0, 100);
   }
 
 
@@ -10076,4 +10076,227 @@ function parseData () {
     $('.next-rank').text('');
   }
 
+  renderSetGoal();
+
 }
+
+function renderSetGoal () {
+
+  $('.goal-menu').empty();
+
+  if (score < 100) {
+
+    $('.goal-menu').append(`
+      <a class="dropdown-item iron-option" href="#">Iron</a>
+      <a class="dropdown-item bronze-option" href="#">Bronze</a>
+      <a class="dropdown-item silver-option" href="#">Silver</a>
+      <a class="dropdown-item gold-option" href="#">Gold</a>
+      <a class="dropdown-item platinum-option" href="#">Platinum</a>
+      <a class="dropdown-item diamond-option" href="#">Diamond</a>
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+
+  } else if (score >= 100 && score < 500) {
+    $('.goal-menu').append(`
+      <a class="dropdown-item bronze-option" href="#">Bronze</a>
+      <a class="dropdown-item silver-option" href="#">Silver</a>
+      <a class="dropdown-item gold-option" href="#">Gold</a>
+      <a class="dropdown-item platinum-option" href="#">Platinum</a>
+      <a class="dropdown-item diamond-option" href="#">Diamond</a>
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+  } else if (score >= 500 && score < 1000) {
+    $('.goal-menu').append(`
+      <a class="dropdown-item silver-option" href="#">Silver</a>
+      <a class="dropdown-item gold-option" href="#">Gold</a>
+      <a class="dropdown-item platinum-option" href="#">Platinum</a>
+      <a class="dropdown-item diamond-option" href="#">Diamond</a>
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+  } else if (score >= 1000 && score < 5000) {
+    $('.goal-menu').append(`
+      <a class="dropdown-item gold-option" href="#">Gold</a>
+      <a class="dropdown-item platinum-option" href="#">Platinum</a>
+      <a class="dropdown-item diamond-option" href="#">Diamond</a>
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+  } else if (score >= 5000 && score < 10000) {
+    $('.goal-menu').append(`
+      <a class="dropdown-item platinum-option" href="#">Platinum</a>
+      <a class="dropdown-item diamond-option" href="#">Diamond</a>
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+  } else if (score >= 10000 && score < 50000) {
+    $('.goal-menu').append(`
+      <a class="dropdown-item diamond-option" href="#">Diamond</a>
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+  } else if (score >= 50000 && score < 100000) {
+    $('.goal-menu').append(`
+      <a class="dropdown-item master-option" href="#">Master</a>
+    `);
+  } else if (score >= 100000) {
+
+  }
+}
+
+$(".goal-menu" ).on( "click", ".dropdown-item", function() {
+  let selectedGoal = ( $( this ).text().trim()  );
+  console.log(selectedGoal);
+
+  if (selectedGoal == 'Iron') {
+    nextRank = 'Iron';
+    nextUpgrade = '100';
+  } else if (selectedGoal == 'Bronze') {
+    nextRank = 'Bronze';
+    nextUpgrade = '500';
+  } else if (selectedGoal == 'Silver') {
+    nextRank = 'Silver';
+    nextUpgrade = '1000';
+  } else if (selectedGoal == 'Gold') {
+    nextRank = 'Gold';
+    nextUpgrade = '5000';
+  } else if (selectedGoal == 'Platinum') {
+    nextRank = 'Platinum';
+    nextUpgrade = '10000';
+  } else if (selectedGoal == 'Diamond') {
+    nextRank = 'Diamond';
+    nextUpgrade = '50000';
+  } else if (selectedGoal == 'Master') {
+    nextRank = 'Master';
+    nextUpgrade = '100000';
+  }
+
+
+  if (nextRank) {
+    $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
+  } else {
+    $('.next-rank').text('');
+  }
+
+
+  recalculate();
+
+
+
+});
+
+
+function recalculate() {
+
+
+
+
+      score = masteryData[masteryData.length - 1].championPoints;
+
+
+
+
+      $('.next-upgrade').text(nextUpgrade);
+
+      $('.score').text(score);
+
+      $('.met-req-count').text(masteryData.filter(item => item.championPoints >= nextUpgrade).length);
+
+      $('.deficit-count').text(150 - masteryData.filter(item => item.championPoints >= nextUpgrade).length);
+
+      $('.total-required').text((nextUpgrade * 150).toLocaleString());
+
+      let currentTotal = 0;
+
+      masteryData.forEach(item => {
+        let pointsEarned = 0;
+
+        if (item.championPoints >= nextUpgrade) {
+         pointsEarned = nextUpgrade;
+
+       } else {
+        pointsEarned = item.championPoints;
+
+      }
+
+      currentTotal = currentTotal + parseInt(pointsEarned);
+    })
+
+      console.log('currentTotal', currentTotal);
+
+      $('.current-total').text((currentTotal).toLocaleString());
+
+      $('.deficit-points').text(((nextUpgrade * 150) - currentTotal).toLocaleString());
+
+      $('.percent-done').text(  ((currentTotal / (nextUpgrade * 150))* 100).toFixed(2) + '%');
+
+      let startingEXP;
+      let updatedEXP;
+
+      let currentDate = new Date();
+
+
+      updatedEXP = currentTotal;
+
+
+      console.log('startingEXP', profiles[activeProfile].startingEXP);
+      console.log('updatedEXP', updatedEXP);
+      console.log('expEarned', expEarned);
+
+      let timeElapsed;
+
+      if ((currentDate - new Date(profiles[activeProfile].dateStarted))  < (24 * 60 * 60 * 1000)) {
+        timeElapsed = 24 * 60 * 60 * 1000;
+      } else {
+        timeElapsed = currentDate - new Date(profiles[activeProfile].dateStarted);
+      }
+
+      if (!expEarned) {
+        $('.points-earned').text('0');
+        $('.appd').text('0');
+        $('.ppd').text('0');
+        $('.estimated-time').text('NA');
+      } else {
+        $('.points-earned').text(expEarned.toLocaleString());
+        let avgPointsPerDay = expEarned / (timeElapsed / (24 * 60 * 60 * 1000));
+        $('.appd').text(  Math.round(avgPointsPerDay*100)/100 );
+        let percentProgressPerDay = ((avgPointsPerDay / (nextUpgrade * 150)) * 100 ).toFixed(3) ;
+        $('.ppd').text( percentProgressPerDay + '%' );
+        $('.estimated-time').text( (     ((nextUpgrade * 150) - currentTotal)    / avgPointsPerDay).toFixed(0) + ' days');
+      }
+
+
+
+      let uncompletedChampions = masteryData.filter(item => item.championPoints < nextUpgrade);
+
+      console.log(uncompletedChampions);
+
+      let tenHighestChampions = uncompletedChampions.slice(0, 100);
+
+      $('.champions-list').empty();
+
+      tenHighestChampions.forEach(item => {
+
+        let championName = champData[item.championId].id;
+
+        let donePercent = ((item.championPoints / nextUpgrade ) * 100) - 10;
+
+        let htmlItem = `
+
+                <div class="champion-item">
+                  <h2>${championName}</h2>
+                  <div class="img-wrapper">
+                    <img src="https://ddragon.leagueoflegends.com/cdn/14.3.1/img/champion/${championName}.png"/>
+                  </div>
+                  <h4>${item.championPoints} / ${nextUpgrade}</h4>
+                  <div class="progress-box">
+                    <div style="width: ${donePercent}%" class="progress-bar"></div>
+                  </div>
+                </div>
+
+        `;
+
+        $('.champions-list').append(htmlItem);
+
+        $('.role-container').show();
+      })
+
+
+
+    }
