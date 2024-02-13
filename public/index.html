@@ -1,74 +1,502 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>MMR Checker</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Catchem All Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
-    <body>
+    <style>
 
-        <div class="navigation">
-            <a href="/leaderboard.html">Challenge Leaderboard</a>
-                    <a href="/catch.html">Catch'em All Tracker</a>
-            <a href="/checklist.html">Legendary Items Checklist</a>
-            <a href="/">MMR Checker</a>
-            <a href="/team.html">Team Maker</a>
+
+
+
+
+.lookup-container {
+
+    text-align: center;
+        margin: 1% auto 1%;
+    width: 500px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+
+    font-size: 0.8em;
+    background-color: #111111c4;
+}
+
+.lookup-container input {
+    border-style: hidden;
+    outline: none;
+    transition: width ease 1s;
+    text-indent: 40px;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    border-radius: 24px;
+    padding: 10px 10px;
+    width: 100%;
+    color: white;
+    background: #00000059;
+    color-scheme: dark;
+}
+
+      .checkbox-container {
+        margin-top: 6%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+
+      }
+
+.current-rank {
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+
+    .checklist {
+    flex-wrap: wrap;
+    background: #0a0218eb;
+    padding: 14px;
+ 
+    font-size: 11px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    }
+
+    .challenge-progress {
+      width: 19%;
+      background: #0a0218eb;
+    color: white;
+    padding: 20px;
+    border-radius: 8px
+
+    }
+
+    .challenge-progress h3 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+    }
+
+    .current-rank {
+      font-size: 33px;
+      margin-bottom: 5px;
+    }
+
+
+    a:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+    .highlight {
+    font-size: 14px;
+    color: #ffc966;
+    }
+
+    hr {
+      border-top: 1px solid rgb(147 147 147 / 50%);
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-size: 19px;
+    }
+
+    .info-text {
+    font-size: 16px;
+    color: #b3b4d0;
+    }
+
+
+    .challenge-progress .btn {
+      font-size: 13px;
+      padding: 4px 5px;
+      margin-top: 19px;
+    }
+
+    .info-block {
+      background: #8fa7ff75;
+      width: 23%;
+      height: 102px;
+      padding: 2% 2% 2% 2%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    h5 {
+color: white;
+    font-size: 13px;
+    }
+
+    .value {
+      color: #ffc966;
+      font-size: 22px;
+    }
+
+    .center-div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .champion-suggestions h1 {
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      font-size: 20px;
+    }
+
+    .champion-item {
+      background: #8fa7ff75;
+      padding: 10px 6px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+width: 18%;
+    margin-right: 2%;
+
+    }
+
+    .champion-item h2 {
+      color: white;
+      font-size: 18px;
+    }
+
+    .img-wrapper {
+      display: block;
+      border-radius: 50%;
+      border: 4px solid black;
+      width: 5rem;
+      height: 5rem;
+      overflow: hidden;
+      margin: 0 auto;
+    }
+
+    .img-wrapper img {
+      display: block;
+      width: 100%;
+      transform: scale(1.15);
+    }
+
+    .champion-item h4 {
+    color: #ffc966;
+    margin-top: 11px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    }
+
+    .progress-box {
+background: gray;
+    width: 100%;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    }
+
+    .progress-bar {
+background: #000c9d94;
+    height: 10px;
+    width: 90%;
+    /* line-height: 20px; */
+    border-radius: 12px;
+    margin-left: 5%;
+    }
+
+
+.role-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.role-option {
+      padding: 9px;
+    display: block;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.role-option.selected {
+    border: 1px solid white;
+}
+
+
+.role-option img {
+  width: 22px;
+}
+
+.role-option img:hover {
+  filter: brightness(3.0);
+}
+
+.main-content {
+  width: 57%
+}
+
+
+
+
+@media (max-width: 600px) {
+  .challenge-progress {
+    width: 100%;
+    border-radius: 0px;
+  }
+
+  .main-content {
+    width: 100%
+  }
+
+  .checklist {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+
+  }
+
+  .info-block {
+    width: 45%;
+  }
+
+  .img-wrapper {
+      width: 4rem;
+      height: 4rem;
+  }
+
+  .checkbox-container {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+
+
+}
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="navigation">
+        <a href="/">Catch'em All Tracker</a>
+        <a href="/checklist">Legendary Items Checklist</a>
+        <a href="/leaderboard">Challenge Leaderboard</a>
+    </div>
+
+    <div class="lookup-container">
+        <div style="font-size: 20px; margin-bottom: 10px;"  class="page-title">
+          Catch'em All Tracker
         </div>
+        <div style="display: none;margin-top: 100px" id="status"></div>
+        <div style="align-items: center; display: flex; position: relative;width: 95%;margin: 0 auto;">
 
-        <div class="container">
-            <div id="matchHistory">
-                <div class="historyContainer">
-                    <div class="region">
-                        <div class="NA option selected">
-                            NA
-                        </div>
-                        <div class="EUW option">
-                            EUW
-                        </div>
-                        <div class="EUNE option">
-                            EUNE
-                        </div>
-                        <div class="BR option">
-                            BR
-                        </div>
-                    </div>
-                    <div class="mode">
-                        <div class="option selected">
-                            Norm SR
-                        </div>
-                        <div class="option">
-                            ARAM
-                        </div>
-                    </div>
-                    <p class="intro">
-                        To get the most accurate mmr, play 20 games solo in normals. 
-                        <br><br>
-                        Queueing with other players will cause inaccurate result. <br><br>
-                    </p>
-                    <div style="display: none;margin-top: 100px" id="status"></div>
-                    <div class="mmr-container">
-                        <h1 style="
-                        margin-top: 30px;
-                        ">Your MMR is:</h1>
-                        <h2 class="mmr"></h2>
-                        <p>
-                            Want to see how this value was calculated? <a target="_blank" style="color: white;" class="raw-data">View the raw data</a>.
-                        </p>
-                    </div>
+            <div style="margin-right: 10px" class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                NA
+              </button>
+              <div style="min-width: 100px;" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">NA</a>
+                <a class="dropdown-item" href="#">EUW</a>
+                <a class="dropdown-item" href="#">EUNE</a>
+                <a class="dropdown-item" href="#">BR</a>
+              </div>
+            </div>
+
+            <input id="userName" placeholder="name#tag"/>
+
+            <i style="position: absolute;left: 95px;font-size: 20px; top: 12px;" class="fa-solid fa-magnifying-glass"></i>
+            <i style="position: absolute;left: 95px;font-size: 20px; top: 12px; display: none" class="fa-solid fa-spinner fa-spin"></i>
+
+        </div>
+    </div>
+
+
+
+  <div class="checkbox-container" style="display: flex;">
+
+
+    <div class="challenge-progress">
+            <h3 class="name"></h3>
+            <div class="current-rank"></div>
+            <div class="next-rank"></div>
+
+            <hr>
+
+            <div class="tracking">
+              <div style="margin-bottom: 12px;" class="start-date">
+                <h4>Tracking Start Date: </h4>
+                <span class="start-date-value info-text"></span>
+              </div>
+              <div class="elapsed">
+                <h4>Time Elapsed: </h4>
+                <span class="elapsed-value info-text"></span>
+              </div>
+            </div>
+
+
+            <div>
+              <button style="margin-right: 8px; background: #565895; border-color: #565895" type="button" class="refresh btn btn-primary">Refresh Data</button>
+              <button style="margin-right: 8px"  type="button" class="btn btn-warning reset-tracking">Reset Tracking</button>
+              <button type="button" class="btn btn-primary new-search">New Search</button>
+            </div>
+    </div>
+
+    <div class="main-content">
+      
+            <div class="checklist">
+
+              <div style="width: 100%; justify-content: space-around; flex-wrap: wrap;height: 26%;" class="d-flex">
+
+                <div class="info-block">
+                    <h5>Total points required for next rank</h5>
+                    <span class="value total-required"></span>
                 </div>
+
+                <div class="info-block">
+                    <h5>Total points of top 150 Champions</h5>
+                    <span class="value current-total"></span>
+                </div>
+
+                <div class="info-block">
+                    <h5>Total points deficit for next rank</h5>
+                    <span class="value deficit-points"></span>
+                </div>
+
+                <div class="info-block">
+                    <h5>% points earned until next rank</h5>
+                    <span class="value percent-done"></span>
+                </div>
+
+                <div class="info-block">
+                    <h5>Points earned since tracking initiated</h5>
+                    <span class="value points-earned"></span>
+                </div>
+
+                <div class="info-block">
+                    <h5>Average Mastery Points / Day</h5>
+                    <span class="value appd"></span>
+                </div>
+
+                <div class="info-block">
+                    <h5>% Progress Completed / Day</h5>
+                    <span class="value ppd"></span>
+                </div>
+
+                <div class="info-block">
+                    <h5>Estimated time to reach next rank</h5>
+                    <span class="value estimated-time"></span>
+                </div>
+
+              </div>
+
+              
             </div>
-            <div style="position: relative;width: 80%;margin: 0 auto;">
-                <input id="userName" placeholder="Summoner Name"/>
-                <i style="position: absolute;left: 16px;font-size: 20px; top: 9px;" class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
 
 
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+            <div class="checklist champion-suggestions">
+              <h1>Champions Closest to Meet Requirement</h1>
+
+
+              <i style="font-size: 50px;color: gray; margin-top: 4%;margin-bottom: 4%;" class="champ-loading fa-solid fa-spinner fa-spin"></i>
+
+              <div class="role-container">
+                <span class="role-option all selected">
+                  <img src="/roles/all.svg"/>
+                </span>
+                <span class="role-option top">
+                  <img src="/roles/top.svg"/>
+                </span>
+                <span class="role-option jg">
+                  <img src="/roles/jg.svg"/>
+                </span>
+
+                <span class="role-option mid">
+                  <img src="/roles/mid.svg"/>
+                </span>
+                <span class="role-option bot">
+                  <img src="/roles/bot.svg"/>
+                </span>
+                <span class="role-option sup">
+                  <img src="/roles/sup.svg"/>
+                </span>
+
+
+
+              </div>
+
+              <div style="flex-wrap: wrap;" class="champions-list d-flex">
+                
+
+
+
+              </div>
+            </div>
+
+
+    </div>
+
+
+
+    <div class="challenge-progress">
+
+
+      <div>
+        <h4 style="margin-bottom: 16px;">
+          Challenge Requirement
+        </h4>
+        <span class="info-text">
+          <span class="highlight">150</span> champions with at least <span class="highlight"><span class="next-upgrade"></span> points</span> for next rank
+        </span>
+
+        <br>
+        <br>
+
+        <span class="info-text">
+          <span class="highlight met-req-count"></span> champions met requirement, <span class="highlight deficit-count"></span> more champions needed
+        </span>
+
         
-    </body>
+
+      </div>
+
+      <hr>
+
+
+      <div  class="info-text">
+        Your <span class="highlight last-champ-index"></span> highest mastery (<span class="highlight score"></span> mastery points) champion is <span class="highlight last-champ"></span>
+      </div>
+    </div>
+
+
+
+  </div>
+
+<script src="
+https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js
+"></script>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="catch.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  </body>
 </html>
