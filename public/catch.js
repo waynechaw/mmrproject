@@ -9713,8 +9713,6 @@ $(".reset-tracking" ).on( "click" , function() {
 });
 
 
-let expEarned;
-
 function getMasteryData(name, tag, selectedMappedRegion) {
 
   $('.champ-loading').show();
@@ -9824,6 +9822,7 @@ function getMasteryData(name, tag, selectedMappedRegion) {
 
       let startingEXP;
       let updatedEXP;
+      let expEarned;
 
       let currentDate = new Date();
 
@@ -10210,13 +10209,12 @@ function recalculate() {
         if (item.championPoints >= nextUpgrade) {
          pointsEarned = nextUpgrade;
 
-       } else {
-        pointsEarned = item.championPoints;
+        } else {
+          pointsEarned = item.championPoints;
+        }
 
-      }
-
-      currentTotal = currentTotal + parseInt(pointsEarned);
-    })
+        currentTotal = currentTotal + parseInt(pointsEarned);
+      })
 
       console.log('currentTotal', currentTotal);
 
@@ -10226,8 +10224,9 @@ function recalculate() {
 
       $('.percent-done').text(  ((currentTotal / (nextUpgrade * 150))* 100).toFixed(2) + '%');
 
-      let startingEXP;
+
       let updatedEXP;
+      let expEarned;
 
       let currentDate = new Date();
 
@@ -10235,7 +10234,35 @@ function recalculate() {
       updatedEXP = currentTotal;
 
 
-      console.log('startingEXP', profiles[activeProfile].startingEXP);
+
+
+
+
+      let startingEXP = 0;
+
+      let initialData = profiles[activeProfile].data;
+
+
+      initialData.forEach(item => {
+        let pointsEarned = 0;
+
+        if (item.championPoints >= nextUpgrade) {
+          pointsEarned = nextUpgrade;
+
+        } else {
+          pointsEarned = item.championPoints;
+        }
+
+        startingEXP = startingEXP + parseInt(pointsEarned);
+       })
+
+
+
+
+      expEarned = currentTotal - startingEXP;
+
+
+      console.log('startingEXP', startingEXP);
       console.log('updatedEXP', updatedEXP);
       console.log('expEarned', expEarned);
 
