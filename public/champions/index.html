@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Catchem All Tracker</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css">
+
+  <style>
+
+    .checkbox-container {
+      margin-top: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
+    }
+
+    .current-rank {
+      font-size: 35px;
+      margin-bottom: 5px;
+    }
+
+    .checklist {
+      flex-wrap: wrap;
+      background: #0a0218eb;
+      padding: 14px;
+      font-size: 11px;
+      margin-left: 3%;
+      margin-right: 3%;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+
+    .challenge-sides {
+      width: 19%;
+      background: #0a0218eb;
+      color: white;
+      padding: 20px;
+      border-radius: 8px
+    }
+
+    .challenge-sides h3 {
+      margin: 0 0 5px 0;
+      font-size: 18px;
+    }
+
+    .current-rank {
+      font-size: 33px;
+      margin-bottom: 5px;
+    }
+
+
+    a:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+    .highlight {
+      font-size: 14px;
+      color: #ffc966;
+    }
+
+    hr {
+      border-top: 1px solid rgb(147 147 147 / 50%);
+    }
+
+    h4 {
+      margin-bottom: 0;
+      font-size: 19px;
+    }
+
+    .info-text {
+      font-size: 16px;
+      color: #b3b4d0;
+    }
+
+    .center-div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .role-container {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .role-option {
+      padding: 9px;
+      display: block;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .role-option.selected {
+      border: 1px solid white;
+    }
+
+    .role-option img {
+      width: 26px;
+    }
+
+    .role-option img:hover {
+      filter: brightness(3.0);
+    }
+
+    .main-content {
+      width: 57%
+    }
+
+    .challenge-selection .challenge-option {
+      margin-bottom: 15px;
+      font-size: 13px;
+      width: fit-content;
+       border-bottom: 2px solid transparent;
+       cursor: pointer;
+    }
+
+    .challenge-selection .challenge-option:hover {
+
+       border-bottom: 2px solid white;
+
+    }
+
+    .challenge-selection .selected {
+      border-bottom: 2px solid gold;
+    }
+
+    .champion {
+    color: white;
+    width: 13%;
+    margin-bottom: 18px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 1%;
+    }
+
+    .champion img {
+      width: 100%;
+      border: 1px solid #85858559;
+      margin-bottom: 8px;
+    }
+
+
+    .champion img:hover {
+      filter: brightness(1.5)
+    }
+
+    .champion.completed {
+     opacity: .2;
+    }
+
+
+  </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <a href="/">Catch'em All Tracker</a>
+        <a href="/champions">Champions Checklist</a>
+        <a href="/checklist">Items Checklist</a>
+        <a href="/leaderboard">Challenge Leaderboard</a>
+    </div>
+  <div class="checkbox-container" style="display: flex;">
+
+
+    <div style="width: 20%" class="text-left challenge-sides challenge-selection">
+      <div class="challenge-option">All Random All Champs: 2024 Split 1 </div>
+      <div class="challenge-option">All Random All Champions </div>
+      <div class="challenge-option">Perfectionist </div>
+      <div class="challenge-option">Same Penta, Different Champ  </div>
+      <div class="challenge-option">Protean Override</div>
+      <div class="challenge-option">Invincible</div>
+      <div class="challenge-option">Jack of All Champs  </div>
+      <div class="challenge-option">All Random All Champions: 2022 </div>
+    </div>
+
+    <div class="main-content">
+
+
+
+      <div class="checklist champion-suggestions">
+
+        <div class="role-container">
+          <span class="role-option all selected">
+            <img src="/roles/all.svg"/>
+          </span>
+          <span class="role-option top">
+            <img src="/roles/top.svg"/>
+          </span>
+          <span class="role-option jg">
+            <img src="/roles/jg.svg"/>
+          </span>
+
+          <span class="role-option mid">
+            <img src="/roles/mid.svg"/>
+          </span>
+          <span class="role-option bot">
+            <img src="/roles/bot.svg"/>
+          </span>
+          <span class="role-option sup">
+            <img src="/roles/sup.svg"/>
+          </span>
+
+
+
+        </div>
+
+        <div style="height: 80vh; overflow-y: scroll;flex-wrap: wrap;" class="champions-list d-flex">
+
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <div class="challenge-sides">
+
+
+
+      <h4 style="margin-bottom: 16px;">
+        Progress
+      </h4>
+
+
+      <div class="current-rank"></div>
+      <div class="mb-3 next-rank"></div>
+
+      <span class="info-text">
+
+      </span>
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+  <script src="
+  https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js
+  "></script>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="checklist.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</body>
+</html>

@@ -9804,15 +9804,11 @@ function getMasteryData(name, tag, selectedMappedRegion) {
         if (item.championPoints >= nextUpgrade) {
          pointsEarned = nextUpgrade;
 
-       } else {
-        pointsEarned = item.championPoints;
-
-      }
-
-      currentTotal = currentTotal + parseInt(pointsEarned);
-    })
-
-      console.log('currentTotal', currentTotal);
+        } else {
+         pointsEarned = item.championPoints;
+        }
+        currentTotal = currentTotal + parseInt(pointsEarned);
+      })
 
       $('.current-total').text((currentTotal).toLocaleString());
 
