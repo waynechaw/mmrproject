@@ -1573,6 +1573,8 @@ var currentRank;
 var nextRank;
 var nextUpgrade;
 
+var selectedType = 'all';
+
 renderInfo(selectedChallenge);
 
 function renderInfo(challenge) {
@@ -1623,6 +1625,9 @@ function drawChampionsSection() {
     }
 
   })
+
+    renderChampions(selectedType);
+  
 }
 
 $("div" ).on( "click", ".role-option", function() {
@@ -1633,21 +1638,27 @@ $("div" ).on( "click", ".role-option", function() {
 
   if ($(this).hasClass('all')) {
     renderChampions('all');
+    selectedType = 'all';
   }
   if ($(this).hasClass('bot')) {
     renderChampions('bot');
+    selectedType = 'bot';
   }
   if ($(this).hasClass('jg')) {
     renderChampions('jg');
+    selectedType = 'jg';
   }
   if ($(this).hasClass('mid')) {
     renderChampions('mid');
+    selectedType = 'mid';
   }
   if ($(this).hasClass('sup')) {
     renderChampions('sup');
+    selectedType = 'sup';
   }
   if ($(this).hasClass('top')) {
     renderChampions('top');
+    selectedType = 'top';
   }
 
 });
@@ -1720,7 +1731,7 @@ function renderChampions(type) {
 
   $('.champion').each((index, item) => {
 
-
+      console.log(123);
     if (currentChecklist[index].hide) {
       $(item).addClass('d-none');
     } else {
