@@ -23,12 +23,12 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: black; 
+  background: #ffd70096; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: white; 
+  background: #f9eca2; 
 }
 
 
@@ -38,7 +38,7 @@ body {
   color: #333;
   margin: 0;
   text-align: center;
-  background: url("https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-thousand-pierced-volibear.jpg")  no-repeat center center fixed;
+  background: black  no-repeat center center fixed;
   background-size: cover;
   background-color: black;
   background-position: 0px 50px;

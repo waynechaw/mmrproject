@@ -1,23 +1,4 @@
 
-var backgrounds = [
-  "https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-thousand-pierced-volibear.jpg",
-  "https://www.iamag.co/wp-content/uploads/2023/06/kudos-productions-airis.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-52.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-92.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-112.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-129.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-183.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-199.jpg",
-  "https://i.imgur.com/uBE6rS8.png",
-  "https://images5.alphacoders.com/131/1311515.jpeg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-131.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-132.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-204.jpg",
-  "https://www.iamag.co/wp-content/uploads/2020/09/The-Art-of-Legends-of-Runeterra-205.jpg",
-  "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-34.jpg",
-  "https://www.iamag.co/wp-content/uploads/2022/04/Legends-of-Runeterra-7.jpg",
-];
-
 var data = [
     {
         "name": "Wayne#NA1",
@@ -27941,15 +27922,6 @@ let filteredData;
 
 let searchText;
 let selectedRegion = 'Global';
-
-
-var random = backgrounds[Math.floor(Math.random() * backgrounds.length)];
-
-$("body").css("background-image", `url("${random}")`); 
-
-
-
-
 
 
 $(function () {
