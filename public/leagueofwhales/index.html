@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <style>
+            .leaderboard-content {
+                width: 70vw;
+                margin: 50px auto 0;
+            }
+            .leaderboard-header {
+                background: #0f1923;
+                color: #efefef;
+                text-align: center;
+                padding: 12px 0 8px;
+                font-size: 22px;
+            }
+
+            .leaderboard-filter {
+                background: #1b2733;
+                padding: 15px;
+            }
+
+            .form-control {
+                background: #34495d;
+                border-color: transparent;
+                color: white; 
+                padding-left: 36px;
+            }
+
+            ::placeholder {
+              color: #b8bfc6;
+              opacity: 1; /* Firefox */
+            }
+
+            .leaderboard-column-names {
+                background: #09111a;
+                color: #99abbf;
+                position: sticky;
+                top: 55px;
+                padding: 8px 0;
+                z-index: 1;
+            }
+
+            .leaderboard-column-names div {
+                text-align: left;
+            }
+
+            .leaderboard-data {
+                padding: 12px 0;
+                color: #efefef;
+            }
+
+
+            .leaderboard-data:nth-child(odd) {
+                background: #0f1923;
+            }
+
+            .leaderboard-data:nth-child(even) {
+                background: #1b2733d1;
+            }
+
+
+            .leaderboard-data div {
+                text-align: left;
+            }
+
+            .tag {
+                background: #ffffff29;
+                border-radius: 7px;
+                padding: 2px 5px 1px;
+                font-size: 9px;
+                color: #efefef;
+                margin: 0 7px;
+            }
+
+            .name-cell {
+    display: flex;
+    align-items: center;
+            }
+
+            .player-region {
+                
+                    font-size: 10px;
+    opacity: .5;
+            }
+
+            .notable-rank {
+                font-size: 10px;
+                margin-left: 10px;
+                opacity: .7;
+            }
+
+        </style>
+        <title>League of Legends Players</title>
+        
+
+    </head>
+
+    <body>
+
+    <div class="navigation">
+        <a href="/">Catch'em All Tracker</a>
+        <a href="/champions">Champions Checklist</a>
+        <a href="/checklist">Items Checklist</a>
+        <a href="/leaderboard">Challenge Leaderboard</a>
+    </div>
+
+        <div style="width: 70vw; margin: 50px auto 0;" class="leaderboard-content">
+            <div class="leaderboard-header">
+                League of Whales
+                <!-- <i style="font-size: 15px; vertical-align: text-top;"  class="fa-solid fa-circle-info" data-toggle="tooltip" data-placement="right" title="Points total shown in client may include seasonal and legacy points due to bug. Ranking is based on actual points only."></i> -->
+            </div>
+
+            <div class="leaderboard-filter">
+                <div class="d-flex">
+                    <div class="dropdown mr-4 ml-4">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Global
+                      </button>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Global</a>
+                        <a class="dropdown-item" href="#">BR</a>
+                        <a class="dropdown-item" href="#">EUNE</a>
+                        <a class="dropdown-item" href="#">EUW</a>
+                        <a class="dropdown-item" href="#">JP</a>
+                        <a class="dropdown-item" href="#">KR</a>
+                        <a class="dropdown-item" href="#">LAN</a>
+                        <a class="dropdown-item" href="#">LAS</a>
+                        <a class="dropdown-item" href="#">NA</a>
+                        <a class="dropdown-item" href="#">EUW</a>
+                        <a class="dropdown-item" href="#">OCE</a>
+                        <a class="dropdown-item" href="#">PH</a>
+                        <a class="dropdown-item" href="#">RU</a>
+                        <a class="dropdown-item" href="#">SG</a>
+                        <a class="dropdown-item" href="#">TH</a>
+                        <a class="dropdown-item" href="#">TR</a>
+                        <a class="dropdown-item" href="#">TW</a>
+                        <a class="dropdown-item" href="#">VN</a>
+                      </div>
+                    </div>
+
+                    <div class="position-relative">
+                        <i style="position: absolute;left: 9px;font-size: 20px; top: 10px; color: white;" class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" class="form-control" placeholder="Search Player">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex leaderboard-column-names">
+                <div  class="text-center" style="width: 5%">#</div>
+                <div style="width: 38%">Player</div>
+                <div style="width: 15%">Total RP Value</div>
+                <div style="width: 10%">
+                    Skins
+                </div>
+                <div style="width: 10%">
+                    Emotes
+                </div>
+                <div style="width: 10%">
+                    Icons
+                </div>
+                <div>
+                    Ward Skins
+                </div>
+            </div>
+
+            <div class="leaderboard-data-container">
+
+            </div>
+
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+
+
+        <script src="page1.js"></script>
+
+        <script src="leaderboard.js"></script>
+
+
+
+        <script src="/background.js"></script>
+    </body>
+</html>

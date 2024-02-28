@@ -69,7 +69,1255 @@ let rankToMMR = {
   IRON4:100
 }
 
-let data = [];
+let data = [
+        {
+            "name": "Kirin0630#所遇皆温柔",
+            "region": "NA",
+            "puuid": "U1WcaKD7g5ih5IkwKYoWtX-8t8rJEhz2ojSENgAOUUbonKXBnh1lWGVd8ZheQRS5evkL-YnK6G2a-w"
+        },
+        {
+            "name": "Nguyễn Tuấn Hải#NTH",
+            "region": "VN",
+            "puuid": "ofAB9B7PEsWduTgJcI_SZQtW1hwCciZzVJkKJ6EIcQsv_MfORQkG_kmDTlFhpUiG4fIHOVpZYjcfKA"
+        },
+        {
+            "name": "SeedRoxas#EUW",
+            "region": "EUW",
+            "puuid": "KIDl5jkHADI0WdZRvyfIAb5MM7ig18viA7Vzi9q3g1UmJ1cqXkM47N1_a6i0wPQ0qFo4fCGBr2X1hA"
+        },
+        {
+            "name": "da xi gua#NA0",
+            "region": "NA",
+            "puuid": "5qZ4rvqRYvR-wuBOeKDITluxcZWGpn4ewfCPukf40sD3B-JLflVnGQeIFGeLxN4FF-mriK1P9D9KWA"
+        },
+        {
+            "name": "Don Rigoni#Doni",
+            "region": "PH",
+            "puuid": "z0uJ-MyScmnhGK1TO0KUoYBPveOT85riojWh8IbXIxmX32BA1beblFQFADAJSoCT4ULJbiVex1bBvQ"
+        },
+        {
+            "name": "Tantrum Desire#LAS",
+            "region": "LAS",
+            "puuid": "ewW9i1pUKSl6WouWulOXe6KluZU_xZbGVYq8J-ICTQPTqcgZ6DKuIX_g76ZrcA2MpbsxbOaZ4YLszg"
+        },
+        {
+            "name": "UpperBlackVise#みさき美咲",
+            "region": "NA",
+            "puuid": "TE95jhGJGpCy7TuoZs9WHLVUdLJIsLpdRQcC4mvOZ6TLUlJcnRBkcfgshLoMK4wHK8JwsvsUee_gsQ"
+        },
+        {
+            "name": "ptyyyy#NA1",
+            "region": "NA",
+            "puuid": "MyAHbx8u0kFLV4-96fhlYYIpWANroK745kvx177QfoqJUs4ixziEzUZeLGREU5EJvX_ViZaF1CAzhQ"
+        },
+        {
+            "name": "항상 꿈에선 그대#KR1",
+            "region": "KR",
+            "puuid": "ZnWz06U2Yk0S9Diago09WoPJOgVsV3YzT7oStCK-hOxSDNTIrFYr6dgcDrlxThDgHzN4AKSrOZmgEw"
+        },
+        {
+            "name": "ƒenril#LAN",
+            "region": "LAN",
+            "puuid": "vFMAjclLBmIa4fmB4XMv3DSwnV5caCqOE3S9kiAI_nudykQ2_pfwm43RxZItJwj1oyKvtgsDkIU58g"
+        },
+        {
+            "name": "Sínister Bláde#EUW",
+            "region": "EUW",
+            "puuid": "_uNKOW4DN-zGBBxG0D6AOlVzG1jV7oc3FMP1_0ngT_SgBry1gfP4Qf2H8SyasfUMrh6F1r-uSn38LA"
+        },
+        {
+            "name": "DrunkenBuster#EUW",
+            "region": "EUW",
+            "puuid": "Ge8PqxaWTXL1482vzYrqasr1AH9jF25-7-sNMNdRxhOb4K3Azbmgi_Gmmn1lk5A8cclsQnUzazy0gg"
+        },
+        {
+            "name": "Michiru Kaioh#LAN",
+            "region": "LAN",
+            "puuid": "beZT0s_EjbZft4j62Crywbu8duRS2_9_jNF2CuGz6KEPcTIG3MvrqiDrRBZGRtuWQmzqBhh9tNmspA"
+        },
+        {
+            "name": "이시니#1987",
+            "region": "NA",
+            "puuid": "-Eg6dFxyhxQJpm8bo4_t9nl-KeXPd3w8JoaB06hJDyjXbk6rmJSpo9e0r2SOsnKReOavikrarp5qSw"
+        },
+        {
+            "name": "Smileyyyyy#EUW",
+            "region": "EUW",
+            "puuid": "gGOVY-YNCJgPYAWcoiLmnldsgNWIRrBlNmFLmpPSL6E3G6xNBUT6pkhO7tjRqZGSQpuP9olcL7-uAA"
+        },
+        {
+            "name": "Shynce#EUW",
+            "region": "EUW",
+            "puuid": "W1lbdRrpE18YPybqnUUsIyHHQlB2v8GHuo-uqpagbiT2VjDuaCAnpK5qEDUez5gMq-6bCuUKk-CMNA"
+        },
+        {
+            "name": "Dead Account#Perma",
+            "region": "EUW",
+            "puuid": "-gLzyM3dxVoYYxG6WdiHsdABDGOQUo4etT33jTsuSQVw42hfa7x0m1olxDoLrhvk52Otnr-QLbbidA"
+        },
+        {
+            "name": "Алёночка#Kha",
+            "region": "RU",
+            "puuid": "0S5Ebacicz4NshMBbIDMkT16Jx1yX5jA7Vmdqnn-gGBeuKdYSBjeAp3xZCAYQENfH65A4gOnANmT5g"
+        },
+        {
+            "name": "삼재는내친구#KR1",
+            "region": "KR",
+            "puuid": "a0lYFAxCphrzLcMf0biP_OicFHaLseqeTltRpCskdpdJ05Rh4YaAKx_KJ_O_V5ssLP2xgPiUuJb9Mg"
+        },
+        {
+            "name": "이상혁#KR1",
+            "region": "KR",
+            "puuid": "f1T6LGE6hRGbZLPowpm_9gwvOd9SL3r2hwZOHlvJtjhfLO9EO4D_s3Pjir79vGu9ydesBtUkOKmfCg"
+        },
+        {
+            "name": "Ewokcore#NA1",
+            "region": "NA",
+            "puuid": "bGB3IuS_zJbW4X9JdPRPV7YClZq3uluGx6K5AWxZRj-hHOdY3yOgHE65ZeLAzGu5IcH6nxwjdmuC2A"
+        },
+        {
+            "name": "Amor#1027",
+            "region": "BR",
+            "puuid": "exlS9-ODSpuiPilPin6FG9QYibLoWS1lUW5u26trrK6uO8qi2exMDPL0MA49lvQHi6WY9Vil9romHQ"
+        },
+        {
+            "name": "미 별#KR1",
+            "region": "KR",
+            "puuid": "35yppXO5Q2W2IDZdXMae1CkDantDHecVCacw3DYAoPESWpji1XArUFlGK_rgg4TAJS4kXJzFS5YkMw"
+        },
+        {
+            "name": "Sixteendays#NA1",
+            "region": "NA",
+            "puuid": "4lDSAjrGlwMpMKha56w6Cndl5FsX0FidEioFQ4nq0dCK4lnng5d7hGS0lbbLksVy6PZEeMG4dHb_nQ"
+        },
+        {
+            "name": "男童杀手#OωO",
+            "region": "EUW",
+            "puuid": "qYR_LNJAwJgpm_3mxXPHQ3BfyyQI6VA7Z5jX0HLAFd2sv6FePKad5vEa_2pEd90WE6NU0zIG_yYIOA"
+        },
+        {
+            "name": "Beginning#NA1",
+            "region": "NA",
+            "puuid": "L5mCOZeDfWNRbzX7Q_1RzWFJZGVvD6pvZ-lKmVZKwDAj6tNwv3M9bS9mvnzLsChXiiNZRVVwNseXmg"
+        },
+        {
+            "name": "Snowdrift#NA1",
+            "region": "NA",
+            "puuid": "pvTnh-Qb-FWSp0UMIGIvpnaOtmoRsMm4mJLShWI15stqoPChtv2LU0qt1A_euze39S4Q4lYApMH9Zw"
+        },
+        {
+            "name": "Freyja#2024",
+            "region": "BR",
+            "puuid": "d_N6FXaT05z270aFvjTzw3Ir9Go6S-MqcJFh4b2cIBILAHiv8CBPddZIQsg7_kyZtoEFp4RmH8cadA"
+        },
+        {
+            "name": "YOUR KARMA#NA1",
+            "region": "NA",
+            "puuid": "W1tkUrTvhPI4f02CcQ8hyx3PSGPS5Jj-IBIxFdytbEvJEyuPZWvXdmVXKm-w9Ajq67OlkqNN4epSZw"
+        },
+        {
+            "name": "silverfire#NA1",
+            "region": "NA",
+            "puuid": "qRjdY5FeE2q167-Sc30TfQ74iz_gKLG8yOiaNx69BLNJ4zp8aLBiUS54cKHvR4YSSFSU9vk-bfOtkg"
+        },
+        {
+            "name": "aszx#NA1",
+            "region": "NA",
+            "puuid": "BsDql2T3F9fIgilQts4mcahHGa3Hyey75S_HA7e6nRYU7C8mZO4VUeuFUQs-ag2wbiCKID-4mbg6OQ"
+        },
+        {
+            "name": "Muuri#Muuri",
+            "region": "BR",
+            "puuid": "lPN5UWgt2ouXhaWog_XZxsgaAuN0fN9BR5LYQm51hoBkmdkirOnMMNwcSb5yV8SIGbDZfD4j4hUS7g"
+        },
+        {
+            "name": "MeanDean#DEANO",
+            "region": "NA",
+            "puuid": "K5C-jkaoAXhalQf1P8P3mvaypC5qmAoqWqy1u_FYrh7hoHejboXo95s5uFk641IttDwdK8a1Hk-PbQ"
+        },
+        {
+            "name": "吉光片羽#StarG",
+            "region": "NA",
+            "puuid": "n4lpzfuf7twH3ZaFIGw6SI8W1ahijJOyjhb_xrQJmpYKZUb1TMI4BTpfUZnPal9-f-LumI_wwC0Lfw"
+        },
+        {
+            "name": "TheDarkQuazar#NA1",
+            "region": "NA",
+            "puuid": "d8LV3m_Uy_FY42EnZCPAmhgY_27kPjt3MuNLOholZ75RYORQ469sbO5AdH75q7L3GMaPJcr4wm6hdg"
+        },
+        {
+            "name": "유니엔마#KR1",
+            "region": "KR",
+            "puuid": "aojDGyKgEmdqXUMyLYbpWw86kF313iSIaqGTfp8DZ_m_y9LGICuXcJjJj1tEHGvX2668VDZWgi-xYw"
+        },
+        {
+            "name": "jae#awam",
+            "region": "NA",
+            "puuid": "vJuOyzKJT4OkOceMV87d5mboUyaIju8AQQ8BWc-tJnJ00j5uuEn0sCtZIL6zLziuzaqAC4eDOdKsKw"
+        },
+        {
+            "name": "Nudelholz Ninja#666",
+            "region": "EUW",
+            "puuid": "lGetNdM749wHKQY1ABjFIEF4IXtieIP5iyIwJaMEAb68RttvZZrctSYXHJU1RG6-HYJE2cX_ce0R5w"
+        },
+        {
+            "name": "Sïnister#NA1",
+            "region": "NA",
+            "puuid": "Bi-YyzNJ3rxHeO1IvitEpTCPw9WS_4vTMhnuxfVNADFVrdYhYT-6VFKOQKEkIrPo1tbSY9yrDkjrdg"
+        },
+        {
+            "name": "GameBoyDenis98#EUW",
+            "region": "EUW",
+            "puuid": "3SFH4JPGpl6lPypbFjyPEgcmJkA6OV_v8pIS5C3Cill1QjkhPApmJbP4gPx2WTQNUhELhCkNbmdv3g"
+        },
+        {
+            "name": "Stan1ey#NA1",
+            "region": "NA",
+            "puuid": "w8OrcfGhNUZOcKFZN1Pi0joRx8GFXin29up83fuv3qbMFvS0h8uPEUEjmow0DisrvsErXEnUqJ7DYQ"
+        },
+        {
+            "name": "무좀균#KR1",
+            "region": "KR",
+            "puuid": "NHl_iC5qgUdbMNcY0GAsNN0eZ7h8wRl5ybdIsA6nJ4k6dKPJ4bgbDSDJYWgG7gzsmAihfOA929hA0A"
+        },
+        {
+            "name": "Emperor of Light#UWU",
+            "region": "EUW",
+            "puuid": "KO7vJRTSTyDDETFf7XOoTanFiJiqVcI9SKxp_iVZFZlsN1t-ckFbvETr0JvaHfuJPR7uhlPWegS9NQ"
+        },
+        {
+            "name": "성기사이즈리얼킹#0001",
+            "region": "KR",
+            "puuid": "l3BePTHGwsQUeqmN1c0YCcYMIbrSGvYfaoci-4dHyFywpEVa3394SMcB_5D1Tgkm1jWUFmT-9IzyJw"
+        },
+        {
+            "name": "五个白桃#美少女战士",
+            "region": "NA",
+            "puuid": "TuTtLGM_7zrdDpETRM4lc_A5l-Pbph1LtkYXzdXhOxd_q9dRrAP9wQbNuAsIMReVLj4Ffy13obBKWA"
+        },
+        {
+            "name": "Thornight#Noob",
+            "region": "EUW",
+            "puuid": "LXERAgX5l6SWI1ss5auUTZb8hdos5lgCvBLFpyTv6hREoHlyirQI_Tn1B7x0hJ4cJjMum30jxgvZvA"
+        },
+        {
+            "name": "指図するな#JP1",
+            "region": "JP",
+            "puuid": "bLWjt1FMb_Mfv4NEcTcHEtGHCsBzED0ZEuia2yOED5hJHrB1bCF15OJeW2P3XEaq8oIPZ27T9w0MOg"
+        },
+        {
+            "name": "Nlightened#EUNE",
+            "region": "EUNE",
+            "puuid": "AjfkxQt1tHgpmNVeT6ghJJuhMqRzYXxL4LHqnBuD2RQLXOJA3h2mjrUrxOCnUVYvIB0cI0fJDdBYqQ"
+        },
+        {
+            "name": "berry#ベリー",
+            "region": "NA",
+            "puuid": "9ZOw14w8YUr5yguo8HAeSf6lSmrN2X3WNFNuBGDH4vi7ogRSAEGG0ylGmQKgE29y5yRaZ9D0oKL1QQ"
+        },
+        {
+            "name": "ThatShiro#1337",
+            "region": "EUW",
+            "puuid": "PjOQPoopi-IFkHNvxSoEhldKsalL61hQWOlWW8McfRhXmtA3icwEEzvKlwcm_v9soD8x7G0WSfTNzQ"
+        },
+        {
+            "name": "frog#Lilly",
+            "region": "EUW",
+            "puuid": "PHKNRTFGitkfsXnuGvpFAeyK-HFDFbtkt5l-ec7ufVmOug374r8SEqd6LPafVB9vAaCRESGMR1b06A"
+        },
+        {
+            "name": "Fajerk#EUW",
+            "region": "EUW",
+            "puuid": "PBtW-bYU1e0lBbQsA0vg394iEGdVR8SQRifL0eYNNO1wGCI_ztNecyoaOjzas1tVSR-ygaNJtD2UCg"
+        },
+        {
+            "name": "Omar Ali#NASUS",
+            "region": "NA",
+            "puuid": "oPECsli02nk8J0opp4yI1U3e2GWVYZ5qyN8HEeEIqDrLiEHw_U8S9z4dwuN1QMlztlMw0DnadEm2zg"
+        },
+        {
+            "name": "양지킹#1111",
+            "region": "KR",
+            "puuid": "GgyEiKhjYNK5YIclLFBhv7gCiOhSxa2QOHjpxhrAYf8EzarmQrqzYr1I1io1HWB9S_Z8EZIa9SAPbQ"
+        },
+        {
+            "name": "Syneth LightWing#EUW",
+            "region": "EUW",
+            "puuid": "ZthzLF_ldoOISNwVZKo3Ed32sjiT45-hagxHj4lfg2XPqJ83e_AE8VvNxpoCXquTI0dzcG1qxkMQ8g"
+        },
+        {
+            "name": "Noelia GodAngel#Girl",
+            "region": "LAS",
+            "puuid": "WOFnANDKoMmpp9cAXIIprLjs0fU6r75irnIKoCWWlEt9JrchWLLmlKf4ZyZ9ny4EnrWQiwCy20ldBQ"
+        },
+        {
+            "name": "Kelepetesonte#2137",
+            "region": "EUW",
+            "puuid": "bGon4vsDjr4ixODkMvqmT-LXfxOwjMcMPOCEuN5gWXxmQfz5XHTLL0-a052qtI-zh_y5JTICCnDPFw"
+        },
+        {
+            "name": "apenas peitos#vogue",
+            "region": "BR",
+            "puuid": "4vlA_uAATCNYfLKmd13ijqGCeI5lMX3ENgaQwF8gu2ghhgIosOtAKMhKoBgbSI6IGEkgS0dIme7BqQ"
+        },
+        {
+            "name": "ポピー#JP1",
+            "region": "JP",
+            "puuid": "9hM4uaq_MW88JOmr94jl4QJk475oL0OTYZODKlokE1YcNpCyDqd2zTaEC1sOxFzUV5nV9x0-VK2mzQ"
+        },
+        {
+            "name": "冰鎮酸梅茶#Sky",
+            "region": "NA",
+            "puuid": "G8ToR9Lp8ZHY0OSZOUwbcz7A-Laf86Otld4PbOTWKdCn4YXafVARSJevROmnIFOxciJqVQtPHgD1sw"
+        },
+        {
+            "name": "Beer#6666",
+            "region": "VN",
+            "puuid": "imdZP878fl57d9Yv47tNw7qEV_JXYn4RKQPZG27Kp13qv3Wwr3kKkkHqDshfAwPX-iOFq4FP6HJyFw"
+        },
+        {
+            "name": "GarotoDePrograma#TIBR",
+            "region": "BR",
+            "puuid": "8MyOVT2ohdLMjKfDLYbKpYCiQBC3Qzp1nDAyJO4WdYkgCFlRU_A2i5jtPqnNGOSxdhHBvECOwlJSUA"
+        },
+        {
+            "name": "Akai Zetsumei#Zetsu",
+            "region": "NA",
+            "puuid": "8sXOAR7BLnSpT_P2YrEKMlYaDpWRpDQtqgnPQNJcZErejwnvF_Ub5PTacyAFnZCdyHwZidPyKRObTw"
+        },
+        {
+            "name": "ZcoBii#EUW",
+            "region": "EUW",
+            "puuid": "FXe3gS-mZYAMh1FBejHyOqezRcY_rcow7-9zQwcEv34tC0Er184f5Ce6BYAQzOu7xExPt2TnA_tUZw"
+        },
+        {
+            "name": "thug#litty",
+            "region": "RU",
+            "puuid": "zjD28-eDYhmZRr6uO6-9xWgc0O2EUDTEad_oAz_DM2krwX4OBSJ8A_73t9MtHM3N78FggL6OJstQDw"
+        },
+        {
+            "name": "Snøwie#UwU",
+            "region": "NA",
+            "puuid": "PZXE788xi19c7W7AHho0Gpf4bxnnP62D0o0tIEdGmttgzhwK_ogKifTprFOvMqeW5UyQia9h6A21xA"
+        },
+        {
+            "name": "Noxian Assault#0001",
+            "region": "NA",
+            "puuid": "N_eoNM0nKg5EovPtorb77eEheGzWRK41TfG5g0Nc9vk56oVWLzGQyNJvVvXAveF4iqRt9lXnSqNFQQ"
+        },
+        {
+            "name": "D4R1UZZZ#11111",
+            "region": "LAN",
+            "puuid": "TtaI-SN6iShluvB5iGshTAIy05SBcG-kEY1zswYWt_9gJFvp45fTeemgRlywzyLqHUdFfLUppEi6ew"
+        },
+        {
+            "name": "海老臭い#JP1",
+            "region": "JP",
+            "puuid": "RbgjAybjsLajVqft9OPu0gITAwa9Coru4YNMc204zvTW6MVHSLvjJDLQhworyY_63KCPry4PplRr0Q"
+        },
+        {
+            "name": "BaronMuchi#NA1",
+            "region": "NA",
+            "puuid": "UV6QWijvPSiAFnQeOfz1mt5VSkpNxTfLJBkrpgCLUDj6JodSSjyVB2BzXswG8Yeijt0nCynIE_N1lQ"
+        },
+        {
+            "name": "Nint#Bat",
+            "region": "BR",
+            "puuid": "W6-FFOqTSx6TsG6ByZGf6A12rng2oQHGEa4CSCFVnDOaDHMDePNE2vs_0KsvcVZ2adaxSWjiHP2VFA"
+        },
+        {
+            "name": "징크스#PENTA",
+            "region": "KR",
+            "puuid": "COSc1xDjQrIvegvkghlUfa35inhyX7v0k2_p6qDdaeCyZZOQ6cNbCaDuoj81Q9NK2I2HH734B8wS-w"
+        },
+        {
+            "name": "zajączek#kekw",
+            "region": "EUNE",
+            "puuid": "-ZkpynXV4O7lPkQOJ_NbK_5YL1ZDBAPSt_wR3tTVNjvuQTzbXL9ZZCh0ppnUMmUjGGmSUSNILo0g8A"
+        },
+        {
+            "name": "Lulú#BR1",
+            "region": "BR",
+            "puuid": "i_judNWDZNfwVQjOpZopoJaaKRXIXwKT4j2IvCgra4BLsCK4A4vjljMNdcd0ispgJpJozPqA3tRimw"
+        },
+        {
+            "name": "Norgonomicon#EUW",
+            "region": "EUW",
+            "puuid": "LvM6xyRYX1ejdH-Mpxvi60UwTZ5nZmVSMSW_nmTk_M47EhHZxazzlsOK95tb0Netg8GfpF7EBuGbMA"
+        },
+        {
+            "name": "小手冰凉#yyds",
+            "region": "NA",
+            "puuid": "rtiuA_t5cHeF3jlhPqfOn_WPMBEXqmaEEY2-P_riSlo2h59yts8CNL2ZyLahNuJOjrD4TdfnmIjDWA"
+        },
+        {
+            "name": "Cole Palmer#CFC",
+            "region": "EUNE",
+            "puuid": "KsTzZOYkwKtuFixxX9gWywVmWmNq5gkjlLUKgE09QMgdQk8MqaQakUT-QkrBPGbLQeRl8o0aJfS3mg"
+        },
+        {
+            "name": "妳不說真心話妳讓我怎麼為妳大冒險#閣愛妳一擺",
+            "region": "TW",
+            "puuid": "OVWP-OuEBTFp0B5nw15utj3aGGyUTGDbXfbxuP4seJvxiOajX-WekTZ9CcfPcDkMZe1OuLhz4F1bJA"
+        },
+        {
+            "name": "간호학과 1학년#KR1",
+            "region": "KR",
+            "puuid": "oqpc2ZLzS4m1sxSm2ld_j9IObODutZGinwc9wNT0QV_zTuMYemolOItH-KeSMyYkLngCDQTViMM7fA"
+        },
+        {
+            "name": "Elisza Kitsune#ilmbf",
+            "region": "NA",
+            "puuid": "JVv0sgBjwMQtVGdOQUSnQU7KSPeY7g0JvaDUUPIdjXKXWPgRY8E_ua4GtQgojfaxIzdv3gNBplij8w"
+        },
+        {
+            "name": "迪士尼在逃猪猪#oink",
+            "region": "NA",
+            "puuid": "YCjx677rdl4t8UHCS4a33cpuFuN9GmXy8uNznvkPICZjaez5QQ2sWHxc7-DtyGvcL4myLiX1sIVbyg"
+        },
+        {
+            "name": "Myth#0101",
+            "region": "EUW",
+            "puuid": "rjhiAD83FIFl2-Xnv8mUIdtvO3vggl_VtKZLN5EeXXX3Jw42VvYk5PC7qXuK5uqg4K1yuKICgHDGIA"
+        },
+        {
+            "name": "Ali#12988",
+            "region": "NA",
+            "puuid": "4RcD_7Kv9qQo7jEStTgGObPLS_jKkwTPSty2H-loRHXmsqHDUStIJoeWQWSnxcRmXWVfrnEG2sdmQA"
+        },
+        {
+            "name": "FallenSte#Kayn",
+            "region": "EUW",
+            "puuid": "4M7X9s4kOLcz37XgFqhZKLLZxNmP_9BtARCZqNjr7yfn-yZ3Eqh-cq63qjDOxcXmEp45XrHKAqeY_Q"
+        },
+        {
+            "name": "Alecc#EUW",
+            "region": "EUW",
+            "puuid": "KqQxa0I3hz9jQHCoM98koPyfj6T-5ql8D9D_R-WBRFWSa5koREj8Oy3hzzF-fiY4Q3yQ6ryc0peZtQ"
+        },
+        {
+            "name": "Mark Forster#Ultra",
+            "region": "EUW",
+            "puuid": "ZYS7XzIEtwaWbib1E6Q54emEDZcryi1aw5YH3JPZ9rID4CZk7ZggiJS93qsy6OiBz4HaQxtRLaLr3Q"
+        },
+        {
+            "name": "sunshine4u#EUW",
+            "region": "EUW",
+            "puuid": "9iQD6De39BQMRzuo9-myzLlir--m-_i_kgzJi_FgQRCUR-Z-5HcsAKMj_vTmaOX4eP2ogUVD07Sy1A"
+        },
+        {
+            "name": "DreamMaiden#DREAM",
+            "region": "EUW",
+            "puuid": "rPCSmi3fJQGISYghsvu1FEylGqGR3iKfs4h3h7ohdga1ZlRZVo77LMaTx-w3UWi4r17_c3DaO4Ci9Q"
+        },
+        {
+            "name": "MVP#RU1",
+            "region": "RU",
+            "puuid": "sHwNIKwc4pHsMWiYMhV7ZRtCnvf7sLsGtMXgCqInyZJ7c7u4fSK6sWzvhpnHX1NqK7uQehG-AFxROA"
+        },
+        {
+            "name": "syaruru#0323",
+            "region": "JP",
+            "puuid": "F5VflIFatL7zgntstDOjuqYLf_g2nWyktdAtCdsZgHgKEvHLTd0TLw_qc3Y14RbpTffxF5C8aZ_0Ig"
+        },
+        {
+            "name": "13th day dream#terra",
+            "region": "JP",
+            "puuid": "ffusWPY7VbZxvPVVevdtc4Y8IdpjRLeBK_TnF2Gh1TZTsERsCxZormOnHwHnUjNKPVP7VKJBuMLleA"
+        },
+        {
+            "name": "Das Biest#EUW",
+            "region": "EUW",
+            "puuid": "p1WEeFnowtGkDQDlUHxjQcdIctJESKBrOSZPLpPoV4t10Ck0nNDvykZvbSbA-1LZ90Lidx7ycgP5gQ"
+        },
+        {
+            "name": "BoKaRnAgE#BR1",
+            "region": "BR",
+            "puuid": "K91Vis_chMNFSA5wkcXoTJsl1rlfTgOft6w9dgsq-PLM8fTqdeqqFohDjj7vUzGdxn2-yvT5L4Lf8w"
+        },
+        {
+            "name": "まさゆき#JP1",
+            "region": "JP",
+            "puuid": "IfM_5lC16YVlh-fScq1TV7E12kXaAAg7wMdAclByFRZBXLnleuJi1ssWAKiL44xNoFdvcHMFlQoDrw"
+        },
+        {
+            "name": "Xhyyyyy#2531",
+            "region": "NA",
+            "puuid": "r10JoPjovUu_yGuLyKNwOZE0zkEuGXCWMEzdsNvTU6oGhnZKDxVFnBKSvguxZBYX-LY04pyC_L3ydg"
+        },
+        {
+            "name": "QiàoQiào#0205",
+            "region": "NA",
+            "puuid": "zvD1Yox51iOwAeKC7wmLUWecAaX13JR-_P-tuYrZo5pVOyDUEd5p_1z4FVMy3fP-FPYkWI5J4FM_-w"
+        },
+        {
+            "name": "VTRST Spoofer#νтяsт",
+            "region": "JP",
+            "puuid": "k9ah0RuEhtbe0lintPyqWJom9V7w4vRID4ukhMIaR5Li356y1X0h2kPbi-DxtwH072C_R4ZVrnIzjA"
+        },
+        {
+            "name": "Mimikyu#Oreo",
+            "region": "NA",
+            "puuid": "Cn-8F6b2aOLl-NtsDXcphy8Z8pZdrgDs8BXg00Aum__KB-mRs0iXsrr_a_TEJVFRVk1fpLFwNhh2SA"
+        },
+        {
+            "name": "THOTTIE HUNTER#EUW",
+            "region": "EUW",
+            "puuid": "_DZY7A4Vec5FkQCGscXO6Turwi27mHPuXD19OcPqCnrDFBh0a_0SAmyDlX_gVgkTELyuBCXr-vuY4w"
+        },
+        {
+            "name": "CNMniHonjin#JP1",
+            "region": "JP",
+            "puuid": "4BKITjMniCuH0r4deMXeNDdFEQIDV9za72EUOvnW5mYwk283XoikRpW-8xXBXLpOt9udOQ1GxwgCQg"
+        },
+        {
+            "name": "Averwynn#NA1",
+            "region": "NA",
+            "puuid": "O4TCHKoiGcd-21Bm5dlT107RWeneHJW74AU8kaYbxmk9c4y4UrQl4cqR571rdu4LmkoCae_jaVauJQ"
+        },
+        {
+            "name": "Shadowheart#zBG3z",
+            "region": "BR",
+            "puuid": "zAtbhunB7G7V88gsBTPBIRn0JsD2oqnsM0xa4YDwney0J2lZwthHTRbsPENxX6K2CbyqtJGfMqtYtQ"
+        },
+        {
+            "name": "Fel#Fire",
+            "region": "NA",
+            "puuid": "gczWoc8YdxwsRTSChqdCLt69G5iOS4Pfv_XnGdfq1dSQYOhqWoLdE_Iv_K6RZzZC2DsM40mb8zoR1w"
+        },
+        {
+            "name": "호 야#3223",
+            "region": "KR",
+            "puuid": "0of1y7QQ0NMChSTAd0UqzvQC1ScZXXu3faXTjPtS8DSafIY8Uy3FuoyX94NVSU3-xooDYZrXOEVxuA"
+        },
+        {
+            "name": "Chiko#001",
+            "region": "EUW",
+            "puuid": "wqm0KlpHXrlV1UNe19IV-eml0c3b_w-lhdbqSpueA_glHCINjbp6v54VGl6dDZkzc96XcM4ULme1Tg"
+        },
+        {
+            "name": "王袋先輩#JP1",
+            "region": "JP",
+            "puuid": "C_cnfowZyFo9Ma7pbvjDusZfPxRAulxazsuGh9c2bZaBQnQVpQ0faE_wZ7TGmZmWRq9MNtSos6poTQ"
+        },
+        {
+            "name": "본 색#6982",
+            "region": "KR",
+            "puuid": "NGE1UjfhftdADXWOTNB2MquZqERj5FqXgMcD10KziDmQvktqkN47VEhrPh0gI0bM4Jt2bliHcfnItg"
+        },
+        {
+            "name": "Rayceus#XTRAS",
+            "region": "EUW",
+            "puuid": "Bov5TyZ5SHIgmAIq9cU2rS33dIPKyta8Yk8t-KhVE9DLQLZHFWTD56bOFapgT6awVJznwhEve7lTOQ"
+        },
+        {
+            "name": "T1 Rekkles#1337",
+            "region": "EUW",
+            "puuid": "T8eeSjnQv2ddsAT7hgS3K2-k6_qnl27BnTNUaacrth41sqz4NECv90Ggo79Q4qW9uLYF5mMupiOg7w"
+        },
+        {
+            "name": "Todos Los Diass#KR1",
+            "region": "KR",
+            "puuid": "t1rnKsJxC3LIvLS3cwHgEnMwoFMZH2i50VR28OErkN7P7cc7Q5d4blSP8AjGJxO-PA2ZeDBFutluYw"
+        },
+        {
+            "name": "Scrounge#000",
+            "region": "NA",
+            "puuid": "o3ile6sMk6MJDJVy8_f-0CMX_W_OOItuZJpZodJzvwRUFUJiov2t5RMZCRUz71fyKNX7m31stPlAZQ"
+        },
+        {
+            "name": "Lalakas#JP1",
+            "region": "JP",
+            "puuid": "ZNSwjqeDc6I0X9l-GVNZV071_fjGxQqZGz1kWmIwbULQg4HbtNkFhtqTSSQYKBuGYJiqg_qL6xMtOw"
+        },
+        {
+            "name": "古月方源#8338",
+            "region": "VN",
+            "puuid": "60b-DUZnpGDzhHiaUnrTXKhpVcHGUAuNLpjamAC2qTNmhexLpcewSBfTl_OR1XN0TKuTgvC_GO97kA"
+        },
+        {
+            "name": "Lukwer#Kat",
+            "region": "LAN",
+            "puuid": "dUTfbxqEnBfU1LY4mmrpFlT8OibESyP-bpL_lkVyvfG_2nPbrhzY3jjjFQOm5C_fVxm9Gv1rdUG1Hw"
+        },
+        {
+            "name": "きつねちゃん#JP1",
+            "region": "JP",
+            "puuid": "hFD40xsl7NP3U44PjLQxMJAcpa4KtCP0dqmJ0EwCCU6mULUDIMhxul7WjUvxvb0Ifnf_nr24c9pjVQ"
+        },
+        {
+            "name": "Gullwing#EUW",
+            "region": "EUW",
+            "puuid": "nsPBaX2ECu2ogaS4ztUQftMqWujxozxiSq8Oa_-D1ANC2wYqIt_BJje9eAbEZbvlhr8XpBNKVez6SA"
+        },
+        {
+            "name": "Pierce#BSP",
+            "region": "NA",
+            "puuid": "aY5moH8KO-SqgZ3QxMZWV1tRoOOkme2ciIh-isnCdDJ6fxwUyl-gyplS5PW1yH-qDfgvnJrFMjRDCA"
+        },
+        {
+            "name": "BEE Gundrex#EUW",
+            "region": "EUW",
+            "puuid": "LU9t-_n5Mn-ztTXc7boP8QHMtF5yocVNLcwJ9kY88zg9reuuNN9mBo6khpJ-AwzgQLldXzOgBJVrEg"
+        },
+        {
+            "name": "オイラはナナチだ#JP1",
+            "region": "JP",
+            "puuid": "39LQQSj8tUpS-yL73Fin6_Zaber69gY5ClDyAjZsw3_FbUKA_k4aNfJ986Td-nvNPFOl-krX7LnzEw"
+        },
+        {
+            "name": "뽀얗고하얀복숭아#KR1",
+            "region": "KR",
+            "puuid": "s61PBLa52qp9FbvUSXolc0EUc_N2KMWNyJEX6Hu1Nm3jdKT6Ftr82qGFq5ujq1oXKkn7xHEZfQ2VMA"
+        },
+        {
+            "name": "Z0BA#EUW",
+            "region": "RU",
+            "puuid": "7eEcUUfBWBxCpJTDr80-Qyt2ByjamW1hatA78cYW5s4S4p4J8uyg8HYOgsApWFnIDCvvyH7UHQITdw"
+        },
+        {
+            "name": "Yeyasu#EUW",
+            "region": "EUW",
+            "puuid": "xGw3Tc3nPnBau1IA1RNo9v6Nd-xbXdx_Z3_FaWRRqZ_xFGhAYbSVCWyCLgPNIkhX5s23_pk8aJMioQ"
+        },
+        {
+            "name": "Waty#Waty",
+            "region": "EUW",
+            "puuid": "vVl_0TUbN1haTpqXZ9h--4Hx1OMRD6DYBZcrp2F8y_jY2cVBKsd4H6z25gM8yRuakPTj6HnylJWt0Q"
+        },
+        {
+            "name": "mOerwi#EUW",
+            "region": "EUW",
+            "puuid": "miGpfke_HLv3mjCMVCeS3Mz6e3HuETi-F8FDoIvpNk9H0d8KbQi7hjVP6IFRuj00cn4iBt0PYbaCTg"
+        },
+        {
+            "name": "HeroRex#NA1",
+            "region": "NA",
+            "puuid": "SlKXlDGs7PwZ1WMGrVzkba-e4jlt4uf0zBj_IZsCk_2scqB9K7B8fmZXJOZr0NGgtuLQjiFZ-GFiVQ"
+        },
+        {
+            "name": "StepBro#WYD",
+            "region": "NA",
+            "puuid": "5x7opDRuGG1D7ueY3_klnR7GhrV5V-t6Xm7h4bUUz5UqccBI828u70uESaHTZfUKNiESLZmm8LM_jQ"
+        },
+        {
+            "name": "치맹타#KR1",
+            "region": "KR",
+            "puuid": "tYDz9hRG5jD09cSC2k3vecdgLOlXdoP_3sNenL37Fv2JL3XVqmo1_pQHPIoM0Xv2GlwQTH40pSt-MQ"
+        },
+        {
+            "name": "111#EUNE",
+            "region": "EUNE",
+            "puuid": "IMHxWmy7M_cPskSSf3VqB0WqhOZ2RsJVNpC19WYLvk-3g-_rIwtNXB9XR0GSfieFcYvBRvwgs3cc-w"
+        },
+        {
+            "name": "솬 띵#KR1",
+            "region": "KR",
+            "puuid": "U9B0XN26iuw_PHBAt8No74DUMrcFZbfNzAH8tzWBkqwOjhbkqiPMpWn88JARrFk3DLAzicTKVh9SQg"
+        },
+        {
+            "name": "Countless Skies#EUW",
+            "region": "EUW",
+            "puuid": "vT7jPcMNYUT0zirNRyguJy5Wu7KveV16ea5AIv__q2B76IB3ZdGH_Mtg8ToB0k1CJb-DVoE6OYsPlw"
+        },
+        {
+            "name": "こどもちゃん#JP1",
+            "region": "JP",
+            "puuid": "pFIkUWHLN3Dm-2sUBMPPIPpkbTS1Da5fNfXUt5gpmnBKi4x5gOqx1r8DgW2Cur4m7EjnJC7vT9QJPw"
+        },
+        {
+            "name": "zvltzb#sci",
+            "region": "LAN",
+            "puuid": "-YUYfWmLvgMkYt5lJc8DR5TMN5tK9YUTuSesk_YqHk6dsuoyowY8vKLavPhBRQTYB2rkcjw3jgm_Iw"
+        },
+        {
+            "name": "GIRLIRL#Yuumi",
+            "region": "EUNE",
+            "puuid": "f0cItHruNBXF3VILPUBMUDMygI-VF8z2W4nahhgCyFdjfLxv1nJUpyfjYfpjOqdBSJCsuuKFz3NU8g"
+        },
+        {
+            "name": "튼튼짱짱만욱#튼튼짱짱",
+            "region": "KR",
+            "puuid": "OTkJXuBhqFe6meQzOwmXKBMgTf5VtcADUjJlbFUVsm32Oi5ViNGbKlPHQsshe5tWkEKXQHBm87YWBQ"
+        },
+        {
+            "name": "小当当#B0226",
+            "region": "EUW",
+            "puuid": "rJYPsvbRbpF1vzSf8pOH38yrs8_JVRv9h4DiLeit4HkKkP4z6G3VWNc5NjVI3xqm4jvq4bkArw4JwQ"
+        },
+        {
+            "name": "chrisny#1337",
+            "region": "EUW",
+            "puuid": "S805f4ga9lho8bRedyQ_J8oRKYAS1WVPDhczM2DKSyYyuMyDDnB6uv11oPND4VvyIXEoylTHbnK0Rw"
+        },
+        {
+            "name": "Infinite Regress#KEKW",
+            "region": "EUW",
+            "puuid": "2fDjk5rjrzLml7pxhoVUOrvB83Fee53HeZiwkqmRdaYwOaR-yloRj5DUKm3R6RBOyh1Dnsh9Hj4Vbg"
+        },
+        {
+            "name": "스낵이#1836",
+            "region": "KR",
+            "puuid": "u6tufghTG2R9InNzQymh_fEvOlQs5QsVTUgqAD-ThIjxroRNdqLPRJB9YKQ4SpAChzv2GLPqR0TPRw"
+        },
+        {
+            "name": "BALENCIAGA#KR2",
+            "region": "KR",
+            "puuid": "cibCGWuA5unQtYs6ezuMAYe3hr5vYWtWva9hUFlQ82IquadMpIpjRTRjEJDdL-Y7iZ-NyONLeWyq3g"
+        },
+        {
+            "name": "KVVT#EUW",
+            "region": "EUW",
+            "puuid": "iNXWhqEKNi2xkkTq9PvA4MvjxtOxIz6nGR8jbL_UTSJMCjSXccWMlUTNMsG1n2rYJpR4dL6N9JCU3g"
+        },
+        {
+            "name": "Timeless#I944",
+            "region": "BR",
+            "puuid": "v-Uaat0kB0Y6QV6fQ6r8wZXkbYZorzlHZ2uWOKcdpAbHhS0iu6tj3pNGi5p-OMAm5pUDCZyyak8www"
+        },
+        {
+            "name": "GLK#2710",
+            "region": "BR",
+            "puuid": "y8hfAK1Kp-2rtB4hbgS_cjkKmezwqd1GubsuF4uIIz1m-Y_8vln2oH8lLYhKrNREHnaxkS04eEa4ZQ"
+        },
+        {
+            "name": "FizzedInVayne#NA1",
+            "region": "NA",
+            "puuid": "vgZR1meReSSqIlLxQklpefJ_YPTFrhHlN6mMgmNp6WPtopJaXogsJ5GeZZDxHzwmW3nqFwbNuDlScQ"
+        },
+        {
+            "name": "DarkNinja411#Ninja",
+            "region": "NA",
+            "puuid": "LsDwQ3yZEXOIIEdxrLyjT7_Y2YOCQi-BQywZ06TemdvIdEGpjF-uP0-_XcLwP5HhyaH1uRbl-DMtjA"
+        },
+        {
+            "name": "Dad Of CC#DOCC",
+            "region": "NA",
+            "puuid": "_tR7QDIbG2bhZUeP3HUnw13rbyYViAa9kq3dbq16chZPAcrRX_trb1UaGkQsn2m-mXk_o00aCKNN6A"
+        },
+        {
+            "name": "Ducky Bucky#NA1",
+            "region": "NA",
+            "puuid": "q_v7zp_feI5aYBzEZwvEgqtUyr-amKTgNGRzTAxV-AMMFNXAfqvgjCN11v0BOu10AekX6YfYYqhAqA"
+        },
+        {
+            "name": "특등사수물총새#KR1",
+            "region": "KR",
+            "puuid": "jzGJ7i0qeaPCc7L6Z8e0tvlPprULQHLEf1Ctq4-pu7-P0H3JDfihcRQilD2RV1jmh96FPTPa2CGW1A"
+        },
+        {
+            "name": "두 부#doobu",
+            "region": "KR",
+            "puuid": "dU3ULb_Z30za3_EksBryTmVKXTyU7ld4tqd4uQ4RemegtC7kzYO6GcMiJ_39SKwK9XAhM6cfbbAPBw"
+        },
+        {
+            "name": "Godzilla#965",
+            "region": "EUW",
+            "puuid": "P58hWSkXOfSJcWlnvNQ5oLBv7CUuuAVdapOHD8vYw98JVjeP4l21QETXEZT58Lq69R1UXzaJA8HF6w"
+        },
+        {
+            "name": "탱글수현#탱글수현",
+            "region": "KR",
+            "puuid": "0Gmnk9V3vp8UPAciFyy0jFHFG_K6Ph1tA9gNGKlG98V16KrlVrrzbZxY9bFl4TR5y1Cp2LLZn-7-qQ"
+        },
+        {
+            "name": "Reaper5599#Reaps",
+            "region": "NA",
+            "puuid": "oOrJiMG8s_-5Od43qJPJoc6GHLr5wgy6ib89gm6ugGvDy5woooraI1NUtVM7oCJS7F2_YSIiXrBOmg"
+        },
+        {
+            "name": "FirstVictim#JP1",
+            "region": "JP",
+            "puuid": "Qxm9hNPFAHvSOFeHYig8bx7fkzY-8naps7dFAwqww4x_JPBFp0PAetOQJQKRX9xShxvgup4d8duv4w"
+        },
+        {
+            "name": "Tyrranoid2410#EUW",
+            "region": "EUW",
+            "puuid": "HhR4J692YBjlE7GTITYNuk56Dff-GNP5sYG40gJmoKpWHyliQ-P5fOyQpEgwY7tSgMRAAkzJ7RS6GA"
+        },
+        {
+            "name": "승 용#KR1",
+            "region": "KR",
+            "puuid": "m5_Sod9nDaPkNoxeCLkr2lHNmuIZNNuEi8PUJmvWMK0OwdJw57I6G-ebIyOWU-J9yfuWAaWc92CU_A"
+        },
+        {
+            "name": "Zan#6523",
+            "region": "NA",
+            "puuid": "L5fHJO1HGC1qQMO2of8pG4OPS6rXK6PvrVwr9zHR37mol7kJPqzw0IYfJX-2LYRyIJ_mBVdePY-7Vg"
+        },
+        {
+            "name": "BlackDizzle#NA1",
+            "region": "NA",
+            "puuid": "5wAy7wehjkYnrEyx7lLc9I0ChP00Kj1bQnfi4Z5Xu4GHO_Bsm9zPby46OVD6wXPW7J_sewGv5qj5ag"
+        },
+        {
+            "name": "Zyrka#owo",
+            "region": "EUNE",
+            "puuid": "pBw_iRSr49XCZWbm0kdd4NMQSc9QWgHFdRdoRmA9jlVf1S5ChnrZHPe45LHjaS5Jx_ch3VX63-rUNQ"
+        },
+        {
+            "name": "RedRex#KING",
+            "region": "EUNE",
+            "puuid": "YCMBaLvOySfyyUBfAHSJ1Sl84tzfXImnZvmJ7Bf5KPX-0iLhKTKIhQud3MQ6twt7LYtwIBcWxdbReg"
+        },
+        {
+            "name": "Reality#EUNE",
+            "region": "EUNE",
+            "puuid": "nSNomTepwu27k52y48wFzBC76a99ACIGj98DDMOqO__1nU4ymPVJTMAepVmOzkMjCgCk29wspD44xg"
+        },
+        {
+            "name": "Roserub#EUW",
+            "region": "EUW",
+            "puuid": "_vU3LDHNtaagDR2DLMczFl_6h8PTUkU1w_hxlBJPLyOlae3KFP-Uy1O-Jm35VfdpDZwoua6oDQ5Hpw"
+        },
+        {
+            "name": "Panda#0309",
+            "region": "NA",
+            "puuid": "7xoFYLOk7hq5W2S9VXPbQmUM-1ka8UxXygKLN-E6EJflFI1gDxTT8RgrTXU86XGUhND9Hs6LcPz26A"
+        },
+        {
+            "name": "Archtarius#00000",
+            "region": "TR",
+            "puuid": "aY7ypAJERhXqTOE3Mbk1Lw-kfBLSb11VYCljtqiiMMdeQnnVf3gG3rp4wzRNjwmHrwU_RyH3-57rOA"
+        },
+        {
+            "name": "퍼플색돼지#PIG",
+            "region": "KR",
+            "puuid": "Kaj5qtseZikg5PGKtZdzjCcrYyWXfRcnVHi0ASJSHDkW0aeH3hMUzLa1ebhbRvj-VgLLCKdV_upclA"
+        },
+        {
+            "name": "Vendo Bolo#bolo",
+            "region": "BR",
+            "puuid": "GoVh_gtOZvof4vDjFHgrGwSLYMWMBbQfrHF42h0qAzMpO7UiKS6GkFQhL6vxpOz6gqwhe3uaSNmdOQ"
+        },
+        {
+            "name": "Zoe#Tommy",
+            "region": "BR",
+            "puuid": "EBcEZQ-x5RA2YYOcihBL8zbQ0settpPeOgZM9iROxTgiE6lSXbgG19NpD-X0q3CegnNzcPo9gWLduA"
+        },
+        {
+            "name": "Reasum#Xia",
+            "region": "NA",
+            "puuid": "7PDqVf4D6Ns-zxoHNYdmKbZ3hd0FPICTmoB9BVtOPQlBXTPNZb6RsCq8q6K6dN0WYewC2KdEv1RmJA"
+        },
+        {
+            "name": "最好的老婆#1603",
+            "region": "EUW",
+            "puuid": "gvdcRgsv-t7_TP-X6CJzOKUG5pAFvsGFCDwmtlWtg6HCOKWCle3Gq6zLpGwdgksIoDnBcNsBEG7bAg"
+        },
+        {
+            "name": "Robo#RXTN",
+            "region": "NA",
+            "puuid": "BywJ48j2wKSFukfIDBI42mL6ORAJvSEJ5_72qM5nmBbySY-yrxkZEEtjhYwkbzvO7GsAbSLIOHqHHQ"
+        },
+        {
+            "name": "Smolder#Oreo",
+            "region": "NA",
+            "puuid": "zaiQDaU2A0AnNTyB1D9T1Mg6F23DtRN3Y0tN76zVqqZd5COc5waczejByQlu_909G9Ew-so4X94ncw"
+        },
+        {
+            "name": "Gowtherμ#EUW",
+            "region": "EUW",
+            "puuid": "lk_CQ39Qjk6vluB_v7Bh6heALssOVLYuAAxviwmI6pWdVyykDKG5lcwkziOdoXyXjU37o8nIVIovxw"
+        },
+        {
+            "name": "Ðªmøń#EUW",
+            "region": "EUW",
+            "puuid": "_Fzst1J1f2z284S2lZRxvMsix0uP4UeQlEOiunJSttzayJtkrc2PkXYNmievEN9l5ZvPsxZL7EyiXA"
+        },
+        {
+            "name": "3BM#EUW",
+            "region": "TR",
+            "puuid": "rWsZoYzoumjhHaHZBzWR1wZBeWJQM_JX-vVwj1BdsGyFVyAX58Jqf19M5NVmBn3irk2NdK0gFoYJSg"
+        },
+        {
+            "name": "Archonit#EUNE",
+            "region": "EUNE",
+            "puuid": "yR21KdAMWl3RLQnTNVW_yULVxrRScSYEJcAmgzhkuNCcCzltDx4D61Py5cPSC21ZB-NbHi7DTzm9QA"
+        },
+        {
+            "name": "RATouille#COOK",
+            "region": "EUW",
+            "puuid": "7JanlZZUYqiDkqVOe3OQ9C66yahvviVbjJmKHSE3nfO3Dcz90Ci_AodUzeXowqPtdCe1eDeNXHxCEA"
+        },
+        {
+            "name": "Shayden#1337",
+            "region": "NA",
+            "puuid": "8Kj6-fc5wiF4NMwE9ri5u3ueDnVx9mpNG0yGv8iDfBF02Pb3rpIJ0kOsWe2W98RiwKAUfoxOyrPQCg"
+        },
+        {
+            "name": "えまたそ#飲酒LoL",
+            "region": "JP",
+            "puuid": "vnKGRSYmhqJ4txeF87Tg2peKEy06rN4XGU2G4BhCrUcrp2vAdNv7zdXL1yYcR07gX2TqX3vzcgHrCA"
+        },
+        {
+            "name": "群馬県産Teemo#JP1",
+            "region": "JP",
+            "puuid": "-6P2mRoxzAxJqCrdzFAU1YQQjfoZQRqaCtWiTj8pxYHl-2DJRU1GfdvAOwyKUTA4w9Wv90nTBKJSUQ"
+        },
+        {
+            "name": "Keltril#EUW",
+            "region": "EUW",
+            "puuid": "KGr1LQIufimfC1tL7rFFoKwXfR3iOsY_xEXQuFT0tHfQIbDpw2b1TCAcUXme4zKVip3MXo3Xw4JlOg"
+        },
+        {
+            "name": "15레벨#KR1",
+            "region": "KR",
+            "puuid": "flko4nN67QYshC7xjop7uAu440yjpTeG42hv_oXRsgJfAy7tLjzhkRYvl5GlrpI-7yESqSzCZLQg6A"
+        },
+        {
+            "name": "탐 나 는 남 자#KR74",
+            "region": "KR",
+            "puuid": "jDOiVQXkaUCHzuYv-DzbEbHhJbkQ8hrqSEk4c7y5ic_hN_LXXBXPlg-iJOH3A6n57x5m6WuS6huRxA"
+        },
+        {
+            "name": "Rhädámanthys#Nocti",
+            "region": "BR",
+            "puuid": "Btd3Rrnxe5XNoTdj6J0uSNPLZpgikID9Aae_S2aix3ek54u2UReezOmwjJT2jQ10mdu1-4YOqJ39dA"
+        },
+        {
+            "name": "Alicante#BR1",
+            "region": "BR",
+            "puuid": "EZzUeBFAbsewjq-iqdL94ZKDl15E3A3Yh3ZA5JTTDEJFFVWMEERPPlQPYhQv-2H7Nuo6aPNFwjgaoA"
+        },
+        {
+            "name": "Zepshun#Shaco",
+            "region": "NA",
+            "puuid": "fTaSljv_4_SC8TgGljlQcw_sZwO4jzb_6xJEH6pN27CPdmaBVmzC8C9pzmN4a4qRRDvmI0CNKQd4NQ"
+        },
+        {
+            "name": "Helghans templar#NA1",
+            "region": "NA",
+            "puuid": "U97Nc5NgEjYVnWIB2w054adxVn68Lb0b9vVLHzhqsD2fEAlbrBoyxc-6Q2eFuRwchnf0xgLXV5KdBA"
+        },
+        {
+            "name": "Hugh Jasol#Orbit",
+            "region": "EUW",
+            "puuid": "r8_8i7hzWMM81SOYm1MpkVh6NFR0d0ZuvoHaLkwHnevSJVcWkQbpUWKSXtLme2Sj2V8ve7gPtXNVtw"
+        },
+        {
+            "name": "Sweet#EUW",
+            "region": "EUW",
+            "puuid": "DhZi57qgd31OHoSfgku_kWC5lxACq9-kNAZ4nP_wcTohOxbsWO5BAZGk8Gxnn8lYhQ_Pz2YKHbHCdw"
+        },
+        {
+            "name": "XIII Garri XII#EUW",
+            "region": "EUW",
+            "puuid": "87LJEh-i0LDol-0LWitrcP5KsVCdXI2bGflHgXzO0vthhbF_ILlIDfWvbtNISLlN6ZAl56aMuH3H9w"
+        },
+        {
+            "name": "민등민등#KR1",
+            "region": "KR",
+            "puuid": "C1X8whlC19ZcDYZNymZAbpdgYDPR3xHTtgW4gCWVW6Z94fYJYl1ojzf9spgd4rrOxWSxv0cKI9xc1w"
+        },
+        {
+            "name": "Tío#Kofi",
+            "region": "VN",
+            "puuid": "Zg6_7QKy-uYV_M-_xHZYMCorBVQ_mAomoSYZcpCFmaYXh1H8RCxE68lOR0RUBT3Yod-LimSfw6q4lg"
+        },
+        {
+            "name": "FG Nyah#EUW",
+            "region": "EUW",
+            "puuid": "WqoLmtxB4KAwXDlU7MzvswFnIqe8gS2obhIY2U9Bb0qZKvXA7d8gqPKN5W0gmhYCQA9orZ7ZjVpWsA"
+        },
+        {
+            "name": "Lotus#ADC",
+            "region": "EUW",
+            "puuid": "aWRxADbNdVGROThzgwBkPKHO0lih23QjYetDHTcs6qdhe3qgvZjRj0oWZEYKnLbPvJNeTv37b0wx2Q"
+        },
+        {
+            "name": "Myzery#55555",
+            "region": "EUNE",
+            "puuid": "amfPK6JrUbgZLT0h22qFFDdIH-hpIoxkaQQ-3ULMFD1F20mIl7h616u6OHpACXKUI_iS6S10eO2xmw"
+        },
+        {
+            "name": "鬼畜先輩#JP1",
+            "region": "JP",
+            "puuid": "OxP34zgzw8Kp58Fwe9t22QrkzF4yg7H9Y00l1hjAxXxeXDZLin7RyPLr1q47fIZeRDODl1L1FSeSNA"
+        },
+        {
+            "name": "FLX Trazx#TRAZX",
+            "region": "LAN",
+            "puuid": "RQTQVf-OCwPqNe3qmlzcprxh76mK90heeA4U80o7ntl54mUMcCKs3CZByrY5nkEhMv6xbs_EF0356g"
+        },
+        {
+            "name": "zibi#smile",
+            "region": "NA",
+            "puuid": "o0XMSSfpN2ovoAL2TI9DX1xA-gMyT1m1FU_4zYMQ_AszEINe-VwhJrqr3FCa0Nvs44MIH_x7wVd9pA"
+        },
+        {
+            "name": "acedia#5020",
+            "region": "EUW",
+            "puuid": "-g211SKiOUo1mdbEq8i1_bClGgXKtdvZk19bpKAqjXvJQUHFlQ-1AKQ268xmsn8KanlGjlwJHs26Nw"
+        },
+        {
+            "name": "Demon#Lust",
+            "region": "NA",
+            "puuid": "plXLbys-8fU52KPRgqCheudRJn7VFbXUHUklMU_6rA2MF_cBt3Xxw09QncngWKm8g2EAtR4QbuPiIg"
+        },
+        {
+            "name": "1989#luna",
+            "region": "BR",
+            "puuid": "RMqzpSbo5HG2l9i7bkPUHlxVQVX7icZZMlzYIWZottmAn9o2CwkFv-uWRLg5t-fBADtBkno6k9dM6A"
+        },
+        {
+            "name": "Kalthrak#EUW",
+            "region": "EUW",
+            "puuid": "LeAlMkuRS7fta7oohVmcYN-d_Z4xYs_91UdHadO3fKPpAICf8I-E_0g9SzGhICnjNuX7SbvNhkN-Tw"
+        },
+        {
+            "name": "Minerva#BR1",
+            "region": "BR",
+            "puuid": "BIjCIJfXbU4PvVQBqkBUqLFMlxTCGS6teqhfc0utfSnQ7PEnsbCTUdx2PPRDKTkwXZ0Y0xIsb3wqwg"
+        },
+        {
+            "name": "코 코#7771",
+            "region": "KR",
+            "puuid": "uDRJHRugR88LUosxt3vDlp8-3Jy4_0dgyJ54NAEwzBaYTmwladc6Snwaqb4U2mhQ2m72hU5RrQ1e_w"
+        },
+        {
+            "name": "Vanquisher#95328",
+            "region": "EUW",
+            "puuid": "lmrGXhc8oGkcT2xwU_jxwrsMzt-Vu6DSVFGuE7JL_DOc5_fLYygElaTO6lXFRzOPbWUav1PbkRMgiA"
+        },
+        {
+            "name": "응원꾼#KR1",
+            "region": "KR",
+            "puuid": "n8zXgBB-rNLzoMTr_YAZ-EJp0pA_mfPde6shtiwzKTHsPjowd9sv5COCkui6b5K47JIFi-vsEkf41A"
+        },
+        {
+            "name": "Mizuki#Sou12",
+            "region": "JP",
+            "puuid": "PwYpKmT6U4540pm-ElhLjHWnlxffoWRGQC7ehj4-Mlts5eYJ2LA4VDVElgPO5PyHJ58XHWTKtwtVFw"
+        },
+        {
+            "name": "Wasanave#Miaw",
+            "region": "LAS",
+            "puuid": "U-XAcTR4CVKw5ofphw-88L_rHs2iwCPsYI9K5q5W61k0vnxW22l7DLbpj5pvNNCtHz7j81wRiN8KtA"
+        },
+        {
+            "name": "Yuumi#Ahri",
+            "region": "VN",
+            "puuid": "rwfxMH7eKb5o9nrfdfsD06BMzoBd1wpV3Jh0Mrfsqrva3gDpOcqbbrD_OxbAClTB8CCo1Y5J946C4Q"
+        },
+        {
+            "name": "Soren#ZED",
+            "region": "BR",
+            "puuid": "5iz-35qB2AW9x2EARjtx7UwhcoRyy65fFap159wAoRmQY7K8tA33y98aqDEe3Yl1RZ-Kr2aIBxxC7g"
+        },
+        {
+            "name": "cas#EUW",
+            "region": "EUW",
+            "puuid": "OGWNuqJXnf1KyPKEzVuMopvpeftue9G1GkRSP8_xdydxgyTWNv9kISVmjIp_g-5J4grI9wbHomqWNg"
+        },
+        {
+            "name": "HSR Jingliu#EUW",
+            "region": "EUW",
+            "puuid": "7WZv9Mdy1ooVQP3OnWC5wDPbJbm0Yjqc7rQY_6ujiUD2eYy4Cy7lSHzN3FYASckx_yO9KrIvOKm_OQ"
+        },
+        {
+            "name": "rakayah#meow",
+            "region": "EUNE",
+            "puuid": "sIayQWOhUWSVZ8L892H9CNh2ubl6Xdk_P4RPbCi9_1CnYpAVdpDxByi23zZrmn0Mo0Om01mHK0gycg"
+        },
+        {
+            "name": "Rhio#69420",
+            "region": "EUW",
+            "puuid": "I8knLjVR8WU2WSZFqGap0rr3o4w4PYGmcPmMYHgBYzc6CL1AAFfFpqKp_h9acNhFIy9SDNGL6GdcNw"
+        },
+        {
+            "name": "Staticks#0109",
+            "region": "EUW",
+            "puuid": "Q_y1UJNn2UdAFohF93TD3_QN9uHj5doIvVjkSxmvY2xOxk7zkaV3_BA10Wl9dCnA7bjqBTfj0Aex0Q"
+        },
+        {
+            "name": "OG Virtuoso#RJ21",
+            "region": "BR",
+            "puuid": "lfuuWr2GJ-Bko0mJ6LXfk2WnEO0ggS33d62xKi_sueLJb2L_hlbtY8Cyuxd73IF-rJhNJikRM2gquQ"
+        },
+        {
+            "name": "Notlin#not",
+            "region": "BR",
+            "puuid": "OOq76Jy-9jtDOWRDY7DSldL-2Rb0siGypeqtLfnzHzXUCrR1GK1oM9WqCRbW8Y3nDf7y8yIbpMYnQw"
+        },
+        {
+            "name": "聖德太子#SDTZ",
+            "region": "JP",
+            "puuid": "y8vt9PckNmodaKKfEqBzQ2wqTZki2n-5Yw9PHaJaNjL3e8GVTvTaIMReqBcfZCzeyc7uez5ByzFttg"
+        },
+        {
+            "name": "TへT#4594",
+            "region": "KR",
+            "puuid": "tRA7g1j1Kz68ETpkyuPR9yisL1ucweeIqe2HJ3TsI-OvjImyW-3tRmnP9tV9xX4FEMUbaP4VANXB6A"
+        },
+        {
+            "name": "Rökal#Rökal",
+            "region": "EUNE",
+            "puuid": "ZnGHJtVPSaErl6mGqjh4fOtvo7B8UiO3AWNRJiX_oTqm0YyKp45MdVU5NOkHFrvMPRRQ43w-LWynqA"
+        },
+        {
+            "name": "VangMadeMeQuit#cring",
+            "region": "EUNE",
+            "puuid": "Ssn0ZqIh7UjoKi0BtptZHeMJSFqf4wlNjj0-XQxsykBDcgh0PZvTeBfxCgqLvavPDHOq2p8n6jVuZQ"
+        },
+        {
+            "name": "Luhan#BR1",
+            "region": "BR",
+            "puuid": "vBTPRAejHcTY1tsHeDLvR4rRal6wY4JVIcvFiAr0lxT6Vwd-JR0GJBUCT7jjjGmrci_WhLdIxz1Iuw"
+        },
+        {
+            "name": "Cicavirág#0518",
+            "region": "EUNE",
+            "puuid": "ogQlp5dMuWiwWPswHF5ZOhNfYQBHwpRpJQGXN3XzI5ZeARhptUB0tIqIXw_6HcxHPeO45E7PxAK_nA"
+        },
+        {
+            "name": "Fròst#εïз",
+            "region": "NA",
+            "puuid": "a0EFwK6ZOAri9Z2r_tZsa2gkPMfkhRH6_kwzEg9yqBUNH9i3eLT7MNL9Vp_73Jz7rdJ2IXyScioSfQ"
+        },
+        {
+            "name": "Yinq#6868",
+            "region": "VN",
+            "puuid": "a9bahMtuL069j1yXlAjEWMTfoyqKDH7JmQZi3XF9Kv-jk6Ze8b6FHnGv9bmfemqwoLMBF07lKs3xrA"
+        },
+        {
+            "name": "zhajihepijiu#炸鸡和啤酒",
+            "region": "NA",
+            "puuid": "Psm1TDaPkgnHgqq0lsvJzkWFsBSj-89AJB6MhfJFXMb-T7qnbmJsleH9srHXnSbVg6DXLHBP-0oXXA"
+        },
+        {
+            "name": "土家寨第一骚情#3344",
+            "region": "EUW",
+            "puuid": "9dz93AgFGQCuOWcJLiqXOulv2EzuOdkRPXaXNk8nHfKMNXQqn9cJapQ0WJGrm3AAZH4QauIXZBK3zQ"
+        },
+        {
+            "name": "Pimere#EUW",
+            "region": "EUW",
+            "puuid": "0BYVyKkzB9jQKpLFDZCfMGIgllaNidSw-7ls8lUWWeAofrehLYrsH__Ef1r18pIg6AvxfkcL6dIeFQ"
+        },
+        {
+            "name": "RaijinRaknarok#2011",
+            "region": "EUW",
+            "puuid": "InEPUvfT-duIxR_ki1_00qO_PVWDfgBjnm99tRR32y4_g2Vqan1KnaztWd2ADefcTmkKtgpO3sNdEw"
+        },
+        {
+            "name": "CaballeroTiznado#Chan",
+            "region": "LAN",
+            "puuid": "2h4Ohu7Jabiwkzprl0hK2PetZhsIuYXGf0t9zlOQTE4aSX2bi4Mp3sbl8bN3oYECbb_LN0DHoKhokQ"
+        },
+        {
+            "name": "今日のプリウス#JP1",
+            "region": "JP",
+            "puuid": "wU02bYUBbuqrkkriMaZDFaVPogO0lvVmOtd4omIN8Zp0ukbvGvJXJZGonTu2lBL7z_-7CnIBezvM5A"
+        },
+        {
+            "name": "李清我一下我会起辉#matia",
+            "region": "LAS",
+            "puuid": "FohILEZfns38yUCVFBa6311zbJbmVgpdEjNNj-9t1bft5w2mVPlPJftYKYTN11BwNIA7fTAdt9YwLA"
+        },
+        {
+            "name": "Cenci#777",
+            "region": "EUW",
+            "puuid": "tlAF_4zsnty2rpUiJrYOtow3_GaykiRfMQzGxL1VrG945V-GpUMD9QA0niRIsNtx-Knw5MyCrIHE5w"
+        },
+        {
+            "name": "TheWaschbär#Meow",
+            "region": "EUW",
+            "puuid": "4veU8m0trkm72ZB0VO9noZMq3Wd3r_2-JF_lfUoitdWjDLO15_fQxkwxh2o53aZvoE2MrV8C9oBlHg"
+        },
+        {
+            "name": "슈 붕#PSY",
+            "region": "KR",
+            "puuid": "RkSNpNB6wuW8FSJZm02boDwERwS1puF1FfCzlqUhUKK9RRspEMPR-hRYidrE52fWuRUf6omEsjtOlQ"
+        },
+        {
+            "name": "Maxi#FNK",
+            "region": "BR",
+            "puuid": "7cABkQ0o2H5cFWsbCD_A6PDqcqerXqGSAHdfGr9av_UKZnPTegudXbYQveSYfdzq1FkGHfWvqmRVmQ"
+        },
+        {
+            "name": "1 0#001",
+            "region": "BR",
+            "puuid": "ORnuyY8XdHBywXMWMbkQmGvRZu5qUYKm8I9D78r3jWoLDQtt451oHmbHij5Sr4B96jWfWI-XeL9XtQ"
+        },
+        {
+            "name": "Aandiane#TH0T",
+            "region": "NA",
+            "puuid": "VnSo4DYCUSj3LjYS41VhMF8PjuXYeXUprlvTjDV46UElBmsoja10gsdMUHKkVqPAgcvUF6c8wb2V0Q"
+        },
+        {
+            "name": "流れる季節#の真ん中で",
+            "region": "KR",
+            "puuid": "sLs50C5x4r6uhYnUL6oHeX3oTe48aghGkZXqKmSmv6hlS1TaRN93N2Pjlmsrgn7I3ufjK1IcyEJYEw"
+        },
+        {
+            "name": "Stardust#Top",
+            "region": "EUW",
+            "puuid": "iFb8-BzUEH_uC0hC9bPMCFQ16zq5pBK2n3AvKYSk0iPHZsKiTqoTZkJs2o-GnMy4rvR3jznjI9Zgiw"
+        },
+        {
+            "name": "KrisWald#KWald",
+            "region": "NA",
+            "puuid": "yuAVfqiGokxLjnbJI1rso7S95fplxC5mQtesw7_o4sURB_7hraNAWawYN3--2bHjhQQnpPWASG8eow"
+        },
+        {
+            "name": "lννx#JP1",
+            "region": "JP",
+            "puuid": "X1quAv_5jnaS8bo9q9AImSCYMmpVPhuNHfXkYULoKHiJVpNGaM2YI4xIQscgRZhJ1m3oWyD27OOB3Q"
+        },
+        {
+            "name": "OnlyVibes#Meow",
+            "region": "EUNE",
+            "puuid": "E40Zu6Oo0j5OXzOW4Wx9viFRoElVhlY89GW0fFuyjiNVzNzKvwy-rg8_6PbqGpVcSPG5IduIRDF1AA"
+        },
+        {
+            "name": "Hide on bush#Yoooo",
+            "region": "NA",
+            "puuid": "mfeoZ2XaadUSX3fUKBhbaiLpqv1pDuC-YyGHV-2pSUmj9r-3qRVmJZaIu81KA_jLN-x8Xkttwtwtag"
+        },
+        {
+            "name": "Get Jinxed#Meeku",
+            "region": "EUW",
+            "puuid": "v82DXz2uZrUM7_dmtyKXHr41GFOmLi2nVsXHJ8z71iHtZ4eDEDaVmFrwrnQRNA6btzrrduBmc_00pA"
+        },
+        {
+            "name": "YouCantStopMe7#EUW",
+            "region": "EUW",
+            "puuid": "xt_IMd4axKcMj1wjR09A4Z90Guv_kX2XA-ClwJ0hBQI-WmM-aDHRbkHY8f4p--DeUILKBKXleY2m8A"
+        },
+        {
+            "name": "앙우힝#KR1",
+            "region": "KR",
+            "puuid": "bAW1LIRvKwb3_RGrvhZiSLs1O_NZIIzR8p8tu463M1YAdDs9W1-EZjaD7Hupbb0C7PQ-1LhoyfP19g"
+        },
+        {
+            "name": "ΘζίΓίΠΔ#ΘΞΘ",
+            "region": "EUW",
+            "puuid": "Z0A1a-GW5JMMg4xjmqkgKoS84D_ePDQIaPhdm15Av3nNuOudYFw7RR7Mg-yrL4Bz7yvapTMdlvKR9g"
+        },
+        {
+            "name": "바다 해 넓을 활#KR1",
+            "region": "KR",
+            "puuid": "9QLWxCC69_PYQZPQvssWe6ennBjJiHuh-Jz_jZfpG7c0VWkrpdjkTHTlzCFpIHxLfcbbsOwE6xWSxQ"
+        },
+        {
+            "name": "Big Romes#777",
+            "region": "NA",
+            "puuid": "aFrpq0xxunPNScw9MBiVkPHshEUzsfKrS0xTs42_f5tRiDO-Ynpkf2t3EanyNkkOoMQ6X94OTow6vw"
+        },
+        {
+            "name": "Toki#Kat",
+            "region": "NA",
+            "puuid": "GdR4XrVSFvs-e0QB1uHVMtWLsWAltXVyTVKK0Ab-1WvsA9NyWPcdrgVSGMMlPo_5VvzTY7ukm_3eKA"
+        },
+        {
+            "name": "Broseidon#Icy",
+            "region": "NA",
+            "puuid": "NRIN7Sa96n9HAHER1dsvSZ-DHPZX_UtZZQz-1mLngOvHFkzflg4BI6UHQ89Qj49xIY-esJEeM-893w"
+        }
+    ]
+
+
 let challengeData = [
   {
     "id": 0,
@@ -20165,7 +21413,7 @@ let challengeData = [
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
 
-let apikey = process.env.key;
+let apikey = 'RGAPI-5d58b8f9-028a-4058-9785-307ee97ffd94';
 
 
 
@@ -20243,9 +21491,11 @@ function challengeMaxed (challenge) {
 
 let scoreArray = [];
 
+let puuidData = [];
+
 let challengeCount = 0;
 
-export async function getScore(region, name, tag) {
+export async function getScore(region, name, tag, puuid) {
 
   let mappedRegion = regionMap[region];
 
@@ -20257,17 +21507,10 @@ export async function getScore(region, name, tag) {
 
     let resByRiotId;
     let response;
-    try {
-      resByRiotId = (await api.Account.getByRiotId(name, tag, regionGroup)).response;
-    } catch (error) {
-      console.log(name, tag, regionGroup);
-      console.log(error);
-      return;
-    }
 
 
     try {
-      response = await fetch(encodeURI(`https://${mappedRegion}.api.riotgames.com/lol/challenges/v1/player-data/${resByRiotId.puuid}?api_key=${apikey}`))
+      response = await fetch(encodeURI(`https://${mappedRegion}.api.riotgames.com/lol/challenges/v1/player-data/${puuid}?api_key=${apikey}`))
     } catch (error) {
       console.log(name, tag, regionGroup);
       console.log(error);
@@ -20299,7 +21542,7 @@ export async function getScore(region, name, tag) {
                 return challenge.id == challengeId;
               })
 
-              if ((challengeId > 5) && (challenge.level == "CHALLENGER") && (!isLegacy(challengeInfo)) && (challenge.position < mostNotableChallengePosition)) {
+              if ((challengeId > 5) && ((challenge.level == "CHALLENGER") || (challenge.level == "GRANDMASTER")) && (!isLegacy(challengeInfo)) && (challenge.position < mostNotableChallengePosition)) {
                 mostNotableChallenge = challengeInfo;
                 mostNotableChallengePosition = challenge.position;
               }
@@ -20366,20 +21609,174 @@ export async function getScore(region, name, tag) {
 
 }
 
-// data.forEach(item => {
-//   let name = item.name.split('#')[0];
-//   let tag =  item.name.split('#')[1];
+export async function getWhaleScore(region, name, tag, puuid) {
 
-//   getScore(item.server, name, tag);
-// })
+  let mappedRegion = regionMap[region];
+
+    let response;
+
+    try {
+      response = await fetch(encodeURI(`https://${mappedRegion}.api.riotgames.com/lol/challenges/v1/player-data/${puuid}?api_key=${apikey}`))
+    } catch (error) {
+      console.log(name);
+      console.log(error);
+      return;
+    }
+
+
+    const data = await response.json();
+
+
+    let challenges = data.challenges;
+
+    let emoteCount;
+    let iconCount;
+    let wardSkinCount;
+
+    let skinCount;
+    let ultimateCount; //510007
+    let legendaryCount; //510009
+    let epicCount; //510010
+    let mythicCount; //510008
+
+    let regularSkinCount;
+
+
+    let score;
+
+
+    try {
+            challenges.forEach(challenge => {
+
+              let challengeId = challenge.challengeId;
+
+              let challengeInfo;
+
+              challengeInfo = challengeData.find(challenge => {
+                return challenge.id == challengeId;
+              })
+
+
+              if (challengeId == '510001') {
+                skinCount = challenge.value;
+              }
+
+
+              if (challengeId == '510007') {
+                ultimateCount = challenge.value;
+              }
+
+              if (challengeId == '510009') {
+                legendaryCount = challenge.value;
+              }
+
+              if (challengeId == '510010') {
+                epicCount = challenge.value;
+              }
+
+              if (challengeId == '510008') {
+                mythicCount = challenge.value;
+              }
+
+
+              regularSkinCount = skinCount - ultimateCount - legendaryCount - epicCount - mythicCount;
+
+
+
+
+              if (challengeId == '504004') {
+                emoteCount = challenge.value;
+              }
+
+              if (challengeId == '504002') {
+                iconCount = challenge.value;
+              }
+
+              if (challengeId == '504003') {
+                wardSkinCount = challenge.value;
+              }
+
+
+
+            })
+          }catch(error) {
+            console.log(data);
+            console.log(error);
+          }
+
+
+
+    scoreArray.push({
+      name: `${name}#${tag}`,
+      region: region,
+      skinCount: skinCount,
+      ultimateCount: ultimateCount,
+      legendaryCount: legendaryCount,
+      epicCount: epicCount,
+      mythicCount: mythicCount,
+      regularSkinCount: regularSkinCount,
+      emoteCount: emoteCount,
+      iconCount: iconCount,
+      wardSkinCount: wardSkinCount,
+      score: (ultimateCount * 3250) + (legendaryCount * 1820) + (legendaryCount * 1820) + (epicCount * 1350) + (mythicCount * 1350) + (regularSkinCount * 750) + 
+             (emoteCount * 350) + (iconCount * 250) + (wardSkinCount * 640)
+
+    });
+
+
+
+}
+
+
+export async function getPuuid(region, name, tag) {
+
+  let mappedRegion = regionMap[region];
+
+  let regionGroup = Constants.regionToRegionGroup(mappedRegion);
+
+  regionGroup = regionGroup == 'SEA' ? 'ASIA' : regionGroup
+
+
+
+    let resByRiotId;
+    let response;
+    try {
+      resByRiotId = (await api.Account.getByRiotId(name, tag, regionGroup)).response;
+      console.log(resByRiotId);
+    } catch (error) {
+      console.log(name, tag, regionGroup);
+      console.log(error);
+      return;
+    }
+
+
+
+    puuidData.push({
+      name: `${name}#${tag}`,
+      region: region,
+      puuid: resByRiotId.puuid
+    });
+
+
+
+
+
+}
+
 
 app.get('/table', function (req, res) {
 
-  data.forEach(item => {
+  data.forEach((item, index) => {
     let name = item.name.split('#')[0];
     let tag =  item.name.split('#')[1];
 
-    getScore(item.server, name, tag);
+
+
+    setTimeout(()=> {
+        console.log(item.region, name, tag, item.puuid);
+        getScore(item.region, name, tag, item.puuid);
+    }, 1000 * (index + 1))
+
   })
 
   res.json({
@@ -20392,15 +21789,65 @@ app.get('/table', function (req, res) {
 app.get('/table2', function (req, res) {
 
   res.json({
-    data: scoreArray.push,
+    data: scoreArray,
     challengeCount: challengeCount
   });
 
 })
 
+app.get('/puuid', function (req, res) {
+
+  data.forEach((item, index) => {
+
+
+    setTimeout(()=> {
+        getPuuid(item.region, item.name, item.tag);
+    }, 250 * (index + 1))
+
+
+  })
+
+
+})
+
+app.get('/puuid2', function (req, res) {
+
+  res.json({
+    data: puuidData,
+  });
+
+})
+
+
+app.get('/whale', function (req, res) {
+
+  data.forEach((item, index) => {
+    let name = item.name.split('#')[0];
+    let tag =  item.name.split('#')[1];
 
 
 
+    setTimeout(()=> {
+        console.log(item.region, name, tag, item.puuid);
+        getWhaleScore(item.region, name, tag, item.puuid);
+    }, 100 * (index + 1))
+
+  })
+
+  res.json({
+    data: scoreArray,
+  });
+
+})
+
+app.get('/whale2', function (req, res) {
+
+
+  res.json({
+    data: scoreArray,
+  });
+
+})
 
 
 export async function getMastery(name, tag, region, regionGroup, req, res) {
