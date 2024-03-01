@@ -10271,7 +10271,11 @@ function recalculate() {
 
         let championName = champData[item.championId].id;
 
-        let donePercent = ((item.championPoints / nextUpgrade ) * 100) - 10;
+        let donePercent = ((item.championPoints / nextUpgrade ) * 100);
+
+        if (donePercent > 10) {
+          donePercent = donePercent - 10;
+        }
 
         let htmlItem = `
 

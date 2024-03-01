@@ -21413,7 +21413,7 @@ let challengeData = [
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
 
-let apikey = 'RGAPI-5d58b8f9-028a-4058-9785-307ee97ffd94';
+// let apikey = 'RGAPI-5d58b8f9-028a-4058-9785-307ee97ffd94';
 
 
 
