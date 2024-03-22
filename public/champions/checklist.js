@@ -1467,9 +1467,20 @@ var defaultData = {
   },
 }
 
+var hideCompleted;
+
 let selectedChallenge;
 
 let championsChecklistData = localStorage.getItem("championsChecklistData");
+
+hideCompleted = localStorage.getItem("hideCompleted");
+
+if (hideCompleted === 'true') {
+    $('input#flexSwitchCheckDefault').prop("checked", true);
+} else {
+    $('input#flexSwitchCheckDefault').prop("checked", false);
+}
+
 
 let currentChecklist;
 
@@ -1523,7 +1534,6 @@ $(".challenge-selection" ).on( "click", ".challenge-option", function() {
   $( '.challenge-option' ).removeClass('selected');
   $( this ).addClass('selected');
 
-  console.log(clickedItem);
 
   for (var prop in championsChecklistData) {
     if (prop == clickedItem) {
@@ -1544,6 +1554,21 @@ $(".challenge-selection" ).on( "click", ".challenge-option", function() {
 
 
 });
+
+
+$('input#flexSwitchCheckDefault').change(
+    function(){
+        if ($(this).is(':checked')) {
+            hideCompleted = true;
+            $('.champions-list ').addClass('hide-completed');
+        } else {
+            hideCompleted = false;
+            $('.champions-list ').removeClass('hide-completed');
+        }
+
+        localStorage.setItem("hideCompleted", hideCompleted );
+    }
+);
 
 
 var score = 0;
@@ -1603,6 +1628,13 @@ function drawChampionsSection() {
     }
 
   })
+
+        if (hideCompleted) {
+            $('.champions-list ').addClass('hide-completed');
+        } else {
+            $('.champions-list ').removeClass('hide-completed');
+        }
+
 
     renderChampions(selectedType);
   
@@ -1709,7 +1741,6 @@ function renderChampions(type) {
 
   $('.champion').each((index, item) => {
 
-      console.log(123);
     if (currentChecklist[index].hide) {
       $(item).addClass('d-none');
     } else {
