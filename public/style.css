@@ -32,6 +32,30 @@
 }
 
 
+.discord {
+
+    z-index: 20;
+    position: fixed;
+    color: white;
+    font-size: 14px;
+    top: 18px;
+    color: cyan;
+    left: 31px;
+}
+
+.discord a {
+
+    color: cyan;
+        text-decoration: none;
+
+}
+
+
+.discord img {
+    width: 21px;
+    margin-left: 4px;
+}
+
 body {
   font-family: 'ff' !important;
   width: 100%;
