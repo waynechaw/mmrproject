@@ -69,25 +69,45 @@ function renderTable() {
     }
 
 
-    $('.leaderboard-data-container').append(`
-      <div class="d-flex leaderboard-data">
-          <div  class="text-center" style="width: 5%">${displayedRank}</div>
-          <div class="name-cell" style="width: 38%">${name}<span class="tag">#${tag}</span> <span class="player-region">${item.region}</span> </div>
-          <div style="width: 15%">${item.score.toLocaleString()}</div>
-          <div style="width: 10%">
-            ${item.skinCount}
-          </div>
-          <div style="width: 10%">
-            ${item.emoteCount}
-          </div>
-          <div style="width: 10%">
-            ${item.iconCount}
-          </div>
-          <div>
-            ${item.wardSkinCount}
-          </div>
-      </div>
-    `);
+    try {
+      $('.leaderboard-data-container').append(`
+        <div class="d-flex leaderboard-data">
+            <div  class="text-center" style="width: 5%">${displayedRank}</div>
+            <div class="name-cell" style="width: 27%">${name}<span class="tag">#${tag}</span> <span class="player-region">${item.region}</span> </div>
+            <div style="width: 15%">${item.score.toLocaleString()}</div>
+            <div style="width: 10%">
+              ${item.skinCount} 
+              <i style="font-size: 15px; vertical-align: text-top;"  class="fa-solid fa-circle-info" data-toggle="tooltip" data-placement="right" data-html="true" title="
+                <b>Ultimate:</b> ${item.ultimateCount} <br>
+                <b>Legendary:</b> ${item.legendaryCount} <br>
+                <b>Epic:</b> ${item.epicCount} <br>
+                <b>Mythic:</b> ${item.mythicCount} <br>
+              "></i>
+            </div>
+            <div style="width: 10%">
+              ${item.emoteCount}
+            </div>
+            <div style="width: 10%">
+              ${item.iconCount}
+            </div>
+            <div style="width: 10%">
+              ${item.wardSkinCount}
+            </div>
+            <div>
+              ${item.chromaCount}
+            </div>
+        </div>
+      `);
+    } catch(error) {
+      console.log(item);
+    }
+
+
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+
+
   })
 }
 
