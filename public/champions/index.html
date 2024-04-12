@@ -159,6 +159,14 @@
      opacity: .2;
     }
 
+    .form-check-input {
+      zoom: 1.5;
+    }
+
+    .form-check-label {
+      font-size: 14px;
+    }
+
 
   </style>
 </head>
@@ -194,9 +202,15 @@
 
       <div class="checklist champion-suggestions">
 
-        <div class="d-flex justify-content-between">
+        <div class="d-flex justify-content-between  align-items-center">
 
-          <div style="width: 175px"></div>
+          <!-- <div style="width: 175px"></div> -->
+
+          <div class="position-relative">
+              <i style="position: absolute;left: 9px;font-size: 20px; top: 10px; color: black;" class="fa-solid fa-magnifying-glass"></i>
+              <input style="padding-left: 33px;" type="text" class="form-control search" placeholder="Search Champ">
+          </div>
+
 
           <div class="role-container">
             <div class="d-flex align-items-center">
@@ -229,7 +243,7 @@
 
         </div>
 
-          <div style="height: 80vh; overflow-y: scroll;flex-wrap: wrap;" class="champions-list d-flex">
+          <div style="height: 80vh; overflow-y: scroll;flex-wrap: wrap; align-content: flex-start;" class="champions-list d-flex">
           </div>
 
 

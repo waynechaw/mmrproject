@@ -1481,7 +1481,7 @@ if (hideCompleted === 'true') {
     $('input#flexSwitchCheckDefault').prop("checked", false);
 }
 
-
+var searchText = '';
 let currentChecklist;
 
 if (!championsChecklistData) {
@@ -1675,16 +1675,25 @@ $("div" ).on( "click", ".role-option", function() {
 
 function renderChampions(type) {
 
+    console.log(type);
+
+    type = type || 'all';
+
   let filteredList;
   if (type == 'all') {
     currentChecklist.forEach(item => {
-      item.hide = false;
+        console.log(item, searchText, item.name.toLowerCase().indexOf(searchText) > -1);
+      if (item.name.toLowerCase().indexOf(searchText) > -1) {
+        item.hide = false;
+    } else {
+        item.hide = true;
+    }
     })
   } else if (type == 'bot') {
 
 
     currentChecklist.forEach(item => {
-      if ( item.lanes.indexOf("ADC") > -1) {
+      if ( item.lanes.indexOf("ADC") > -1 && item.name.toLowerCase().indexOf(searchText) > -1) {
        item.hide = false; 
      } else {
       item.hide = true;
@@ -1698,7 +1707,7 @@ function renderChampions(type) {
 
 
     currentChecklist.forEach(item => {
-      if ( item.lanes.indexOf("JUNGLE") > -1) {
+      if ( item.lanes.indexOf("JUNGLE") > -1 && item.name.toLowerCase().indexOf(searchText) > -1) {
        item.hide = false; 
      } else {
       item.hide = true;
@@ -1709,7 +1718,7 @@ function renderChampions(type) {
 
   } else if (type == 'mid') {
     currentChecklist.forEach(item => {
-      if ( item.lanes.indexOf("MID") > -1) {
+      if ( item.lanes.indexOf("MID") > -1 && item.name.toLowerCase().indexOf(searchText) > -1) {
        item.hide = false; 
      } else {
       item.hide = true;
@@ -1718,7 +1727,7 @@ function renderChampions(type) {
     })
   } else if (type == 'sup') {
     currentChecklist.forEach(item => {
-      if ( item.lanes.indexOf("SUPPORT") > -1) {
+      if ( item.lanes.indexOf("SUPPORT") > -1 && item.name.toLowerCase().indexOf(searchText) > -1) {
        item.hide = false; 
      } else {
       item.hide = true;
@@ -1727,7 +1736,7 @@ function renderChampions(type) {
     })
   } else if (type == 'top') {
     currentChecklist.forEach(item => {
-      if ( item.lanes.indexOf("TOP") > -1) {
+      if ( item.lanes.indexOf("TOP") > -1 && item.name.toLowerCase().indexOf(searchText) > -1) {
        item.hide = false; 
      } else {
       item.hide = true;
@@ -1752,6 +1761,11 @@ function renderChampions(type) {
 
 }
 
+$(".search").on("input", function() {
+  searchText = $(this).val(); 
+  console.log(searchText);
+  renderChampions(selectedType);
+});
 
 
 function getPentaScore () {
