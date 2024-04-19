@@ -70,1269 +70,619 @@ let rankToMMR = {
 }
 
 let data = [
-        {
-            "name": "Kirin0630#所遇皆温柔",
-            "region": "NA",
-            "puuid": "U1WcaKD7g5ih5IkwKYoWtX-8t8rJEhz2ojSENgAOUUbonKXBnh1lWGVd8ZheQRS5evkL-YnK6G2a-w"
-        },
-        {
-            "name": "Nguyễn Tuấn Hải#NTH",
-            "region": "VN",
-            "puuid": "ofAB9B7PEsWduTgJcI_SZQtW1hwCciZzVJkKJ6EIcQsv_MfORQkG_kmDTlFhpUiG4fIHOVpZYjcfKA"
-        },
-        {
-            "name": "SeedRoxas#EUW",
-            "region": "EUW",
-            "puuid": "KIDl5jkHADI0WdZRvyfIAb5MM7ig18viA7Vzi9q3g1UmJ1cqXkM47N1_a6i0wPQ0qFo4fCGBr2X1hA"
-        },
-        {
-            "name": "da xi gua#NA0",
-            "region": "NA",
-            "puuid": "5qZ4rvqRYvR-wuBOeKDITluxcZWGpn4ewfCPukf40sD3B-JLflVnGQeIFGeLxN4FF-mriK1P9D9KWA"
-        },
-        {
-            "name": "Don Rigoni#Doni",
-            "region": "PH",
-            "puuid": "z0uJ-MyScmnhGK1TO0KUoYBPveOT85riojWh8IbXIxmX32BA1beblFQFADAJSoCT4ULJbiVex1bBvQ"
-        },
-        {
-            "name": "Tantrum Desire#LAS",
-            "region": "LAS",
-            "puuid": "ewW9i1pUKSl6WouWulOXe6KluZU_xZbGVYq8J-ICTQPTqcgZ6DKuIX_g76ZrcA2MpbsxbOaZ4YLszg"
-        },
-        {
-            "name": "UpperBlackVise#みさき美咲",
-            "region": "NA",
-            "puuid": "TE95jhGJGpCy7TuoZs9WHLVUdLJIsLpdRQcC4mvOZ6TLUlJcnRBkcfgshLoMK4wHK8JwsvsUee_gsQ"
-        },
-        {
-            "name": "ptyyyy#NA1",
-            "region": "NA",
-            "puuid": "MyAHbx8u0kFLV4-96fhlYYIpWANroK745kvx177QfoqJUs4ixziEzUZeLGREU5EJvX_ViZaF1CAzhQ"
-        },
-        {
-            "name": "항상 꿈에선 그대#KR1",
-            "region": "KR",
-            "puuid": "ZnWz06U2Yk0S9Diago09WoPJOgVsV3YzT7oStCK-hOxSDNTIrFYr6dgcDrlxThDgHzN4AKSrOZmgEw"
-        },
-        {
-            "name": "ƒenril#LAN",
-            "region": "LAN",
-            "puuid": "vFMAjclLBmIa4fmB4XMv3DSwnV5caCqOE3S9kiAI_nudykQ2_pfwm43RxZItJwj1oyKvtgsDkIU58g"
-        },
-        {
-            "name": "Sínister Bláde#EUW",
-            "region": "EUW",
-            "puuid": "_uNKOW4DN-zGBBxG0D6AOlVzG1jV7oc3FMP1_0ngT_SgBry1gfP4Qf2H8SyasfUMrh6F1r-uSn38LA"
-        },
-        {
-            "name": "DrunkenBuster#EUW",
-            "region": "EUW",
-            "puuid": "Ge8PqxaWTXL1482vzYrqasr1AH9jF25-7-sNMNdRxhOb4K3Azbmgi_Gmmn1lk5A8cclsQnUzazy0gg"
-        },
-        {
-            "name": "Michiru Kaioh#LAN",
-            "region": "LAN",
-            "puuid": "beZT0s_EjbZft4j62Crywbu8duRS2_9_jNF2CuGz6KEPcTIG3MvrqiDrRBZGRtuWQmzqBhh9tNmspA"
-        },
-        {
-            "name": "이시니#1987",
-            "region": "NA",
-            "puuid": "-Eg6dFxyhxQJpm8bo4_t9nl-KeXPd3w8JoaB06hJDyjXbk6rmJSpo9e0r2SOsnKReOavikrarp5qSw"
-        },
-        {
-            "name": "Smileyyyyy#EUW",
-            "region": "EUW",
-            "puuid": "gGOVY-YNCJgPYAWcoiLmnldsgNWIRrBlNmFLmpPSL6E3G6xNBUT6pkhO7tjRqZGSQpuP9olcL7-uAA"
-        },
-        {
-            "name": "Shynce#EUW",
-            "region": "EUW",
-            "puuid": "W1lbdRrpE18YPybqnUUsIyHHQlB2v8GHuo-uqpagbiT2VjDuaCAnpK5qEDUez5gMq-6bCuUKk-CMNA"
-        },
-        {
-            "name": "Dead Account#Perma",
-            "region": "EUW",
-            "puuid": "-gLzyM3dxVoYYxG6WdiHsdABDGOQUo4etT33jTsuSQVw42hfa7x0m1olxDoLrhvk52Otnr-QLbbidA"
-        },
-        {
-            "name": "Алёночка#Kha",
-            "region": "RU",
-            "puuid": "0S5Ebacicz4NshMBbIDMkT16Jx1yX5jA7Vmdqnn-gGBeuKdYSBjeAp3xZCAYQENfH65A4gOnANmT5g"
-        },
-        {
-            "name": "삼재는내친구#KR1",
-            "region": "KR",
-            "puuid": "a0lYFAxCphrzLcMf0biP_OicFHaLseqeTltRpCskdpdJ05Rh4YaAKx_KJ_O_V5ssLP2xgPiUuJb9Mg"
-        },
-        {
-            "name": "이상혁#KR1",
-            "region": "KR",
-            "puuid": "f1T6LGE6hRGbZLPowpm_9gwvOd9SL3r2hwZOHlvJtjhfLO9EO4D_s3Pjir79vGu9ydesBtUkOKmfCg"
-        },
-        {
-            "name": "Ewokcore#NA1",
-            "region": "NA",
-            "puuid": "bGB3IuS_zJbW4X9JdPRPV7YClZq3uluGx6K5AWxZRj-hHOdY3yOgHE65ZeLAzGu5IcH6nxwjdmuC2A"
-        },
-        {
-            "name": "Amor#1027",
-            "region": "BR",
-            "puuid": "exlS9-ODSpuiPilPin6FG9QYibLoWS1lUW5u26trrK6uO8qi2exMDPL0MA49lvQHi6WY9Vil9romHQ"
-        },
-        {
-            "name": "미 별#KR1",
-            "region": "KR",
-            "puuid": "35yppXO5Q2W2IDZdXMae1CkDantDHecVCacw3DYAoPESWpji1XArUFlGK_rgg4TAJS4kXJzFS5YkMw"
-        },
-        {
-            "name": "Sixteendays#NA1",
-            "region": "NA",
-            "puuid": "4lDSAjrGlwMpMKha56w6Cndl5FsX0FidEioFQ4nq0dCK4lnng5d7hGS0lbbLksVy6PZEeMG4dHb_nQ"
-        },
-        {
-            "name": "男童杀手#OωO",
-            "region": "EUW",
-            "puuid": "qYR_LNJAwJgpm_3mxXPHQ3BfyyQI6VA7Z5jX0HLAFd2sv6FePKad5vEa_2pEd90WE6NU0zIG_yYIOA"
-        },
-        {
-            "name": "Beginning#NA1",
-            "region": "NA",
-            "puuid": "L5mCOZeDfWNRbzX7Q_1RzWFJZGVvD6pvZ-lKmVZKwDAj6tNwv3M9bS9mvnzLsChXiiNZRVVwNseXmg"
-        },
-        {
-            "name": "Snowdrift#NA1",
-            "region": "NA",
-            "puuid": "pvTnh-Qb-FWSp0UMIGIvpnaOtmoRsMm4mJLShWI15stqoPChtv2LU0qt1A_euze39S4Q4lYApMH9Zw"
-        },
-        {
-            "name": "Freyja#2024",
-            "region": "BR",
-            "puuid": "d_N6FXaT05z270aFvjTzw3Ir9Go6S-MqcJFh4b2cIBILAHiv8CBPddZIQsg7_kyZtoEFp4RmH8cadA"
-        },
-        {
-            "name": "YOUR KARMA#NA1",
-            "region": "NA",
-            "puuid": "W1tkUrTvhPI4f02CcQ8hyx3PSGPS5Jj-IBIxFdytbEvJEyuPZWvXdmVXKm-w9Ajq67OlkqNN4epSZw"
-        },
-        {
-            "name": "silverfire#NA1",
-            "region": "NA",
-            "puuid": "qRjdY5FeE2q167-Sc30TfQ74iz_gKLG8yOiaNx69BLNJ4zp8aLBiUS54cKHvR4YSSFSU9vk-bfOtkg"
-        },
-        {
-            "name": "aszx#NA1",
-            "region": "NA",
-            "puuid": "BsDql2T3F9fIgilQts4mcahHGa3Hyey75S_HA7e6nRYU7C8mZO4VUeuFUQs-ag2wbiCKID-4mbg6OQ"
-        },
-        {
-            "name": "Muuri#Muuri",
-            "region": "BR",
-            "puuid": "lPN5UWgt2ouXhaWog_XZxsgaAuN0fN9BR5LYQm51hoBkmdkirOnMMNwcSb5yV8SIGbDZfD4j4hUS7g"
-        },
-        {
-            "name": "MeanDean#DEANO",
-            "region": "NA",
-            "puuid": "K5C-jkaoAXhalQf1P8P3mvaypC5qmAoqWqy1u_FYrh7hoHejboXo95s5uFk641IttDwdK8a1Hk-PbQ"
-        },
-        {
-            "name": "吉光片羽#StarG",
-            "region": "NA",
-            "puuid": "n4lpzfuf7twH3ZaFIGw6SI8W1ahijJOyjhb_xrQJmpYKZUb1TMI4BTpfUZnPal9-f-LumI_wwC0Lfw"
-        },
-        {
-            "name": "TheDarkQuazar#NA1",
-            "region": "NA",
-            "puuid": "d8LV3m_Uy_FY42EnZCPAmhgY_27kPjt3MuNLOholZ75RYORQ469sbO5AdH75q7L3GMaPJcr4wm6hdg"
-        },
-        {
-            "name": "유니엔마#KR1",
-            "region": "KR",
-            "puuid": "aojDGyKgEmdqXUMyLYbpWw86kF313iSIaqGTfp8DZ_m_y9LGICuXcJjJj1tEHGvX2668VDZWgi-xYw"
-        },
-        {
-            "name": "jae#awam",
-            "region": "NA",
-            "puuid": "vJuOyzKJT4OkOceMV87d5mboUyaIju8AQQ8BWc-tJnJ00j5uuEn0sCtZIL6zLziuzaqAC4eDOdKsKw"
-        },
-        {
-            "name": "Nudelholz Ninja#666",
-            "region": "EUW",
-            "puuid": "lGetNdM749wHKQY1ABjFIEF4IXtieIP5iyIwJaMEAb68RttvZZrctSYXHJU1RG6-HYJE2cX_ce0R5w"
-        },
-        {
-            "name": "Sïnister#NA1",
-            "region": "NA",
-            "puuid": "Bi-YyzNJ3rxHeO1IvitEpTCPw9WS_4vTMhnuxfVNADFVrdYhYT-6VFKOQKEkIrPo1tbSY9yrDkjrdg"
-        },
-        {
-            "name": "GameBoyDenis98#EUW",
-            "region": "EUW",
-            "puuid": "3SFH4JPGpl6lPypbFjyPEgcmJkA6OV_v8pIS5C3Cill1QjkhPApmJbP4gPx2WTQNUhELhCkNbmdv3g"
-        },
-        {
-            "name": "Stan1ey#NA1",
-            "region": "NA",
-            "puuid": "w8OrcfGhNUZOcKFZN1Pi0joRx8GFXin29up83fuv3qbMFvS0h8uPEUEjmow0DisrvsErXEnUqJ7DYQ"
-        },
-        {
-            "name": "무좀균#KR1",
-            "region": "KR",
-            "puuid": "NHl_iC5qgUdbMNcY0GAsNN0eZ7h8wRl5ybdIsA6nJ4k6dKPJ4bgbDSDJYWgG7gzsmAihfOA929hA0A"
-        },
-        {
-            "name": "Emperor of Light#UWU",
-            "region": "EUW",
-            "puuid": "KO7vJRTSTyDDETFf7XOoTanFiJiqVcI9SKxp_iVZFZlsN1t-ckFbvETr0JvaHfuJPR7uhlPWegS9NQ"
-        },
-        {
-            "name": "성기사이즈리얼킹#0001",
-            "region": "KR",
-            "puuid": "l3BePTHGwsQUeqmN1c0YCcYMIbrSGvYfaoci-4dHyFywpEVa3394SMcB_5D1Tgkm1jWUFmT-9IzyJw"
-        },
-        {
-            "name": "五个白桃#美少女战士",
-            "region": "NA",
-            "puuid": "TuTtLGM_7zrdDpETRM4lc_A5l-Pbph1LtkYXzdXhOxd_q9dRrAP9wQbNuAsIMReVLj4Ffy13obBKWA"
-        },
-        {
-            "name": "Thornight#Noob",
-            "region": "EUW",
-            "puuid": "LXERAgX5l6SWI1ss5auUTZb8hdos5lgCvBLFpyTv6hREoHlyirQI_Tn1B7x0hJ4cJjMum30jxgvZvA"
-        },
-        {
-            "name": "指図するな#JP1",
-            "region": "JP",
-            "puuid": "bLWjt1FMb_Mfv4NEcTcHEtGHCsBzED0ZEuia2yOED5hJHrB1bCF15OJeW2P3XEaq8oIPZ27T9w0MOg"
-        },
-        {
-            "name": "Nlightened#EUNE",
-            "region": "EUNE",
-            "puuid": "AjfkxQt1tHgpmNVeT6ghJJuhMqRzYXxL4LHqnBuD2RQLXOJA3h2mjrUrxOCnUVYvIB0cI0fJDdBYqQ"
-        },
-        {
-            "name": "berry#ベリー",
-            "region": "NA",
-            "puuid": "9ZOw14w8YUr5yguo8HAeSf6lSmrN2X3WNFNuBGDH4vi7ogRSAEGG0ylGmQKgE29y5yRaZ9D0oKL1QQ"
-        },
-        {
-            "name": "ThatShiro#1337",
-            "region": "EUW",
-            "puuid": "PjOQPoopi-IFkHNvxSoEhldKsalL61hQWOlWW8McfRhXmtA3icwEEzvKlwcm_v9soD8x7G0WSfTNzQ"
-        },
-        {
-            "name": "frog#Lilly",
-            "region": "EUW",
-            "puuid": "PHKNRTFGitkfsXnuGvpFAeyK-HFDFbtkt5l-ec7ufVmOug374r8SEqd6LPafVB9vAaCRESGMR1b06A"
-        },
-        {
-            "name": "Fajerk#EUW",
-            "region": "EUW",
-            "puuid": "PBtW-bYU1e0lBbQsA0vg394iEGdVR8SQRifL0eYNNO1wGCI_ztNecyoaOjzas1tVSR-ygaNJtD2UCg"
-        },
-        {
-            "name": "Omar Ali#NASUS",
-            "region": "NA",
-            "puuid": "oPECsli02nk8J0opp4yI1U3e2GWVYZ5qyN8HEeEIqDrLiEHw_U8S9z4dwuN1QMlztlMw0DnadEm2zg"
-        },
-        {
-            "name": "양지킹#1111",
-            "region": "KR",
-            "puuid": "GgyEiKhjYNK5YIclLFBhv7gCiOhSxa2QOHjpxhrAYf8EzarmQrqzYr1I1io1HWB9S_Z8EZIa9SAPbQ"
-        },
-        {
-            "name": "Syneth LightWing#EUW",
-            "region": "EUW",
-            "puuid": "ZthzLF_ldoOISNwVZKo3Ed32sjiT45-hagxHj4lfg2XPqJ83e_AE8VvNxpoCXquTI0dzcG1qxkMQ8g"
-        },
-        {
-            "name": "Noelia GodAngel#Girl",
-            "region": "LAS",
-            "puuid": "WOFnANDKoMmpp9cAXIIprLjs0fU6r75irnIKoCWWlEt9JrchWLLmlKf4ZyZ9ny4EnrWQiwCy20ldBQ"
-        },
-        {
-            "name": "Kelepetesonte#2137",
-            "region": "EUW",
-            "puuid": "bGon4vsDjr4ixODkMvqmT-LXfxOwjMcMPOCEuN5gWXxmQfz5XHTLL0-a052qtI-zh_y5JTICCnDPFw"
-        },
-        {
-            "name": "apenas peitos#vogue",
-            "region": "BR",
-            "puuid": "4vlA_uAATCNYfLKmd13ijqGCeI5lMX3ENgaQwF8gu2ghhgIosOtAKMhKoBgbSI6IGEkgS0dIme7BqQ"
-        },
-        {
-            "name": "ポピー#JP1",
-            "region": "JP",
-            "puuid": "9hM4uaq_MW88JOmr94jl4QJk475oL0OTYZODKlokE1YcNpCyDqd2zTaEC1sOxFzUV5nV9x0-VK2mzQ"
-        },
-        {
-            "name": "冰鎮酸梅茶#Sky",
-            "region": "NA",
-            "puuid": "G8ToR9Lp8ZHY0OSZOUwbcz7A-Laf86Otld4PbOTWKdCn4YXafVARSJevROmnIFOxciJqVQtPHgD1sw"
-        },
-        {
-            "name": "Beer#6666",
-            "region": "VN",
-            "puuid": "imdZP878fl57d9Yv47tNw7qEV_JXYn4RKQPZG27Kp13qv3Wwr3kKkkHqDshfAwPX-iOFq4FP6HJyFw"
-        },
-        {
-            "name": "GarotoDePrograma#TIBR",
-            "region": "BR",
-            "puuid": "8MyOVT2ohdLMjKfDLYbKpYCiQBC3Qzp1nDAyJO4WdYkgCFlRU_A2i5jtPqnNGOSxdhHBvECOwlJSUA"
-        },
-        {
-            "name": "Akai Zetsumei#Zetsu",
-            "region": "NA",
-            "puuid": "8sXOAR7BLnSpT_P2YrEKMlYaDpWRpDQtqgnPQNJcZErejwnvF_Ub5PTacyAFnZCdyHwZidPyKRObTw"
-        },
-        {
-            "name": "ZcoBii#EUW",
-            "region": "EUW",
-            "puuid": "FXe3gS-mZYAMh1FBejHyOqezRcY_rcow7-9zQwcEv34tC0Er184f5Ce6BYAQzOu7xExPt2TnA_tUZw"
-        },
-        {
-            "name": "thug#litty",
-            "region": "RU",
-            "puuid": "zjD28-eDYhmZRr6uO6-9xWgc0O2EUDTEad_oAz_DM2krwX4OBSJ8A_73t9MtHM3N78FggL6OJstQDw"
-        },
-        {
-            "name": "Snøwie#UwU",
-            "region": "NA",
-            "puuid": "PZXE788xi19c7W7AHho0Gpf4bxnnP62D0o0tIEdGmttgzhwK_ogKifTprFOvMqeW5UyQia9h6A21xA"
-        },
-        {
-            "name": "Noxian Assault#0001",
-            "region": "NA",
-            "puuid": "N_eoNM0nKg5EovPtorb77eEheGzWRK41TfG5g0Nc9vk56oVWLzGQyNJvVvXAveF4iqRt9lXnSqNFQQ"
-        },
-        {
-            "name": "D4R1UZZZ#11111",
-            "region": "LAN",
-            "puuid": "TtaI-SN6iShluvB5iGshTAIy05SBcG-kEY1zswYWt_9gJFvp45fTeemgRlywzyLqHUdFfLUppEi6ew"
-        },
-        {
-            "name": "海老臭い#JP1",
-            "region": "JP",
-            "puuid": "RbgjAybjsLajVqft9OPu0gITAwa9Coru4YNMc204zvTW6MVHSLvjJDLQhworyY_63KCPry4PplRr0Q"
-        },
-        {
-            "name": "BaronMuchi#NA1",
-            "region": "NA",
-            "puuid": "UV6QWijvPSiAFnQeOfz1mt5VSkpNxTfLJBkrpgCLUDj6JodSSjyVB2BzXswG8Yeijt0nCynIE_N1lQ"
-        },
-        {
-            "name": "Nint#Bat",
-            "region": "BR",
-            "puuid": "W6-FFOqTSx6TsG6ByZGf6A12rng2oQHGEa4CSCFVnDOaDHMDePNE2vs_0KsvcVZ2adaxSWjiHP2VFA"
-        },
-        {
-            "name": "징크스#PENTA",
-            "region": "KR",
-            "puuid": "COSc1xDjQrIvegvkghlUfa35inhyX7v0k2_p6qDdaeCyZZOQ6cNbCaDuoj81Q9NK2I2HH734B8wS-w"
-        },
-        {
-            "name": "zajączek#kekw",
-            "region": "EUNE",
-            "puuid": "-ZkpynXV4O7lPkQOJ_NbK_5YL1ZDBAPSt_wR3tTVNjvuQTzbXL9ZZCh0ppnUMmUjGGmSUSNILo0g8A"
-        },
-        {
-            "name": "Lulú#BR1",
-            "region": "BR",
-            "puuid": "i_judNWDZNfwVQjOpZopoJaaKRXIXwKT4j2IvCgra4BLsCK4A4vjljMNdcd0ispgJpJozPqA3tRimw"
-        },
-        {
-            "name": "Norgonomicon#EUW",
-            "region": "EUW",
-            "puuid": "LvM6xyRYX1ejdH-Mpxvi60UwTZ5nZmVSMSW_nmTk_M47EhHZxazzlsOK95tb0Netg8GfpF7EBuGbMA"
-        },
-        {
-            "name": "小手冰凉#yyds",
-            "region": "NA",
-            "puuid": "rtiuA_t5cHeF3jlhPqfOn_WPMBEXqmaEEY2-P_riSlo2h59yts8CNL2ZyLahNuJOjrD4TdfnmIjDWA"
-        },
-        {
-            "name": "Cole Palmer#CFC",
-            "region": "EUNE",
-            "puuid": "KsTzZOYkwKtuFixxX9gWywVmWmNq5gkjlLUKgE09QMgdQk8MqaQakUT-QkrBPGbLQeRl8o0aJfS3mg"
-        },
-        {
-            "name": "妳不說真心話妳讓我怎麼為妳大冒險#閣愛妳一擺",
-            "region": "TW",
-            "puuid": "OVWP-OuEBTFp0B5nw15utj3aGGyUTGDbXfbxuP4seJvxiOajX-WekTZ9CcfPcDkMZe1OuLhz4F1bJA"
-        },
-        {
-            "name": "간호학과 1학년#KR1",
-            "region": "KR",
-            "puuid": "oqpc2ZLzS4m1sxSm2ld_j9IObODutZGinwc9wNT0QV_zTuMYemolOItH-KeSMyYkLngCDQTViMM7fA"
-        },
-        {
-            "name": "Elisza Kitsune#ilmbf",
-            "region": "NA",
-            "puuid": "JVv0sgBjwMQtVGdOQUSnQU7KSPeY7g0JvaDUUPIdjXKXWPgRY8E_ua4GtQgojfaxIzdv3gNBplij8w"
-        },
-        {
-            "name": "迪士尼在逃猪猪#oink",
-            "region": "NA",
-            "puuid": "YCjx677rdl4t8UHCS4a33cpuFuN9GmXy8uNznvkPICZjaez5QQ2sWHxc7-DtyGvcL4myLiX1sIVbyg"
-        },
-        {
-            "name": "Myth#0101",
-            "region": "EUW",
-            "puuid": "rjhiAD83FIFl2-Xnv8mUIdtvO3vggl_VtKZLN5EeXXX3Jw42VvYk5PC7qXuK5uqg4K1yuKICgHDGIA"
-        },
-        {
-            "name": "Ali#12988",
-            "region": "NA",
-            "puuid": "4RcD_7Kv9qQo7jEStTgGObPLS_jKkwTPSty2H-loRHXmsqHDUStIJoeWQWSnxcRmXWVfrnEG2sdmQA"
-        },
-        {
-            "name": "FallenSte#Kayn",
-            "region": "EUW",
-            "puuid": "4M7X9s4kOLcz37XgFqhZKLLZxNmP_9BtARCZqNjr7yfn-yZ3Eqh-cq63qjDOxcXmEp45XrHKAqeY_Q"
-        },
-        {
-            "name": "Alecc#EUW",
-            "region": "EUW",
-            "puuid": "KqQxa0I3hz9jQHCoM98koPyfj6T-5ql8D9D_R-WBRFWSa5koREj8Oy3hzzF-fiY4Q3yQ6ryc0peZtQ"
-        },
-        {
-            "name": "Mark Forster#Ultra",
-            "region": "EUW",
-            "puuid": "ZYS7XzIEtwaWbib1E6Q54emEDZcryi1aw5YH3JPZ9rID4CZk7ZggiJS93qsy6OiBz4HaQxtRLaLr3Q"
-        },
-        {
-            "name": "sunshine4u#EUW",
-            "region": "EUW",
-            "puuid": "9iQD6De39BQMRzuo9-myzLlir--m-_i_kgzJi_FgQRCUR-Z-5HcsAKMj_vTmaOX4eP2ogUVD07Sy1A"
-        },
-        {
-            "name": "DreamMaiden#DREAM",
-            "region": "EUW",
-            "puuid": "rPCSmi3fJQGISYghsvu1FEylGqGR3iKfs4h3h7ohdga1ZlRZVo77LMaTx-w3UWi4r17_c3DaO4Ci9Q"
-        },
-        {
-            "name": "MVP#RU1",
-            "region": "RU",
-            "puuid": "sHwNIKwc4pHsMWiYMhV7ZRtCnvf7sLsGtMXgCqInyZJ7c7u4fSK6sWzvhpnHX1NqK7uQehG-AFxROA"
-        },
-        {
-            "name": "syaruru#0323",
-            "region": "JP",
-            "puuid": "F5VflIFatL7zgntstDOjuqYLf_g2nWyktdAtCdsZgHgKEvHLTd0TLw_qc3Y14RbpTffxF5C8aZ_0Ig"
-        },
-        {
-            "name": "13th day dream#terra",
-            "region": "JP",
-            "puuid": "ffusWPY7VbZxvPVVevdtc4Y8IdpjRLeBK_TnF2Gh1TZTsERsCxZormOnHwHnUjNKPVP7VKJBuMLleA"
-        },
-        {
-            "name": "Das Biest#EUW",
-            "region": "EUW",
-            "puuid": "p1WEeFnowtGkDQDlUHxjQcdIctJESKBrOSZPLpPoV4t10Ck0nNDvykZvbSbA-1LZ90Lidx7ycgP5gQ"
-        },
-        {
-            "name": "BoKaRnAgE#BR1",
-            "region": "BR",
-            "puuid": "K91Vis_chMNFSA5wkcXoTJsl1rlfTgOft6w9dgsq-PLM8fTqdeqqFohDjj7vUzGdxn2-yvT5L4Lf8w"
-        },
-        {
-            "name": "まさゆき#JP1",
-            "region": "JP",
-            "puuid": "IfM_5lC16YVlh-fScq1TV7E12kXaAAg7wMdAclByFRZBXLnleuJi1ssWAKiL44xNoFdvcHMFlQoDrw"
-        },
-        {
-            "name": "Xhyyyyy#2531",
-            "region": "NA",
-            "puuid": "r10JoPjovUu_yGuLyKNwOZE0zkEuGXCWMEzdsNvTU6oGhnZKDxVFnBKSvguxZBYX-LY04pyC_L3ydg"
-        },
-        {
-            "name": "QiàoQiào#0205",
-            "region": "NA",
-            "puuid": "zvD1Yox51iOwAeKC7wmLUWecAaX13JR-_P-tuYrZo5pVOyDUEd5p_1z4FVMy3fP-FPYkWI5J4FM_-w"
-        },
-        {
-            "name": "VTRST Spoofer#νтяsт",
-            "region": "JP",
-            "puuid": "k9ah0RuEhtbe0lintPyqWJom9V7w4vRID4ukhMIaR5Li356y1X0h2kPbi-DxtwH072C_R4ZVrnIzjA"
-        },
-        {
-            "name": "Mimikyu#Oreo",
-            "region": "NA",
-            "puuid": "Cn-8F6b2aOLl-NtsDXcphy8Z8pZdrgDs8BXg00Aum__KB-mRs0iXsrr_a_TEJVFRVk1fpLFwNhh2SA"
-        },
-        {
-            "name": "THOTTIE HUNTER#EUW",
-            "region": "EUW",
-            "puuid": "_DZY7A4Vec5FkQCGscXO6Turwi27mHPuXD19OcPqCnrDFBh0a_0SAmyDlX_gVgkTELyuBCXr-vuY4w"
-        },
-        {
-            "name": "CNMniHonjin#JP1",
-            "region": "JP",
-            "puuid": "4BKITjMniCuH0r4deMXeNDdFEQIDV9za72EUOvnW5mYwk283XoikRpW-8xXBXLpOt9udOQ1GxwgCQg"
-        },
-        {
-            "name": "Averwynn#NA1",
-            "region": "NA",
-            "puuid": "O4TCHKoiGcd-21Bm5dlT107RWeneHJW74AU8kaYbxmk9c4y4UrQl4cqR571rdu4LmkoCae_jaVauJQ"
-        },
-        {
-            "name": "Shadowheart#zBG3z",
-            "region": "BR",
-            "puuid": "zAtbhunB7G7V88gsBTPBIRn0JsD2oqnsM0xa4YDwney0J2lZwthHTRbsPENxX6K2CbyqtJGfMqtYtQ"
-        },
-        {
-            "name": "Fel#Fire",
-            "region": "NA",
-            "puuid": "gczWoc8YdxwsRTSChqdCLt69G5iOS4Pfv_XnGdfq1dSQYOhqWoLdE_Iv_K6RZzZC2DsM40mb8zoR1w"
-        },
-        {
-            "name": "호 야#3223",
-            "region": "KR",
-            "puuid": "0of1y7QQ0NMChSTAd0UqzvQC1ScZXXu3faXTjPtS8DSafIY8Uy3FuoyX94NVSU3-xooDYZrXOEVxuA"
-        },
-        {
-            "name": "Chiko#001",
-            "region": "EUW",
-            "puuid": "wqm0KlpHXrlV1UNe19IV-eml0c3b_w-lhdbqSpueA_glHCINjbp6v54VGl6dDZkzc96XcM4ULme1Tg"
-        },
-        {
-            "name": "王袋先輩#JP1",
-            "region": "JP",
-            "puuid": "C_cnfowZyFo9Ma7pbvjDusZfPxRAulxazsuGh9c2bZaBQnQVpQ0faE_wZ7TGmZmWRq9MNtSos6poTQ"
-        },
-        {
-            "name": "본 색#6982",
-            "region": "KR",
-            "puuid": "NGE1UjfhftdADXWOTNB2MquZqERj5FqXgMcD10KziDmQvktqkN47VEhrPh0gI0bM4Jt2bliHcfnItg"
-        },
-        {
-            "name": "Rayceus#XTRAS",
-            "region": "EUW",
-            "puuid": "Bov5TyZ5SHIgmAIq9cU2rS33dIPKyta8Yk8t-KhVE9DLQLZHFWTD56bOFapgT6awVJznwhEve7lTOQ"
-        },
-        {
-            "name": "T1 Rekkles#1337",
-            "region": "EUW",
-            "puuid": "T8eeSjnQv2ddsAT7hgS3K2-k6_qnl27BnTNUaacrth41sqz4NECv90Ggo79Q4qW9uLYF5mMupiOg7w"
-        },
-        {
-            "name": "Todos Los Diass#KR1",
-            "region": "KR",
-            "puuid": "t1rnKsJxC3LIvLS3cwHgEnMwoFMZH2i50VR28OErkN7P7cc7Q5d4blSP8AjGJxO-PA2ZeDBFutluYw"
-        },
-        {
-            "name": "Scrounge#000",
-            "region": "NA",
-            "puuid": "o3ile6sMk6MJDJVy8_f-0CMX_W_OOItuZJpZodJzvwRUFUJiov2t5RMZCRUz71fyKNX7m31stPlAZQ"
-        },
-        {
-            "name": "Lalakas#JP1",
-            "region": "JP",
-            "puuid": "ZNSwjqeDc6I0X9l-GVNZV071_fjGxQqZGz1kWmIwbULQg4HbtNkFhtqTSSQYKBuGYJiqg_qL6xMtOw"
-        },
-        {
-            "name": "古月方源#8338",
-            "region": "VN",
-            "puuid": "60b-DUZnpGDzhHiaUnrTXKhpVcHGUAuNLpjamAC2qTNmhexLpcewSBfTl_OR1XN0TKuTgvC_GO97kA"
-        },
-        {
-            "name": "Lukwer#Kat",
-            "region": "LAN",
-            "puuid": "dUTfbxqEnBfU1LY4mmrpFlT8OibESyP-bpL_lkVyvfG_2nPbrhzY3jjjFQOm5C_fVxm9Gv1rdUG1Hw"
-        },
-        {
-            "name": "きつねちゃん#JP1",
-            "region": "JP",
-            "puuid": "hFD40xsl7NP3U44PjLQxMJAcpa4KtCP0dqmJ0EwCCU6mULUDIMhxul7WjUvxvb0Ifnf_nr24c9pjVQ"
-        },
-        {
-            "name": "Gullwing#EUW",
-            "region": "EUW",
-            "puuid": "nsPBaX2ECu2ogaS4ztUQftMqWujxozxiSq8Oa_-D1ANC2wYqIt_BJje9eAbEZbvlhr8XpBNKVez6SA"
-        },
-        {
-            "name": "Pierce#BSP",
-            "region": "NA",
-            "puuid": "aY5moH8KO-SqgZ3QxMZWV1tRoOOkme2ciIh-isnCdDJ6fxwUyl-gyplS5PW1yH-qDfgvnJrFMjRDCA"
-        },
-        {
-            "name": "BEE Gundrex#EUW",
-            "region": "EUW",
-            "puuid": "LU9t-_n5Mn-ztTXc7boP8QHMtF5yocVNLcwJ9kY88zg9reuuNN9mBo6khpJ-AwzgQLldXzOgBJVrEg"
-        },
-        {
-            "name": "オイラはナナチだ#JP1",
-            "region": "JP",
-            "puuid": "39LQQSj8tUpS-yL73Fin6_Zaber69gY5ClDyAjZsw3_FbUKA_k4aNfJ986Td-nvNPFOl-krX7LnzEw"
-        },
-        {
-            "name": "뽀얗고하얀복숭아#KR1",
-            "region": "KR",
-            "puuid": "s61PBLa52qp9FbvUSXolc0EUc_N2KMWNyJEX6Hu1Nm3jdKT6Ftr82qGFq5ujq1oXKkn7xHEZfQ2VMA"
-        },
-        {
-            "name": "Z0BA#EUW",
-            "region": "RU",
-            "puuid": "7eEcUUfBWBxCpJTDr80-Qyt2ByjamW1hatA78cYW5s4S4p4J8uyg8HYOgsApWFnIDCvvyH7UHQITdw"
-        },
-        {
-            "name": "Yeyasu#EUW",
-            "region": "EUW",
-            "puuid": "xGw3Tc3nPnBau1IA1RNo9v6Nd-xbXdx_Z3_FaWRRqZ_xFGhAYbSVCWyCLgPNIkhX5s23_pk8aJMioQ"
-        },
-        {
-            "name": "Waty#Waty",
-            "region": "EUW",
-            "puuid": "vVl_0TUbN1haTpqXZ9h--4Hx1OMRD6DYBZcrp2F8y_jY2cVBKsd4H6z25gM8yRuakPTj6HnylJWt0Q"
-        },
-        {
-            "name": "mOerwi#EUW",
-            "region": "EUW",
-            "puuid": "miGpfke_HLv3mjCMVCeS3Mz6e3HuETi-F8FDoIvpNk9H0d8KbQi7hjVP6IFRuj00cn4iBt0PYbaCTg"
-        },
-        {
-            "name": "HeroRex#NA1",
-            "region": "NA",
-            "puuid": "SlKXlDGs7PwZ1WMGrVzkba-e4jlt4uf0zBj_IZsCk_2scqB9K7B8fmZXJOZr0NGgtuLQjiFZ-GFiVQ"
-        },
-        {
-            "name": "StepBro#WYD",
-            "region": "NA",
-            "puuid": "5x7opDRuGG1D7ueY3_klnR7GhrV5V-t6Xm7h4bUUz5UqccBI828u70uESaHTZfUKNiESLZmm8LM_jQ"
-        },
-        {
-            "name": "치맹타#KR1",
-            "region": "KR",
-            "puuid": "tYDz9hRG5jD09cSC2k3vecdgLOlXdoP_3sNenL37Fv2JL3XVqmo1_pQHPIoM0Xv2GlwQTH40pSt-MQ"
-        },
-        {
-            "name": "111#EUNE",
-            "region": "EUNE",
-            "puuid": "IMHxWmy7M_cPskSSf3VqB0WqhOZ2RsJVNpC19WYLvk-3g-_rIwtNXB9XR0GSfieFcYvBRvwgs3cc-w"
-        },
-        {
-            "name": "솬 띵#KR1",
-            "region": "KR",
-            "puuid": "U9B0XN26iuw_PHBAt8No74DUMrcFZbfNzAH8tzWBkqwOjhbkqiPMpWn88JARrFk3DLAzicTKVh9SQg"
-        },
-        {
-            "name": "Countless Skies#EUW",
-            "region": "EUW",
-            "puuid": "vT7jPcMNYUT0zirNRyguJy5Wu7KveV16ea5AIv__q2B76IB3ZdGH_Mtg8ToB0k1CJb-DVoE6OYsPlw"
-        },
-        {
-            "name": "こどもちゃん#JP1",
-            "region": "JP",
-            "puuid": "pFIkUWHLN3Dm-2sUBMPPIPpkbTS1Da5fNfXUt5gpmnBKi4x5gOqx1r8DgW2Cur4m7EjnJC7vT9QJPw"
-        },
-        {
-            "name": "zvltzb#sci",
-            "region": "LAN",
-            "puuid": "-YUYfWmLvgMkYt5lJc8DR5TMN5tK9YUTuSesk_YqHk6dsuoyowY8vKLavPhBRQTYB2rkcjw3jgm_Iw"
-        },
-        {
-            "name": "GIRLIRL#Yuumi",
-            "region": "EUNE",
-            "puuid": "f0cItHruNBXF3VILPUBMUDMygI-VF8z2W4nahhgCyFdjfLxv1nJUpyfjYfpjOqdBSJCsuuKFz3NU8g"
-        },
-        {
-            "name": "튼튼짱짱만욱#튼튼짱짱",
-            "region": "KR",
-            "puuid": "OTkJXuBhqFe6meQzOwmXKBMgTf5VtcADUjJlbFUVsm32Oi5ViNGbKlPHQsshe5tWkEKXQHBm87YWBQ"
-        },
-        {
-            "name": "小当当#B0226",
-            "region": "EUW",
-            "puuid": "rJYPsvbRbpF1vzSf8pOH38yrs8_JVRv9h4DiLeit4HkKkP4z6G3VWNc5NjVI3xqm4jvq4bkArw4JwQ"
-        },
-        {
-            "name": "chrisny#1337",
-            "region": "EUW",
-            "puuid": "S805f4ga9lho8bRedyQ_J8oRKYAS1WVPDhczM2DKSyYyuMyDDnB6uv11oPND4VvyIXEoylTHbnK0Rw"
-        },
-        {
-            "name": "Infinite Regress#KEKW",
-            "region": "EUW",
-            "puuid": "2fDjk5rjrzLml7pxhoVUOrvB83Fee53HeZiwkqmRdaYwOaR-yloRj5DUKm3R6RBOyh1Dnsh9Hj4Vbg"
-        },
-        {
-            "name": "스낵이#1836",
-            "region": "KR",
-            "puuid": "u6tufghTG2R9InNzQymh_fEvOlQs5QsVTUgqAD-ThIjxroRNdqLPRJB9YKQ4SpAChzv2GLPqR0TPRw"
-        },
-        {
-            "name": "BALENCIAGA#KR2",
-            "region": "KR",
-            "puuid": "cibCGWuA5unQtYs6ezuMAYe3hr5vYWtWva9hUFlQ82IquadMpIpjRTRjEJDdL-Y7iZ-NyONLeWyq3g"
-        },
-        {
-            "name": "KVVT#EUW",
-            "region": "EUW",
-            "puuid": "iNXWhqEKNi2xkkTq9PvA4MvjxtOxIz6nGR8jbL_UTSJMCjSXccWMlUTNMsG1n2rYJpR4dL6N9JCU3g"
-        },
-        {
-            "name": "Timeless#I944",
-            "region": "BR",
-            "puuid": "v-Uaat0kB0Y6QV6fQ6r8wZXkbYZorzlHZ2uWOKcdpAbHhS0iu6tj3pNGi5p-OMAm5pUDCZyyak8www"
-        },
-        {
-            "name": "GLK#2710",
-            "region": "BR",
-            "puuid": "y8hfAK1Kp-2rtB4hbgS_cjkKmezwqd1GubsuF4uIIz1m-Y_8vln2oH8lLYhKrNREHnaxkS04eEa4ZQ"
-        },
-        {
-            "name": "FizzedInVayne#NA1",
-            "region": "NA",
-            "puuid": "vgZR1meReSSqIlLxQklpefJ_YPTFrhHlN6mMgmNp6WPtopJaXogsJ5GeZZDxHzwmW3nqFwbNuDlScQ"
-        },
-        {
-            "name": "DarkNinja411#Ninja",
-            "region": "NA",
-            "puuid": "LsDwQ3yZEXOIIEdxrLyjT7_Y2YOCQi-BQywZ06TemdvIdEGpjF-uP0-_XcLwP5HhyaH1uRbl-DMtjA"
-        },
-        {
-            "name": "Dad Of CC#DOCC",
-            "region": "NA",
-            "puuid": "_tR7QDIbG2bhZUeP3HUnw13rbyYViAa9kq3dbq16chZPAcrRX_trb1UaGkQsn2m-mXk_o00aCKNN6A"
-        },
-        {
-            "name": "Ducky Bucky#NA1",
-            "region": "NA",
-            "puuid": "q_v7zp_feI5aYBzEZwvEgqtUyr-amKTgNGRzTAxV-AMMFNXAfqvgjCN11v0BOu10AekX6YfYYqhAqA"
-        },
-        {
-            "name": "특등사수물총새#KR1",
-            "region": "KR",
-            "puuid": "jzGJ7i0qeaPCc7L6Z8e0tvlPprULQHLEf1Ctq4-pu7-P0H3JDfihcRQilD2RV1jmh96FPTPa2CGW1A"
-        },
-        {
-            "name": "두 부#doobu",
-            "region": "KR",
-            "puuid": "dU3ULb_Z30za3_EksBryTmVKXTyU7ld4tqd4uQ4RemegtC7kzYO6GcMiJ_39SKwK9XAhM6cfbbAPBw"
-        },
-        {
-            "name": "Godzilla#965",
-            "region": "EUW",
-            "puuid": "P58hWSkXOfSJcWlnvNQ5oLBv7CUuuAVdapOHD8vYw98JVjeP4l21QETXEZT58Lq69R1UXzaJA8HF6w"
-        },
-        {
-            "name": "탱글수현#탱글수현",
-            "region": "KR",
-            "puuid": "0Gmnk9V3vp8UPAciFyy0jFHFG_K6Ph1tA9gNGKlG98V16KrlVrrzbZxY9bFl4TR5y1Cp2LLZn-7-qQ"
-        },
-        {
-            "name": "Reaper5599#Reaps",
-            "region": "NA",
-            "puuid": "oOrJiMG8s_-5Od43qJPJoc6GHLr5wgy6ib89gm6ugGvDy5woooraI1NUtVM7oCJS7F2_YSIiXrBOmg"
-        },
-        {
-            "name": "FirstVictim#JP1",
-            "region": "JP",
-            "puuid": "Qxm9hNPFAHvSOFeHYig8bx7fkzY-8naps7dFAwqww4x_JPBFp0PAetOQJQKRX9xShxvgup4d8duv4w"
-        },
-        {
-            "name": "Tyrranoid2410#EUW",
-            "region": "EUW",
-            "puuid": "HhR4J692YBjlE7GTITYNuk56Dff-GNP5sYG40gJmoKpWHyliQ-P5fOyQpEgwY7tSgMRAAkzJ7RS6GA"
-        },
-        {
-            "name": "승 용#KR1",
-            "region": "KR",
-            "puuid": "m5_Sod9nDaPkNoxeCLkr2lHNmuIZNNuEi8PUJmvWMK0OwdJw57I6G-ebIyOWU-J9yfuWAaWc92CU_A"
-        },
-        {
-            "name": "Zan#6523",
-            "region": "NA",
-            "puuid": "L5fHJO1HGC1qQMO2of8pG4OPS6rXK6PvrVwr9zHR37mol7kJPqzw0IYfJX-2LYRyIJ_mBVdePY-7Vg"
-        },
-        {
-            "name": "BlackDizzle#NA1",
-            "region": "NA",
-            "puuid": "5wAy7wehjkYnrEyx7lLc9I0ChP00Kj1bQnfi4Z5Xu4GHO_Bsm9zPby46OVD6wXPW7J_sewGv5qj5ag"
-        },
-        {
-            "name": "Zyrka#owo",
-            "region": "EUNE",
-            "puuid": "pBw_iRSr49XCZWbm0kdd4NMQSc9QWgHFdRdoRmA9jlVf1S5ChnrZHPe45LHjaS5Jx_ch3VX63-rUNQ"
-        },
-        {
-            "name": "RedRex#KING",
-            "region": "EUNE",
-            "puuid": "YCMBaLvOySfyyUBfAHSJ1Sl84tzfXImnZvmJ7Bf5KPX-0iLhKTKIhQud3MQ6twt7LYtwIBcWxdbReg"
-        },
-        {
-            "name": "Reality#EUNE",
-            "region": "EUNE",
-            "puuid": "nSNomTepwu27k52y48wFzBC76a99ACIGj98DDMOqO__1nU4ymPVJTMAepVmOzkMjCgCk29wspD44xg"
-        },
-        {
-            "name": "Roserub#EUW",
-            "region": "EUW",
-            "puuid": "_vU3LDHNtaagDR2DLMczFl_6h8PTUkU1w_hxlBJPLyOlae3KFP-Uy1O-Jm35VfdpDZwoua6oDQ5Hpw"
-        },
-        {
-            "name": "Panda#0309",
-            "region": "NA",
-            "puuid": "7xoFYLOk7hq5W2S9VXPbQmUM-1ka8UxXygKLN-E6EJflFI1gDxTT8RgrTXU86XGUhND9Hs6LcPz26A"
-        },
-        {
-            "name": "Archtarius#00000",
-            "region": "TR",
-            "puuid": "aY7ypAJERhXqTOE3Mbk1Lw-kfBLSb11VYCljtqiiMMdeQnnVf3gG3rp4wzRNjwmHrwU_RyH3-57rOA"
-        },
-        {
-            "name": "퍼플색돼지#PIG",
-            "region": "KR",
-            "puuid": "Kaj5qtseZikg5PGKtZdzjCcrYyWXfRcnVHi0ASJSHDkW0aeH3hMUzLa1ebhbRvj-VgLLCKdV_upclA"
-        },
-        {
-            "name": "Vendo Bolo#bolo",
-            "region": "BR",
-            "puuid": "GoVh_gtOZvof4vDjFHgrGwSLYMWMBbQfrHF42h0qAzMpO7UiKS6GkFQhL6vxpOz6gqwhe3uaSNmdOQ"
-        },
-        {
-            "name": "Zoe#Tommy",
-            "region": "BR",
-            "puuid": "EBcEZQ-x5RA2YYOcihBL8zbQ0settpPeOgZM9iROxTgiE6lSXbgG19NpD-X0q3CegnNzcPo9gWLduA"
-        },
-        {
-            "name": "Reasum#Xia",
-            "region": "NA",
-            "puuid": "7PDqVf4D6Ns-zxoHNYdmKbZ3hd0FPICTmoB9BVtOPQlBXTPNZb6RsCq8q6K6dN0WYewC2KdEv1RmJA"
-        },
-        {
-            "name": "最好的老婆#1603",
-            "region": "EUW",
-            "puuid": "gvdcRgsv-t7_TP-X6CJzOKUG5pAFvsGFCDwmtlWtg6HCOKWCle3Gq6zLpGwdgksIoDnBcNsBEG7bAg"
-        },
-        {
-            "name": "Robo#RXTN",
-            "region": "NA",
-            "puuid": "BywJ48j2wKSFukfIDBI42mL6ORAJvSEJ5_72qM5nmBbySY-yrxkZEEtjhYwkbzvO7GsAbSLIOHqHHQ"
-        },
-        {
-            "name": "Smolder#Oreo",
-            "region": "NA",
-            "puuid": "zaiQDaU2A0AnNTyB1D9T1Mg6F23DtRN3Y0tN76zVqqZd5COc5waczejByQlu_909G9Ew-so4X94ncw"
-        },
-        {
-            "name": "Gowtherμ#EUW",
-            "region": "EUW",
-            "puuid": "lk_CQ39Qjk6vluB_v7Bh6heALssOVLYuAAxviwmI6pWdVyykDKG5lcwkziOdoXyXjU37o8nIVIovxw"
-        },
-        {
-            "name": "Ðªmøń#EUW",
-            "region": "EUW",
-            "puuid": "_Fzst1J1f2z284S2lZRxvMsix0uP4UeQlEOiunJSttzayJtkrc2PkXYNmievEN9l5ZvPsxZL7EyiXA"
-        },
-        {
-            "name": "3BM#EUW",
-            "region": "TR",
-            "puuid": "rWsZoYzoumjhHaHZBzWR1wZBeWJQM_JX-vVwj1BdsGyFVyAX58Jqf19M5NVmBn3irk2NdK0gFoYJSg"
-        },
-        {
-            "name": "Archonit#EUNE",
-            "region": "EUNE",
-            "puuid": "yR21KdAMWl3RLQnTNVW_yULVxrRScSYEJcAmgzhkuNCcCzltDx4D61Py5cPSC21ZB-NbHi7DTzm9QA"
-        },
-        {
-            "name": "RATouille#COOK",
-            "region": "EUW",
-            "puuid": "7JanlZZUYqiDkqVOe3OQ9C66yahvviVbjJmKHSE3nfO3Dcz90Ci_AodUzeXowqPtdCe1eDeNXHxCEA"
-        },
-        {
-            "name": "Shayden#1337",
-            "region": "NA",
-            "puuid": "8Kj6-fc5wiF4NMwE9ri5u3ueDnVx9mpNG0yGv8iDfBF02Pb3rpIJ0kOsWe2W98RiwKAUfoxOyrPQCg"
-        },
-        {
-            "name": "えまたそ#飲酒LoL",
-            "region": "JP",
-            "puuid": "vnKGRSYmhqJ4txeF87Tg2peKEy06rN4XGU2G4BhCrUcrp2vAdNv7zdXL1yYcR07gX2TqX3vzcgHrCA"
-        },
-        {
-            "name": "群馬県産Teemo#JP1",
-            "region": "JP",
-            "puuid": "-6P2mRoxzAxJqCrdzFAU1YQQjfoZQRqaCtWiTj8pxYHl-2DJRU1GfdvAOwyKUTA4w9Wv90nTBKJSUQ"
-        },
-        {
-            "name": "Keltril#EUW",
-            "region": "EUW",
-            "puuid": "KGr1LQIufimfC1tL7rFFoKwXfR3iOsY_xEXQuFT0tHfQIbDpw2b1TCAcUXme4zKVip3MXo3Xw4JlOg"
-        },
-        {
-            "name": "15레벨#KR1",
-            "region": "KR",
-            "puuid": "flko4nN67QYshC7xjop7uAu440yjpTeG42hv_oXRsgJfAy7tLjzhkRYvl5GlrpI-7yESqSzCZLQg6A"
-        },
-        {
-            "name": "탐 나 는 남 자#KR74",
-            "region": "KR",
-            "puuid": "jDOiVQXkaUCHzuYv-DzbEbHhJbkQ8hrqSEk4c7y5ic_hN_LXXBXPlg-iJOH3A6n57x5m6WuS6huRxA"
-        },
-        {
-            "name": "Rhädámanthys#Nocti",
-            "region": "BR",
-            "puuid": "Btd3Rrnxe5XNoTdj6J0uSNPLZpgikID9Aae_S2aix3ek54u2UReezOmwjJT2jQ10mdu1-4YOqJ39dA"
-        },
-        {
-            "name": "Alicante#BR1",
-            "region": "BR",
-            "puuid": "EZzUeBFAbsewjq-iqdL94ZKDl15E3A3Yh3ZA5JTTDEJFFVWMEERPPlQPYhQv-2H7Nuo6aPNFwjgaoA"
-        },
-        {
-            "name": "Zepshun#Shaco",
-            "region": "NA",
-            "puuid": "fTaSljv_4_SC8TgGljlQcw_sZwO4jzb_6xJEH6pN27CPdmaBVmzC8C9pzmN4a4qRRDvmI0CNKQd4NQ"
-        },
-        {
-            "name": "Helghans templar#NA1",
-            "region": "NA",
-            "puuid": "U97Nc5NgEjYVnWIB2w054adxVn68Lb0b9vVLHzhqsD2fEAlbrBoyxc-6Q2eFuRwchnf0xgLXV5KdBA"
-        },
-        {
-            "name": "Hugh Jasol#Orbit",
-            "region": "EUW",
-            "puuid": "r8_8i7hzWMM81SOYm1MpkVh6NFR0d0ZuvoHaLkwHnevSJVcWkQbpUWKSXtLme2Sj2V8ve7gPtXNVtw"
-        },
-        {
-            "name": "Sweet#EUW",
-            "region": "EUW",
-            "puuid": "DhZi57qgd31OHoSfgku_kWC5lxACq9-kNAZ4nP_wcTohOxbsWO5BAZGk8Gxnn8lYhQ_Pz2YKHbHCdw"
-        },
-        {
-            "name": "XIII Garri XII#EUW",
-            "region": "EUW",
-            "puuid": "87LJEh-i0LDol-0LWitrcP5KsVCdXI2bGflHgXzO0vthhbF_ILlIDfWvbtNISLlN6ZAl56aMuH3H9w"
-        },
-        {
-            "name": "민등민등#KR1",
-            "region": "KR",
-            "puuid": "C1X8whlC19ZcDYZNymZAbpdgYDPR3xHTtgW4gCWVW6Z94fYJYl1ojzf9spgd4rrOxWSxv0cKI9xc1w"
-        },
-        {
-            "name": "Tío#Kofi",
-            "region": "VN",
-            "puuid": "Zg6_7QKy-uYV_M-_xHZYMCorBVQ_mAomoSYZcpCFmaYXh1H8RCxE68lOR0RUBT3Yod-LimSfw6q4lg"
-        },
-        {
-            "name": "FG Nyah#EUW",
-            "region": "EUW",
-            "puuid": "WqoLmtxB4KAwXDlU7MzvswFnIqe8gS2obhIY2U9Bb0qZKvXA7d8gqPKN5W0gmhYCQA9orZ7ZjVpWsA"
-        },
-        {
-            "name": "Lotus#ADC",
-            "region": "EUW",
-            "puuid": "aWRxADbNdVGROThzgwBkPKHO0lih23QjYetDHTcs6qdhe3qgvZjRj0oWZEYKnLbPvJNeTv37b0wx2Q"
-        },
-        {
-            "name": "Myzery#55555",
-            "region": "EUNE",
-            "puuid": "amfPK6JrUbgZLT0h22qFFDdIH-hpIoxkaQQ-3ULMFD1F20mIl7h616u6OHpACXKUI_iS6S10eO2xmw"
-        },
-        {
-            "name": "鬼畜先輩#JP1",
-            "region": "JP",
-            "puuid": "OxP34zgzw8Kp58Fwe9t22QrkzF4yg7H9Y00l1hjAxXxeXDZLin7RyPLr1q47fIZeRDODl1L1FSeSNA"
-        },
-        {
-            "name": "FLX Trazx#TRAZX",
-            "region": "LAN",
-            "puuid": "RQTQVf-OCwPqNe3qmlzcprxh76mK90heeA4U80o7ntl54mUMcCKs3CZByrY5nkEhMv6xbs_EF0356g"
-        },
-        {
-            "name": "zibi#smile",
-            "region": "NA",
-            "puuid": "o0XMSSfpN2ovoAL2TI9DX1xA-gMyT1m1FU_4zYMQ_AszEINe-VwhJrqr3FCa0Nvs44MIH_x7wVd9pA"
-        },
-        {
-            "name": "acedia#5020",
-            "region": "EUW",
-            "puuid": "-g211SKiOUo1mdbEq8i1_bClGgXKtdvZk19bpKAqjXvJQUHFlQ-1AKQ268xmsn8KanlGjlwJHs26Nw"
-        },
-        {
-            "name": "Demon#Lust",
-            "region": "NA",
-            "puuid": "plXLbys-8fU52KPRgqCheudRJn7VFbXUHUklMU_6rA2MF_cBt3Xxw09QncngWKm8g2EAtR4QbuPiIg"
-        },
-        {
-            "name": "1989#luna",
-            "region": "BR",
-            "puuid": "RMqzpSbo5HG2l9i7bkPUHlxVQVX7icZZMlzYIWZottmAn9o2CwkFv-uWRLg5t-fBADtBkno6k9dM6A"
-        },
-        {
-            "name": "Kalthrak#EUW",
-            "region": "EUW",
-            "puuid": "LeAlMkuRS7fta7oohVmcYN-d_Z4xYs_91UdHadO3fKPpAICf8I-E_0g9SzGhICnjNuX7SbvNhkN-Tw"
-        },
-        {
-            "name": "Minerva#BR1",
-            "region": "BR",
-            "puuid": "BIjCIJfXbU4PvVQBqkBUqLFMlxTCGS6teqhfc0utfSnQ7PEnsbCTUdx2PPRDKTkwXZ0Y0xIsb3wqwg"
-        },
-        {
-            "name": "코 코#7771",
-            "region": "KR",
-            "puuid": "uDRJHRugR88LUosxt3vDlp8-3Jy4_0dgyJ54NAEwzBaYTmwladc6Snwaqb4U2mhQ2m72hU5RrQ1e_w"
-        },
-        {
-            "name": "Vanquisher#95328",
-            "region": "EUW",
-            "puuid": "lmrGXhc8oGkcT2xwU_jxwrsMzt-Vu6DSVFGuE7JL_DOc5_fLYygElaTO6lXFRzOPbWUav1PbkRMgiA"
-        },
-        {
-            "name": "응원꾼#KR1",
-            "region": "KR",
-            "puuid": "n8zXgBB-rNLzoMTr_YAZ-EJp0pA_mfPde6shtiwzKTHsPjowd9sv5COCkui6b5K47JIFi-vsEkf41A"
-        },
-        {
-            "name": "Mizuki#Sou12",
-            "region": "JP",
-            "puuid": "PwYpKmT6U4540pm-ElhLjHWnlxffoWRGQC7ehj4-Mlts5eYJ2LA4VDVElgPO5PyHJ58XHWTKtwtVFw"
-        },
-        {
-            "name": "Wasanave#Miaw",
-            "region": "LAS",
-            "puuid": "U-XAcTR4CVKw5ofphw-88L_rHs2iwCPsYI9K5q5W61k0vnxW22l7DLbpj5pvNNCtHz7j81wRiN8KtA"
-        },
-        {
-            "name": "Yuumi#Ahri",
-            "region": "VN",
-            "puuid": "rwfxMH7eKb5o9nrfdfsD06BMzoBd1wpV3Jh0Mrfsqrva3gDpOcqbbrD_OxbAClTB8CCo1Y5J946C4Q"
-        },
-        {
-            "name": "Soren#ZED",
-            "region": "BR",
-            "puuid": "5iz-35qB2AW9x2EARjtx7UwhcoRyy65fFap159wAoRmQY7K8tA33y98aqDEe3Yl1RZ-Kr2aIBxxC7g"
-        },
-        {
-            "name": "cas#EUW",
-            "region": "EUW",
-            "puuid": "OGWNuqJXnf1KyPKEzVuMopvpeftue9G1GkRSP8_xdydxgyTWNv9kISVmjIp_g-5J4grI9wbHomqWNg"
-        },
-        {
-            "name": "HSR Jingliu#EUW",
-            "region": "EUW",
-            "puuid": "7WZv9Mdy1ooVQP3OnWC5wDPbJbm0Yjqc7rQY_6ujiUD2eYy4Cy7lSHzN3FYASckx_yO9KrIvOKm_OQ"
-        },
-        {
-            "name": "rakayah#meow",
-            "region": "EUNE",
-            "puuid": "sIayQWOhUWSVZ8L892H9CNh2ubl6Xdk_P4RPbCi9_1CnYpAVdpDxByi23zZrmn0Mo0Om01mHK0gycg"
-        },
-        {
-            "name": "Rhio#69420",
-            "region": "EUW",
-            "puuid": "I8knLjVR8WU2WSZFqGap0rr3o4w4PYGmcPmMYHgBYzc6CL1AAFfFpqKp_h9acNhFIy9SDNGL6GdcNw"
-        },
-        {
-            "name": "Staticks#0109",
-            "region": "EUW",
-            "puuid": "Q_y1UJNn2UdAFohF93TD3_QN9uHj5doIvVjkSxmvY2xOxk7zkaV3_BA10Wl9dCnA7bjqBTfj0Aex0Q"
-        },
-        {
-            "name": "OG Virtuoso#RJ21",
-            "region": "BR",
-            "puuid": "lfuuWr2GJ-Bko0mJ6LXfk2WnEO0ggS33d62xKi_sueLJb2L_hlbtY8Cyuxd73IF-rJhNJikRM2gquQ"
-        },
-        {
-            "name": "Notlin#not",
-            "region": "BR",
-            "puuid": "OOq76Jy-9jtDOWRDY7DSldL-2Rb0siGypeqtLfnzHzXUCrR1GK1oM9WqCRbW8Y3nDf7y8yIbpMYnQw"
-        },
-        {
-            "name": "聖德太子#SDTZ",
-            "region": "JP",
-            "puuid": "y8vt9PckNmodaKKfEqBzQ2wqTZki2n-5Yw9PHaJaNjL3e8GVTvTaIMReqBcfZCzeyc7uez5ByzFttg"
-        },
-        {
-            "name": "TへT#4594",
-            "region": "KR",
-            "puuid": "tRA7g1j1Kz68ETpkyuPR9yisL1ucweeIqe2HJ3TsI-OvjImyW-3tRmnP9tV9xX4FEMUbaP4VANXB6A"
-        },
-        {
-            "name": "Rökal#Rökal",
-            "region": "EUNE",
-            "puuid": "ZnGHJtVPSaErl6mGqjh4fOtvo7B8UiO3AWNRJiX_oTqm0YyKp45MdVU5NOkHFrvMPRRQ43w-LWynqA"
-        },
-        {
-            "name": "VangMadeMeQuit#cring",
-            "region": "EUNE",
-            "puuid": "Ssn0ZqIh7UjoKi0BtptZHeMJSFqf4wlNjj0-XQxsykBDcgh0PZvTeBfxCgqLvavPDHOq2p8n6jVuZQ"
-        },
-        {
-            "name": "Luhan#BR1",
-            "region": "BR",
-            "puuid": "vBTPRAejHcTY1tsHeDLvR4rRal6wY4JVIcvFiAr0lxT6Vwd-JR0GJBUCT7jjjGmrci_WhLdIxz1Iuw"
-        },
-        {
-            "name": "Cicavirág#0518",
-            "region": "EUNE",
-            "puuid": "ogQlp5dMuWiwWPswHF5ZOhNfYQBHwpRpJQGXN3XzI5ZeARhptUB0tIqIXw_6HcxHPeO45E7PxAK_nA"
-        },
-        {
-            "name": "Fròst#εïз",
-            "region": "NA",
-            "puuid": "a0EFwK6ZOAri9Z2r_tZsa2gkPMfkhRH6_kwzEg9yqBUNH9i3eLT7MNL9Vp_73Jz7rdJ2IXyScioSfQ"
-        },
-        {
-            "name": "Yinq#6868",
-            "region": "VN",
-            "puuid": "a9bahMtuL069j1yXlAjEWMTfoyqKDH7JmQZi3XF9Kv-jk6Ze8b6FHnGv9bmfemqwoLMBF07lKs3xrA"
-        },
-        {
-            "name": "zhajihepijiu#炸鸡和啤酒",
-            "region": "NA",
-            "puuid": "Psm1TDaPkgnHgqq0lsvJzkWFsBSj-89AJB6MhfJFXMb-T7qnbmJsleH9srHXnSbVg6DXLHBP-0oXXA"
-        },
-        {
-            "name": "土家寨第一骚情#3344",
-            "region": "EUW",
-            "puuid": "9dz93AgFGQCuOWcJLiqXOulv2EzuOdkRPXaXNk8nHfKMNXQqn9cJapQ0WJGrm3AAZH4QauIXZBK3zQ"
-        },
-        {
-            "name": "Pimere#EUW",
-            "region": "EUW",
-            "puuid": "0BYVyKkzB9jQKpLFDZCfMGIgllaNidSw-7ls8lUWWeAofrehLYrsH__Ef1r18pIg6AvxfkcL6dIeFQ"
-        },
-        {
-            "name": "RaijinRaknarok#2011",
-            "region": "EUW",
-            "puuid": "InEPUvfT-duIxR_ki1_00qO_PVWDfgBjnm99tRR32y4_g2Vqan1KnaztWd2ADefcTmkKtgpO3sNdEw"
-        },
-        {
-            "name": "CaballeroTiznado#Chan",
-            "region": "LAN",
-            "puuid": "2h4Ohu7Jabiwkzprl0hK2PetZhsIuYXGf0t9zlOQTE4aSX2bi4Mp3sbl8bN3oYECbb_LN0DHoKhokQ"
-        },
-        {
-            "name": "今日のプリウス#JP1",
-            "region": "JP",
-            "puuid": "wU02bYUBbuqrkkriMaZDFaVPogO0lvVmOtd4omIN8Zp0ukbvGvJXJZGonTu2lBL7z_-7CnIBezvM5A"
-        },
-        {
-            "name": "李清我一下我会起辉#matia",
-            "region": "LAS",
-            "puuid": "FohILEZfns38yUCVFBa6311zbJbmVgpdEjNNj-9t1bft5w2mVPlPJftYKYTN11BwNIA7fTAdt9YwLA"
-        },
-        {
-            "name": "Cenci#777",
-            "region": "EUW",
-            "puuid": "tlAF_4zsnty2rpUiJrYOtow3_GaykiRfMQzGxL1VrG945V-GpUMD9QA0niRIsNtx-Knw5MyCrIHE5w"
-        },
-        {
-            "name": "TheWaschbär#Meow",
-            "region": "EUW",
-            "puuid": "4veU8m0trkm72ZB0VO9noZMq3Wd3r_2-JF_lfUoitdWjDLO15_fQxkwxh2o53aZvoE2MrV8C9oBlHg"
-        },
-        {
-            "name": "슈 붕#PSY",
-            "region": "KR",
-            "puuid": "RkSNpNB6wuW8FSJZm02boDwERwS1puF1FfCzlqUhUKK9RRspEMPR-hRYidrE52fWuRUf6omEsjtOlQ"
-        },
-        {
-            "name": "Maxi#FNK",
-            "region": "BR",
-            "puuid": "7cABkQ0o2H5cFWsbCD_A6PDqcqerXqGSAHdfGr9av_UKZnPTegudXbYQveSYfdzq1FkGHfWvqmRVmQ"
-        },
-        {
-            "name": "1 0#001",
-            "region": "BR",
-            "puuid": "ORnuyY8XdHBywXMWMbkQmGvRZu5qUYKm8I9D78r3jWoLDQtt451oHmbHij5Sr4B96jWfWI-XeL9XtQ"
-        },
-        {
-            "name": "Aandiane#TH0T",
-            "region": "NA",
-            "puuid": "VnSo4DYCUSj3LjYS41VhMF8PjuXYeXUprlvTjDV46UElBmsoja10gsdMUHKkVqPAgcvUF6c8wb2V0Q"
-        },
-        {
-            "name": "流れる季節#の真ん中で",
-            "region": "KR",
-            "puuid": "sLs50C5x4r6uhYnUL6oHeX3oTe48aghGkZXqKmSmv6hlS1TaRN93N2Pjlmsrgn7I3ufjK1IcyEJYEw"
-        },
-        {
-            "name": "Stardust#Top",
-            "region": "EUW",
-            "puuid": "iFb8-BzUEH_uC0hC9bPMCFQ16zq5pBK2n3AvKYSk0iPHZsKiTqoTZkJs2o-GnMy4rvR3jznjI9Zgiw"
-        },
-        {
-            "name": "KrisWald#KWald",
-            "region": "NA",
-            "puuid": "yuAVfqiGokxLjnbJI1rso7S95fplxC5mQtesw7_o4sURB_7hraNAWawYN3--2bHjhQQnpPWASG8eow"
-        },
-        {
-            "name": "lννx#JP1",
-            "region": "JP",
-            "puuid": "X1quAv_5jnaS8bo9q9AImSCYMmpVPhuNHfXkYULoKHiJVpNGaM2YI4xIQscgRZhJ1m3oWyD27OOB3Q"
-        },
-        {
-            "name": "OnlyVibes#Meow",
-            "region": "EUNE",
-            "puuid": "E40Zu6Oo0j5OXzOW4Wx9viFRoElVhlY89GW0fFuyjiNVzNzKvwy-rg8_6PbqGpVcSPG5IduIRDF1AA"
-        },
-        {
-            "name": "Hide on bush#Yoooo",
-            "region": "NA",
-            "puuid": "mfeoZ2XaadUSX3fUKBhbaiLpqv1pDuC-YyGHV-2pSUmj9r-3qRVmJZaIu81KA_jLN-x8Xkttwtwtag"
-        },
-        {
-            "name": "Get Jinxed#Meeku",
-            "region": "EUW",
-            "puuid": "v82DXz2uZrUM7_dmtyKXHr41GFOmLi2nVsXHJ8z71iHtZ4eDEDaVmFrwrnQRNA6btzrrduBmc_00pA"
-        },
-        {
-            "name": "YouCantStopMe7#EUW",
-            "region": "EUW",
-            "puuid": "xt_IMd4axKcMj1wjR09A4Z90Guv_kX2XA-ClwJ0hBQI-WmM-aDHRbkHY8f4p--DeUILKBKXleY2m8A"
-        },
-        {
-            "name": "앙우힝#KR1",
-            "region": "KR",
-            "puuid": "bAW1LIRvKwb3_RGrvhZiSLs1O_NZIIzR8p8tu463M1YAdDs9W1-EZjaD7Hupbb0C7PQ-1LhoyfP19g"
-        },
-        {
-            "name": "ΘζίΓίΠΔ#ΘΞΘ",
-            "region": "EUW",
-            "puuid": "Z0A1a-GW5JMMg4xjmqkgKoS84D_ePDQIaPhdm15Av3nNuOudYFw7RR7Mg-yrL4Bz7yvapTMdlvKR9g"
-        },
-        {
-            "name": "바다 해 넓을 활#KR1",
-            "region": "KR",
-            "puuid": "9QLWxCC69_PYQZPQvssWe6ennBjJiHuh-Jz_jZfpG7c0VWkrpdjkTHTlzCFpIHxLfcbbsOwE6xWSxQ"
-        },
-        {
-            "name": "Big Romes#777",
-            "region": "NA",
-            "puuid": "aFrpq0xxunPNScw9MBiVkPHshEUzsfKrS0xTs42_f5tRiDO-Ynpkf2t3EanyNkkOoMQ6X94OTow6vw"
-        },
-        {
-            "name": "Toki#Kat",
-            "region": "NA",
-            "puuid": "GdR4XrVSFvs-e0QB1uHVMtWLsWAltXVyTVKK0Ab-1WvsA9NyWPcdrgVSGMMlPo_5VvzTY7ukm_3eKA"
-        },
-        {
-            "name": "Broseidon#Icy",
-            "region": "NA",
-            "puuid": "NRIN7Sa96n9HAHER1dsvSZ-DHPZX_UtZZQz-1mLngOvHFkzflg4BI6UHQ89Qj49xIY-esJEeM-893w"
-        }
-    ]
+    {
+        "name": "你如此清晰",
+        "tag": "2450",
+        "region": "TW",
+        "puuid": "jHU7Vu0h99elk1d_EGJqmNAIk1zs84TazVlLDydJmzQZt2S5yM3bfkGpyjqUgl2GP1qAoIpoDXAphw"
+    },
+    {
+        "name": "Аня",
+        "tag": "Мякиш",
+        "region": "RU",
+        "puuid": "d7RFdaBlt2Uyqg27XHLabOCIW3I5s6cn3qOdTLZk_4WXCxkadC0yfKzaFzZ2FisZ6XOcS4yXcRlYDg"
+    },
+    {
+        "name": "God",
+        "tag": "ofriz",
+        "region": "SG",
+        "puuid": "mK4gRdDC6jCFjl4cwU7RYVPJhZdZpuBeaneh7iyqvcf1Q3vQy9N5zvIavokV47Mp926jZiJs16D-vg"
+    },
+    {
+        "name": "香濃巧克力奶酒ü",
+        "tag": "7447",
+        "region": "TW",
+        "puuid": "Bc3ri4m0F3WqsnH_mjXKINF35vs-_rPhktwF2baLaPzshtaR0wyYI27OTWh25PwoPgARtPj-h2OEMg"
+    },
+    {
+        "name": "GoatsAndGlory",
+        "tag": "EUNE",
+        "region": "EUNE",
+        "puuid": "XlN7stTfK6gYjnZgdRRQRvwRr8hm9WhTRIAYQL6hjnBR9UUtjK2YKkj1_-e-gXJF4mjlE3YY6-aYLw"
+    },
+    {
+        "name": "God",
+        "tag": "ofriz",
+        "region": "EUNE",
+        "puuid": "mK4gRdDC6jCFjl4cwU7RYVPJhZdZpuBeaneh7iyqvcf1Q3vQy9N5zvIavokV47Mp926jZiJs16D-vg"
+    },
+    {
+        "name": "black一cat",
+        "tag": "補雷k",
+        "region": "TW",
+        "puuid": "WIGWsuqrTr-dRD31pNoDs1Wxnj292cALH1owUFUnCx8TgAgBiDgOS33_OW0kK8iJr8hyJ1bnlgOM2w"
+    },
+    {
+        "name": "vtt yêu ems",
+        "tag": "2808",
+        "region": "VN",
+        "puuid": "9z8iSaZMZ8ikZMigc07V-M-o1Xxg-ih6h8smS-4Jg2hSii_G7YGJJZx5N0qrGc18eylfOwnM03u8bw"
+    },
+    {
+        "name": "내가하고싶은대로할거니깐말리지마",
+        "tag": "자유로운",
+        "region": "KR",
+        "puuid": "hLEz_mEwwvfmHZOOLBOuM9EB9fxm8YkyCIIdkHCnPiJJz1vODKCztMtgvR03ShLPvF8V5I-kqC3jRA"
+    },
+    {
+        "name": "SubmissiveEboy",
+        "tag": "2703",
+        "region": "EUW",
+        "puuid": "sy3AVCHHbDmUwu7Ok02cJZk6g2tdBp94rZj7-tvq_Aw9MnZ4EeRTE_9tjkADXDtJ5rlhrgMMHVhXLg"
+    },
+    {
+        "name": "FAKE PROMISE",
+        "tag": "1V9",
+        "region": "EUNE",
+        "puuid": "hBpWTICfiY0Z2FMqNpH8XuDmb1n9x28sdjNIRqCbiBVn5y4mOevgqBERABAw_qFPOpcnnGrkBDCsqw"
+    },
+    {
+        "name": "ºł Ðøüx ƒÞęý łº",
+        "tag": "1337",
+        "region": "RU",
+        "puuid": "a89jmSa7W-hk7DM-i9qtBnhQ8NolXKCaRQjbQk08xoX5gZjKAmmCN07ENuLvflQoHGnhk2sabkqNBQ"
+    },
+    {
+        "name": "偷工減料學政",
+        "tag": "0610",
+        "region": "TW",
+        "puuid": "O9B6bz8e5vud90Gstuj77sGx-833l-wBniTLpVmEw-x87S5vwCZU4QaWU3XJVAEgVmLj9icAdNLn9w"
+    },
+    {
+        "name": "中和援嬌妹",
+        "tag": "1NN",
+        "region": "TW",
+        "puuid": "PcSiHtxrKXBSzfYCgGNaKD1TJ8UKDRnK9q-LfyuoPod-th6VhQNNDnteCdAAuVKFTAiYLXliFlGOgw"
+    },
+    {
+        "name": "L1k3 4 8055",
+        "tag": "1337",
+        "region": "EUW",
+        "puuid": "sFDsH2187kMJPssWECsbn-K1zt_teylH9gLpCOcNYmRSu4tO0v887onZOB4nEZ_F4rdr92FWjdJ8tA"
+    },
+    {
+        "name": "Abe no Seimei",
+        "tag": "1102",
+        "region": "VN",
+        "puuid": "CYWHyE7tLbFQaZ7NtoeP4IOCmiYUeThP3Lokd6KTHDIhoZvKblJumaIQMDhg96Uc8u440dUIwpplQw"
+    },
+    {
+        "name": "SeparatedPuppyy",
+        "tag": "14881",
+        "region": "EUW",
+        "puuid": "GMDNMYG-tgtuysImus85vF72K3S2PIyJrGuKxaX2pFlwtrHaBuCZDXhBQgwlm8CKsGC1ySBIO6TCyA"
+    },
+    {
+        "name": "Keber",
+        "tag": "Keber",
+        "region": "EUW",
+        "puuid": "zmNnX_05dWxyDpNLyWNd-__rtT5qsEt6b0wIxA4FyO4SQk_jjjPSpS9C89IS0RmzCE3eetlML4fU0Q"
+    },
+    {
+        "name": "336루 7469",
+        "tag": "Chan",
+        "region": "KR",
+        "puuid": "bwGeZpkK88Md-ztM5ky9F-TbeBUqdYymiE3qs8tQr_SD91IDyr3ro9N0flysPdwlko96C69SRBBoOA"
+    },
+    {
+        "name": "EkinoScythe",
+        "tag": "RALA",
+        "region": "PH",
+        "puuid": "uPRUT2Ioduxd_rSa64mzQW0icDvk3BJ4e9jGIC-JR-pAu-4F-x9sc1iczGcaI2-q628wr0LJj97tsQ"
+    },
+    {
+        "name": "Thỏ",
+        "tag": "1017",
+        "region": "VN",
+        "puuid": "jgrMKHfFWmt5Te1_ILjR_BCbH8JZgc-1AaLQZoBJmqC3BP2RT2E3Y1j74VDQN4kVuAL97J7hp1A_aQ"
+    },
+    {
+        "name": "TheBlueWolf",
+        "tag": "WOUF",
+        "region": "NA",
+        "puuid": "ghaG0WtXs2Rh_mlEDASwR6jD7CdTe6QWqvhavVhatzUPJYO4lkNaaNlBVFQGaKC9ey9PUtO5bd02kA"
+    },
+    {
+        "name": "15레벨",
+        "tag": "KR1",
+        "region": "KR",
+        "puuid": "to6hyEyT2PLPVLcFSyBgHxwGeozkdGP8i3_uu7LtBfoLpZ3JqWlt9XAWRO5ktNxe5nKwUngl6JMG4A"
+    },
+    {
+        "name": "Tchikachu",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "iSv0Dv64hMbDkL4avgoNU_2NS0iK9EH9uaygYCWVV9aP6Ml3UqWD9wjz9RzOlKBh4gPbgIMhUbHR3Q"
+    },
+    {
+        "name": "我叫小筱幽",
+        "tag": "1234",
+        "region": "TW",
+        "puuid": "lqeAr3uaQE3fnXEpzuZZ0iP04FiEXx05u-0CyGk352LTIejbk0XE1KMsDfCZAOgHM5iOrUZlEdQEdQ"
+    },
+    {
+        "name": "익사체",
+        "tag": "익사체",
+        "region": "KR",
+        "puuid": "kzKvvvzO1lmZ4luRFetjQ25aQKndjL87y3Y5YgA4SpRRNyUXf0Ge3JtPqmUTbHwSShDt9-33OqR3pQ"
+    },
+    {
+        "name": "KAYN PSY",
+        "tag": "RU1",
+        "region": "RU",
+        "puuid": "WxsihBY3i_5pTNw-jGNJcqqvV-CDDw6T1ceJkbMflhcZo44eOKVHFgkhYuMbQxiC4axylVNliFIt8w"
+    },
+    {
+        "name": "Klenoff",
+        "tag": "00000",
+        "region": "RU",
+        "puuid": "Ts2ACpcSD5JChR05rnPzPebjBrxFkv4rhirpd25ArK_Gzs9HUqwDP6waVFzytVGh4UWmY3CWa5xblw"
+    },
+    {
+        "name": "yua mikami",
+        "tag": "1103",
+        "region": "VN",
+        "puuid": "KFBDUAyasDWn9u6QcS1GOXwX6NOpYzF_lZcQyE62FDa7XO4KaUyluMlUoA3C-1TLBK3OiaOH2AOUVg"
+    },
+    {
+        "name": "Innocent",
+        "tag": "0517",
+        "region": "TW",
+        "puuid": "GBeD6Qy6xjEIwp_mJOcEI6Pm0rtsCjm1t3o7nZ4kbF008TJHGEO2QnfrW_FKvgUePcjYfoMJvO8ieg"
+    },
+    {
+        "name": "Elisza Kitsune",
+        "tag": "Ghost",
+        "region": "NA",
+        "puuid": "GYPqoVwkVOQuEGSab_7hBP9DNqxTYw27Xar4TZJXAGrCpEZDbWzJHpKCBr3kimYcv4M-Jt0V8z1N2Q"
+    },
+    {
+        "name": "Turbo Αids",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "89vGUh66LxmTmLg5xqUIK1oeEz--ZscrZNv4njRyqk6jnqO5T0fZdluIo543vwBmxvWNfYTjAgcqnQ"
+    },
+    {
+        "name": "Bладик",
+        "tag": "RU1",
+        "region": "RU",
+        "puuid": "TdCQaGesfWslDKEXF2AwqsZHIGrWFqIs9sNtbPjncfbqJJJ1VcIeBbf_MjTzlYXTxNzFyjLNz8CgyA"
+    },
+    {
+        "name": "TDA Deathwing",
+        "tag": "1560",
+        "region": "VN",
+        "puuid": "Ytrsa5NpHqKWwXhEz-pq1UdIEap__x0o3Afw8rd2GtFkCnrSk-oDOQxF_97Gtw8orGhWdgTn8u0u3w"
+    },
+    {
+        "name": "kero",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "DdYuXckFFnnM8baalfegLSncDnnSrLAj1eGq-53fOGmqIsR36y2xLaSj-IZNf0vPP2WKjjOIOv0MzA"
+    },
+    {
+        "name": "Anoxiaß",
+        "tag": "0528",
+        "region": "TW",
+        "puuid": "irwOgXqv_fgwOlPJt9eAn64GeodxYizcnqdte8KvcbnvwkRjQPXc0KCoHi_cu6ZtLyaQCGdag_4MyA"
+    },
+    {
+        "name": "Legendary INC",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "tRRWNHVLT8RWkaAJk1wZFjZwtTTgTmJ-3dvP6Jy2Iph23dV4PB0uv_JHJ50VgewNIgAhxPMqcULSnQ"
+    },
+    {
+        "name": "blushy",
+        "tag": "0511",
+        "region": "EUNE",
+        "puuid": "GjLHkbPag9QPTyTT34O1x6OHUIBLGfUFuic-CgVwxJzV7XKIdXAU1_NsS9l1mGo_A4CPlo6Tg1up4g"
+    },
+    {
+        "name": "dandan",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "t6j2j4PLc0Pr1rHmD4ZjyQf9zNzKFDR5U3HlaIZ3n8S5e0RJwwjsqQZvmIOMy6v1rgLP-MwGZD7Kzw"
+    },
+    {
+        "name": "Loopy",
+        "tag": "0004",
+        "region": "EUW",
+        "puuid": "FX1TX1Cw3j8XBAo1MDe1s7zMbfmJd_3ByAGyu066qOses4kO80_Vb37TUOm0wJECvCuuxbLTKvuETA"
+    },
+    {
+        "name": "monkey30000",
+        "tag": "Lyff",
+        "region": "NA",
+        "puuid": "PsCJZAH_3iuMX9man3DNWaP00GDdNC-KeXZCWI39JpXq9GoEpNn98bT92PfVlMrEJ-xXYyoBNuuFJA"
+    },
+    {
+        "name": "123xyz",
+        "tag": "99999",
+        "region": "VN",
+        "puuid": "_-Zoo83OP32JbN4BT0ZJjZxweBwk1SAns7xcUCzQkAyrVJIAHp60Anz0fFQiZqcgRFHqnjnn6K7KFw"
+    },
+    {
+        "name": "FullHouseYoyo",
+        "tag": "RUNER",
+        "region": "EUW",
+        "puuid": "B4xvabQzHPd0dFEgbmH8TLIwtGHQBDu6HT3B949ulI9EtWe1_HdFwzzsxd6tnIOFo-BNfwwr0c7KzQ"
+    },
+    {
+        "name": "TheGrimMeeper",
+        "tag": "Meep",
+        "region": "EUW",
+        "puuid": "TeV_ONH5Z6D9NdM70e_340FnL1XszGBy-L6zb0kBAxF3tCQbOfZew4uvE4RYkdDeuuO9CwLHw-D2KA"
+    },
+    {
+        "name": "Falko",
+        "tag": "Lucky",
+        "region": "EUNE",
+        "puuid": "XAMD4uKg_LR7ia0lLcxDuZY85O9fP4C4lbPTmFUDw0WCDJ4oNRBcZZH7gmDmapMEt2ofJHC4kEu_tw"
+    },
+    {
+        "name": "Percepeus",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "BTXKmrBjhWiwlbJL6qMqFpMMcDwyMMQrg7oAkjUqwuWwvWjbHBM2hQrb_rKbvwazAzsakU-mbEMxOw"
+    },
+    {
+        "name": "P6RN",
+        "tag": "7777",
+        "region": "JP",
+        "puuid": "5zPcoR39GIj0UdcuhXm0HGXOd4D0q2jkK--hjQhYxAC5xTSP7oMrRzO7MG7gTc7a9jMHTJW4pmHYPQ"
+    },
+    {
+        "name": "哭哭鯊",
+        "tag": "0113",
+        "region": "TW",
+        "puuid": "oHR_4vxQB1jtU1jOPvwPCJBQXjab4qk3xxxzdMhzzQoLxKbeHg4dJdwQN_45NfEiDQPZ9weUak9b7A"
+    },
+    {
+        "name": "FARC Teemochenco",
+        "tag": "LAN",
+        "region": "LAN",
+        "puuid": "e72xXWvKVUIGUppEdsZmluV8-eys3M0maVbEKyQxMwiXCmtoVbTFobv84IhrLlFrkfwcnaIMoOeZ0A"
+    },
+    {
+        "name": "dyduk",
+        "tag": "2106",
+        "region": "VN",
+        "puuid": "hiU75PcLD1Qr2lmYCnp4oQOgEGRzN5J6X_M4-D1w3aeiHDUfmJ01QlNVaftedYRRsQUvabDPfk5v1Q"
+    },
+    {
+        "name": "L1k3 4 8055",
+        "tag": "1337",
+        "region": "TR",
+        "puuid": "sFDsH2187kMJPssWECsbn-K1zt_teylH9gLpCOcNYmRSu4tO0v887onZOB4nEZ_F4rdr92FWjdJ8tA"
+    },
+    {
+        "name": "Sippy",
+        "tag": "uwu",
+        "region": "JP",
+        "puuid": "eiZ-RmdK5hWyLB2qeRl7hhXJCzcUN4x25bRtXdKxvtwaAl64yYYMO5UChUX0QfuCIvyYAVYxTHoxRA"
+    },
+    {
+        "name": "Roszczyn",
+        "tag": "123",
+        "region": "EUW",
+        "puuid": "-pFtSNxu--G-H-ZPvGd3p0ZWDUM81jKdfQwZa_ZlleHHvehzldjE7Z591_zwsb8GrsDrFaJS0WuHlw"
+    },
+    {
+        "name": "Rato Pelado",
+        "tag": "Naked",
+        "region": "BR",
+        "puuid": "lsO6CaSqMM_ySRiyn7fVaquikCJYudrcY9KPZbv1AKPDN4DOX5UZA-Er5OYR36T9j3Sc4Ay55Rgxtw"
+    },
+    {
+        "name": "그 누구도 시첸과 비교할 수",
+        "tag": "1020",
+        "region": "TW",
+        "puuid": "r4IVHFR-w78n6aPkglC9CHRqWtqcklQCvg-yjsSWHVLLu03NTgwq8hP5hZG2F2ss-TuLfTs52FQ_1Q"
+    },
+    {
+        "name": "W2uan",
+        "tag": "VN00",
+        "region": "VN",
+        "puuid": "HM0b8z7yF-ufwGwDhGFUACy9L6nQ9zIqeHoQQG-3u7tZZ4JuhVQkdPWHTl-iFlPvueR3_7dZR5blGw"
+    },
+    {
+        "name": "scrubnoob",
+        "tag": "ragne",
+        "region": "VN",
+        "puuid": "DPoiBG2HfCu3ruW9W2ValR46JcKU4oFEELF3oHuFZniw4jBQxLKqkW5VKi21uUGmcw9F_2jdC4Ihdg"
+    },
+    {
+        "name": "He11DeMoN",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "hzNVpLz-5hxDByBdHluoaceLx3EARF7Xfwlk9BRnEnRNscIdXaZwXUM30NV_bN7LXl_IvGeYPLEmmA"
+    },
+    {
+        "name": "也许有一天",
+        "tag": "我是说也许",
+        "region": "NA",
+        "puuid": "H7QdPWDlzG3jxTD1CqR9qgv7Yt9D4_3jFSHiwe02_h0iTsfh0tg8lw3f87ejqdYACbctvByfH_0vTw"
+    },
+    {
+        "name": "QiàoQiào",
+        "tag": "0205",
+        "region": "NA",
+        "puuid": "BwZu73Da-AgMWM1ysIbwrTBt4zYyxe8J4AU-K_pUKKXR0fhDcVnnJhKPPc30BQdKWUUOkOqywxmiwQ"
+    },
+    {
+        "name": "小珍珠不見蹤穎",
+        "tag": "038",
+        "region": "TW",
+        "puuid": "Ug-WfaAymdQSHFDaPmvjK-cQecT5y_n2ZxO6BcXd_ulgEBXrLK7377VMYYHaZ33OzlVBZV-LVeqjIg"
+    },
+    {
+        "name": "Detonator16",
+        "tag": "donk",
+        "region": "EUW",
+        "puuid": "gw74LQK7QvwfiZplK4tR2ykU1pPfxhqbKuxoJxKrO76mnghRkDGYlbLkhDh0YrbtLSUNScPhpxOjqA"
+    },
+    {
+        "name": "Veit",
+        "tag": "EUNE",
+        "region": "EUNE",
+        "puuid": "2vEnJdwLTBQVT22Kqi_H9qhH8zhTel_keV-cEFqTCpDq--zsuui0Gy-ICDItSgxAMc43Kx4ivk_-Kw"
+    },
+    {
+        "name": "Vecna",
+        "tag": "NUNU",
+        "region": "BR",
+        "puuid": "ZCQ6GS4uHSSvbk3E5RTQh4IjrPPB66EQ23yJz-ugo_YJDOMNDN4M43VqRoMJok8kuj2gVtz-uQQCXA"
+    },
+    {
+        "name": "Dirkee",
+        "tag": "EUNE",
+        "region": "EUNE",
+        "puuid": "HEstXUatgxbTfThmFX5LE7QEkDtCbe4IJk7GoWZqlTAWJocpL6X93ZUG1oFx6nGX8l40BI4HJZupqQ"
+    },
+    {
+        "name": "TheDarkQuazar",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "q-T8przhGwnIsQDvBsAGDVa47KhjhJykgmuLTx12flP8zPrKoGLTRCSgxzkACnhBv2cgPBAsHi9oow"
+    },
+    {
+        "name": "Kéo Trượt Nè",
+        "tag": "5723",
+        "region": "VN",
+        "puuid": "ZAPakecgreK6fn0DHkBAO-SBPuzjgl46w3m8D0UW5cfCsNraTIXnYQfCQj_3B7ygkWO6ug0ihL0p0g"
+    },
+    {
+        "name": "Shaco King",
+        "tag": "SKing",
+        "region": "JP",
+        "puuid": "euyrzir7vCHCNMGROLazwW40MNb8H_wIBnVisH2aYih2bstVA2wGzToepJGEJ_YWAEKXkScLiGAIZA"
+    },
+    {
+        "name": "I LOVE MY GF",
+        "tag": "20 09",
+        "region": "EUW",
+        "puuid": "rAOHBYuIVc0HdzHXdH1BNA6F9l0LUdBwXSVoPwC2rrFfehgKKJhcI5Fj-EwRT83E3hBx_pp1PwrfuA"
+    },
+    {
+        "name": "vim",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "WwhJ9kZXQETW7aPjpoCFZyMdHUAKkt7sj8Sdc0wWICW9N1RNafXlUeXoRaRGhEvflEuBgNdRUt60aQ"
+    },
+    {
+        "name": "Làm Sao A Có Thể",
+        "tag": "1102",
+        "region": "VN",
+        "puuid": "-u3iOqJ5Ohh5Kh-0ilBm3X84zSDJRJshg3tm2CNGePi9yTBkqkzSk9osWjf6x8NUBhYyqBAPS3lXtA"
+    },
+    {
+        "name": "Furry",
+        "tag": "Pyke",
+        "region": "LAN",
+        "puuid": "uf3lx9FzBo1hUtcX8IgbAQZvo7WnJ3NbEV1YbJc6Kwtpz7PMtt7tAQz_yPoyu4DdjTAeymLsDfE4SQ"
+    },
+    {
+        "name": "Broseidon",
+        "tag": "Icy",
+        "region": "NA",
+        "puuid": "IWuf_sV4srwN-c0lxuDkdptHtW4pcThT3ChbAxfsilgwCugZAqvwkT4XzO2L2pA1US4Bi9YmHrabhw"
+    },
+    {
+        "name": "aylie",
+        "tag": "EUW2",
+        "region": "EUW",
+        "puuid": "BsYlrVnlsYNskOCtVYfuGPXf_M6XnadFfDVI9a3DH9A_YvPrUFfiw60NCmEiKqjlyfivPJJFnpOkyw"
+    },
+    {
+        "name": "Zé Bonitinho",
+        "tag": "0610",
+        "region": "BR",
+        "puuid": "FZYcfD39ph5A7qDlXcFp-ucmkshny5oMZf1rA9FkLxdYv8cLnvFSpkhEwo2ZUKx_PWn95hMqxfBAiA"
+    },
+    {
+        "name": "ATC TundraRookie",
+        "tag": "ZIZON",
+        "region": "EUW",
+        "puuid": "zBjX5QK1nhs_H_ymWW0qaM6JUYAuGuwkC_kCQDFoGAusoLnWh0vflgtpwLfluA5KSsuiCN-IC_kGVw"
+    },
+    {
+        "name": "Helghans templar",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "tK3kd8m0SCGeCs9hltPtpKoqSiLtEqWuW27vMMOZhTTHABc49NBDmwKeSnMxANZWNMZtKhf9-PAEvA"
+    },
+    {
+        "name": "TotalKappa",
+        "tag": "EUNE",
+        "region": "EUNE",
+        "puuid": "qUx-B0KE10QfbD2YJKpkUtuQvBG8qydDxM2qCR6m9d3R1UsqEf_2-twPyrK1-A7ISOzC2K4cSb4HzQ"
+    },
+    {
+        "name": "Hello Im Lucifer",
+        "tag": "666",
+        "region": "EUNE",
+        "puuid": "c7RpDORyJnA4tpkTVPMgz6s5EKIy4J5BSM9U6m4rqm_gmz9PoTLhYG_iudlCDltH0PsIubgEQqhqGg"
+    },
+    {
+        "name": "Pure Epicness",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "Ek-DIdHXJRs3jSjQ5WBStdI4WcotgN4B_DqjLTllVORo-KBbQXCEJ5YN5REZigfAa7TfobFB4horIg"
+    },
+    {
+        "name": "OneLifeOneGame",
+        "tag": "TW2",
+        "region": "TW",
+        "puuid": "F5lI_i1kOe57ht2j0O4K7yoSUmx9e5W7DhS-WEGTma0tT0PKFu-9XQsZKxC1GrMl6fRn_g1ZedMN6Q"
+    },
+    {
+        "name": "Ruined Karma",
+        "tag": "420",
+        "region": "EUW",
+        "puuid": "VA_qaRaUI8ZxK1bknlUvM-58IR4hqx_YbdsYHoxR3Aet1IphQ-4tOjJuTDlBi_GXkonPK3bIkOkt0g"
+    },
+    {
+        "name": "Mes",
+        "tag": "yyds",
+        "region": "TW",
+        "puuid": "OA5D40uNdNeGBr0mLI69PEArDnbLRsJJZ7jXWzOm3uE_v9sLQUNoG3c3bMdvhEYuYp3-e00T6Wx_aw"
+    },
+    {
+        "name": "Arshy",
+        "tag": "2610",
+        "region": "VN",
+        "puuid": "s6WY8zdR17PBktDZtk44oSplAJ-MCJAoCJGBGZElzd43fgltwCTT5MQpYIuFTfLpYGgXs0vXvOB-4w"
+    },
+    {
+        "name": "DeMeatus",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "tePYivF5_6WPKL2bC_xcMwEC8Pr0qAKwMImox-lPQG1ob2LCsEVLWrPAQH4OoxJuEJ_UJmjEUEw-Ew"
+    },
+    {
+        "name": "Azula",
+        "tag": "2507",
+        "region": "EUW",
+        "puuid": "2mZG7kmWXVSwv8d7UsUTQm7zkXbG0pE5KsYNod0CM6pjghTOOh1ou1eP25OAbyiR-J5rcs9EsDCtKA"
+    },
+    {
+        "name": "GennaroBullo",
+        "tag": "UwU",
+        "region": "EUW",
+        "puuid": "fj0FV_kNp7Jmffuop4q9wAkLNW-CL41Or04aoRCxx6WKL1Jzv_3lRR12STAW7bz3ccyHLWCRE8Iovg"
+    },
+    {
+        "name": "Sứ Đồ Peter",
+        "tag": "036",
+        "region": "VN",
+        "puuid": "_QoDwMB4LMTXGDB8J6WDlFYCt9ea37H0OeUy5y9B2e9CwfHq8fNvYFKXgg-kCm84DoT1FQ1SO9KwJA"
+    },
+    {
+        "name": "Melfat",
+        "tag": "RitoG",
+        "region": "BR",
+        "puuid": "8Cygqpg3cOg-v7GEEznfoDUQg08XiH7jO60gj67PXDspU9sMGcXcgsrPu8m7mAprHNhdvJRTlQVS2A"
+    },
+    {
+        "name": "Zhaokoi",
+        "tag": "NA1",
+        "region": "NA",
+        "puuid": "pljlCW0GEcC6eVeQ2KFo08fIfcDVfFI8TslDsO60VCRWgFo-cJ4p0BEZssJ1sXxKvP_0RikovXIgkg"
+    },
+    {
+        "name": "RoRFonG",
+        "tag": "8889",
+        "region": "TH",
+        "puuid": "9-LQUDWgtPNGOhoEt91t-n9mS_IWbkYcuiAh5JCbUR_sMCXGuZCHxnexkRKQY8O4ZMKnNPt0ARpWxg"
+    },
+    {
+        "name": "PrinzKarneval",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "AZsEtHqX8QhDAqDpW92pp8peeoL-YOeAdo0ZMdetY3AK7ZZtXQ7AomNhwOnfgU3wnHANEU4iqKsbaw"
+    },
+    {
+        "name": "Эло Полиция",
+        "tag": "1998",
+        "region": "RU",
+        "puuid": "QILIlweDJIMlCuUMMdf3c76-mRNzv5eQVxsSMoZzcWdQQkFoZ-B2SxxwIeTjkp18gAGMOw3TGlap5g"
+    },
+    {
+        "name": "Tyrranoid2410",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "tlOCFH5IB6DhPx20Ewy0oHQRHitWwQZdLay_z_Xn83Wu8Lxv36I7KJb5ZbVqsIUMjVMOOjg2IMWnjQ"
+    },
+    {
+        "name": "Saku",
+        "tag": "EUW",
+        "region": "EUW",
+        "puuid": "uz5BTZV5FtehZtxm51us47iqHqXnltaXxHSEJIkiiy6ZPYfGJjVU14EmapuOJLgtBMTrt1ESovvfPw"
+    },
+    {
+        "name": "Rito Admins",
+        "tag": "VN24",
+        "region": "VN",
+        "puuid": "YyjxZf0v8i_pMwRpXzYBsl107mYH05pXoyhPA7-xQ3uWSDm7fxGi66r53FdlP60uhNLW8TMUPhUZ-A"
+    },
+    {
+        "name": "SLY Ayaka",
+        "tag": "99999",
+        "region": "VN",
+        "puuid": "2NAH6Su6RoOnelr3qEagofeFhhCZxQEfdd8vpEqhj2s9rgtVyOkEwRGbA7Gv-lIu7UBTLUFNl3Ap2A"
+    },
+    {
+        "name": "DamDanieI",
+        "tag": "EUNE",
+        "region": "EUNE",
+        "puuid": "_c6gXBPzYiW5QpiEg9uHeEWcG-Y7onSzWm3d0ykiRvoTOPUBobqoFdgwRahkUt5bZ-A1L1OCIll77w"
+    },
+    {
+        "name": "一炮四个刘某某",
+        "tag": "拼到底",
+        "region": "NA",
+        "puuid": "7R2kU1broirtwETN91Rtuz0JgcYwgeuINddLGdnUUwF6ct9ze5a5YBdcsIDzpoBk8VdG1YFk2AP1SA"
+    }
+];
+let challengeData = // 20240417203423
+// https://challenges.darkintaqt.com/api/dynamic-data/serve?region=na1&lang=en
 
-
-let challengeData = [
+[
   {
     "id": 0,
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 750,
+      "GRANDMASTER": 26500,
       "CHALLENGER": 27245,
-      "MASTER": 24500,
+      "SILVER": 1650,
       "PLATINUM": 8600,
-      "GRANDMASTER": 26610,
-      "DIAMOND": 13800,
+      "BRONZE": 750,
       "IRON": 0,
+      "MASTER": 24500,
       "GOLD": 4300,
-      "SILVER": 1650
+      "DIAMOND": 13800
     },
     "translation": {
       "description": "Total Challenge Points gained by leveling up Challenges",
@@ -1351,24 +701,24 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.005,
-      "BRONZE": 0.299,
-      "GOLD": 0.108,
-      "IRON": 0.988,
-      "GRANDMASTER": 0,
-      "SILVER": 0.214,
+      "SILVER": 0.211,
       "CHALLENGER": 0,
+      "DIAMOND": 0.006,
       "MASTER": 0,
-      "PLATINUM": 0.037
+      "PLATINUM": 0.038,
+      "GOLD": 0.108,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.294,
+      "IRON": 0.988,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      27840,
+      27965,
       1,
       27245,
       3,
-      26610,
-      7
+      26500,
+      8
     ]
   },
   {
@@ -1376,13 +726,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 175,
-      "MASTER": 3500,
+      "SILVER": 300,
       "PLATINUM": 1200,
-      "DIAMOND": 2000,
+      "BRONZE": 175,
       "IRON": 75,
+      "MASTER": 3500,
       "GOLD": 700,
-      "SILVER": 300
+      "DIAMOND": 2000
     },
     "translation": {
       "description": "",
@@ -1403,16 +753,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
+      "PLATINUM": 0.051,
+      "IRON": 0.377,
       "GOLD": 0.105,
-      "NONE": 1,
-      "BRONZE": 0.284,
       "MASTER": 0,
-      "CHALLENGER": 0,
-      "IRON": 0.383,
-      "PLATINUM": 0.05,
-      "DIAMOND": 0.011,
       "GRANDMASTER": 0,
-      "SILVER": 0.195
+      "CHALLENGER": 0,
+      "BRONZE": 0.281,
+      "SILVER": 0.193,
+      "DIAMOND": 0.012,
+      "NONE": 1
     }
   },
   {
@@ -1420,13 +770,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 275,
-      "MASTER": 5500,
+      "SILVER": 500,
       "PLATINUM": 1800,
-      "DIAMOND": 3200,
+      "BRONZE": 275,
       "IRON": 125,
+      "MASTER": 5500,
       "GOLD": 1100,
-      "SILVER": 500
+      "DIAMOND": 3200
     },
     "translation": {
       "description": "",
@@ -1447,16 +797,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.012,
-      "BRONZE": 0.226,
+      "PLATINUM": 0.053,
+      "IRON": 0.276,
       "GOLD": 0.1,
-      "IRON": 0.28,
-      "GRANDMASTER": 0,
-      "SILVER": 0.175,
-      "CHALLENGER": 0,
       "MASTER": 0,
-      "PLATINUM": 0.052
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.223,
+      "SILVER": 0.173,
+      "DIAMOND": 0.013,
+      "NONE": 1
     }
   },
   {
@@ -1464,13 +814,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 275,
-      "MASTER": 4500,
+      "SILVER": 400,
       "PLATINUM": 1500,
-      "DIAMOND": 2700,
+      "BRONZE": 275,
       "IRON": 150,
+      "MASTER": 4500,
       "GOLD": 1000,
-      "SILVER": 400
+      "DIAMOND": 2700
     },
     "translation": {
       "description": "",
@@ -1491,16 +841,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.217,
-      "MASTER": 0,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.053,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0.013,
-      "IRON": 0.272,
-      "GOLD": 0.089,
       "NONE": 1,
-      "SILVER": 0.18
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.014,
+      "BRONZE": 0.213,
+      "GOLD": 0.088,
+      "IRON": 0.267,
+      "SILVER": 0.177,
+      "MASTER": 0,
+      "PLATINUM": 0.053
     }
   },
   {
@@ -1508,13 +858,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 200,
-      "MASTER": 6500,
+      "SILVER": 350,
       "PLATINUM": 2100,
-      "DIAMOND": 3800,
+      "BRONZE": 200,
       "IRON": 100,
+      "MASTER": 6500,
       "GOLD": 1300,
-      "SILVER": 350
+      "DIAMOND": 3800
     },
     "translation": {
       "description": "",
@@ -1535,16 +885,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.249,
-      "MASTER": 0,
       "CHALLENGER": 0,
-      "PLATINUM": 0.034,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.001,
-      "IRON": 0.295,
-      "GOLD": 0.082,
+      "PLATINUM": 0.036,
+      "IRON": 0.292,
+      "SILVER": 0.201,
       "NONE": 1,
-      "SILVER": 0.203
+      "BRONZE": 0.246,
+      "DIAMOND": 0.002,
+      "MASTER": 0,
+      "GOLD": 0.083
     }
   },
   {
@@ -1552,13 +902,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 175,
-      "MASTER": 3500,
+      "SILVER": 300,
       "PLATINUM": 1100,
-      "DIAMOND": 2000,
+      "BRONZE": 175,
       "IRON": 75,
+      "MASTER": 3500,
       "GOLD": 700,
-      "SILVER": 300
+      "DIAMOND": 2000
     },
     "translation": {
       "description": "",
@@ -1579,16 +929,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "GOLD": 0.133,
-      "NONE": 1,
-      "BRONZE": 0.298,
+      "PLATINUM": 0.084,
+      "IRON": 0.433,
+      "GOLD": 0.13,
       "MASTER": 0,
-      "CHALLENGER": 0,
-      "IRON": 0.443,
-      "PLATINUM": 0.085,
-      "DIAMOND": 0.02,
       "GRANDMASTER": 0,
-      "SILVER": 0.221
+      "CHALLENGER": 0,
+      "BRONZE": 0.291,
+      "SILVER": 0.215,
+      "DIAMOND": 0.021,
+      "NONE": 1
     }
   },
   {
@@ -1596,13 +946,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 20,
-      "MASTER": 475,
+      "SILVER": 40,
       "PLATINUM": 160,
-      "DIAMOND": 290,
+      "BRONZE": 20,
       "IRON": 10,
+      "MASTER": 475,
       "GOLD": 100,
-      "SILVER": 40
+      "DIAMOND": 290
     },
     "translation": {
       "description": "Earn points from challenges in the Strategy group",
@@ -1623,16 +973,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Strategist",
     "percentiles": {
-      "BRONZE": 0.267,
-      "MASTER": 0.002,
+      "SILVER": 0.212,
       "CHALLENGER": 0,
-      "PLATINUM": 0.088,
+      "DIAMOND": 0.033,
+      "MASTER": 0.002,
+      "PLATINUM": 0.097,
+      "GOLD": 0.134,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.025,
-      "IRON": 0.318,
-      "GOLD": 0.125,
-      "NONE": 1,
-      "SILVER": 0.205
+      "BRONZE": 0.268,
+      "IRON": 0.313,
+      "NONE": 1
     }
   },
   {
@@ -1640,15 +990,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 372,
-      "MASTER": 130,
+      "GRANDMASTER": 231,
+      "CHALLENGER": 380,
+      "SILVER": 7,
       "PLATINUM": 35,
-      "GRANDMASTER": 227,
-      "DIAMOND": 75,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 130,
       "GOLD": 15,
-      "SILVER": 7
+      "DIAMOND": 75
     },
     "translation": {
       "description": "Get takedowns on enemy champions before jungle camps spawn (1:30)",
@@ -1681,24 +1031,24 @@ let challengeData = [
     "parent": "302100",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0.182,
-      "MASTER": 0.01,
-      "PLATINUM": 0.057,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.025,
-      "IRON": 0.249,
-      "GRANDMASTER": 0.002,
-      "GOLD": 0.098,
+      "GRANDMASTER": 0.003,
+      "IRON": 0.246,
       "NONE": 1,
-      "SILVER": 0.136
+      "MASTER": 0.011,
+      "SILVER": 0.135,
+      "DIAMOND": 0.026,
+      "PLATINUM": 0.058,
+      "BRONZE": 0.18,
+      "GOLD": 0.098,
+      "CHALLENGER": 0.001
     },
     "leaderboardThresholds": [
-      2606,
+      2773,
       1,
-      372,
-      7573,
-      227,
-      37857
+      380,
+      8523,
+      231,
+      42607
     ]
   },
   {
@@ -1706,15 +1056,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 650,
-      "MASTER": 225,
+      "GRANDMASTER": 415,
+      "CHALLENGER": 704,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "GRANDMASTER": 400,
-      "DIAMOND": 125,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 225,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 125
     },
     "translation": {
       "description": "As a Jungler, get takedowns on laners before 10 minutes",
@@ -1748,24 +1098,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Champ Farmer",
     "percentiles": {
-      "GOLD": 0.035,
-      "NONE": 1,
-      "BRONZE": 0.101,
-      "MASTER": 0.002,
+      "GRANDMASTER": 0.001,
+      "SILVER": 0.07,
       "CHALLENGER": 0,
-      "IRON": 0.228,
-      "PLATINUM": 0.012,
-      "DIAMOND": 0.006,
-      "GRANDMASTER": 0,
-      "SILVER": 0.064
+      "PLATINUM": 0.016,
+      "IRON": 0.225,
+      "BRONZE": 0.106,
+      "MASTER": 0.003,
+      "NONE": 1,
+      "GOLD": 0.041,
+      "DIAMOND": 0.008
     },
     "leaderboardThresholds": [
-      2261,
+      3076,
       1,
-      649,
-      1316,
-      399,
-      6880
+      704,
+      2455,
+      415,
+      12269
     ]
   },
   {
@@ -1773,12 +1123,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 6,
-      "MASTER": 4,
-      "PLATINUM": 2,
       "GRANDMASTER": 5,
-      "DIAMOND": 3,
-      "GOLD": 1
+      "CHALLENGER": 6,
+      "PLATINUM": 2,
+      "MASTER": 4,
+      "GOLD": 1,
+      "DIAMOND": 3
     },
     "translation": {
       "description": "As a laner, in a single game, get kills before 10 minutes outside your lane (anyone but your lane opponent)",
@@ -1812,23 +1162,23 @@ let challengeData = [
     "parentCategory": "4",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.028,
-      "BRONZE": 0.267,
-      "GOLD": 0.076,
-      "IRON": 0,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.076,
       "CHALLENGER": 0.001,
-      "MASTER": 0.012,
-      "PLATINUM": 0.052
+      "GRANDMASTER": 0.005,
+      "DIAMOND": 0.051,
+      "BRONZE": 0.256,
+      "GOLD": 0.151,
+      "IRON": 0,
+      "SILVER": 0.072,
+      "MASTER": 0.021,
+      "PLATINUM": 0.1
     },
     "leaderboardThresholds": [
       105,
       1,
       6,
-      8726,
+      16407,
       5,
-      43626
+      82029
     ]
   },
   {
@@ -1836,12 +1186,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 21,
       "CHALLENGER": 50,
-      "MASTER": 12,
       "PLATINUM": 3,
-      "GRANDMASTER": 20,
-      "DIAMOND": 7,
-      "GOLD": 1
+      "MASTER": 12,
+      "GOLD": 1,
+      "DIAMOND": 7
     },
     "translation": {
       "description": "As a laner, get a takedown in all three lanes within 10 minutes",
@@ -1874,24 +1224,24 @@ let challengeData = [
     "parent": "302100",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.001,
-      "PLATINUM": 0.017,
       "CHALLENGER": 0,
-      "DIAMOND": 0.004,
-      "IRON": 0,
       "GRANDMASTER": 0,
-      "GOLD": 0.063,
+      "PLATINUM": 0.018,
+      "IRON": 0,
+      "SILVER": 0,
       "NONE": 1,
-      "SILVER": 0
+      "BRONZE": 0,
+      "DIAMOND": 0.005,
+      "MASTER": 0.002,
+      "GOLD": 0.064
     },
     "leaderboardThresholds": [
-      228,
+      251,
       1,
       49,
-      369,
-      20,
-      5072
+      479,
+      21,
+      6107
     ]
   },
   {
@@ -1899,13 +1249,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 237,
-      "MASTER": 12,
+      "GRANDMASTER": 98,
+      "CHALLENGER": 258,
+      "SILVER": 1,
       "PLATINUM": 4,
-      "GRANDMASTER": 91,
-      "DIAMOND": 8,
+      "MASTER": 12,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 8
     },
     "translation": {
       "description": "Have a control ward active in the river or enemy half of the map for more than 65% of the game duration",
@@ -1939,24 +1289,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "In Control",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.084,
-      "PLATINUM": 0.122,
-      "CHALLENGER": 0.004,
-      "DIAMOND": 0.098,
+      "PLATINUM": 0.124,
       "IRON": 0,
+      "GOLD": 0.15,
+      "MASTER": 0.085,
       "GRANDMASTER": 0.021,
-      "GOLD": 0.149,
-      "NONE": 1,
-      "SILVER": 0.18
+      "CHALLENGER": 0.004,
+      "BRONZE": 0,
+      "SILVER": 0.18,
+      "DIAMOND": 0.099,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3050,
+      3417,
       1,
-      237,
-      63888,
-      91,
-      319434
+      258,
+      68283,
+      98,
+      341408
     ]
   },
   {
@@ -1964,15 +1314,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 750,
-      "MASTER": 300,
+      "GRANDMASTER": 504,
+      "CHALLENGER": 757,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "GRANDMASTER": 500,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Generate a 2500 gold advantage during your Baron Buff",
@@ -2005,24 +1355,24 @@ let challengeData = [
     "parent": "302100",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.04,
-      "BRONZE": 0.216,
-      "GOLD": 0.131,
-      "IRON": 0.315,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.179,
+      "PLATINUM": 0.075,
+      "IRON": 0.31,
+      "GOLD": 0.13,
+      "MASTER": 0.014,
+      "GRANDMASTER": 0.004,
       "CHALLENGER": 0.001,
-      "MASTER": 0.013,
-      "PLATINUM": 0.075
+      "BRONZE": 0.213,
+      "SILVER": 0.176,
+      "DIAMOND": 0.041,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      2959,
+      3163,
       1,
-      749,
-      8819,
-      499,
-      46767
+      757,
+      11389,
+      504,
+      56938
     ]
   },
   {
@@ -2030,15 +1380,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 4470,
-      "MASTER": 1800,
+      "GRANDMASTER": 3026,
+      "CHALLENGER": 4600,
+      "SILVER": 90,
       "PLATINUM": 540,
-      "GRANDMASTER": 2967,
-      "DIAMOND": 1080,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 180,
-      "SILVER": 90
+      "DIAMOND": 1080
     },
     "translation": {
       "description": "Kill enemy champions while they are near their own turret",
@@ -2071,24 +1421,24 @@ let challengeData = [
     "parent": "203300",
     "parentCategory": "2",
     "percentiles": {
-      "MASTER": 0.01,
-      "GRANDMASTER": 0.003,
       "CHALLENGER": 0.001,
-      "SILVER": 0.153,
-      "IRON": 0.274,
-      "DIAMOND": 0.026,
+      "GRANDMASTER": 0.003,
+      "PLATINUM": 0.058,
+      "IRON": 0.27,
+      "SILVER": 0.152,
       "NONE": 1,
-      "GOLD": 0.115,
-      "PLATINUM": 0.057,
-      "BRONZE": 0.214
+      "BRONZE": 0.211,
+      "DIAMOND": 0.028,
+      "MASTER": 0.011,
+      "GOLD": 0.115
     },
     "leaderboardThresholds": [
-      19134,
+      21231,
       1,
-      4470,
-      7991,
-      2967,
-      39949
+      4600,
+      9110,
+      3026,
+      45546
     ]
   },
   {
@@ -2096,15 +1446,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 4332,
-      "MASTER": 1800,
+      "GRANDMASTER": 2947,
+      "CHALLENGER": 4448,
+      "SILVER": 90,
       "PLATINUM": 540,
-      "GRANDMASTER": 2897,
-      "DIAMOND": 1080,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 180,
-      "SILVER": 90
+      "DIAMOND": 1080
     },
     "translation": {
       "description": "Get kills while more enemy champions than friendly ones are nearby",
@@ -2138,24 +1488,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Lucky",
     "percentiles": {
-      "SILVER": 0.143,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.022,
-      "MASTER": 0.008,
-      "PLATINUM": 0.05,
       "GRANDMASTER": 0.002,
+      "SILVER": 0.142,
+      "CHALLENGER": 0,
+      "PLATINUM": 0.051,
+      "IRON": 0.26,
+      "BRONZE": 0.201,
+      "MASTER": 0.009,
+      "NONE": 1,
       "GOLD": 0.106,
-      "BRONZE": 0.203,
-      "IRON": 0.264,
-      "NONE": 1
+      "DIAMOND": 0.023
     },
     "leaderboardThresholds": [
-      19949,
+      20375,
       1,
-      4332,
-      6143,
-      2897,
-      30709
+      4448,
+      7060,
+      2947,
+      35295
     ]
   },
   {
@@ -2163,15 +1513,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 6931,
-      "MASTER": 3000,
+      "GRANDMASTER": 4782,
+      "CHALLENGER": 7123,
+      "SILVER": 150,
       "PLATINUM": 1000,
-      "GRANDMASTER": 4710,
-      "DIAMOND": 2000,
+      "BRONZE": 50,
       "IRON": 15,
+      "MASTER": 3000,
       "GOLD": 300,
-      "SILVER": 150
+      "DIAMOND": 2000
     },
     "translation": {
       "description": "Get solo kills (no assists from allied champions)",
@@ -2205,24 +1555,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Lone Wolf",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.012,
-      "BRONZE": 0.193,
-      "GOLD": 0.092,
-      "IRON": 0.262,
-      "GRANDMASTER": 0.001,
-      "SILVER": 0.13,
+      "SILVER": 0.129,
       "CHALLENGER": 0,
-      "MASTER": 0.005,
-      "PLATINUM": 0.034
+      "DIAMOND": 0.013,
+      "MASTER": 0.006,
+      "PLATINUM": 0.035,
+      "GOLD": 0.092,
+      "GRANDMASTER": 0.001,
+      "BRONZE": 0.191,
+      "IRON": 0.259,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      30896,
+      32824,
       1,
-      6931,
-      3843,
-      4710,
-      19207
+      7123,
+      4469,
+      4782,
+      22338
     ]
   },
   {
@@ -2230,13 +1580,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 400,
+      "SILVER": 40,
       "PLATINUM": 135,
-      "DIAMOND": 240,
+      "BRONZE": 25,
       "IRON": 15,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 40
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Earn points from challenges in the Slayer group",
@@ -2257,16 +1607,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Maverick",
     "percentiles": {
-      "BRONZE": 0.221,
-      "MASTER": 0.004,
+      "SILVER": 0.178,
       "CHALLENGER": 0,
-      "PLATINUM": 0.052,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0.017,
-      "IRON": 0.257,
+      "DIAMOND": 0.018,
+      "MASTER": 0.005,
+      "PLATINUM": 0.053,
       "GOLD": 0.104,
-      "NONE": 1,
-      "SILVER": 0.18
+      "GRANDMASTER": 0,
+      "BRONZE": 0.218,
+      "IRON": 0.254,
+      "NONE": 1
     }
   },
   {
@@ -2274,13 +1624,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 500,
+      "SILVER": 30,
       "PLATINUM": 135,
-      "DIAMOND": 370,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 500,
       "GOLD": 65,
-      "SILVER": 30
+      "DIAMOND": 370
     },
     "translation": {
       "description": "Earn points from challenges in the Monster Hunter group",
@@ -2301,16 +1651,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Big Game Hunter",
     "percentiles": {
-      "BRONZE": 0.247,
-      "MASTER": 0.001,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.114,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.019,
-      "IRON": 0.274,
-      "GOLD": 0.166,
+      "SILVER": 0.198,
+      "CHALLENGER": 0,
+      "PLATINUM": 0.112,
+      "IRON": 0.268,
+      "BRONZE": 0.241,
+      "MASTER": 0.001,
       "NONE": 1,
-      "SILVER": 0.203
+      "GOLD": 0.163,
+      "DIAMOND": 0.019
     }
   },
   {
@@ -2318,15 +1668,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 936,
-      "MASTER": 400,
+      "GRANDMASTER": 632,
+      "CHALLENGER": 962,
+      "SILVER": 25,
       "PLATINUM": 150,
-      "GRANDMASTER": 622,
-      "DIAMOND": 250,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 400,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 250
     },
     "translation": {
       "description": "Kill Epic Monsters within 30 seconds of them spawning. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -2360,24 +1710,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Epic",
     "percentiles": {
-      "IRON": 0.166,
+      "CHALLENGER": 0,
       "GRANDMASTER": 0,
-      "MASTER": 0.001,
+      "PLATINUM": 0.008,
+      "IRON": 0.164,
       "SILVER": 0.064,
       "NONE": 1,
-      "PLATINUM": 0.008,
-      "BRONZE": 0.106,
-      "CHALLENGER": 0,
-      "GOLD": 0.036,
-      "DIAMOND": 0.003
+      "BRONZE": 0.105,
+      "DIAMOND": 0.003,
+      "MASTER": 0.001,
+      "GOLD": 0.036
     },
     "leaderboardThresholds": [
-      3398,
+      3462,
       1,
-      936,
-      669,
-      622,
-      3338
+      962,
+      786,
+      632,
+      3926
     ]
   },
   {
@@ -2385,15 +1735,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 500,
-      "MASTER": 150,
-      "PLATINUM": 40,
       "GRANDMASTER": 300,
-      "DIAMOND": 80,
+      "CHALLENGER": 500,
+      "SILVER": 7,
+      "PLATINUM": 40,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 15,
-      "SILVER": 7
+      "DIAMOND": 80
     },
     "translation": {
       "description": "Kill champions from full health within 1.5 seconds with mostly your damage (90% or more)",
@@ -2426,24 +1776,24 @@ let challengeData = [
     "parent": "203300",
     "parentCategory": "2",
     "percentiles": {
-      "GOLD": 0.056,
-      "NONE": 1,
-      "BRONZE": 0.133,
-      "MASTER": 0.003,
+      "SILVER": 0.09,
       "CHALLENGER": 0,
-      "IRON": 0.191,
-      "PLATINUM": 0.023,
       "DIAMOND": 0.009,
+      "MASTER": 0.003,
+      "PLATINUM": 0.023,
+      "GOLD": 0.057,
       "GRANDMASTER": 0.001,
-      "SILVER": 0.09
+      "BRONZE": 0.132,
+      "IRON": 0.188,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       14603,
       1,
       499,
-      1638,
+      1985,
       299,
-      7721
+      9046
     ]
   },
   {
@@ -2451,13 +1801,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 75,
-      "MASTER": 15,
+      "GRANDMASTER": 37,
+      "CHALLENGER": 77,
+      "SILVER": 1,
       "PLATINUM": 5,
-      "GRANDMASTER": 36,
-      "DIAMOND": 10,
+      "MASTER": 15,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 10
     },
     "translation": {
       "description": "Your team takes Barons before 21 minutes",
@@ -2493,23 +1843,23 @@ let challengeData = [
     "title": "Early Bird",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.037,
-      "BRONZE": 0,
-      "GOLD": 0.119,
-      "IRON": 0,
-      "GRANDMASTER": 0.006,
-      "SILVER": 0.168,
       "CHALLENGER": 0.001,
-      "MASTER": 0.023,
+      "GRANDMASTER": 0.006,
+      "DIAMOND": 0.038,
+      "BRONZE": 0,
+      "GOLD": 0.118,
+      "IRON": 0,
+      "SILVER": 0.166,
+      "MASTER": 0.024,
       "PLATINUM": 0.068
     },
     "leaderboardThresholds": [
-      624,
+      635,
       1,
-      75,
-      17883,
-      36,
-      89409
+      77,
+      19197,
+      37,
+      95978
     ]
   },
   {
@@ -2517,15 +1867,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 9,
-      "CHALLENGER": 1555,
-      "MASTER": 650,
+      "GRANDMASTER": 1033,
+      "CHALLENGER": 1600,
+      "SILVER": 27,
       "PLATINUM": 180,
-      "GRANDMASTER": 1016,
-      "DIAMOND": 350,
+      "BRONZE": 9,
       "IRON": 3,
+      "MASTER": 650,
       "GOLD": 60,
-      "SILVER": 27
+      "DIAMOND": 350
     },
     "translation": {
       "description": "Destroy side lane turrets solo (majority damage dealt by you) after 14 minutes without dying",
@@ -2558,24 +1908,24 @@ let challengeData = [
     "parent": "203300",
     "parentCategory": "2",
     "percentiles": {
-      "SILVER": 0.101,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.009,
+      "PLATINUM": 0.026,
+      "IRON": 0.211,
+      "GOLD": 0.067,
       "MASTER": 0.002,
-      "PLATINUM": 0.024,
       "GRANDMASTER": 0.001,
-      "GOLD": 0.066,
-      "BRONZE": 0.155,
-      "IRON": 0.213,
+      "CHALLENGER": 0,
+      "BRONZE": 0.154,
+      "SILVER": 0.102,
+      "DIAMOND": 0.01,
       "NONE": 1
     },
     "leaderboardThresholds": [
-      6459,
+      7046,
       1,
-      1555,
-      1622,
-      1016,
-      8105
+      1600,
+      1998,
+      1033,
+      9986
     ]
   },
   {
@@ -2583,10 +1933,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 13,
-      "MASTER": 3,
-      "PLATINUM": 1,
       "GRANDMASTER": 5,
+      "CHALLENGER": 13,
+      "PLATINUM": 1,
+      "MASTER": 3,
       "DIAMOND": 2
     },
     "translation": {
@@ -2625,9 +1975,9 @@ let challengeData = [
       "CHALLENGER": 0,
       "DIAMOND": 0,
       "MASTER": 0,
-      "PLATINUM": 0.002,
-      "GRANDMASTER": 0,
+      "PLATINUM": 0.003,
       "GOLD": 0,
+      "GRANDMASTER": 0,
       "BRONZE": 0,
       "IRON": 0,
       "NONE": 1
@@ -2636,9 +1986,9 @@ let challengeData = [
       52,
       1,
       13,
-      49,
+      51,
       5,
-      239
+      249
     ]
   },
   {
@@ -2646,13 +1996,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 7,
+      "SILVER": 3,
       "PLATINUM": 5,
-      "DIAMOND": 6,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 7,
       "GOLD": 4,
-      "SILVER": 3
+      "DIAMOND": 6
     },
     "translation": {
       "description": "Collect ultimate champion skins",
@@ -2672,16 +2022,16 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
+      "PLATINUM": 0.019,
+      "IRON": 0.133,
+      "GOLD": 0.031,
       "MASTER": 0.007,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "SILVER": 0.05,
-      "IRON": 0.137,
-      "DIAMOND": 0.012,
-      "NONE": 1,
-      "GOLD": 0.031,
-      "PLATINUM": 0.019,
-      "BRONZE": 0.078
+      "BRONZE": 0.076,
+      "SILVER": 0.048,
+      "DIAMOND": 0.011,
+      "NONE": 1
     }
   },
   {
@@ -2689,11 +2039,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 5,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 4,
+      "MASTER": 5,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 4
     },
     "translation": {
       "description": "Collect victorious champion skins",
@@ -2714,16 +2064,16 @@ let challengeData = [
     "parentCategory": "5",
     "title": "Elegant",
     "percentiles": {
-      "IRON": 0,
       "GRANDMASTER": 0,
-      "MASTER": 0.032,
-      "SILVER": 0.112,
-      "NONE": 1,
-      "PLATINUM": 0.057,
-      "BRONZE": 0,
+      "SILVER": 0.114,
       "CHALLENGER": 0,
-      "GOLD": 0.077,
-      "DIAMOND": 0.043
+      "PLATINUM": 0.059,
+      "IRON": 0,
+      "BRONZE": 0,
+      "MASTER": 0.034,
+      "NONE": 1,
+      "GOLD": 0.079,
+      "DIAMOND": 0.045
     }
   },
   {
@@ -2731,13 +2081,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 200,
+      "SILVER": 20,
       "PLATINUM": 60,
-      "DIAMOND": 100,
+      "BRONZE": 10,
       "IRON": 1,
+      "MASTER": 200,
       "GOLD": 40,
-      "SILVER": 20
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Collect legacy champion skins",
@@ -2757,15 +2107,15 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
-      "SILVER": 0.108,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.015,
-      "MASTER": 0.003,
       "PLATINUM": 0.036,
+      "IRON": 0.284,
+      "GOLD": 0.059,
+      "MASTER": 0.003,
       "GRANDMASTER": 0,
-      "GOLD": 0.061,
-      "BRONZE": 0.15,
-      "IRON": 0.292,
+      "CHALLENGER": 0,
+      "BRONZE": 0.145,
+      "SILVER": 0.105,
+      "DIAMOND": 0.015,
       "NONE": 1
     }
   },
@@ -2774,13 +2124,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 75,
+      "SILVER": 5,
       "PLATINUM": 25,
-      "DIAMOND": 50,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 75,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 50
     },
     "translation": {
       "description": "Collect 5 or more skins for a champion",
@@ -2800,16 +2150,16 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
-      "BRONZE": 0.068,
-      "MASTER": 0.003,
       "CHALLENGER": 0,
-      "PLATINUM": 0.014,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.006,
-      "IRON": 0.113,
-      "GOLD": 0.032,
+      "PLATINUM": 0.014,
+      "IRON": 0.11,
+      "SILVER": 0.05,
       "NONE": 1,
-      "SILVER": 0.051
+      "BRONZE": 0.066,
+      "DIAMOND": 0.006,
+      "MASTER": 0.003,
+      "GOLD": 0.031
     }
   },
   {
@@ -2817,15 +2167,15 @@ let challengeData = [
     "state": "ARCHIVED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 4,
-      "CHALLENGER": 628,
-      "MASTER": 180,
-      "PLATINUM": 50,
       "GRANDMASTER": 382,
-      "DIAMOND": 100,
+      "CHALLENGER": 628,
+      "SILVER": 9,
+      "PLATINUM": 50,
+      "BRONZE": 4,
       "IRON": 1,
+      "MASTER": 180,
       "GOLD": 19,
-      "SILVER": 9
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Your team takes both Rift Heralds in a game",
@@ -2859,16 +2209,16 @@ let challengeData = [
     "parent": "301100",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.059,
-      "BRONZE": 0.226,
-      "GOLD": 0.142,
-      "IRON": 0.316,
+      "PLATINUM": 0.089,
+      "IRON": 0.302,
+      "GOLD": 0.136,
+      "MASTER": 0.031,
       "GRANDMASTER": 0.008,
-      "SILVER": 0.181,
       "CHALLENGER": 0.002,
-      "MASTER": 0.033,
-      "PLATINUM": 0.093
+      "BRONZE": 0.216,
+      "SILVER": 0.173,
+      "DIAMOND": 0.057,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       3885,
@@ -2884,13 +2234,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 15,
+      "SILVER": 3,
       "PLATINUM": 7,
-      "DIAMOND": 12,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 15,
       "GOLD": 4,
-      "SILVER": 3
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Collect many skins for a single champion",
@@ -2909,16 +2259,16 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
-      "MASTER": 0.008,
       "GRANDMASTER": 0,
+      "SILVER": 0.18,
       "CHALLENGER": 0,
-      "SILVER": 0.185,
-      "IRON": 0.381,
-      "DIAMOND": 0.02,
+      "PLATINUM": 0.069,
+      "IRON": 0.372,
+      "BRONZE": 0.239,
+      "MASTER": 0.008,
       "NONE": 1,
-      "GOLD": 0.144,
-      "PLATINUM": 0.071,
-      "BRONZE": 0.246
+      "GOLD": 0.14,
+      "DIAMOND": 0.02
     }
   },
   {
@@ -2926,15 +2276,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
+      "GRANDMASTER": 147,
       "CHALLENGER": 250,
-      "MASTER": 90,
+      "SILVER": 5,
       "PLATINUM": 30,
-      "GRANDMASTER": 144,
-      "DIAMOND": 50,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 90,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 50
     },
     "translation": {
       "description": "Claim Dragon Souls without the enemy team taking a single dragon",
@@ -2968,24 +2318,24 @@ let challengeData = [
     "parent": "301100",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.037,
-      "BRONZE": 0.213,
-      "GOLD": 0.12,
-      "IRON": 0.264,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.157,
+      "GRANDMASTER": 0.004,
+      "SILVER": 0.155,
       "CHALLENGER": 0,
-      "MASTER": 0.013,
-      "PLATINUM": 0.062
+      "PLATINUM": 0.062,
+      "IRON": 0.26,
+      "BRONZE": 0.21,
+      "MASTER": 0.014,
+      "NONE": 1,
+      "GOLD": 0.118,
+      "DIAMOND": 0.038
     },
     "leaderboardThresholds": [
-      1006,
+      1066,
       1,
       249,
-      4303,
-      144,
-      50595
+      5693,
+      147,
+      56930
     ]
   },
   {
@@ -3028,16 +2378,16 @@ let challengeData = [
     "parent": "301100",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.135,
-      "BRONZE": 0,
-      "GOLD": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0,
       "SILVER": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0.134,
       "MASTER": 0,
-      "PLATINUM": 0
+      "PLATINUM": 0,
+      "GOLD": 0,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -3045,13 +2395,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 500,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "DIAMOND": 200,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 500,
       "GOLD": 30,
-      "SILVER": 10
+      "DIAMOND": 200
     },
     "translation": {
       "description": "Obtain champion skins",
@@ -3070,16 +2420,16 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.047,
-      "BRONZE": 0.269,
-      "GOLD": 0.17,
-      "IRON": 0.381,
-      "GRANDMASTER": 0,
-      "SILVER": 0.228,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.112,
+      "IRON": 0.372,
+      "GOLD": 0.164,
       "MASTER": 0.008,
-      "PLATINUM": 0.115
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.261,
+      "SILVER": 0.221,
+      "DIAMOND": 0.046,
+      "NONE": 1
     }
   },
   {
@@ -3122,16 +2472,16 @@ let challengeData = [
     "parent": "301100",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
+      "SILVER": 0,
+      "CHALLENGER": 0,
+      "DIAMOND": 0.101,
       "MASTER": 0,
       "PLATINUM": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.1,
-      "IRON": 0,
-      "GRANDMASTER": 0,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -3139,13 +2489,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 40,
-      "MASTER": 725,
+      "SILVER": 70,
       "PLATINUM": 240,
-      "DIAMOND": 430,
+      "BRONZE": 40,
       "IRON": 20,
+      "MASTER": 725,
       "GOLD": 150,
-      "SILVER": 70
+      "DIAMOND": 430
     },
     "translation": {
       "description": "Earn points from challenges in the Connoisseur group",
@@ -3166,16 +2516,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Connoisseur",
     "percentiles": {
-      "BRONZE": 0.233,
-      "MASTER": 0.005,
+      "SILVER": 0.173,
       "CHALLENGER": 0,
-      "PLATINUM": 0.06,
+      "DIAMOND": 0.02,
+      "MASTER": 0.005,
+      "PLATINUM": 0.059,
+      "GOLD": 0.102,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.019,
-      "IRON": 0.304,
-      "GOLD": 0.104,
-      "NONE": 1,
-      "SILVER": 0.178
+      "BRONZE": 0.227,
+      "IRON": 0.296,
+      "NONE": 1
     }
   },
   {
@@ -3183,13 +2533,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 75,
+      "SILVER": 10,
       "PLATINUM": 30,
-      "DIAMOND": 50,
+      "BRONZE": 5,
       "IRON": 2,
+      "MASTER": 75,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 50
     },
     "translation": {
       "description": "Win a game without dying with different champions",
@@ -3224,16 +2574,16 @@ let challengeData = [
     "parent": "202300",
     "parentCategory": "2",
     "percentiles": {
-      "GOLD": 0.019,
-      "NONE": 1,
-      "BRONZE": 0.084,
-      "MASTER": 0,
+      "SILVER": 0.039,
       "CHALLENGER": 0,
-      "IRON": 0.16,
-      "PLATINUM": 0.002,
       "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0.003,
+      "GOLD": 0.02,
       "GRANDMASTER": 0,
-      "SILVER": 0.038
+      "BRONZE": 0.085,
+      "IRON": 0.159,
+      "NONE": 1
     }
   },
   {
@@ -3241,13 +2591,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 100,
+      "SILVER": 10,
       "PLATINUM": 30,
-      "DIAMOND": 60,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 100,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 60
     },
     "translation": {
       "description": "Collect chromas",
@@ -3267,16 +2617,16 @@ let challengeData = [
     "parentCategory": "5",
     "title": "Fashionista",
     "percentiles": {
+      "PLATINUM": 0.045,
+      "IRON": 0.188,
+      "GOLD": 0.068,
       "MASTER": 0.016,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
+      "BRONZE": 0.115,
       "SILVER": 0.084,
-      "IRON": 0.192,
       "DIAMOND": 0.027,
-      "NONE": 1,
-      "GOLD": 0.069,
-      "PLATINUM": 0.046,
-      "BRONZE": 0.114
+      "NONE": 1
     }
   },
   {
@@ -3284,10 +2634,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 7,
       "PLATINUM": 2,
-      "DIAMOND": 4,
-      "GOLD": 1
+      "MASTER": 7,
+      "GOLD": 1,
+      "DIAMOND": 4
     },
     "translation": {
       "description": "Become Legendary (eight kill streak) within 15 minutes",
@@ -3322,16 +2672,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Prodigy",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.03,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.094,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.055,
       "IRON": 0,
-      "GOLD": 0.146,
       "NONE": 1,
-      "SILVER": 0
+      "MASTER": 0.031,
+      "SILVER": 0,
+      "DIAMOND": 0.055,
+      "PLATINUM": 0.094,
+      "BRONZE": 0,
+      "GOLD": 0.145,
+      "CHALLENGER": 0
     }
   },
   {
@@ -3339,13 +2689,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 100,
-      "DIAMOND": 175,
+      "BRONZE": 10,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 175
     },
     "translation": {
       "description": "Collect epic champion skins",
@@ -3365,16 +2715,16 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
-      "IRON": 0.31,
-      "GRANDMASTER": 0,
-      "MASTER": 0.006,
-      "SILVER": 0.121,
-      "NONE": 1,
       "PLATINUM": 0.035,
-      "BRONZE": 0.171,
+      "IRON": 0.302,
+      "GOLD": 0.077,
+      "MASTER": 0.006,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.078,
-      "DIAMOND": 0.013
+      "BRONZE": 0.166,
+      "SILVER": 0.118,
+      "DIAMOND": 0.013,
+      "NONE": 1
     }
   },
   {
@@ -3382,11 +2732,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Win games with eight or more kills without dying",
@@ -3420,16 +2770,16 @@ let challengeData = [
     "parent": "202300",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0.013,
-      "SILVER": 0.137,
-      "NONE": 1,
-      "PLATINUM": 0.06,
-      "BRONZE": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.085,
-      "DIAMOND": 0.035
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.061,
+      "IRON": 0,
+      "SILVER": 0.136,
+      "NONE": 1,
+      "BRONZE": 0,
+      "DIAMOND": 0.036,
+      "MASTER": 0.013,
+      "GOLD": 0.085
     }
   },
   {
@@ -3437,13 +2787,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 45,
+      "SILVER": 7,
       "PLATINUM": 20,
-      "DIAMOND": 30,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 45,
       "GOLD": 12,
-      "SILVER": 7
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Collect legendary champion skins",
@@ -3464,16 +2814,16 @@ let challengeData = [
     "parentCategory": "5",
     "title": "Trendsetter",
     "percentiles": {
-      "IRON": 0.24,
-      "GRANDMASTER": 0,
-      "MASTER": 0.007,
-      "SILVER": 0.107,
       "NONE": 1,
-      "PLATINUM": 0.037,
-      "BRONZE": 0.163,
       "CHALLENGER": 0,
-      "GOLD": 0.07,
-      "DIAMOND": 0.019
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.018,
+      "BRONZE": 0.157,
+      "GOLD": 0.068,
+      "IRON": 0.233,
+      "SILVER": 0.104,
+      "MASTER": 0.007,
+      "PLATINUM": 0.037
     }
   },
   {
@@ -3481,13 +2831,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 400,
+      "SILVER": 25,
       "PLATINUM": 105,
-      "DIAMOND": 190,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 400,
       "GOLD": 65,
-      "SILVER": 25
+      "DIAMOND": 190
     },
     "translation": {
       "description": "Earn points from challenges in the Perfection group",
@@ -3508,16 +2858,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Perfect",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.029,
-      "BRONZE": 0.22,
-      "GOLD": 0.108,
-      "IRON": 0.288,
-      "GRANDMASTER": 0,
-      "SILVER": 0.177,
+      "SILVER": 0.176,
       "CHALLENGER": 0,
+      "DIAMOND": 0.03,
       "MASTER": 0.001,
-      "PLATINUM": 0.069
+      "PLATINUM": 0.069,
+      "GOLD": 0.108,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.217,
+      "IRON": 0.284,
+      "NONE": 1
     }
   },
   {
@@ -3525,13 +2875,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 25,
+      "SILVER": 6,
       "PLATINUM": 15,
-      "DIAMOND": 20,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 25,
       "GOLD": 10,
-      "SILVER": 6
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Collect mythic champion skins",
@@ -3551,16 +2901,16 @@ let challengeData = [
     "parent": "510000",
     "parentCategory": "5",
     "percentiles": {
-      "SILVER": 0.027,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.005,
-      "MASTER": 0.004,
-      "PLATINUM": 0.009,
       "GRANDMASTER": 0,
+      "IRON": 0.153,
+      "NONE": 1,
+      "MASTER": 0.004,
+      "SILVER": 0.027,
+      "DIAMOND": 0.005,
+      "PLATINUM": 0.009,
+      "BRONZE": 0.052,
       "GOLD": 0.015,
-      "BRONZE": 0.053,
-      "IRON": 0.159,
-      "NONE": 1
+      "CHALLENGER": 0
     }
   },
   {
@@ -3568,15 +2918,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 500,
-      "CHALLENGER": 65000,
-      "MASTER": 25000,
+      "GRANDMASTER": 42760,
+      "CHALLENGER": 66334,
+      "SILVER": 1200,
       "PLATINUM": 6000,
-      "GRANDMASTER": 41876,
-      "DIAMOND": 15000,
+      "BRONZE": 500,
       "IRON": 100,
+      "MASTER": 25000,
       "GOLD": 2000,
-      "SILVER": 1200
+      "DIAMOND": 15000
     },
     "translation": {
       "description": "Immobilize enemy champions",
@@ -3610,23 +2960,23 @@ let challengeData = [
     "parentCategory": "3",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.03,
-      "BRONZE": 0.196,
-      "GOLD": 0.127,
-      "IRON": 0.28,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.152,
       "CHALLENGER": 0.001,
-      "MASTER": 0.013,
+      "GRANDMASTER": 0.003,
+      "DIAMOND": 0.031,
+      "BRONZE": 0.194,
+      "GOLD": 0.126,
+      "IRON": 0.275,
+      "SILVER": 0.151,
+      "MASTER": 0.014,
       "PLATINUM": 0.073
     },
     "leaderboardThresholds": [
-      477693,
+      521953,
       1,
-      64999,
-      9147,
-      41876,
-      48015
+      66334,
+      11009,
+      42760,
+      55040
     ]
   },
   {
@@ -3634,15 +2984,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 25,
-      "CHALLENGER": 4953,
-      "MASTER": 250,
-      "PLATINUM": 144,
       "GRANDMASTER": 1894,
-      "DIAMOND": 200,
+      "CHALLENGER": 4953,
+      "SILVER": 50,
+      "PLATINUM": 144,
+      "BRONZE": 25,
       "IRON": 5,
+      "MASTER": 250,
       "GOLD": 100,
-      "SILVER": 50
+      "DIAMOND": 200
     },
     "translation": {
       "description": "Hit snowballs on champions in ARAM",
@@ -3667,24 +3017,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.078,
-      "BRONZE": 0.131,
-      "GOLD": 0.096,
-      "IRON": 0.169,
-      "GRANDMASTER": 0.018,
-      "SILVER": 0.114,
-      "CHALLENGER": 0.004,
-      "MASTER": 0.072,
-      "PLATINUM": 0.086
+      "PLATINUM": 0.083,
+      "IRON": 0.161,
+      "GOLD": 0.092,
+      "MASTER": 0.069,
+      "GRANDMASTER": 0.017,
+      "CHALLENGER": 0.003,
+      "BRONZE": 0.125,
+      "SILVER": 0.109,
+      "DIAMOND": 0.075,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       69671,
       1,
       4953,
-      54997,
+      55020,
       1894,
-      274981
+      275093
     ]
   },
   {
@@ -3692,15 +3042,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 4400,
-      "CHALLENGER": 651003,
-      "MASTER": 260000,
+      "GRANDMASTER": 442678,
+      "CHALLENGER": 672708,
+      "SILVER": 11000,
       "PLATINUM": 65000,
-      "GRANDMASTER": 432360,
-      "DIAMOND": 148000,
+      "BRONZE": 4400,
       "IRON": 1100,
+      "MASTER": 260000,
       "GOLD": 27000,
-      "SILVER": 11000
+      "DIAMOND": 148000
     },
     "translation": {
       "description": "Use Abilities",
@@ -3733,24 +3083,24 @@ let challengeData = [
     "parent": "402500",
     "parentCategory": "3",
     "percentiles": {
-      "SILVER": 0.169,
+      "NONE": 1,
       "CHALLENGER": 0.001,
-      "DIAMOND": 0.036,
-      "MASTER": 0.014,
-      "PLATINUM": 0.076,
-      "GRANDMASTER": 0.003,
+      "GRANDMASTER": 0.004,
+      "DIAMOND": 0.037,
+      "BRONZE": 0.215,
       "GOLD": 0.122,
-      "BRONZE": 0.218,
-      "IRON": 0.293,
-      "NONE": 1
+      "IRON": 0.289,
+      "SILVER": 0.167,
+      "MASTER": 0.015,
+      "PLATINUM": 0.077
     },
     "leaderboardThresholds": [
-      3712589,
+      3995450,
       1,
-      651003,
-      10633,
-      432360,
-      53157
+      672708,
+      12204,
+      442678,
+      61016
     ]
   },
   {
@@ -3758,9 +3108,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
+      "GRANDMASTER": 2,
       "CHALLENGER": 3,
-      "MASTER": 1,
-      "GRANDMASTER": 2
+      "MASTER": 1
     },
     "translation": {
       "description": "Kill Baron Nashor solo",
@@ -3795,15 +3145,15 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "SILVER": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0,
-      "MASTER": 0.02,
       "PLATINUM": 0,
-      "GRANDMASTER": 0,
-      "GOLD": 0,
-      "BRONZE": 0,
       "IRON": 0,
+      "GOLD": 0,
+      "MASTER": 0.019,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
       "NONE": 1
     }
   },
@@ -3812,13 +3162,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 6,
-      "MASTER": 350,
+      "SILVER": 14,
       "PLATINUM": 90,
-      "DIAMOND": 180,
+      "BRONZE": 6,
       "IRON": 1,
+      "MASTER": 350,
       "GOLD": 30,
-      "SILVER": 14
+      "DIAMOND": 180
     },
     "translation": {
       "description": "Earn more than 450 Gold Per Minute",
@@ -3853,16 +3203,16 @@ let challengeData = [
     "parent": "202300",
     "parentCategory": "2",
     "percentiles": {
-      "MASTER": 0.008,
+      "PLATINUM": 0.05,
+      "IRON": 0.274,
+      "GOLD": 0.098,
+      "MASTER": 0.009,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "SILVER": 0.135,
-      "IRON": 0.277,
-      "DIAMOND": 0.024,
-      "NONE": 1,
-      "GOLD": 0.098,
-      "PLATINUM": 0.049,
-      "BRONZE": 0.178
+      "BRONZE": 0.176,
+      "SILVER": 0.134,
+      "DIAMOND": 0.025,
+      "NONE": 1
     }
   },
   {
@@ -3870,13 +3220,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Mystic group",
@@ -3897,16 +3247,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Enchanted",
     "percentiles": {
-      "BRONZE": 0.243,
-      "MASTER": 0.006,
       "PLATINUM": 0.082,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.035,
-      "IRON": 0.28,
+      "IRON": 0.276,
+      "GOLD": 0.131,
+      "MASTER": 0.006,
       "GRANDMASTER": 0,
-      "GOLD": 0.132,
-      "NONE": 1,
-      "SILVER": 0.195
+      "CHALLENGER": 0,
+      "BRONZE": 0.239,
+      "SILVER": 0.192,
+      "DIAMOND": 0.036,
+      "NONE": 1
     }
   },
   {
@@ -3914,9 +3264,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
+      "GRANDMASTER": 2,
       "CHALLENGER": 3,
-      "MASTER": 1,
-      "GRANDMASTER": 2
+      "MASTER": 1
     },
     "translation": {
       "description": "Steal two Epic Monsters in one game. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -3951,16 +3301,16 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "MASTER": 0.027,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
       "SILVER": 0,
-      "IRON": 0,
+      "CHALLENGER": 0,
       "DIAMOND": 0,
-      "NONE": 1,
-      "GOLD": 0,
+      "MASTER": 0.026,
       "PLATINUM": 0,
-      "BRONZE": 0
+      "GOLD": 0,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -4003,16 +3353,16 @@ let challengeData = [
     "parent": "202300",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.003,
-      "PLATINUM": 0,
+      "SILVER": 0,
       "CHALLENGER": 0,
       "DIAMOND": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0,
+      "MASTER": 0.003,
+      "PLATINUM": 0,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -4020,15 +3370,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 24000,
-      "CHALLENGER": 7489404,
-      "MASTER": 1400000,
+      "GRANDMASTER": 3501553,
+      "CHALLENGER": 7689107,
+      "SILVER": 72000,
       "PLATINUM": 450000,
-      "GRANDMASTER": 3464023,
-      "DIAMOND": 800000,
+      "BRONZE": 24000,
       "IRON": 6000,
+      "MASTER": 1400000,
       "GOLD": 150000,
-      "SILVER": 72000
+      "DIAMOND": 800000
     },
     "translation": {
       "description": "Do effective healing or shielding on your allies (self healing/shield doesn't count). Effective healing must actually restore health, and effective shielding must actually block damage",
@@ -4062,24 +3412,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Protector",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.019,
-      "BRONZE": 0.161,
+      "PLATINUM": 0.035,
+      "IRON": 0.221,
       "GOLD": 0.077,
-      "IRON": 0.224,
-      "GRANDMASTER": 0.002,
-      "SILVER": 0.11,
-      "CHALLENGER": 0,
       "MASTER": 0.01,
-      "PLATINUM": 0.035
+      "GRANDMASTER": 0.003,
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.159,
+      "SILVER": 0.109,
+      "DIAMOND": 0.02,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      77051135,
+      84654526,
       1,
-      7489404,
-      7431,
-      3464023,
-      37147
+      7689107,
+      8100,
+      3501553,
+      40494
     ]
   },
   {
@@ -4087,15 +3437,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "CHALLENGER": 300,
-      "MASTER": 200,
-      "PLATINUM": 90,
       "GRANDMASTER": 250,
-      "DIAMOND": 140,
+      "CHALLENGER": 300,
+      "SILVER": 30,
+      "PLATINUM": 90,
+      "BRONZE": 15,
       "IRON": 3,
+      "MASTER": 200,
       "GOLD": 60,
-      "SILVER": 30
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Kill enemies near one of their own turrets in ARAM",
@@ -4121,16 +3471,16 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.086,
-      "BRONZE": 0.147,
-      "GOLD": 0.109,
-      "IRON": 0.191,
+      "PLATINUM": 0.094,
+      "IRON": 0.182,
+      "GOLD": 0.104,
+      "MASTER": 0.073,
       "GRANDMASTER": 0,
-      "SILVER": 0.128,
       "CHALLENGER": 0,
-      "MASTER": 0.076,
-      "PLATINUM": 0.098
+      "BRONZE": 0.141,
+      "SILVER": 0.122,
+      "DIAMOND": 0.082,
+      "NONE": 1
     }
   },
   {
@@ -4138,9 +3488,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 4,
       "CHALLENGER": 12,
-      "MASTER": 1,
-      "GRANDMASTER": 4
+      "MASTER": 1
     },
     "translation": {
       "description": "Deal 40% or more of your team's total damage to champions in ARAM",
@@ -4166,24 +3516,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0,
+      "CHALLENGER": 0.003,
       "GRANDMASTER": 0.014,
-      "MASTER": 0.057,
+      "PLATINUM": 0,
+      "IRON": 0,
       "SILVER": 0,
       "NONE": 1,
-      "PLATINUM": 0,
       "BRONZE": 0,
-      "CHALLENGER": 0.003,
-      "GOLD": 0,
-      "DIAMOND": 0
+      "DIAMOND": 0,
+      "MASTER": 0.055,
+      "GOLD": 0
     },
     "leaderboardThresholds": [
       1158,
       1,
       12,
-      43666,
+      43684,
       4,
-      218324
+      218415
     ]
   },
   {
@@ -4191,15 +3541,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1493,
-      "MASTER": 200,
-      "PLATINUM": 100,
       "GRANDMASTER": 735,
-      "DIAMOND": 150,
+      "CHALLENGER": 1494,
+      "SILVER": 25,
+      "PLATINUM": 100,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 200,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Secure kills while more enemy champions than allies are nearby",
@@ -4232,24 +3582,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.202,
-      "MASTER": 0.069,
       "CHALLENGER": 0.003,
-      "PLATINUM": 0.101,
       "GRANDMASTER": 0.017,
-      "DIAMOND": 0.082,
-      "IRON": 0.249,
-      "GOLD": 0.132,
+      "PLATINUM": 0.096,
+      "IRON": 0.238,
+      "SILVER": 0.155,
       "NONE": 1,
-      "SILVER": 0.163
+      "BRONZE": 0.193,
+      "DIAMOND": 0.079,
+      "MASTER": 0.066,
+      "GOLD": 0.126
     },
     "leaderboardThresholds": [
       11032,
       1,
-      1493,
-      52859,
+      1494,
+      52891,
       735,
-      264288
+      264450
     ]
   },
   {
@@ -4257,13 +3607,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 70,
-      "MASTER": 1600,
+      "SILVER": 105,
       "PLATINUM": 375,
-      "DIAMOND": 670,
+      "BRONZE": 70,
       "IRON": 35,
+      "MASTER": 1600,
       "GOLD": 235,
-      "SILVER": 105
+      "DIAMOND": 670
     },
     "translation": {
       "description": "Earn points from challenges in the 2023 Seasonal group",
@@ -4284,16 +3634,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Challenjour '23",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.106,
-      "BRONZE": 0.235,
-      "GOLD": 0.174,
-      "IRON": 0.256,
       "GRANDMASTER": 0,
-      "SILVER": 0.224,
-      "CHALLENGER": 0,
+      "IRON": 0.244,
+      "NONE": 1,
       "MASTER": 0.005,
-      "PLATINUM": 0.141
+      "SILVER": 0.214,
+      "DIAMOND": 0.101,
+      "PLATINUM": 0.134,
+      "BRONZE": 0.224,
+      "GOLD": 0.166,
+      "CHALLENGER": 0
     }
   },
   {
@@ -4301,9 +3651,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 8,
       "CHALLENGER": 23,
-      "MASTER": 1,
-      "GRANDMASTER": 8
+      "MASTER": 1
     },
     "translation": {
       "description": "Win games with 0 deaths and at least 30% kill participation",
@@ -4337,24 +3687,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0.039,
       "SILVER": 0,
       "CHALLENGER": 0.008,
-      "MASTER": 0.156,
-      "PLATINUM": 0
+      "DIAMOND": 0,
+      "MASTER": 0.15,
+      "PLATINUM": 0,
+      "GOLD": 0,
+      "GRANDMASTER": 0.038,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       888,
       1,
       23,
-      119570,
+      119619,
       8,
-      597845
+      598089
     ]
   },
   {
@@ -4362,15 +3712,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 736,
-      "MASTER": 250,
+      "GRANDMASTER": 473,
+      "CHALLENGER": 764,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "GRANDMASTER": 461,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Earn S- grades or higher",
@@ -4403,24 +3753,24 @@ let challengeData = [
     "parent": "210000",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.289,
-      "GRANDMASTER": 0.004,
-      "MASTER": 0.017,
-      "SILVER": 0.166,
-      "NONE": 1,
-      "PLATINUM": 0.065,
-      "BRONZE": 0.202,
-      "CHALLENGER": 0.001,
+      "PLATINUM": 0.066,
+      "IRON": 0.285,
       "GOLD": 0.119,
-      "DIAMOND": 0.034
+      "MASTER": 0.018,
+      "GRANDMASTER": 0.004,
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.199,
+      "SILVER": 0.164,
+      "DIAMOND": 0.035,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3517,
+      3658,
       1,
-      736,
-      12635,
-      461,
-      63167
+      764,
+      14171,
+      473,
+      70847
     ]
   },
   {
@@ -4428,15 +3778,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
+      "GRANDMASTER": 66,
       "CHALLENGER": 145,
-      "MASTER": 30,
+      "SILVER": 5,
       "PLATINUM": 15,
-      "GRANDMASTER": 71,
-      "DIAMOND": 20,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Get a Pentakill with different champions",
@@ -4470,24 +3820,24 @@ let challengeData = [
     "parent": "210000",
     "parentCategory": "2",
     "percentiles": {
+      "PLATINUM": 0,
+      "IRON": 0.069,
+      "GOLD": 0,
       "MASTER": 0,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
+      "BRONZE": 0.013,
       "SILVER": 0.004,
-      "IRON": 0.07,
       "DIAMOND": 0,
-      "NONE": 1,
-      "GOLD": 0,
-      "PLATINUM": 0,
-      "BRONZE": 0.013
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      165,
+      166,
       1,
       145,
       3,
-      71,
-      9
+      66,
+      10
     ]
   },
   {
@@ -4495,15 +3845,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
+      "GRANDMASTER": 166,
       "CHALLENGER": 170,
-      "MASTER": 150,
+      "SILVER": 15,
       "PLATINUM": 50,
-      "GRANDMASTER": 165,
-      "DIAMOND": 100,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 30,
-      "SILVER": 15
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Earn an S+ grade on different champions",
@@ -4539,24 +3889,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "S+",
     "percentiles": {
-      "BRONZE": 0.09,
-      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "SILVER": 0.028,
       "CHALLENGER": 0,
       "PLATINUM": 0.001,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0,
-      "IRON": 0.223,
-      "GOLD": 0.007,
+      "IRON": 0.22,
+      "BRONZE": 0.091,
+      "MASTER": 0,
       "NONE": 1,
-      "SILVER": 0.027
+      "GOLD": 0.007,
+      "DIAMOND": 0
     },
     "leaderboardThresholds": [
       0,
       0,
       167,
       1,
-      165,
-      7
+      166,
+      9
     ]
   },
   {
@@ -4564,13 +3914,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 500,
+      "SILVER": 45,
       "PLATINUM": 160,
-      "DIAMOND": 300,
+      "BRONZE": 25,
       "IRON": 15,
+      "MASTER": 500,
       "GOLD": 100,
-      "SILVER": 45
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Earn points from challenges in the Magnum Opus group",
@@ -4591,16 +3941,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Top Tier",
     "percentiles": {
-      "IRON": 0.226,
-      "GRANDMASTER": 0,
+      "PLATINUM": 0.028,
+      "IRON": 0.223,
+      "GOLD": 0.064,
       "MASTER": 0,
-      "SILVER": 0.139,
-      "NONE": 1,
-      "PLATINUM": 0.027,
-      "BRONZE": 0.185,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.063,
-      "DIAMOND": 0.002
+      "BRONZE": 0.183,
+      "SILVER": 0.139,
+      "DIAMOND": 0.003,
+      "NONE": 1
     }
   },
   {
@@ -4608,11 +3958,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 2,
       "PLATINUM": 6,
-      "DIAMOND": 8,
+      "MASTER": 10,
       "GOLD": 4,
-      "SILVER": 2
+      "DIAMOND": 8
     },
     "translation": {
       "description": "End season splits ranked Gold or higher",
@@ -4634,16 +3984,16 @@ let challengeData = [
     "parent": "210000",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.008,
       "GRANDMASTER": 0,
-      "DIAMOND": 0,
       "IRON": 0,
-      "GOLD": 0.014,
       "NONE": 1,
-      "SILVER": 0.047
+      "MASTER": 0,
+      "SILVER": 0.051,
+      "DIAMOND": 0,
+      "PLATINUM": 0.007,
+      "BRONZE": 0,
+      "GOLD": 0.014,
+      "CHALLENGER": 0
     }
   },
   {
@@ -4651,15 +4001,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1004,
-      "MASTER": 400,
+      "GRANDMASTER": 673,
+      "CHALLENGER": 1036,
+      "SILVER": 20,
       "PLATINUM": 125,
-      "GRANDMASTER": 660,
-      "DIAMOND": 250,
+      "BRONZE": 10,
       "IRON": 1,
+      "MASTER": 400,
       "GOLD": 50,
-      "SILVER": 20
+      "DIAMOND": 250
     },
     "translation": {
       "description": "Get a KDA over 3 in Ranked Solo/Duo Queue",
@@ -4679,24 +4029,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "KDA Player",
     "percentiles": {
-      "GOLD": 0.069,
-      "NONE": 1,
-      "BRONZE": 0.13,
-      "MASTER": 0.006,
       "CHALLENGER": 0,
-      "IRON": 0.199,
-      "PLATINUM": 0.034,
-      "DIAMOND": 0.014,
-      "GRANDMASTER": 0.001,
-      "SILVER": 0.105
+      "GRANDMASTER": 0.002,
+      "PLATINUM": 0.035,
+      "IRON": 0.196,
+      "SILVER": 0.104,
+      "NONE": 1,
+      "BRONZE": 0.129,
+      "DIAMOND": 0.015,
+      "MASTER": 0.006,
+      "GOLD": 0.069
     },
     "leaderboardThresholds": [
-      3819,
+      4075,
       1,
-      1004,
-      4436,
-      660,
-      22175
+      1036,
+      5144,
+      673,
+      25712
     ]
   },
   {
@@ -4704,13 +4054,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 165,
-      "MASTER": 2700,
+      "SILVER": 250,
       "PLATINUM": 910,
-      "DIAMOND": 1625,
+      "BRONZE": 165,
       "IRON": 80,
+      "MASTER": 2700,
       "GOLD": 570,
-      "SILVER": 250
+      "DIAMOND": 1625
     },
     "translation": {
       "description": "Earn points from challenges in the Executioner, Commando, Resourceful, and Mystic groups",
@@ -4731,16 +4081,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Veteran",
     "percentiles": {
-      "IRON": 0.28,
-      "GRANDMASTER": 0,
-      "MASTER": 0.004,
-      "SILVER": 0.2,
-      "NONE": 1,
       "PLATINUM": 0.074,
-      "BRONZE": 0.232,
+      "IRON": 0.276,
+      "GOLD": 0.119,
+      "MASTER": 0.004,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.121,
-      "DIAMOND": 0.027
+      "BRONZE": 0.228,
+      "SILVER": 0.197,
+      "DIAMOND": 0.028,
+      "NONE": 1
     }
   },
   {
@@ -4748,13 +4098,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 8,
-      "MASTER": 2,
+      "SILVER": 7,
       "PLATINUM": 5,
-      "DIAMOND": 3,
+      "BRONZE": 8,
       "IRON": 9,
+      "MASTER": 2,
       "GOLD": 6,
-      "SILVER": 7
+      "DIAMOND": 3
     },
     "translation": {
       "description": "Earn rank in Ranked Solo/Duo Queue. You must finish provisionals.",
@@ -4777,15 +4127,15 @@ let challengeData = [
     "title": "Masterful",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.009,
-      "BRONZE": 0.172,
-      "GOLD": 0.084,
-      "IRON": 0.51,
-      "GRANDMASTER": 0,
-      "SILVER": 0.133,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.01,
+      "BRONZE": 0.17,
+      "GOLD": 0.086,
+      "IRON": 0.543,
+      "SILVER": 0.132,
       "MASTER": 0.003,
-      "PLATINUM": 0.045
+      "PLATINUM": 0.048
     }
   },
   {
@@ -4793,13 +4143,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 50,
-      "MASTER": 1150,
+      "SILVER": 100,
       "PLATINUM": 400,
-      "DIAMOND": 675,
+      "BRONZE": 50,
       "IRON": 20,
+      "MASTER": 1150,
       "GOLD": 230,
-      "SILVER": 100
+      "DIAMOND": 675
     },
     "translation": {
       "description": "Earn points from challenges in the Style, Innovation, and Tactician groups",
@@ -4820,16 +4170,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Galaxy Brain",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.018,
-      "BRONZE": 0.338,
-      "GOLD": 0.126,
-      "IRON": 0.359,
-      "GRANDMASTER": 0,
-      "SILVER": 0.235,
+      "SILVER": 0.231,
       "CHALLENGER": 0,
+      "DIAMOND": 0.019,
       "MASTER": 0.001,
-      "PLATINUM": 0.06
+      "PLATINUM": 0.061,
+      "GOLD": 0.125,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.33,
+      "IRON": 0.351,
+      "NONE": 1
     }
   },
   {
@@ -4837,13 +4187,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 30,
+      "SILVER": 5,
       "PLATINUM": 15,
-      "DIAMOND": 21,
+      "BRONZE": 3,
       "IRON": 2,
+      "MASTER": 30,
       "GOLD": 9,
-      "SILVER": 5
+      "DIAMOND": 21
     },
     "translation": {
       "description": "Play with the same team in different Clash tournaments",
@@ -4862,16 +4212,16 @@ let challengeData = [
     "parent": "303200",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0.002,
-      "MASTER": 0,
-      "PLATINUM": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0,
-      "IRON": 0.006,
-      "GRANDMASTER": 0,
-      "GOLD": 0,
       "NONE": 1,
-      "SILVER": 0.001
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0,
+      "BRONZE": 0.002,
+      "GOLD": 0,
+      "IRON": 0.006,
+      "SILVER": 0.001,
+      "MASTER": 0,
+      "PLATINUM": 0
     }
   },
   {
@@ -4879,15 +4229,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 75,
-      "MASTER": 30,
-      "PLATINUM": 12,
       "GRANDMASTER": 48,
-      "DIAMOND": 20,
+      "CHALLENGER": 75,
+      "SILVER": 5,
+      "PLATINUM": 12,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 8,
-      "SILVER": 5
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Steal Epic Monsters on Summoner's Rift. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -4921,24 +4271,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.109,
-      "GRANDMASTER": 0.001,
+      "PLATINUM": 0.012,
+      "IRON": 0.104,
+      "GOLD": 0.022,
       "MASTER": 0.002,
-      "SILVER": 0.038,
-      "NONE": 1,
-      "PLATINUM": 0.013,
-      "BRONZE": 0.075,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.023,
-      "DIAMOND": 0.005
+      "BRONZE": 0.072,
+      "SILVER": 0.036,
+      "DIAMOND": 0.005,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       561,
       1,
       75,
-      1575,
+      1576,
       48,
-      7868
+      7873
     ]
   },
   {
@@ -4946,13 +4296,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 6,
-      "MASTER": 60,
+      "SILVER": 12,
       "PLATINUM": 30,
-      "DIAMOND": 45,
+      "BRONZE": 6,
       "IRON": 2,
+      "MASTER": 60,
       "GOLD": 18,
-      "SILVER": 12
+      "DIAMOND": 45
     },
     "translation": {
       "description": "Finish with more wins than losses in Clash",
@@ -4971,14 +4321,14 @@ let challengeData = [
     "parent": "303200",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0.019,
       "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0.001,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0.004,
       "CHALLENGER": 0,
+      "PLATINUM": 0,
+      "IRON": 0.019,
+      "BRONZE": 0.004,
+      "MASTER": 0,
+      "NONE": 1,
       "GOLD": 0,
       "DIAMOND": 0
     }
@@ -4988,15 +4338,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 15,
-      "CHALLENGER": 590,
-      "MASTER": 180,
-      "PLATINUM": 75,
       "GRANDMASTER": 364,
-      "DIAMOND": 120,
+      "CHALLENGER": 590,
+      "SILVER": 25,
+      "PLATINUM": 75,
+      "BRONZE": 15,
       "IRON": 5,
+      "MASTER": 180,
       "GOLD": 45,
-      "SILVER": 25
+      "DIAMOND": 120
     },
     "translation": {
       "description": "Get killing sprees on Summoner's Rift (you can get multiple, one for killing spree, one more for Rampage, etc)",
@@ -5030,24 +4380,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.037,
-      "BRONZE": 0.118,
-      "GOLD": 0.075,
-      "IRON": 0.158,
-      "GRANDMASTER": 0.006,
-      "SILVER": 0.098,
+      "SILVER": 0.094,
       "CHALLENGER": 0.001,
-      "MASTER": 0.023,
-      "PLATINUM": 0.055
+      "DIAMOND": 0.035,
+      "MASTER": 0.022,
+      "PLATINUM": 0.053,
+      "GOLD": 0.072,
+      "GRANDMASTER": 0.005,
+      "BRONZE": 0.113,
+      "IRON": 0.151,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       2307,
       1,
       590,
-      17397,
+      17409,
       364,
-      86979
+      87037
     ]
   },
   {
@@ -5055,13 +4405,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 400,
+      "SILVER": 40,
       "PLATINUM": 135,
-      "DIAMOND": 240,
+      "BRONZE": 25,
       "IRON": 15,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 40
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Earn points from challenges in the Clash group",
@@ -5082,16 +4432,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Clash Master",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0.018,
+      "PLATINUM": 0.001,
+      "IRON": 0.024,
       "GOLD": 0.004,
-      "IRON": 0.025,
-      "GRANDMASTER": 0,
-      "SILVER": 0.011,
-      "CHALLENGER": 0,
       "MASTER": 0,
-      "PLATINUM": 0.001
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.017,
+      "SILVER": 0.011,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -5099,15 +4449,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 4,
-      "CHALLENGER": 168,
-      "MASTER": 60,
-      "PLATINUM": 25,
       "GRANDMASTER": 104,
-      "DIAMOND": 40,
+      "CHALLENGER": 168,
+      "SILVER": 8,
+      "PLATINUM": 25,
+      "BRONZE": 4,
       "IRON": 1,
+      "MASTER": 60,
       "GOLD": 15,
-      "SILVER": 8
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Take both of the initial 2 scuttle crab spawn on Summoner's Rift",
@@ -5141,24 +4491,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.099,
       "GRANDMASTER": 0.001,
-      "MASTER": 0.002,
-      "SILVER": 0.031,
+      "IRON": 0.095,
       "NONE": 1,
-      "PLATINUM": 0.01,
-      "BRONZE": 0.05,
-      "CHALLENGER": 0,
-      "GOLD": 0.018,
-      "DIAMOND": 0.005
+      "MASTER": 0.002,
+      "SILVER": 0.03,
+      "DIAMOND": 0.005,
+      "PLATINUM": 0.009,
+      "BRONZE": 0.048,
+      "GOLD": 0.017,
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       1638,
       1,
       168,
-      1686,
+      1687,
       104,
-      8424
+      8428
     ]
   },
   {
@@ -5166,15 +4516,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 4,
-      "CHALLENGER": 300,
-      "MASTER": 150,
-      "PLATINUM": 35,
       "GRANDMASTER": 225,
-      "DIAMOND": 75,
+      "CHALLENGER": 300,
+      "SILVER": 10,
+      "PLATINUM": 35,
+      "BRONZE": 4,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 20,
-      "SILVER": 10
+      "DIAMOND": 75
     },
     "translation": {
       "description": "Win games in Clash",
@@ -5193,16 +4543,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Clasher",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0.021,
-      "GOLD": 0.002,
-      "IRON": 0.041,
       "GRANDMASTER": 0,
-      "SILVER": 0.008,
-      "CHALLENGER": 0,
+      "IRON": 0.04,
+      "NONE": 1,
       "MASTER": 0,
-      "PLATINUM": 0
+      "SILVER": 0.008,
+      "DIAMOND": 0,
+      "PLATINUM": 0.001,
+      "BRONZE": 0.02,
+      "GOLD": 0.002,
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       0,
@@ -5218,15 +4568,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 8,
-      "CHALLENGER": 329,
-      "MASTER": 90,
-      "PLATINUM": 35,
       "GRANDMASTER": 187,
-      "DIAMOND": 60,
+      "CHALLENGER": 329,
+      "SILVER": 12,
+      "PLATINUM": 35,
+      "BRONZE": 8,
       "IRON": 3,
+      "MASTER": 90,
       "GOLD": 22,
-      "SILVER": 12
+      "DIAMOND": 60
     },
     "translation": {
       "description": "Have over 2 Vision Score per minute on Summoner's Rift",
@@ -5260,24 +4610,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.038,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.002,
-      "SILVER": 0.016,
       "NONE": 1,
-      "PLATINUM": 0.007,
-      "BRONZE": 0.021,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.003,
+      "BRONZE": 0.021,
       "GOLD": 0.01,
-      "DIAMOND": 0.004
+      "IRON": 0.036,
+      "SILVER": 0.016,
+      "MASTER": 0.002,
+      "PLATINUM": 0.006
     },
     "leaderboardThresholds": [
       1198,
       1,
       329,
-      1549,
+      1550,
       187,
-      7740
+      7746
     ]
   },
   {
@@ -5285,15 +4635,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 70,
-      "MASTER": 40,
-      "PLATINUM": 12,
       "GRANDMASTER": 55,
-      "DIAMOND": 25,
+      "CHALLENGER": 70,
+      "SILVER": 4,
+      "PLATINUM": 12,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 40,
       "GOLD": 8,
-      "SILVER": 4
+      "DIAMOND": 25
     },
     "translation": {
       "description": "Win Clash brackets",
@@ -5311,16 +4661,16 @@ let challengeData = [
     "parent": "303200",
     "parentCategory": "4",
     "percentiles": {
-      "GOLD": 0,
-      "NONE": 1,
-      "BRONZE": 0.005,
-      "MASTER": 0,
+      "SILVER": 0.001,
       "CHALLENGER": 0,
-      "IRON": 0.016,
-      "PLATINUM": 0,
       "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
+      "GOLD": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0.001
+      "BRONZE": 0.005,
+      "IRON": 0.015,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       0,
@@ -5336,15 +4686,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 77,
-      "MASTER": 18,
-      "PLATINUM": 8,
       "GRANDMASTER": 39,
-      "DIAMOND": 12,
+      "CHALLENGER": 77,
+      "SILVER": 3,
+      "PLATINUM": 8,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 18,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Kill 2 players with the same ability cast on Summoner's Rift",
@@ -5378,24 +4728,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.022,
-      "BRONZE": 0.084,
-      "GOLD": 0.048,
-      "IRON": 0.116,
+      "PLATINUM": 0.031,
+      "IRON": 0.111,
+      "GOLD": 0.046,
+      "MASTER": 0.012,
       "GRANDMASTER": 0.003,
-      "SILVER": 0.067,
       "CHALLENGER": 0.001,
-      "MASTER": 0.013,
-      "PLATINUM": 0.033
+      "BRONZE": 0.08,
+      "SILVER": 0.064,
+      "DIAMOND": 0.021,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       2356,
       1,
       77,
-      9859,
+      9865,
       39,
-      49287
+      49317
     ]
   },
   {
@@ -5403,13 +4753,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 30,
+      "SILVER": 3,
       "PLATINUM": 12,
-      "DIAMOND": 21,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 6,
-      "SILVER": 3
+      "DIAMOND": 21
     },
     "translation": {
       "description": "Have Clash logos owned by the entire team",
@@ -5428,16 +4778,16 @@ let challengeData = [
     "parent": "303200",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.004,
-      "BRONZE": 0.017,
-      "GOLD": 0.01,
-      "IRON": 0.023,
-      "GRANDMASTER": 0,
       "SILVER": 0.014,
       "CHALLENGER": 0,
+      "DIAMOND": 0.004,
       "MASTER": 0.002,
-      "PLATINUM": 0.006
+      "PLATINUM": 0.006,
+      "GOLD": 0.01,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.017,
+      "IRON": 0.023,
+      "NONE": 1
     }
   },
   {
@@ -5445,15 +4795,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 2343,
-      "MASTER": 900,
-      "PLATINUM": 375,
       "GRANDMASTER": 1513,
-      "DIAMOND": 600,
+      "CHALLENGER": 2342,
+      "SILVER": 100,
+      "PLATINUM": 375,
+      "BRONZE": 50,
       "IRON": 10,
+      "MASTER": 900,
       "GOLD": 225,
-      "SILVER": 100
+      "DIAMOND": 600
     },
     "translation": {
       "description": "Get solo kills on Summoner's Rift (no assists from allied champions)",
@@ -5487,24 +4837,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.107,
-      "MASTER": 0.007,
-      "PLATINUM": 0.028,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.015,
-      "IRON": 0.169,
-      "GRANDMASTER": 0.002,
-      "GOLD": 0.046,
       "NONE": 1,
-      "SILVER": 0.079
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0.002,
+      "DIAMOND": 0.014,
+      "BRONZE": 0.103,
+      "GOLD": 0.044,
+      "IRON": 0.162,
+      "SILVER": 0.075,
+      "MASTER": 0.007,
+      "PLATINUM": 0.027
     },
     "leaderboardThresholds": [
       10676,
       1,
-      2343,
-      5255,
+      2342,
+      5259,
       1513,
-      26268
+      26289
     ]
   },
   {
@@ -5512,15 +4862,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 174,
-      "MASTER": 60,
-      "PLATINUM": 25,
       "GRANDMASTER": 109,
-      "DIAMOND": 40,
+      "CHALLENGER": 174,
+      "SILVER": 10,
+      "PLATINUM": 25,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 60,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Deal the most damage to champions in the game on Summoner's Rift",
@@ -5554,24 +4904,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.017,
-      "BRONZE": 0.088,
-      "GOLD": 0.047,
-      "IRON": 0.154,
       "GRANDMASTER": 0.002,
-      "SILVER": 0.061,
-      "CHALLENGER": 0,
+      "IRON": 0.147,
+      "NONE": 1,
       "MASTER": 0.009,
-      "PLATINUM": 0.03
+      "SILVER": 0.059,
+      "DIAMOND": 0.017,
+      "PLATINUM": 0.029,
+      "BRONZE": 0.084,
+      "GOLD": 0.045,
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       1088,
       1,
       174,
-      7004,
+      7009,
       109,
-      35015
+      35041
     ]
   },
   {
@@ -5614,16 +4964,16 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.065,
-      "BRONZE": 0,
-      "GOLD": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0,
       "SILVER": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0.062,
       "MASTER": 0,
-      "PLATINUM": 0
+      "PLATINUM": 0,
+      "GOLD": 0,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -5631,12 +4981,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 30,
-      "MASTER": 6,
-      "PLATINUM": 2,
       "GRANDMASTER": 15,
-      "DIAMOND": 4,
-      "GOLD": 1
+      "CHALLENGER": 30,
+      "PLATINUM": 2,
+      "MASTER": 6,
+      "GOLD": 1,
+      "DIAMOND": 4
     },
     "translation": {
       "description": "Win games without dying and with at least 30% kill participation on Summoner's Rift",
@@ -5670,24 +5020,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0.01,
-      "MASTER": 0.038,
+      "GRANDMASTER": 0.009,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0.089,
-      "BRONZE": 0,
       "CHALLENGER": 0.002,
-      "GOLD": 0.128,
-      "DIAMOND": 0.055
+      "PLATINUM": 0.085,
+      "IRON": 0,
+      "BRONZE": 0,
+      "MASTER": 0.036,
+      "NONE": 1,
+      "GOLD": 0.122,
+      "DIAMOND": 0.053
     },
     "leaderboardThresholds": [
       683,
       1,
       30,
-      29022,
+      29033,
       15,
-      145106
+      145161
     ]
   },
   {
@@ -5695,15 +5045,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 109,
-      "MASTER": 30,
-      "PLATINUM": 12,
       "GRANDMASTER": 63,
-      "DIAMOND": 20,
+      "CHALLENGER": 109,
+      "SILVER": 3,
+      "PLATINUM": 12,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 7,
-      "SILVER": 3
+      "DIAMOND": 20
     },
     "translation": {
       "description": "End the early laning phase (7 minutes) with 20% more gold and experience than your role opponent on Summoner's Rift",
@@ -5738,23 +5088,23 @@ let challengeData = [
     "parentCategory": "0",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.042,
-      "BRONZE": 0.145,
-      "GOLD": 0.088,
-      "IRON": 0.179,
-      "GRANDMASTER": 0.007,
-      "SILVER": 0.126,
       "CHALLENGER": 0.001,
-      "MASTER": 0.027,
-      "PLATINUM": 0.064
+      "GRANDMASTER": 0.006,
+      "DIAMOND": 0.04,
+      "BRONZE": 0.139,
+      "GOLD": 0.084,
+      "IRON": 0.171,
+      "SILVER": 0.121,
+      "MASTER": 0.025,
+      "PLATINUM": 0.061
     },
     "leaderboardThresholds": [
       1183,
       1,
       109,
-      20401,
+      20413,
       63,
-      101999
+      102059
     ]
   },
   {
@@ -5762,14 +5112,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 57,
-      "MASTER": 20,
-      "PLATINUM": 10,
       "GRANDMASTER": 36,
-      "DIAMOND": 15,
+      "CHALLENGER": 57,
+      "SILVER": 3,
+      "PLATINUM": 10,
+      "BRONZE": 1,
+      "MASTER": 20,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Take the first turret in ARAM before 5 minutes have passed",
@@ -5793,24 +5143,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.013,
-      "BRONZE": 0.096,
-      "GOLD": 0.041,
-      "IRON": 0,
-      "GRANDMASTER": 0.002,
-      "SILVER": 0.057,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.002,
+      "PLATINUM": 0.021,
+      "IRON": 0,
+      "SILVER": 0.054,
+      "NONE": 1,
+      "BRONZE": 0.092,
+      "DIAMOND": 0.012,
       "MASTER": 0.008,
-      "PLATINUM": 0.022
+      "GOLD": 0.039
     },
     "leaderboardThresholds": [
       351,
       1,
       57,
-      6068,
+      6070,
       36,
-      30335
+      30343
     ]
   },
   {
@@ -5818,15 +5168,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 237,
-      "MASTER": 60,
-      "PLATINUM": 25,
       "GRANDMASTER": 136,
-      "DIAMOND": 40,
+      "CHALLENGER": 237,
+      "SILVER": 10,
+      "PLATINUM": 25,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 60,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Earn total S- grades or higher on Summoner's Rift",
@@ -5860,24 +5210,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.181,
-      "GRANDMASTER": 0.007,
-      "MASTER": 0.027,
-      "SILVER": 0.093,
-      "NONE": 1,
-      "PLATINUM": 0.058,
-      "BRONZE": 0.119,
+      "PLATINUM": 0.056,
+      "IRON": 0.173,
+      "GOLD": 0.074,
+      "MASTER": 0.026,
+      "GRANDMASTER": 0.006,
       "CHALLENGER": 0.001,
-      "GOLD": 0.077,
-      "DIAMOND": 0.041
+      "BRONZE": 0.114,
+      "SILVER": 0.089,
+      "DIAMOND": 0.039,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       1421,
       1,
       237,
-      20668,
+      20680,
       136,
-      103333
+      103396
     ]
   },
   {
@@ -5885,13 +5235,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 105,
-      "MASTER": 1700,
+      "SILVER": 160,
       "PLATINUM": 560,
-      "DIAMOND": 1000,
+      "BRONZE": 105,
       "IRON": 55,
+      "MASTER": 1700,
       "GOLD": 350,
-      "SILVER": 160
+      "DIAMOND": 1000
     },
     "translation": {
       "description": "Earn points from challenges in the Guru, Virtuoso, and Ace groups",
@@ -5912,16 +5262,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Sage",
     "percentiles": {
-      "MASTER": 0,
-      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "SILVER": 0.11,
-      "IRON": 0.226,
-      "DIAMOND": 0,
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.009,
+      "IRON": 0.22,
+      "SILVER": 0.108,
       "NONE": 1,
-      "GOLD": 0.036,
-      "PLATINUM": 0.008,
-      "BRONZE": 0.153
+      "BRONZE": 0.15,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "GOLD": 0.037
     }
   },
   {
@@ -5929,13 +5279,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 75,
-      "MASTER": 1400,
+      "SILVER": 115,
       "PLATINUM": 455,
-      "DIAMOND": 860,
+      "BRONZE": 75,
       "IRON": 35,
+      "MASTER": 1400,
       "GOLD": 265,
-      "SILVER": 115
+      "DIAMOND": 860
     },
     "translation": {
       "description": "Earn points from challenges in the 2022 Seasonal group",
@@ -5956,16 +5306,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Challenjour '22",
     "percentiles": {
-      "BRONZE": 0.147,
-      "MASTER": 0,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.049,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.013,
-      "IRON": 0.182,
-      "GOLD": 0.08,
+      "SILVER": 0.119,
+      "CHALLENGER": 0,
+      "PLATINUM": 0.047,
+      "IRON": 0.174,
+      "BRONZE": 0.141,
+      "MASTER": 0,
       "NONE": 1,
-      "SILVER": 0.125
+      "GOLD": 0.077,
+      "DIAMOND": 0.012
     }
   },
   {
@@ -5973,15 +5323,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 47,
-      "MASTER": 20,
-      "PLATINUM": 10,
       "GRANDMASTER": 32,
-      "DIAMOND": 15,
+      "CHALLENGER": 47,
+      "SILVER": 3,
+      "PLATINUM": 10,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 20,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Earn an S- grade or higher on different champions in ARAM",
@@ -6006,24 +5356,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "MASTER": 0.01,
-      "GRANDMASTER": 0.003,
-      "CHALLENGER": 0.001,
-      "SILVER": 0.064,
-      "IRON": 0.1,
-      "DIAMOND": 0.017,
       "NONE": 1,
-      "GOLD": 0.049,
-      "PLATINUM": 0.028,
-      "BRONZE": 0.077
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0.002,
+      "DIAMOND": 0.016,
+      "BRONZE": 0.073,
+      "GOLD": 0.047,
+      "IRON": 0.095,
+      "SILVER": 0.062,
+      "MASTER": 0.01,
+      "PLATINUM": 0.027
     },
     "leaderboardThresholds": [
       162,
       1,
       47,
-      7901,
+      7904,
       32,
-      39500
+      39514
     ]
   },
   {
@@ -6031,15 +5381,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 132,
-      "MASTER": 15,
-      "PLATINUM": 9,
       "GRANDMASTER": 56,
-      "DIAMOND": 12,
+      "CHALLENGER": 132,
+      "SILVER": 5,
+      "PLATINUM": 9,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 15,
       "GOLD": 7,
-      "SILVER": 5
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Win games queued as Fill role",
@@ -6072,24 +5422,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.046,
-      "MASTER": 0.018,
-      "CHALLENGER": 0.001,
-      "PLATINUM": 0.025,
+      "PLATINUM": 0.024,
+      "IRON": 0.069,
+      "GOLD": 0.028,
+      "MASTER": 0.017,
       "GRANDMASTER": 0.004,
-      "DIAMOND": 0.021,
-      "IRON": 0.072,
-      "GOLD": 0.03,
-      "NONE": 1,
-      "SILVER": 0.036
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.044,
+      "SILVER": 0.034,
+      "DIAMOND": 0.02,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       1170,
       1,
       132,
-      13530,
+      13536,
       56,
-      67642
+      67672
     ]
   },
   {
@@ -6097,15 +5447,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 25,
-      "CHALLENGER": 1875,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 754,
-      "DIAMOND": 125,
+      "CHALLENGER": 1875,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Place useful Control Wards. Useful wards are any wards placed outside of your base.",
@@ -6138,24 +5488,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.067,
-      "BRONZE": 0.121,
-      "GOLD": 0.084,
-      "IRON": 0.151,
-      "GRANDMASTER": 0.015,
-      "SILVER": 0.098,
+      "SILVER": 0.093,
       "CHALLENGER": 0.003,
-      "MASTER": 0.061,
-      "PLATINUM": 0.075
+      "DIAMOND": 0.064,
+      "MASTER": 0.059,
+      "PLATINUM": 0.071,
+      "GOLD": 0.081,
+      "GRANDMASTER": 0.015,
+      "BRONZE": 0.115,
+      "IRON": 0.144,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       19696,
       1,
       1875,
-      46905,
+      46936,
       754,
-      234520
+      234673
     ]
   },
   {
@@ -6163,15 +5513,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 25,
-      "CHALLENGER": 1883,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 888,
-      "DIAMOND": 125,
+      "CHALLENGER": 1883,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Destroy turrets",
@@ -6204,24 +5554,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.186,
-      "MASTER": 0.107,
-      "PLATINUM": 0.125,
+      "PLATINUM": 0.119,
+      "IRON": 0.216,
+      "GOLD": 0.131,
+      "MASTER": 0.102,
+      "GRANDMASTER": 0.026,
       "CHALLENGER": 0.005,
-      "DIAMOND": 0.115,
-      "IRON": 0.226,
-      "GRANDMASTER": 0.027,
-      "GOLD": 0.137,
-      "NONE": 1,
-      "SILVER": 0.155
+      "BRONZE": 0.178,
+      "SILVER": 0.148,
+      "DIAMOND": 0.11,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       14099,
       1,
       1883,
-      81607,
+      81651,
       888,
-      408031
+      408250
     ]
   },
   {
@@ -6229,15 +5579,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 300,
-      "CHALLENGER": 22774,
-      "MASTER": 2000,
+      "GRANDMASTER": 10645,
+      "CHALLENGER": 22776,
+      "SILVER": 600,
       "PLATINUM": 1200,
-      "GRANDMASTER": 10644,
-      "DIAMOND": 1500,
+      "BRONZE": 300,
       "IRON": 100,
+      "MASTER": 2000,
       "GOLD": 900,
-      "SILVER": 600
+      "DIAMOND": 1500
     },
     "translation": {
       "description": "Immobilize enemy champions",
@@ -6270,24 +5620,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.106,
-      "BRONZE": 0.172,
-      "GOLD": 0.127,
-      "IRON": 0.217,
-      "GRANDMASTER": 0.023,
-      "SILVER": 0.144,
-      "CHALLENGER": 0.005,
-      "MASTER": 0.093,
-      "PLATINUM": 0.115
+      "PLATINUM": 0.11,
+      "IRON": 0.207,
+      "GOLD": 0.121,
+      "MASTER": 0.089,
+      "GRANDMASTER": 0.022,
+      "CHALLENGER": 0.004,
+      "BRONZE": 0.165,
+      "SILVER": 0.137,
+      "DIAMOND": 0.101,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       289350,
       1,
-      22774,
-      71494,
-      10644,
-      357462
+      22776,
+      71533,
+      10645,
+      357658
     ]
   },
   {
@@ -6295,15 +5645,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 4131,
-      "MASTER": 500,
-      "PLATINUM": 200,
       "GRANDMASTER": 1817,
-      "DIAMOND": 300,
+      "CHALLENGER": 4131,
+      "SILVER": 50,
+      "PLATINUM": 200,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 500,
       "GOLD": 100,
-      "SILVER": 50
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Kill jungle monsters in the enemy jungle",
@@ -6336,24 +5686,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.165,
-      "MASTER": 0.053,
+      "SILVER": 0.139,
       "CHALLENGER": 0.003,
-      "PLATINUM": 0.089,
+      "DIAMOND": 0.069,
+      "MASTER": 0.05,
+      "PLATINUM": 0.085,
+      "GOLD": 0.112,
       "GRANDMASTER": 0.013,
-      "DIAMOND": 0.073,
-      "IRON": 0.204,
-      "GOLD": 0.117,
-      "NONE": 1,
-      "SILVER": 0.145
+      "BRONZE": 0.158,
+      "IRON": 0.195,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       66814,
       1,
       4131,
-      40217,
+      40242,
       1817,
-      201078
+      201203
     ]
   },
   {
@@ -6361,15 +5711,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 48,
-      "MASTER": 10,
-      "PLATINUM": 5,
       "GRANDMASTER": 22,
-      "DIAMOND": 7,
+      "CHALLENGER": 48,
+      "SILVER": 3,
+      "PLATINUM": 5,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 10,
       "GOLD": 4,
-      "SILVER": 3
+      "DIAMOND": 7
     },
     "translation": {
       "description": "Get wins with the same group of 5 players",
@@ -6401,24 +5751,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
+      "PLATINUM": 0.019,
+      "IRON": 0.107,
+      "GOLD": 0.028,
       "MASTER": 0.006,
       "GRANDMASTER": 0.001,
       "CHALLENGER": 0,
-      "SILVER": 0.05,
-      "IRON": 0.112,
-      "DIAMOND": 0.011,
-      "NONE": 1,
-      "GOLD": 0.029,
-      "PLATINUM": 0.019,
-      "BRONZE": 0.079
+      "BRONZE": 0.075,
+      "SILVER": 0.047,
+      "DIAMOND": 0.01,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       274,
       1,
       48,
-      4553,
+      4555,
       22,
-      22757
+      22768
     ]
   },
   {
@@ -6426,15 +5776,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 18,
-      "MASTER": 10,
-      "PLATINUM": 5,
       "GRANDMASTER": 13,
-      "DIAMOND": 7,
+      "CHALLENGER": 18,
+      "SILVER": 3,
+      "PLATINUM": 5,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 10,
       "GOLD": 4,
-      "SILVER": 3
+      "DIAMOND": 7
     },
     "translation": {
       "description": "Get First Bloods",
@@ -6469,16 +5819,16 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.116,
-      "BRONZE": 0.179,
-      "GOLD": 0.143,
-      "IRON": 0.22,
-      "GRANDMASTER": 0,
-      "SILVER": 0.158,
+      "SILVER": 0.151,
       "CHALLENGER": 0,
-      "MASTER": 0.099,
-      "PLATINUM": 0.132
+      "DIAMOND": 0.111,
+      "MASTER": 0.095,
+      "PLATINUM": 0.127,
+      "GOLD": 0.137,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.171,
+      "IRON": 0.21,
+      "NONE": 1
     }
   },
   {
@@ -6486,15 +5836,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 716,
-      "MASTER": 50,
-      "PLATINUM": 20,
       "GRANDMASTER": 229,
-      "DIAMOND": 35,
+      "CHALLENGER": 716,
+      "SILVER": 10,
+      "PLATINUM": 20,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 50,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 35
     },
     "translation": {
       "description": "Save an ally who would have otherwise taken lethal damage with a heal or shield",
@@ -6527,24 +5877,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.13,
-      "MASTER": 0.052,
-      "CHALLENGER": 0.003,
-      "PLATINUM": 0.084,
-      "GRANDMASTER": 0.013,
-      "DIAMOND": 0.064,
-      "IRON": 0.185,
-      "GOLD": 0.094,
-      "NONE": 1,
-      "SILVER": 0.107
+      "SILVER": 0.103,
+      "CHALLENGER": 0.002,
+      "DIAMOND": 0.061,
+      "MASTER": 0.049,
+      "PLATINUM": 0.08,
+      "GOLD": 0.09,
+      "GRANDMASTER": 0.012,
+      "BRONZE": 0.124,
+      "IRON": 0.177,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       17877,
       1,
       716,
-      39466,
+      39490,
       229,
-      197322
+      197443
     ]
   },
   {
@@ -6552,13 +5902,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 10,
+      "SILVER": 3,
       "PLATINUM": 5,
-      "DIAMOND": 7,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 10,
       "GOLD": 4,
-      "SILVER": 3
+      "DIAMOND": 7
     },
     "translation": {
       "description": "Play with the same team in different Clash tournaments",
@@ -6577,16 +5927,16 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.033,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0.001,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0.004,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.001,
-      "DIAMOND": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0.004,
+      "IRON": 0.032,
+      "NONE": 1
     }
   },
   {
@@ -6594,13 +5944,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Demolition group",
@@ -6621,15 +5971,15 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Demolisher",
     "percentiles": {
-      "SILVER": 0.132,
+      "SILVER": 0.129,
       "CHALLENGER": 0,
-      "DIAMOND": 0.005,
+      "DIAMOND": 0.006,
       "MASTER": 0,
-      "PLATINUM": 0.024,
-      "GRANDMASTER": 0,
+      "PLATINUM": 0.025,
       "GOLD": 0.056,
-      "BRONZE": 0.202,
-      "IRON": 0.245,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.198,
+      "IRON": 0.24,
       "NONE": 1
     }
   },
@@ -6638,15 +5988,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 162,
-      "MASTER": 20,
-      "PLATINUM": 12,
       "GRANDMASTER": 65,
-      "DIAMOND": 15,
+      "CHALLENGER": 162,
+      "SILVER": 6,
+      "PLATINUM": 12,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 20,
       "GOLD": 9,
-      "SILVER": 6
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Get 12 or more assists without dying",
@@ -6680,24 +6030,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.1,
-      "MASTER": 0.029,
-      "CHALLENGER": 0.001,
-      "PLATINUM": 0.044,
       "GRANDMASTER": 0.007,
-      "DIAMOND": 0.037,
-      "IRON": 0.155,
-      "GOLD": 0.054,
+      "IRON": 0.148,
       "NONE": 1,
-      "SILVER": 0.07
+      "MASTER": 0.027,
+      "SILVER": 0.067,
+      "DIAMOND": 0.035,
+      "PLATINUM": 0.042,
+      "BRONZE": 0.095,
+      "GOLD": 0.052,
+      "CHALLENGER": 0.001
     },
     "leaderboardThresholds": [
       1415,
       1,
       162,
-      21878,
+      21893,
       65,
-      109386
+      109461
     ]
   },
   {
@@ -6705,15 +6055,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 600,
-      "MASTER": 400,
-      "PLATINUM": 105,
       "GRANDMASTER": 500,
-      "DIAMOND": 225,
+      "CHALLENGER": 600,
+      "SILVER": 20,
+      "PLATINUM": 105,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 400,
       "GOLD": 35,
-      "SILVER": 20
+      "DIAMOND": 225
     },
     "translation": {
       "description": "Participate in taking 2 turrets with the same Rift Herald",
@@ -6746,15 +6096,15 @@ let challengeData = [
     "parent": "302200",
     "parentCategory": "4",
     "percentiles": {
-      "SILVER": 0.041,
+      "SILVER": 0.039,
       "CHALLENGER": 0,
       "DIAMOND": 0,
       "MASTER": 0,
       "PLATINUM": 0.001,
+      "GOLD": 0.017,
       "GRANDMASTER": 0,
-      "GOLD": 0.018,
-      "BRONZE": 0.115,
-      "IRON": 0.224,
+      "BRONZE": 0.11,
+      "IRON": 0.215,
       "NONE": 1
     },
     "leaderboardThresholds": [
@@ -6762,7 +6112,7 @@ let challengeData = [
       1,
       587,
       2,
-      487,
+      489,
       4
     ]
   },
@@ -6771,9 +6121,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 2,
       "CHALLENGER": 6,
-      "MASTER": 1,
-      "GRANDMASTER": 2
+      "MASTER": 1
     },
     "translation": {
       "description": "Destroy the first turret in under 10 minutes",
@@ -6806,24 +6156,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0.018,
       "SILVER": 0,
       "CHALLENGER": 0.004,
-      "MASTER": 0.073,
-      "PLATINUM": 0
+      "DIAMOND": 0,
+      "MASTER": 0.07,
+      "PLATINUM": 0,
+      "GOLD": 0,
+      "GRANDMASTER": 0.018,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       248,
       1,
       6,
-      55757,
+      55785,
       2,
-      278780
+      278920
     ]
   },
   {
@@ -6831,15 +6181,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
+      "GRANDMASTER": 267,
       "CHALLENGER": 450,
-      "MASTER": 150,
+      "SILVER": 7,
       "PLATINUM": 45,
-      "GRANDMASTER": 264,
-      "DIAMOND": 90,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 20,
-      "SILVER": 7
+      "DIAMOND": 90
     },
     "translation": {
       "description": "Destroy turrets before Turret Plates fall.",
@@ -6873,24 +6223,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Lumberjack",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.025,
-      "BRONZE": 0.218,
-      "GOLD": 0.098,
-      "IRON": 0.294,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.162,
-      "CHALLENGER": 0,
+      "SILVER": 0.159,
+      "CHALLENGER": 0.001,
+      "DIAMOND": 0.026,
       "MASTER": 0.011,
-      "PLATINUM": 0.055
+      "PLATINUM": 0.055,
+      "GOLD": 0.098,
+      "GRANDMASTER": 0.003,
+      "BRONZE": 0.215,
+      "IRON": 0.289,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3670,
+      3758,
       1,
       449,
-      6827,
-      264,
-      40561
+      8169,
+      267,
+      44688
     ]
   },
   {
@@ -6898,15 +6248,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 182,
-      "MASTER": 15,
-      "PLATINUM": 9,
       "GRANDMASTER": 81,
-      "DIAMOND": 12,
+      "CHALLENGER": 182,
+      "SILVER": 3,
+      "PLATINUM": 9,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 15,
       "GOLD": 6,
-      "SILVER": 3
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Earn a three or more level lead over your role opponent at any point in the game",
@@ -6940,24 +6290,24 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "GOLD": 0.147,
-      "NONE": 1,
-      "BRONZE": 0.203,
-      "MASTER": 0.103,
+      "GRANDMASTER": 0.025,
+      "SILVER": 0.174,
       "CHALLENGER": 0.005,
-      "IRON": 0.241,
-      "PLATINUM": 0.127,
-      "DIAMOND": 0.114,
-      "GRANDMASTER": 0.026,
-      "SILVER": 0.182
+      "PLATINUM": 0.122,
+      "IRON": 0.23,
+      "BRONZE": 0.194,
+      "MASTER": 0.098,
+      "NONE": 1,
+      "GOLD": 0.141,
+      "DIAMOND": 0.109
     },
     "leaderboardThresholds": [
       1391,
       1,
       182,
-      78678,
+      78720,
       81,
-      393384
+      393593
     ]
   },
   {
@@ -6965,15 +6315,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 226,
-      "MASTER": 120,
+      "GRANDMASTER": 170,
+      "CHALLENGER": 237,
+      "SILVER": 5,
       "PLATINUM": 40,
-      "GRANDMASTER": 168,
-      "DIAMOND": 70,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 120,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 70
     },
     "translation": {
       "description": "Destroy the first turret in under 10 minutes",
@@ -7006,24 +6356,24 @@ let challengeData = [
     "parent": "302200",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0.1,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.01,
-      "NONE": 1,
       "PLATINUM": 0,
-      "BRONZE": 0.046,
-      "CHALLENGER": 0,
+      "IRON": 0.101,
       "GOLD": 0.002,
-      "DIAMOND": 0
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.047,
+      "SILVER": 0.011,
+      "DIAMOND": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      288,
+      332,
       1,
-      226,
+      237,
       3,
-      168,
-      8
+      170,
+      10
     ]
   },
   {
@@ -7066,16 +6416,16 @@ let challengeData = [
     "parent": "2023000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.128,
       "CHALLENGER": 0,
-      "PLATINUM": 0,
       "GRANDMASTER": 0,
-      "DIAMOND": 0,
+      "PLATINUM": 0,
       "IRON": 0,
-      "GOLD": 0,
+      "SILVER": 0,
       "NONE": 1,
-      "SILVER": 0
+      "BRONZE": 0,
+      "DIAMOND": 0,
+      "MASTER": 0.123,
+      "GOLD": 0
     }
   },
   {
@@ -7083,13 +6433,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 135,
-      "MASTER": 25,
+      "GRANDMASTER": 62,
+      "CHALLENGER": 140,
+      "SILVER": 1,
       "PLATINUM": 9,
-      "GRANDMASTER": 61,
-      "DIAMOND": 15,
+      "MASTER": 25,
       "GOLD": 4,
-      "SILVER": 1
+      "DIAMOND": 15
     },
     "translation": {
       "description": "As jungler, get 70 CS from jungle monsters before 10 minutes",
@@ -7122,24 +6472,24 @@ let challengeData = [
     "parent": "203400",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.003,
+      "SILVER": 0.061,
       "CHALLENGER": 0,
-      "PLATINUM": 0.011,
-      "GRANDMASTER": 0.001,
       "DIAMOND": 0.007,
+      "MASTER": 0.004,
+      "PLATINUM": 0.012,
+      "GOLD": 0.024,
+      "GRANDMASTER": 0.001,
+      "BRONZE": 0,
       "IRON": 0,
-      "GOLD": 0.023,
-      "NONE": 1,
-      "SILVER": 0.059
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1359,
+      1494,
       1,
-      135,
-      2676,
-      61,
-      13375
+      140,
+      3136,
+      62,
+      15673
     ]
   },
   {
@@ -7147,13 +6497,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 85,
-      "MASTER": 1850,
+      "SILVER": 140,
       "PLATINUM": 590,
-      "DIAMOND": 1075,
+      "BRONZE": 85,
       "IRON": 40,
+      "MASTER": 1850,
       "GOLD": 360,
-      "SILVER": 140
+      "DIAMOND": 1075
     },
     "translation": {
       "description": "Earn points from challenges in the ARAM Warrior, ARAM Finesse, and ARAM Champion groups",
@@ -7174,16 +6524,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "ARAM God",
     "percentiles": {
-      "BRONZE": 0.172,
+      "PLATINUM": 0.067,
+      "IRON": 0.199,
+      "GOLD": 0.101,
       "MASTER": 0.004,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.066,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.026,
-      "IRON": 0.201,
-      "GOLD": 0.102,
-      "NONE": 1,
-      "SILVER": 0.149
+      "CHALLENGER": 0,
+      "BRONZE": 0.171,
+      "SILVER": 0.147,
+      "DIAMOND": 0.027,
+      "NONE": 1
     }
   },
   {
@@ -7191,15 +6541,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 16,
-      "CHALLENGER": 2866,
-      "MASTER": 1200,
+      "GRANDMASTER": 1874,
+      "CHALLENGER": 2909,
+      "SILVER": 40,
       "PLATINUM": 360,
-      "GRANDMASTER": 1853,
-      "DIAMOND": 600,
+      "BRONZE": 16,
       "IRON": 4,
+      "MASTER": 1200,
       "GOLD": 120,
-      "SILVER": 40
+      "DIAMOND": 600
     },
     "translation": {
       "description": "Take buff jungle monsters from the enemy jungle",
@@ -7233,24 +6583,24 @@ let challengeData = [
     "parent": "203400",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.218,
-      "GRANDMASTER": 0,
-      "MASTER": 0.001,
-      "SILVER": 0.1,
-      "NONE": 1,
-      "PLATINUM": 0.013,
-      "BRONZE": 0.146,
+      "SILVER": 0.099,
       "CHALLENGER": 0,
+      "DIAMOND": 0.005,
+      "MASTER": 0.001,
+      "PLATINUM": 0.013,
       "GOLD": 0.049,
-      "DIAMOND": 0.005
+      "GRANDMASTER": 0,
+      "BRONZE": 0.144,
+      "IRON": 0.214,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       15170,
       1,
-      2866,
-      616,
-      1853,
-      3075
+      2909,
+      733,
+      1874,
+      3657
     ]
   },
   {
@@ -7258,15 +6608,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 703,
-      "MASTER": 300,
+      "GRANDMASTER": 453,
+      "CHALLENGER": 709,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "GRANDMASTER": 452,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Assist in taking the first dragon before 8 minutes",
@@ -7302,22 +6652,22 @@ let challengeData = [
     "percentiles": {
       "SILVER": 0.117,
       "CHALLENGER": 0,
-      "DIAMOND": 0.006,
+      "DIAMOND": 0.007,
       "MASTER": 0.001,
-      "PLATINUM": 0.022,
+      "PLATINUM": 0.024,
+      "GOLD": 0.072,
       "GRANDMASTER": 0,
-      "GOLD": 0.071,
-      "BRONZE": 0.153,
-      "IRON": 0.25,
+      "BRONZE": 0.152,
+      "IRON": 0.247,
       "NONE": 1
     },
     "leaderboardThresholds": [
-      3139,
+      3348,
       1,
-      703,
-      639,
-      452,
-      3190
+      709,
+      794,
+      453,
+      3963
     ]
   },
   {
@@ -7325,13 +6675,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 30,
-      "MASTER": 725,
+      "SILVER": 55,
       "PLATINUM": 240,
-      "DIAMOND": 430,
+      "BRONZE": 30,
       "IRON": 15,
+      "MASTER": 725,
       "GOLD": 150,
-      "SILVER": 55
+      "DIAMOND": 430
     },
     "translation": {
       "description": "Earn points from challenges in the Predator group",
@@ -7352,16 +6702,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Predator",
     "percentiles": {
-      "IRON": 0.21,
+      "CHALLENGER": 0,
       "GRANDMASTER": 0,
-      "MASTER": 0,
+      "PLATINUM": 0.018,
+      "IRON": 0.208,
       "SILVER": 0.12,
       "NONE": 1,
-      "PLATINUM": 0.017,
-      "BRONZE": 0.167,
-      "CHALLENGER": 0,
-      "GOLD": 0.041,
-      "DIAMOND": 0.003
+      "BRONZE": 0.166,
+      "DIAMOND": 0.004,
+      "MASTER": 0,
+      "GOLD": 0.042
     }
   },
   {
@@ -7369,12 +6719,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 28,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 13,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 28,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As jungler, at 10 minutes, take more of the opponent's jungle than they have",
@@ -7408,24 +6758,24 @@ let challengeData = [
     "parent": "203400",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0.001,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0.007,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0.003,
+      "MASTER": 0.001,
+      "PLATINUM": 0.007,
       "GOLD": 0.041,
-      "DIAMOND": 0.003
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       416,
       1,
       27,
-      418,
+      453,
       13,
-      4095
+      4264
     ]
   },
   {
@@ -7433,15 +6783,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 8,
-      "CHALLENGER": 832,
-      "MASTER": 328,
+      "GRANDMASTER": 551,
+      "CHALLENGER": 869,
+      "SILVER": 18,
       "PLATINUM": 98,
-      "GRANDMASTER": 537,
-      "DIAMOND": 208,
+      "BRONZE": 8,
       "IRON": 3,
+      "MASTER": 328,
       "GOLD": 38,
-      "SILVER": 18
+      "DIAMOND": 208
     },
     "translation": {
       "description": "Secure Epic Monsters with the enemy jungler nearby. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -7474,24 +6824,24 @@ let challengeData = [
     "parent": "203400",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0.134,
-      "MASTER": 0.003,
       "CHALLENGER": 0,
-      "PLATINUM": 0.023,
       "GRANDMASTER": 0.001,
-      "DIAMOND": 0.007,
-      "IRON": 0.185,
-      "GOLD": 0.059,
+      "PLATINUM": 0.025,
+      "IRON": 0.184,
+      "SILVER": 0.096,
       "NONE": 1,
-      "SILVER": 0.094
+      "BRONZE": 0.134,
+      "DIAMOND": 0.008,
+      "MASTER": 0.003,
+      "GOLD": 0.061
     },
     "leaderboardThresholds": [
-      4494,
+      4679,
       1,
-      832,
-      2023,
-      537,
-      10108
+      869,
+      2574,
+      551,
+      12864
     ]
   },
   {
@@ -7499,15 +6849,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 4,
-      "CHALLENGER": 575,
-      "MASTER": 250,
+      "GRANDMASTER": 383,
+      "CHALLENGER": 588,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "GRANDMASTER": 381,
-      "DIAMOND": 150,
+      "BRONZE": 4,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 150
     },
     "translation": {
       "description": "As jungler, take both of the initial two scuttle crab spawns",
@@ -7542,24 +6892,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Crab Wrangler",
     "percentiles": {
+      "PLATINUM": 0.01,
+      "IRON": 0.17,
+      "GOLD": 0.034,
       "MASTER": 0.001,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
+      "BRONZE": 0.1,
       "SILVER": 0.064,
-      "IRON": 0.172,
       "DIAMOND": 0.003,
-      "NONE": 1,
-      "GOLD": 0.033,
-      "PLATINUM": 0.01,
-      "BRONZE": 0.1
+      "NONE": 1
     },
     "leaderboardThresholds": [
       2375,
       1,
-      575,
-      552,
-      381,
-      2753
+      588,
+      650,
+      383,
+      3243
     ]
   },
   {
@@ -7567,15 +6917,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 353,
-      "MASTER": 100,
+      "GRANDMASTER": 192,
+      "CHALLENGER": 357,
+      "SILVER": 5,
       "PLATINUM": 25,
-      "GRANDMASTER": 190,
-      "DIAMOND": 60,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 100,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 60
     },
     "translation": {
       "description": "As jungler, take three of the first four buff camps",
@@ -7613,20 +6963,20 @@ let challengeData = [
       "CHALLENGER": 0,
       "DIAMOND": 0.003,
       "MASTER": 0.001,
-      "PLATINUM": 0.011,
+      "PLATINUM": 0.012,
+      "GOLD": 0.031,
       "GRANDMASTER": 0,
-      "GOLD": 0.03,
       "BRONZE": 0.095,
-      "IRON": 0.137,
+      "IRON": 0.136,
       "NONE": 1
     },
     "leaderboardThresholds": [
-      1852,
+      2006,
       1,
-      353,
-      958,
-      190,
-      4784
+      357,
+      1083,
+      192,
+      5409
     ]
   },
   {
@@ -7668,16 +7018,16 @@ let challengeData = [
     "parent": "301200",
     "parentCategory": "4",
     "percentiles": {
+      "GRANDMASTER": 0,
+      "SILVER": 0,
+      "CHALLENGER": 0,
+      "PLATINUM": 0.193,
+      "IRON": 0,
       "BRONZE": 0,
       "MASTER": 0,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.194,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0,
-      "IRON": 0,
-      "GOLD": 0,
       "NONE": 1,
-      "SILVER": 0
+      "GOLD": 0,
+      "DIAMOND": 0
     }
   },
   {
@@ -7685,11 +7035,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 18,
+      "SILVER": 1,
       "PLATINUM": 5,
-      "DIAMOND": 12,
+      "MASTER": 18,
       "GOLD": 3,
-      "SILVER": 1
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Take Elder Dragons while your opponent has the Dragon Soul",
@@ -7724,16 +7074,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Incendiary",
     "percentiles": {
-      "GOLD": 0.101,
-      "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0.012,
+      "SILVER": 0.17,
       "CHALLENGER": 0,
-      "IRON": 0,
-      "PLATINUM": 0.071,
-      "DIAMOND": 0.026,
+      "DIAMOND": 0.029,
+      "MASTER": 0.014,
+      "PLATINUM": 0.073,
+      "GOLD": 0.102,
       "GRANDMASTER": 0,
-      "SILVER": 0.171
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -7741,10 +7091,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 6,
       "PLATINUM": 2,
-      "DIAMOND": 3,
-      "GOLD": 1
+      "MASTER": 6,
+      "GOLD": 1,
+      "DIAMOND": 3
     },
     "translation": {
       "description": "Steal two Epic Monsters in one game. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -7779,16 +7129,16 @@ let challengeData = [
     "parent": "203400",
     "parentCategory": "2",
     "percentiles": {
+      "PLATINUM": 0.018,
+      "IRON": 0,
+      "GOLD": 0.043,
       "MASTER": 0.002,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
+      "BRONZE": 0,
       "SILVER": 0,
-      "IRON": 0,
       "DIAMOND": 0.009,
-      "NONE": 1,
-      "GOLD": 0.041,
-      "PLATINUM": 0.016,
-      "BRONZE": 0
+      "NONE": 1
     }
   },
   {
@@ -7796,15 +7146,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 336,
-      "MASTER": 120,
+      "GRANDMASTER": 205,
+      "CHALLENGER": 342,
+      "SILVER": 5,
       "PLATINUM": 35,
-      "GRANDMASTER": 203,
-      "DIAMOND": 70,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 120,
       "GOLD": 15,
-      "SILVER": 5
+      "DIAMOND": 70
     },
     "translation": {
       "description": "As jungler, get kills on the enemy jungler in their own jungle before 10 minutes",
@@ -7838,24 +7188,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Invader",
     "percentiles": {
-      "BRONZE": 0.102,
+      "PLATINUM": 0.01,
+      "IRON": 0.137,
+      "GOLD": 0.027,
       "MASTER": 0.001,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.009,
       "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.102,
+      "SILVER": 0.063,
       "DIAMOND": 0.003,
-      "IRON": 0.138,
-      "GOLD": 0.026,
-      "NONE": 1,
-      "SILVER": 0.062
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      2238,
+      2518,
       1,
-      336,
-      674,
-      203,
-      3364
+      342,
+      788,
+      205,
+      3936
     ]
   },
   {
@@ -7863,12 +7213,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
+      "SILVER": 25,
+      "PLATINUM": 135,
       "BRONZE": 5,
       "MASTER": 350,
-      "PLATINUM": 135,
-      "DIAMOND": 220,
       "GOLD": 65,
-      "SILVER": 25
+      "DIAMOND": 220
     },
     "translation": {
       "description": "Earn points from challenges in the Steadfast group",
@@ -7889,16 +7239,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Courageous",
     "percentiles": {
-      "IRON": 0.001,
-      "GRANDMASTER": 0,
-      "MASTER": 0.017,
-      "SILVER": 0.259,
-      "NONE": 1,
-      "PLATINUM": 0.111,
-      "BRONZE": 0.3,
+      "SILVER": 0.256,
       "CHALLENGER": 0,
-      "GOLD": 0.184,
-      "DIAMOND": 0.062
+      "DIAMOND": 0.064,
+      "MASTER": 0.019,
+      "PLATINUM": 0.111,
+      "GOLD": 0.182,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.296,
+      "IRON": 0.001,
+      "NONE": 1
     }
   },
   {
@@ -7906,10 +7256,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 7,
       "PLATINUM": 2,
-      "DIAMOND": 4,
-      "GOLD": 1
+      "MASTER": 7,
+      "GOLD": 1,
+      "DIAMOND": 4
     },
     "translation": {
       "description": "Win games with an open nexus",
@@ -7944,16 +7294,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Comeback Kid",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.085,
-      "BRONZE": 0,
-      "GOLD": 0.184,
+      "PLATINUM": 0.128,
       "IRON": 0,
+      "GOLD": 0.182,
+      "MASTER": 0.055,
       "GRANDMASTER": 0,
-      "SILVER": 0,
       "CHALLENGER": 0,
-      "MASTER": 0.054,
-      "PLATINUM": 0.129
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0.086,
+      "NONE": 1
     }
   },
   {
@@ -7961,12 +7311,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
+      "SILVER": 3,
+      "PLATINUM": 15,
       "BRONZE": 1,
       "MASTER": 75,
-      "PLATINUM": 15,
-      "DIAMOND": 45,
       "GOLD": 7,
-      "SILVER": 3
+      "DIAMOND": 45
     },
     "translation": {
       "description": "Win games after losing an inhibitor",
@@ -8001,16 +7351,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Uninhibited",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.035,
-      "BRONZE": 0.271,
-      "GOLD": 0.136,
-      "IRON": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0.187,
-      "CHALLENGER": 0,
-      "MASTER": 0.014,
-      "PLATINUM": 0.093
+      "IRON": 0,
+      "NONE": 1,
+      "MASTER": 0.015,
+      "SILVER": 0.185,
+      "DIAMOND": 0.036,
+      "PLATINUM": 0.093,
+      "BRONZE": 0.267,
+      "GOLD": 0.134,
+      "CHALLENGER": 0
     }
   },
   {
@@ -8018,11 +7368,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 12,
+      "SILVER": 1,
       "PLATINUM": 4,
-      "DIAMOND": 8,
+      "MASTER": 12,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 8
     },
     "translation": {
       "description": "Win games after being down 15 kills",
@@ -8057,16 +7407,16 @@ let challengeData = [
     "parent": "301200",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.019,
+      "SILVER": 0.172,
       "CHALLENGER": 0,
-      "PLATINUM": 0.071,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0.035,
-      "IRON": 0,
+      "DIAMOND": 0.036,
+      "MASTER": 0.02,
+      "PLATINUM": 0.072,
       "GOLD": 0.116,
-      "NONE": 1,
-      "SILVER": 0.174
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -8074,15 +7424,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 70,
-      "MASTER": 50,
-      "PLATINUM": 25,
       "GRANDMASTER": 60,
-      "DIAMOND": 40,
+      "CHALLENGER": 70,
+      "SILVER": 8,
+      "PLATINUM": 25,
+      "BRONZE": 5,
       "IRON": 3,
+      "MASTER": 50,
       "GOLD": 15,
-      "SILVER": 8
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Win Clash brackets",
@@ -8101,16 +7451,16 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0,
+      "PLATINUM": 0,
       "IRON": 0,
-      "GRANDMASTER": 0,
-      "SILVER": 0,
-      "CHALLENGER": 0,
+      "GOLD": 0,
       "MASTER": 0,
-      "PLATINUM": 0
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       0,
@@ -8126,15 +7476,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 53,
-      "MASTER": 7,
-      "PLATINUM": 5,
       "GRANDMASTER": 27,
-      "DIAMOND": 6,
+      "CHALLENGER": 53,
+      "SILVER": 3,
+      "PLATINUM": 5,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 7,
       "GOLD": 4,
-      "SILVER": 3
+      "DIAMOND": 6
     },
     "translation": {
       "description": "Claim Dragon Souls without the enemy team taking a single dragon on Summoner's Rift.",
@@ -8168,24 +7518,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.128,
-      "MASTER": 0.074,
-      "PLATINUM": 0.088,
+      "SILVER": 0.105,
       "CHALLENGER": 0.004,
-      "DIAMOND": 0.081,
-      "IRON": 0.162,
-      "GRANDMASTER": 0.019,
-      "GOLD": 0.098,
-      "NONE": 1,
-      "SILVER": 0.11
+      "DIAMOND": 0.077,
+      "MASTER": 0.071,
+      "PLATINUM": 0.084,
+      "GOLD": 0.094,
+      "GRANDMASTER": 0.018,
+      "BRONZE": 0.123,
+      "IRON": 0.155,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       600,
       1,
       53,
-      56873,
+      56902,
       27,
-      284357
+      284503
     ]
   },
   {
@@ -8193,15 +7543,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 237,
-      "MASTER": 100,
-      "PLATINUM": 60,
       "GRANDMASTER": 159,
-      "DIAMOND": 80,
+      "CHALLENGER": 237,
+      "SILVER": 20,
+      "PLATINUM": 60,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 100,
       "GOLD": 40,
-      "SILVER": 20
+      "DIAMOND": 80
     },
     "translation": {
       "description": "Get wins with a premade party of two in a ranked queue",
@@ -8223,24 +7573,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.004,
-      "BRONZE": 0.041,
+      "PLATINUM": 0.006,
+      "IRON": 0.056,
       "GOLD": 0.012,
-      "IRON": 0.058,
-      "GRANDMASTER": 0.001,
-      "SILVER": 0.025,
-      "CHALLENGER": 0,
       "MASTER": 0.002,
-      "PLATINUM": 0.007
+      "GRANDMASTER": 0.001,
+      "CHALLENGER": 0,
+      "BRONZE": 0.04,
+      "SILVER": 0.024,
+      "DIAMOND": 0.004,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       896,
       1,
       237,
-      1777,
+      1778,
       159,
-      8881
+      8885
     ]
   },
   {
@@ -8248,10 +7598,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 9,
-      "MASTER": 3,
-      "PLATINUM": 1,
       "GRANDMASTER": 5,
+      "CHALLENGER": 9,
+      "PLATINUM": 1,
+      "MASTER": 3,
       "DIAMOND": 2
     },
     "translation": {
@@ -8286,24 +7636,24 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0,
       "GRANDMASTER": 0.001,
+      "IRON": 0,
+      "NONE": 1,
       "MASTER": 0.005,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0.032,
+      "DIAMOND": 0.011,
+      "PLATINUM": 0.031,
       "BRONZE": 0,
-      "CHALLENGER": 0,
       "GOLD": 0,
-      "DIAMOND": 0.011
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       2939,
       1,
       9,
-      3987,
+      3990,
       5,
-      19930
+      19945
     ]
   },
   {
@@ -8311,15 +7661,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 8,
-      "CHALLENGER": 234,
-      "MASTER": 90,
-      "PLATINUM": 40,
       "GRANDMASTER": 149,
-      "DIAMOND": 60,
+      "CHALLENGER": 234,
+      "SILVER": 15,
+      "PLATINUM": 40,
+      "BRONZE": 8,
       "IRON": 3,
+      "MASTER": 90,
       "GOLD": 25,
-      "SILVER": 15
+      "DIAMOND": 60
     },
     "translation": {
       "description": "Get 12 or more assists without dying on Summoner's Rift.",
@@ -8353,38 +7703,82 @@ let challengeData = [
     "parent": "2022000",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.002,
-      "BRONZE": 0.032,
-      "GOLD": 0.01,
-      "IRON": 0.065,
-      "GRANDMASTER": 0,
-      "SILVER": 0.018,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.005,
+      "IRON": 0.062,
+      "GOLD": 0.009,
       "MASTER": 0.001,
-      "PLATINUM": 0.005
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.031,
+      "SILVER": 0.017,
+      "DIAMOND": 0.002,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       1351,
       1,
       234,
-      780,
+      781,
       149,
-      3895
+      3898
     ]
+  },
+  {
+    "id": 121001,
+    "state": "ENABLED",
+    "leaderboard": false,
+    "thresholds": {
+      "GRANDMASTER": 80,
+      "CHALLENGER": 125,
+      "SILVER": 6,
+      "PLATINUM": 15,
+      "BRONZE": 3,
+      "IRON": 1,
+      "MASTER": 50,
+      "GOLD": 10,
+      "DIAMOND": 30
+    },
+    "translation": {
+      "description": "Win Co-Op vs. AI (Intermediate) games without dying",
+      "name": "Get Bo(t)died",
+      "shortDescription": "Win games without dying"
+    },
+    "reversed": false,
+    "queueIds": [
+      890
+    ],
+    "tags": {
+      "parent": "121000",
+      "source": "EOGD",
+      "leaderboardManuallyEnabled": true
+    },
+    "parent": "121000",
+    "parentCategory": "1",
+    "percentiles": {
+      "PLATINUM": 0,
+      "IRON": 0,
+      "GOLD": 0,
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
+    }
   },
   {
     "id": 505007,
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 40,
+      "SILVER": 5,
       "PLATINUM": 20,
-      "DIAMOND": 30,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 40,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Obtain tank champions",
@@ -8404,16 +7798,60 @@ let challengeData = [
     "parent": "505000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.125,
-      "BRONZE": 0.403,
-      "GOLD": 0.263,
-      "IRON": 0.523,
+      "PLATINUM": 0.163,
+      "IRON": 0.518,
+      "GOLD": 0.256,
+      "MASTER": 0.084,
       "GRANDMASTER": 0,
-      "SILVER": 0.358,
       "CHALLENGER": 0,
-      "MASTER": 0.087,
-      "PLATINUM": 0.168
+      "BRONZE": 0.394,
+      "SILVER": 0.349,
+      "DIAMOND": 0.121,
+      "NONE": 1
+    }
+  },
+  {
+    "id": 121000,
+    "state": "ENABLED",
+    "leaderboard": false,
+    "thresholds": {
+      "SILVER": 45,
+      "PLATINUM": 120,
+      "BRONZE": 30,
+      "IRON": 15,
+      "MASTER": 300,
+      "GOLD": 75,
+      "DIAMOND": 180
+    },
+    "translation": {
+      "description": "Earn points from challenges in the Glorious Evolution group",
+      "name": "Glorious Evolution",
+      "shortDescription": "Earn points from challenges in the Glorious Evolution group"
+    },
+    "reversed": false,
+    "queueIds": [
+      
+    ],
+    "tags": {
+      "isCapstone": "Y",
+      "parent": "1",
+      "source": "CHALLENGES",
+      "leaderboardManuallyEnabled": true
+    },
+    "parent": "1",
+    "parentCategory": "0",
+    "title": "Turing Tested",
+    "percentiles": {
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
+      "SILVER": 0,
+      "NONE": 1,
+      "BRONZE": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "GOLD": 0
     }
   },
   {
@@ -8421,13 +7859,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 30,
+      "SILVER": 5,
       "PLATINUM": 15,
-      "DIAMOND": 20,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Obtain support champions",
@@ -8447,16 +7885,60 @@ let challengeData = [
     "parent": "505000",
     "parentCategory": "5",
     "percentiles": {
-      "GOLD": 0.216,
-      "NONE": 1,
-      "BRONZE": 0.398,
-      "MASTER": 0.093,
+      "SILVER": 0.315,
       "CHALLENGER": 0,
-      "IRON": 0.529,
-      "PLATINUM": 0.171,
-      "DIAMOND": 0.141,
+      "DIAMOND": 0.137,
+      "MASTER": 0.09,
+      "PLATINUM": 0.166,
+      "GOLD": 0.21,
       "GRANDMASTER": 0,
-      "SILVER": 0.322
+      "BRONZE": 0.389,
+      "IRON": 0.523,
+      "NONE": 1
+    }
+  },
+  {
+    "id": 121003,
+    "state": "ENABLED",
+    "leaderboard": false,
+    "thresholds": {
+      "GRANDMASTER": 35,
+      "CHALLENGER": 60,
+      "SILVER": 3,
+      "PLATINUM": 8,
+      "BRONZE": 2,
+      "IRON": 1,
+      "MASTER": 20,
+      "GOLD": 5,
+      "DIAMOND": 12
+    },
+    "translation": {
+      "description": "Destroy all three inhibitors in under 25 minutes in Co-Op vs. AI (Intermediate) games",
+      "name": "That'll Machine Learn You",
+      "shortDescription": "Destroy all 3 inhibitors in under 25 minutes"
+    },
+    "reversed": false,
+    "queueIds": [
+      890
+    ],
+    "tags": {
+      "parent": "121000",
+      "source": "EOGD",
+      "leaderboardManuallyEnabled": true
+    },
+    "parent": "121000",
+    "parentCategory": "1",
+    "percentiles": {
+      "SILVER": 0,
+      "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
+      "GOLD": 0,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -8464,13 +7946,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 30,
+      "SILVER": 5,
       "PLATINUM": 15,
-      "DIAMOND": 20,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Obtain marksman champions",
@@ -8491,15 +7973,59 @@ let challengeData = [
     "parentCategory": "5",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.129,
-      "BRONZE": 0.414,
-      "GOLD": 0.214,
-      "IRON": 0.571,
-      "GRANDMASTER": 0,
-      "SILVER": 0.329,
       "CHALLENGER": 0,
-      "MASTER": 0.063,
-      "PLATINUM": 0.164
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.126,
+      "BRONZE": 0.405,
+      "GOLD": 0.209,
+      "IRON": 0.563,
+      "SILVER": 0.322,
+      "MASTER": 0.064,
+      "PLATINUM": 0.16
+    }
+  },
+  {
+    "id": 121002,
+    "state": "ENABLED",
+    "leaderboard": false,
+    "thresholds": {
+      "GRANDMASTER": 150,
+      "CHALLENGER": 250,
+      "SILVER": 5,
+      "PLATINUM": 25,
+      "BRONZE": 2,
+      "IRON": 1,
+      "MASTER": 90,
+      "GOLD": 12,
+      "DIAMOND": 50
+    },
+    "translation": {
+      "description": "Kill the enemy jungler in their jungle before 10 min in Co-Op vs. AI (Intermediate) Games",
+      "name": "Error 410: Jungler Gone",
+      "shortDescription": "Kill the enemy jungler in their jungle before 10 min"
+    },
+    "reversed": false,
+    "queueIds": [
+      890
+    ],
+    "tags": {
+      "parent": "121000",
+      "source": "EOGD",
+      "leaderboardManuallyEnabled": true
+    },
+    "parent": "121000",
+    "parentCategory": "1",
+    "percentiles": {
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
+      "SILVER": 0,
+      "NONE": 1,
+      "BRONZE": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "GOLD": 0
     }
   },
   {
@@ -8507,13 +8033,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 65,
+      "SILVER": 12,
       "PLATINUM": 25,
-      "DIAMOND": 45,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 65,
       "GOLD": 18,
-      "SILVER": 12
+      "DIAMOND": 45
     },
     "translation": {
       "description": "Obtain mage champions",
@@ -8533,16 +8059,16 @@ let challengeData = [
     "parent": "505000",
     "parentCategory": "5",
     "percentiles": {
-      "IRON": 0.564,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.252,
-      "NONE": 1,
-      "PLATINUM": 0.17,
-      "BRONZE": 0.387,
+      "SILVER": 0.245,
       "CHALLENGER": 0,
-      "GOLD": 0.202,
-      "DIAMOND": 0.109
+      "DIAMOND": 0.106,
+      "MASTER": 0,
+      "PLATINUM": 0.164,
+      "GOLD": 0.195,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.379,
+      "IRON": 0.561,
+      "NONE": 1
     }
   },
   {
@@ -8550,13 +8076,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 70,
+      "SILVER": 12,
       "PLATINUM": 30,
-      "DIAMOND": 50,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 70,
       "GOLD": 20,
-      "SILVER": 12
+      "DIAMOND": 50
     },
     "translation": {
       "description": "Obtain fighter champions",
@@ -8576,16 +8102,16 @@ let challengeData = [
     "parent": "505000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.115,
-      "BRONZE": 0.41,
-      "GOLD": 0.219,
-      "IRON": 0.589,
-      "GRANDMASTER": 0,
-      "SILVER": 0.305,
+      "SILVER": 0.297,
       "CHALLENGER": 0,
-      "MASTER": 0.061,
-      "PLATINUM": 0.171
+      "DIAMOND": 0.112,
+      "MASTER": 0.06,
+      "PLATINUM": 0.166,
+      "GOLD": 0.213,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.401,
+      "IRON": 0.585,
+      "NONE": 1
     }
   },
   {
@@ -8593,13 +8119,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 45,
+      "SILVER": 10,
       "PLATINUM": 25,
-      "DIAMOND": 35,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 45,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 35
     },
     "translation": {
       "description": "Obtain assassin champions",
@@ -8619,16 +8145,16 @@ let challengeData = [
     "parent": "505000",
     "parentCategory": "5",
     "percentiles": {
-      "GOLD": 0.193,
-      "NONE": 1,
-      "BRONZE": 0.347,
-      "MASTER": 0,
+      "SILVER": 0.236,
       "CHALLENGER": 0,
-      "IRON": 0.548,
-      "PLATINUM": 0.139,
-      "DIAMOND": 0.095,
+      "DIAMOND": 0.093,
+      "MASTER": 0,
+      "PLATINUM": 0.135,
+      "GOLD": 0.188,
       "GRANDMASTER": 0,
-      "SILVER": 0.242
+      "BRONZE": 0.339,
+      "IRON": 0.542,
+      "NONE": 1
     }
   },
   {
@@ -8636,13 +8162,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 150,
+      "SILVER": 50,
       "PLATINUM": 100,
-      "DIAMOND": 125,
+      "BRONZE": 25,
       "IRON": 5,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Obtain champions",
@@ -8662,16 +8188,16 @@ let challengeData = [
     "parent": "505000",
     "parentCategory": "5",
     "percentiles": {
-      "MASTER": 0.075,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0.202,
-      "IRON": 0.489,
-      "DIAMOND": 0.101,
       "NONE": 1,
-      "GOLD": 0.16,
-      "PLATINUM": 0.129,
-      "BRONZE": 0.309
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.099,
+      "BRONZE": 0.301,
+      "GOLD": 0.155,
+      "IRON": 0.481,
+      "SILVER": 0.196,
+      "MASTER": 0.073,
+      "PLATINUM": 0.125
     }
   },
   {
@@ -8679,13 +8205,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 35,
-      "MASTER": 550,
+      "SILVER": 55,
       "PLATINUM": 185,
-      "DIAMOND": 340,
+      "BRONZE": 35,
       "IRON": 20,
+      "MASTER": 550,
       "GOLD": 115,
-      "SILVER": 55
+      "DIAMOND": 340
     },
     "translation": {
       "description": "Earn points from challenges in the Champion group",
@@ -8706,16 +8232,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Collector",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.119,
-      "BRONZE": 0.465,
-      "GOLD": 0.233,
-      "IRON": 0.521,
       "GRANDMASTER": 0,
-      "SILVER": 0.396,
-      "CHALLENGER": 0,
-      "MASTER": 0.065,
-      "PLATINUM": 0.178
+      "IRON": 0.515,
+      "NONE": 1,
+      "MASTER": 0.064,
+      "SILVER": 0.387,
+      "DIAMOND": 0.116,
+      "PLATINUM": 0.173,
+      "BRONZE": 0.456,
+      "GOLD": 0.227,
+      "CHALLENGER": 0
     }
   },
   {
@@ -8723,15 +8249,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 5000,
-      "MASTER": 1000,
-      "PLATINUM": 300,
       "GRANDMASTER": 2500,
-      "DIAMOND": 600,
+      "CHALLENGER": 5000,
+      "SILVER": 60,
+      "PLATINUM": 300,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 1000,
       "GOLD": 150,
-      "SILVER": 60
+      "DIAMOND": 600
     },
     "translation": {
       "description": "Play Games on Summoner's Rift. Blind Pick, Draft and Ranked Modes count.",
@@ -8763,24 +8289,24 @@ let challengeData = [
     "parent": "402100",
     "parentCategory": "3",
     "percentiles": {
-      "MASTER": 0.019,
-      "GRANDMASTER": 0.001,
       "CHALLENGER": 0,
-      "SILVER": 0.168,
-      "IRON": 0.274,
-      "DIAMOND": 0.042,
+      "GRANDMASTER": 0.001,
+      "PLATINUM": 0.08,
+      "IRON": 0.27,
+      "SILVER": 0.166,
       "NONE": 1,
-      "GOLD": 0.117,
-      "PLATINUM": 0.079,
-      "BRONZE": 0.207
+      "BRONZE": 0.204,
+      "DIAMOND": 0.044,
+      "MASTER": 0.021,
+      "GOLD": 0.116
     },
     "leaderboardThresholds": [
-      10262,
+      11053,
       1,
-      4998,
-      229,
+      4997,
+      350,
       2499,
-      14892
+      19929
     ]
   },
   {
@@ -8788,14 +8314,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 295,
-      "MASTER": 125,
+      "GRANDMASTER": 200,
+      "CHALLENGER": 302,
+      "SILVER": 5,
       "PLATINUM": 25,
-      "GRANDMASTER": 197,
-      "DIAMOND": 65,
+      "BRONZE": 1,
+      "MASTER": 125,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 65
     },
     "translation": {
       "description": "Become Legendary (8-0 kill streak)",
@@ -8830,23 +8356,23 @@ let challengeData = [
     "parentCategory": "3",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.016,
-      "BRONZE": 0.235,
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0.001,
+      "DIAMOND": 0.017,
+      "BRONZE": 0.232,
       "GOLD": 0.097,
       "IRON": 0,
-      "GRANDMASTER": 0.001,
-      "SILVER": 0.135,
-      "CHALLENGER": 0,
-      "MASTER": 0.004,
-      "PLATINUM": 0.051
+      "SILVER": 0.134,
+      "MASTER": 0.005,
+      "PLATINUM": 0.052
     },
     "leaderboardThresholds": [
-      1489,
+      1494,
       1,
-      295,
-      3240,
-      197,
-      16194
+      302,
+      3783,
+      200,
+      18909
     ]
   },
   {
@@ -8854,15 +8380,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 40,
+      "GRANDMASTER": 840,
       "CHALLENGER": 900,
-      "MASTER": 725,
+      "SILVER": 60,
       "PLATINUM": 240,
-      "GRANDMASTER": 825,
-      "DIAMOND": 430,
+      "BRONZE": 40,
       "IRON": 20,
+      "MASTER": 725,
       "GOLD": 150,
-      "SILVER": 60
+      "DIAMOND": 430
     },
     "translation": {
       "description": "Earn points from challenges in the Executioner group",
@@ -8882,24 +8408,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Executioner",
     "percentiles": {
-      "MASTER": 0.006,
-      "GRANDMASTER": 0.002,
+      "SILVER": 0.203,
       "CHALLENGER": 0,
-      "SILVER": 0.206,
-      "IRON": 0.288,
-      "DIAMOND": 0.028,
-      "NONE": 1,
-      "GOLD": 0.118,
+      "DIAMOND": 0.029,
+      "MASTER": 0.007,
       "PLATINUM": 0.073,
-      "BRONZE": 0.24
+      "GOLD": 0.118,
+      "GRANDMASTER": 0.002,
+      "BRONZE": 0.237,
+      "IRON": 0.284,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       900,
       1,
       900,
-      4578,
-      825,
-      22882
+      5403,
+      840,
+      27008
     ]
   },
   {
@@ -8907,15 +8433,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 40,
-      "MASTER": 22,
-      "PLATINUM": 11,
       "GRANDMASTER": 30,
-      "DIAMOND": 16,
+      "CHALLENGER": 40,
+      "SILVER": 4,
+      "PLATINUM": 11,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 22,
       "GOLD": 7,
-      "SILVER": 4
+      "DIAMOND": 16
     },
     "translation": {
       "description": "Kill Epic Monsters within 30 seconds of them spawning. Epic Monsters include Dragons, Voidgrubs, the Rift Herald, and Baron Nashor.",
@@ -8948,16 +8474,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "SILVER": 0.019,
       "CHALLENGER": 0,
-      "DIAMOND": 0.003,
-      "MASTER": 0.001,
-      "PLATINUM": 0.005,
       "GRANDMASTER": 0,
-      "GOLD": 0.01,
-      "BRONZE": 0.035,
-      "IRON": 0.055,
-      "NONE": 1
+      "PLATINUM": 0.016,
+      "IRON": 0.082,
+      "SILVER": 0.04,
+      "NONE": 1,
+      "BRONZE": 0.06,
+      "DIAMOND": 0.01,
+      "MASTER": 0.007,
+      "GOLD": 0.025
     }
   },
   {
@@ -8965,15 +8491,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 15,
-      "CHALLENGER": 1500,
-      "MASTER": 500,
-      "PLATINUM": 150,
       "GRANDMASTER": 1000,
-      "DIAMOND": 300,
+      "CHALLENGER": 1500,
+      "SILVER": 30,
+      "PLATINUM": 150,
+      "BRONZE": 15,
       "IRON": 3,
+      "MASTER": 500,
       "GOLD": 75,
-      "SILVER": 30
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Win games of Ranked Solo/Duo or Ranked Flex",
@@ -8994,24 +8520,24 @@ let challengeData = [
     "parent": "402100",
     "parentCategory": "3",
     "percentiles": {
-      "BRONZE": 0.134,
-      "MASTER": 0.008,
-      "PLATINUM": 0.043,
+      "SILVER": 0.107,
       "CHALLENGER": 0,
-      "DIAMOND": 0.02,
-      "IRON": 0.188,
+      "DIAMOND": 0.021,
+      "MASTER": 0.009,
+      "PLATINUM": 0.044,
+      "GOLD": 0.071,
       "GRANDMASTER": 0.001,
-      "GOLD": 0.07,
-      "NONE": 1,
-      "SILVER": 0.108
+      "BRONZE": 0.133,
+      "IRON": 0.185,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      5161,
+      5544,
       1,
       1499,
-      2420,
+      3376,
       999,
-      15527
+      19909
     ]
   },
   {
@@ -9019,15 +8545,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 90,
-      "MASTER": 45,
-      "PLATINUM": 20,
       "GRANDMASTER": 65,
-      "DIAMOND": 30,
+      "CHALLENGER": 90,
+      "SILVER": 9,
+      "PLATINUM": 20,
+      "BRONZE": 5,
       "IRON": 2,
+      "MASTER": 45,
       "GOLD": 14,
-      "SILVER": 9
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Takedown Barons",
@@ -9061,16 +8587,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.008,
-      "BRONZE": 0.059,
-      "GOLD": 0.028,
-      "IRON": 0.084,
-      "GRANDMASTER": 0,
-      "SILVER": 0.041,
+      "SILVER": 0.069,
       "CHALLENGER": 0,
-      "MASTER": 0.003,
-      "PLATINUM": 0.017
+      "DIAMOND": 0.032,
+      "MASTER": 0.02,
+      "PLATINUM": 0.045,
+      "GOLD": 0.056,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.086,
+      "IRON": 0.111,
+      "NONE": 1
     }
   },
   {
@@ -9078,8 +8604,8 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 3,
       "PLATINUM": 1,
+      "MASTER": 3,
       "DIAMOND": 2
     },
     "translation": {
@@ -9113,16 +8639,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.002,
-      "PLATINUM": 0.023,
+      "SILVER": 0,
       "CHALLENGER": 0,
-      "DIAMOND": 0.007,
-      "IRON": 0,
-      "GRANDMASTER": 0,
+      "DIAMOND": 0.02,
+      "MASTER": 0.01,
+      "PLATINUM": 0.045,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -9130,15 +8656,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 100,
-      "MASTER": 55,
-      "PLATINUM": 25,
       "GRANDMASTER": 75,
-      "DIAMOND": 40,
+      "CHALLENGER": 100,
+      "SILVER": 9,
+      "PLATINUM": 25,
+      "BRONZE": 5,
       "IRON": 2,
+      "MASTER": 55,
       "GOLD": 15,
-      "SILVER": 9
+      "DIAMOND": 40
     },
     "translation": {
       "description": "End the game with 20% more vision score than your role opponent ",
@@ -9172,16 +8698,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.087,
       "GRANDMASTER": 0,
-      "MASTER": 0.002,
-      "SILVER": 0.044,
+      "IRON": 0.116,
       "NONE": 1,
-      "PLATINUM": 0.014,
-      "BRONZE": 0.062,
-      "CHALLENGER": 0,
-      "GOLD": 0.028,
-      "DIAMOND": 0.005
+      "MASTER": 0.017,
+      "SILVER": 0.072,
+      "DIAMOND": 0.026,
+      "PLATINUM": 0.04,
+      "BRONZE": 0.09,
+      "GOLD": 0.057,
+      "CHALLENGER": 0
     }
   },
   {
@@ -9189,15 +8715,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 50,
-      "MASTER": 25,
-      "PLATINUM": 12,
       "GRANDMASTER": 35,
-      "DIAMOND": 18,
+      "CHALLENGER": 50,
+      "SILVER": 4,
+      "PLATINUM": 12,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 25,
       "GOLD": 7,
-      "SILVER": 4
+      "DIAMOND": 18
     },
     "translation": {
       "description": "Earn an S- grade or higher on different champions in ARAM",
@@ -9224,16 +8750,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "MASTER": 0,
+      "PLATINUM": 0.017,
+      "IRON": 0.079,
+      "GOLD": 0.03,
+      "MASTER": 0.004,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "SILVER": 0.024,
-      "IRON": 0.057,
-      "DIAMOND": 0.001,
-      "NONE": 1,
-      "GOLD": 0.012,
-      "PLATINUM": 0.005,
-      "BRONZE": 0.04
+      "BRONZE": 0.061,
+      "SILVER": 0.044,
+      "DIAMOND": 0.009,
+      "NONE": 1
     }
   },
   {
@@ -9241,15 +8767,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 100,
-      "MASTER": 55,
-      "PLATINUM": 25,
       "GRANDMASTER": 75,
-      "DIAMOND": 40,
+      "CHALLENGER": 100,
+      "SILVER": 9,
+      "PLATINUM": 25,
+      "BRONZE": 5,
       "IRON": 2,
+      "MASTER": 55,
       "GOLD": 15,
-      "SILVER": 9
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Fully complete a support item quest (1000g) in less than 14 minutes",
@@ -9283,16 +8809,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.002,
-      "BRONZE": 0.022,
-      "GOLD": 0.008,
-      "IRON": 0.038,
-      "GRANDMASTER": 0,
-      "SILVER": 0.014,
+      "SILVER": 0.027,
       "CHALLENGER": 0,
-      "MASTER": 0.001,
-      "PLATINUM": 0.004
+      "DIAMOND": 0.007,
+      "MASTER": 0.005,
+      "PLATINUM": 0.012,
+      "GOLD": 0.019,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.039,
+      "IRON": 0.059,
+      "NONE": 1
     }
   },
   {
@@ -9300,15 +8826,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 90,
-      "MASTER": 40,
-      "PLATINUM": 15,
       "GRANDMASTER": 60,
-      "DIAMOND": 25,
+      "CHALLENGER": 90,
+      "SILVER": 6,
+      "PLATINUM": 15,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 40,
       "GOLD": 10,
-      "SILVER": 6
+      "DIAMOND": 25
     },
     "translation": {
       "description": "As jungler, take both of the initial two scuttle crab spawns",
@@ -9342,16 +8868,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.015,
-      "MASTER": 0,
       "CHALLENGER": 0,
-      "PLATINUM": 0.001,
       "GRANDMASTER": 0,
-      "DIAMOND": 0,
-      "IRON": 0.036,
-      "GOLD": 0.003,
+      "PLATINUM": 0.006,
+      "IRON": 0.056,
+      "SILVER": 0.017,
       "NONE": 1,
-      "SILVER": 0.007
+      "BRONZE": 0.029,
+      "DIAMOND": 0.003,
+      "MASTER": 0.001,
+      "GOLD": 0.01
     }
   },
   {
@@ -9359,15 +8885,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 200,
+      "GRANDMASTER": 21458,
       "CHALLENGER": 35000,
-      "MASTER": 15000,
+      "SILVER": 500,
       "PLATINUM": 3500,
-      "GRANDMASTER": 21154,
-      "DIAMOND": 6750,
+      "BRONZE": 200,
       "IRON": 50,
+      "MASTER": 15000,
       "GOLD": 1250,
-      "SILVER": 500
+      "DIAMOND": 6750
     },
     "translation": {
       "description": "Get Assists",
@@ -9401,24 +8927,24 @@ let challengeData = [
     "parent": "402100",
     "parentCategory": "3",
     "percentiles": {
-      "IRON": 0.281,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.003,
-      "SILVER": 0.157,
       "NONE": 1,
-      "PLATINUM": 0.056,
-      "BRONZE": 0.205,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.001,
+      "DIAMOND": 0.026,
+      "BRONZE": 0.202,
       "GOLD": 0.109,
-      "DIAMOND": 0.025
+      "IRON": 0.277,
+      "SILVER": 0.155,
+      "MASTER": 0.004,
+      "PLATINUM": 0.057
     },
     "leaderboardThresholds": [
-      114233,
+      124165,
       1,
-      34997,
-      904,
-      21154,
-      12443
+      34999,
+      1296,
+      21458,
+      15475
     ]
   },
   {
@@ -9426,13 +8952,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 40,
-      "MASTER": 650,
+      "SILVER": 60,
       "PLATINUM": 215,
-      "DIAMOND": 380,
+      "BRONZE": 40,
       "IRON": 20,
+      "MASTER": 650,
       "GOLD": 135,
-      "SILVER": 60
+      "DIAMOND": 380
     },
     "translation": {
       "description": "Earn points from challenges in the 2024 Seasonal: Split 1 group",
@@ -9453,16 +8979,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Voidborn",
     "percentiles": {
-      "BRONZE": 0.067,
+      "PLATINUM": 0.032,
+      "IRON": 0.125,
+      "GOLD": 0.05,
       "MASTER": 0,
-      "PLATINUM": 0.007,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.001,
-      "IRON": 0.092,
       "GRANDMASTER": 0,
-      "GOLD": 0.02,
-      "NONE": 1,
-      "SILVER": 0.051
+      "CHALLENGER": 0,
+      "BRONZE": 0.1,
+      "SILVER": 0.084,
+      "DIAMOND": 0.011,
+      "NONE": 1
     }
   },
   {
@@ -9470,13 +8996,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 150,
+      "SILVER": 7,
       "PLATINUM": 40,
-      "DIAMOND": 75,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 15,
-      "SILVER": 7
+      "DIAMOND": 75
     },
     "translation": {
       "description": "Get First Bloods",
@@ -9512,16 +9038,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Bloodthirsty",
     "percentiles": {
-      "GOLD": 0.113,
-      "NONE": 1,
-      "BRONZE": 0.207,
-      "MASTER": 0.009,
       "CHALLENGER": 0,
-      "IRON": 0.286,
-      "PLATINUM": 0.061,
-      "DIAMOND": 0.031,
       "GRANDMASTER": 0,
-      "SILVER": 0.156
+      "PLATINUM": 0.061,
+      "IRON": 0.282,
+      "SILVER": 0.155,
+      "NONE": 1,
+      "BRONZE": 0.205,
+      "DIAMOND": 0.032,
+      "MASTER": 0.01,
+      "GOLD": 0.113
     }
   },
   {
@@ -9529,13 +9055,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 7,
-      "MASTER": 85,
+      "SILVER": 16,
       "PLATINUM": 40,
-      "DIAMOND": 60,
+      "BRONZE": 7,
       "IRON": 3,
+      "MASTER": 85,
       "GOLD": 25,
-      "SILVER": 16
+      "DIAMOND": 60
     },
     "translation": {
       "description": "Win with different Legendary items",
@@ -9573,16 +9099,16 @@ let challengeData = [
     "parent": "2024100",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.104,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.048,
-      "NONE": 1,
-      "PLATINUM": 0.008,
-      "BRONZE": 0.081,
+      "SILVER": 0.076,
       "CHALLENGER": 0,
-      "GOLD": 0.027,
-      "DIAMOND": 0.001
+      "DIAMOND": 0.007,
+      "MASTER": 0,
+      "PLATINUM": 0.027,
+      "GOLD": 0.053,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.108,
+      "IRON": 0.134,
+      "NONE": 1
     }
   },
   {
@@ -9590,12 +9116,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
+      "SILVER": 2,
+      "PLATINUM": 5,
       "BRONZE": 1,
       "MASTER": 20,
-      "PLATINUM": 5,
-      "DIAMOND": 10,
       "GOLD": 3,
-      "SILVER": 2
+      "DIAMOND": 10
     },
     "translation": {
       "description": "Recall while unseen by a nearby enemy champion",
@@ -9629,16 +9155,16 @@ let challengeData = [
     "parent": "103100",
     "parentCategory": "1",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.019,
-      "BRONZE": 0.152,
-      "GOLD": 0.075,
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "SILVER": 0.1,
       "CHALLENGER": 0,
-      "MASTER": 0.004,
-      "PLATINUM": 0.047
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.048,
+      "IRON": 0,
+      "SILVER": 0.101,
+      "NONE": 1,
+      "BRONZE": 0.152,
+      "DIAMOND": 0.02,
+      "MASTER": 0.005,
+      "GOLD": 0.076
     }
   },
   {
@@ -9646,12 +9172,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 16,
-      "MASTER": 5,
-      "PLATINUM": 2,
       "GRANDMASTER": 9,
-      "DIAMOND": 3,
-      "GOLD": 1
+      "CHALLENGER": 17,
+      "PLATINUM": 2,
+      "MASTER": 5,
+      "GOLD": 1,
+      "DIAMOND": 3
     },
     "translation": {
       "description": "Get Pentakills",
@@ -9686,24 +9212,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Pentakiller",
     "percentiles": {
-      "IRON": 0,
       "GRANDMASTER": 0.002,
+      "IRON": 0,
+      "NONE": 1,
       "MASTER": 0.008,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0.032,
+      "DIAMOND": 0.019,
+      "PLATINUM": 0.033,
       "BRONZE": 0,
-      "CHALLENGER": 0,
-      "GOLD": 0.07,
-      "DIAMOND": 0.018
+      "GOLD": 0.069,
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       2939,
       1,
-      16,
-      5892,
+      17,
+      6387,
       9,
-      29452
+      31930
     ]
   },
   {
@@ -9711,13 +9237,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 175,
+      "SILVER": 25,
       "PLATINUM": 65,
-      "DIAMOND": 110,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 175,
       "GOLD": 45,
-      "SILVER": 25
+      "DIAMOND": 110
     },
     "translation": {
       "description": "Earn points from challenges in the Style group",
@@ -9738,16 +9264,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Stylish",
     "percentiles": {
-      "IRON": 0.25,
-      "GRANDMASTER": 0,
-      "MASTER": 0.006,
-      "SILVER": 0.156,
-      "NONE": 1,
-      "PLATINUM": 0.067,
-      "BRONZE": 0.223,
+      "SILVER": 0.154,
       "CHALLENGER": 0,
+      "DIAMOND": 0.021,
+      "MASTER": 0.006,
+      "PLATINUM": 0.067,
       "GOLD": 0.095,
-      "DIAMOND": 0.021
+      "GRANDMASTER": 0,
+      "BRONZE": 0.22,
+      "IRON": 0.246,
+      "NONE": 1
     }
   },
   {
@@ -9755,15 +9281,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 150,
+      "GRANDMASTER": 15248,
       "CHALLENGER": 25000,
-      "MASTER": 10000,
+      "SILVER": 350,
       "PLATINUM": 2000,
-      "GRANDMASTER": 15000,
-      "DIAMOND": 5000,
+      "BRONZE": 150,
       "IRON": 35,
+      "MASTER": 10000,
       "GOLD": 750,
-      "SILVER": 350
+      "DIAMOND": 5000
     },
     "translation": {
       "description": "Get Kills",
@@ -9797,24 +9323,24 @@ let challengeData = [
     "parent": "402100",
     "parentCategory": "3",
     "percentiles": {
-      "MASTER": 0.006,
+      "PLATINUM": 0.071,
+      "IRON": 0.284,
+      "GOLD": 0.122,
+      "MASTER": 0.007,
       "GRANDMASTER": 0.002,
       "CHALLENGER": 0,
-      "SILVER": 0.163,
-      "IRON": 0.289,
-      "DIAMOND": 0.027,
-      "NONE": 1,
-      "GOLD": 0.122,
-      "PLATINUM": 0.07,
-      "BRONZE": 0.209
+      "BRONZE": 0.206,
+      "SILVER": 0.161,
+      "DIAMOND": 0.029,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      73033,
+      80529,
       1,
       24999,
-      1920,
-      14999,
-      24436
+      2752,
+      15248,
+      29248
     ]
   },
   {
@@ -9856,16 +9382,16 @@ let challengeData = [
     "parent": "103100",
     "parentCategory": "1",
     "percentiles": {
+      "GRANDMASTER": 0,
+      "SILVER": 0.157,
+      "CHALLENGER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
       "BRONZE": 0,
       "MASTER": 0,
-      "PLATINUM": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "GOLD": 0,
       "NONE": 1,
-      "SILVER": 0.159
+      "GOLD": 0,
+      "DIAMOND": 0
     }
   },
   {
@@ -9873,15 +9399,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 12,
-      "CHALLENGER": 2002,
-      "MASTER": 720,
+      "GRANDMASTER": 1333,
+      "CHALLENGER": 2076,
+      "SILVER": 30,
       "PLATINUM": 200,
-      "GRANDMASTER": 1300,
-      "DIAMOND": 400,
+      "BRONZE": 12,
       "IRON": 3,
+      "MASTER": 720,
       "GOLD": 80,
-      "SILVER": 30
+      "DIAMOND": 400
     },
     "translation": {
       "description": "Get killing sprees (3 or more kills without dying)",
@@ -9914,24 +9440,24 @@ let challengeData = [
     "parent": "402100",
     "parentCategory": "3",
     "percentiles": {
-      "IRON": 0.297,
       "GRANDMASTER": 0.005,
-      "MASTER": 0.018,
-      "SILVER": 0.174,
+      "IRON": 0.293,
       "NONE": 1,
+      "MASTER": 0.02,
+      "SILVER": 0.172,
+      "DIAMOND": 0.043,
       "PLATINUM": 0.075,
-      "BRONZE": 0.223,
-      "CHALLENGER": 0.001,
+      "BRONZE": 0.22,
       "GOLD": 0.122,
-      "DIAMOND": 0.042
+      "CHALLENGER": 0.001
     },
     "leaderboardThresholds": [
-      7749,
+      8454,
       1,
-      2002,
-      14098,
-      1300,
-      70485
+      2076,
+      15830,
+      1333,
+      79146
     ]
   },
   {
@@ -9939,15 +9465,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 231,
-      "MASTER": 100,
+      "GRANDMASTER": 158,
+      "CHALLENGER": 234,
+      "SILVER": 5,
       "PLATINUM": 30,
-      "GRANDMASTER": 157,
-      "DIAMOND": 60,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 100,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 60
     },
     "translation": {
       "description": "Get takedowns within 5 seconds of gaining a level advantage in the first 10 minutes of a game",
@@ -9980,24 +9506,24 @@ let challengeData = [
     "parent": "103100",
     "parentCategory": "1",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.017,
-      "BRONZE": 0.177,
-      "GOLD": 0.09,
-      "IRON": 0.22,
-      "GRANDMASTER": 0.002,
-      "SILVER": 0.125,
+      "SILVER": 0.123,
       "CHALLENGER": 0,
+      "DIAMOND": 0.017,
       "MASTER": 0.006,
-      "PLATINUM": 0.041
+      "PLATINUM": 0.041,
+      "GOLD": 0.088,
+      "GRANDMASTER": 0.002,
+      "BRONZE": 0.174,
+      "IRON": 0.217,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      970,
+      991,
       1,
-      231,
-      4645,
-      157,
-      23217
+      234,
+      4909,
+      158,
+      24538
     ]
   },
   {
@@ -10005,15 +9531,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 16,
-      "CHALLENGER": 2570,
-      "MASTER": 960,
+      "GRANDMASTER": 1685,
+      "CHALLENGER": 2641,
+      "SILVER": 40,
       "PLATINUM": 300,
-      "GRANDMASTER": 1654,
-      "DIAMOND": 540,
+      "BRONZE": 16,
       "IRON": 4,
+      "MASTER": 960,
       "GOLD": 120,
-      "SILVER": 40
+      "DIAMOND": 540
     },
     "translation": {
       "description": "Get Multikills",
@@ -10046,24 +9572,24 @@ let challengeData = [
     "parent": "402100",
     "parentCategory": "3",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.029,
-      "BRONZE": 0.207,
-      "GOLD": 0.1,
-      "IRON": 0.279,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.158,
+      "SILVER": 0.156,
       "CHALLENGER": 0.001,
-      "MASTER": 0.011,
-      "PLATINUM": 0.054
+      "DIAMOND": 0.03,
+      "MASTER": 0.012,
+      "PLATINUM": 0.055,
+      "GOLD": 0.099,
+      "GRANDMASTER": 0.003,
+      "BRONZE": 0.204,
+      "IRON": 0.275,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       21365,
       1,
-      2570,
-      8608,
-      1654,
-      43034
+      2641,
+      9731,
+      1685,
+      48650
     ]
   },
   {
@@ -10071,15 +9597,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 150,
-      "MASTER": 50,
-      "PLATINUM": 25,
       "GRANDMASTER": 100,
-      "DIAMOND": 30,
+      "CHALLENGER": 150,
+      "SILVER": 10,
+      "PLATINUM": 25,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 50,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Win Co-Op vs AI Games",
@@ -10090,7 +9616,10 @@ let challengeData = [
     "queueIds": [
       830,
       840,
-      850
+      850,
+      870,
+      880,
+      890
     ],
     "tags": {
       "parent": "120000",
@@ -10100,16 +9629,16 @@ let challengeData = [
     "parent": "120000",
     "parentCategory": "1",
     "percentiles": {
-      "GOLD": 0.088,
-      "NONE": 1,
-      "BRONZE": 0.148,
-      "MASTER": 0.059,
+      "SILVER": 0.112,
       "CHALLENGER": 0,
-      "IRON": 0.287,
-      "PLATINUM": 0.071,
-      "DIAMOND": 0.068,
+      "DIAMOND": 0.069,
+      "MASTER": 0.06,
+      "PLATINUM": 0.072,
+      "GOLD": 0.089,
       "GRANDMASTER": 0,
-      "SILVER": 0.11
+      "BRONZE": 0.159,
+      "IRON": 0.301,
+      "NONE": 1
     }
   },
   {
@@ -10117,13 +9646,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Synchronicity group",
@@ -10144,16 +9673,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "In Sync",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.001,
-      "BRONZE": 0.148,
-      "GOLD": 0.047,
-      "IRON": 0.191,
-      "GRANDMASTER": 0,
       "SILVER": 0.095,
       "CHALLENGER": 0,
+      "DIAMOND": 0.002,
       "MASTER": 0,
-      "PLATINUM": 0.016
+      "PLATINUM": 0.017,
+      "GOLD": 0.048,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.146,
+      "IRON": 0.189,
+      "NONE": 1
     }
   },
   {
@@ -10161,13 +9690,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 30,
-      "MASTER": 300,
+      "SILVER": 45,
       "PLATINUM": 120,
-      "DIAMOND": 180,
+      "BRONZE": 30,
       "IRON": 15,
+      "MASTER": 300,
       "GOLD": 75,
-      "SILVER": 45
+      "DIAMOND": 180
     },
     "translation": {
       "description": "Earn points from challenges in the Machine-Hunting Mercenary group",
@@ -10188,16 +9717,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Bot Blaster",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.006,
-      "BRONZE": 0.101,
-      "GOLD": 0.069,
-      "IRON": 0.152,
-      "GRANDMASTER": 0,
-      "SILVER": 0.08,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.06,
+      "IRON": 0.163,
+      "SILVER": 0.081,
+      "NONE": 1,
+      "BRONZE": 0.103,
+      "DIAMOND": 0.006,
       "MASTER": 0,
-      "PLATINUM": 0.059
+      "GOLD": 0.07
     }
   },
   {
@@ -10205,15 +9734,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 25,
-      "CHALLENGER": 1500,
-      "MASTER": 500,
-      "PLATINUM": 150,
       "GRANDMASTER": 750,
-      "DIAMOND": 300,
+      "CHALLENGER": 1500,
+      "SILVER": 60,
+      "PLATINUM": 150,
+      "BRONZE": 25,
       "IRON": 5,
+      "MASTER": 500,
       "GOLD": 100,
-      "SILVER": 60
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Get wins with a premade party of two in a ranked queue",
@@ -10234,24 +9763,24 @@ let challengeData = [
     "parent": "303300",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0.058,
-      "MASTER": 0,
       "CHALLENGER": 0,
-      "PLATINUM": 0.008,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.002,
+      "PLATINUM": 0.009,
       "IRON": 0.112,
-      "GOLD": 0.016,
+      "SILVER": 0.03,
       "NONE": 1,
-      "SILVER": 0.029
+      "BRONZE": 0.058,
+      "DIAMOND": 0.002,
+      "MASTER": 0,
+      "GOLD": 0.016
     },
     "leaderboardThresholds": [
-      2326,
+      2465,
       1,
-      1488,
-      18,
+      1486,
+      27,
       749,
-      636
+      866
     ]
   },
   {
@@ -10259,13 +9788,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 150,
-      "MASTER": 7500,
+      "SILVER": 300,
       "PLATINUM": 2500,
-      "DIAMOND": 5000,
+      "BRONZE": 150,
       "IRON": 50,
+      "MASTER": 7500,
       "GOLD": 750,
-      "SILVER": 300
+      "DIAMOND": 5000
     },
     "translation": {
       "description": "Get Kills in Co-Op vs AI Games",
@@ -10276,7 +9805,10 @@ let challengeData = [
     "queueIds": [
       830,
       840,
-      850
+      850,
+      870,
+      880,
+      890
     ],
     "tags": {
       "parent": "120000",
@@ -10286,16 +9818,16 @@ let challengeData = [
     "parent": "120000",
     "parentCategory": "1",
     "percentiles": {
-      "BRONZE": 0.089,
-      "MASTER": 0.001,
+      "GRANDMASTER": 0,
+      "SILVER": 0.07,
       "CHALLENGER": 0,
       "PLATINUM": 0.01,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0.002,
-      "IRON": 0.144,
-      "GOLD": 0.046,
+      "IRON": 0.155,
+      "BRONZE": 0.091,
+      "MASTER": 0.001,
       "NONE": 1,
-      "SILVER": 0.069
+      "GOLD": 0.047,
+      "DIAMOND": 0.002
     }
   },
   {
@@ -10303,15 +9835,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 500,
-      "MASTER": 250,
-      "PLATINUM": 65,
       "GRANDMASTER": 350,
-      "DIAMOND": 125,
+      "CHALLENGER": 500,
+      "SILVER": 12,
+      "PLATINUM": 65,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 25,
-      "SILVER": 12
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Get wins with the same group of 5 players",
@@ -10343,24 +9875,24 @@ let challengeData = [
     "parent": "303300",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0.149,
+      "CHALLENGER": 0,
       "GRANDMASTER": 0,
-      "MASTER": 0,
+      "PLATINUM": 0,
+      "IRON": 0.147,
       "SILVER": 0.007,
       "NONE": 1,
-      "PLATINUM": 0,
       "BRONZE": 0.028,
-      "CHALLENGER": 0,
-      "GOLD": 0.002,
-      "DIAMOND": 0
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "GOLD": 0.002
     },
     "leaderboardThresholds": [
       0,
       0,
       387,
       1,
-      340,
-      6
+      339,
+      8
     ]
   },
   {
@@ -10368,13 +9900,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 100,
+      "SILVER": 10,
       "PLATINUM": 30,
-      "DIAMOND": 75,
+      "BRONZE": 5,
       "IRON": 3,
+      "MASTER": 100,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 75
     },
     "translation": {
       "description": "Win a Co-Op vs AI game with different champions",
@@ -10385,7 +9917,10 @@ let challengeData = [
     "queueIds": [
       830,
       840,
-      850
+      850,
+      870,
+      880,
+      890
     ],
     "tags": {
       "parent": "120000",
@@ -10396,16 +9931,16 @@ let challengeData = [
     "parent": "120000",
     "parentCategory": "1",
     "percentiles": {
-      "GOLD": 0.041,
-      "NONE": 1,
-      "BRONZE": 0.107,
-      "MASTER": 0.001,
-      "CHALLENGER": 0,
-      "IRON": 0.161,
       "PLATINUM": 0.015,
-      "DIAMOND": 0.002,
+      "IRON": 0.171,
+      "GOLD": 0.04,
+      "MASTER": 0.001,
       "GRANDMASTER": 0,
-      "SILVER": 0.058
+      "CHALLENGER": 0,
+      "BRONZE": 0.11,
+      "SILVER": 0.058,
+      "DIAMOND": 0.002,
+      "NONE": 1
     }
   },
   {
@@ -10413,15 +9948,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 25,
-      "CHALLENGER": 2248,
-      "MASTER": 1200,
+      "GRANDMASTER": 1694,
+      "CHALLENGER": 2298,
+      "SILVER": 75,
       "PLATINUM": 250,
-      "GRANDMASTER": 1672,
-      "DIAMOND": 600,
+      "BRONZE": 25,
       "IRON": 5,
+      "MASTER": 1200,
       "GOLD": 135,
-      "SILVER": 75
+      "DIAMOND": 600
     },
     "translation": {
       "description": "Play games with a premade group of any size",
@@ -10454,24 +9989,24 @@ let challengeData = [
     "parent": "303300",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.017,
-      "BRONZE": 0.156,
-      "GOLD": 0.077,
-      "IRON": 0.237,
-      "GRANDMASTER": 0.001,
       "SILVER": 0.103,
       "CHALLENGER": 0,
+      "DIAMOND": 0.018,
       "MASTER": 0.003,
-      "PLATINUM": 0.05
+      "PLATINUM": 0.051,
+      "GOLD": 0.077,
+      "GRANDMASTER": 0.001,
+      "BRONZE": 0.154,
+      "IRON": 0.234,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      5890,
+      6357,
       1,
-      2248,
-      2249,
-      1672,
-      11237
+      2298,
+      2731,
+      1694,
+      13648
     ]
   },
   {
@@ -10479,13 +10014,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 275,
+      "SILVER": 10,
       "PLATINUM": 80,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 275,
       "GOLD": 40,
-      "SILVER": 10
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Obtain emotes",
@@ -10505,15 +10040,15 @@ let challengeData = [
     "parentCategory": "5",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.053,
-      "BRONZE": 0.372,
-      "GOLD": 0.17,
-      "IRON": 0.636,
-      "GRANDMASTER": 0,
-      "SILVER": 0.291,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.053,
+      "BRONZE": 0.361,
+      "GOLD": 0.164,
+      "IRON": 0.632,
+      "SILVER": 0.282,
       "MASTER": 0.011,
-      "PLATINUM": 0.111
+      "PLATINUM": 0.108
     }
   },
   {
@@ -10521,13 +10056,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 60,
+      "SILVER": 5,
       "PLATINUM": 20,
-      "DIAMOND": 30,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 60,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Obtain ward skins",
@@ -10546,16 +10081,16 @@ let challengeData = [
     "parent": "504000",
     "parentCategory": "5",
     "percentiles": {
-      "BRONZE": 0.393,
-      "MASTER": 0.008,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.104,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0.059,
-      "IRON": 0.49,
-      "GOLD": 0.168,
       "NONE": 1,
-      "SILVER": 0.226
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.06,
+      "BRONZE": 0.392,
+      "GOLD": 0.163,
+      "IRON": 0.49,
+      "SILVER": 0.221,
+      "MASTER": 0.008,
+      "PLATINUM": 0.102
     }
   },
   {
@@ -10563,13 +10098,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 400,
+      "SILVER": 20,
       "PLATINUM": 100,
-      "DIAMOND": 200,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 400,
       "GOLD": 50,
-      "SILVER": 20
+      "DIAMOND": 200
     },
     "translation": {
       "description": "Obtain Summoner icons",
@@ -10589,16 +10124,16 @@ let challengeData = [
     "parentCategory": "5",
     "title": "Iconic",
     "percentiles": {
-      "GOLD": 0.169,
-      "NONE": 1,
-      "BRONZE": 0.32,
-      "MASTER": 0.006,
-      "CHALLENGER": 0,
-      "IRON": 0.463,
-      "PLATINUM": 0.106,
-      "DIAMOND": 0.041,
       "GRANDMASTER": 0,
-      "SILVER": 0.247
+      "IRON": 0.459,
+      "NONE": 1,
+      "MASTER": 0.006,
+      "SILVER": 0.243,
+      "DIAMOND": 0.041,
+      "PLATINUM": 0.105,
+      "BRONZE": 0.318,
+      "GOLD": 0.166,
+      "CHALLENGER": 0
     }
   },
   {
@@ -10606,13 +10141,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 40,
+      "SILVER": 3,
       "PLATINUM": 10,
-      "DIAMOND": 20,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 40,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Obtain Clash team logos",
@@ -10631,16 +10166,16 @@ let challengeData = [
     "parent": "504000",
     "parentCategory": "5",
     "percentiles": {
-      "IRON": 0.119,
-      "GRANDMASTER": 0,
-      "MASTER": 0.006,
-      "SILVER": 0.068,
-      "NONE": 1,
-      "PLATINUM": 0.034,
-      "BRONZE": 0.078,
       "CHALLENGER": 0,
-      "GOLD": 0.053,
-      "DIAMOND": 0.018
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.032,
+      "IRON": 0.115,
+      "SILVER": 0.066,
+      "NONE": 1,
+      "BRONZE": 0.075,
+      "DIAMOND": 0.017,
+      "MASTER": 0.006,
+      "GOLD": 0.051
     }
   },
   {
@@ -10648,13 +10183,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 325,
+      "SILVER": 35,
       "PLATINUM": 110,
-      "DIAMOND": 200,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 325,
       "GOLD": 70,
-      "SILVER": 35
+      "DIAMOND": 200
     },
     "translation": {
       "description": "Earn points from challenges in the Treasure group",
@@ -10675,16 +10210,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Treasurer",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.032,
-      "BRONZE": 0.35,
-      "GOLD": 0.157,
-      "IRON": 0.533,
-      "GRANDMASTER": 0,
-      "SILVER": 0.274,
+      "SILVER": 0.267,
       "CHALLENGER": 0,
+      "DIAMOND": 0.032,
       "MASTER": 0.003,
-      "PLATINUM": 0.102
+      "PLATINUM": 0.1,
+      "GOLD": 0.153,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.343,
+      "IRON": 0.534,
+      "NONE": 1
     }
   },
   {
@@ -10692,15 +10227,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3500,
-      "CHALLENGER": 8388756,
-      "MASTER": 5000000,
+      "GRANDMASTER": 6602411,
+      "CHALLENGER": 8426315,
+      "SILVER": 35000,
       "PLATINUM": 900000,
-      "GRANDMASTER": 6580601,
-      "DIAMOND": 2500000,
+      "BRONZE": 3500,
       "IRON": 1200,
+      "MASTER": 5000000,
       "GOLD": 220000,
-      "SILVER": 35000
+      "DIAMOND": 2500000
     },
     "translation": {
       "description": "Earn total Mastery Points",
@@ -10719,24 +10254,24 @@ let challengeData = [
     "parent": "401100",
     "parentCategory": "3",
     "percentiles": {
-      "BRONZE": 0.383,
-      "MASTER": 0.006,
-      "PLATINUM": 0.123,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.043,
-      "IRON": 0.412,
-      "GRANDMASTER": 0.002,
-      "GOLD": 0.202,
       "NONE": 1,
-      "SILVER": 0.29
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0.002,
+      "DIAMOND": 0.042,
+      "BRONZE": 0.376,
+      "GOLD": 0.196,
+      "IRON": 0.405,
+      "SILVER": 0.283,
+      "MASTER": 0.006,
+      "PLATINUM": 0.119
     },
     "leaderboardThresholds": [
-      21069510,
+      21528393,
       1,
-      8388756,
-      4713,
-      6580601,
-      23557
+      8426315,
+      4941,
+      6602411,
+      24698
     ]
   },
   {
@@ -10744,15 +10279,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1500,
-      "CHALLENGER": 2386371,
-      "MASTER": 840000,
+      "GRANDMASTER": 1438137,
+      "CHALLENGER": 2392784,
+      "SILVER": 9000,
       "PLATINUM": 110000,
-      "GRANDMASTER": 1434589,
-      "DIAMOND": 280000,
+      "BRONZE": 1500,
       "IRON": 850,
+      "MASTER": 840000,
       "GOLD": 38000,
-      "SILVER": 9000
+      "DIAMOND": 280000
     },
     "translation": {
       "description": "Earn Mastery Points on a single champion",
@@ -10771,24 +10306,24 @@ let challengeData = [
     "parent": "401100",
     "parentCategory": "3",
     "percentiles": {
-      "IRON": 0.41,
-      "GRANDMASTER": 0.002,
-      "MASTER": 0.006,
-      "SILVER": 0.29,
-      "NONE": 1,
-      "PLATINUM": 0.123,
-      "BRONZE": 0.382,
       "CHALLENGER": 0,
-      "GOLD": 0.203,
-      "DIAMOND": 0.047
+      "GRANDMASTER": 0.002,
+      "PLATINUM": 0.119,
+      "IRON": 0.404,
+      "SILVER": 0.283,
+      "NONE": 1,
+      "BRONZE": 0.375,
+      "DIAMOND": 0.046,
+      "MASTER": 0.006,
+      "GOLD": 0.198
     },
     "leaderboardThresholds": [
-      14743466,
+      14895850,
       1,
-      2386371,
-      4810,
-      1434589,
-      24045
+      2392784,
+      4960,
+      1438137,
+      24795
     ]
   },
   {
@@ -10796,15 +10331,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 690,
-      "MASTER": 475,
-      "PLATINUM": 160,
       "GRANDMASTER": 570,
-      "DIAMOND": 290,
+      "CHALLENGER": 690,
+      "SILVER": 45,
+      "PLATINUM": 160,
+      "BRONZE": 30,
       "IRON": 15,
+      "MASTER": 475,
       "GOLD": 100,
-      "SILVER": 45
+      "DIAMOND": 290
     },
     "translation": {
       "description": "Earn points from challenges in the Guru group",
@@ -10825,15 +10360,15 @@ let challengeData = [
     "title": "Guru",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.001,
-      "BRONZE": 0.28,
-      "GOLD": 0.09,
-      "IRON": 0.391,
-      "GRANDMASTER": 0,
-      "SILVER": 0.2,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.001,
+      "BRONZE": 0.273,
+      "GOLD": 0.088,
+      "IRON": 0.383,
+      "SILVER": 0.194,
       "MASTER": 0,
-      "PLATINUM": 0.023
+      "PLATINUM": 0.024
     },
     "leaderboardThresholds": [
       0,
@@ -10849,15 +10384,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 500,
-      "CHALLENGER": 115000,
-      "MASTER": 100000,
-      "PLATINUM": 10000,
       "GRANDMASTER": 107500,
-      "DIAMOND": 50000,
+      "CHALLENGER": 115000,
+      "SILVER": 1000,
+      "PLATINUM": 10000,
+      "BRONZE": 500,
       "IRON": 100,
+      "MASTER": 100000,
       "GOLD": 5000,
-      "SILVER": 1000
+      "DIAMOND": 50000
     },
     "translation": {
       "description": "Have 150 champions with at least a certain number of Mastery Points.",
@@ -10877,16 +10412,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Champ Master",
     "percentiles": {
+      "GRANDMASTER": 0,
+      "IRON": 0.045,
       "NONE": 1,
+      "MASTER": 0,
+      "SILVER": 0.016,
       "DIAMOND": 0,
+      "PLATINUM": 0,
       "BRONZE": 0.025,
       "GOLD": 0.001,
-      "IRON": 0.045,
-      "GRANDMASTER": 0,
-      "SILVER": 0.016,
-      "CHALLENGER": 0,
-      "MASTER": 0,
-      "PLATINUM": 0
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       0,
@@ -10902,13 +10437,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 150,
+      "SILVER": 50,
       "PLATINUM": 100,
-      "DIAMOND": 125,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Win a game with different champions",
@@ -10943,16 +10478,16 @@ let challengeData = [
     "parent": "401100",
     "parentCategory": "3",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.001,
-      "BRONZE": 0.083,
-      "GOLD": 0.015,
-      "IRON": 0.161,
-      "GRANDMASTER": 0,
-      "SILVER": 0.035,
+      "SILVER": 0.036,
       "CHALLENGER": 0,
+      "DIAMOND": 0.001,
       "MASTER": 0,
-      "PLATINUM": 0.005
+      "PLATINUM": 0.006,
+      "GOLD": 0.015,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.083,
+      "IRON": 0.159,
+      "NONE": 1
     }
   },
   {
@@ -10960,13 +10495,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 150,
+      "SILVER": 30,
       "PLATINUM": 75,
-      "DIAMOND": 100,
+      "BRONZE": 15,
       "IRON": 5,
+      "MASTER": 150,
       "GOLD": 50,
-      "SILVER": 30
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Earn Mastery 5 on different champions",
@@ -10986,16 +10521,16 @@ let challengeData = [
     "parent": "401100",
     "parentCategory": "3",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0.091,
-      "GOLD": 0.014,
-      "IRON": 0.155,
-      "GRANDMASTER": 0,
-      "SILVER": 0.043,
+      "SILVER": 0.042,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
       "MASTER": 0,
-      "PLATINUM": 0.003
+      "PLATINUM": 0.003,
+      "GOLD": 0.014,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.088,
+      "IRON": 0.151,
+      "NONE": 1
     }
   },
   {
@@ -11003,13 +10538,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 7,
-      "MASTER": 100,
+      "SILVER": 15,
       "PLATINUM": 40,
-      "DIAMOND": 60,
+      "BRONZE": 7,
       "IRON": 3,
+      "MASTER": 100,
       "GOLD": 25,
-      "SILVER": 15
+      "DIAMOND": 60
     },
     "translation": {
       "description": "Earn Mastery 7 on different champions",
@@ -11030,16 +10565,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Deep Diver",
     "percentiles": {
+      "GRANDMASTER": 0,
       "SILVER": 0.016,
       "CHALLENGER": 0,
-      "DIAMOND": 0,
-      "MASTER": 0,
       "PLATINUM": 0.001,
-      "GRANDMASTER": 0,
+      "IRON": 0.087,
+      "BRONZE": 0.045,
+      "MASTER": 0,
+      "NONE": 1,
       "GOLD": 0.005,
-      "BRONZE": 0.046,
-      "IRON": 0.089,
-      "NONE": 1
+      "DIAMOND": 0
     }
   },
   {
@@ -11047,13 +10582,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 400,
+      "SILVER": 40,
       "PLATINUM": 135,
-      "DIAMOND": 240,
+      "BRONZE": 25,
       "IRON": 15,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 40
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Earn points from challenges in the Synergy group",
@@ -11074,16 +10609,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Synergized",
     "percentiles": {
-      "MASTER": 0.005,
       "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0.191,
-      "IRON": 0.269,
-      "DIAMOND": 0.024,
+      "IRON": 0.265,
       "NONE": 1,
-      "GOLD": 0.12,
-      "PLATINUM": 0.069,
-      "BRONZE": 0.23
+      "MASTER": 0.006,
+      "SILVER": 0.188,
+      "DIAMOND": 0.025,
+      "PLATINUM": 0.07,
+      "BRONZE": 0.227,
+      "GOLD": 0.119,
+      "CHALLENGER": 0
     }
   },
   {
@@ -11091,15 +10626,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 32,
-      "CHALLENGER": 4417,
-      "MASTER": 1920,
+      "GRANDMASTER": 3075,
+      "CHALLENGER": 4557,
+      "SILVER": 64,
       "PLATINUM": 400,
-      "GRANDMASTER": 3015,
-      "DIAMOND": 1080,
+      "BRONZE": 32,
       "IRON": 8,
+      "MASTER": 1920,
       "GOLD": 160,
-      "SILVER": 64
+      "DIAMOND": 1080
     },
     "translation": {
       "description": "Take down champions after waiting in a brush with at least one ally for at least 3 seconds",
@@ -11133,24 +10668,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Fanatic",
     "percentiles": {
-      "IRON": 0.288,
+      "PLATINUM": 0.081,
+      "IRON": 0.283,
+      "GOLD": 0.127,
+      "MASTER": 0.011,
       "GRANDMASTER": 0.003,
-      "MASTER": 0.01,
-      "SILVER": 0.176,
-      "NONE": 1,
-      "PLATINUM": 0.08,
-      "BRONZE": 0.212,
       "CHALLENGER": 0.001,
-      "GOLD": 0.128,
-      "DIAMOND": 0.031
+      "BRONZE": 0.209,
+      "SILVER": 0.173,
+      "DIAMOND": 0.032,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      18850,
+      20518,
       1,
-      4417,
-      7802,
-      3015,
-      39004
+      4557,
+      9126,
+      3075,
+      45624
     ]
   },
   {
@@ -11158,15 +10693,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 220,
-      "CHALLENGER": 28910,
-      "MASTER": 13000,
+      "GRANDMASTER": 20709,
+      "CHALLENGER": 29929,
+      "SILVER": 660,
       "PLATINUM": 4125,
-      "GRANDMASTER": 20238,
-      "DIAMOND": 7500,
+      "BRONZE": 220,
       "IRON": 55,
+      "MASTER": 13000,
       "GOLD": 1320,
-      "SILVER": 660
+      "DIAMOND": 7500
     },
     "translation": {
       "description": "Get picks with at least one assisting ally. A pick is killing a single enemy without a return kill",
@@ -11199,24 +10734,24 @@ let challengeData = [
     "parent": "302300",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.032,
-      "BRONZE": 0.216,
+      "PLATINUM": 0.063,
+      "IRON": 0.288,
       "GOLD": 0.121,
-      "IRON": 0.293,
+      "MASTER": 0.013,
       "GRANDMASTER": 0.003,
-      "SILVER": 0.158,
       "CHALLENGER": 0.001,
-      "MASTER": 0.011,
-      "PLATINUM": 0.062
+      "BRONZE": 0.213,
+      "SILVER": 0.156,
+      "DIAMOND": 0.034,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      116832,
+      127108,
       1,
-      28910,
-      8773,
-      20238,
-      43860
+      29929,
+      10233,
+      20709,
+      51159
     ]
   },
   {
@@ -11224,15 +10759,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 20,
-      "CHALLENGER": 4042,
-      "MASTER": 1000,
+      "GRANDMASTER": 2106,
+      "CHALLENGER": 4161,
+      "SILVER": 50,
       "PLATINUM": 375,
-      "GRANDMASTER": 2076,
-      "DIAMOND": 675,
+      "BRONZE": 20,
       "IRON": 5,
+      "MASTER": 1000,
       "GOLD": 150,
-      "SILVER": 50
+      "DIAMOND": 675
     },
     "translation": {
       "description": "Save an ally who would have otherwise taken lethal damage with a heal or shield",
@@ -11266,24 +10801,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Guardian Angel",
     "percentiles": {
-      "IRON": 0.174,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.003,
-      "SILVER": 0.08,
-      "NONE": 1,
-      "PLATINUM": 0.014,
-      "BRONZE": 0.118,
       "CHALLENGER": 0,
-      "GOLD": 0.038,
-      "DIAMOND": 0.006
+      "GRANDMASTER": 0.001,
+      "PLATINUM": 0.015,
+      "IRON": 0.172,
+      "SILVER": 0.079,
+      "NONE": 1,
+      "BRONZE": 0.117,
+      "DIAMOND": 0.007,
+      "MASTER": 0.004,
+      "GOLD": 0.038
     },
     "leaderboardThresholds": [
-      27462,
+      30075,
       1,
-      4042,
-      2663,
-      2076,
-      13311
+      4161,
+      2967,
+      2106,
+      14827
     ]
   },
   {
@@ -11291,13 +10826,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 40,
-      "MASTER": 650,
+      "SILVER": 60,
       "PLATINUM": 210,
-      "DIAMOND": 375,
+      "BRONZE": 40,
       "IRON": 15,
+      "MASTER": 650,
       "GOLD": 130,
-      "SILVER": 60
+      "DIAMOND": 375
     },
     "translation": {
       "description": "Earn points from challenges in the Cornerstone and Visionary groups",
@@ -11318,16 +10853,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Mastermind",
     "percentiles": {
-      "GOLD": 0.082,
-      "NONE": 1,
-      "BRONZE": 0.181,
-      "MASTER": 0.001,
+      "SILVER": 0.141,
       "CHALLENGER": 0,
-      "IRON": 0.255,
-      "PLATINUM": 0.044,
-      "DIAMOND": 0.013,
+      "DIAMOND": 0.015,
+      "MASTER": 0.001,
+      "PLATINUM": 0.046,
+      "GOLD": 0.083,
       "GRANDMASTER": 0,
-      "SILVER": 0.142
+      "BRONZE": 0.179,
+      "IRON": 0.252,
+      "NONE": 1
     }
   },
   {
@@ -11335,15 +10870,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 120,
-      "CHALLENGER": 14925,
-      "MASTER": 7200,
+      "GRANDMASTER": 10722,
+      "CHALLENGER": 15308,
+      "SILVER": 300,
       "PLATINUM": 2250,
-      "GRANDMASTER": 10548,
-      "DIAMOND": 4000,
+      "BRONZE": 120,
       "IRON": 30,
+      "MASTER": 7200,
       "GOLD": 750,
-      "SILVER": 300
+      "DIAMOND": 4000
     },
     "translation": {
       "description": "Immobilize an enemy, then take them down with an ally",
@@ -11376,24 +10911,24 @@ let challengeData = [
     "parent": "302300",
     "parentCategory": "4",
     "percentiles": {
-      "SILVER": 0.143,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.02,
-      "MASTER": 0.005,
-      "PLATINUM": 0.044,
       "GRANDMASTER": 0.001,
+      "IRON": 0.256,
+      "NONE": 1,
+      "MASTER": 0.006,
+      "SILVER": 0.142,
+      "DIAMOND": 0.021,
+      "PLATINUM": 0.045,
+      "BRONZE": 0.186,
       "GOLD": 0.098,
-      "BRONZE": 0.189,
-      "IRON": 0.26,
-      "NONE": 1
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
-      56907,
+      61712,
       1,
-      14925,
-      3680,
-      10548,
-      18396
+      15308,
+      4457,
+      10722,
+      22280
     ]
   },
   {
@@ -11401,15 +10936,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 5815,
-      "MASTER": 1800,
+      "GRANDMASTER": 3439,
+      "CHALLENGER": 5963,
+      "SILVER": 60,
       "PLATINUM": 500,
-      "GRANDMASTER": 3375,
-      "DIAMOND": 1000,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 150,
-      "SILVER": 60
+      "DIAMOND": 1000
     },
     "translation": {
       "description": "Knock back enemies into your team, resulting in a takedown",
@@ -11443,24 +10978,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Insec-ticide",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.03,
-      "BRONZE": 0.188,
-      "GOLD": 0.112,
-      "IRON": 0.24,
+      "PLATINUM": 0.058,
+      "IRON": 0.237,
+      "GOLD": 0.111,
+      "MASTER": 0.014,
       "GRANDMASTER": 0.003,
-      "SILVER": 0.154,
       "CHALLENGER": 0.001,
-      "MASTER": 0.013,
-      "PLATINUM": 0.058
+      "BRONZE": 0.185,
+      "SILVER": 0.153,
+      "DIAMOND": 0.031,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      39889,
+      42686,
       1,
-      5815,
-      9687,
-      3375,
-      48429
+      5963,
+      10880,
+      3439,
+      54394
     ]
   },
   {
@@ -11468,13 +11003,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 337,
-      "MASTER": 10,
+      "GRANDMASTER": 127,
+      "CHALLENGER": 358,
+      "SILVER": 1,
       "PLATINUM": 4,
-      "GRANDMASTER": 122,
-      "DIAMOND": 7,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 7
     },
     "translation": {
       "description": "Deal more than 1800 Damage Per Minute in ARAM games",
@@ -11500,24 +11035,24 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.117,
-      "BRONZE": 0,
-      "GOLD": 0.159,
+      "PLATINUM": 0.134,
       "IRON": 0,
-      "GRANDMASTER": 0.027,
-      "SILVER": 0.188,
+      "GOLD": 0.158,
+      "MASTER": 0.105,
+      "GRANDMASTER": 0.026,
       "CHALLENGER": 0.005,
-      "MASTER": 0.106,
-      "PLATINUM": 0.135
+      "BRONZE": 0,
+      "SILVER": 0.186,
+      "DIAMOND": 0.116,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      7890,
+      8675,
       1,
-      337,
-      80787,
-      122,
-      403927
+      358,
+      83870,
+      127,
+      419346
     ]
   },
   {
@@ -11525,13 +11060,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 650,
+      "SILVER": 40,
       "PLATINUM": 185,
-      "DIAMOND": 340,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 650,
       "GOLD": 115,
-      "SILVER": 40
+      "DIAMOND": 340
     },
     "translation": {
       "description": "Earn points from challenges in the ARAM Warrior group",
@@ -11552,16 +11087,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Unstoppable",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.039,
-      "BRONZE": 0.202,
-      "GOLD": 0.115,
-      "IRON": 0.209,
+      "PLATINUM": 0.092,
+      "IRON": 0.207,
+      "GOLD": 0.114,
+      "MASTER": 0.009,
       "GRANDMASTER": 0,
-      "SILVER": 0.162,
       "CHALLENGER": 0,
-      "MASTER": 0.008,
-      "PLATINUM": 0.093
+      "BRONZE": 0.199,
+      "SILVER": 0.161,
+      "DIAMOND": 0.04,
+      "NONE": 1
     }
   },
   {
@@ -11569,13 +11104,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 61,
-      "MASTER": 15,
-      "PLATINUM": 5,
       "GRANDMASTER": 32,
-      "DIAMOND": 10,
+      "CHALLENGER": 63,
+      "SILVER": 1,
+      "PLATINUM": 5,
+      "MASTER": 15,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 10
     },
     "translation": {
       "description": "Go Legendary in ARAM games",
@@ -11600,24 +11135,24 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.019,
-      "BRONZE": 0,
-      "GOLD": 0.072,
-      "IRON": 0,
-      "GRANDMASTER": 0.003,
       "SILVER": 0.102,
       "CHALLENGER": 0.001,
-      "MASTER": 0.011,
-      "PLATINUM": 0.038
+      "DIAMOND": 0.02,
+      "MASTER": 0.012,
+      "PLATINUM": 0.039,
+      "GOLD": 0.072,
+      "GRANDMASTER": 0.003,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1830,
+      1990,
       1,
-      61,
-      8433,
+      63,
+      9253,
       32,
-      42157
+      46258
     ]
   },
   {
@@ -11652,16 +11187,16 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0.015,
-      "SILVER": 0,
-      "NONE": 1,
       "PLATINUM": 0,
-      "BRONZE": 0,
-      "CHALLENGER": 0,
+      "IRON": 0,
       "GOLD": 0,
-      "DIAMOND": 0
+      "MASTER": 0.016,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -11669,13 +11204,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 50,
-      "MASTER": 2500,
+      "SILVER": 125,
       "PLATINUM": 650,
-      "DIAMOND": 1500,
+      "BRONZE": 50,
       "IRON": 10,
+      "MASTER": 2500,
       "GOLD": 250,
-      "SILVER": 125
+      "DIAMOND": 1500
     },
     "translation": {
       "description": "Kill enemies near one of their own turrets in ARAM",
@@ -11701,16 +11236,16 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "BRONZE": 0.142,
-      "MASTER": 0.013,
-      "PLATINUM": 0.056,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.027,
-      "IRON": 0.197,
       "GRANDMASTER": 0,
-      "GOLD": 0.09,
+      "IRON": 0.194,
       "NONE": 1,
-      "SILVER": 0.112
+      "MASTER": 0.013,
+      "SILVER": 0.111,
+      "DIAMOND": 0.028,
+      "PLATINUM": 0.056,
+      "BRONZE": 0.14,
+      "GOLD": 0.089,
+      "CHALLENGER": 0
     }
   },
   {
@@ -11718,13 +11253,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 50,
-      "MASTER": 300,
+      "SILVER": 75,
       "PLATINUM": 105,
-      "DIAMOND": 160,
+      "BRONZE": 50,
       "IRON": 25,
+      "MASTER": 300,
       "GOLD": 100,
-      "SILVER": 75
+      "DIAMOND": 160
     },
     "translation": {
       "description": "Earn points from challenges in the Symbiosis group",
@@ -11745,16 +11280,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Exceptional",
     "percentiles": {
-      "IRON": 0.239,
-      "GRANDMASTER": 0,
-      "MASTER": 0.002,
-      "SILVER": 0.132,
-      "NONE": 1,
-      "PLATINUM": 0.094,
-      "BRONZE": 0.173,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.095,
+      "IRON": 0.238,
       "GOLD": 0.1,
-      "DIAMOND": 0.05
+      "MASTER": 0.002,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.171,
+      "SILVER": 0.131,
+      "DIAMOND": 0.051,
+      "NONE": 1
     }
   },
   {
@@ -11762,13 +11297,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 150,
+      "SILVER": 7,
       "PLATINUM": 45,
-      "DIAMOND": 90,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 15,
-      "SILVER": 7
+      "DIAMOND": 90
     },
     "translation": {
       "description": "Kill opponents who recently received a health pack in ARAM",
@@ -11795,16 +11330,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Angel of Mercy",
     "percentiles": {
-      "IRON": 0.196,
-      "GRANDMASTER": 0,
-      "MASTER": 0.014,
-      "SILVER": 0.117,
       "NONE": 1,
-      "PLATINUM": 0.052,
-      "BRONZE": 0.147,
       "CHALLENGER": 0,
-      "GOLD": 0.091,
-      "DIAMOND": 0.028
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.029,
+      "BRONZE": 0.145,
+      "GOLD": 0.09,
+      "IRON": 0.193,
+      "SILVER": 0.115,
+      "MASTER": 0.015,
+      "PLATINUM": 0.052
     }
   },
   {
@@ -11848,16 +11383,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Flawless",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0,
+      "PLATINUM": 0,
       "IRON": 0,
+      "GOLD": 0,
+      "MASTER": 0.053,
       "GRANDMASTER": 0,
-      "SILVER": 0,
       "CHALLENGER": 0,
-      "MASTER": 0.052,
-      "PLATINUM": 0
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -11865,15 +11400,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 800,
-      "CHALLENGER": 88289,
-      "MASTER": 30000,
+      "GRANDMASTER": 57465,
+      "CHALLENGER": 91967,
+      "SILVER": 2000,
       "PLATINUM": 12500,
-      "GRANDMASTER": 55943,
-      "DIAMOND": 20000,
+      "BRONZE": 800,
       "IRON": 200,
+      "MASTER": 30000,
       "GOLD": 5000,
-      "SILVER": 2000
+      "DIAMOND": 20000
     },
     "translation": {
       "description": "Get Takedowns in ARAM",
@@ -11898,24 +11433,24 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "BRONZE": 0.138,
-      "MASTER": 0.015,
       "PLATINUM": 0.044,
-      "CHALLENGER": 0.001,
-      "DIAMOND": 0.027,
-      "IRON": 0.187,
+      "IRON": 0.185,
+      "GOLD": 0.076,
+      "MASTER": 0.016,
       "GRANDMASTER": 0.004,
-      "GOLD": 0.077,
-      "NONE": 1,
-      "SILVER": 0.108
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.136,
+      "SILVER": 0.107,
+      "DIAMOND": 0.028,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      427996,
+      468191,
       1,
-      88289,
-      11809,
-      55943,
-      59040
+      91967,
+      13083,
+      57465,
+      65409
     ]
   },
   {
@@ -11923,15 +11458,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 737,
-      "MASTER": 300,
+      "GRANDMASTER": 488,
+      "CHALLENGER": 760,
+      "SILVER": 15,
       "PLATINUM": 90,
-      "GRANDMASTER": 479,
-      "DIAMOND": 180,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 30,
-      "SILVER": 15
+      "DIAMOND": 180
     },
     "translation": {
       "description": "Get 12 or more assists without dying",
@@ -11965,24 +11500,24 @@ let challengeData = [
     "parent": "301300",
     "parentCategory": "4",
     "percentiles": {
-      "GOLD": 0.029,
-      "NONE": 1,
-      "BRONZE": 0.1,
-      "MASTER": 0.001,
+      "SILVER": 0.053,
       "CHALLENGER": 0,
-      "IRON": 0.19,
+      "DIAMOND": 0.003,
+      "MASTER": 0.001,
       "PLATINUM": 0.008,
-      "DIAMOND": 0.002,
+      "GOLD": 0.03,
       "GRANDMASTER": 0,
-      "SILVER": 0.052
+      "BRONZE": 0.1,
+      "IRON": 0.188,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      2390,
+      2622,
       1,
-      737,
-      584,
-      479,
-      2913
+      760,
+      700,
+      488,
+      3494
     ]
   },
   {
@@ -11990,13 +11525,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 50,
+      "SILVER": 10,
       "PLATINUM": 30,
-      "DIAMOND": 40,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 50,
       "GOLD": 20,
-      "SILVER": 10
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Reach Gold tier on Capstones",
@@ -12015,16 +11550,16 @@ let challengeData = [
     "parent": "502000",
     "parentCategory": "5",
     "percentiles": {
-      "BRONZE": 0.201,
-      "MASTER": 0.026,
+      "SILVER": 0.155,
       "CHALLENGER": 0,
+      "DIAMOND": 0.069,
+      "MASTER": 0.028,
       "PLATINUM": 0.095,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0.068,
-      "IRON": 0.362,
       "GOLD": 0.117,
-      "NONE": 1,
-      "SILVER": 0.157
+      "GRANDMASTER": 0,
+      "BRONZE": 0.198,
+      "IRON": 0.357,
+      "NONE": 1
     }
   },
   {
@@ -12032,12 +11567,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 36,
-      "MASTER": 7,
+      "GRANDMASTER": 18,
+      "CHALLENGER": 38,
       "PLATINUM": 3,
-      "GRANDMASTER": 17,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 7,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Get Pentakills in ARAM",
@@ -12063,24 +11598,24 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "GOLD": 0.097,
+      "CHALLENGER": 0.001,
+      "GRANDMASTER": 0.006,
+      "PLATINUM": 0.051,
+      "IRON": 0,
+      "SILVER": 0,
       "NONE": 1,
       "BRONZE": 0,
-      "MASTER": 0.023,
-      "CHALLENGER": 0.001,
-      "IRON": 0,
-      "PLATINUM": 0.051,
-      "DIAMOND": 0.033,
-      "GRANDMASTER": 0.006,
-      "SILVER": 0
+      "DIAMOND": 0.034,
+      "MASTER": 0.024,
+      "GOLD": 0.097
     },
     "leaderboardThresholds": [
-      1346,
+      1384,
       1,
-      36,
-      17916,
-      17,
-      89576
+      38,
+      19225,
+      18,
+      96118
     ]
   },
   {
@@ -12122,16 +11657,16 @@ let challengeData = [
     "parent": "301300",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
+      "SILVER": 0,
       "CHALLENGER": 0,
-      "PLATINUM": 0,
-      "GRANDMASTER": 0,
       "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
+      "GOLD": 0.176,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
       "IRON": 0,
-      "GOLD": 0.177,
-      "NONE": 1,
-      "SILVER": 0
+      "NONE": 1
     }
   },
   {
@@ -12139,13 +11674,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 300,
+      "SILVER": 15,
       "PLATINUM": 75,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 30,
-      "SILVER": 15
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Reach Master tier on challenges",
@@ -12164,16 +11699,16 @@ let challengeData = [
     "parent": "502000",
     "parentCategory": "5",
     "percentiles": {
-      "BRONZE": 0.156,
-      "MASTER": 0,
+      "SILVER": 0.084,
       "CHALLENGER": 0,
-      "PLATINUM": 0.008,
-      "GRANDMASTER": 0,
       "DIAMOND": 0,
-      "IRON": 0.302,
-      "GOLD": 0.039,
-      "NONE": 1,
-      "SILVER": 0.085
+      "MASTER": 0,
+      "PLATINUM": 0.009,
+      "GOLD": 0.04,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.152,
+      "IRON": 0.296,
+      "NONE": 1
     }
   },
   {
@@ -12181,13 +11716,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 300,
+      "SILVER": 15,
       "PLATINUM": 75,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 30,
-      "SILVER": 15
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Reach Diamond tier on challenges",
@@ -12206,16 +11741,16 @@ let challengeData = [
     "parent": "502000",
     "parentCategory": "5",
     "percentiles": {
-      "MASTER": 0,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0.124,
-      "IRON": 0.344,
-      "DIAMOND": 0.001,
       "NONE": 1,
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.002,
+      "BRONZE": 0.193,
       "GOLD": 0.077,
-      "PLATINUM": 0.03,
-      "BRONZE": 0.198
+      "IRON": 0.339,
+      "SILVER": 0.122,
+      "MASTER": 0,
+      "PLATINUM": 0.031
     }
   },
   {
@@ -12223,12 +11758,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 42,
-      "MASTER": 7,
+      "GRANDMASTER": 18,
+      "CHALLENGER": 43,
       "PLATINUM": 3,
-      "GRANDMASTER": 17,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 7,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Deal 40% or more of your team's damage to champions in ARAM",
@@ -12254,24 +11789,24 @@ let challengeData = [
     "parent": "101100",
     "parentCategory": "1",
     "percentiles": {
-      "IRON": 0,
+      "CHALLENGER": 0.001,
       "GRANDMASTER": 0.003,
-      "MASTER": 0.013,
+      "PLATINUM": 0.035,
+      "IRON": 0,
       "SILVER": 0,
       "NONE": 1,
-      "PLATINUM": 0.034,
       "BRONZE": 0,
-      "CHALLENGER": 0.001,
-      "GOLD": 0.082,
-      "DIAMOND": 0.02
+      "DIAMOND": 0.02,
+      "MASTER": 0.013,
+      "GOLD": 0.082
     },
     "leaderboardThresholds": [
-      1161,
+      1166,
       1,
-      42,
-      9796,
-      17,
-      48972
+      43,
+      10534,
+      18,
+      52666
     ]
   },
   {
@@ -12279,13 +11814,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 30,
+      "SILVER": 10,
       "PLATINUM": 20,
-      "DIAMOND": 25,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 25
     },
     "translation": {
       "description": "Complete collection challenges by reaching the highest non-leaderboard level",
@@ -12304,16 +11839,16 @@ let challengeData = [
     "parent": "502000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.001,
-      "BRONZE": 0.068,
-      "GOLD": 0.006,
-      "IRON": 0.115,
-      "GRANDMASTER": 0,
-      "SILVER": 0.017,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.003,
+      "IRON": 0.113,
+      "GOLD": 0.007,
       "MASTER": 0,
-      "PLATINUM": 0.003
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.067,
+      "SILVER": 0.017,
+      "DIAMOND": 0.001,
+      "NONE": 1
     }
   },
   {
@@ -12321,13 +11856,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 100,
+      "SILVER": 20,
       "PLATINUM": 45,
-      "DIAMOND": 70,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 100,
       "GOLD": 30,
-      "SILVER": 20
+      "DIAMOND": 70
     },
     "translation": {
       "description": "Earn titles for different challenges",
@@ -12347,16 +11882,16 @@ let challengeData = [
     "parentCategory": "5",
     "title": "Titular",
     "percentiles": {
-      "BRONZE": 0.153,
+      "PLATINUM": 0.029,
+      "IRON": 0.208,
+      "GOLD": 0.059,
       "MASTER": 0,
-      "PLATINUM": 0.027,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.004,
-      "IRON": 0.212,
       "GRANDMASTER": 0,
-      "GOLD": 0.058,
-      "NONE": 1,
-      "SILVER": 0.094
+      "CHALLENGER": 0,
+      "BRONZE": 0.151,
+      "SILVER": 0.094,
+      "DIAMOND": 0.005,
+      "NONE": 1
     }
   },
   {
@@ -12364,13 +11899,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 400,
+      "SILVER": 40,
       "PLATINUM": 135,
-      "DIAMOND": 240,
+      "BRONZE": 25,
       "IRON": 15,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 40
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Earn points from challenges in the Overachiever group",
@@ -12391,16 +11926,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Overachiever",
     "percentiles": {
-      "GOLD": 0.085,
       "NONE": 1,
-      "BRONZE": 0.207,
-      "MASTER": 0,
       "CHALLENGER": 0,
-      "IRON": 0.299,
-      "PLATINUM": 0.047,
-      "DIAMOND": 0.005,
       "GRANDMASTER": 0,
-      "SILVER": 0.163
+      "DIAMOND": 0.006,
+      "BRONZE": 0.202,
+      "GOLD": 0.085,
+      "IRON": 0.295,
+      "SILVER": 0.16,
+      "MASTER": 0,
+      "PLATINUM": 0.048
     }
   },
   {
@@ -12408,13 +11943,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 105,
-      "MASTER": 2100,
+      "SILVER": 190,
       "PLATINUM": 700,
-      "DIAMOND": 1250,
+      "BRONZE": 105,
       "IRON": 50,
+      "MASTER": 2100,
       "GOLD": 440,
-      "SILVER": 190
+      "DIAMOND": 1250
     },
     "translation": {
       "description": "Earn points from challenges in the Flair, Behemoth, Slayer, and Predator groups",
@@ -12435,16 +11970,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Legend",
     "percentiles": {
-      "IRON": 0.27,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.17,
-      "NONE": 1,
-      "PLATINUM": 0.048,
-      "BRONZE": 0.22,
       "CHALLENGER": 0,
-      "GOLD": 0.095,
-      "DIAMOND": 0.009
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.049,
+      "IRON": 0.267,
+      "SILVER": 0.168,
+      "NONE": 1,
+      "BRONZE": 0.217,
+      "DIAMOND": 0.01,
+      "MASTER": 0,
+      "GOLD": 0.095
     }
   },
   {
@@ -12452,12 +11987,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 20,
-      "MASTER": 10,
-      "PLATINUM": 3,
       "GRANDMASTER": 15,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 20,
+      "PLATINUM": 3,
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Score aces after minions spawn but before 15 minutes",
@@ -12490,24 +12025,24 @@ let challengeData = [
     "parent": "301300",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.004,
+      "GRANDMASTER": 0.001,
+      "SILVER": 0,
       "CHALLENGER": 0,
       "PLATINUM": 0.046,
-      "GRANDMASTER": 0.001,
-      "DIAMOND": 0.022,
       "IRON": 0,
-      "GOLD": 0.122,
+      "BRONZE": 0,
+      "MASTER": 0.004,
       "NONE": 1,
-      "SILVER": 0
+      "GOLD": 0.12,
+      "DIAMOND": 0.022
     },
     "leaderboardThresholds": [
       929,
       1,
-      19,
-      2973,
+      20,
+      3330,
       14,
-      12310
+      14069
     ]
   },
   {
@@ -12551,16 +12086,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Jitterbug",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0.142,
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "SILVER": 0,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
+      "SILVER": 0,
+      "NONE": 1,
+      "BRONZE": 0,
+      "DIAMOND": 0,
       "MASTER": 0,
-      "PLATINUM": 0
+      "GOLD": 0.14
     }
   },
   {
@@ -12602,16 +12137,16 @@ let challengeData = [
     "parent": "301300",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
-      "PLATINUM": 0,
+      "SILVER": 0,
       "CHALLENGER": 0,
       "DIAMOND": 0,
-      "IRON": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
+      "GOLD": 0.169,
       "GRANDMASTER": 0,
-      "GOLD": 0.168,
-      "NONE": 1,
-      "SILVER": 0
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -12619,11 +12154,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Rekindle an Eternals set for assassins",
@@ -12643,16 +12178,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.007,
-      "BRONZE": 0,
-      "GOLD": 0.023,
-      "IRON": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0.046,
-      "CHALLENGER": 0,
+      "IRON": 0,
+      "NONE": 1,
       "MASTER": 0.002,
-      "PLATINUM": 0.014
+      "SILVER": 0.045,
+      "DIAMOND": 0.007,
+      "PLATINUM": 0.014,
+      "BRONZE": 0,
+      "GOLD": 0.022,
+      "CHALLENGER": 0
     }
   },
   {
@@ -12660,12 +12195,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
+      "SILVER": 2,
+      "PLATINUM": 6,
       "BRONZE": 1,
       "MASTER": 30,
-      "PLATINUM": 6,
-      "DIAMOND": 15,
       "GOLD": 3,
-      "SILVER": 2
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Rekindle Eternal sets. A rekindled set is one where three or more Eternals have reached level 5 or above",
@@ -12685,16 +12220,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "BRONZE": 0.083,
-      "MASTER": 0.002,
-      "PLATINUM": 0.025,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.009,
+      "PLATINUM": 0.024,
       "IRON": 0,
+      "GOLD": 0.041,
+      "MASTER": 0.002,
       "GRANDMASTER": 0,
-      "GOLD": 0.042,
-      "NONE": 1,
-      "SILVER": 0.056
+      "CHALLENGER": 0,
+      "BRONZE": 0.08,
+      "SILVER": 0.055,
+      "DIAMOND": 0.009,
+      "NONE": 1
     }
   },
   {
@@ -12702,15 +12237,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1038,
-      "MASTER": 125,
+      "GRANDMASTER": 426,
+      "CHALLENGER": 1060,
+      "SILVER": 15,
       "PLATINUM": 60,
-      "GRANDMASTER": 421,
-      "DIAMOND": 90,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 125,
       "GOLD": 30,
-      "SILVER": 15
+      "DIAMOND": 90
     },
     "translation": {
       "description": "Achieve milestones on Eternals for a single champion",
@@ -12728,24 +12263,24 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "BRONZE": 0.108,
-      "MASTER": 0.032,
-      "PLATINUM": 0.054,
+      "SILVER": 0.091,
       "CHALLENGER": 0.002,
-      "DIAMOND": 0.042,
-      "IRON": 0.133,
+      "DIAMOND": 0.041,
+      "MASTER": 0.032,
+      "PLATINUM": 0.053,
+      "GOLD": 0.072,
       "GRANDMASTER": 0.008,
-      "GOLD": 0.074,
-      "NONE": 1,
-      "SILVER": 0.093
+      "BRONZE": 0.105,
+      "IRON": 0.13,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       194723,
       1,
-      1038,
-      24945,
-      421,
-      124720
+      1060,
+      25771,
+      426,
+      128847
     ]
   },
   {
@@ -12753,15 +12288,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 45,
-      "MASTER": 25,
-      "PLATINUM": 8,
       "GRANDMASTER": 35,
-      "DIAMOND": 12,
+      "CHALLENGER": 45,
+      "SILVER": 3,
+      "PLATINUM": 8,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 25,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Achieve milestone 15 or greater on an Eternal",
@@ -12781,16 +12316,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "GOLD": 0.02,
-      "NONE": 1,
-      "BRONZE": 0.042,
-      "MASTER": 0.003,
-      "CHALLENGER": 0,
-      "IRON": 0.07,
       "PLATINUM": 0.013,
-      "DIAMOND": 0.008,
+      "IRON": 0.069,
+      "GOLD": 0.02,
+      "MASTER": 0.003,
       "GRANDMASTER": 0,
-      "SILVER": 0.03
+      "CHALLENGER": 0,
+      "BRONZE": 0.041,
+      "SILVER": 0.03,
+      "DIAMOND": 0.008,
+      "NONE": 1
     }
   },
   {
@@ -12798,13 +12333,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 80,
+      "SILVER": 6,
       "PLATINUM": 20,
-      "DIAMOND": 40,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 80,
       "GOLD": 10,
-      "SILVER": 6
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Achieve milestone 5 or greater on an Eternal",
@@ -12823,16 +12358,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.018,
-      "BRONZE": 0.085,
-      "GOLD": 0.045,
-      "IRON": 0.099,
+      "PLATINUM": 0.03,
+      "IRON": 0.096,
+      "GOLD": 0.044,
+      "MASTER": 0.008,
       "GRANDMASTER": 0,
-      "SILVER": 0.061,
       "CHALLENGER": 0,
-      "MASTER": 0.007,
-      "PLATINUM": 0.03
+      "BRONZE": 0.083,
+      "SILVER": 0.06,
+      "DIAMOND": 0.018,
+      "NONE": 1
     }
   },
   {
@@ -12840,15 +12375,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 7,
-      "CHALLENGER": 4369,
-      "MASTER": 1250,
+      "GRANDMASTER": 2626,
+      "CHALLENGER": 4473,
+      "SILVER": 15,
       "PLATINUM": 150,
-      "GRANDMASTER": 2582,
-      "DIAMOND": 600,
+      "BRONZE": 7,
       "IRON": 3,
+      "MASTER": 1250,
       "GOLD": 75,
-      "SILVER": 15
+      "DIAMOND": 600
     },
     "translation": {
       "description": "Earn milestones on any Eternal",
@@ -12866,24 +12401,24 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.034,
-      "BRONZE": 0.131,
-      "GOLD": 0.078,
-      "IRON": 0.146,
-      "GRANDMASTER": 0.004,
-      "SILVER": 0.114,
+      "SILVER": 0.111,
       "CHALLENGER": 0.001,
+      "DIAMOND": 0.033,
       "MASTER": 0.017,
-      "PLATINUM": 0.063
+      "PLATINUM": 0.061,
+      "GOLD": 0.076,
+      "GRANDMASTER": 0.004,
+      "BRONZE": 0.127,
+      "IRON": 0.142,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       198422,
       1,
-      4369,
-      12805,
-      2582,
-      64018
+      4473,
+      13422,
+      2626,
+      67102
     ]
   },
   {
@@ -12891,13 +12426,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 875,
+      "SILVER": 85,
       "PLATINUM": 295,
-      "DIAMOND": 530,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 875,
       "GOLD": 185,
-      "SILVER": 85
+      "DIAMOND": 530
     },
     "translation": {
       "description": "Earn points from challenges in the Experience group",
@@ -12917,16 +12452,16 @@ let challengeData = [
     "parent": "5",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.136,
-      "GRANDMASTER": 0,
+      "PLATINUM": 0.028,
+      "IRON": 0.132,
+      "GOLD": 0.049,
       "MASTER": 0.002,
-      "SILVER": 0.076,
-      "NONE": 1,
-      "PLATINUM": 0.029,
-      "BRONZE": 0.107,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.05,
-      "DIAMOND": 0.012
+      "BRONZE": 0.104,
+      "SILVER": 0.074,
+      "DIAMOND": 0.012,
+      "NONE": 1
     }
   },
   {
@@ -12934,13 +12469,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 75,
-      "MASTER": 1450,
+      "SILVER": 120,
       "PLATINUM": 450,
-      "DIAMOND": 825,
+      "BRONZE": 75,
       "IRON": 35,
+      "MASTER": 1450,
       "GOLD": 280,
-      "SILVER": 120
+      "DIAMOND": 825
     },
     "translation": {
       "description": "Earn points from challenges in the Domination, Unrivaled, and Perfection groups",
@@ -12961,16 +12496,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "G.O.A.T.",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.022,
-      "BRONZE": 0.237,
-      "GOLD": 0.115,
-      "IRON": 0.288,
-      "GRANDMASTER": 0,
-      "SILVER": 0.198,
+      "SILVER": 0.196,
       "CHALLENGER": 0,
+      "DIAMOND": 0.023,
       "MASTER": 0.001,
-      "PLATINUM": 0.068
+      "PLATINUM": 0.068,
+      "GOLD": 0.115,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.235,
+      "IRON": 0.284,
+      "NONE": 1
     }
   },
   {
@@ -12978,11 +12513,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Rekindle an Eternals set for tanks",
@@ -13002,16 +12537,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "MASTER": 0.001,
       "GRANDMASTER": 0,
+      "SILVER": 0.035,
       "CHALLENGER": 0,
-      "SILVER": 0.036,
+      "PLATINUM": 0.011,
       "IRON": 0,
-      "DIAMOND": 0.005,
+      "BRONZE": 0,
+      "MASTER": 0.001,
       "NONE": 1,
       "GOLD": 0.017,
-      "PLATINUM": 0.011,
-      "BRONZE": 0
+      "DIAMOND": 0.005
     }
   },
   {
@@ -13019,11 +12554,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Rekindle an Eternals set for supports",
@@ -13043,16 +12578,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0.002,
-      "SILVER": 0.04,
-      "NONE": 1,
-      "PLATINUM": 0.014,
-      "BRONZE": 0,
+      "SILVER": 0.039,
       "CHALLENGER": 0,
+      "DIAMOND": 0.007,
+      "MASTER": 0.002,
+      "PLATINUM": 0.014,
       "GOLD": 0.021,
-      "DIAMOND": 0.007
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -13060,11 +12595,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Rekindle an Eternals set for marksmen",
@@ -13084,16 +12619,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "GOLD": 0.023,
-      "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0.003,
+      "SILVER": 0.04,
       "CHALLENGER": 0,
-      "IRON": 0,
-      "PLATINUM": 0.016,
       "DIAMOND": 0.009,
+      "MASTER": 0.003,
+      "PLATINUM": 0.015,
+      "GOLD": 0.022,
       "GRANDMASTER": 0,
-      "SILVER": 0.042
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -13101,11 +12636,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Rekindle an Eternals set for mages",
@@ -13125,16 +12660,16 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "GOLD": 0.028,
-      "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0.004,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.019,
       "IRON": 0,
-      "PLATINUM": 0.02,
-      "DIAMOND": 0.011,
+      "GOLD": 0.028,
+      "MASTER": 0.004,
       "GRANDMASTER": 0,
-      "SILVER": 0.051
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0.05,
+      "DIAMOND": 0.011,
+      "NONE": 1
     }
   },
   {
@@ -13142,11 +12677,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 10,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Rekindle an Eternals set for fighters",
@@ -13166,13 +12701,13 @@ let challengeData = [
     "parent": "501000",
     "parentCategory": "5",
     "percentiles": {
-      "SILVER": 0.052,
+      "SILVER": 0.05,
       "CHALLENGER": 0,
       "DIAMOND": 0.01,
       "MASTER": 0.003,
       "PLATINUM": 0.018,
-      "GRANDMASTER": 0,
       "GOLD": 0.027,
+      "GRANDMASTER": 0,
       "BRONZE": 0,
       "IRON": 0,
       "NONE": 1
@@ -13183,15 +12718,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 3745,
-      "MASTER": 1800,
+      "GRANDMASTER": 2688,
+      "CHALLENGER": 3842,
+      "SILVER": 75,
       "PLATINUM": 550,
-      "GRANDMASTER": 2645,
-      "DIAMOND": 1000,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 200,
-      "SILVER": 75
+      "DIAMOND": 1000
     },
     "translation": {
       "description": "Take down Dragons",
@@ -13224,24 +12759,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "SILVER": 0.146,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.02,
-      "MASTER": 0.005,
-      "PLATINUM": 0.046,
       "GRANDMASTER": 0.001,
+      "IRON": 0.245,
+      "NONE": 1,
+      "MASTER": 0.006,
+      "SILVER": 0.145,
+      "DIAMOND": 0.021,
+      "PLATINUM": 0.047,
+      "BRONZE": 0.189,
       "GOLD": 0.097,
-      "BRONZE": 0.192,
-      "IRON": 0.248,
-      "NONE": 1
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
-      16171,
+      16517,
       1,
-      3745,
-      3670,
-      2645,
-      18343
+      3842,
+      4410,
+      2688,
+      22046
     ]
   },
   {
@@ -13249,15 +12784,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 8,
+      "GRANDMASTER": 623,
       "CHALLENGER": 1000,
-      "MASTER": 350,
+      "SILVER": 20,
       "PLATINUM": 100,
-      "GRANDMASTER": 608,
-      "DIAMOND": 200,
+      "BRONZE": 8,
       "IRON": 2,
+      "MASTER": 350,
       "GOLD": 50,
-      "SILVER": 20
+      "DIAMOND": 200
     },
     "translation": {
       "description": "Take down Barons",
@@ -13290,24 +12825,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "BRONZE": 0.203,
-      "MASTER": 0.017,
+      "SILVER": 0.154,
       "CHALLENGER": 0.001,
+      "DIAMOND": 0.041,
+      "MASTER": 0.018,
       "PLATINUM": 0.074,
-      "GRANDMASTER": 0.004,
-      "DIAMOND": 0.04,
-      "IRON": 0.28,
       "GOLD": 0.109,
-      "NONE": 1,
-      "SILVER": 0.156
+      "GRANDMASTER": 0.005,
+      "BRONZE": 0.2,
+      "IRON": 0.275,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      4370,
+      4467,
       1,
       999,
-      9635,
-      608,
-      64818
+      13005,
+      623,
+      73321
     ]
   },
   {
@@ -13315,15 +12850,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1600,
-      "CHALLENGER": 200477,
-      "MASTER": 96000,
+      "GRANDMASTER": 140713,
+      "CHALLENGER": 204383,
+      "SILVER": 4000,
       "PLATINUM": 30000,
-      "GRANDMASTER": 139525,
-      "DIAMOND": 55000,
+      "BRONZE": 1600,
       "IRON": 400,
+      "MASTER": 96000,
       "GOLD": 12000,
-      "SILVER": 4000
+      "DIAMOND": 55000
     },
     "translation": {
       "description": "Earn CS from jungle monsters in your jungle",
@@ -13356,24 +12891,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "BRONZE": 0.11,
-      "MASTER": 0.001,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.009,
       "GRANDMASTER": 0,
-      "DIAMOND": 0.002,
-      "IRON": 0.174,
-      "GOLD": 0.03,
+      "IRON": 0.171,
       "NONE": 1,
-      "SILVER": 0.071
+      "MASTER": 0.001,
+      "SILVER": 0.07,
+      "DIAMOND": 0.003,
+      "PLATINUM": 0.009,
+      "BRONZE": 0.109,
+      "GOLD": 0.03,
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
-      528322,
+      540670,
       1,
-      200477,
-      401,
-      139525,
-      1997
+      204383,
+      469,
+      140713,
+      2339
     ]
   },
   {
@@ -13381,15 +12916,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 240,
-      "CHALLENGER": 30623,
-      "MASTER": 14000,
+      "GRANDMASTER": 20906,
+      "CHALLENGER": 31036,
+      "SILVER": 600,
       "PLATINUM": 4000,
-      "GRANDMASTER": 20656,
-      "DIAMOND": 8000,
+      "BRONZE": 240,
       "IRON": 60,
+      "MASTER": 14000,
       "GOLD": 1500,
-      "SILVER": 600
+      "DIAMOND": 8000
     },
     "translation": {
       "description": "Kill jungle monsters in the enemy jungle",
@@ -13422,24 +12957,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "SILVER": 0.08,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.003,
-      "MASTER": 0,
-      "PLATINUM": 0.011,
-      "GRANDMASTER": 0,
+      "PLATINUM": 0.012,
+      "IRON": 0.188,
       "GOLD": 0.041,
-      "BRONZE": 0.124,
-      "IRON": 0.192,
+      "MASTER": 0.001,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.122,
+      "SILVER": 0.079,
+      "DIAMOND": 0.003,
       "NONE": 1
     },
     "leaderboardThresholds": [
       166370,
       1,
-      30623,
-      375,
-      20656,
-      1870
+      31036,
+      440,
+      20906,
+      2196
     ]
   },
   {
@@ -13447,15 +12982,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 5860,
-      "MASTER": 2500,
+      "GRANDMASTER": 4020,
+      "CHALLENGER": 5920,
+      "SILVER": 150,
       "PLATINUM": 750,
-      "GRANDMASTER": 3990,
-      "DIAMOND": 1400,
+      "BRONZE": 50,
       "IRON": 10,
+      "MASTER": 2500,
       "GOLD": 300,
-      "SILVER": 150
+      "DIAMOND": 1400
     },
     "translation": {
       "description": "Participate in taking turrets with Rift Herald",
@@ -13488,24 +13023,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "IRON": 0.303,
       "GRANDMASTER": 0.003,
-      "MASTER": 0.011,
-      "SILVER": 0.146,
-      "NONE": 1,
-      "PLATINUM": 0.062,
-      "BRONZE": 0.206,
+      "SILVER": 0.142,
       "CHALLENGER": 0.001,
-      "GOLD": 0.11,
+      "PLATINUM": 0.061,
+      "IRON": 0.296,
+      "BRONZE": 0.201,
+      "MASTER": 0.011,
+      "NONE": 1,
+      "GOLD": 0.107,
       "DIAMOND": 0.032
     },
     "leaderboardThresholds": [
-      26530,
+      27475,
       1,
-      5860,
-      8437,
-      3990,
-      42181
+      5920,
+      8949,
+      4020,
+      44737
     ]
   },
   {
@@ -13513,15 +13048,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 6156,
-      "MASTER": 2500,
+      "GRANDMASTER": 4063,
+      "CHALLENGER": 6356,
+      "SILVER": 150,
       "PLATINUM": 750,
-      "GRANDMASTER": 4000,
-      "DIAMOND": 1400,
+      "BRONZE": 50,
       "IRON": 10,
+      "MASTER": 2500,
       "GOLD": 300,
-      "SILVER": 150
+      "DIAMOND": 1400
     },
     "translation": {
       "description": "Kill Scuttle Crabs",
@@ -13554,24 +13089,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
+      "PLATINUM": 0.022,
+      "IRON": 0.213,
       "GOLD": 0.055,
-      "NONE": 1,
-      "BRONZE": 0.139,
       "MASTER": 0.002,
-      "CHALLENGER": 0,
-      "IRON": 0.217,
-      "PLATINUM": 0.021,
-      "DIAMOND": 0.008,
       "GRANDMASTER": 0.001,
-      "SILVER": 0.086
+      "CHALLENGER": 0,
+      "BRONZE": 0.137,
+      "SILVER": 0.086,
+      "DIAMOND": 0.008,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      25041,
+      25099,
       1,
-      6156,
-      1597,
-      4000,
-      7980
+      6356,
+      1867,
+      4063,
+      9327
     ]
   },
   {
@@ -13579,15 +13114,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 1160,
-      "MASTER": 800,
-      "PLATINUM": 265,
       "GRANDMASTER": 960,
-      "DIAMOND": 480,
+      "CHALLENGER": 1160,
+      "SILVER": 75,
+      "PLATINUM": 265,
+      "BRONZE": 50,
       "IRON": 25,
+      "MASTER": 800,
       "GOLD": 165,
-      "SILVER": 75
+      "DIAMOND": 480
     },
     "translation": {
       "description": "Earn points from challenges in the Commando group",
@@ -13607,16 +13142,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Commando",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.019,
-      "BRONZE": 0.211,
-      "GOLD": 0.103,
-      "IRON": 0.259,
-      "GRANDMASTER": 0,
-      "SILVER": 0.177,
+      "SILVER": 0.174,
       "CHALLENGER": 0,
+      "DIAMOND": 0.021,
       "MASTER": 0.002,
-      "PLATINUM": 0.058
+      "PLATINUM": 0.058,
+      "GOLD": 0.102,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.208,
+      "IRON": 0.255,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       0,
@@ -13624,7 +13159,7 @@ let challengeData = [
       1000,
       1,
       940,
-      5475
+      6571
     ]
   },
   {
@@ -13632,15 +13167,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 230,
-      "MASTER": 100,
+      "GRANDMASTER": 154,
+      "CHALLENGER": 235,
+      "SILVER": 5,
       "PLATINUM": 25,
-      "GRANDMASTER": 151,
-      "DIAMOND": 50,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 100,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 50
     },
     "translation": {
       "description": "Steal Epic Monsters. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -13674,24 +13209,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Thief",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.006,
-      "BRONZE": 0.139,
-      "GOLD": 0.055,
-      "IRON": 0.185,
-      "GRANDMASTER": 0,
-      "SILVER": 0.089,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.022,
+      "IRON": 0.183,
+      "GOLD": 0.057,
       "MASTER": 0.001,
-      "PLATINUM": 0.02
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.139,
+      "SILVER": 0.09,
+      "DIAMOND": 0.007,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1202,
+      1205,
       1,
-      230,
-      861,
-      151,
-      4298
+      235,
+      1077,
+      154,
+      5377
     ]
   },
   {
@@ -13699,13 +13234,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 250,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "DIAMOND": 150,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 30,
-      "SILVER": 10
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Take down an enemy champion in the alcove",
@@ -13740,16 +13275,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Alcove Gamer",
     "percentiles": {
-      "GOLD": 0.088,
-      "NONE": 1,
-      "BRONZE": 0.217,
-      "MASTER": 0.005,
-      "CHALLENGER": 0,
-      "IRON": 0.288,
-      "PLATINUM": 0.043,
-      "DIAMOND": 0.016,
       "GRANDMASTER": 0,
-      "SILVER": 0.147
+      "IRON": 0.283,
+      "NONE": 1,
+      "MASTER": 0.005,
+      "SILVER": 0.146,
+      "DIAMOND": 0.017,
+      "PLATINUM": 0.044,
+      "BRONZE": 0.214,
+      "GOLD": 0.088,
+      "CHALLENGER": 0
     }
   },
   {
@@ -13757,13 +13292,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 20,
-      "MASTER": 400,
+      "SILVER": 30,
       "PLATINUM": 175,
-      "DIAMOND": 280,
+      "BRONZE": 20,
       "IRON": 10,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 30
+      "DIAMOND": 280
     },
     "translation": {
       "description": "Earn points from challenges in the Innovation group",
@@ -13784,16 +13319,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Innovative",
     "percentiles": {
-      "BRONZE": 0.348,
-      "MASTER": 0.004,
-      "PLATINUM": 0.066,
+      "SILVER": 0.329,
       "CHALLENGER": 0,
-      "DIAMOND": 0.019,
-      "IRON": 0.357,
+      "DIAMOND": 0.02,
+      "MASTER": 0.005,
+      "PLATINUM": 0.066,
+      "GOLD": 0.187,
       "GRANDMASTER": 0,
-      "GOLD": 0.191,
-      "NONE": 1,
-      "SILVER": 0.338
+      "BRONZE": 0.34,
+      "IRON": 0.349,
+      "NONE": 1
     }
   },
   {
@@ -13801,13 +13336,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "MASTER": 125,
+      "SILVER": 5,
       "PLATINUM": 35,
-      "DIAMOND": 70,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 125,
       "GOLD": 15,
-      "SILVER": 5
+      "DIAMOND": 70
     },
     "translation": {
       "description": "Get multikills shortly after flashing towards an enemy champion",
@@ -13842,16 +13377,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Flashy",
     "percentiles": {
-      "IRON": 0.228,
       "GRANDMASTER": 0,
-      "MASTER": 0.006,
-      "SILVER": 0.139,
+      "IRON": 0.224,
       "NONE": 1,
-      "PLATINUM": 0.044,
-      "BRONZE": 0.189,
-      "CHALLENGER": 0,
+      "MASTER": 0.007,
+      "SILVER": 0.138,
+      "DIAMOND": 0.02,
+      "PLATINUM": 0.045,
+      "BRONZE": 0.186,
       "GOLD": 0.083,
-      "DIAMOND": 0.019
+      "CHALLENGER": 0
     }
   },
   {
@@ -13859,14 +13394,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 64,
-      "MASTER": 25,
+      "GRANDMASTER": 42,
+      "CHALLENGER": 66,
+      "SILVER": 2,
       "PLATINUM": 8,
-      "GRANDMASTER": 41,
-      "DIAMOND": 15,
+      "BRONZE": 1,
+      "MASTER": 25,
       "GOLD": 3,
-      "SILVER": 2
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Knock yourself and an enemy champion in different directions after hitting a blast cone",
@@ -13899,24 +13434,24 @@ let challengeData = [
     "parent": "103200",
     "parentCategory": "1",
     "percentiles": {
+      "PLATINUM": 0.044,
       "IRON": 0,
-      "GRANDMASTER": 0.002,
-      "MASTER": 0.007,
-      "SILVER": 0.117,
-      "NONE": 1,
-      "PLATINUM": 0.043,
-      "BRONZE": 0.164,
-      "CHALLENGER": 0,
       "GOLD": 0.093,
-      "DIAMOND": 0.019
+      "MASTER": 0.008,
+      "GRANDMASTER": 0.002,
+      "CHALLENGER": 0,
+      "BRONZE": 0.163,
+      "SILVER": 0.117,
+      "DIAMOND": 0.02,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      846,
+      920,
       1,
-      64,
-      5406,
-      41,
-      27026
+      66,
+      6332,
+      42,
+      31653
     ]
   },
   {
@@ -13959,16 +13494,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Survivor",
     "percentiles": {
+      "PLATINUM": 0,
+      "IRON": 0,
+      "GOLD": 0.263,
       "MASTER": 0,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
+      "BRONZE": 0,
       "SILVER": 0,
-      "IRON": 0,
       "DIAMOND": 0,
-      "NONE": 1,
-      "GOLD": 0.267,
-      "PLATINUM": 0,
-      "BRONZE": 0
+      "NONE": 1
     }
   },
   {
@@ -13976,15 +13511,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 35,
-      "CHALLENGER": 4895,
-      "MASTER": 1800,
+      "GRANDMASTER": 3269,
+      "CHALLENGER": 5077,
+      "SILVER": 100,
       "PLATINUM": 600,
-      "GRANDMASTER": 3184,
-      "DIAMOND": 1350,
+      "BRONZE": 35,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 200,
-      "SILVER": 100
+      "DIAMOND": 1350
     },
     "translation": {
       "description": "Take down turrets",
@@ -14017,24 +13552,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.032,
-      "BRONZE": 0.225,
-      "GOLD": 0.13,
-      "IRON": 0.297,
+      "PLATINUM": 0.072,
+      "IRON": 0.292,
+      "GOLD": 0.129,
+      "MASTER": 0.022,
       "GRANDMASTER": 0.005,
-      "SILVER": 0.167,
       "CHALLENGER": 0.001,
-      "MASTER": 0.02,
-      "PLATINUM": 0.072
+      "BRONZE": 0.222,
+      "SILVER": 0.165,
+      "DIAMOND": 0.033,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      23257,
+      26053,
       1,
-      4895,
-      15393,
-      3184,
-      76961
+      5077,
+      17305,
+      3269,
+      86520
     ]
   },
   {
@@ -14076,16 +13611,16 @@ let challengeData = [
     "parent": "103200",
     "parentCategory": "1",
     "percentiles": {
+      "PLATINUM": 0.286,
+      "IRON": 0,
+      "GOLD": 0,
       "MASTER": 0,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
+      "BRONZE": 0,
       "SILVER": 0,
-      "IRON": 0,
       "DIAMOND": 0,
-      "NONE": 1,
-      "GOLD": 0,
-      "PLATINUM": 0.3,
-      "BRONZE": 0
+      "NONE": 1
     }
   },
   {
@@ -14128,16 +13663,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Ace",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
-      "PLATINUM": 0.049,
-      "CHALLENGER": 0,
-      "DIAMOND": 0,
+      "PLATINUM": 0.05,
       "IRON": 0,
-      "GRANDMASTER": 0,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -14145,15 +13680,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1704,
-      "MASTER": 600,
+      "GRANDMASTER": 1036,
+      "CHALLENGER": 1713,
+      "SILVER": 25,
       "PLATINUM": 180,
-      "GRANDMASTER": 1032,
-      "DIAMOND": 300,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 600,
       "GOLD": 65,
-      "SILVER": 25
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Take down Rift Heralds",
@@ -14186,24 +13721,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "IRON": 0.23,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.005,
-      "SILVER": 0.122,
       "NONE": 1,
-      "PLATINUM": 0.033,
-      "BRONZE": 0.168,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.001,
+      "DIAMOND": 0.017,
+      "BRONZE": 0.165,
       "GOLD": 0.076,
-      "DIAMOND": 0.017
+      "IRON": 0.226,
+      "SILVER": 0.121,
+      "MASTER": 0.005,
+      "PLATINUM": 0.033
     },
     "leaderboardThresholds": [
-      9349,
+      9463,
       1,
-      1704,
-      3651,
-      1032,
-      18251
+      1713,
+      3936,
+      1036,
+      19675
     ]
   },
   {
@@ -14211,13 +13746,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 6,
-      "MASTER": 420,
+      "SILVER": 18,
       "PLATINUM": 120,
-      "DIAMOND": 225,
+      "BRONZE": 6,
       "IRON": 2,
+      "MASTER": 420,
       "GOLD": 40,
-      "SILVER": 18
+      "DIAMOND": 225
     },
     "translation": {
       "description": "Kill opponents with help from an Epic monster. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -14252,15 +13787,15 @@ let challengeData = [
     "parentCategory": "1",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.012,
-      "BRONZE": 0.187,
-      "GOLD": 0.088,
-      "IRON": 0.251,
-      "GRANDMASTER": 0,
-      "SILVER": 0.129,
       "CHALLENGER": 0,
-      "MASTER": 0.002,
-      "PLATINUM": 0.034
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.013,
+      "BRONZE": 0.185,
+      "GOLD": 0.089,
+      "IRON": 0.248,
+      "SILVER": 0.129,
+      "MASTER": 0.003,
+      "PLATINUM": 0.036
     }
   },
   {
@@ -14268,15 +13803,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 35,
-      "CHALLENGER": 4511,
-      "MASTER": 1800,
+      "GRANDMASTER": 3047,
+      "CHALLENGER": 4648,
+      "SILVER": 100,
       "PLATINUM": 600,
-      "GRANDMASTER": 2989,
-      "DIAMOND": 1350,
+      "BRONZE": 35,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 200,
-      "SILVER": 100
+      "DIAMOND": 1350
     },
     "translation": {
       "description": "Take turret plates",
@@ -14309,24 +13844,24 @@ let challengeData = [
     "parent": "402200",
     "parentCategory": "3",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.021,
-      "BRONZE": 0.214,
-      "GOLD": 0.116,
-      "IRON": 0.29,
+      "PLATINUM": 0.058,
+      "IRON": 0.285,
+      "GOLD": 0.115,
+      "MASTER": 0.013,
       "GRANDMASTER": 0.003,
-      "SILVER": 0.154,
       "CHALLENGER": 0.001,
-      "MASTER": 0.012,
-      "PLATINUM": 0.057
+      "BRONZE": 0.211,
+      "SILVER": 0.152,
+      "DIAMOND": 0.022,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      24310,
+      26850,
       1,
-      4511,
-      9389,
-      2989,
-      46938
+      4648,
+      10594,
+      3047,
+      52965
     ]
   },
   {
@@ -14334,13 +13869,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 49,
       "CHALLENGER": 100,
-      "MASTER": 25,
+      "SILVER": 1,
       "PLATINUM": 7,
-      "GRANDMASTER": 48,
-      "DIAMOND": 15,
+      "MASTER": 25,
       "GOLD": 3,
-      "SILVER": 1
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Win games without dying and with at least 30% kill participation",
@@ -14375,24 +13910,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Unkillable Demon",
     "percentiles": {
-      "GOLD": 0.132,
-      "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0.019,
+      "SILVER": 0.21,
       "CHALLENGER": 0.001,
-      "IRON": 0,
-      "PLATINUM": 0.08,
-      "DIAMOND": 0.04,
+      "DIAMOND": 0.041,
+      "MASTER": 0.02,
+      "PLATINUM": 0.081,
+      "GOLD": 0.131,
       "GRANDMASTER": 0.005,
-      "SILVER": 0.213
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1056,
+      1106,
       1,
       99,
-      7775,
-      48,
-      74227
+      9236,
+      49,
+      81367
     ]
   },
   {
@@ -14400,12 +13935,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 25,
-      "MASTER": 8,
+      "GRANDMASTER": 15,
+      "CHALLENGER": 26,
       "PLATINUM": 3,
-      "GRANDMASTER": 14,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with a revive, immunity, or zombie ability",
@@ -14439,24 +13974,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "GOLD": 0.052,
-      "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0.005,
+      "SILVER": 0,
       "CHALLENGER": 0,
-      "IRON": 0,
-      "PLATINUM": 0.019,
       "DIAMOND": 0.01,
+      "MASTER": 0.005,
+      "PLATINUM": 0.019,
+      "GOLD": 0.051,
       "GRANDMASTER": 0.001,
-      "SILVER": 0
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       168,
       1,
-      25,
-      3504,
-      14,
-      17516
+      26,
+      3786,
+      15,
+      18924
     ]
   },
   {
@@ -14464,14 +13999,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 240,
-      "MASTER": 50,
+      "GRANDMASTER": 120,
+      "CHALLENGER": 248,
+      "SILVER": 3,
       "PLATINUM": 15,
-      "GRANDMASTER": 117,
-      "DIAMOND": 30,
+      "BRONZE": 1,
+      "MASTER": 50,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Kill 80 lane minions within 10 minutes",
@@ -14506,24 +14041,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Minion",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.015,
-      "BRONZE": 0.128,
-      "GOLD": 0.061,
+      "PLATINUM": 0.03,
       "IRON": 0,
+      "GOLD": 0.061,
+      "MASTER": 0.009,
       "GRANDMASTER": 0.002,
-      "SILVER": 0.079,
       "CHALLENGER": 0,
-      "MASTER": 0.008,
-      "PLATINUM": 0.029
+      "BRONZE": 0.127,
+      "SILVER": 0.079,
+      "DIAMOND": 0.016,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      2481,
+      2578,
       1,
-      240,
-      6483,
-      117,
-      32408
+      248,
+      7156,
+      120,
+      35775
     ]
   },
   {
@@ -14531,12 +14066,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 18,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 12,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 18,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with stealth (camouflage or invisibility count)",
@@ -14570,24 +14105,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "SILVER": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.002,
-      "MASTER": 0,
       "PLATINUM": 0.005,
-      "GRANDMASTER": 0,
-      "GOLD": 0.027,
-      "BRONZE": 0,
       "IRON": 0,
+      "GOLD": 0.027,
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0.002,
       "NONE": 1
     },
     "leaderboardThresholds": [
       121,
       1,
       18,
-      326,
+      371,
       12,
-      1623
+      1850
     ]
   },
   {
@@ -14595,15 +14130,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 412,
-      "MASTER": 150,
+      "GRANDMASTER": 271,
+      "CHALLENGER": 427,
+      "SILVER": 10,
       "PLATINUM": 60,
-      "GRANDMASTER": 265,
-      "DIAMOND": 100,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Get a Takedown (kill or assist) on the first turret of the game",
@@ -14636,24 +14171,24 @@ let challengeData = [
     "parent": "201000",
     "parentCategory": "2",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.033,
-      "BRONZE": 0.195,
-      "GOLD": 0.132,
-      "IRON": 0.307,
-      "GRANDMASTER": 0.004,
-      "SILVER": 0.155,
+      "PLATINUM": 0.058,
+      "IRON": 0.302,
+      "GOLD": 0.131,
+      "MASTER": 0.019,
+      "GRANDMASTER": 0.005,
       "CHALLENGER": 0.001,
-      "MASTER": 0.018,
-      "PLATINUM": 0.058
+      "BRONZE": 0.192,
+      "SILVER": 0.153,
+      "DIAMOND": 0.034,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      2456,
+      2720,
       1,
-      412,
-      13393,
-      265,
-      66958
+      427,
+      14965,
+      271,
+      74818
     ]
   },
   {
@@ -14661,12 +14196,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 35,
-      "MASTER": 8,
+      "GRANDMASTER": 19,
+      "CHALLENGER": 37,
       "PLATINUM": 3,
-      "GRANDMASTER": 18,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more \"poke\" champions",
@@ -14700,24 +14235,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.022,
-      "BRONZE": 0,
-      "GOLD": 0.073,
+      "PLATINUM": 0.035,
       "IRON": 0,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0,
-      "CHALLENGER": 0.001,
+      "GOLD": 0.073,
       "MASTER": 0.013,
-      "PLATINUM": 0.035
+      "GRANDMASTER": 0.003,
+      "CHALLENGER": 0.001,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0.022,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      428,
+      468,
       1,
-      35,
-      9789,
-      18,
-      48937
+      37,
+      10736,
+      19,
+      53676
     ]
   },
   {
@@ -14725,13 +14260,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 300,
+      "SILVER": 30,
       "PLATINUM": 110,
-      "DIAMOND": 200,
+      "BRONZE": 15,
       "IRON": 5,
+      "MASTER": 300,
       "GOLD": 70,
-      "SILVER": 30
+      "DIAMOND": 200
     },
     "translation": {
       "description": "Earn points from challenges in the Adept group",
@@ -14752,16 +14287,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Lethal",
     "percentiles": {
-      "IRON": 0.32,
-      "GRANDMASTER": 0,
-      "MASTER": 0.007,
-      "SILVER": 0.195,
-      "NONE": 1,
-      "PLATINUM": 0.065,
-      "BRONZE": 0.253,
       "CHALLENGER": 0,
-      "GOLD": 0.113,
-      "DIAMOND": 0.026
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.066,
+      "IRON": 0.316,
+      "SILVER": 0.193,
+      "NONE": 1,
+      "BRONZE": 0.25,
+      "DIAMOND": 0.027,
+      "MASTER": 0.008,
+      "GOLD": 0.112
     }
   },
   {
@@ -14769,12 +14304,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 17,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 10,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 17,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions with a summon or a pet",
@@ -14808,16 +14343,16 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "MASTER": 0,
       "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0,
       "IRON": 0,
-      "DIAMOND": 0,
       "NONE": 1,
-      "GOLD": 0,
+      "MASTER": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
       "PLATINUM": 0,
-      "BRONZE": 0
+      "BRONZE": 0,
+      "GOLD": 0,
+      "CHALLENGER": 0
     },
     "leaderboardThresholds": [
       29,
@@ -14833,13 +14368,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 100,
-      "MASTER": 950,
+      "SILVER": 150,
       "PLATINUM": 320,
-      "DIAMOND": 580,
+      "BRONZE": 100,
       "IRON": 50,
+      "MASTER": 950,
       "GOLD": 200,
-      "SILVER": 150
+      "DIAMOND": 580
     },
     "translation": {
       "description": "Earn points from challenges in the Harmony group",
@@ -14860,16 +14395,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Harmonious",
     "percentiles": {
-      "GOLD": 0.048,
-      "NONE": 1,
-      "BRONZE": 0.075,
-      "MASTER": 0,
+      "SILVER": 0.058,
       "CHALLENGER": 0,
-      "IRON": 0.11,
-      "PLATINUM": 0.027,
       "DIAMOND": 0.007,
+      "MASTER": 0,
+      "PLATINUM": 0.028,
+      "GOLD": 0.048,
       "GRANDMASTER": 0,
-      "SILVER": 0.059
+      "BRONZE": 0.075,
+      "IRON": 0.109,
+      "NONE": 1
     }
   },
   {
@@ -14877,12 +14412,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 31,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 17,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 32,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with a global ability",
@@ -14916,24 +14451,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.018,
-      "BRONZE": 0,
-      "GOLD": 0.068,
-      "IRON": 0,
       "GRANDMASTER": 0.003,
       "SILVER": 0,
       "CHALLENGER": 0.001,
-      "MASTER": 0.01,
-      "PLATINUM": 0.03
+      "PLATINUM": 0.031,
+      "IRON": 0,
+      "BRONZE": 0,
+      "MASTER": 0.011,
+      "NONE": 1,
+      "GOLD": 0.068,
+      "DIAMOND": 0.019
     },
     "leaderboardThresholds": [
-      236,
+      241,
       1,
-      31,
-      7677,
+      32,
+      8568,
       17,
-      38377
+      42835
     ]
   },
   {
@@ -14941,12 +14476,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 86,
-      "MASTER": 8,
+      "GRANDMASTER": 37,
+      "CHALLENGER": 90,
       "PLATINUM": 3,
-      "GRANDMASTER": 36,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with an ultimate with a large Area of Effect",
@@ -14980,24 +14515,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0.012,
-      "MASTER": 0.047,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0.079,
-      "BRONZE": 0,
       "CHALLENGER": 0.002,
-      "GOLD": 0.123,
-      "DIAMOND": 0.062
+      "DIAMOND": 0.061,
+      "MASTER": 0.047,
+      "PLATINUM": 0.078,
+      "GOLD": 0.121,
+      "GRANDMASTER": 0.012,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      956,
+      1014,
       1,
-      86,
-      36131,
-      36,
-      180647
+      90,
+      37856,
+      37,
+      189273
     ]
   },
   {
@@ -15005,14 +14540,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 127,
-      "MASTER": 48,
+      "GRANDMASTER": 80,
+      "CHALLENGER": 129,
+      "SILVER": 2,
       "PLATINUM": 12,
-      "GRANDMASTER": 79,
-      "DIAMOND": 28,
+      "BRONZE": 1,
+      "MASTER": 48,
       "GOLD": 5,
-      "SILVER": 2
+      "DIAMOND": 28
     },
     "translation": {
       "description": "Get 12 Takedowns (kill or assist) on enemy champions by 15 minutes",
@@ -15046,24 +14581,24 @@ let challengeData = [
     "parent": "201000",
     "parentCategory": "2",
     "percentiles": {
-      "GOLD": 0.081,
-      "NONE": 1,
-      "BRONZE": 0.195,
-      "MASTER": 0.004,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.039,
       "IRON": 0,
-      "PLATINUM": 0.038,
-      "DIAMOND": 0.011,
+      "GOLD": 0.081,
+      "MASTER": 0.004,
       "GRANDMASTER": 0.001,
-      "SILVER": 0.139
+      "CHALLENGER": 0,
+      "BRONZE": 0.193,
+      "SILVER": 0.139,
+      "DIAMOND": 0.012,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      693,
+      720,
       1,
-      127,
-      2797,
-      79,
-      13977
+      129,
+      3259,
+      80,
+      16291
     ]
   },
   {
@@ -15071,12 +14606,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 25,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 14,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 26,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with a heal or shield. Self-heals and self-shields do not count",
@@ -15110,24 +14645,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
+      "PLATINUM": 0.015,
+      "IRON": 0,
+      "GOLD": 0.045,
       "MASTER": 0.003,
       "GRANDMASTER": 0.001,
       "CHALLENGER": 0,
+      "BRONZE": 0,
       "SILVER": 0,
-      "IRON": 0,
-      "DIAMOND": 0.007,
-      "NONE": 1,
-      "GOLD": 0.045,
-      "PLATINUM": 0.014,
-      "BRONZE": 0
+      "DIAMOND": 0.008,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      179,
+      209,
       1,
-      25,
-      2305,
+      26,
+      2726,
       14,
-      11520
+      13622
     ]
   },
   {
@@ -15135,12 +14670,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 43,
-      "MASTER": 8,
+      "GRANDMASTER": 22,
+      "CHALLENGER": 45,
       "PLATINUM": 3,
-      "GRANDMASTER": 21,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with 2 or more immobilizing spells",
@@ -15175,24 +14710,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
+      "CHALLENGER": 0.001,
       "GRANDMASTER": 0.005,
-      "MASTER": 0.02,
+      "PLATINUM": 0.046,
+      "IRON": 0,
       "SILVER": 0,
       "NONE": 1,
-      "PLATINUM": 0.046,
       "BRONZE": 0,
-      "CHALLENGER": 0.001,
-      "GOLD": 0.085,
-      "DIAMOND": 0.031
+      "DIAMOND": 0.032,
+      "MASTER": 0.021,
+      "GOLD": 0.084
     },
     "leaderboardThresholds": [
-      395,
+      413,
       1,
-      43,
-      15629,
-      21,
-      78137
+      45,
+      16684,
+      22,
+      83412
     ]
   },
   {
@@ -15200,13 +14735,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 40,
+      "SILVER": 5,
       "PLATINUM": 20,
-      "DIAMOND": 30,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 40,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Earn Mastery 7 on different tanks",
@@ -15227,16 +14762,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Juggernaut",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0.026,
+      "PLATINUM": 0,
+      "IRON": 0.076,
       "GOLD": 0.002,
-      "IRON": 0.078,
-      "GRANDMASTER": 0,
-      "SILVER": 0.011,
-      "CHALLENGER": 0,
       "MASTER": 0,
-      "PLATINUM": 0
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.025,
+      "SILVER": 0.011,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -15244,13 +14779,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 30,
+      "SILVER": 5,
       "PLATINUM": 15,
-      "DIAMOND": 20,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Earn Mastery 7 on different marksmen",
@@ -15271,16 +14806,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Deadeye",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0.03,
+      "PLATINUM": 0.001,
+      "IRON": 0.072,
       "GOLD": 0.005,
-      "IRON": 0.074,
-      "GRANDMASTER": 0,
-      "SILVER": 0.017,
-      "CHALLENGER": 0,
       "MASTER": 0,
-      "PLATINUM": 0.001
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.029,
+      "SILVER": 0.016,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -15288,13 +14823,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "MASTER": 30,
+      "SILVER": 5,
       "PLATINUM": 15,
-      "DIAMOND": 20,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 30,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Earn Mastery 7 on different supports",
@@ -15315,16 +14850,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Warden",
     "percentiles": {
-      "BRONZE": 0.031,
-      "MASTER": 0,
-      "PLATINUM": 0.001,
+      "SILVER": 0.015,
       "CHALLENGER": 0,
       "DIAMOND": 0,
-      "IRON": 0.086,
-      "GRANDMASTER": 0,
+      "MASTER": 0,
+      "PLATINUM": 0.001,
       "GOLD": 0.003,
-      "NONE": 1,
-      "SILVER": 0.015
+      "GRANDMASTER": 0,
+      "BRONZE": 0.03,
+      "IRON": 0.084,
+      "NONE": 1
     }
   },
   {
@@ -15332,12 +14867,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 24,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 10,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 23,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
@@ -15370,24 +14905,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
       "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0.001,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "PLATINUM": 0.001,
+      "IRON": 0,
+      "BRONZE": 0,
+      "MASTER": 0,
+      "NONE": 1,
       "GOLD": 0.012,
       "DIAMOND": 0
     },
     "leaderboardThresholds": [
       97,
       1,
-      24,
-      43,
+      23,
+      45,
       10,
-      209
+      220
     ]
   },
   {
@@ -15395,13 +14930,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 70,
+      "SILVER": 12,
       "PLATINUM": 30,
-      "DIAMOND": 50,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 70,
       "GOLD": 20,
-      "SILVER": 12
+      "DIAMOND": 50
     },
     "translation": {
       "description": "Earn Mastery 7 on different fighters",
@@ -15422,16 +14957,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Warlord",
     "percentiles": {
+      "GRANDMASTER": 0,
+      "IRON": 0.1,
       "NONE": 1,
+      "MASTER": 0,
+      "SILVER": 0.004,
       "DIAMOND": 0,
+      "PLATINUM": 0,
       "BRONZE": 0.023,
       "GOLD": 0.001,
-      "IRON": 0.103,
-      "GRANDMASTER": 0,
-      "SILVER": 0.004,
-      "CHALLENGER": 0,
-      "MASTER": 0,
-      "PLATINUM": 0
+      "CHALLENGER": 0
     }
   },
   {
@@ -15439,12 +14974,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 28,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 16,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 29,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with a displacement",
@@ -15479,24 +15014,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0.002,
-      "MASTER": 0.007,
-      "SILVER": 0,
       "NONE": 1,
-      "PLATINUM": 0.024,
-      "BRONZE": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.059,
-      "DIAMOND": 0.013
+      "GRANDMASTER": 0.002,
+      "DIAMOND": 0.014,
+      "BRONZE": 0,
+      "GOLD": 0.058,
+      "IRON": 0,
+      "SILVER": 0,
+      "MASTER": 0.007,
+      "PLATINUM": 0.024
     },
     "leaderboardThresholds": [
       153,
       1,
-      28,
-      5134,
+      29,
+      5614,
       16,
-      25665
+      28066
     ]
   },
   {
@@ -15504,13 +15039,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 65,
+      "SILVER": 12,
       "PLATINUM": 25,
-      "DIAMOND": 45,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 65,
       "GOLD": 18,
-      "SILVER": 12
+      "DIAMOND": 45
     },
     "translation": {
       "description": "Earn Mastery 7 on different mages",
@@ -15531,16 +15066,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Archmage",
     "percentiles": {
-      "IRON": 0.101,
       "GRANDMASTER": 0,
+      "IRON": 0.098,
+      "NONE": 1,
       "MASTER": 0,
       "SILVER": 0.003,
-      "NONE": 1,
+      "DIAMOND": 0,
       "PLATINUM": 0,
       "BRONZE": 0.022,
-      "CHALLENGER": 0,
       "GOLD": 0.001,
-      "DIAMOND": 0
+      "CHALLENGER": 0
     }
   },
   {
@@ -15548,12 +15083,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 19,
-      "MASTER": 8,
-      "PLATINUM": 3,
       "GRANDMASTER": 12,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "CHALLENGER": 20,
+      "PLATINUM": 3,
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with a trap",
@@ -15588,24 +15123,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0.007,
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "SILVER": 0,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
+      "SILVER": 0,
+      "NONE": 1,
+      "BRONZE": 0,
+      "DIAMOND": 0,
       "MASTER": 0,
-      "PLATINUM": 0
+      "GOLD": 0.007
     },
     "leaderboardThresholds": [
-      42,
+      45,
       1,
-      19,
-      26,
+      20,
+      28,
       12,
-      123
+      132
     ]
   },
   {
@@ -15613,13 +15148,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 30,
-      "MASTER": 475,
+      "SILVER": 45,
       "PLATINUM": 160,
-      "DIAMOND": 290,
+      "BRONZE": 30,
       "IRON": 15,
+      "MASTER": 475,
       "GOLD": 100,
-      "SILVER": 45
+      "DIAMOND": 290
     },
     "translation": {
       "description": "Earn points from challenges in the Virtuoso group",
@@ -15640,16 +15175,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Peerless",
     "percentiles": {
-      "BRONZE": 0.05,
-      "MASTER": 0,
-      "PLATINUM": 0,
+      "SILVER": 0.024,
       "CHALLENGER": 0,
       "DIAMOND": 0,
-      "IRON": 0.101,
-      "GRANDMASTER": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.002,
-      "NONE": 1,
-      "SILVER": 0.024
+      "GRANDMASTER": 0,
+      "BRONZE": 0.05,
+      "IRON": 0.098,
+      "NONE": 1
     }
   },
   {
@@ -15657,12 +15192,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 11,
       "CHALLENGER": 17,
-      "MASTER": 8,
       "PLATINUM": 3,
-      "GRANDMASTER": 10,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
@@ -15697,24 +15232,24 @@ let challengeData = [
     "parent": "303400",
     "parentCategory": "4",
     "percentiles": {
-      "GOLD": 0.003,
-      "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0,
+      "SILVER": 0,
       "CHALLENGER": 0,
-      "IRON": 0,
-      "PLATINUM": 0,
       "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
+      "GOLD": 0.003,
       "GRANDMASTER": 0,
-      "SILVER": 0
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       28,
       1,
       17,
-      10,
-      10,
-      44
+      11,
+      11,
+      47
     ]
   },
   {
@@ -15722,13 +15257,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 45,
+      "SILVER": 10,
       "PLATINUM": 25,
-      "DIAMOND": 35,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 45,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 35
     },
     "translation": {
       "description": "Earn Mastery 7 on different assassins",
@@ -15749,16 +15284,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Deathmaster",
     "percentiles": {
-      "BRONZE": 0.016,
-      "MASTER": 0,
-      "PLATINUM": 0,
+      "SILVER": 0.004,
       "CHALLENGER": 0,
       "DIAMOND": 0,
-      "IRON": 0.091,
-      "GRANDMASTER": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.001,
-      "NONE": 1,
-      "SILVER": 0.004
+      "GRANDMASTER": 0,
+      "BRONZE": 0.016,
+      "IRON": 0.089,
+      "NONE": 1
     }
   },
   {
@@ -15766,15 +15301,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 20,
-      "CHALLENGER": 2500,
-      "MASTER": 1000,
-      "PLATINUM": 375,
       "GRANDMASTER": 1500,
-      "DIAMOND": 675,
+      "CHALLENGER": 2500,
+      "SILVER": 50,
+      "PLATINUM": 375,
+      "BRONZE": 20,
       "IRON": 5,
+      "MASTER": 1000,
       "GOLD": 100,
-      "SILVER": 50
+      "DIAMOND": 675
     },
     "translation": {
       "description": "Get takedowns after teleporting into a fight involving 4 or more champions",
@@ -15808,24 +15343,24 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Party Crasher",
     "percentiles": {
-      "BRONZE": 0.042,
-      "MASTER": 0,
       "CHALLENGER": 0,
-      "PLATINUM": 0,
       "GRANDMASTER": 0,
-      "DIAMOND": 0,
-      "IRON": 0.094,
-      "GOLD": 0.005,
+      "PLATINUM": 0,
+      "IRON": 0.095,
+      "SILVER": 0.018,
       "NONE": 1,
-      "SILVER": 0.016
+      "BRONZE": 0.043,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "GOLD": 0.006
     },
     "leaderboardThresholds": [
       0,
       0,
-      0,
+      1569,
       1,
-      1475,
-      1
+      1380,
+      5
     ]
   },
   {
@@ -15833,15 +15368,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 881,
-      "MASTER": 250,
+      "GRANDMASTER": 519,
+      "CHALLENGER": 913,
+      "SILVER": 12,
       "PLATINUM": 75,
-      "GRANDMASTER": 508,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 25,
-      "SILVER": 12
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Fully complete a support item quest (1000g) in less than 14 minutes",
@@ -15874,24 +15409,24 @@ let challengeData = [
     "parent": "204100",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0.118,
-      "MASTER": 0.006,
+      "SILVER": 0.083,
       "CHALLENGER": 0,
-      "PLATINUM": 0.024,
-      "GRANDMASTER": 0.001,
-      "DIAMOND": 0.011,
-      "IRON": 0.205,
-      "GOLD": 0.055,
-      "NONE": 1,
-      "SILVER": 0.082
+      "DIAMOND": 0.012,
+      "MASTER": 0.006,
+      "PLATINUM": 0.025,
+      "GOLD": 0.057,
+      "GRANDMASTER": 0.002,
+      "BRONZE": 0.119,
+      "IRON": 0.203,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3979,
+      4442,
       1,
-      881,
-      4269,
-      508,
-      21341
+      913,
+      4853,
+      519,
+      24257
     ]
   },
   {
@@ -15899,13 +15434,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Team Spirit group",
@@ -15926,16 +15461,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Spirited",
     "percentiles": {
-      "IRON": 0.274,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.175,
       "NONE": 1,
-      "PLATINUM": 0.055,
-      "BRONZE": 0.228,
       "CHALLENGER": 0,
-      "GOLD": 0.104,
-      "DIAMOND": 0.022
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.023,
+      "BRONZE": 0.224,
+      "GOLD": 0.103,
+      "IRON": 0.269,
+      "SILVER": 0.173,
+      "MASTER": 0,
+      "PLATINUM": 0.056
     }
   },
   {
@@ -15943,15 +15478,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 995,
-      "MASTER": 300,
+      "GRANDMASTER": 604,
+      "CHALLENGER": 1039,
+      "SILVER": 15,
       "PLATINUM": 75,
-      "GRANDMASTER": 590,
-      "DIAMOND": 150,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 300,
       "GOLD": 25,
-      "SILVER": 15
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Have over 2 vision score per minute",
@@ -15986,24 +15521,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "All-Seeing",
     "percentiles": {
-      "IRON": 0.062,
-      "GRANDMASTER": 0,
-      "MASTER": 0.002,
-      "SILVER": 0.036,
-      "NONE": 1,
-      "PLATINUM": 0.011,
-      "BRONZE": 0.045,
+      "SILVER": 0.037,
       "CHALLENGER": 0,
-      "GOLD": 0.026,
-      "DIAMOND": 0.005
+      "DIAMOND": 0.006,
+      "MASTER": 0.002,
+      "PLATINUM": 0.012,
+      "GOLD": 0.027,
+      "GRANDMASTER": 0.001,
+      "BRONZE": 0.046,
+      "IRON": 0.063,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3810,
+      4069,
       1,
-      995,
-      1509,
-      590,
-      7538
+      1039,
+      1760,
+      604,
+      8793
     ]
   },
   {
@@ -16011,15 +15546,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 750,
-      "MASTER": 300,
-      "PLATINUM": 90,
       "GRANDMASTER": 500,
-      "DIAMOND": 170,
+      "CHALLENGER": 750,
+      "SILVER": 15,
+      "PLATINUM": 90,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 35,
-      "SILVER": 15
+      "DIAMOND": 170
     },
     "translation": {
       "description": "Ace the enemy team with no allied deaths",
@@ -16052,24 +15587,24 @@ let challengeData = [
     "parent": "302400",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0.314,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.006,
-      "SILVER": 0.149,
-      "NONE": 1,
-      "PLATINUM": 0.053,
-      "BRONZE": 0.212,
+      "SILVER": 0.147,
       "CHALLENGER": 0,
-      "GOLD": 0.103,
-      "DIAMOND": 0.023
+      "DIAMOND": 0.024,
+      "MASTER": 0.006,
+      "PLATINUM": 0.054,
+      "GOLD": 0.102,
+      "GRANDMASTER": 0.001,
+      "BRONZE": 0.209,
+      "IRON": 0.309,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       4581,
       1,
       749,
-      906,
+      1327,
       499,
-      10040
+      13479
     ]
   },
   {
@@ -16077,15 +15612,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1500,
-      "MASTER": 600,
-      "PLATINUM": 150,
       "GRANDMASTER": 900,
-      "DIAMOND": 300,
+      "CHALLENGER": 1500,
+      "SILVER": 25,
+      "PLATINUM": 150,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 600,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Finish your support quest at least 60 seconds faster than the enemy support",
@@ -16118,24 +15653,24 @@ let challengeData = [
     "parent": "204100",
     "parentCategory": "2",
     "percentiles": {
+      "PLATINUM": 0.01,
+      "IRON": 0.14,
+      "GOLD": 0.031,
       "MASTER": 0.001,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "SILVER": 0.053,
-      "IRON": 0.142,
+      "BRONZE": 0.086,
+      "SILVER": 0.052,
       "DIAMOND": 0.003,
-      "NONE": 1,
-      "GOLD": 0.032,
-      "PLATINUM": 0.01,
-      "BRONZE": 0.087
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3369,
+      3574,
       1,
-      1498,
-      194,
+      1499,
+      236,
       899,
-      2138
+      2483
     ]
   },
   {
@@ -16143,15 +15678,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 12,
-      "CHALLENGER": 1779,
-      "MASTER": 650,
+      "GRANDMASTER": 1186,
+      "CHALLENGER": 1841,
+      "SILVER": 30,
       "PLATINUM": 200,
-      "GRANDMASTER": 1157,
-      "DIAMOND": 400,
+      "BRONZE": 12,
       "IRON": 3,
+      "MASTER": 650,
       "GOLD": 75,
-      "SILVER": 30
+      "DIAMOND": 400
     },
     "translation": {
       "description": "Get a takedown where your entire team participates (gets the kill or an assist)",
@@ -16184,24 +15719,24 @@ let challengeData = [
     "parent": "302400",
     "parentCategory": "4",
     "percentiles": {
-      "GOLD": 0.127,
-      "NONE": 1,
-      "BRONZE": 0.217,
-      "MASTER": 0.022,
-      "CHALLENGER": 0.001,
-      "IRON": 0.287,
       "PLATINUM": 0.078,
-      "DIAMOND": 0.043,
-      "GRANDMASTER": 0.005,
-      "SILVER": 0.172
+      "IRON": 0.282,
+      "GOLD": 0.126,
+      "MASTER": 0.023,
+      "GRANDMASTER": 0.006,
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.213,
+      "SILVER": 0.169,
+      "DIAMOND": 0.044,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      7556,
+      7755,
       1,
-      1779,
-      16588,
-      1157,
-      82936
+      1841,
+      18352,
+      1186,
+      91752
     ]
   },
   {
@@ -16209,13 +15744,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Cornerstone group",
@@ -16236,15 +15771,15 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Cornerstone",
     "percentiles": {
-      "SILVER": 0.084,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.008,
-      "MASTER": 0.001,
-      "PLATINUM": 0.021,
+      "PLATINUM": 0.022,
+      "IRON": 0.142,
+      "GOLD": 0.045,
+      "MASTER": 0.002,
       "GRANDMASTER": 0,
-      "GOLD": 0.044,
+      "CHALLENGER": 0,
       "BRONZE": 0.119,
-      "IRON": 0.143,
+      "SILVER": 0.084,
+      "DIAMOND": 0.008,
       "NONE": 1
     }
   },
@@ -16253,15 +15788,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1000,
-      "CHALLENGER": 129282,
-      "MASTER": 45000,
+      "GRANDMASTER": 83252,
+      "CHALLENGER": 133544,
+      "SILVER": 2500,
       "PLATINUM": 15000,
-      "GRANDMASTER": 81488,
-      "DIAMOND": 30000,
+      "BRONZE": 1000,
       "IRON": 200,
+      "MASTER": 45000,
       "GOLD": 5000,
-      "SILVER": 2500
+      "DIAMOND": 30000
     },
     "translation": {
       "description": "Hit skillshots (ranged untargeted abilities) on champions in ARAM",
@@ -16286,24 +15821,24 @@ let challengeData = [
     "parent": "101200",
     "parentCategory": "1",
     "percentiles": {
-      "IRON": 0.192,
-      "GRANDMASTER": 0.003,
-      "MASTER": 0.011,
-      "SILVER": 0.106,
-      "NONE": 1,
-      "PLATINUM": 0.044,
-      "BRONZE": 0.136,
+      "SILVER": 0.105,
       "CHALLENGER": 0.001,
-      "GOLD": 0.083,
-      "DIAMOND": 0.022
+      "DIAMOND": 0.022,
+      "MASTER": 0.012,
+      "PLATINUM": 0.044,
+      "GOLD": 0.082,
+      "GRANDMASTER": 0.003,
+      "BRONZE": 0.134,
+      "IRON": 0.189,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      506708,
+      545862,
       1,
-      129282,
-      8736,
-      81488,
-      43675
+      133544,
+      9644,
+      83252,
+      48215
     ]
   },
   {
@@ -16311,13 +15846,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 30,
-      "MASTER": 400,
+      "SILVER": 45,
       "PLATINUM": 140,
-      "DIAMOND": 250,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 400,
       "GOLD": 90,
-      "SILVER": 45
+      "DIAMOND": 250
     },
     "translation": {
       "description": "Earn points from challenges in the ARAM Finesse group",
@@ -16338,16 +15873,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Swift",
     "percentiles": {
-      "BRONZE": 0.156,
-      "MASTER": 0.007,
       "PLATINUM": 0.061,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.024,
-      "IRON": 0.205,
+      "IRON": 0.201,
+      "GOLD": 0.091,
+      "MASTER": 0.008,
       "GRANDMASTER": 0,
-      "GOLD": 0.092,
-      "NONE": 1,
-      "SILVER": 0.133
+      "CHALLENGER": 0,
+      "BRONZE": 0.153,
+      "SILVER": 0.131,
+      "DIAMOND": 0.025,
+      "NONE": 1
     }
   },
   {
@@ -16355,15 +15890,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 12970,
-      "MASTER": 3000,
+      "GRANDMASTER": 7158,
+      "CHALLENGER": 13433,
+      "SILVER": 150,
       "PLATINUM": 600,
-      "GRANDMASTER": 6986,
-      "DIAMOND": 1200,
+      "BRONZE": 50,
       "IRON": 15,
+      "MASTER": 3000,
       "GOLD": 300,
-      "SILVER": 150
+      "DIAMOND": 1200
     },
     "translation": {
       "description": "Hit snowballs on champions in ARAM",
@@ -16389,24 +15924,24 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Avalanche",
     "percentiles": {
-      "BRONZE": 0.139,
-      "MASTER": 0.018,
+      "SILVER": 0.105,
       "CHALLENGER": 0.001,
-      "PLATINUM": 0.064,
-      "GRANDMASTER": 0.004,
       "DIAMOND": 0.043,
-      "IRON": 0.175,
-      "GOLD": 0.085,
-      "NONE": 1,
-      "SILVER": 0.106
+      "MASTER": 0.019,
+      "PLATINUM": 0.064,
+      "GOLD": 0.084,
+      "GRANDMASTER": 0.005,
+      "BRONZE": 0.136,
+      "IRON": 0.172,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      121565,
+      133044,
       1,
-      12970,
-      13690,
-      6986,
-      68446
+      13433,
+      14812,
+      7158,
+      74056
     ]
   },
   {
@@ -16414,15 +15949,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1200,
-      "CHALLENGER": 183569,
-      "MASTER": 78000,
+      "GRANDMASTER": 126700,
+      "CHALLENGER": 189484,
+      "SILVER": 3600,
       "PLATINUM": 21600,
-      "GRANDMASTER": 124368,
-      "DIAMOND": 44000,
+      "BRONZE": 1200,
       "IRON": 300,
+      "MASTER": 78000,
       "GOLD": 7200,
-      "SILVER": 3600
+      "DIAMOND": 44000
     },
     "translation": {
       "description": "Dodge skillshots (ranged untargeted abilities) in ARAM",
@@ -16447,24 +15982,24 @@ let challengeData = [
     "parent": "101200",
     "parentCategory": "1",
     "percentiles": {
-      "IRON": 0.197,
-      "GRANDMASTER": 0.002,
-      "MASTER": 0.007,
-      "SILVER": 0.108,
-      "NONE": 1,
-      "PLATINUM": 0.045,
-      "BRONZE": 0.145,
+      "SILVER": 0.107,
       "CHALLENGER": 0,
-      "GOLD": 0.085,
-      "DIAMOND": 0.02
+      "DIAMOND": 0.021,
+      "MASTER": 0.007,
+      "PLATINUM": 0.045,
+      "GOLD": 0.084,
+      "GRANDMASTER": 0.002,
+      "BRONZE": 0.143,
+      "IRON": 0.194,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      827680,
+      902552,
       1,
-      183569,
-      5167,
-      124368,
-      25828
+      189484,
+      5912,
+      126700,
+      29553
     ]
   },
   {
@@ -16472,14 +16007,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 97,
-      "MASTER": 30,
-      "PLATINUM": 9,
       "GRANDMASTER": 53,
-      "DIAMOND": 18,
+      "CHALLENGER": 98,
+      "SILVER": 2,
+      "PLATINUM": 9,
+      "BRONZE": 1,
+      "MASTER": 30,
       "GOLD": 4,
-      "SILVER": 2
+      "DIAMOND": 18
     },
     "translation": {
       "description": "Successfully Execute to the outer turret before 10 minutes in ARAM",
@@ -16504,24 +16039,24 @@ let challengeData = [
     "parent": "101200",
     "parentCategory": "1",
     "percentiles": {
-      "BRONZE": 0.111,
-      "MASTER": 0.003,
-      "CHALLENGER": 0,
       "PLATINUM": 0.021,
-      "GRANDMASTER": 0.001,
-      "DIAMOND": 0.008,
       "IRON": 0,
-      "GOLD": 0.048,
-      "NONE": 1,
-      "SILVER": 0.077
+      "GOLD": 0.047,
+      "MASTER": 0.003,
+      "GRANDMASTER": 0.001,
+      "CHALLENGER": 0,
+      "BRONZE": 0.109,
+      "SILVER": 0.075,
+      "DIAMOND": 0.008,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      7885,
+      8625,
       1,
-      97,
-      2285,
+      98,
+      2454,
       53,
-      11417
+      12265
     ]
   },
   {
@@ -16529,13 +16064,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 900,
-      "MASTER": 54000,
+      "SILVER": 2250,
       "PLATINUM": 17000,
-      "DIAMOND": 30000,
+      "BRONZE": 900,
       "IRON": 225,
+      "MASTER": 54000,
       "GOLD": 5000,
-      "SILVER": 2250
+      "DIAMOND": 30000
     },
     "translation": {
       "description": "Kill minions in ARAM",
@@ -16562,16 +16097,16 @@ let challengeData = [
     "parent": "101200",
     "parentCategory": "1",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.023,
-      "BRONZE": 0.143,
-      "GOLD": 0.086,
-      "IRON": 0.193,
+      "PLATINUM": 0.042,
+      "IRON": 0.19,
+      "GOLD": 0.085,
+      "MASTER": 0.01,
       "GRANDMASTER": 0,
-      "SILVER": 0.113,
       "CHALLENGER": 0,
-      "MASTER": 0.009,
-      "PLATINUM": 0.042
+      "BRONZE": 0.141,
+      "SILVER": 0.111,
+      "DIAMOND": 0.024,
+      "NONE": 1
     }
   },
   {
@@ -16607,16 +16142,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Poroyalty",
     "percentiles": {
-      "GOLD": 0,
-      "NONE": 1,
-      "BRONZE": 0.142,
-      "MASTER": 0,
-      "CHALLENGER": 0,
-      "IRON": 0,
       "PLATINUM": 0,
-      "DIAMOND": 0,
+      "IRON": 0,
+      "GOLD": 0,
+      "MASTER": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0
+      "CHALLENGER": 0,
+      "BRONZE": 0.14,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -16659,16 +16194,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Captain Jack",
     "percentiles": {
-      "MASTER": 0,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
       "SILVER": 0.064,
-      "IRON": 0,
+      "CHALLENGER": 0,
       "DIAMOND": 0,
-      "NONE": 1,
-      "GOLD": 0,
+      "MASTER": 0,
       "PLATINUM": 0,
-      "BRONZE": 0
+      "GOLD": 0,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -16676,15 +16211,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 20,
-      "CHALLENGER": 8008,
-      "MASTER": 1000,
+      "GRANDMASTER": 4232,
+      "CHALLENGER": 8235,
+      "SILVER": 45,
       "PLATINUM": 350,
-      "GRANDMASTER": 4144,
-      "DIAMOND": 600,
+      "BRONZE": 20,
       "IRON": 5,
+      "MASTER": 1000,
       "GOLD": 120,
-      "SILVER": 45
+      "DIAMOND": 600
     },
     "translation": {
       "description": "Dodge five skillshots (ranged untargeted abilities) within eight seconds",
@@ -16718,24 +16253,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Fancy Feet",
     "percentiles": {
-      "BRONZE": 0.293,
-      "MASTER": 0.091,
-      "CHALLENGER": 0.005,
-      "PLATINUM": 0.145,
+      "PLATINUM": 0.142,
+      "IRON": 0.338,
+      "GOLD": 0.197,
+      "MASTER": 0.09,
       "GRANDMASTER": 0.023,
-      "DIAMOND": 0.117,
-      "IRON": 0.344,
-      "GOLD": 0.201,
-      "NONE": 1,
-      "SILVER": 0.253
+      "CHALLENGER": 0.005,
+      "BRONZE": 0.288,
+      "SILVER": 0.249,
+      "DIAMOND": 0.115,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      47971,
+      50354,
       1,
-      8008,
-      69831,
-      4144,
-      349148
+      8235,
+      72009,
+      4232,
+      360040
     ]
   },
   {
@@ -16743,14 +16278,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 205,
-      "MASTER": 50,
+      "GRANDMASTER": 106,
+      "CHALLENGER": 208,
+      "SILVER": 2,
       "PLATINUM": 12,
-      "GRANDMASTER": 105,
-      "DIAMOND": 25,
+      "BRONZE": 1,
+      "MASTER": 50,
       "GOLD": 5,
-      "SILVER": 2
+      "DIAMOND": 25
     },
     "translation": {
       "description": "Land 20 skillshots (ranged untargeted abilities) before seven minutes",
@@ -16783,24 +16318,24 @@ let challengeData = [
     "parent": "203100",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0.174,
-      "MASTER": 0.01,
-      "CHALLENGER": 0.001,
-      "PLATINUM": 0.049,
-      "GRANDMASTER": 0.003,
-      "DIAMOND": 0.025,
+      "PLATINUM": 0.048,
       "IRON": 0,
-      "GOLD": 0.084,
-      "NONE": 1,
-      "SILVER": 0.131
+      "GOLD": 0.083,
+      "MASTER": 0.01,
+      "GRANDMASTER": 0.003,
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.171,
+      "SILVER": 0.128,
+      "DIAMOND": 0.025,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3141,
+      3159,
       1,
-      205,
-      7785,
-      105,
-      38921
+      208,
+      8236,
+      106,
+      41174
     ]
   },
   {
@@ -16808,13 +16343,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 20,
-      "MASTER": 400,
+      "SILVER": 45,
       "PLATINUM": 145,
-      "DIAMOND": 250,
+      "BRONZE": 20,
       "IRON": 5,
+      "MASTER": 400,
       "GOLD": 95,
-      "SILVER": 45
+      "DIAMOND": 250
     },
     "translation": {
       "description": "Earn points from challenges in the Flair group",
@@ -16835,15 +16370,15 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Show-Off",
     "percentiles": {
-      "SILVER": 0.18,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.023,
+      "PLATINUM": 0.086,
+      "IRON": 0.35,
+      "GOLD": 0.117,
       "MASTER": 0.001,
-      "PLATINUM": 0.087,
       "GRANDMASTER": 0,
-      "GOLD": 0.119,
-      "BRONZE": 0.252,
-      "IRON": 0.356,
+      "CHALLENGER": 0,
+      "BRONZE": 0.248,
+      "SILVER": 0.177,
+      "DIAMOND": 0.024,
       "NONE": 1
     }
   },
@@ -16852,14 +16387,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 259,
-      "MASTER": 73,
+      "GRANDMASTER": 140,
+      "CHALLENGER": 263,
+      "SILVER": 3,
       "PLATINUM": 23,
-      "GRANDMASTER": 138,
-      "DIAMOND": 43,
+      "BRONZE": 1,
+      "MASTER": 73,
       "GOLD": 8,
-      "SILVER": 3
+      "DIAMOND": 43
     },
     "translation": {
       "description": "Kill two players with the same ability cast",
@@ -16892,24 +16427,24 @@ let challengeData = [
     "parent": "203100",
     "parentCategory": "2",
     "percentiles": {
-      "GOLD": 0.084,
-      "NONE": 1,
-      "BRONZE": 0.203,
-      "MASTER": 0.008,
-      "CHALLENGER": 0,
+      "PLATINUM": 0.04,
       "IRON": 0,
-      "PLATINUM": 0.039,
-      "DIAMOND": 0.02,
+      "GOLD": 0.084,
+      "MASTER": 0.009,
       "GRANDMASTER": 0.002,
-      "SILVER": 0.133
+      "CHALLENGER": 0,
+      "BRONZE": 0.201,
+      "SILVER": 0.132,
+      "DIAMOND": 0.02,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      2712,
+      2862,
       1,
-      259,
-      6404,
-      138,
-      32013
+      263,
+      7185,
+      140,
+      35919
     ]
   },
   {
@@ -16917,13 +16452,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 89,
-      "MASTER": 25,
-      "PLATINUM": 8,
       "GRANDMASTER": 48,
-      "DIAMOND": 13,
+      "CHALLENGER": 90,
+      "SILVER": 1,
+      "PLATINUM": 8,
+      "MASTER": 25,
       "GOLD": 3,
-      "SILVER": 1
+      "DIAMOND": 13
     },
     "translation": {
       "description": "Fully stack Mejai's Soulstealer before 20 minutes",
@@ -16956,24 +16491,24 @@ let challengeData = [
     "parent": "203100",
     "parentCategory": "2",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.003,
-      "BRONZE": 0,
-      "GOLD": 0.019,
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "SILVER": 0.052,
+      "SILVER": 0.051,
       "CHALLENGER": 0,
+      "DIAMOND": 0.003,
       "MASTER": 0.001,
-      "PLATINUM": 0.006
+      "PLATINUM": 0.006,
+      "GOLD": 0.019,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       528,
       1,
-      89,
-      818,
+      90,
+      845,
       48,
-      4086
+      4218
     ]
   },
   {
@@ -16981,15 +16516,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 300,
-      "MASTER": 75,
-      "PLATINUM": 20,
       "GRANDMASTER": 150,
-      "DIAMOND": 40,
+      "CHALLENGER": 300,
+      "SILVER": 3,
+      "PLATINUM": 20,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 75,
       "GOLD": 8,
-      "SILVER": 3
+      "DIAMOND": 40
     },
     "translation": {
       "description": "Steal an Epic jungle monster without using Summoner Smite. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -17023,24 +16558,24 @@ let challengeData = [
     "parent": "203100",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.181,
       "GRANDMASTER": 0,
-      "MASTER": 0.002,
-      "SILVER": 0.113,
-      "NONE": 1,
-      "PLATINUM": 0.025,
-      "BRONZE": 0.136,
+      "SILVER": 0.112,
       "CHALLENGER": 0,
+      "PLATINUM": 0.026,
+      "IRON": 0.179,
+      "BRONZE": 0.134,
+      "MASTER": 0.002,
+      "NONE": 1,
       "GOLD": 0.062,
-      "DIAMOND": 0.008
+      "DIAMOND": 0.009
     },
     "leaderboardThresholds": [
-      1150,
+      1152,
       1,
       299,
-      189,
+      235,
       149,
-      3135
+      3869
     ]
   },
   {
@@ -17048,15 +16583,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 328,
-      "MASTER": 125,
+      "GRANDMASTER": 216,
+      "CHALLENGER": 335,
+      "SILVER": 5,
       "PLATINUM": 30,
-      "GRANDMASTER": 213,
-      "DIAMOND": 70,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 125,
       "GOLD": 10,
-      "SILVER": 5
+      "DIAMOND": 70
     },
     "translation": {
       "description": "End the early laning phase (7 minutes) with 20% more gold and experience than your role opponent",
@@ -17089,24 +16624,24 @@ let challengeData = [
     "parent": "202100",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.296,
-      "GRANDMASTER": 0.003,
-      "MASTER": 0.013,
-      "SILVER": 0.182,
-      "NONE": 1,
-      "PLATINUM": 0.075,
-      "BRONZE": 0.244,
+      "SILVER": 0.18,
       "CHALLENGER": 0.001,
-      "GOLD": 0.139,
-      "DIAMOND": 0.033
+      "DIAMOND": 0.034,
+      "MASTER": 0.014,
+      "PLATINUM": 0.075,
+      "GOLD": 0.137,
+      "GRANDMASTER": 0.003,
+      "BRONZE": 0.241,
+      "IRON": 0.292,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       1926,
       1,
-      328,
-      9767,
-      213,
-      48830
+      335,
+      10865,
+      216,
+      54317
     ]
   },
   {
@@ -17114,15 +16649,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 460,
-      "MASTER": 180,
+      "GRANDMASTER": 307,
+      "CHALLENGER": 472,
+      "SILVER": 8,
       "PLATINUM": 50,
-      "GRANDMASTER": 302,
-      "DIAMOND": 100,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 180,
       "GOLD": 20,
-      "SILVER": 8
+      "DIAMOND": 100
     },
     "translation": {
       "description": "End the laning phase (14 minutes) with 20% more gold and experience than your role opponent",
@@ -17156,24 +16691,24 @@ let challengeData = [
     "parent": "202100",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.308,
-      "GRANDMASTER": 0.003,
-      "MASTER": 0.011,
-      "SILVER": 0.168,
-      "NONE": 1,
-      "PLATINUM": 0.064,
-      "BRONZE": 0.231,
+      "SILVER": 0.166,
       "CHALLENGER": 0.001,
+      "DIAMOND": 0.032,
+      "MASTER": 0.012,
+      "PLATINUM": 0.064,
       "GOLD": 0.114,
-      "DIAMOND": 0.031
+      "GRANDMASTER": 0.003,
+      "BRONZE": 0.228,
+      "IRON": 0.303,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       2435,
       1,
-      460,
-      8601,
-      302,
-      42998
+      472,
+      9630,
+      307,
+      48142
     ]
   },
   {
@@ -17181,14 +16716,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
+      "GRANDMASTER": 104,
       "CHALLENGER": 250,
-      "MASTER": 60,
+      "SILVER": 4,
       "PLATINUM": 20,
-      "GRANDMASTER": 103,
-      "DIAMOND": 35,
+      "BRONZE": 1,
+      "MASTER": 60,
       "GOLD": 8,
-      "SILVER": 4
+      "DIAMOND": 35
     },
     "translation": {
       "description": "Win games where you were at least 100CS ahead of your role opponent at any point in the game",
@@ -17223,24 +16758,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Spitfire",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.004,
-      "SILVER": 0.096,
       "NONE": 1,
-      "PLATINUM": 0.025,
-      "BRONZE": 0.19,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.001,
+      "DIAMOND": 0.012,
+      "BRONZE": 0.188,
       "GOLD": 0.06,
-      "DIAMOND": 0.011
+      "IRON": 0,
+      "SILVER": 0.096,
+      "MASTER": 0.004,
+      "PLATINUM": 0.025
     },
     "leaderboardThresholds": [
-      1307,
+      1416,
       1,
       249,
-      704,
-      103,
-      15463
+      846,
+      104,
+      17201
     ]
   },
   {
@@ -17248,13 +16783,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 400,
+      "SILVER": 40,
       "PLATINUM": 135,
-      "DIAMOND": 240,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 40
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Earn points from challenges in the Domination group",
@@ -17275,15 +16810,15 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Dominant",
     "percentiles": {
-      "SILVER": 0.214,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.028,
-      "MASTER": 0.008,
       "PLATINUM": 0.073,
+      "IRON": 0.314,
+      "GOLD": 0.126,
+      "MASTER": 0.009,
       "GRANDMASTER": 0,
-      "GOLD": 0.127,
-      "BRONZE": 0.257,
-      "IRON": 0.318,
+      "CHALLENGER": 0,
+      "BRONZE": 0.253,
+      "SILVER": 0.211,
+      "DIAMOND": 0.029,
       "NONE": 1
     }
   },
@@ -17292,15 +16827,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 4,
-      "CHALLENGER": 575,
-      "MASTER": 240,
+      "GRANDMASTER": 393,
+      "CHALLENGER": 590,
+      "SILVER": 10,
       "PLATINUM": 75,
-      "GRANDMASTER": 387,
-      "DIAMOND": 135,
+      "BRONZE": 4,
       "IRON": 1,
+      "MASTER": 240,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 135
     },
     "translation": {
       "description": "Earn a three or more level lead over your role opponent at any point in the game",
@@ -17334,24 +16869,24 @@ let challengeData = [
     "parent": "202100",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.318,
-      "GRANDMASTER": 0.002,
-      "MASTER": 0.009,
-      "SILVER": 0.165,
-      "NONE": 1,
-      "PLATINUM": 0.053,
-      "BRONZE": 0.222,
+      "SILVER": 0.163,
       "CHALLENGER": 0,
+      "DIAMOND": 0.028,
+      "MASTER": 0.01,
+      "PLATINUM": 0.054,
       "GOLD": 0.112,
-      "DIAMOND": 0.026
+      "GRANDMASTER": 0.002,
+      "BRONZE": 0.219,
+      "IRON": 0.313,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       2538,
       1,
-      575,
-      6856,
-      387,
-      34276
+      590,
+      7871,
+      393,
+      39348
     ]
   },
   {
@@ -17359,15 +16894,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1212,
-      "MASTER": 500,
+      "GRANDMASTER": 830,
+      "CHALLENGER": 1248,
+      "SILVER": 20,
       "PLATINUM": 125,
-      "GRANDMASTER": 813,
-      "DIAMOND": 300,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 500,
       "GOLD": 45,
-      "SILVER": 20
+      "DIAMOND": 300
     },
     "translation": {
       "description": "End the game with 20% more vision score than your role opponent",
@@ -17401,24 +16936,24 @@ let challengeData = [
     "parent": "202100",
     "parentCategory": "2",
     "percentiles": {
-      "MASTER": 0.011,
-      "GRANDMASTER": 0.003,
       "CHALLENGER": 0.001,
-      "SILVER": 0.167,
-      "IRON": 0.279,
-      "DIAMOND": 0.028,
+      "GRANDMASTER": 0.003,
+      "PLATINUM": 0.07,
+      "IRON": 0.275,
+      "SILVER": 0.165,
       "NONE": 1,
-      "GOLD": 0.123,
-      "PLATINUM": 0.069,
-      "BRONZE": 0.206
+      "BRONZE": 0.204,
+      "DIAMOND": 0.029,
+      "MASTER": 0.012,
+      "GOLD": 0.122
     },
     "leaderboardThresholds": [
-      5093,
+      5510,
       1,
-      1212,
-      8340,
-      813,
-      41694
+      1248,
+      9532,
+      830,
+      47655
     ]
   },
   {
@@ -17426,11 +16961,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 8,
+      "SILVER": 1,
       "PLATINUM": 3,
-      "DIAMOND": 5,
+      "MASTER": 8,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Get multikills with the Elder Dragon Buff",
@@ -17464,16 +16999,16 @@ let challengeData = [
     "parent": "103300",
     "parentCategory": "1",
     "percentiles": {
+      "GRANDMASTER": 0,
+      "IRON": 0,
       "NONE": 1,
-      "DIAMOND": 0.021,
+      "MASTER": 0.009,
+      "SILVER": 0.109,
+      "DIAMOND": 0.022,
+      "PLATINUM": 0.044,
       "BRONZE": 0,
       "GOLD": 0.065,
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "SILVER": 0.109,
-      "CHALLENGER": 0,
-      "MASTER": 0.008,
-      "PLATINUM": 0.043
+      "CHALLENGER": 0
     }
   },
   {
@@ -17481,13 +17016,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 325,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 325,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Tactician group",
@@ -17508,15 +17043,15 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Tactical",
     "percentiles": {
-      "SILVER": 0.141,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.018,
+      "PLATINUM": 0.049,
+      "IRON": 0.273,
+      "GOLD": 0.079,
       "MASTER": 0,
-      "PLATINUM": 0.048,
       "GRANDMASTER": 0,
-      "GOLD": 0.078,
-      "BRONZE": 0.213,
-      "IRON": 0.276,
+      "CHALLENGER": 0,
+      "BRONZE": 0.211,
+      "SILVER": 0.14,
+      "DIAMOND": 0.019,
       "NONE": 1
     }
   },
@@ -17525,15 +17060,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3,
+      "GRANDMASTER": 253,
       "CHALLENGER": 400,
-      "MASTER": 150,
+      "SILVER": 7,
       "PLATINUM": 45,
-      "GRANDMASTER": 250,
-      "DIAMOND": 80,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 15,
-      "SILVER": 7
+      "DIAMOND": 80
     },
     "translation": {
       "description": "Take down junglers near a damaged Epic Monster before it is killed. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
@@ -17566,24 +17101,24 @@ let challengeData = [
     "parent": "103300",
     "parentCategory": "1",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.036,
-      "BRONZE": 0.208,
-      "GOLD": 0.12,
-      "IRON": 0.274,
-      "GRANDMASTER": 0.003,
-      "SILVER": 0.161,
-      "CHALLENGER": 0,
-      "MASTER": 0.012,
-      "PLATINUM": 0.063
+      "SILVER": 0.16,
+      "CHALLENGER": 0.001,
+      "DIAMOND": 0.038,
+      "MASTER": 0.014,
+      "PLATINUM": 0.065,
+      "GOLD": 0.121,
+      "GRANDMASTER": 0.004,
+      "BRONZE": 0.206,
+      "IRON": 0.271,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1434,
+      1583,
       1,
       399,
-      5985,
-      249,
-      44922
+      8949,
+      253,
+      56860
     ]
   },
   {
@@ -17591,11 +17126,11 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 15,
+      "SILVER": 1,
       "PLATINUM": 6,
-      "DIAMOND": 12,
+      "MASTER": 15,
       "GOLD": 3,
-      "SILVER": 1
+      "DIAMOND": 12
     },
     "translation": {
       "description": "Kill Baron Nashor solo",
@@ -17635,8 +17170,8 @@ let challengeData = [
       "DIAMOND": 0.001,
       "MASTER": 0.001,
       "PLATINUM": 0.003,
-      "GRANDMASTER": 0,
       "GOLD": 0.008,
+      "GRANDMASTER": 0,
       "BRONZE": 0,
       "IRON": 0,
       "NONE": 1
@@ -17647,13 +17182,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 100,
-      "MASTER": 1050,
+      "SILVER": 150,
       "PLATINUM": 385,
-      "DIAMOND": 620,
+      "BRONZE": 100,
       "IRON": 50,
+      "MASTER": 1050,
       "GOLD": 215,
-      "SILVER": 150
+      "DIAMOND": 620
     },
     "translation": {
       "description": "Earn points from challenges in the Globetrotter group",
@@ -17674,16 +17209,16 @@ let challengeData = [
     "parentCategory": "4",
     "title": "Runeterran",
     "percentiles": {
-      "GOLD": 0,
-      "NONE": 1,
-      "BRONZE": 0.001,
-      "MASTER": 0,
-      "CHALLENGER": 0,
-      "IRON": 0.003,
-      "PLATINUM": 0,
-      "DIAMOND": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0.001
+      "IRON": 0.003,
+      "NONE": 1,
+      "MASTER": 0,
+      "SILVER": 0.001,
+      "DIAMOND": 0,
+      "PLATINUM": 0,
+      "BRONZE": 0.001,
+      "GOLD": 0,
+      "CHALLENGER": 0
     }
   },
   {
@@ -17726,16 +17261,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Disrespectful",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.005,
-      "PLATINUM": 0,
+      "SILVER": 0,
       "CHALLENGER": 0,
       "DIAMOND": 0,
-      "IRON": 0,
-      "GRANDMASTER": 0,
+      "MASTER": 0.005,
+      "PLATINUM": 0,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -17743,10 +17278,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Bandle City",
@@ -17781,16 +17316,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.002,
-      "DIAMOND": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -17798,10 +17333,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Bilgewater",
@@ -17836,16 +17371,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0.001,
-      "IRON": 0,
-      "GRANDMASTER": 0,
       "SILVER": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
       "MASTER": 0,
-      "PLATINUM": 0
+      "PLATINUM": 0,
+      "GOLD": 0.001,
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -17853,10 +17388,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Demacia",
@@ -17891,16 +17426,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "MASTER": 0,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0,
-      "IRON": 0,
-      "DIAMOND": 0,
       "NONE": 1,
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0,
+      "BRONZE": 0,
       "GOLD": 0.002,
-      "PLATINUM": 0,
-      "BRONZE": 0
+      "IRON": 0,
+      "SILVER": 0,
+      "MASTER": 0,
+      "PLATINUM": 0
     }
   },
   {
@@ -17908,10 +17443,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Piltover",
@@ -17946,16 +17481,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.001,
-      "DIAMOND": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -17963,15 +17498,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 1000,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 500,
-      "DIAMOND": 125,
+      "CHALLENGER": 1000,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Win games as a Support",
@@ -18005,24 +17540,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Support Diff",
     "percentiles": {
-      "IRON": 0.102,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.013,
-      "SILVER": 0.039,
-      "NONE": 1,
-      "PLATINUM": 0.021,
-      "BRONZE": 0.056,
+      "SILVER": 0.04,
       "CHALLENGER": 0,
-      "GOLD": 0.027,
-      "DIAMOND": 0.016
+      "DIAMOND": 0.017,
+      "MASTER": 0.013,
+      "PLATINUM": 0.021,
+      "GOLD": 0.028,
+      "GRANDMASTER": 0.002,
+      "BRONZE": 0.057,
+      "IRON": 0.101,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3647,
+      3986,
       1,
       999,
-      1812,
+      2347,
       499,
-      21100
+      24843
     ]
   },
   {
@@ -18030,10 +17565,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from the Shadow Isles",
@@ -18068,14 +17603,14 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
       "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
+      "BRONZE": 0,
+      "MASTER": 0,
+      "NONE": 1,
       "GOLD": 0.001,
       "DIAMOND": 0
     }
@@ -18085,15 +17620,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 1000,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 500,
-      "DIAMOND": 125,
+      "CHALLENGER": 1000,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Win games as a Bot Carry",
@@ -18127,24 +17662,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Bot Diff",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.016,
-      "BRONZE": 0.06,
-      "GOLD": 0.029,
-      "IRON": 0.107,
-      "GRANDMASTER": 0.001,
-      "SILVER": 0.041,
       "CHALLENGER": 0,
-      "MASTER": 0.012,
-      "PLATINUM": 0.021
+      "GRANDMASTER": 0.001,
+      "PLATINUM": 0.022,
+      "IRON": 0.106,
+      "SILVER": 0.042,
+      "NONE": 1,
+      "BRONZE": 0.06,
+      "DIAMOND": 0.017,
+      "MASTER": 0.013,
+      "GOLD": 0.029
     },
     "leaderboardThresholds": [
-      2651,
+      2926,
       1,
       999,
-      1373,
+      1770,
       499,
-      16484
+      19661
     ]
   },
   {
@@ -18152,10 +17687,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Shurima",
@@ -18190,16 +17725,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "GOLD": 0.001,
       "NONE": 1,
-      "BRONZE": 0,
-      "MASTER": 0,
       "CHALLENGER": 0,
-      "IRON": 0,
-      "PLATINUM": 0,
-      "DIAMOND": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0
+      "DIAMOND": 0,
+      "BRONZE": 0,
+      "GOLD": 0.001,
+      "IRON": 0,
+      "SILVER": 0,
+      "MASTER": 0,
+      "PLATINUM": 0
     }
   },
   {
@@ -18207,15 +17742,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 690,
-      "MASTER": 475,
-      "PLATINUM": 160,
       "GRANDMASTER": 570,
-      "DIAMOND": 290,
+      "CHALLENGER": 690,
+      "SILVER": 45,
+      "PLATINUM": 160,
+      "BRONZE": 30,
       "IRON": 15,
+      "MASTER": 475,
       "GOLD": 100,
-      "SILVER": 45
+      "DIAMOND": 290
     },
     "translation": {
       "description": "Earn points from challenges in the Ace group",
@@ -18235,16 +17770,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Just Better",
     "percentiles": {
-      "MASTER": 0,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0.083,
-      "IRON": 0.137,
-      "DIAMOND": 0.006,
       "NONE": 1,
-      "GOLD": 0.056,
-      "PLATINUM": 0.024,
-      "BRONZE": 0.1
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.006,
+      "BRONZE": 0.1,
+      "GOLD": 0.057,
+      "IRON": 0.136,
+      "SILVER": 0.083,
+      "MASTER": 0,
+      "PLATINUM": 0.026
     },
     "leaderboardThresholds": [
       0,
@@ -18252,7 +17787,7 @@ let challengeData = [
       600,
       1,
       560,
-      577
+      767
     ]
   },
   {
@@ -18260,10 +17795,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Targon",
@@ -18298,16 +17833,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.001,
-      "DIAMOND": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -18315,15 +17850,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 1000,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 500,
-      "DIAMOND": 125,
+      "CHALLENGER": 1000,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Win games as a Jungler",
@@ -18357,24 +17892,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Jungle Diff",
     "percentiles": {
-      "BRONZE": 0.06,
-      "MASTER": 0.013,
-      "PLATINUM": 0.022,
+      "SILVER": 0.042,
       "CHALLENGER": 0,
       "DIAMOND": 0.017,
-      "IRON": 0.103,
+      "MASTER": 0.013,
+      "PLATINUM": 0.022,
+      "GOLD": 0.03,
       "GRANDMASTER": 0.001,
-      "GOLD": 0.029,
-      "NONE": 1,
-      "SILVER": 0.042
+      "BRONZE": 0.06,
+      "IRON": 0.103,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3838,
+      3931,
       1,
       999,
-      1389,
+      1810,
       499,
-      16749
+      19713
     ]
   },
   {
@@ -18382,10 +17917,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from the Freljord",
@@ -18420,16 +17955,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0,
-      "NONE": 1,
       "PLATINUM": 0,
-      "BRONZE": 0,
-      "CHALLENGER": 0,
+      "IRON": 0,
       "GOLD": 0.002,
-      "DIAMOND": 0
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -18437,10 +17972,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Ionia",
@@ -18475,16 +18010,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.002,
-      "DIAMOND": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -18492,10 +18027,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Ixtal",
@@ -18530,16 +18065,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
-      "CHALLENGER": 0,
       "PLATINUM": 0,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0,
       "IRON": 0,
       "GOLD": 0.001,
-      "NONE": 1,
-      "SILVER": 0
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -18547,10 +18082,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Noxus",
@@ -18585,16 +18120,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0,
-      "BRONZE": 0,
-      "GOLD": 0.001,
-      "IRON": 0,
       "GRANDMASTER": 0,
       "SILVER": 0,
       "CHALLENGER": 0,
+      "PLATINUM": 0,
+      "IRON": 0,
+      "BRONZE": 0,
       "MASTER": 0,
-      "PLATINUM": 0
+      "NONE": 1,
+      "GOLD": 0.001,
+      "DIAMOND": 0
     }
   },
   {
@@ -18602,13 +18137,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 60,
-      "MASTER": 2950,
+      "SILVER": 90,
       "PLATINUM": 1030,
-      "DIAMOND": 1775,
+      "BRONZE": 60,
       "IRON": 30,
+      "MASTER": 2950,
       "GOLD": 620,
-      "SILVER": 90
+      "DIAMOND": 1775
     },
     "translation": {
       "description": "Earn points from challenges in the Clash, Synchronicity, Harmony, and Globetrotter groups",
@@ -18629,16 +18164,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Team Player",
     "percentiles": {
-      "MASTER": 0,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0.103,
-      "IRON": 0.156,
-      "DIAMOND": 0,
       "NONE": 1,
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0,
+      "BRONZE": 0.121,
       "GOLD": 0.015,
-      "PLATINUM": 0.002,
-      "BRONZE": 0.122
+      "IRON": 0.154,
+      "SILVER": 0.102,
+      "MASTER": 0,
+      "PLATINUM": 0.002
     }
   },
   {
@@ -18646,10 +18181,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from the Void",
@@ -18684,16 +18219,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "MASTER": 0,
       "GRANDMASTER": 0,
-      "CHALLENGER": 0,
       "SILVER": 0,
+      "CHALLENGER": 0,
+      "PLATINUM": 0,
       "IRON": 0,
-      "DIAMOND": 0,
+      "BRONZE": 0,
+      "MASTER": 0,
       "NONE": 1,
       "GOLD": 0.001,
-      "PLATINUM": 0,
-      "BRONZE": 0
+      "DIAMOND": 0
     }
   },
   {
@@ -18701,15 +18236,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 365,
-      "MASTER": 115,
+      "GRANDMASTER": 219,
+      "CHALLENGER": 377,
+      "SILVER": 20,
       "PLATINUM": 65,
-      "GRANDMASTER": 215,
-      "DIAMOND": 90,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 115,
       "GOLD": 40,
-      "SILVER": 20
+      "DIAMOND": 90
     },
     "translation": {
       "description": "Win games queued as Fill, where you play the position you filled into",
@@ -18743,24 +18278,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Player Diff",
     "percentiles": {
-      "BRONZE": 0.034,
-      "MASTER": 0.003,
       "CHALLENGER": 0,
-      "PLATINUM": 0.007,
       "GRANDMASTER": 0.001,
-      "DIAMOND": 0.004,
+      "PLATINUM": 0.007,
       "IRON": 0.049,
-      "GOLD": 0.012,
+      "SILVER": 0.021,
       "NONE": 1,
-      "SILVER": 0.021
+      "BRONZE": 0.034,
+      "DIAMOND": 0.004,
+      "MASTER": 0.003,
+      "GOLD": 0.012
     },
     "leaderboardThresholds": [
-      1802,
+      1936,
       1,
-      365,
-      2101,
-      215,
-      10497
+      377,
+      2345,
+      219,
+      11721
     ]
   },
   {
@@ -18768,10 +18303,10 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 10,
       "PLATINUM": 3,
-      "DIAMOND": 6,
-      "GOLD": 1
+      "MASTER": 10,
+      "GOLD": 1,
+      "DIAMOND": 6
     },
     "translation": {
       "description": "As a premade 5, win games with 5 champions from Zaun",
@@ -18806,16 +18341,16 @@ let challengeData = [
     "parent": "303500",
     "parentCategory": "4",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
-      "CHALLENGER": 0,
       "PLATINUM": 0,
-      "GRANDMASTER": 0,
-      "DIAMOND": 0,
       "IRON": 0,
       "GOLD": 0.001,
-      "NONE": 1,
-      "SILVER": 0
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -18823,15 +18358,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 1000,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 500,
-      "DIAMOND": 125,
+      "CHALLENGER": 1000,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Win games as Mid",
@@ -18865,24 +18400,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Mid Diff",
     "percentiles": {
-      "BRONZE": 0.06,
-      "MASTER": 0.013,
+      "SILVER": 0.042,
       "CHALLENGER": 0,
+      "DIAMOND": 0.017,
+      "MASTER": 0.013,
       "PLATINUM": 0.022,
+      "GOLD": 0.03,
       "GRANDMASTER": 0.001,
-      "DIAMOND": 0.016,
+      "BRONZE": 0.06,
       "IRON": 0.106,
-      "GOLD": 0.029,
-      "NONE": 1,
-      "SILVER": 0.042
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3636,
+      3896,
       1,
       999,
-      905,
+      1256,
       499,
-      14648
+      17624
     ]
   },
   {
@@ -18890,15 +18425,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 30,
-      "CHALLENGER": 1000,
-      "MASTER": 150,
-      "PLATINUM": 100,
       "GRANDMASTER": 500,
-      "DIAMOND": 125,
+      "CHALLENGER": 1000,
+      "SILVER": 50,
+      "PLATINUM": 100,
+      "BRONZE": 30,
       "IRON": 10,
+      "MASTER": 150,
       "GOLD": 75,
-      "SILVER": 50
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Win games as Top",
@@ -18932,24 +18467,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Top Diff",
     "percentiles": {
-      "BRONZE": 0.059,
-      "MASTER": 0.013,
-      "PLATINUM": 0.021,
+      "SILVER": 0.041,
       "CHALLENGER": 0,
-      "DIAMOND": 0.016,
-      "IRON": 0.105,
-      "GRANDMASTER": 0.001,
+      "DIAMOND": 0.017,
+      "MASTER": 0.013,
+      "PLATINUM": 0.022,
       "GOLD": 0.029,
-      "NONE": 1,
-      "SILVER": 0.041
+      "GRANDMASTER": 0.001,
+      "BRONZE": 0.059,
+      "IRON": 0.105,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3036,
+      3252,
       1,
       999,
-      1274,
+      1670,
       499,
-      16556
+      19860
     ]
   },
   {
@@ -18958,15 +18493,15 @@ let challengeData = [
     "endTimestamp": 1704992400000,
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 3,
-      "CHALLENGER": 90,
-      "MASTER": 40,
-      "PLATINUM": 15,
       "GRANDMASTER": 60,
-      "DIAMOND": 25,
+      "CHALLENGER": 90,
+      "SILVER": 6,
+      "PLATINUM": 15,
+      "BRONZE": 3,
       "IRON": 1,
+      "MASTER": 40,
       "GOLD": 10,
-      "SILVER": 6
+      "DIAMOND": 25
     },
     "translation": {
       "description": "Deal the most damage to champions in the game",
@@ -18987,16 +18522,16 @@ let challengeData = [
     "parent": "601000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.04,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.013,
-      "NONE": 1,
-      "PLATINUM": 0.004,
-      "BRONZE": 0.022,
+      "SILVER": 0.012,
       "CHALLENGER": 0,
+      "DIAMOND": 0.001,
+      "MASTER": 0,
+      "PLATINUM": 0.004,
       "GOLD": 0.007,
-      "DIAMOND": 0.001
+      "GRANDMASTER": 0,
+      "BRONZE": 0.021,
+      "IRON": 0.039,
+      "NONE": 1
     }
   },
   {
@@ -19004,13 +18539,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 20,
-      "MASTER": 400,
+      "SILVER": 45,
       "PLATINUM": 145,
-      "DIAMOND": 250,
+      "BRONZE": 20,
       "IRON": 5,
+      "MASTER": 400,
       "GOLD": 95,
-      "SILVER": 45
+      "DIAMOND": 250
     },
     "translation": {
       "description": "Earn points from challenges in the Arena Brawler Group",
@@ -19030,16 +18565,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Arena Brawler",
     "percentiles": {
-      "SILVER": 0.046,
       "CHALLENGER": 0,
-      "DIAMOND": 0.017,
-      "MASTER": 0.009,
-      "PLATINUM": 0.026,
       "GRANDMASTER": 0,
-      "GOLD": 0.033,
-      "BRONZE": 0.058,
-      "IRON": 0.069,
-      "NONE": 1
+      "PLATINUM": 0.025,
+      "IRON": 0.066,
+      "SILVER": 0.044,
+      "NONE": 1,
+      "BRONZE": 0.055,
+      "DIAMOND": 0.016,
+      "MASTER": 0.009,
+      "GOLD": 0.032
     }
   },
   {
@@ -19048,15 +18583,15 @@ let challengeData = [
     "endTimestamp": 1704992400000,
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 100,
-      "MASTER": 40,
-      "PLATINUM": 20,
       "GRANDMASTER": 65,
-      "DIAMOND": 28,
+      "CHALLENGER": 100,
+      "SILVER": 9,
+      "PLATINUM": 20,
+      "BRONZE": 5,
       "IRON": 2,
+      "MASTER": 40,
       "GOLD": 14,
-      "SILVER": 9
+      "DIAMOND": 28
     },
     "translation": {
       "description": "Get double kills",
@@ -19077,16 +18612,16 @@ let challengeData = [
     "parent": "601000",
     "parentCategory": "0",
     "percentiles": {
-      "MASTER": 0.012,
-      "GRANDMASTER": 0,
-      "CHALLENGER": 0,
-      "SILVER": 0.033,
-      "IRON": 0.056,
-      "DIAMOND": 0.017,
       "NONE": 1,
-      "GOLD": 0.026,
-      "PLATINUM": 0.021,
-      "BRONZE": 0.042
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0,
+      "DIAMOND": 0.016,
+      "BRONZE": 0.04,
+      "GOLD": 0.025,
+      "IRON": 0.053,
+      "SILVER": 0.031,
+      "MASTER": 0.012,
+      "PLATINUM": 0.02
     }
   },
   {
@@ -19095,15 +18630,15 @@ let challengeData = [
     "endTimestamp": 1704992400000,
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 300,
-      "MASTER": 140,
-      "PLATINUM": 60,
       "GRANDMASTER": 200,
-      "DIAMOND": 90,
+      "CHALLENGER": 300,
+      "SILVER": 18,
+      "PLATINUM": 60,
+      "BRONZE": 10,
       "IRON": 4,
+      "MASTER": 140,
       "GOLD": 32,
-      "SILVER": 18
+      "DIAMOND": 90
     },
     "translation": {
       "description": "Dodge five skillshots (ranged untargeted abilities) within eight seconds",
@@ -19124,15 +18659,15 @@ let challengeData = [
     "parent": "601000",
     "parentCategory": "0",
     "percentiles": {
-      "SILVER": 0.049,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.027,
-      "MASTER": 0.021,
-      "PLATINUM": 0.033,
+      "PLATINUM": 0.032,
+      "IRON": 0.059,
+      "GOLD": 0.04,
+      "MASTER": 0.02,
       "GRANDMASTER": 0,
-      "GOLD": 0.042,
-      "BRONZE": 0.055,
-      "IRON": 0.062,
+      "CHALLENGER": 0,
+      "BRONZE": 0.053,
+      "SILVER": 0.047,
+      "DIAMOND": 0.026,
       "NONE": 1
     }
   },
@@ -19142,15 +18677,15 @@ let challengeData = [
     "endTimestamp": 1704992400000,
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 70,
-      "MASTER": 35,
-      "PLATINUM": 14,
       "GRANDMASTER": 50,
-      "DIAMOND": 22,
+      "CHALLENGER": 70,
+      "SILVER": 4,
+      "PLATINUM": 14,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 35,
       "GOLD": 8,
-      "SILVER": 4
+      "DIAMOND": 22
     },
     "translation": {
       "description": "Get kills while more enemy champions than friendly ones are nearby",
@@ -19171,16 +18706,16 @@ let challengeData = [
     "parent": "601000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.055,
-      "GRANDMASTER": 0,
-      "MASTER": 0.006,
-      "SILVER": 0.034,
-      "NONE": 1,
-      "PLATINUM": 0.016,
-      "BRONZE": 0.045,
       "CHALLENGER": 0,
-      "GOLD": 0.024,
-      "DIAMOND": 0.011
+      "GRANDMASTER": 0,
+      "PLATINUM": 0.015,
+      "IRON": 0.052,
+      "SILVER": 0.033,
+      "NONE": 1,
+      "BRONZE": 0.043,
+      "DIAMOND": 0.01,
+      "MASTER": 0.006,
+      "GOLD": 0.023
     }
   },
   {
@@ -19189,14 +18724,14 @@ let challengeData = [
     "endTimestamp": 1704992400000,
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 70,
-      "MASTER": 36,
-      "PLATINUM": 15,
       "GRANDMASTER": 50,
-      "DIAMOND": 24,
+      "CHALLENGER": 70,
+      "SILVER": 5,
+      "PLATINUM": 15,
+      "BRONZE": 2,
+      "MASTER": 36,
       "GOLD": 9,
-      "SILVER": 5
+      "DIAMOND": 24
     },
     "translation": {
       "description": "Take 10000 pre-mitigation damage from champions in a single fight without dying",
@@ -19217,16 +18752,16 @@ let challengeData = [
     "parent": "601000",
     "parentCategory": "0",
     "percentiles": {
+      "PLATINUM": 0.02,
       "IRON": 0,
-      "GRANDMASTER": 0,
+      "GOLD": 0.027,
       "MASTER": 0.01,
-      "SILVER": 0.037,
-      "NONE": 1,
-      "PLATINUM": 0.021,
-      "BRONZE": 0.05,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.028,
-      "DIAMOND": 0.015
+      "BRONZE": 0.047,
+      "SILVER": 0.035,
+      "DIAMOND": 0.014,
+      "NONE": 1
     }
   },
   {
@@ -19235,15 +18770,15 @@ let challengeData = [
     "endTimestamp": 1704992400000,
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 6,
-      "CHALLENGER": 120,
-      "MASTER": 65,
-      "PLATINUM": 30,
       "GRANDMASTER": 90,
-      "DIAMOND": 45,
+      "CHALLENGER": 120,
+      "SILVER": 12,
+      "PLATINUM": 30,
+      "BRONZE": 6,
       "IRON": 2,
+      "MASTER": 65,
       "GOLD": 20,
-      "SILVER": 12
+      "DIAMOND": 45
     },
     "translation": {
       "description": "Save an ally who would have otherwise taken lethal damage with a heal or shield",
@@ -19264,16 +18799,16 @@ let challengeData = [
     "parent": "601000",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0.049,
       "GRANDMASTER": 0,
-      "MASTER": 0.009,
-      "SILVER": 0.026,
+      "IRON": 0.046,
       "NONE": 1,
-      "PLATINUM": 0.017,
-      "BRONZE": 0.034,
-      "CHALLENGER": 0,
-      "GOLD": 0.021,
-      "DIAMOND": 0.013
+      "MASTER": 0.009,
+      "SILVER": 0.025,
+      "DIAMOND": 0.012,
+      "PLATINUM": 0.016,
+      "BRONZE": 0.033,
+      "GOLD": 0.02,
+      "CHALLENGER": 0
     }
   },
   {
@@ -19281,14 +18816,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 198,
-      "MASTER": 40,
+      "GRANDMASTER": 101,
+      "CHALLENGER": 214,
+      "SILVER": 2,
       "PLATINUM": 12,
-      "GRANDMASTER": 96,
-      "DIAMOND": 24,
+      "BRONZE": 1,
+      "MASTER": 40,
       "GOLD": 6,
-      "SILVER": 2
+      "DIAMOND": 24
     },
     "translation": {
       "description": "Kill two or more Sight Wards with a single Sweeper activation",
@@ -19321,24 +18856,24 @@ let challengeData = [
     "parent": "204200",
     "parentCategory": "2",
     "percentiles": {
-      "MASTER": 0.016,
-      "GRANDMASTER": 0.004,
+      "SILVER": 0.122,
       "CHALLENGER": 0.001,
-      "SILVER": 0.121,
+      "DIAMOND": 0.031,
+      "MASTER": 0.019,
+      "PLATINUM": 0.053,
+      "GOLD": 0.078,
+      "GRANDMASTER": 0.005,
+      "BRONZE": 0.153,
       "IRON": 0,
-      "DIAMOND": 0.028,
-      "NONE": 1,
-      "GOLD": 0.075,
-      "PLATINUM": 0.05,
-      "BRONZE": 0.153
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      5455,
+      6040,
       1,
-      198,
-      12250,
-      96,
-      61242
+      214,
+      14838,
+      101,
+      74185
     ]
   },
   {
@@ -19346,15 +18881,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 729,
-      "MASTER": 300,
+      "GRANDMASTER": 504,
+      "CHALLENGER": 759,
+      "SILVER": 12,
       "PLATINUM": 75,
-      "GRANDMASTER": 491,
-      "DIAMOND": 150,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 300,
       "GOLD": 25,
-      "SILVER": 12
+      "DIAMOND": 150
     },
     "translation": {
       "description": "Protect wards by being nearby when an enemy damages it but it survives",
@@ -19388,24 +18923,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Ward Warden",
     "percentiles": {
-      "BRONZE": 0.209,
-      "MASTER": 0.012,
-      "PLATINUM": 0.071,
       "CHALLENGER": 0.001,
-      "DIAMOND": 0.038,
-      "IRON": 0.302,
       "GRANDMASTER": 0.003,
-      "GOLD": 0.126,
+      "PLATINUM": 0.072,
+      "IRON": 0.298,
+      "SILVER": 0.162,
       "NONE": 1,
-      "SILVER": 0.163
+      "BRONZE": 0.206,
+      "DIAMOND": 0.04,
+      "MASTER": 0.014,
+      "GOLD": 0.126
     },
     "leaderboardThresholds": [
-      2880,
+      3086,
       1,
-      729,
-      9317,
-      491,
-      46579
+      759,
+      10985,
+      504,
+      54918
     ]
   },
   {
@@ -19413,14 +18948,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 75,
-      "MASTER": 25,
-      "PLATINUM": 8,
       "GRANDMASTER": 41,
-      "DIAMOND": 15,
+      "CHALLENGER": 75,
+      "SILVER": 2,
+      "PLATINUM": 8,
+      "BRONZE": 1,
+      "MASTER": 25,
       "GOLD": 3,
-      "SILVER": 2
+      "DIAMOND": 15
     },
     "translation": {
       "description": "Destroy 10 wards before 20 minutes",
@@ -19453,24 +18988,24 @@ let challengeData = [
     "parent": "204200",
     "parentCategory": "2",
     "percentiles": {
+      "GRANDMASTER": 0.001,
+      "SILVER": 0.089,
+      "CHALLENGER": 0,
+      "PLATINUM": 0.025,
+      "IRON": 0,
       "BRONZE": 0.138,
       "MASTER": 0.003,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.024,
-      "GRANDMASTER": 0.001,
-      "DIAMOND": 0.009,
-      "IRON": 0,
-      "GOLD": 0.065,
       "NONE": 1,
-      "SILVER": 0.088
+      "GOLD": 0.067,
+      "DIAMOND": 0.01
     },
     "leaderboardThresholds": [
-      1637,
+      1764,
       1,
       74,
-      1873,
+      2388,
       41,
-      11010
+      13423
     ]
   },
   {
@@ -19478,13 +19013,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 15,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 15,
       "IRON": 5,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Visionary group",
@@ -19505,16 +19040,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Visionary",
     "percentiles": {
-      "BRONZE": 0.202,
-      "MASTER": 0.003,
-      "PLATINUM": 0.066,
       "CHALLENGER": 0,
-      "DIAMOND": 0.028,
-      "IRON": 0.307,
       "GRANDMASTER": 0,
-      "GOLD": 0.108,
+      "PLATINUM": 0.068,
+      "IRON": 0.303,
+      "SILVER": 0.164,
       "NONE": 1,
-      "SILVER": 0.165
+      "BRONZE": 0.201,
+      "DIAMOND": 0.031,
+      "MASTER": 0.004,
+      "GOLD": 0.109
     }
   },
   {
@@ -19522,13 +19057,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 5,
-      "MASTER": 150,
+      "SILVER": 15,
       "PLATINUM": 50,
-      "DIAMOND": 100,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 30,
-      "SILVER": 15
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Earn an S- grade or higher on different champions in ARAM",
@@ -19555,16 +19090,16 @@ let challengeData = [
     "parent": "101300",
     "parentCategory": "1",
     "percentiles": {
-      "GOLD": 0.034,
-      "NONE": 1,
-      "BRONZE": 0.108,
-      "MASTER": 0,
-      "CHALLENGER": 0,
-      "IRON": 0.173,
-      "PLATINUM": 0.012,
-      "DIAMOND": 0,
       "GRANDMASTER": 0,
-      "SILVER": 0.065
+      "IRON": 0.172,
+      "NONE": 1,
+      "MASTER": 0,
+      "SILVER": 0.066,
+      "DIAMOND": 0,
+      "PLATINUM": 0.013,
+      "BRONZE": 0.108,
+      "GOLD": 0.035,
+      "CHALLENGER": 0
     }
   },
   {
@@ -19572,13 +19107,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 95,
-      "MASTER": 1700,
+      "SILVER": 150,
       "PLATINUM": 560,
-      "DIAMOND": 1000,
+      "BRONZE": 95,
       "IRON": 45,
+      "MASTER": 1700,
       "GOLD": 350,
-      "SILVER": 150
+      "DIAMOND": 1000
     },
     "translation": {
       "description": "Earn points from challenges in the Strategy, Demolition, Synergy, and Team Spirit groups",
@@ -19599,16 +19134,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Playmaker",
     "percentiles": {
-      "MASTER": 0,
       "GRANDMASTER": 0,
+      "SILVER": 0.2,
       "CHALLENGER": 0,
-      "SILVER": 0.199,
-      "IRON": 0.289,
-      "DIAMOND": 0.018,
+      "PLATINUM": 0.069,
+      "IRON": 0.287,
+      "BRONZE": 0.238,
+      "MASTER": 0,
       "NONE": 1,
-      "GOLD": 0.115,
-      "PLATINUM": 0.065,
-      "BRONZE": 0.238
+      "GOLD": 0.118,
+      "DIAMOND": 0.021
     }
   },
   {
@@ -19616,13 +19151,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 550,
+      "SILVER": 40,
       "PLATINUM": 185,
-      "DIAMOND": 340,
+      "BRONZE": 25,
       "IRON": 15,
+      "MASTER": 550,
       "GOLD": 100,
-      "SILVER": 40
+      "DIAMOND": 340
     },
     "translation": {
       "description": "Earn points from challenges in the ARAM Champion group",
@@ -19643,16 +19178,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Abyssal",
     "percentiles": {
+      "PLATINUM": 0.045,
       "IRON": 0.169,
-      "GRANDMASTER": 0,
+      "GOLD": 0.081,
       "MASTER": 0.001,
-      "SILVER": 0.127,
-      "NONE": 1,
-      "PLATINUM": 0.043,
-      "BRONZE": 0.148,
+      "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "GOLD": 0.08,
-      "DIAMOND": 0.015
+      "BRONZE": 0.149,
+      "SILVER": 0.129,
+      "DIAMOND": 0.017,
+      "NONE": 1
     }
   },
   {
@@ -19660,15 +19195,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 250,
-      "MASTER": 60,
-      "PLATINUM": 15,
       "GRANDMASTER": 100,
-      "DIAMOND": 30,
+      "CHALLENGER": 250,
+      "SILVER": 3,
+      "PLATINUM": 15,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 60,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Take the first turret in ARAM before five minutes have passed",
@@ -19693,24 +19228,24 @@ let challengeData = [
     "parent": "101300",
     "parentCategory": "1",
     "percentiles": {
+      "PLATINUM": 0.032,
+      "IRON": 0.146,
+      "GOLD": 0.072,
       "MASTER": 0.003,
       "GRANDMASTER": 0.001,
       "CHALLENGER": 0,
-      "SILVER": 0.094,
-      "IRON": 0.148,
+      "BRONZE": 0.11,
+      "SILVER": 0.093,
       "DIAMOND": 0.013,
-      "NONE": 1,
-      "GOLD": 0.073,
-      "PLATINUM": 0.032,
-      "BRONZE": 0.112
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      954,
+      1061,
       1,
       249,
-      97,
+      119,
       99,
-      7840
+      9177
     ]
   },
   {
@@ -19718,15 +19253,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 300,
-      "MASTER": 75,
-      "PLATINUM": 20,
       "GRANDMASTER": 150,
-      "DIAMOND": 35,
+      "CHALLENGER": 300,
+      "SILVER": 4,
+      "PLATINUM": 20,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 75,
       "GOLD": 8,
-      "SILVER": 4
+      "DIAMOND": 35
     },
     "translation": {
       "description": "Earn S grades or higher in ARAM",
@@ -19751,24 +19286,24 @@ let challengeData = [
     "parent": "101300",
     "parentCategory": "1",
     "percentiles": {
-      "MASTER": 0.012,
-      "GRANDMASTER": 0.003,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.003,
+      "PLATINUM": 0.051,
+      "IRON": 0.16,
       "SILVER": 0.106,
-      "IRON": 0.161,
-      "DIAMOND": 0.031,
       "NONE": 1,
-      "GOLD": 0.082,
-      "PLATINUM": 0.05,
-      "BRONZE": 0.131
+      "BRONZE": 0.131,
+      "DIAMOND": 0.033,
+      "MASTER": 0.013,
+      "GOLD": 0.082
     },
     "leaderboardThresholds": [
-      1991,
+      2303,
       1,
       299,
-      4437,
-      149,
-      41762
+      6169,
+      150,
+      51611
     ]
   },
   {
@@ -19776,15 +19311,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 502,
-      "MASTER": 250,
+      "GRANDMASTER": 354,
+      "CHALLENGER": 513,
+      "SILVER": 10,
       "PLATINUM": 50,
-      "GRANDMASTER": 351,
-      "DIAMOND": 125,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 125
     },
     "translation": {
       "description": "Have over 90% Kill Participation in ARAM games",
@@ -19810,24 +19345,24 @@ let challengeData = [
     "parent": "101300",
     "parentCategory": "1",
     "percentiles": {
+      "PLATINUM": 0.007,
+      "IRON": 0.137,
+      "GOLD": 0.02,
       "MASTER": 0,
       "GRANDMASTER": 0,
       "CHALLENGER": 0,
-      "SILVER": 0.047,
-      "IRON": 0.14,
+      "BRONZE": 0.07,
+      "SILVER": 0.046,
       "DIAMOND": 0.001,
-      "NONE": 1,
-      "GOLD": 0.02,
-      "PLATINUM": 0.007,
-      "BRONZE": 0.071
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1129,
+      1238,
       1,
-      502,
-      59,
-      351,
-      291
+      513,
+      75,
+      354,
+      369
     ]
   },
   {
@@ -19835,12 +19370,12 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 22,
-      "MASTER": 8,
+      "GRANDMASTER": 15,
+      "CHALLENGER": 26,
       "PLATINUM": 3,
-      "GRANDMASTER": 14,
-      "DIAMOND": 5,
-      "GOLD": 1
+      "MASTER": 8,
+      "GOLD": 1,
+      "DIAMOND": 5
     },
     "translation": {
       "description": "Win ARAM games before 13 minutes have passed",
@@ -19865,24 +19400,24 @@ let challengeData = [
     "parent": "101300",
     "parentCategory": "1",
     "percentiles": {
-      "MASTER": 0.013,
-      "GRANDMASTER": 0.003,
-      "CHALLENGER": 0.001,
-      "SILVER": 0,
-      "IRON": 0,
-      "DIAMOND": 0.027,
       "NONE": 1,
-      "GOLD": 0.103,
-      "PLATINUM": 0.047,
-      "BRONZE": 0
+      "CHALLENGER": 0.001,
+      "GRANDMASTER": 0.005,
+      "DIAMOND": 0.035,
+      "BRONZE": 0,
+      "GOLD": 0.11,
+      "IRON": 0,
+      "SILVER": 0,
+      "MASTER": 0.019,
+      "PLATINUM": 0.055
     },
     "leaderboardThresholds": [
-      221,
+      414,
       1,
-      22,
-      10119,
-      14,
-      50587
+      26,
+      15038,
+      15,
+      75183
     ]
   },
   {
@@ -19890,15 +19425,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 15,
-      "CHALLENGER": 1390,
-      "MASTER": 500,
+      "GRANDMASTER": 916,
+      "CHALLENGER": 1442,
+      "SILVER": 35,
       "PLATINUM": 150,
-      "GRANDMASTER": 895,
-      "DIAMOND": 300,
+      "BRONZE": 15,
       "IRON": 5,
+      "MASTER": 500,
       "GOLD": 70,
-      "SILVER": 35
+      "DIAMOND": 300
     },
     "translation": {
       "description": "Win ARAM Games",
@@ -19923,24 +19458,24 @@ let challengeData = [
     "parent": "101300",
     "parentCategory": "1",
     "percentiles": {
-      "BRONZE": 0.133,
-      "MASTER": 0.013,
-      "PLATINUM": 0.053,
-      "CHALLENGER": 0.001,
-      "DIAMOND": 0.028,
-      "IRON": 0.174,
-      "GRANDMASTER": 0.003,
-      "GOLD": 0.081,
+      "GRANDMASTER": 0.004,
+      "IRON": 0.171,
       "NONE": 1,
-      "SILVER": 0.105
+      "MASTER": 0.014,
+      "SILVER": 0.104,
+      "DIAMOND": 0.029,
+      "PLATINUM": 0.053,
+      "BRONZE": 0.131,
+      "GOLD": 0.08,
+      "CHALLENGER": 0.001
     },
     "leaderboardThresholds": [
-      7232,
+      7819,
       1,
-      1390,
-      10210,
-      895,
-      51043
+      1442,
+      11317,
+      916,
+      56578
     ]
   },
   {
@@ -19948,8 +19483,8 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "MASTER": 3,
       "PLATINUM": 1,
+      "MASTER": 3,
       "DIAMOND": 2
     },
     "translation": {
@@ -19977,16 +19512,16 @@ let challengeData = [
     "parentCategory": "1",
     "title": "Untouchable",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0.005,
-      "PLATINUM": 0.031,
+      "SILVER": 0,
       "CHALLENGER": 0,
       "DIAMOND": 0.011,
-      "IRON": 0,
-      "GRANDMASTER": 0,
+      "MASTER": 0.005,
+      "PLATINUM": 0.031,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     }
   },
   {
@@ -19994,15 +19529,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 40,
-      "CHALLENGER": 6488,
-      "MASTER": 3000,
+      "GRANDMASTER": 4643,
+      "CHALLENGER": 6694,
+      "SILVER": 100,
       "PLATINUM": 750,
-      "GRANDMASTER": 4554,
-      "DIAMOND": 1500,
+      "BRONZE": 40,
       "IRON": 10,
+      "MASTER": 3000,
       "GOLD": 250,
-      "SILVER": 100
+      "DIAMOND": 1500
     },
     "translation": {
       "description": "Take three or more immobilizing abilities in a single fight and survive",
@@ -20035,24 +19570,24 @@ let challengeData = [
     "parent": "203200",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0.212,
-      "MASTER": 0.008,
-      "PLATINUM": 0.063,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.03,
-      "IRON": 0.285,
-      "GRANDMASTER": 0.002,
-      "GOLD": 0.119,
       "NONE": 1,
-      "SILVER": 0.165
+      "CHALLENGER": 0,
+      "GRANDMASTER": 0.002,
+      "DIAMOND": 0.032,
+      "BRONZE": 0.209,
+      "GOLD": 0.119,
+      "IRON": 0.281,
+      "SILVER": 0.164,
+      "MASTER": 0.009,
+      "PLATINUM": 0.064
     },
     "leaderboardThresholds": [
-      22214,
+      23685,
       1,
-      6488,
-      5839,
-      4554,
-      29190
+      6694,
+      6950,
+      4643,
+      34744
     ]
   },
   {
@@ -20060,13 +19595,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "CHALLENGER": 25,
-      "MASTER": 12,
-      "PLATINUM": 5,
       "GRANDMASTER": 17,
-      "DIAMOND": 8,
+      "CHALLENGER": 25,
+      "SILVER": 1,
+      "PLATINUM": 5,
+      "MASTER": 12,
       "GOLD": 2,
-      "SILVER": 1
+      "DIAMOND": 8
     },
     "translation": {
       "description": "Get kills while taking damage from all five enemy champions and survive",
@@ -20100,16 +19635,16 @@ let challengeData = [
     "parent": "203200",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0,
-      "MASTER": 0,
+      "SILVER": 0.109,
       "CHALLENGER": 0,
-      "PLATINUM": 0,
-      "GRANDMASTER": 0,
       "DIAMOND": 0,
-      "IRON": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0.031,
-      "NONE": 1,
-      "SILVER": 0.11
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       51,
@@ -20125,15 +19660,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 2,
-      "CHALLENGER": 261,
-      "MASTER": 65,
+      "GRANDMASTER": 144,
+      "CHALLENGER": 270,
+      "SILVER": 3,
       "PLATINUM": 15,
-      "GRANDMASTER": 141,
-      "DIAMOND": 30,
+      "BRONZE": 2,
       "IRON": 1,
+      "MASTER": 65,
       "GOLD": 5,
-      "SILVER": 3
+      "DIAMOND": 30
     },
     "translation": {
       "description": "Take 10000 pre-mitigation damage from champions in a single fight without dying",
@@ -20167,24 +19702,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Absolute Unit",
     "percentiles": {
-      "MASTER": 0.014,
+      "PLATINUM": 0.06,
+      "IRON": 0.18,
+      "GOLD": 0.105,
+      "MASTER": 0.015,
       "GRANDMASTER": 0.004,
       "CHALLENGER": 0.001,
-      "SILVER": 0.129,
-      "IRON": 0.182,
-      "DIAMOND": 0.035,
-      "NONE": 1,
-      "GOLD": 0.105,
-      "PLATINUM": 0.059,
-      "BRONZE": 0.148
+      "BRONZE": 0.147,
+      "SILVER": 0.128,
+      "DIAMOND": 0.036,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      4476,
+      4765,
       1,
-      261,
-      11080,
-      141,
-      55394
+      270,
+      12204,
+      144,
+      61016
     ]
   },
   {
@@ -20192,9 +19727,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 2,
       "CHALLENGER": 3,
-      "MASTER": 1,
-      "GRANDMASTER": 2
+      "MASTER": 1
     },
     "translation": {
       "description": "Finish any season split at Rank 1 for Ranked Solo/Duo",
@@ -20212,16 +19747,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "IRON": 0,
-      "GRANDMASTER": 0,
-      "MASTER": 0,
       "SILVER": 0,
-      "NONE": 1,
-      "PLATINUM": 0,
-      "BRONZE": 0,
       "CHALLENGER": 0,
+      "DIAMOND": 0,
+      "MASTER": 0,
+      "PLATINUM": 0,
       "GOLD": 0,
-      "DIAMOND": 0
+      "GRANDMASTER": 0,
+      "BRONZE": 0,
+      "IRON": 0,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       3,
@@ -20237,13 +19772,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 10,
-      "MASTER": 250,
+      "SILVER": 25,
       "PLATINUM": 80,
-      "DIAMOND": 140,
+      "BRONZE": 10,
       "IRON": 5,
+      "MASTER": 250,
       "GOLD": 50,
-      "SILVER": 25
+      "DIAMOND": 140
     },
     "translation": {
       "description": "Earn points from challenges in the Behemoth group",
@@ -20264,16 +19799,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Behemoth",
     "percentiles": {
-      "IRON": 0.289,
       "GRANDMASTER": 0,
-      "MASTER": 0,
-      "SILVER": 0.161,
+      "IRON": 0.285,
       "NONE": 1,
-      "PLATINUM": 0.066,
-      "BRONZE": 0.23,
-      "CHALLENGER": 0,
-      "GOLD": 0.108,
-      "DIAMOND": 0.02
+      "MASTER": 0,
+      "SILVER": 0.159,
+      "DIAMOND": 0.021,
+      "PLATINUM": 0.067,
+      "BRONZE": 0.226,
+      "GOLD": 0.107,
+      "CHALLENGER": 0
     }
   },
   {
@@ -20281,9 +19816,9 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
+      "GRANDMASTER": 1,
       "CHALLENGER": 1,
-      "MASTER": 1,
-      "GRANDMASTER": 1
+      "MASTER": 1
     },
     "translation": {
       "description": "Reach region first Challenger in Ranked Solo/Duo in a season split",
@@ -20301,15 +19836,15 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "SILVER": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0,
-      "MASTER": 0,
       "PLATINUM": 0,
-      "GRANDMASTER": 0,
-      "GOLD": 0,
-      "BRONZE": 0,
       "IRON": 0,
+      "GOLD": 0,
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0,
+      "SILVER": 0,
+      "DIAMOND": 0,
       "NONE": 1
     },
     "leaderboardThresholds": [
@@ -20345,16 +19880,16 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "BRONZE": 0.222,
-      "MASTER": 0,
       "PLATINUM": 0,
-      "CHALLENGER": 0,
-      "DIAMOND": 0,
       "IRON": 0,
-      "GRANDMASTER": 0,
       "GOLD": 0,
-      "NONE": 1,
-      "SILVER": 0
+      "MASTER": 0,
+      "GRANDMASTER": 0,
+      "CHALLENGER": 0,
+      "BRONZE": 0.212,
+      "SILVER": 0,
+      "DIAMOND": 0,
+      "NONE": 1
     }
   },
   {
@@ -20362,13 +19897,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 40,
-      "MASTER": 1400,
+      "SILVER": 85,
       "PLATINUM": 450,
-      "DIAMOND": 900,
+      "BRONZE": 40,
       "IRON": 20,
+      "MASTER": 1400,
       "GOLD": 270,
-      "SILVER": 85
+      "DIAMOND": 900
     },
     "translation": {
       "description": "Earn points from challenges in the Monster Hunter, Steadfast, and Symbiosis groups",
@@ -20389,16 +19924,16 @@ let challengeData = [
     "parentCategory": "0",
     "title": "Tenacious",
     "percentiles": {
-      "GOLD": 0.153,
-      "NONE": 1,
-      "BRONZE": 0.294,
+      "PLATINUM": 0.107,
+      "IRON": 0.321,
+      "GOLD": 0.151,
       "MASTER": 0.002,
-      "CHALLENGER": 0,
-      "IRON": 0.325,
-      "PLATINUM": 0.108,
-      "DIAMOND": 0.035,
       "GRANDMASTER": 0,
-      "SILVER": 0.248
+      "CHALLENGER": 0,
+      "BRONZE": 0.29,
+      "SILVER": 0.244,
+      "DIAMOND": 0.035,
+      "NONE": 1
     }
   },
   {
@@ -20406,15 +19941,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 15,
-      "CHALLENGER": 763,
-      "MASTER": 350,
+      "GRANDMASTER": 561,
+      "CHALLENGER": 775,
+      "SILVER": 30,
       "PLATINUM": 125,
-      "GRANDMASTER": 555,
-      "DIAMOND": 250,
+      "BRONZE": 15,
       "IRON": 10,
+      "MASTER": 350,
       "GOLD": 65,
-      "SILVER": 30
+      "DIAMOND": 250
     },
     "translation": {
       "description": "Increase your summoner level",
@@ -20431,24 +19966,24 @@ let challengeData = [
     "parent": "0",
     "parentCategory": "0",
     "percentiles": {
-      "GOLD": 0.195,
-      "NONE": 1,
-      "BRONZE": 0.439,
-      "MASTER": 0.039,
-      "CHALLENGER": 0.002,
-      "IRON": 0.519,
-      "PLATINUM": 0.133,
-      "DIAMOND": 0.069,
       "GRANDMASTER": 0.01,
-      "SILVER": 0.356
+      "SILVER": 0.347,
+      "CHALLENGER": 0.002,
+      "PLATINUM": 0.13,
+      "IRON": 0.518,
+      "BRONZE": 0.429,
+      "MASTER": 0.039,
+      "NONE": 1,
+      "GOLD": 0.189,
+      "DIAMOND": 0.068
     },
     "leaderboardThresholds": [
-      2959,
+      3005,
       1,
-      763,
-      29946,
-      555,
-      149724
+      775,
+      31326,
+      561,
+      156624
     ]
   },
   {
@@ -20456,15 +19991,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 441,
-      "MASTER": 150,
+      "GRANDMASTER": 280,
+      "CHALLENGER": 455,
+      "SILVER": 10,
       "PLATINUM": 50,
-      "GRANDMASTER": 274,
-      "DIAMOND": 100,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 150,
       "GOLD": 15,
-      "SILVER": 10
+      "DIAMOND": 100
     },
     "translation": {
       "description": "Deal the most damage to champions in the game",
@@ -20497,24 +20032,24 @@ let challengeData = [
     "parent": "202200",
     "parentCategory": "2",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.021,
-      "BRONZE": 0.16,
+      "PLATINUM": 0.047,
+      "IRON": 0.252,
       "GOLD": 0.103,
-      "IRON": 0.255,
+      "MASTER": 0.012,
       "GRANDMASTER": 0.003,
-      "SILVER": 0.124,
       "CHALLENGER": 0.001,
-      "MASTER": 0.011,
-      "PLATINUM": 0.046
+      "BRONZE": 0.159,
+      "SILVER": 0.123,
+      "DIAMOND": 0.022,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       2729,
       1,
-      441,
-      8649,
-      274,
-      43240
+      455,
+      9663,
+      280,
+      48308
     ]
   },
   {
@@ -20522,15 +20057,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 6,
-      "CHALLENGER": 937,
-      "MASTER": 400,
+      "GRANDMASTER": 635,
+      "CHALLENGER": 962,
+      "SILVER": 18,
       "PLATINUM": 120,
-      "GRANDMASTER": 626,
-      "DIAMOND": 240,
+      "BRONZE": 6,
       "IRON": 3,
+      "MASTER": 400,
       "GOLD": 36,
-      "SILVER": 18
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Take down the most wards in the game (you must take down at least one ward)",
@@ -20565,24 +20100,24 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Scout",
     "percentiles": {
-      "IRON": 0.208,
-      "GRANDMASTER": 0.001,
-      "MASTER": 0.002,
-      "SILVER": 0.108,
       "NONE": 1,
-      "PLATINUM": 0.023,
-      "BRONZE": 0.167,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.001,
+      "DIAMOND": 0.008,
+      "BRONZE": 0.165,
       "GOLD": 0.073,
-      "DIAMOND": 0.007
+      "IRON": 0.205,
+      "SILVER": 0.107,
+      "MASTER": 0.002,
+      "PLATINUM": 0.024
     },
     "leaderboardThresholds": [
-      3965,
+      4211,
       1,
-      937,
-      1676,
-      626,
-      8372
+      962,
+      1982,
+      635,
+      9904
     ]
   },
   {
@@ -20590,15 +20125,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5,
-      "CHALLENGER": 597,
-      "MASTER": 250,
-      "PLATINUM": 80,
       "GRANDMASTER": 400,
-      "DIAMOND": 160,
+      "CHALLENGER": 595,
+      "SILVER": 10,
+      "PLATINUM": 80,
+      "BRONZE": 5,
       "IRON": 1,
+      "MASTER": 250,
       "GOLD": 25,
-      "SILVER": 10
+      "DIAMOND": 160
     },
     "translation": {
       "description": "Have the highest Crowd Control Score in the game",
@@ -20632,24 +20167,24 @@ let challengeData = [
     "parent": "202200",
     "parentCategory": "2",
     "percentiles": {
-      "BRONZE": 0.154,
-      "MASTER": 0.002,
+      "SILVER": 0.116,
       "CHALLENGER": 0,
-      "PLATINUM": 0.024,
-      "GRANDMASTER": 0,
       "DIAMOND": 0.007,
-      "IRON": 0.251,
-      "GOLD": 0.073,
-      "NONE": 1,
-      "SILVER": 0.118
+      "MASTER": 0.002,
+      "PLATINUM": 0.024,
+      "GOLD": 0.072,
+      "GRANDMASTER": 0,
+      "BRONZE": 0.152,
+      "IRON": 0.249,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3346,
+      3348,
       1,
-      597,
-      1590,
+      595,
+      1742,
       399,
-      6798
+      7508
     ]
   },
   {
@@ -20657,13 +20192,13 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 25,
-      "MASTER": 400,
+      "SILVER": 40,
       "PLATINUM": 135,
-      "DIAMOND": 240,
+      "BRONZE": 25,
       "IRON": 10,
+      "MASTER": 400,
       "GOLD": 85,
-      "SILVER": 40
+      "DIAMOND": 240
     },
     "translation": {
       "description": "Earn points from challenges in the Unrivaled group",
@@ -20684,16 +20219,16 @@ let challengeData = [
     "parentCategory": "2",
     "title": "Unrivaled",
     "percentiles": {
-      "SILVER": 0.164,
-      "CHALLENGER": 0,
-      "DIAMOND": 0.016,
-      "MASTER": 0.002,
-      "PLATINUM": 0.051,
       "GRANDMASTER": 0,
+      "IRON": 0.266,
+      "NONE": 1,
+      "MASTER": 0.002,
+      "SILVER": 0.163,
+      "DIAMOND": 0.017,
+      "PLATINUM": 0.052,
+      "BRONZE": 0.199,
       "GOLD": 0.098,
-      "BRONZE": 0.201,
-      "IRON": 0.27,
-      "NONE": 1
+      "CHALLENGER": 0
     }
   },
   {
@@ -20701,14 +20236,14 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 1,
-      "CHALLENGER": 104,
-      "MASTER": 30,
+      "GRANDMASTER": 59,
+      "CHALLENGER": 107,
+      "SILVER": 2,
       "PLATINUM": 10,
-      "GRANDMASTER": 58,
-      "DIAMOND": 20,
+      "BRONZE": 1,
+      "MASTER": 30,
       "GOLD": 5,
-      "SILVER": 2
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Win games where you took 35% of damage dealt to champions on your team",
@@ -20743,23 +20278,23 @@ let challengeData = [
     "parentCategory": "2",
     "percentiles": {
       "NONE": 1,
-      "DIAMOND": 0.011,
-      "BRONZE": 0.129,
-      "GOLD": 0.049,
-      "IRON": 0,
-      "GRANDMASTER": 0.001,
-      "SILVER": 0.089,
       "CHALLENGER": 0,
+      "GRANDMASTER": 0.002,
+      "DIAMOND": 0.012,
+      "BRONZE": 0.128,
+      "GOLD": 0.05,
+      "IRON": 0,
+      "SILVER": 0.089,
       "MASTER": 0.006,
-      "PLATINUM": 0.026
+      "PLATINUM": 0.027
     },
     "leaderboardThresholds": [
-      872,
+      892,
       1,
-      104,
-      4565,
-      58,
-      22820
+      107,
+      5108,
+      59,
+      25535
     ]
   },
   {
@@ -20767,15 +20302,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 10,
-      "CHALLENGER": 1207,
-      "MASTER": 480,
+      "GRANDMASTER": 828,
+      "CHALLENGER": 1257,
+      "SILVER": 20,
       "PLATINUM": 125,
-      "GRANDMASTER": 806,
-      "DIAMOND": 275,
+      "BRONZE": 10,
       "IRON": 3,
+      "MASTER": 480,
       "GOLD": 40,
-      "SILVER": 20
+      "DIAMOND": 275
     },
     "translation": {
       "description": "Deal more than 700 Damage Per Minute",
@@ -20808,24 +20343,24 @@ let challengeData = [
     "parent": "202200",
     "parentCategory": "2",
     "percentiles": {
-      "IRON": 0.253,
       "GRANDMASTER": 0.003,
-      "MASTER": 0.012,
-      "SILVER": 0.153,
-      "NONE": 1,
-      "PLATINUM": 0.063,
-      "BRONZE": 0.188,
+      "SILVER": 0.152,
       "CHALLENGER": 0.001,
+      "PLATINUM": 0.064,
+      "IRON": 0.25,
+      "BRONZE": 0.187,
+      "MASTER": 0.013,
+      "NONE": 1,
       "GOLD": 0.118,
-      "DIAMOND": 0.029
+      "DIAMOND": 0.031
     },
     "leaderboardThresholds": [
-      5468,
+      6144,
       1,
-      1207,
-      8859,
-      806,
-      44290
+      1257,
+      10291,
+      828,
+      51447
     ]
   },
   {
@@ -20833,13 +20368,13 @@ let challengeData = [
     "state": "ARCHIVED",
     "leaderboard": false,
     "thresholds": {
-      "BRONZE": 4,
-      "MASTER": 23,
+      "SILVER": 8,
       "PLATINUM": 16,
-      "DIAMOND": 20,
+      "BRONZE": 4,
       "IRON": 2,
+      "MASTER": 23,
       "GOLD": 12,
-      "SILVER": 8
+      "DIAMOND": 20
     },
     "translation": {
       "description": "Win with each of different mythic items",
@@ -20875,16 +20410,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Mythic",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.064,
-      "BRONZE": 0.226,
-      "GOLD": 0.119,
-      "IRON": 0.289,
       "GRANDMASTER": 0,
-      "SILVER": 0.16,
+      "SILVER": 0.153,
       "CHALLENGER": 0,
-      "MASTER": 0.047,
-      "PLATINUM": 0.089
+      "PLATINUM": 0.085,
+      "IRON": 0.276,
+      "BRONZE": 0.217,
+      "MASTER": 0.045,
+      "NONE": 1,
+      "GOLD": 0.114,
+      "DIAMOND": 0.061
     }
   },
   {
@@ -20892,15 +20427,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 3000,
-      "CHALLENGER": 336200,
-      "MASTER": 120000,
+      "GRANDMASTER": 222468,
+      "CHALLENGER": 350168,
+      "SILVER": 7500,
       "PLATINUM": 37500,
-      "GRANDMASTER": 216214,
-      "DIAMOND": 67500,
+      "BRONZE": 3000,
       "IRON": 750,
+      "MASTER": 120000,
       "GOLD": 15000,
-      "SILVER": 7500
+      "DIAMOND": 67500
     },
     "translation": {
       "description": "Kill minions",
@@ -20934,24 +20469,24 @@ let challengeData = [
     "parent": "402400",
     "parentCategory": "3",
     "percentiles": {
-      "BRONZE": 0.198,
-      "MASTER": 0.018,
-      "CHALLENGER": 0.001,
       "PLATINUM": 0.067,
-      "GRANDMASTER": 0.004,
-      "DIAMOND": 0.039,
-      "IRON": 0.275,
+      "IRON": 0.271,
       "GOLD": 0.113,
-      "NONE": 1,
-      "SILVER": 0.15
+      "MASTER": 0.019,
+      "GRANDMASTER": 0.005,
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.196,
+      "SILVER": 0.148,
+      "DIAMOND": 0.041,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      1350392,
+      1414174,
       1,
-      336200,
-      13401,
-      216214,
-      66997
+      350168,
+      15085,
+      222468,
+      75420
     ]
   },
   {
@@ -20959,15 +20494,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 16,
-      "CHALLENGER": 2042,
-      "MASTER": 960,
+      "GRANDMASTER": 1473,
+      "CHALLENGER": 2099,
+      "SILVER": 40,
       "PLATINUM": 240,
-      "GRANDMASTER": 1446,
-      "DIAMOND": 520,
+      "BRONZE": 16,
       "IRON": 4,
+      "MASTER": 960,
       "GOLD": 80,
-      "SILVER": 40
+      "DIAMOND": 520
     },
     "translation": {
       "description": "Kill players under your own turret",
@@ -21001,24 +20536,24 @@ let challengeData = [
     "parent": "402400",
     "parentCategory": "3",
     "percentiles": {
-      "SILVER": 0.162,
+      "SILVER": 0.16,
       "CHALLENGER": 0,
-      "DIAMOND": 0.028,
-      "MASTER": 0.008,
-      "PLATINUM": 0.065,
+      "DIAMOND": 0.029,
+      "MASTER": 0.009,
+      "PLATINUM": 0.066,
+      "GOLD": 0.123,
       "GRANDMASTER": 0.002,
-      "GOLD": 0.124,
-      "BRONZE": 0.216,
-      "IRON": 0.302,
+      "BRONZE": 0.213,
+      "IRON": 0.298,
       "NONE": 1
     },
     "leaderboardThresholds": [
-      7589,
+      8108,
       1,
-      2042,
-      5853,
-      1446,
-      29261
+      2099,
+      6900,
+      1473,
+      34492
     ]
   },
   {
@@ -21026,15 +20561,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 300,
-      "CHALLENGER": 36648,
-      "MASTER": 15000,
+      "GRANDMASTER": 24074,
+      "CHALLENGER": 37554,
+      "SILVER": 750,
       "PLATINUM": 3750,
-      "GRANDMASTER": 23729,
-      "DIAMOND": 9000,
+      "BRONZE": 300,
       "IRON": 75,
+      "MASTER": 15000,
       "GOLD": 1500,
-      "SILVER": 750
+      "DIAMOND": 9000
     },
     "translation": {
       "description": "Place useful Stealth Wards. A useful ward is one that contributes to your Vision Score.",
@@ -21067,24 +20602,24 @@ let challengeData = [
     "parent": "402400",
     "parentCategory": "3",
     "percentiles": {
-      "NONE": 1,
-      "DIAMOND": 0.016,
-      "BRONZE": 0.179,
-      "GOLD": 0.099,
-      "IRON": 0.25,
       "GRANDMASTER": 0.001,
-      "SILVER": 0.133,
+      "SILVER": 0.132,
       "CHALLENGER": 0,
-      "MASTER": 0.005,
-      "PLATINUM": 0.052
+      "PLATINUM": 0.054,
+      "IRON": 0.247,
+      "BRONZE": 0.177,
+      "MASTER": 0.006,
+      "NONE": 1,
+      "GOLD": 0.099,
+      "DIAMOND": 0.017
     },
     "leaderboardThresholds": [
-      139941,
+      155336,
       1,
-      36648,
-      3758,
-      23729,
-      18786
+      37554,
+      4516,
+      24074,
+      22572
     ]
   },
   {
@@ -21092,15 +20627,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 40,
-      "CHALLENGER": 6083,
-      "MASTER": 1800,
+      "GRANDMASTER": 3575,
+      "CHALLENGER": 6283,
+      "SILVER": 100,
       "PLATINUM": 500,
-      "GRANDMASTER": 3501,
-      "DIAMOND": 900,
+      "BRONZE": 40,
       "IRON": 10,
+      "MASTER": 1800,
       "GOLD": 200,
-      "SILVER": 100
+      "DIAMOND": 900
     },
     "translation": {
       "description": "Place useful Control Wards. A useful ward is one that contributes to your Vision Score.",
@@ -21133,24 +20668,24 @@ let challengeData = [
     "parent": "402400",
     "parentCategory": "3",
     "percentiles": {
-      "SILVER": 0.106,
-      "CHALLENGER": 0.001,
-      "DIAMOND": 0.026,
-      "MASTER": 0.01,
-      "PLATINUM": 0.045,
       "GRANDMASTER": 0.003,
+      "SILVER": 0.105,
+      "CHALLENGER": 0.001,
+      "PLATINUM": 0.045,
+      "IRON": 0.194,
+      "BRONZE": 0.14,
+      "MASTER": 0.011,
+      "NONE": 1,
       "GOLD": 0.079,
-      "BRONZE": 0.143,
-      "IRON": 0.197,
-      "NONE": 1
+      "DIAMOND": 0.027
     },
     "leaderboardThresholds": [
-      37124,
+      40009,
       1,
-      6083,
-      7705,
-      3501,
-      38517
+      6283,
+      8488,
+      3575,
+      42432
     ]
   },
   {
@@ -21158,15 +20693,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 40,
-      "CHALLENGER": 940,
-      "MASTER": 650,
-      "PLATINUM": 215,
       "GRANDMASTER": 780,
-      "DIAMOND": 380,
+      "CHALLENGER": 940,
+      "SILVER": 60,
+      "PLATINUM": 215,
+      "BRONZE": 40,
       "IRON": 20,
+      "MASTER": 650,
       "GOLD": 135,
-      "SILVER": 60
+      "DIAMOND": 380
     },
     "translation": {
       "description": "Earn points from challenges in the Resourceful group",
@@ -21186,16 +20721,16 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Resourceful",
     "percentiles": {
-      "BRONZE": 0.24,
+      "PLATINUM": 0.084,
+      "IRON": 0.284,
+      "GOLD": 0.129,
       "MASTER": 0.007,
-      "CHALLENGER": 0,
-      "PLATINUM": 0.087,
       "GRANDMASTER": 0.001,
-      "DIAMOND": 0.041,
-      "IRON": 0.288,
-      "GOLD": 0.132,
-      "NONE": 1,
-      "SILVER": 0.205
+      "CHALLENGER": 0,
+      "BRONZE": 0.235,
+      "SILVER": 0.201,
+      "DIAMOND": 0.04,
+      "NONE": 1
     },
     "leaderboardThresholds": [
       0,
@@ -21203,7 +20738,7 @@ let challengeData = [
       800,
       1,
       760,
-      12522
+      12541
     ]
   },
   {
@@ -21211,15 +20746,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 50,
-      "CHALLENGER": 7780,
-      "MASTER": 2400,
+      "GRANDMASTER": 4775,
+      "CHALLENGER": 8099,
+      "SILVER": 100,
       "PLATINUM": 600,
-      "GRANDMASTER": 4654,
-      "DIAMOND": 1200,
+      "BRONZE": 50,
       "IRON": 10,
+      "MASTER": 2400,
       "GOLD": 200,
-      "SILVER": 100
+      "DIAMOND": 1200
     },
     "translation": {
       "description": "Take down wards",
@@ -21252,24 +20787,24 @@ let challengeData = [
     "parent": "402400",
     "parentCategory": "3",
     "percentiles": {
-      "GOLD": 0.133,
-      "NONE": 1,
-      "BRONZE": 0.198,
-      "MASTER": 0.02,
-      "CHALLENGER": 0.001,
-      "IRON": 0.271,
-      "PLATINUM": 0.08,
-      "DIAMOND": 0.048,
+      "PLATINUM": 0.081,
+      "IRON": 0.267,
+      "GOLD": 0.132,
+      "MASTER": 0.022,
       "GRANDMASTER": 0.005,
-      "SILVER": 0.165
+      "CHALLENGER": 0.001,
+      "BRONZE": 0.195,
+      "SILVER": 0.163,
+      "DIAMOND": 0.049,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      67995,
+      72616,
       1,
-      7780,
-      15558,
-      4654,
-      77785
+      8099,
+      17360,
+      4775,
+      86793
     ]
   },
   {
@@ -21277,15 +20812,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 5000,
-      "CHALLENGER": 727100,
-      "MASTER": 300000,
+      "GRANDMASTER": 504050,
+      "CHALLENGER": 752150,
+      "SILVER": 15000,
       "PLATINUM": 90000,
-      "GRANDMASTER": 492925,
-      "DIAMOND": 160000,
+      "BRONZE": 5000,
       "IRON": 1250,
+      "MASTER": 300000,
       "GOLD": 30000,
-      "SILVER": 15000
+      "DIAMOND": 160000
     },
     "translation": {
       "description": "Claim bounty gold from shutting down opposing champions",
@@ -21319,24 +20854,24 @@ let challengeData = [
     "parentCategory": "3",
     "title": "Bounty Hunter",
     "percentiles": {
-      "MASTER": 0.013,
+      "PLATINUM": 0.064,
+      "IRON": 0.29,
+      "GOLD": 0.12,
+      "MASTER": 0.014,
       "GRANDMASTER": 0.003,
       "CHALLENGER": 0.001,
-      "SILVER": 0.158,
-      "IRON": 0.295,
-      "DIAMOND": 0.036,
-      "NONE": 1,
-      "GOLD": 0.121,
-      "PLATINUM": 0.063,
-      "BRONZE": 0.218
+      "BRONZE": 0.215,
+      "SILVER": 0.156,
+      "DIAMOND": 0.037,
+      "NONE": 1
     },
     "leaderboardThresholds": [
-      3534800,
+      3894150,
       1,
-      727100,
-      9650,
-      492925,
-      48244
+      752150,
+      11065,
+      504050,
+      55321
     ]
   },
   {
@@ -21344,15 +20879,15 @@ let challengeData = [
     "state": "ENABLED",
     "leaderboard": true,
     "thresholds": {
-      "BRONZE": 222000,
-      "CHALLENGER": 50000000,
-      "MASTER": 15000000,
-      "PLATINUM": 4150000,
       "GRANDMASTER": 25000000,
-      "DIAMOND": 7500000,
+      "CHALLENGER": 50000000,
+      "SILVER": 555000,
+      "PLATINUM": 4150000,
+      "BRONZE": 222000,
       "IRON": 55500,
+      "MASTER": 15000000,
       "GOLD": 1110000,
-      "SILVER": 555000
+      "DIAMOND": 7500000
     },
     "translation": {
       "description": "Earn gold",
@@ -21386,36 +20921,35 @@ let challengeData = [
     "parent": "402400",
     "parentCategory": "3",
     "percentiles": {
-      "IRON": 0.301,
-      "GRANDMASTER": 0.002,
-      "MASTER": 0.01,
-      "SILVER": 0.173,
-      "NONE": 1,
-      "PLATINUM": 0.066,
-      "BRONZE": 0.223,
       "CHALLENGER": 0,
-      "GOLD": 0.136,
-      "DIAMOND": 0.036
+      "GRANDMASTER": 0.002,
+      "PLATINUM": 0.067,
+      "IRON": 0.297,
+      "SILVER": 0.171,
+      "NONE": 1,
+      "BRONZE": 0.22,
+      "DIAMOND": 0.038,
+      "MASTER": 0.011,
+      "GOLD": 0.135
     },
     "leaderboardThresholds": [
-      122818578,
+      132226483,
       1,
-      49990167,
-      574,
-      24999752,
-      27106
+      49970251,
+      898,
+      24999844,
+      35193
     ]
   }
 ];
 
 
-
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
 
-// let apikey = 'RGAPI-5d58b8f9-028a-4058-9785-307ee97ffd94';
+let apikey = 'RGAPI-36231895-8e16-4eb8-9a6a-364f508f2c71';
 
-let apikey = process.env.key;
+
 
 
 const api = new RiotApi({
@@ -21497,6 +21031,8 @@ let challengeCount = 0;
 
 export async function getScore(region, name, tag, puuid) {
 
+    console.log(region, name, tag, puuid);
+
   let mappedRegion = regionMap[region];
 
   let regionGroup = Constants.regionToRegionGroup(mappedRegion);
@@ -21521,6 +21057,8 @@ export async function getScore(region, name, tag, puuid) {
     // const response = await fetch(encodeURI(`https://${mappedRegion}.api.riotgames.com/lol/challenges/v1/player-data/${resByRiotId.puuid}?api_key=${apikey}`))
 
     const data = await response.json();
+
+    console.log(data);
 
     let score = 0;
 
@@ -21638,6 +21176,7 @@ export async function getWhaleScore(region, name, tag, puuid) {
     let legendaryCount; //510009
     let epicCount; //510010
     let mythicCount; //510008
+    let chromaCount; //510011
 
     let regularSkinCount;
 
@@ -21682,8 +21221,6 @@ export async function getWhaleScore(region, name, tag, puuid) {
               regularSkinCount = skinCount - ultimateCount - legendaryCount - epicCount - mythicCount;
 
 
-
-
               if (challengeId == '504004') {
                 emoteCount = challenge.value;
               }
@@ -21694,6 +21231,10 @@ export async function getWhaleScore(region, name, tag, puuid) {
 
               if (challengeId == '504003') {
                 wardSkinCount = challenge.value;
+              }
+
+              if (challengeId == '510011') {
+                chromaCount = challenge.value;
               }
 
 
@@ -21718,8 +21259,9 @@ export async function getWhaleScore(region, name, tag, puuid) {
       emoteCount: emoteCount,
       iconCount: iconCount,
       wardSkinCount: wardSkinCount,
-      score: (ultimateCount * 3250) + (legendaryCount * 1820) + (legendaryCount * 1820) + (epicCount * 1350) + (mythicCount * 1350) + (regularSkinCount * 750) + 
-             (emoteCount * 350) + (iconCount * 250) + (wardSkinCount * 640)
+      chromaCount: chromaCount,
+      score: (ultimateCount * 3250) + (legendaryCount * 1820) + (epicCount * 1350) + (mythicCount * 1350) + (regularSkinCount * 750) + 
+             (emoteCount * 350) + (iconCount * 250) + (wardSkinCount * 640) + (chromaCount * 290)
 
     });
 
@@ -21752,30 +21294,54 @@ export async function getPuuid(region, name, tag) {
 
 
     puuidData.push({
-      name: `${name}#${tag}`,
+      name: name,
+      tag: tag,
       region: region,
       puuid: resByRiotId.puuid
     });
 
+}
+
+export async function getAccountbyPuuid(puuid, region) {
+
+    let mappedRegion = regionMap[region];
 
 
+    let regionGroup = Constants.regionToRegionGroup(mappedRegion);
 
+    let resByRiotId;
+    let response;
+    try {
+        response = await fetch(encodeURI(`https://americas.api.riotgames.com/riot/account/v1/accounts/by-puuid/${puuid}?api_key=${apikey}`))
+
+    } catch (error) {
+
+      return;
+    }
+
+    const data = await response.json();
+
+    console.log(data);
+
+
+    puuidData.push({
+      name: data.gameName,
+      tag: data.tagLine,
+      region: region
+    });
 
 }
+
 
 
 app.get('/table', function (req, res) {
 
   data.forEach((item, index) => {
-    let name = item.name.split('#')[0];
-    let tag =  item.name.split('#')[1];
-
-
 
     setTimeout(()=> {
-        console.log(item.region, name, tag, item.puuid);
-        getScore(item.region, name, tag, item.puuid);
-    }, 1000 * (index + 1))
+        console.log(item.region, item.name, item.tag, item.puuid);
+        getScore(item.region, item.name, item.tag, item.puuid);
+    }, 100 * (index + 1))
 
   })
 
@@ -21800,9 +21366,13 @@ app.get('/puuid', function (req, res) {
   data.forEach((item, index) => {
 
 
+    let name = item.name;
+    let tag =  item.tag;
+
+
     setTimeout(()=> {
-        getPuuid(item.region, item.name, item.tag);
-    }, 250 * (index + 1))
+        getPuuid(item.region, name, tag);
+    }, 100 * (index + 1))
 
 
   })
@@ -21818,18 +21388,40 @@ app.get('/puuid2', function (req, res) {
 
 })
 
+app.get('/account', function (req, res) {
+
+  data3.forEach((item, index) => {
+
+
+    setTimeout(()=> {
+        getAccountbyPuuid(item.puuid, item.region);
+    }, 1000 * (index + 1))
+
+
+  })
+
+
+})
+
+app.get('/account2', function (req, res) {
+
+  res.json({
+    data: puuidData,
+  });
+
+})
+
+
 
 app.get('/whale', function (req, res) {
 
   data.forEach((item, index) => {
-    let name = item.name.split('#')[0];
-    let tag =  item.name.split('#')[1];
+    console.log(item);
 
 
 
     setTimeout(()=> {
-        console.log(item.region, name, tag, item.puuid);
-        getWhaleScore(item.region, name, tag, item.puuid);
+        getWhaleScore(item.region, item.name, item.tag, item.puuid);
     }, 100 * (index + 1))
 
   })

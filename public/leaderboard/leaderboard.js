@@ -1,7 +1,7 @@
 
 var data = [];
 
-data = page1.concat(page2).concat(page3).concat(page4).concat(page5);
+data = page1.concat(page2).concat(page3).concat(page4).concat(page5).concat(page6);
 
 data = data.sort((a, b) => b.score - a.score);
 
@@ -80,6 +80,8 @@ function renderTable() {
       }
 
     }
+
+    console.log(name);
 
 
     $('.leaderboard-data-container').append(`

@@ -1,26 +1,26 @@
 var page5 = [
     {
-        "name": "Justínian#NA1",
-        "score": 22685,
+        "name": "LoneSavage#67676",
+        "score": 23240,
         "region": "NA",
-        "completed": 192,
-        "legacyCompleted": 33,
+        "completed": 205,
+        "legacyCompleted": 38,
         "mostNotableChallenge": {
-            "id": 303411,
+            "id": 303405,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
+                "GRANDMASTER": 12,
+                "CHALLENGER": 18,
                 "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
-                "name": "I'm Helping",
-                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+                "description": "As a premade 5, win games with 3 or more champions with stealth (camouflage or invisibility count)",
+                "name": "Where'd They Go?",
+                "shortDescription": "Win with a 5-stack with 3+ champs with stealth"
             },
             "reversed": false,
             "queueIds": [
@@ -29,7 +29,6 @@ var page5 = [
                 430,
                 440,
                 700,
-                704,
                 401,
                 402,
                 411,
@@ -44,125 +43,54 @@ var page5 = [
             ],
             "tags": {
                 "parent": "303400",
-                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "championQuery": "$[?( 'stealth' in @.abilities[*].traits[*])].id",
                 "source": "EOGD"
             },
             "parent": "303400",
             "parentCategory": "4",
             "percentiles": {
-                "GOLD": 0.003,
-                "NONE": 1,
-                "BRONZE": 0,
+                "PLATINUM": 0.005,
+                "IRON": 0,
+                "GOLD": 0.027,
                 "MASTER": 0,
-                "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0,
-                "DIAMOND": 0,
                 "GRANDMASTER": 0,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                28,
-                1,
-                17,
-                10,
-                10,
-                44
-            ]
-        },
-        "mostNotableChallengePosition": 25
-    },
-    {
-        "name": "Rocky#DIFFF",
-        "score": 22405,
-        "region": "EUW",
-        "completed": 184,
-        "legacyCompleted": 33,
-        "mostNotableChallenge": {
-            "id": 301304,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 20,
-                "MASTER": 10,
-                "PLATINUM": 3,
-                "GRANDMASTER": 15,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "Score aces after minions spawn but before 15 minutes",
-                "name": "Team Diff",
-                "shortDescription": "Score aces between minion spawn and 15 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301300",
-                "source": "EOGD"
-            },
-            "parent": "301300",
-            "parentCategory": "4",
-            "percentiles": {
-                "BRONZE": 0,
-                "MASTER": 0.004,
                 "CHALLENGER": 0,
-                "PLATINUM": 0.046,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.022,
-                "IRON": 0,
-                "GOLD": 0.122,
-                "NONE": 1,
-                "SILVER": 0
+                "BRONZE": 0,
+                "SILVER": 0,
+                "DIAMOND": 0.002,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                929,
+                121,
                 1,
-                19,
-                2973,
-                14,
-                12310
+                18,
+                371,
+                12,
+                1850
             ]
         },
-        "mostNotableChallengePosition": 73
+        "mostNotableChallengePosition": 309
     },
     {
-        "name": "APeck#Carry",
-        "score": 22540,
-        "region": "EUW",
-        "completed": 188,
-        "legacyCompleted": 45,
+        "name": "Bánh Mì xD#0810",
+        "score": 23090,
+        "region": "NA",
+        "completed": 207,
+        "legacyCompleted": 53,
         "mostNotableChallenge": {
             "id": 501001,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
+                "GRANDMASTER": 2626,
+                "CHALLENGER": 4473,
+                "SILVER": 15,
                 "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
+                "BRONZE": 7,
                 "IRON": 3,
+                "MASTER": 1250,
                 "GOLD": 75,
-                "SILVER": 15
+                "DIAMOND": 600
             },
             "translation": {
                 "description": "Earn milestones on any Eternal",
@@ -178,477 +106,53 @@ var page5 = [
             "parent": "501000",
             "parentCategory": "5",
             "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
+                "SILVER": 0.111,
                 "CHALLENGER": 0.001,
+                "DIAMOND": 0.033,
                 "MASTER": 0.017,
-                "PLATINUM": 0.063
+                "PLATINUM": 0.061,
+                "GOLD": 0.076,
+                "GRANDMASTER": 0.004,
+                "BRONZE": 0.127,
+                "IRON": 0.142,
+                "NONE": 1
             },
             "leaderboardThresholds": [
                 198422,
                 1,
-                4369,
-                12805,
-                2582,
-                64018
+                4473,
+                13422,
+                2626,
+                67102
             ]
         },
-        "mostNotableChallengePosition": 919
+        "mostNotableChallengePosition": 15
     },
     {
-        "name": "God#ofriz",
-        "score": 20670,
-        "region": "EUNE",
-        "completed": 164,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 402401,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 50,
-                "CHALLENGER": 7780,
-                "MASTER": 2400,
-                "PLATINUM": 600,
-                "GRANDMASTER": 4654,
-                "DIAMOND": 1200,
-                "IRON": 10,
-                "GOLD": 200,
-                "SILVER": 100
-            },
-            "translation": {
-                "description": "Take down wards",
-                "name": "Darkness is Everywhere",
-                "shortDescription": "Take down wards"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402400",
-                "source": "EOGD"
-            },
-            "parent": "402400",
-            "parentCategory": "3",
-            "percentiles": {
-                "GOLD": 0.133,
-                "NONE": 1,
-                "BRONZE": 0.198,
-                "MASTER": 0.02,
-                "CHALLENGER": 0.001,
-                "IRON": 0.271,
-                "PLATINUM": 0.08,
-                "DIAMOND": 0.048,
-                "GRANDMASTER": 0.005,
-                "SILVER": 0.165
-            },
-            "leaderboardThresholds": [
-                67995,
-                1,
-                7780,
-                15558,
-                4654,
-                77785
-            ]
-        },
-        "mostNotableChallengePosition": 449
-    },
-    {
-        "name": "Diffy Koul#1111",
-        "score": 22440,
-        "region": "VN",
+        "name": "Zepshun#Shaco",
+        "score": 23085,
+        "region": "NA",
         "completed": 204,
-        "legacyCompleted": 44,
-        "mostNotableChallenge": {
-            "id": 201003,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 100,
-                "MASTER": 25,
-                "PLATINUM": 7,
-                "GRANDMASTER": 48,
-                "DIAMOND": 15,
-                "GOLD": 3,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "Win games without dying and with at least 30% kill participation",
-                "name": "Unkillable Demon King",
-                "shortDescription": "Win games without dying and at least 30% kill participation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "201000",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "201000",
-            "parentCategory": "2",
-            "title": "Unkillable Demon",
-            "percentiles": {
-                "GOLD": 0.132,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0.019,
-                "CHALLENGER": 0.001,
-                "IRON": 0,
-                "PLATINUM": 0.08,
-                "DIAMOND": 0.04,
-                "GRANDMASTER": 0.005,
-                "SILVER": 0.213
-            },
-            "leaderboardThresholds": [
-                1056,
-                1,
-                99,
-                7775,
-                48,
-                74227
-            ]
-        },
-        "mostNotableChallengePosition": 236
-    },
-    {
-        "name": "NépvàoChymA#abc12",
-        "score": 22520,
-        "region": "VN",
-        "completed": 198,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 210003,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 5,
-                "CHALLENGER": 736,
-                "MASTER": 250,
-                "PLATINUM": 75,
-                "GRANDMASTER": 461,
-                "DIAMOND": 150,
-                "IRON": 1,
-                "GOLD": 25,
-                "SILVER": 10
-            },
-            "translation": {
-                "description": "Earn S- grades or higher",
-                "name": "Top Performer",
-                "shortDescription": "Earn S- grade or higher"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "210000",
-                "source": "EOGD"
-            },
-            "parent": "210000",
-            "parentCategory": "2",
-            "percentiles": {
-                "IRON": 0.289,
-                "GRANDMASTER": 0.004,
-                "MASTER": 0.017,
-                "SILVER": 0.166,
-                "NONE": 1,
-                "PLATINUM": 0.065,
-                "BRONZE": 0.202,
-                "CHALLENGER": 0.001,
-                "GOLD": 0.119,
-                "DIAMOND": 0.034
-            },
-            "leaderboardThresholds": [
-                3517,
-                1,
-                736,
-                12635,
-                461,
-                63167
-            ]
-        },
-        "mostNotableChallengePosition": 126
-    },
-    {
-        "name": "BanKuYi ded#1Yi",
-        "score": 22335,
-        "region": "RU",
-        "completed": 192,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 303411,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
-                "name": "I'm Helping",
-                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                704,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "GOLD": 0.003,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0,
-                "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0,
-                "DIAMOND": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                28,
-                1,
-                17,
-                10,
-                10,
-                44
-            ]
-        },
-        "mostNotableChallengePosition": 1
-    },
-    {
-        "name": "언니가딜도넣을게#KR1",
-        "score": 22545,
-        "region": "KR",
-        "completed": 183,
-        "legacyCompleted": 42,
-        "mostNotableChallenge": {
-            "id": 303408,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 24,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
-                "name": "Variety's Overrated",
-                "shortDescription": "Win with a 5-stack of all one class"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "IRON": 0,
-                "GRANDMASTER": 0,
-                "MASTER": 0,
-                "SILVER": 0,
-                "NONE": 1,
-                "PLATINUM": 0.001,
-                "BRONZE": 0,
-                "CHALLENGER": 0,
-                "GOLD": 0.012,
-                "DIAMOND": 0
-            },
-            "leaderboardThresholds": [
-                97,
-                1,
-                24,
-                43,
-                10,
-                209
-            ]
-        },
-        "mostNotableChallengePosition": 181
-    },
-    {
-        "name": "Vaalouu#SICK",
-        "score": 22160,
-        "region": "EUW",
-        "completed": 191,
         "legacyCompleted": 46,
         "mostNotableChallenge": {
-            "id": 402200,
+            "id": 402108,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 50,
-                "CHALLENGER": 1160,
-                "MASTER": 800,
-                "PLATINUM": 265,
-                "GRANDMASTER": 960,
-                "DIAMOND": 480,
-                "IRON": 25,
-                "GOLD": 165,
-                "SILVER": 75
+                "GRANDMASTER": 21458,
+                "CHALLENGER": 35000,
+                "SILVER": 500,
+                "PLATINUM": 3500,
+                "BRONZE": 200,
+                "IRON": 50,
+                "MASTER": 15000,
+                "GOLD": 1250,
+                "DIAMOND": 6750
             },
             "translation": {
-                "description": "Earn points from challenges in the Commando group",
-                "name": "Commando",
-                "shortDescription": "Earn points from challenges in the Commando group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "402000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "402000",
-            "parentCategory": "3",
-            "title": "Commando",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.019,
-                "BRONZE": 0.211,
-                "GOLD": 0.103,
-                "IRON": 0.259,
-                "GRANDMASTER": 0,
-                "SILVER": 0.177,
-                "CHALLENGER": 0,
-                "MASTER": 0.002,
-                "PLATINUM": 0.058
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                1000,
-                1,
-                940,
-                5475
-            ]
-        },
-        "mostNotableChallengePosition": 14
-    },
-    {
-        "name": "RULER#CHRIS",
-        "score": 22440,
-        "region": "NA",
-        "completed": 182,
-        "legacyCompleted": 47,
-        "mostNotableChallenge": {
-            "id": 201002,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 240,
-                "MASTER": 50,
-                "PLATINUM": 15,
-                "GRANDMASTER": 117,
-                "DIAMOND": 30,
-                "GOLD": 5,
-                "SILVER": 3
-            },
-            "translation": {
-                "description": "Kill 80 lane minions within 10 minutes",
-                "name": "Lethal Efficiency",
-                "shortDescription": "Kill 80 minions within 10 minutes"
+                "description": "Get Assists",
+                "name": "Above-Average Assistance",
+                "shortDescription": "Get Assists"
             },
             "reversed": false,
             "queueIds": [
@@ -670,538 +174,60 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "201000",
-                "priority": "50",
+                "parent": "402100",
+                "priority": ".1",
                 "source": "EOGD"
             },
-            "parent": "201000",
-            "parentCategory": "2",
-            "title": "Minion",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.015,
-                "BRONZE": 0.128,
-                "GOLD": 0.061,
-                "IRON": 0,
-                "GRANDMASTER": 0.002,
-                "SILVER": 0.079,
-                "CHALLENGER": 0,
-                "MASTER": 0.008,
-                "PLATINUM": 0.029
-            },
-            "leaderboardThresholds": [
-                2481,
-                1,
-                240,
-                6483,
-                117,
-                32408
-            ]
-        },
-        "mostNotableChallengePosition": 64
-    },
-    {
-        "name": "내가하고싶은대로할거니깐말리지마#자유로운",
-        "score": 22270,
-        "region": "KR",
-        "completed": 184,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
-            "id": 301103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 13,
-                "MASTER": 3,
-                "PLATINUM": 1,
-                "GRANDMASTER": 5,
-                "DIAMOND": 2
-            },
-            "translation": {
-                "description": "Your team takes Elder Dragons before 28 minutes",
-                "name": "Dragon Hunt",
-                "shortDescription": "Take Elder Dragons before 28 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "301100",
-            "parentCategory": "4",
-            "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0,
-                "MASTER": 0,
-                "PLATINUM": 0.002,
-                "GRANDMASTER": 0,
-                "GOLD": 0,
-                "BRONZE": 0,
-                "IRON": 0,
-                "NONE": 1
-            },
-            "leaderboardThresholds": [
-                52,
-                1,
-                13,
-                49,
-                5,
-                239
-            ]
-        },
-        "mostNotableChallengePosition": 17
-    },
-    {
-        "name": "츄 르#0226",
-        "score": 22565,
-        "region": "KR",
-        "completed": 191,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 402206,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 3745,
-                "MASTER": 1800,
-                "PLATINUM": 550,
-                "GRANDMASTER": 2645,
-                "DIAMOND": 1000,
-                "IRON": 10,
-                "GOLD": 200,
-                "SILVER": 75
-            },
-            "translation": {
-                "description": "Take down Dragons",
-                "name": "Lizard Hunting",
-                "shortDescription": "Take down Dragons"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402200",
-                "source": "EOGD"
-            },
-            "parent": "402200",
+            "parent": "402100",
             "parentCategory": "3",
             "percentiles": {
-                "SILVER": 0.146,
+                "NONE": 1,
                 "CHALLENGER": 0,
-                "DIAMOND": 0.02,
-                "MASTER": 0.005,
-                "PLATINUM": 0.046,
                 "GRANDMASTER": 0.001,
-                "GOLD": 0.097,
-                "BRONZE": 0.192,
-                "IRON": 0.248,
-                "NONE": 1
-            },
-            "leaderboardThresholds": [
-                16171,
-                1,
-                3745,
-                3670,
-                2645,
-                18343
-            ]
-        },
-        "mostNotableChallengePosition": 10
-    },
-    {
-        "name": "Uzuriaga#uzu",
-        "score": 22105,
-        "region": "EUW",
-        "completed": 192,
-        "legacyCompleted": 44,
-        "mostNotableChallenge": {
-            "id": 402200,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 50,
-                "CHALLENGER": 1160,
-                "MASTER": 800,
-                "PLATINUM": 265,
-                "GRANDMASTER": 960,
-                "DIAMOND": 480,
-                "IRON": 25,
-                "GOLD": 165,
-                "SILVER": 75
-            },
-            "translation": {
-                "description": "Earn points from challenges in the Commando group",
-                "name": "Commando",
-                "shortDescription": "Earn points from challenges in the Commando group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "402000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "402000",
-            "parentCategory": "3",
-            "title": "Commando",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.019,
-                "BRONZE": 0.211,
-                "GOLD": 0.103,
-                "IRON": 0.259,
-                "GRANDMASTER": 0,
-                "SILVER": 0.177,
-                "CHALLENGER": 0,
-                "MASTER": 0.002,
-                "PLATINUM": 0.058
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                1000,
-                1,
-                940,
-                5475
-            ]
-        },
-        "mostNotableChallengePosition": 1
-    },
-    {
-        "name": "SeparatedPuppyy#14881",
-        "score": 21995,
-        "region": "EUW",
-        "completed": 183,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
-            "id": 401300,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 690,
-                "MASTER": 475,
-                "PLATINUM": 160,
-                "GRANDMASTER": 570,
-                "DIAMOND": 290,
-                "IRON": 15,
-                "GOLD": 100,
-                "SILVER": 45
-            },
-            "translation": {
-                "description": "Earn points from challenges in the Ace group",
-                "name": "Ace",
-                "shortDescription": "Earn points from challenges in the Ace group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "401000",
-            "parentCategory": "3",
-            "title": "Just Better",
-            "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0.083,
-                "IRON": 0.137,
-                "DIAMOND": 0.006,
-                "NONE": 1,
-                "GOLD": 0.056,
-                "PLATINUM": 0.024,
-                "BRONZE": 0.1
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                600,
-                1,
-                560,
-                577
-            ]
-        },
-        "mostNotableChallengePosition": 5
-    },
-    {
-        "name": "Mem#hers",
-        "score": 22430,
-        "region": "NA",
-        "completed": 194,
-        "legacyCompleted": 45,
-        "mostNotableChallenge": {
-            "id": 402202,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 50,
-                "CHALLENGER": 5860,
-                "MASTER": 2500,
-                "PLATINUM": 750,
-                "GRANDMASTER": 3990,
-                "DIAMOND": 1400,
-                "IRON": 10,
-                "GOLD": 300,
-                "SILVER": 150
-            },
-            "translation": {
-                "description": "Participate in taking turrets with Rift Herald",
-                "name": "Give 'em Shell, Shelly",
-                "shortDescription": "Take turrets with Rift Herald"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402200",
-                "source": "EOGD"
-            },
-            "parent": "402200",
-            "parentCategory": "3",
-            "percentiles": {
-                "IRON": 0.303,
-                "GRANDMASTER": 0.003,
-                "MASTER": 0.011,
-                "SILVER": 0.146,
-                "NONE": 1,
-                "PLATINUM": 0.062,
-                "BRONZE": 0.206,
-                "CHALLENGER": 0.001,
-                "GOLD": 0.11,
-                "DIAMOND": 0.032
-            },
-            "leaderboardThresholds": [
-                26530,
-                1,
-                5860,
-                8437,
-                3990,
-                42181
-            ]
-        },
-        "mostNotableChallengePosition": 100
-    },
-    {
-        "name": "Mòe Xám of Hân#1999",
-        "score": 22460,
-        "region": "VN",
-        "completed": 192,
-        "legacyCompleted": 44,
-        "mostNotableChallenge": {
-            "id": 203403,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 135,
-                "MASTER": 25,
-                "PLATINUM": 9,
-                "GRANDMASTER": 61,
-                "DIAMOND": 15,
-                "GOLD": 4,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "As jungler, get 70 CS from jungle monsters before 10 minutes",
-                "name": "Clean Clears",
-                "shortDescription": "Get 70 CS from jungle monsters before 10 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "203400",
-                "source": "EOGD"
-            },
-            "parent": "203400",
-            "parentCategory": "2",
-            "percentiles": {
-                "BRONZE": 0,
-                "MASTER": 0.003,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.011,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.007,
-                "IRON": 0,
-                "GOLD": 0.023,
-                "NONE": 1,
-                "SILVER": 0.059
-            },
-            "leaderboardThresholds": [
-                1359,
-                1,
-                135,
-                2676,
-                61,
-                13375
-            ]
-        },
-        "mostNotableChallengePosition": 65
-    },
-    {
-        "name": "Zuko PRO#EUW",
-        "score": 22375,
-        "region": "EUW",
-        "completed": 181,
-        "legacyCompleted": 38,
-        "mostNotableChallenge": {
-            "id": 301304,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 20,
-                "MASTER": 10,
-                "PLATINUM": 3,
-                "GRANDMASTER": 15,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "Score aces after minions spawn but before 15 minutes",
-                "name": "Team Diff",
-                "shortDescription": "Score aces between minion spawn and 15 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301300",
-                "source": "EOGD"
-            },
-            "parent": "301300",
-            "parentCategory": "4",
-            "percentiles": {
-                "BRONZE": 0,
+                "DIAMOND": 0.026,
+                "BRONZE": 0.202,
+                "GOLD": 0.109,
+                "IRON": 0.277,
+                "SILVER": 0.155,
                 "MASTER": 0.004,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.046,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.022,
-                "IRON": 0,
-                "GOLD": 0.122,
-                "NONE": 1,
-                "SILVER": 0
+                "PLATINUM": 0.057
             },
             "leaderboardThresholds": [
-                929,
+                124165,
                 1,
-                19,
-                2973,
-                14,
-                12310
+                34999,
+                1296,
+                21458,
+                15475
             ]
         },
-        "mostNotableChallengePosition": 208
+        "mostNotableChallengePosition": 4
     },
     {
-        "name": "ºł Ðøüx ƒÞęý łº#1337",
-        "score": 22425,
-        "region": "RU",
-        "completed": 191,
-        "legacyCompleted": 44,
+        "name": "Kimchi#fall",
+        "score": 22870,
+        "region": "NA",
+        "completed": 207,
+        "legacyCompleted": 46,
         "mostNotableChallenge": {
-            "id": 303407,
+            "id": 303303,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "GRANDMASTER": 1694,
+                "CHALLENGER": 2298,
+                "SILVER": 75,
+                "PLATINUM": 250,
+                "BRONZE": 25,
+                "IRON": 5,
+                "MASTER": 1200,
+                "GOLD": 135,
+                "DIAMOND": 600
             },
             "translation": {
-                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
-                "name": "Summoners on the Rift",
-                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+                "description": "Play games with a premade group of any size",
+                "name": "Fun with Friends",
+                "shortDescription": "Play games with a group"
             },
             "reversed": false,
             "queueIds": [
@@ -1223,52 +249,51 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "parent": "303300",
                 "source": "EOGD"
             },
-            "parent": "303400",
+            "parent": "303300",
             "parentCategory": "4",
             "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
+                "SILVER": 0.103,
                 "CHALLENGER": 0,
-                "SILVER": 0,
-                "IRON": 0,
-                "DIAMOND": 0,
-                "NONE": 1,
-                "GOLD": 0,
-                "PLATINUM": 0,
-                "BRONZE": 0
+                "DIAMOND": 0.018,
+                "MASTER": 0.003,
+                "PLATINUM": 0.051,
+                "GOLD": 0.077,
+                "GRANDMASTER": 0.001,
+                "BRONZE": 0.154,
+                "IRON": 0.234,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                29,
+                6357,
                 1,
-                17,
-                8,
-                10,
-                36
+                2298,
+                2731,
+                1694,
+                13648
             ]
         },
         "mostNotableChallengePosition": 1
     },
     {
-        "name": "Poppy#AZE",
-        "score": 22425,
-        "region": "TR",
-        "completed": 185,
-        "legacyCompleted": 30,
+        "name": "Maytricksss#May",
+        "score": 22830,
+        "region": "BR",
+        "completed": 194,
+        "legacyCompleted": 46,
         "mostNotableChallenge": {
             "id": 303409,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 28,
-                "MASTER": 8,
-                "PLATINUM": 3,
                 "GRANDMASTER": 16,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "CHALLENGER": 29,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
                 "description": "As a premade 5, win games with 3 or more champions with a displacement",
@@ -1303,108 +328,52 @@ var page5 = [
             "parent": "303400",
             "parentCategory": "4",
             "percentiles": {
-                "IRON": 0,
-                "GRANDMASTER": 0.002,
-                "MASTER": 0.007,
-                "SILVER": 0,
                 "NONE": 1,
-                "PLATINUM": 0.024,
-                "BRONZE": 0,
                 "CHALLENGER": 0,
-                "GOLD": 0.059,
-                "DIAMOND": 0.013
+                "GRANDMASTER": 0.002,
+                "DIAMOND": 0.014,
+                "BRONZE": 0,
+                "GOLD": 0.058,
+                "IRON": 0,
+                "SILVER": 0,
+                "MASTER": 0.007,
+                "PLATINUM": 0.024
             },
             "leaderboardThresholds": [
                 153,
                 1,
-                28,
-                5134,
+                29,
+                5614,
                 16,
-                25665
+                28066
             ]
         },
-        "mostNotableChallengePosition": 47
+        "mostNotableChallengePosition": 1
     },
     {
-        "name": "Mickey o CIgano#BR1",
-        "score": 22340,
-        "region": "BR",
-        "completed": 188,
-        "legacyCompleted": 43,
+        "name": "boost me#Egirl",
+        "score": 22940,
+        "region": "RU",
+        "completed": 191,
+        "legacyCompleted": 34,
         "mostNotableChallenge": {
-            "id": 401300,
+            "id": 201004,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 690,
-                "MASTER": 475,
-                "PLATINUM": 160,
-                "GRANDMASTER": 570,
-                "DIAMOND": 290,
-                "IRON": 15,
-                "GOLD": 100,
-                "SILVER": 45
+                "GRANDMASTER": 80,
+                "CHALLENGER": 129,
+                "SILVER": 2,
+                "PLATINUM": 12,
+                "BRONZE": 1,
+                "MASTER": 48,
+                "GOLD": 5,
+                "DIAMOND": 28
             },
             "translation": {
-                "description": "Earn points from challenges in the Ace group",
-                "name": "Ace",
-                "shortDescription": "Earn points from challenges in the Ace group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "401000",
-            "parentCategory": "3",
-            "title": "Just Better",
-            "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0.083,
-                "IRON": 0.137,
-                "DIAMOND": 0.006,
-                "NONE": 1,
-                "GOLD": 0.056,
-                "PLATINUM": 0.024,
-                "BRONZE": 0.1
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                600,
-                1,
-                560,
-                577
-            ]
-        },
-        "mostNotableChallengePosition": 230
-    },
-    {
-        "name": "Helgaland#1911",
-        "score": 22340,
-        "region": "EUNE",
-        "completed": 180,
-        "legacyCompleted": 42,
-        "mostNotableChallenge": {
-            "id": 301103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 13,
-                "MASTER": 3,
-                "PLATINUM": 1,
-                "GRANDMASTER": 5,
-                "DIAMOND": 2
-            },
-            "translation": {
-                "description": "Your team takes Elder Dragons before 28 minutes",
-                "name": "Dragon Hunt",
-                "shortDescription": "Take Elder Dragons before 28 minutes"
+                "description": "Get 12 Takedowns (kill or assist) on enemy champions by 15 minutes",
+                "name": "Death Incarnate",
+                "shortDescription": "Take down 12 champions within 15 minutes"
             },
             "reversed": false,
             "queueIds": [
@@ -1426,52 +395,126 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "301100",
+                "parent": "201000",
                 "priority": "50",
                 "source": "EOGD"
             },
-            "parent": "301100",
-            "parentCategory": "4",
+            "parent": "201000",
+            "parentCategory": "2",
             "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0,
-                "MASTER": 0,
-                "PLATINUM": 0.002,
-                "GRANDMASTER": 0,
-                "GOLD": 0,
-                "BRONZE": 0,
+                "PLATINUM": 0.039,
                 "IRON": 0,
+                "GOLD": 0.081,
+                "MASTER": 0.004,
+                "GRANDMASTER": 0.001,
+                "CHALLENGER": 0,
+                "BRONZE": 0.193,
+                "SILVER": 0.139,
+                "DIAMOND": 0.012,
                 "NONE": 1
             },
             "leaderboardThresholds": [
-                52,
+                720,
                 1,
-                13,
-                49,
-                5,
-                239
+                129,
+                3259,
+                80,
+                16291
             ]
         },
-        "mostNotableChallengePosition": 2
+        "mostNotableChallengePosition": 7
     },
     {
-        "name": "香濃巧克力奶酒ü#7447",
-        "score": 22410,
-        "region": "TW",
-        "completed": 192,
-        "legacyCompleted": 48,
+        "name": "Karina#펠리빼",
+        "score": 23050,
+        "region": "LAN",
+        "completed": 188,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 202203,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 280,
+                "CHALLENGER": 455,
+                "SILVER": 10,
+                "PLATINUM": 50,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 150,
+                "GOLD": 15,
+                "DIAMOND": 100
+            },
+            "translation": {
+                "description": "Deal the most damage to champions in the game",
+                "name": "Pain Prescriber",
+                "shortDescription": "Deal the most damage to champions in the game"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "202200",
+                "source": "EOGD"
+            },
+            "parent": "202200",
+            "parentCategory": "2",
+            "percentiles": {
+                "PLATINUM": 0.047,
+                "IRON": 0.252,
+                "GOLD": 0.103,
+                "MASTER": 0.012,
+                "GRANDMASTER": 0.003,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0.159,
+                "SILVER": 0.123,
+                "DIAMOND": 0.022,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                2729,
+                1,
+                455,
+                9663,
+                280,
+                48308
+            ]
+        },
+        "mostNotableChallengePosition": 13
+    },
+    {
+        "name": "Augie#Augie",
+        "score": 23280,
+        "region": "EUW",
+        "completed": 205,
+        "legacyCompleted": 41,
         "mostNotableChallenge": {
             "id": 302103,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 6,
-                "MASTER": 4,
-                "PLATINUM": 2,
                 "GRANDMASTER": 5,
-                "DIAMOND": 3,
-                "GOLD": 1
+                "CHALLENGER": 6,
+                "PLATINUM": 2,
+                "MASTER": 4,
+                "GOLD": 1,
+                "DIAMOND": 3
             },
             "translation": {
                 "description": "As a laner, in a single game, get kills before 10 minutes outside your lane (anyone but your lane opponent)",
@@ -1505,193 +548,46 @@ var page5 = [
             "parentCategory": "4",
             "percentiles": {
                 "NONE": 1,
-                "DIAMOND": 0.028,
-                "BRONZE": 0.267,
-                "GOLD": 0.076,
-                "IRON": 0,
-                "GRANDMASTER": 0.003,
-                "SILVER": 0.076,
                 "CHALLENGER": 0.001,
-                "MASTER": 0.012,
-                "PLATINUM": 0.052
+                "GRANDMASTER": 0.005,
+                "DIAMOND": 0.051,
+                "BRONZE": 0.256,
+                "GOLD": 0.151,
+                "IRON": 0,
+                "SILVER": 0.072,
+                "MASTER": 0.021,
+                "PLATINUM": 0.1
             },
             "leaderboardThresholds": [
                 105,
                 1,
                 6,
-                8726,
+                16407,
                 5,
-                43626
+                82029
             ]
         },
-        "mostNotableChallengePosition": 50
-    },
-    {
-        "name": "CrystallinEagle#EUW",
-        "score": 22395,
-        "region": "EUW",
-        "completed": 193,
-        "legacyCompleted": 48,
-        "mostNotableChallenge": {
-            "id": 402201,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 2,
-                "CHALLENGER": 230,
-                "MASTER": 100,
-                "PLATINUM": 25,
-                "GRANDMASTER": 151,
-                "DIAMOND": 50,
-                "IRON": 1,
-                "GOLD": 10,
-                "SILVER": 5
-            },
-            "translation": {
-                "description": "Steal Epic Monsters. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
-                "name": "Clutch Steal",
-                "shortDescription": "Steal Epic monsters"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402200",
-                "source": "EOGD"
-            },
-            "parent": "402200",
-            "parentCategory": "3",
-            "title": "Thief",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.006,
-                "BRONZE": 0.139,
-                "GOLD": 0.055,
-                "IRON": 0.185,
-                "GRANDMASTER": 0,
-                "SILVER": 0.089,
-                "CHALLENGER": 0,
-                "MASTER": 0.001,
-                "PLATINUM": 0.02
-            },
-            "leaderboardThresholds": [
-                1202,
-                1,
-                230,
-                861,
-                151,
-                4298
-            ]
-        },
-        "mostNotableChallengePosition": 181
-    },
-    {
-        "name": "Bruce Lee#471",
-        "score": 22345,
-        "region": "EUW",
-        "completed": 190,
-        "legacyCompleted": 47,
-        "mostNotableChallenge": {
-            "id": 203105,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 89,
-                "MASTER": 25,
-                "PLATINUM": 8,
-                "GRANDMASTER": 48,
-                "DIAMOND": 13,
-                "GOLD": 3,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "Fully stack Mejai's Soulstealer before 20 minutes",
-                "name": "Stacks on Stacks on Stacks",
-                "shortDescription": "Fully stack Mejai's before 20 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "203100",
-                "source": "EOGD"
-            },
-            "parent": "203100",
-            "parentCategory": "2",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.003,
-                "BRONZE": 0,
-                "GOLD": 0.019,
-                "IRON": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0.052,
-                "CHALLENGER": 0,
-                "MASTER": 0.001,
-                "PLATINUM": 0.006
-            },
-            "leaderboardThresholds": [
-                528,
-                1,
-                89,
-                818,
-                48,
-                4086
-            ]
-        },
-        "mostNotableChallengePosition": 103
+        "mostNotableChallengePosition": 5
     },
     {
         "name": "OLG GhettοFire#SHACO",
-        "score": 22435,
+        "score": 23095,
         "region": "EUW",
-        "completed": 190,
+        "completed": 198,
         "legacyCompleted": 37,
         "mostNotableChallenge": {
             "id": 101205,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 97,
-                "MASTER": 30,
-                "PLATINUM": 9,
                 "GRANDMASTER": 53,
-                "DIAMOND": 18,
+                "CHALLENGER": 98,
+                "SILVER": 2,
+                "PLATINUM": 9,
+                "BRONZE": 1,
+                "MASTER": 30,
                 "GOLD": 4,
-                "SILVER": 2
+                "DIAMOND": 18
             },
             "translation": {
                 "description": "Successfully Execute to the outer turret before 10 minutes in ARAM",
@@ -1716,2143 +612,48 @@ var page5 = [
             "parent": "101200",
             "parentCategory": "1",
             "percentiles": {
-                "BRONZE": 0.111,
-                "MASTER": 0.003,
-                "CHALLENGER": 0,
                 "PLATINUM": 0.021,
+                "IRON": 0,
+                "GOLD": 0.047,
+                "MASTER": 0.003,
                 "GRANDMASTER": 0.001,
+                "CHALLENGER": 0,
+                "BRONZE": 0.109,
+                "SILVER": 0.075,
                 "DIAMOND": 0.008,
-                "IRON": 0,
-                "GOLD": 0.048,
-                "NONE": 1,
-                "SILVER": 0.077
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                7885,
+                8625,
                 1,
-                97,
-                2285,
+                98,
+                2454,
                 53,
-                11417
+                12265
             ]
         },
-        "mostNotableChallengePosition": 193
+        "mostNotableChallengePosition": 202
     },
     {
-        "name": "神說   要有光#0610",
-        "score": 22035,
-        "region": "TW",
-        "completed": 189,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 303404,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 25,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 14,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a revive, immunity, or zombie ability",
-                "name": "They Just... Don't... DIE!",
-                "shortDescription": "Win in a full party with 3+ champs that defy death"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'revive' in @.abilities[*].traits[*] || 'immunity' in @.abilities[*].traits[*] || 'zombie' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "GOLD": 0.052,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0.005,
-                "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0.019,
-                "DIAMOND": 0.01,
-                "GRANDMASTER": 0.001,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                168,
-                1,
-                25,
-                3504,
-                14,
-                17516
-            ]
-        },
-        "mostNotableChallengePosition": 8
-    },
-    {
-        "name": "15레벨#KR1",
-        "score": 22270,
-        "region": "KR",
-        "completed": 198,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 501001,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 59
-    },
-    {
-        "name": "く う#NOBLE",
-        "score": 22355,
-        "region": "LAN",
+        "name": "Roserub#EUW",
+        "score": 23075,
+        "region": "EUW",
         "completed": 187,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 402103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 295,
-                "MASTER": 125,
-                "PLATINUM": 25,
-                "GRANDMASTER": 197,
-                "DIAMOND": 65,
-                "GOLD": 10,
-                "SILVER": 5
-            },
-            "translation": {
-                "description": "Become Legendary (8-0 kill streak)",
-                "name": "Legendary Legend",
-                "shortDescription": "Become Legendary"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "402100",
-            "parentCategory": "3",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.016,
-                "BRONZE": 0.235,
-                "GOLD": 0.097,
-                "IRON": 0,
-                "GRANDMASTER": 0.001,
-                "SILVER": 0.135,
-                "CHALLENGER": 0,
-                "MASTER": 0.004,
-                "PLATINUM": 0.051
-            },
-            "leaderboardThresholds": [
-                1489,
-                1,
-                295,
-                3240,
-                197,
-                16194
-            ]
-        },
-        "mostNotableChallengePosition": 1
-    },
-    {
-        "name": "LordSuteo#хрыч",
-        "score": 22385,
-        "region": "RU",
-        "completed": 183,
         "legacyCompleted": 36,
-        "mostNotableChallenge": {
-            "id": 303410,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 19,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 12,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a trap",
-                "name": "It's a Trap!",
-                "shortDescription": "Win with a 5-stack with 3+  champs with traps"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                703,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'trap' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0,
-                "BRONZE": 0,
-                "GOLD": 0.007,
-                "IRON": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "MASTER": 0,
-                "PLATINUM": 0
-            },
-            "leaderboardThresholds": [
-                42,
-                1,
-                19,
-                26,
-                12,
-                123
-            ]
-        },
-        "mostNotableChallengePosition": 5
-    },
-    {
-        "name": "vana owo#999",
-        "score": 22375,
-        "region": "VN",
-        "completed": 193,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 302103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 6,
-                "MASTER": 4,
-                "PLATINUM": 2,
-                "GRANDMASTER": 5,
-                "DIAMOND": 3,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a laner, in a single game, get kills before 10 minutes outside your lane (anyone but your lane opponent)",
-                "name": "Overwhelming Presence",
-                "shortDescription": "As a laner, in 1 game, get kills outside your lane before 10 min"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "302100",
-                "source": "EOGD"
-            },
-            "parent": "302100",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.028,
-                "BRONZE": 0.267,
-                "GOLD": 0.076,
-                "IRON": 0,
-                "GRANDMASTER": 0.003,
-                "SILVER": 0.076,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.012,
-                "PLATINUM": 0.052
-            },
-            "leaderboardThresholds": [
-                105,
-                1,
-                6,
-                8726,
-                5,
-                43626
-            ]
-        },
-        "mostNotableChallengePosition": 9
-    },
-    {
-        "name": "GoatsAndGlory#EUNE",
-        "score": 22355,
-        "region": "EUNE",
-        "completed": 182,
-        "legacyCompleted": 45,
-        "mostNotableChallenge": {
-            "id": 301103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 13,
-                "MASTER": 3,
-                "PLATINUM": 1,
-                "GRANDMASTER": 5,
-                "DIAMOND": 2
-            },
-            "translation": {
-                "description": "Your team takes Elder Dragons before 28 minutes",
-                "name": "Dragon Hunt",
-                "shortDescription": "Take Elder Dragons before 28 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "301100",
-            "parentCategory": "4",
-            "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0,
-                "MASTER": 0,
-                "PLATINUM": 0.002,
-                "GRANDMASTER": 0,
-                "GOLD": 0,
-                "BRONZE": 0,
-                "IRON": 0,
-                "NONE": 1
-            },
-            "leaderboardThresholds": [
-                52,
-                1,
-                13,
-                49,
-                5,
-                239
-            ]
-        },
-        "mostNotableChallengePosition": 8
-    },
-    {
-        "name": "Keber#Keber",
-        "score": 22320,
-        "region": "EUW",
-        "completed": 189,
-        "legacyCompleted": 45,
-        "mostNotableChallenge": {
-            "id": 203406,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 8,
-                "CHALLENGER": 832,
-                "MASTER": 328,
-                "PLATINUM": 98,
-                "GRANDMASTER": 537,
-                "DIAMOND": 208,
-                "IRON": 3,
-                "GOLD": 38,
-                "SILVER": 18
-            },
-            "translation": {
-                "description": "Secure Epic Monsters with the enemy jungler nearby. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
-                "name": "Target Secured",
-                "shortDescription": "Secure Epic Monsters with the enemy jungler nearby"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "203400",
-                "source": "EOGD"
-            },
-            "parent": "203400",
-            "parentCategory": "2",
-            "percentiles": {
-                "BRONZE": 0.134,
-                "MASTER": 0.003,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.023,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.007,
-                "IRON": 0.185,
-                "GOLD": 0.059,
-                "NONE": 1,
-                "SILVER": 0.094
-            },
-            "leaderboardThresholds": [
-                4494,
-                1,
-                832,
-                2023,
-                537,
-                10108
-            ]
-        },
-        "mostNotableChallengePosition": 567
-    },
-    {
-        "name": "ClappityBunny#cope",
-        "score": 22300,
-        "region": "NA",
-        "completed": 189,
-        "legacyCompleted": 38,
-        "mostNotableChallenge": {
-            "id": 303408,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 24,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
-                "name": "Variety's Overrated",
-                "shortDescription": "Win with a 5-stack of all one class"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "IRON": 0,
-                "GRANDMASTER": 0,
-                "MASTER": 0,
-                "SILVER": 0,
-                "NONE": 1,
-                "PLATINUM": 0.001,
-                "BRONZE": 0,
-                "CHALLENGER": 0,
-                "GOLD": 0.012,
-                "DIAMOND": 0
-            },
-            "leaderboardThresholds": [
-                97,
-                1,
-                24,
-                43,
-                10,
-                209
-            ]
-        },
-        "mostNotableChallengePosition": 12
-    },
-    {
-        "name": "Enlighten#pasta",
-        "score": 22305,
-        "region": "NA",
-        "completed": 193,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 402107,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 150,
-                "CHALLENGER": 25000,
-                "MASTER": 10000,
-                "PLATINUM": 2000,
-                "GRANDMASTER": 15000,
-                "DIAMOND": 5000,
-                "IRON": 35,
-                "GOLD": 750,
-                "SILVER": 350
-            },
-            "translation": {
-                "description": "Get Kills",
-                "name": "Hard Day's Killin'",
-                "shortDescription": "Get Kills"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402100",
-                "priority": ".1",
-                "source": "EOGD"
-            },
-            "parent": "402100",
-            "parentCategory": "3",
-            "percentiles": {
-                "MASTER": 0.006,
-                "GRANDMASTER": 0.002,
-                "CHALLENGER": 0,
-                "SILVER": 0.163,
-                "IRON": 0.289,
-                "DIAMOND": 0.027,
-                "NONE": 1,
-                "GOLD": 0.122,
-                "PLATINUM": 0.07,
-                "BRONZE": 0.209
-            },
-            "leaderboardThresholds": [
-                73033,
-                1,
-                24999,
-                1920,
-                14999,
-                24436
-            ]
-        },
-        "mostNotableChallengePosition": 86
-    },
-    {
-        "name": "Thỏ#1017",
-        "score": 22385,
-        "region": "VN",
-        "completed": 184,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 303407,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
-                "name": "Summoners on the Rift",
-                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0,
-                "IRON": 0,
-                "DIAMOND": 0,
-                "NONE": 1,
-                "GOLD": 0,
-                "PLATINUM": 0,
-                "BRONZE": 0
-            },
-            "leaderboardThresholds": [
-                29,
-                1,
-                17,
-                8,
-                10,
-                36
-            ]
-        },
-        "mostNotableChallengePosition": 6
-    },
-    {
-        "name": "SubmissiveEboy#2703",
-        "score": 21985,
-        "region": "EUW",
-        "completed": 189,
-        "legacyCompleted": 50,
-        "mostNotableChallenge": {
-            "id": 302302,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 220,
-                "CHALLENGER": 28910,
-                "MASTER": 13000,
-                "PLATINUM": 4125,
-                "GRANDMASTER": 20238,
-                "DIAMOND": 7500,
-                "IRON": 55,
-                "GOLD": 1320,
-                "SILVER": 660
-            },
-            "translation": {
-                "description": "Get picks with at least one assisting ally. A pick is killing a single enemy without a return kill",
-                "name": "Team Takedown",
-                "shortDescription": "Get picks with at least one ally"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "302300",
-                "source": "EOGD"
-            },
-            "parent": "302300",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.032,
-                "BRONZE": 0.216,
-                "GOLD": 0.121,
-                "IRON": 0.293,
-                "GRANDMASTER": 0.003,
-                "SILVER": 0.158,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.011,
-                "PLATINUM": 0.062
-            },
-            "leaderboardThresholds": [
-                116832,
-                1,
-                28910,
-                8773,
-                20238,
-                43860
-            ]
-        },
-        "mostNotableChallengePosition": 7
-    },
-    {
-        "name": "vtt yêu ems#2808",
-        "score": 22310,
-        "region": "VN",
-        "completed": 191,
-        "legacyCompleted": 44,
-        "mostNotableChallenge": {
-            "id": 302302,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 220,
-                "CHALLENGER": 28910,
-                "MASTER": 13000,
-                "PLATINUM": 4125,
-                "GRANDMASTER": 20238,
-                "DIAMOND": 7500,
-                "IRON": 55,
-                "GOLD": 1320,
-                "SILVER": 660
-            },
-            "translation": {
-                "description": "Get picks with at least one assisting ally. A pick is killing a single enemy without a return kill",
-                "name": "Team Takedown",
-                "shortDescription": "Get picks with at least one ally"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "302300",
-                "source": "EOGD"
-            },
-            "parent": "302300",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.032,
-                "BRONZE": 0.216,
-                "GOLD": 0.121,
-                "IRON": 0.293,
-                "GRANDMASTER": 0.003,
-                "SILVER": 0.158,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.011,
-                "PLATINUM": 0.062
-            },
-            "leaderboardThresholds": [
-                116832,
-                1,
-                28910,
-                8773,
-                20238,
-                43860
-            ]
-        },
-        "mostNotableChallengePosition": 70
-    },
-    {
-        "name": "별을 노래하는 마음#새벽갬성",
-        "score": 22415,
-        "region": "KR",
-        "completed": 191,
-        "legacyCompleted": 42,
-        "mostNotableChallenge": {
-            "id": 501001,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 234
-    },
-    {
-        "name": "blushy#0511",
-        "score": 22240,
-        "region": "EUNE",
-        "completed": 182,
-        "legacyCompleted": 44,
-        "mostNotableChallenge": {
-            "id": 501001,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 13
-    },
-    {
-        "name": "ghoduck#666",
-        "score": 22300,
-        "region": "RU",
-        "completed": 189,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 303303,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 25,
-                "CHALLENGER": 2248,
-                "MASTER": 1200,
-                "PLATINUM": 250,
-                "GRANDMASTER": 1672,
-                "DIAMOND": 600,
-                "IRON": 5,
-                "GOLD": 135,
-                "SILVER": 75
-            },
-            "translation": {
-                "description": "Play games with a premade group of any size",
-                "name": "Fun with Friends",
-                "shortDescription": "Play games with a group"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303300",
-                "source": "EOGD"
-            },
-            "parent": "303300",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.017,
-                "BRONZE": 0.156,
-                "GOLD": 0.077,
-                "IRON": 0.237,
-                "GRANDMASTER": 0.001,
-                "SILVER": 0.103,
-                "CHALLENGER": 0,
-                "MASTER": 0.003,
-                "PLATINUM": 0.05
-            },
-            "leaderboardThresholds": [
-                5890,
-                1,
-                2248,
-                2249,
-                1672,
-                11237
-            ]
-        },
-        "mostNotableChallengePosition": 233
-    },
-    {
-        "name": "Moriarty#4869",
-        "score": 22225,
-        "region": "VN",
-        "completed": 199,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 303403,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 25,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 14,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a heal or shield. Self-heals and self-shields do not count",
-                "name": "We Protec",
-                "shortDescription": "Win with a 5-stack of 3+ champs with heals or shields. "
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'heal' in @.abilities[*].traits[*] || 'shield' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "MASTER": 0.003,
-                "GRANDMASTER": 0.001,
-                "CHALLENGER": 0,
-                "SILVER": 0,
-                "IRON": 0,
-                "DIAMOND": 0.007,
-                "NONE": 1,
-                "GOLD": 0.045,
-                "PLATINUM": 0.014,
-                "BRONZE": 0
-            },
-            "leaderboardThresholds": [
-                179,
-                1,
-                25,
-                2305,
-                14,
-                11520
-            ]
-        },
-        "mostNotableChallengePosition": 38
-    },
-    {
-        "name": "Bolx#3965",
-        "score": 22270,
-        "region": "LAS",
-        "completed": 191,
-        "legacyCompleted": 45,
-        "mostNotableChallenge": {
-            "id": 501001,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 1
-    },
-    {
-        "name": "Rato Pelado#Naked",
-        "score": 22205,
-        "region": "BR",
-        "completed": 186,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
-            "id": 303410,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 19,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 12,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a trap",
-                "name": "It's a Trap!",
-                "shortDescription": "Win with a 5-stack with 3+  champs with traps"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                703,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'trap' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0,
-                "BRONZE": 0,
-                "GOLD": 0.007,
-                "IRON": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "MASTER": 0,
-                "PLATINUM": 0
-            },
-            "leaderboardThresholds": [
-                42,
-                1,
-                19,
-                26,
-                12,
-                123
-            ]
-        },
-        "mostNotableChallengePosition": 19
-    },
-    {
-        "name": "TTVBlueFace#Suce",
-        "score": 22255,
-        "region": "NA",
-        "completed": 186,
-        "legacyCompleted": 42,
-        "mostNotableChallenge": {
-            "id": 402106,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 16,
-                "MASTER": 5,
-                "PLATINUM": 2,
-                "GRANDMASTER": 9,
-                "DIAMOND": 3,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "Get Pentakills",
-                "name": "PENTAKIIIIIIIIL!!",
-                "shortDescription": "Get Pentakills"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "402100",
-            "parentCategory": "3",
-            "title": "Pentakiller",
-            "percentiles": {
-                "IRON": 0,
-                "GRANDMASTER": 0.002,
-                "MASTER": 0.008,
-                "SILVER": 0,
-                "NONE": 1,
-                "PLATINUM": 0.032,
-                "BRONZE": 0,
-                "CHALLENGER": 0,
-                "GOLD": 0.07,
-                "DIAMOND": 0.018
-            },
-            "leaderboardThresholds": [
-                2939,
-                1,
-                16,
-                5892,
-                9,
-                29452
-            ]
-        },
-        "mostNotableChallengePosition": 70
-    },
-    {
-        "name": "cc gì cũng tao#Kenta",
-        "score": 22280,
-        "region": "VN",
-        "completed": 189,
-        "legacyCompleted": 42,
-        "mostNotableChallenge": {
-            "id": 303405,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 18,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 12,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with stealth (camouflage or invisibility count)",
-                "name": "Where'd They Go?",
-                "shortDescription": "Win with a 5-stack with 3+ champs with stealth"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'stealth' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0.002,
-                "MASTER": 0,
-                "PLATINUM": 0.005,
-                "GRANDMASTER": 0,
-                "GOLD": 0.027,
-                "BRONZE": 0,
-                "IRON": 0,
-                "NONE": 1
-            },
-            "leaderboardThresholds": [
-                121,
-                1,
-                18,
-                326,
-                12,
-                1623
-            ]
-        },
-        "mostNotableChallengePosition": 99
-    },
-    {
-        "name": "Ric Fazeres#RIC",
-        "score": 22235,
-        "region": "EUW",
-        "completed": 182,
-        "legacyCompleted": 49,
-        "mostNotableChallenge": {
-            "id": 401102,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 3500,
-                "CHALLENGER": 8388756,
-                "MASTER": 5000000,
-                "PLATINUM": 900000,
-                "GRANDMASTER": 6580601,
-                "DIAMOND": 2500000,
-                "IRON": 1200,
-                "GOLD": 220000,
-                "SILVER": 35000
-            },
-            "translation": {
-                "description": "Earn total Mastery Points",
-                "name": "Wise Master",
-                "shortDescription": "Earn Mastery Points"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401100",
-                "priority": ".1",
-                "source": "EOGD"
-            },
-            "parent": "401100",
-            "parentCategory": "3",
-            "percentiles": {
-                "BRONZE": 0.383,
-                "MASTER": 0.006,
-                "PLATINUM": 0.123,
-                "CHALLENGER": 0,
-                "DIAMOND": 0.043,
-                "IRON": 0.412,
-                "GRANDMASTER": 0.002,
-                "GOLD": 0.202,
-                "NONE": 1,
-                "SILVER": 0.29
-            },
-            "leaderboardThresholds": [
-                21069510,
-                1,
-                8388756,
-                4713,
-                6580601,
-                23557
-            ]
-        },
-        "mostNotableChallengePosition": 328
-    },
-    {
-        "name": "Halliphax#HLLPX",
-        "score": 22150,
-        "region": "PH",
-        "completed": 196,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 302106,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 5,
-                "CHALLENGER": 750,
-                "MASTER": 300,
-                "PLATINUM": 75,
-                "GRANDMASTER": 500,
-                "DIAMOND": 150,
-                "IRON": 1,
-                "GOLD": 25,
-                "SILVER": 10
-            },
-            "translation": {
-                "description": "Generate a 2500 gold advantage during your Baron Buff",
-                "name": "Baron Power Play",
-                "shortDescription": "Generate 2500 gold advantage with Baron Buff"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "302100",
-                "source": "EOGD"
-            },
-            "parent": "302100",
-            "parentCategory": "4",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.04,
-                "BRONZE": 0.216,
-                "GOLD": 0.131,
-                "IRON": 0.315,
-                "GRANDMASTER": 0.003,
-                "SILVER": 0.179,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.013,
-                "PLATINUM": 0.075
-            },
-            "leaderboardThresholds": [
-                2959,
-                1,
-                749,
-                8819,
-                499,
-                46767
-            ]
-        },
-        "mostNotableChallengePosition": 2
-    },
-    {
-        "name": "GreenBert1#EUW",
-        "score": 22190,
-        "region": "EUW",
-        "completed": 175,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 204201,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 75,
-                "MASTER": 25,
-                "PLATINUM": 8,
-                "GRANDMASTER": 41,
-                "DIAMOND": 15,
-                "GOLD": 3,
-                "SILVER": 2
-            },
-            "translation": {
-                "description": "Destroy 10 wards before 20 minutes",
-                "name": "Ward Hunter",
-                "shortDescription": "Destroy 10 wards before 20 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "204200",
-                "source": "EOGD"
-            },
-            "parent": "204200",
-            "parentCategory": "2",
-            "percentiles": {
-                "BRONZE": 0.138,
-                "MASTER": 0.003,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.024,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.009,
-                "IRON": 0,
-                "GOLD": 0.065,
-                "NONE": 1,
-                "SILVER": 0.088
-            },
-            "leaderboardThresholds": [
-                1637,
-                1,
-                74,
-                1873,
-                41,
-                11010
-            ]
-        },
-        "mostNotableChallengePosition": 337
-    },
-    {
-        "name": "我叫小筱幽#1234",
-        "score": 22160,
-        "region": "TW",
-        "completed": 185,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 402103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 295,
-                "MASTER": 125,
-                "PLATINUM": 25,
-                "GRANDMASTER": 197,
-                "DIAMOND": 65,
-                "GOLD": 10,
-                "SILVER": 5
-            },
-            "translation": {
-                "description": "Become Legendary (8-0 kill streak)",
-                "name": "Legendary Legend",
-                "shortDescription": "Become Legendary"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "402100",
-            "parentCategory": "3",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.016,
-                "BRONZE": 0.235,
-                "GOLD": 0.097,
-                "IRON": 0,
-                "GRANDMASTER": 0.001,
-                "SILVER": 0.135,
-                "CHALLENGER": 0,
-                "MASTER": 0.004,
-                "PLATINUM": 0.051
-            },
-            "leaderboardThresholds": [
-                1489,
-                1,
-                295,
-                3240,
-                197,
-                16194
-            ]
-        },
-        "mostNotableChallengePosition": 42
-    },
-    {
-        "name": "pocket#2114",
-        "score": 22400,
-        "region": "EUW",
-        "completed": 184,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
-            "id": 303411,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
-                "name": "I'm Helping",
-                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                704,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "GOLD": 0.003,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0,
-                "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0,
-                "DIAMOND": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                28,
-                1,
-                17,
-                10,
-                10,
-                44
-            ]
-        },
-        "mostNotableChallengePosition": 6
-    },
-    {
-        "name": "Detonator16#donk",
-        "score": 22210,
-        "region": "EUW",
-        "completed": 178,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 301103,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 13,
-                "MASTER": 3,
-                "PLATINUM": 1,
-                "GRANDMASTER": 5,
-                "DIAMOND": 2
-            },
-            "translation": {
-                "description": "Your team takes Elder Dragons before 28 minutes",
-                "name": "Dragon Hunt",
-                "shortDescription": "Take Elder Dragons before 28 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "301100",
-            "parentCategory": "4",
-            "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0,
-                "MASTER": 0,
-                "PLATINUM": 0.002,
-                "GRANDMASTER": 0,
-                "GOLD": 0,
-                "BRONZE": 0,
-                "IRON": 0,
-                "NONE": 1
-            },
-            "leaderboardThresholds": [
-                52,
-                1,
-                13,
-                49,
-                5,
-                239
-            ]
-        },
-        "mostNotableChallengePosition": 132
-    },
-    {
-        "name": "Dictator4life#NA1",
-        "score": 22270,
-        "region": "NA",
-        "completed": 174,
-        "legacyCompleted": 36,
-        "mostNotableChallenge": {
-            "id": 401102,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 3500,
-                "CHALLENGER": 8388756,
-                "MASTER": 5000000,
-                "PLATINUM": 900000,
-                "GRANDMASTER": 6580601,
-                "DIAMOND": 2500000,
-                "IRON": 1200,
-                "GOLD": 220000,
-                "SILVER": 35000
-            },
-            "translation": {
-                "description": "Earn total Mastery Points",
-                "name": "Wise Master",
-                "shortDescription": "Earn Mastery Points"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401100",
-                "priority": ".1",
-                "source": "EOGD"
-            },
-            "parent": "401100",
-            "parentCategory": "3",
-            "percentiles": {
-                "BRONZE": 0.383,
-                "MASTER": 0.006,
-                "PLATINUM": 0.123,
-                "CHALLENGER": 0,
-                "DIAMOND": 0.043,
-                "IRON": 0.412,
-                "GRANDMASTER": 0.002,
-                "GOLD": 0.202,
-                "NONE": 1,
-                "SILVER": 0.29
-            },
-            "leaderboardThresholds": [
-                21069510,
-                1,
-                8388756,
-                4713,
-                6580601,
-                23557
-            ]
-        },
-        "mostNotableChallengePosition": 1826
-    },
-    {
-        "name": "也许有一天#我是说也许",
-        "score": 22090,
-        "region": "NA",
-        "completed": 197,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 302401,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 5,
-                "CHALLENGER": 750,
-                "MASTER": 300,
-                "PLATINUM": 90,
-                "GRANDMASTER": 500,
-                "DIAMOND": 170,
-                "IRON": 1,
-                "GOLD": 35,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Ace the enemy team with no allied deaths",
-                "name": "Flawless Ace",
-                "shortDescription": "Ace the enemy team with no allied deaths"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "302400",
-                "source": "EOGD"
-            },
-            "parent": "302400",
-            "parentCategory": "4",
-            "percentiles": {
-                "IRON": 0.314,
-                "GRANDMASTER": 0.001,
-                "MASTER": 0.006,
-                "SILVER": 0.149,
-                "NONE": 1,
-                "PLATINUM": 0.053,
-                "BRONZE": 0.212,
-                "CHALLENGER": 0,
-                "GOLD": 0.103,
-                "DIAMOND": 0.023
-            },
-            "leaderboardThresholds": [
-                4581,
-                1,
-                749,
-                906,
-                499,
-                10040
-            ]
-        },
-        "mostNotableChallengePosition": 18
-    },
-    {
-        "name": "kero#NA1",
-        "score": 22210,
-        "region": "NA",
-        "completed": 180,
-        "legacyCompleted": 30,
-        "mostNotableChallenge": {
-            "id": 303411,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
-                "name": "I'm Helping",
-                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                704,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "GOLD": 0.003,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0,
-                "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0,
-                "DIAMOND": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                28,
-                1,
-                17,
-                10,
-                10,
-                44
-            ]
-        },
-        "mostNotableChallengePosition": 16
-    },
-    {
-        "name": "Innocent#0517",
-        "score": 22270,
-        "region": "TW",
-        "completed": 197,
-        "legacyCompleted": 46,
-        "mostNotableChallenge": {
-            "id": 302401,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 5,
-                "CHALLENGER": 750,
-                "MASTER": 300,
-                "PLATINUM": 90,
-                "GRANDMASTER": 500,
-                "DIAMOND": 170,
-                "IRON": 1,
-                "GOLD": 35,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Ace the enemy team with no allied deaths",
-                "name": "Flawless Ace",
-                "shortDescription": "Ace the enemy team with no allied deaths"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "302400",
-                "source": "EOGD"
-            },
-            "parent": "302400",
-            "parentCategory": "4",
-            "percentiles": {
-                "IRON": 0.314,
-                "GRANDMASTER": 0.001,
-                "MASTER": 0.006,
-                "SILVER": 0.149,
-                "NONE": 1,
-                "PLATINUM": 0.053,
-                "BRONZE": 0.212,
-                "CHALLENGER": 0,
-                "GOLD": 0.103,
-                "DIAMOND": 0.023
-            },
-            "leaderboardThresholds": [
-                4581,
-                1,
-                749,
-                906,
-                499,
-                10040
-            ]
-        },
-        "mostNotableChallengePosition": 15
-    },
-    {
-        "name": "Waty#Waty",
-        "score": 22260,
-        "region": "EUW",
-        "completed": 188,
-        "legacyCompleted": 39,
         "mostNotableChallenge": {
             "id": 210001,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 5,
+                "GRANDMASTER": 166,
                 "CHALLENGER": 170,
-                "MASTER": 150,
+                "SILVER": 15,
                 "PLATINUM": 50,
-                "GRANDMASTER": 165,
-                "DIAMOND": 100,
+                "BRONZE": 5,
                 "IRON": 1,
+                "MASTER": 150,
                 "GOLD": 30,
-                "SILVER": 15
+                "DIAMOND": 100
             },
             "translation": {
                 "description": "Earn an S+ grade on different champions",
@@ -3888,48 +689,48 @@ var page5 = [
             "parentCategory": "2",
             "title": "S+",
             "percentiles": {
-                "BRONZE": 0.09,
-                "MASTER": 0,
+                "GRANDMASTER": 0,
+                "SILVER": 0.028,
                 "CHALLENGER": 0,
                 "PLATINUM": 0.001,
-                "GRANDMASTER": 0,
-                "DIAMOND": 0,
-                "IRON": 0.223,
-                "GOLD": 0.007,
+                "IRON": 0.22,
+                "BRONZE": 0.091,
+                "MASTER": 0,
                 "NONE": 1,
-                "SILVER": 0.027
+                "GOLD": 0.007,
+                "DIAMOND": 0
             },
             "leaderboardThresholds": [
                 0,
                 0,
                 167,
                 1,
-                165,
-                7
+                166,
+                9
             ]
         },
-        "mostNotableChallengePosition": 2
+        "mostNotableChallengePosition": 10
     },
     {
-        "name": "zawaa#EUNE",
-        "score": 22260,
-        "region": "EUNE",
-        "completed": 186,
-        "legacyCompleted": 47,
+        "name": "Fr3nd#1337",
+        "score": 23065,
+        "region": "EUW",
+        "completed": 206,
+        "legacyCompleted": 53,
         "mostNotableChallenge": {
             "id": 501001,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
+                "GRANDMASTER": 2626,
+                "CHALLENGER": 4473,
+                "SILVER": 15,
                 "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
+                "BRONZE": 7,
                 "IRON": 3,
+                "MASTER": 1250,
                 "GOLD": 75,
-                "SILVER": 15
+                "DIAMOND": 600
             },
             "translation": {
                 "description": "Earn milestones on any Eternal",
@@ -3945,124 +746,50 @@ var page5 = [
             "parent": "501000",
             "parentCategory": "5",
             "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
+                "SILVER": 0.111,
                 "CHALLENGER": 0.001,
+                "DIAMOND": 0.033,
                 "MASTER": 0.017,
-                "PLATINUM": 0.063
+                "PLATINUM": 0.061,
+                "GOLD": 0.076,
+                "GRANDMASTER": 0.004,
+                "BRONZE": 0.127,
+                "IRON": 0.142,
+                "NONE": 1
             },
             "leaderboardThresholds": [
                 198422,
                 1,
-                4369,
-                12805,
-                2582,
-                64018
+                4473,
+                13422,
+                2626,
+                67102
             ]
         },
-        "mostNotableChallengePosition": 201
+        "mostNotableChallengePosition": 1304
     },
     {
-        "name": "dyduk#2106",
-        "score": 22210,
-        "region": "VN",
-        "completed": 189,
-        "legacyCompleted": 43,
+        "name": "gugu#ole",
+        "score": 22820,
+        "region": "BR",
+        "completed": 201,
+        "legacyCompleted": 51,
         "mostNotableChallenge": {
-            "id": 201003,
+            "id": 303406,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 100,
-                "MASTER": 25,
-                "PLATINUM": 7,
-                "GRANDMASTER": 48,
-                "DIAMOND": 15,
-                "GOLD": 3,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "Win games without dying and with at least 30% kill participation",
-                "name": "Unkillable Demon King",
-                "shortDescription": "Win games without dying and at least 30% kill participation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "201000",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "201000",
-            "parentCategory": "2",
-            "title": "Unkillable Demon",
-            "percentiles": {
-                "GOLD": 0.132,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0.019,
-                "CHALLENGER": 0.001,
-                "IRON": 0,
-                "PLATINUM": 0.08,
-                "DIAMOND": 0.04,
-                "GRANDMASTER": 0.005,
-                "SILVER": 0.213
-            },
-            "leaderboardThresholds": [
-                1056,
-                1,
-                99,
-                7775,
-                48,
-                74227
-            ]
-        },
-        "mostNotableChallengePosition": 125
-    },
-    {
-        "name": "iSentinel#911",
-        "score": 22345,
-        "region": "EUW",
-        "completed": 182,
-        "legacyCompleted": 38,
-        "mostNotableChallenge": {
-            "id": 303403,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 25,
-                "MASTER": 8,
+                "GRANDMASTER": 19,
+                "CHALLENGER": 37,
                 "PLATINUM": 3,
-                "GRANDMASTER": 14,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a heal or shield. Self-heals and self-shields do not count",
-                "name": "We Protec",
-                "shortDescription": "Win with a 5-stack of 3+ champs with heals or shields. "
+                "description": "As a premade 5, win games with 3 or more \"poke\" champions",
+                "name": "We're Good Over Here",
+                "shortDescription": "Win with a 5-stack with 3+ poke champs"
             },
             "reversed": false,
             "queueIds": [
@@ -4085,275 +812,54 @@ var page5 = [
             ],
             "tags": {
                 "parent": "303400",
-                "championQuery": "$[?( 'heal' in @.abilities[*].traits[*] || 'shield' in @.abilities[*].traits[*])].id",
+                "championQuery": "$[?( 'poke' in @.abilities[*].traits[*])].id",
                 "source": "EOGD"
             },
             "parent": "303400",
             "parentCategory": "4",
             "percentiles": {
-                "MASTER": 0.003,
-                "GRANDMASTER": 0.001,
-                "CHALLENGER": 0,
-                "SILVER": 0,
+                "PLATINUM": 0.035,
                 "IRON": 0,
-                "DIAMOND": 0.007,
-                "NONE": 1,
-                "GOLD": 0.045,
-                "PLATINUM": 0.014,
-                "BRONZE": 0
-            },
-            "leaderboardThresholds": [
-                179,
-                1,
-                25,
-                2305,
-                14,
-                11520
-            ]
-        },
-        "mostNotableChallengePosition": 815
-    },
-    {
-        "name": "Roszczyn#123",
-        "score": 22220,
-        "region": "EUW",
-        "completed": 181,
-        "legacyCompleted": 40,
-        "mostNotableChallenge": {
-            "id": 201003,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 100,
-                "MASTER": 25,
-                "PLATINUM": 7,
-                "GRANDMASTER": 48,
-                "DIAMOND": 15,
-                "GOLD": 3,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "Win games without dying and with at least 30% kill participation",
-                "name": "Unkillable Demon King",
-                "shortDescription": "Win games without dying and at least 30% kill participation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "201000",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "201000",
-            "parentCategory": "2",
-            "title": "Unkillable Demon",
-            "percentiles": {
-                "GOLD": 0.132,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0.019,
+                "GOLD": 0.073,
+                "MASTER": 0.013,
+                "GRANDMASTER": 0.003,
                 "CHALLENGER": 0.001,
-                "IRON": 0,
-                "PLATINUM": 0.08,
-                "DIAMOND": 0.04,
-                "GRANDMASTER": 0.005,
-                "SILVER": 0.213
-            },
-            "leaderboardThresholds": [
-                1056,
-                1,
-                99,
-                7775,
-                48,
-                74227
-            ]
-        },
-        "mostNotableChallengePosition": 2459
-    },
-    {
-        "name": "Percepeus#EUW",
-        "score": 22190,
-        "region": "EUW",
-        "completed": 189,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 301101,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 10,
-                "CHALLENGER": 936,
-                "MASTER": 400,
-                "PLATINUM": 150,
-                "GRANDMASTER": 622,
-                "DIAMOND": 250,
-                "IRON": 3,
-                "GOLD": 50,
-                "SILVER": 25
-            },
-            "translation": {
-                "description": "Kill Epic Monsters within 30 seconds of them spawning. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
-                "name": "Always On Time",
-                "shortDescription": "Kill Epic Monsters within 30 seconds of spawn"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301100",
-                "source": "EOGD"
-            },
-            "parent": "301100",
-            "parentCategory": "4",
-            "title": "Epic",
-            "percentiles": {
-                "IRON": 0.166,
-                "GRANDMASTER": 0,
-                "MASTER": 0.001,
-                "SILVER": 0.064,
-                "NONE": 1,
-                "PLATINUM": 0.008,
-                "BRONZE": 0.106,
-                "CHALLENGER": 0,
-                "GOLD": 0.036,
-                "DIAMOND": 0.003
-            },
-            "leaderboardThresholds": [
-                3398,
-                1,
-                936,
-                669,
-                622,
-                3338
-            ]
-        },
-        "mostNotableChallengePosition": 44
-    },
-    {
-        "name": "KAYN PSY#RU1",
-        "score": 22095,
-        "region": "RU",
-        "completed": 185,
-        "legacyCompleted": 39,
-        "mostNotableChallenge": {
-            "id": 303405,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 18,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 12,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with stealth (camouflage or invisibility count)",
-                "name": "Where'd They Go?",
-                "shortDescription": "Win with a 5-stack with 3+ champs with stealth"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'stealth' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "SILVER": 0,
-                "CHALLENGER": 0,
-                "DIAMOND": 0.002,
-                "MASTER": 0,
-                "PLATINUM": 0.005,
-                "GRANDMASTER": 0,
-                "GOLD": 0.027,
                 "BRONZE": 0,
-                "IRON": 0,
+                "SILVER": 0,
+                "DIAMOND": 0.022,
                 "NONE": 1
             },
             "leaderboardThresholds": [
-                121,
+                468,
                 1,
-                18,
-                326,
-                12,
-                1623
+                37,
+                10736,
+                19,
+                53676
             ]
         },
-        "mostNotableChallengePosition": 1
+        "mostNotableChallengePosition": 3
     },
     {
-        "name": "EkinoScythe#RALA",
-        "score": 22155,
-        "region": "PH",
-        "completed": 191,
-        "legacyCompleted": 41,
+        "name": "Scraf#2052",
+        "score": 23160,
+        "region": "NA",
+        "completed": 203,
+        "legacyCompleted": 44,
         "mostNotableChallenge": {
             "id": 401300,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 690,
-                "MASTER": 475,
-                "PLATINUM": 160,
                 "GRANDMASTER": 570,
-                "DIAMOND": 290,
+                "CHALLENGER": 690,
+                "SILVER": 45,
+                "PLATINUM": 160,
+                "BRONZE": 30,
                 "IRON": 15,
+                "MASTER": 475,
                 "GOLD": 100,
-                "SILVER": 45
+                "DIAMOND": 290
             },
             "translation": {
                 "description": "Earn points from challenges in the Ace group",
@@ -4371,16 +877,16 @@ var page5 = [
             "parentCategory": "3",
             "title": "Just Better",
             "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0.083,
-                "IRON": 0.137,
-                "DIAMOND": 0.006,
                 "NONE": 1,
-                "GOLD": 0.056,
-                "PLATINUM": 0.024,
-                "BRONZE": 0.1
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0,
+                "DIAMOND": 0.006,
+                "BRONZE": 0.1,
+                "GOLD": 0.057,
+                "IRON": 0.136,
+                "SILVER": 0.083,
+                "MASTER": 0,
+                "PLATINUM": 0.026
             },
             "leaderboardThresholds": [
                 0,
@@ -4388,175 +894,28 @@ var page5 = [
                 600,
                 1,
                 560,
-                577
+                767
             ]
         },
-        "mostNotableChallengePosition": 2
+        "mostNotableChallengePosition": 363
     },
     {
-        "name": "bun bun#11039",
-        "score": 22135,
-        "region": "VN",
-        "completed": 198,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 301102,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 75,
-                "MASTER": 15,
-                "PLATINUM": 5,
-                "GRANDMASTER": 36,
-                "DIAMOND": 10,
-                "GOLD": 2,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "Your team takes Barons before 21 minutes",
-                "name": "Gets The Wurm",
-                "shortDescription": "Take Barons before 21 minutes"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "301100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "301100",
-            "parentCategory": "4",
-            "title": "Early Bird",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.037,
-                "BRONZE": 0,
-                "GOLD": 0.119,
-                "IRON": 0,
-                "GRANDMASTER": 0.006,
-                "SILVER": 0.168,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.023,
-                "PLATINUM": 0.068
-            },
-            "leaderboardThresholds": [
-                624,
-                1,
-                75,
-                17883,
-                36,
-                89409
-            ]
-        },
-        "mostNotableChallengePosition": 31
-    },
-    {
-        "name": "Its Zynodor#EUW",
-        "score": 22230,
+        "name": "iFeli#0000",
+        "score": 21990,
         "region": "EUW",
         "completed": 181,
-        "legacyCompleted": 34,
-        "mostNotableChallenge": {
-            "id": 203202,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 25,
-                "MASTER": 12,
-                "PLATINUM": 5,
-                "GRANDMASTER": 17,
-                "DIAMOND": 8,
-                "GOLD": 2,
-                "SILVER": 1
-            },
-            "translation": {
-                "description": "Get kills while taking damage from all five enemy champions and survive",
-                "name": "Damage Sponge",
-                "shortDescription": "Get kills while tanking all five enemies and survive"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "203200",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "203200",
-            "parentCategory": "2",
-            "percentiles": {
-                "BRONZE": 0,
-                "MASTER": 0,
-                "CHALLENGER": 0,
-                "PLATINUM": 0,
-                "GRANDMASTER": 0,
-                "DIAMOND": 0,
-                "IRON": 0,
-                "GOLD": 0.031,
-                "NONE": 1,
-                "SILVER": 0.11
-            },
-            "leaderboardThresholds": [
-                51,
-                1,
-                18,
-                3,
-                16,
-                6
-            ]
-        },
-        "mostNotableChallengePosition": 3
-    },
-    {
-        "name": "FARC Teemochenco#LAN",
-        "score": 21590,
-        "region": "LAN",
-        "completed": 191,
-        "legacyCompleted": 42,
+        "legacyCompleted": 39,
         "mostNotableChallenge": {
             "id": 301304,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 20,
-                "MASTER": 10,
-                "PLATINUM": 3,
                 "GRANDMASTER": 15,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
                 "description": "Score aces after minions spawn but before 15 minutes",
@@ -4589,47 +948,118 @@ var page5 = [
             "parent": "301300",
             "parentCategory": "4",
             "percentiles": {
-                "BRONZE": 0,
-                "MASTER": 0.004,
+                "GRANDMASTER": 0.001,
+                "SILVER": 0,
                 "CHALLENGER": 0,
                 "PLATINUM": 0.046,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.022,
                 "IRON": 0,
-                "GOLD": 0.122,
+                "BRONZE": 0,
+                "MASTER": 0.004,
                 "NONE": 1,
-                "SILVER": 0
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
             },
             "leaderboardThresholds": [
                 929,
                 1,
-                19,
-                2973,
+                20,
+                3330,
                 14,
-                12310
+                14069
             ]
         },
-        "mostNotableChallengePosition": 1
+        "mostNotableChallengePosition": 44
     },
     {
-        "name": "MåÐKïñg#Lord",
-        "score": 22230,
-        "region": "RU",
-        "completed": 190,
-        "legacyCompleted": 44,
+        "name": "Nunu and Willump#PDF",
+        "score": 23025,
+        "region": "EUW",
+        "completed": 197,
+        "legacyCompleted": 41,
+        "mostNotableChallenge": {
+            "id": 301304,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 15,
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "Score aces after minions spawn but before 15 minutes",
+                "name": "Team Diff",
+                "shortDescription": "Score aces between minion spawn and 15 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "301300",
+                "source": "EOGD"
+            },
+            "parent": "301300",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0.001,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.046,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0.004,
+                "NONE": 1,
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
+            },
+            "leaderboardThresholds": [
+                929,
+                1,
+                20,
+                3330,
+                14,
+                14069
+            ]
+        },
+        "mostNotableChallengePosition": 67
+    },
+    {
+        "name": "APeck#Carry",
+        "score": 23020,
+        "region": "EUW",
+        "completed": 196,
+        "legacyCompleted": 48,
         "mostNotableChallenge": {
             "id": 201004,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 127,
-                "MASTER": 48,
+                "GRANDMASTER": 80,
+                "CHALLENGER": 129,
+                "SILVER": 2,
                 "PLATINUM": 12,
-                "GRANDMASTER": 79,
-                "DIAMOND": 28,
+                "BRONZE": 1,
+                "MASTER": 48,
                 "GOLD": 5,
-                "SILVER": 2
+                "DIAMOND": 28
             },
             "translation": {
                 "description": "Get 12 Takedowns (kill or assist) on enemy champions by 15 minutes",
@@ -4663,182 +1093,51 @@ var page5 = [
             "parent": "201000",
             "parentCategory": "2",
             "percentiles": {
+                "PLATINUM": 0.039,
+                "IRON": 0,
                 "GOLD": 0.081,
-                "NONE": 1,
-                "BRONZE": 0.195,
                 "MASTER": 0.004,
-                "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0.038,
-                "DIAMOND": 0.011,
                 "GRANDMASTER": 0.001,
-                "SILVER": 0.139
+                "CHALLENGER": 0,
+                "BRONZE": 0.193,
+                "SILVER": 0.139,
+                "DIAMOND": 0.012,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                693,
+                720,
                 1,
-                127,
-                2797,
-                79,
-                13977
+                129,
+                3259,
+                80,
+                16291
             ]
         },
-        "mostNotableChallengePosition": 16
+        "mostNotableChallengePosition": 56
     },
     {
-        "name": "你如此清晰#2450",
-        "score": 22150,
-        "region": "TW",
+        "name": "GoogIeMe#EUW",
+        "score": 23045,
+        "region": "EUW",
         "completed": 190,
-        "legacyCompleted": 43,
+        "legacyCompleted": 47,
         "mostNotableChallenge": {
-            "id": 402102,
+            "id": 203202,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 5000,
-                "MASTER": 1000,
-                "PLATINUM": 300,
-                "GRANDMASTER": 2500,
-                "DIAMOND": 600,
-                "IRON": 10,
-                "GOLD": 150,
-                "SILVER": 60
+                "GRANDMASTER": 17,
+                "CHALLENGER": 25,
+                "SILVER": 1,
+                "PLATINUM": 5,
+                "MASTER": 12,
+                "GOLD": 2,
+                "DIAMOND": 8
             },
             "translation": {
-                "description": "Play Games on Summoner's Rift. Blind Pick, Draft and Ranked Modes count.",
-                "name": "Master of the Rift",
-                "shortDescription": "Play Summoner's Rift Games"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402100",
-                "source": "EOGD"
-            },
-            "parent": "402100",
-            "parentCategory": "3",
-            "percentiles": {
-                "MASTER": 0.019,
-                "GRANDMASTER": 0.001,
-                "CHALLENGER": 0,
-                "SILVER": 0.168,
-                "IRON": 0.274,
-                "DIAMOND": 0.042,
-                "NONE": 1,
-                "GOLD": 0.117,
-                "PLATINUM": 0.079,
-                "BRONZE": 0.207
-            },
-            "leaderboardThresholds": [
-                10262,
-                1,
-                4998,
-                229,
-                2499,
-                14892
-            ]
-        },
-        "mostNotableChallengePosition": 6
-    },
-    {
-        "name": "hong iu nua dau#1411",
-        "score": 21975,
-        "region": "VN",
-        "completed": 194,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 402400,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 40,
-                "CHALLENGER": 940,
-                "MASTER": 650,
-                "PLATINUM": 215,
-                "GRANDMASTER": 780,
-                "DIAMOND": 380,
-                "IRON": 20,
-                "GOLD": 135,
-                "SILVER": 60
-            },
-            "translation": {
-                "description": "Earn points from challenges in the Resourceful group",
-                "name": "Resourceful",
-                "shortDescription": "Earn points from challenges in the Resourceful group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "402000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "402000",
-            "parentCategory": "3",
-            "title": "Resourceful",
-            "percentiles": {
-                "BRONZE": 0.24,
-                "MASTER": 0.007,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.087,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.041,
-                "IRON": 0.288,
-                "GOLD": 0.132,
-                "NONE": 1,
-                "SILVER": 0.205
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                800,
-                1,
-                760,
-                12522
-            ]
-        },
-        "mostNotableChallengePosition": 1
-    },
-    {
-        "name": "ZombieEmoji#EUW",
-        "score": 22180,
-        "region": "EUW",
-        "completed": 184,
-        "legacyCompleted": 42,
-        "mostNotableChallenge": {
-            "id": 303411,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
-                "name": "I'm Helping",
-                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+                "description": "Get kills while taking damage from all five enemy champions and survive",
+                "name": "Damage Sponge",
+                "shortDescription": "Get kills while tanking all five enemies and survive"
             },
             "reversed": false,
             "queueIds": [
@@ -4847,7 +1146,6 @@ var page5 = [
                 430,
                 440,
                 700,
-                704,
                 401,
                 402,
                 411,
@@ -4861,271 +1159,52 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "parent": "203200",
+                "priority": "50",
                 "source": "EOGD"
             },
-            "parent": "303400",
-            "parentCategory": "4",
+            "parent": "203200",
+            "parentCategory": "2",
             "percentiles": {
-                "GOLD": 0.003,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0,
+                "SILVER": 0.109,
                 "CHALLENGER": 0,
-                "IRON": 0,
-                "PLATINUM": 0,
                 "DIAMOND": 0,
-                "GRANDMASTER": 0,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                28,
-                1,
-                17,
-                10,
-                10,
-                44
-            ]
-        },
-        "mostNotableChallengePosition": 45
-    },
-    {
-        "name": "W2uan#VN00",
-        "score": 22115,
-        "region": "VN",
-        "completed": 193,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 402409,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 222000,
-                "CHALLENGER": 50000000,
-                "MASTER": 15000000,
-                "PLATINUM": 4150000,
-                "GRANDMASTER": 25000000,
-                "DIAMOND": 7500000,
-                "IRON": 55500,
-                "GOLD": 1110000,
-                "SILVER": 555000
-            },
-            "translation": {
-                "description": "Earn gold",
-                "name": "Get Paid, and Get Out",
-                "shortDescription": "Earn gold"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "402400",
-                "priority": ".1",
-                "source": "EOGD"
-            },
-            "parent": "402400",
-            "parentCategory": "3",
-            "percentiles": {
-                "IRON": 0.301,
-                "GRANDMASTER": 0.002,
-                "MASTER": 0.01,
-                "SILVER": 0.173,
-                "NONE": 1,
-                "PLATINUM": 0.066,
-                "BRONZE": 0.223,
-                "CHALLENGER": 0,
-                "GOLD": 0.136,
-                "DIAMOND": 0.036
-            },
-            "leaderboardThresholds": [
-                122818578,
-                1,
-                49990167,
-                574,
-                24999752,
-                27106
-            ]
-        },
-        "mostNotableChallengePosition": 33
-    },
-    {
-        "name": "Shausur#EUW",
-        "score": 22190,
-        "region": "EUW",
-        "completed": 184,
-        "legacyCompleted": 41,
-        "mostNotableChallenge": {
-            "id": 303411,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
-                "name": "I'm Helping",
-                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                704,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "GOLD": 0.003,
-                "NONE": 1,
-                "BRONZE": 0,
                 "MASTER": 0,
-                "CHALLENGER": 0,
-                "IRON": 0,
                 "PLATINUM": 0,
-                "DIAMOND": 0,
+                "GOLD": 0.031,
                 "GRANDMASTER": 0,
-                "SILVER": 0
-            },
-            "leaderboardThresholds": [
-                28,
-                1,
-                17,
-                10,
-                10,
-                44
-            ]
-        },
-        "mostNotableChallengePosition": 66
-    },
-    {
-        "name": "Mercury#God",
-        "score": 22095,
-        "region": "NA",
-        "completed": 182,
-        "legacyCompleted": 35,
-        "mostNotableChallenge": {
-            "id": 303408,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 24,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
-                "name": "Variety's Overrated",
-                "shortDescription": "Win with a 5-stack of all one class"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "IRON": 0,
-                "GRANDMASTER": 0,
-                "MASTER": 0,
-                "SILVER": 0,
-                "NONE": 1,
-                "PLATINUM": 0.001,
                 "BRONZE": 0,
-                "CHALLENGER": 0,
-                "GOLD": 0.012,
-                "DIAMOND": 0
+                "IRON": 0,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                97,
+                51,
                 1,
-                24,
-                43,
-                10,
-                209
+                18,
+                3,
+                16,
+                6
             ]
         },
-        "mostNotableChallengePosition": 1
+        "mostNotableChallengePosition": 3
     },
     {
-        "name": "Zé Bonitinho#0610",
-        "score": 22000,
+        "name": "Mauriciog7#BR1",
+        "score": 23030,
         "region": "BR",
-        "completed": 180,
-        "legacyCompleted": 33,
+        "completed": 194,
+        "legacyCompleted": 43,
         "mostNotableChallenge": {
             "id": 301304,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 20,
-                "MASTER": 10,
-                "PLATINUM": 3,
                 "GRANDMASTER": 15,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
                 "description": "Score aces after minions spawn but before 15 minutes",
@@ -5158,45 +1237,378 @@ var page5 = [
             "parent": "301300",
             "parentCategory": "4",
             "percentiles": {
-                "BRONZE": 0,
-                "MASTER": 0.004,
+                "GRANDMASTER": 0.001,
+                "SILVER": 0,
                 "CHALLENGER": 0,
                 "PLATINUM": 0.046,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.022,
                 "IRON": 0,
-                "GOLD": 0.122,
+                "BRONZE": 0,
+                "MASTER": 0.004,
                 "NONE": 1,
-                "SILVER": 0
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
             },
             "leaderboardThresholds": [
                 929,
                 1,
-                19,
-                2973,
+                20,
+                3330,
                 14,
-                12310
+                14069
             ]
         },
-        "mostNotableChallengePosition": 111
+        "mostNotableChallengePosition": 40
     },
     {
-        "name": "Theorik#EUW",
-        "score": 22140,
+        "name": "feva#4241",
+        "score": 23075,
+        "region": "JP",
+        "completed": 194,
+        "legacyCompleted": 45,
+        "mostNotableChallenge": {
+            "id": 203203,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 4643,
+                "CHALLENGER": 6694,
+                "SILVER": 100,
+                "PLATINUM": 750,
+                "BRONZE": 40,
+                "IRON": 10,
+                "MASTER": 3000,
+                "GOLD": 250,
+                "DIAMOND": 1500
+            },
+            "translation": {
+                "description": "Take three or more immobilizing abilities in a single fight and survive",
+                "name": "Go Where You Please",
+                "shortDescription": "Tank three immobilizing effects in a fight and survive"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203200",
+                "source": "EOGD"
+            },
+            "parent": "203200",
+            "parentCategory": "2",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.002,
+                "DIAMOND": 0.032,
+                "BRONZE": 0.209,
+                "GOLD": 0.119,
+                "IRON": 0.281,
+                "SILVER": 0.164,
+                "MASTER": 0.009,
+                "PLATINUM": 0.064
+            },
+            "leaderboardThresholds": [
+                23685,
+                1,
+                6694,
+                6950,
+                4643,
+                34744
+            ]
+        },
+        "mostNotableChallengePosition": 47
+    },
+    {
+        "name": "Dictator4life#NA1",
+        "score": 23010,
+        "region": "NA",
+        "completed": 184,
+        "legacyCompleted": 36,
+        "mostNotableChallenge": {
+            "id": 401102,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 6602411,
+                "CHALLENGER": 8426315,
+                "SILVER": 35000,
+                "PLATINUM": 900000,
+                "BRONZE": 3500,
+                "IRON": 1200,
+                "MASTER": 5000000,
+                "GOLD": 220000,
+                "DIAMOND": 2500000
+            },
+            "translation": {
+                "description": "Earn total Mastery Points",
+                "name": "Wise Master",
+                "shortDescription": "Earn Mastery Points"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "401100",
+                "priority": ".1",
+                "source": "EOGD"
+            },
+            "parent": "401100",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.002,
+                "DIAMOND": 0.042,
+                "BRONZE": 0.376,
+                "GOLD": 0.196,
+                "IRON": 0.405,
+                "SILVER": 0.283,
+                "MASTER": 0.006,
+                "PLATINUM": 0.119
+            },
+            "leaderboardThresholds": [
+                21528393,
+                1,
+                8426315,
+                4941,
+                6602411,
+                24698
+            ]
+        },
+        "mostNotableChallengePosition": 1605
+    },
+    {
+        "name": "Malinks#BR1",
+        "score": 23000,
+        "region": "BR",
+        "completed": 195,
+        "legacyCompleted": 39,
+        "mostNotableChallenge": {
+            "id": 301304,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 15,
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "Score aces after minions spawn but before 15 minutes",
+                "name": "Team Diff",
+                "shortDescription": "Score aces between minion spawn and 15 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "301300",
+                "source": "EOGD"
+            },
+            "parent": "301300",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0.001,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.046,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0.004,
+                "NONE": 1,
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
+            },
+            "leaderboardThresholds": [
+                929,
+                1,
+                20,
+                3330,
+                14,
+                14069
+            ]
+        },
+        "mostNotableChallengePosition": 24
+    },
+    {
+        "name": "pocket#2114",
+        "score": 22995,
         "region": "EUW",
-        "completed": 183,
-        "legacyCompleted": 41,
+        "completed": 192,
+        "legacyCompleted": 38,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 7
+    },
+    {
+        "name": "XYŁIAN#EUW",
+        "score": 23010,
+        "region": "EUW",
+        "completed": 201,
+        "legacyCompleted": 42,
+        "mostNotableChallenge": {
+            "id": 501001,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2626,
+                "CHALLENGER": 4473,
+                "SILVER": 15,
+                "PLATINUM": 150,
+                "BRONZE": 7,
+                "IRON": 3,
+                "MASTER": 1250,
+                "GOLD": 75,
+                "DIAMOND": 600
+            },
+            "translation": {
+                "description": "Earn milestones on any Eternal",
+                "name": "Mile Marker",
+                "shortDescription": "Earn milestones on any Eternal"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "501000",
+                "source": "ETERNALS"
+            },
+            "parent": "501000",
+            "parentCategory": "5",
+            "percentiles": {
+                "SILVER": 0.111,
+                "CHALLENGER": 0.001,
+                "DIAMOND": 0.033,
+                "MASTER": 0.017,
+                "PLATINUM": 0.061,
+                "GOLD": 0.076,
+                "GRANDMASTER": 0.004,
+                "BRONZE": 0.127,
+                "IRON": 0.142,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                198422,
+                1,
+                4473,
+                13422,
+                2626,
+                67102
+            ]
+        },
+        "mostNotableChallengePosition": 78
+    },
+    {
+        "name": "Vitasoy#NA1",
+        "score": 22980,
+        "region": "NA",
+        "completed": 189,
+        "legacyCompleted": 43,
         "mostNotableChallenge": {
             "id": 303407,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
                 "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
                 "description": "As a premade 5, win games with 5 champions with a summon or a pet",
@@ -5230,16 +1642,16 @@ var page5 = [
             "parent": "303400",
             "parentCategory": "4",
             "percentiles": {
-                "MASTER": 0,
                 "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0,
                 "IRON": 0,
-                "DIAMOND": 0,
                 "NONE": 1,
-                "GOLD": 0,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
                 "PLATINUM": 0,
-                "BRONZE": 0
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
             },
             "leaderboardThresholds": [
                 29,
@@ -5250,33 +1662,1079 @@ var page5 = [
                 36
             ]
         },
-        "mostNotableChallengePosition": 53
+        "mostNotableChallengePosition": 24
     },
     {
-        "name": "uwu NightVortex#EUNE",
-        "score": 22155,
-        "region": "EUNE",
-        "completed": 173,
-        "legacyCompleted": 39,
+        "name": "요기여#KR1",
+        "score": 22880,
+        "region": "KR",
+        "completed": 197,
+        "legacyCompleted": 36,
         "mostNotableChallenge": {
-            "id": 301101,
+            "id": 401300,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 10,
-                "CHALLENGER": 936,
-                "MASTER": 400,
-                "PLATINUM": 150,
-                "GRANDMASTER": 622,
-                "DIAMOND": 250,
-                "IRON": 3,
-                "GOLD": 50,
-                "SILVER": 25
+                "GRANDMASTER": 570,
+                "CHALLENGER": 690,
+                "SILVER": 45,
+                "PLATINUM": 160,
+                "BRONZE": 30,
+                "IRON": 15,
+                "MASTER": 475,
+                "GOLD": 100,
+                "DIAMOND": 290
             },
             "translation": {
-                "description": "Kill Epic Monsters within 30 seconds of them spawning. Epic Monsters include Dragons, the Rift Herald, and Baron Nashor.",
-                "name": "Always On Time",
-                "shortDescription": "Kill Epic Monsters within 30 seconds of spawn"
+                "description": "Earn points from challenges in the Ace group",
+                "name": "Ace",
+                "shortDescription": "Earn points from challenges in the Ace group"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "401000",
+                "isCapstone": "Y",
+                "source": "CHALLENGES"
+            },
+            "parent": "401000",
+            "parentCategory": "3",
+            "title": "Just Better",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0,
+                "DIAMOND": 0.006,
+                "BRONZE": 0.1,
+                "GOLD": 0.057,
+                "IRON": 0.136,
+                "SILVER": 0.083,
+                "MASTER": 0,
+                "PLATINUM": 0.026
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                600,
+                1,
+                560,
+                767
+            ]
+        },
+        "mostNotableChallengePosition": 5
+    },
+    {
+        "name": "Mercury#God",
+        "score": 22910,
+        "region": "NA",
+        "completed": 194,
+        "legacyCompleted": 42,
+        "mostNotableChallenge": {
+            "id": 303408,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 23,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
+                "name": "Variety's Overrated",
+                "shortDescription": "Win with a 5-stack of all one class"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.001,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0,
+                "NONE": 1,
+                "GOLD": 0.012,
+                "DIAMOND": 0
+            },
+            "leaderboardThresholds": [
+                97,
+                1,
+                23,
+                45,
+                10,
+                220
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "katarina1v9#OuO",
+        "score": 22855,
+        "region": "TW",
+        "completed": 197,
+        "legacyCompleted": 32,
+        "mostNotableChallenge": {
+            "id": 203302,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2947,
+                "CHALLENGER": 4448,
+                "SILVER": 90,
+                "PLATINUM": 540,
+                "BRONZE": 30,
+                "IRON": 10,
+                "MASTER": 1800,
+                "GOLD": 180,
+                "DIAMOND": 1080
+            },
+            "translation": {
+                "description": "Get kills while more enemy champions than friendly ones are nearby",
+                "name": "Never Tell Me the Odds",
+                "shortDescription": "Get kills while outnumbered"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203300",
+                "source": "EOGD"
+            },
+            "parent": "203300",
+            "parentCategory": "2",
+            "title": "Lucky",
+            "percentiles": {
+                "GRANDMASTER": 0.002,
+                "SILVER": 0.142,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.051,
+                "IRON": 0.26,
+                "BRONZE": 0.201,
+                "MASTER": 0.009,
+                "NONE": 1,
+                "GOLD": 0.106,
+                "DIAMOND": 0.023
+            },
+            "leaderboardThresholds": [
+                20375,
+                1,
+                4448,
+                7060,
+                2947,
+                35295
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "Coach Finn#EUW",
+        "score": 22865,
+        "region": "EUW",
+        "completed": 197,
+        "legacyCompleted": 44,
+        "mostNotableChallenge": {
+            "id": 401300,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 570,
+                "CHALLENGER": 690,
+                "SILVER": 45,
+                "PLATINUM": 160,
+                "BRONZE": 30,
+                "IRON": 15,
+                "MASTER": 475,
+                "GOLD": 100,
+                "DIAMOND": 290
+            },
+            "translation": {
+                "description": "Earn points from challenges in the Ace group",
+                "name": "Ace",
+                "shortDescription": "Earn points from challenges in the Ace group"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "401000",
+                "isCapstone": "Y",
+                "source": "CHALLENGES"
+            },
+            "parent": "401000",
+            "parentCategory": "3",
+            "title": "Just Better",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0,
+                "DIAMOND": 0.006,
+                "BRONZE": 0.1,
+                "GOLD": 0.057,
+                "IRON": 0.136,
+                "SILVER": 0.083,
+                "MASTER": 0,
+                "PLATINUM": 0.026
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                600,
+                1,
+                560,
+                767
+            ]
+        },
+        "mostNotableChallengePosition": 292
+    },
+    {
+        "name": "K케이츠#8120",
+        "score": 23045,
+        "region": "KR",
+        "completed": 201,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 402503,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 442678,
+                "CHALLENGER": 672708,
+                "SILVER": 11000,
+                "PLATINUM": 65000,
+                "BRONZE": 4400,
+                "IRON": 1100,
+                "MASTER": 260000,
+                "GOLD": 27000,
+                "DIAMOND": 148000
+            },
+            "translation": {
+                "description": "Use Abilities",
+                "name": "Ability Abuse",
+                "shortDescription": "Use Abilities"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402500",
+                "source": "EOGD"
+            },
+            "parent": "402500",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0.001,
+                "GRANDMASTER": 0.004,
+                "DIAMOND": 0.037,
+                "BRONZE": 0.215,
+                "GOLD": 0.122,
+                "IRON": 0.289,
+                "SILVER": 0.167,
+                "MASTER": 0.015,
+                "PLATINUM": 0.077
+            },
+            "leaderboardThresholds": [
+                3995450,
+                1,
+                672708,
+                12204,
+                442678,
+                61016
+            ]
+        },
+        "mostNotableChallengePosition": 583
+    },
+    {
+        "name": "Staticks#0109",
+        "score": 23025,
+        "region": "EUW",
+        "completed": 189,
+        "legacyCompleted": 38,
+        "mostNotableChallenge": {
+            "id": 203202,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 17,
+                "CHALLENGER": 25,
+                "SILVER": 1,
+                "PLATINUM": 5,
+                "MASTER": 12,
+                "GOLD": 2,
+                "DIAMOND": 8
+            },
+            "translation": {
+                "description": "Get kills while taking damage from all five enemy champions and survive",
+                "name": "Damage Sponge",
+                "shortDescription": "Get kills while tanking all five enemies and survive"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203200",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "203200",
+            "parentCategory": "2",
+            "percentiles": {
+                "SILVER": 0.109,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.031,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                51,
+                1,
+                18,
+                3,
+                16,
+                6
+            ]
+        },
+        "mostNotableChallengePosition": 12
+    },
+    {
+        "name": "ZombieEmoji#EUW",
+        "score": 22945,
+        "region": "EUW",
+        "completed": 191,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 50
+    },
+    {
+        "name": "LUM Showtime#LUM",
+        "score": 22915,
+        "region": "EUW",
+        "completed": 194,
+        "legacyCompleted": 37,
+        "mostNotableChallenge": {
+            "id": 402107,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 15248,
+                "CHALLENGER": 25000,
+                "SILVER": 350,
+                "PLATINUM": 2000,
+                "BRONZE": 150,
+                "IRON": 35,
+                "MASTER": 10000,
+                "GOLD": 750,
+                "DIAMOND": 5000
+            },
+            "translation": {
+                "description": "Get Kills",
+                "name": "Hard Day's Killin'",
+                "shortDescription": "Get Kills"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402100",
+                "priority": ".1",
+                "source": "EOGD"
+            },
+            "parent": "402100",
+            "parentCategory": "3",
+            "percentiles": {
+                "PLATINUM": 0.071,
+                "IRON": 0.284,
+                "GOLD": 0.122,
+                "MASTER": 0.007,
+                "GRANDMASTER": 0.002,
+                "CHALLENGER": 0,
+                "BRONZE": 0.206,
+                "SILVER": 0.161,
+                "DIAMOND": 0.029,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                80529,
+                1,
+                24999,
+                2752,
+                15248,
+                29248
+            ]
+        },
+        "mostNotableChallengePosition": 145
+    },
+    {
+        "name": "愛本瞬息萬變#莫挨老子",
+        "score": 23005,
+        "region": "TW",
+        "completed": 195,
+        "legacyCompleted": 41,
+        "mostNotableChallenge": {
+            "id": 203105,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 48,
+                "CHALLENGER": 90,
+                "SILVER": 1,
+                "PLATINUM": 8,
+                "MASTER": 25,
+                "GOLD": 3,
+                "DIAMOND": 13
+            },
+            "translation": {
+                "description": "Fully stack Mejai's Soulstealer before 20 minutes",
+                "name": "Stacks on Stacks on Stacks",
+                "shortDescription": "Fully stack Mejai's before 20 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203100",
+                "source": "EOGD"
+            },
+            "parent": "203100",
+            "parentCategory": "2",
+            "percentiles": {
+                "SILVER": 0.051,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.003,
+                "MASTER": 0.001,
+                "PLATINUM": 0.006,
+                "GOLD": 0.019,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                528,
+                1,
+                90,
+                845,
+                48,
+                4218
+            ]
+        },
+        "mostNotableChallengePosition": 437
+    },
+    {
+        "name": "Memoryofme#2205",
+        "score": 22760,
+        "region": "VN",
+        "completed": 195,
+        "legacyCompleted": 36,
+        "mostNotableChallenge": {
+            "id": 302103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 5,
+                "CHALLENGER": 6,
+                "PLATINUM": 2,
+                "MASTER": 4,
+                "GOLD": 1,
+                "DIAMOND": 3
+            },
+            "translation": {
+                "description": "As a laner, in a single game, get kills before 10 minutes outside your lane (anyone but your lane opponent)",
+                "name": "Overwhelming Presence",
+                "shortDescription": "As a laner, in 1 game, get kills outside your lane before 10 min"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302100",
+                "source": "EOGD"
+            },
+            "parent": "302100",
+            "parentCategory": "4",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0.001,
+                "GRANDMASTER": 0.005,
+                "DIAMOND": 0.051,
+                "BRONZE": 0.256,
+                "GOLD": 0.151,
+                "IRON": 0,
+                "SILVER": 0.072,
+                "MASTER": 0.021,
+                "PLATINUM": 0.1
+            },
+            "leaderboardThresholds": [
+                105,
+                1,
+                6,
+                16407,
+                5,
+                82029
+            ]
+        },
+        "mostNotableChallengePosition": 14
+    },
+    {
+        "name": "Nawé#CHILL",
+        "score": 22905,
+        "region": "EUW",
+        "completed": 189,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 303407,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
+                "NONE": 1,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
+            },
+            "leaderboardThresholds": [
+                29,
+                1,
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 3
+    },
+    {
+        "name": "66아와99#KR1",
+        "score": 22820,
+        "region": "KR",
+        "completed": 187,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 22
+    },
+    {
+        "name": "Uzuriaga#uzu",
+        "score": 22570,
+        "region": "EUW",
+        "completed": 199,
+        "legacyCompleted": 48,
+        "mostNotableChallenge": {
+            "id": 402200,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 960,
+                "CHALLENGER": 1160,
+                "SILVER": 75,
+                "PLATINUM": 265,
+                "BRONZE": 50,
+                "IRON": 25,
+                "MASTER": 800,
+                "GOLD": 165,
+                "DIAMOND": 480
+            },
+            "translation": {
+                "description": "Earn points from challenges in the Commando group",
+                "name": "Commando",
+                "shortDescription": "Earn points from challenges in the Commando group"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "402000",
+                "isCapstone": "Y",
+                "source": "CHALLENGES"
+            },
+            "parent": "402000",
+            "parentCategory": "3",
+            "title": "Commando",
+            "percentiles": {
+                "SILVER": 0.174,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.021,
+                "MASTER": 0.002,
+                "PLATINUM": 0.058,
+                "GOLD": 0.102,
+                "GRANDMASTER": 0,
+                "BRONZE": 0.208,
+                "IRON": 0.255,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                1000,
+                1,
+                940,
+                6571
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "Theorik#EUW",
+        "score": 22880,
+        "region": "EUW",
+        "completed": 193,
+        "legacyCompleted": 44,
+        "mostNotableChallenge": {
+            "id": 303407,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
+                "NONE": 1,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
+            },
+            "leaderboardThresholds": [
+                29,
+                1,
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 55
+    },
+    {
+        "name": "R3nn0#FURRY",
+        "score": 23015,
+        "region": "EUW",
+        "completed": 190,
+        "legacyCompleted": 34,
+        "mostNotableChallenge": {
+            "id": 303407,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
+                "NONE": 1,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
+            },
+            "leaderboardThresholds": [
+                29,
+                1,
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 10
+    },
+    {
+        "name": "Don Rigoni#Doni",
+        "score": 22715,
+        "region": "PH",
+        "completed": 190,
+        "legacyCompleted": 39,
+        "mostNotableChallenge": {
+            "id": 301103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 5,
+                "CHALLENGER": 13,
+                "PLATINUM": 1,
+                "MASTER": 3,
+                "DIAMOND": 2
+            },
+            "translation": {
+                "description": "Your team takes Elder Dragons before 28 minutes",
+                "name": "Dragon Hunt",
+                "shortDescription": "Take Elder Dragons before 28 minutes"
             },
             "reversed": false,
             "queueIds": [
@@ -5299,243 +2757,56 @@ var page5 = [
             ],
             "tags": {
                 "parent": "301100",
+                "priority": "50",
                 "source": "EOGD"
             },
             "parent": "301100",
             "parentCategory": "4",
-            "title": "Epic",
             "percentiles": {
-                "IRON": 0.166,
-                "GRANDMASTER": 0,
-                "MASTER": 0.001,
-                "SILVER": 0.064,
-                "NONE": 1,
-                "PLATINUM": 0.008,
-                "BRONZE": 0.106,
-                "CHALLENGER": 0,
-                "GOLD": 0.036,
-                "DIAMOND": 0.003
-            },
-            "leaderboardThresholds": [
-                3398,
-                1,
-                936,
-                669,
-                622,
-                3338
-            ]
-        },
-        "mostNotableChallengePosition": 620
-    },
-    {
-        "name": "Hallòween#9225",
-        "score": 22120,
-        "region": "EUW",
-        "completed": 183,
-        "legacyCompleted": 44,
-        "mostNotableChallenge": {
-            "id": 303407,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
-                "name": "Summoners on the Rift",
-                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
                 "SILVER": 0,
-                "IRON": 0,
+                "CHALLENGER": 0,
                 "DIAMOND": 0,
-                "NONE": 1,
+                "MASTER": 0,
+                "PLATINUM": 0.003,
                 "GOLD": 0,
-                "PLATINUM": 0,
-                "BRONZE": 0
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                29,
+                52,
                 1,
-                17,
-                8,
-                10,
-                36
+                13,
+                51,
+                5,
+                249
             ]
         },
         "mostNotableChallengePosition": 1
     },
     {
-        "name": "Janoooo#EUNE",
-        "score": 22185,
-        "region": "EUNE",
-        "completed": 179,
-        "legacyCompleted": 36,
-        "mostNotableChallenge": {
-            "id": 401102,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 3500,
-                "CHALLENGER": 8388756,
-                "MASTER": 5000000,
-                "PLATINUM": 900000,
-                "GRANDMASTER": 6580601,
-                "DIAMOND": 2500000,
-                "IRON": 1200,
-                "GOLD": 220000,
-                "SILVER": 35000
-            },
-            "translation": {
-                "description": "Earn total Mastery Points",
-                "name": "Wise Master",
-                "shortDescription": "Earn Mastery Points"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401100",
-                "priority": ".1",
-                "source": "EOGD"
-            },
-            "parent": "401100",
-            "parentCategory": "3",
-            "percentiles": {
-                "BRONZE": 0.383,
-                "MASTER": 0.006,
-                "PLATINUM": 0.123,
-                "CHALLENGER": 0,
-                "DIAMOND": 0.043,
-                "IRON": 0.412,
-                "GRANDMASTER": 0.002,
-                "GOLD": 0.202,
-                "NONE": 1,
-                "SILVER": 0.29
-            },
-            "leaderboardThresholds": [
-                21069510,
-                1,
-                8388756,
-                4713,
-                6580601,
-                23557
-            ]
-        },
-        "mostNotableChallengePosition": 190
-    },
-    {
-        "name": "druzhok pirozhok#GACHI",
-        "score": 22075,
-        "region": "EUNE",
-        "completed": 179,
-        "legacyCompleted": 38,
-        "mostNotableChallenge": {
-            "id": 501001,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 259
-    },
-    {
-        "name": "ViroQ#ViroQ",
-        "score": 22210,
-        "region": "EUNE",
-        "completed": 179,
+        "name": "Siph#Swiss",
+        "score": 22915,
+        "region": "EUW",
+        "completed": 189,
         "legacyCompleted": 43,
         "mostNotableChallenge": {
-            "id": 303407,
+            "id": 301304,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
+                "GRANDMASTER": 15,
+                "CHALLENGER": 20,
                 "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
-                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
-                "name": "Summoners on the Rift",
-                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+                "description": "Score aces after minions spawn but before 15 minutes",
+                "name": "Team Diff",
+                "shortDescription": "Score aces between minion spawn and 15 minutes"
             },
             "reversed": false,
             "queueIds": [
@@ -5557,127 +2828,54 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "parent": "301300",
                 "source": "EOGD"
             },
-            "parent": "303400",
+            "parent": "301300",
             "parentCategory": "4",
             "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
+                "GRANDMASTER": 0.001,
                 "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.046,
                 "IRON": 0,
-                "DIAMOND": 0,
+                "BRONZE": 0,
+                "MASTER": 0.004,
                 "NONE": 1,
-                "GOLD": 0,
-                "PLATINUM": 0,
-                "BRONZE": 0
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
             },
             "leaderboardThresholds": [
-                29,
+                929,
                 1,
-                17,
-                8,
-                10,
-                36
+                20,
+                3330,
+                14,
+                14069
             ]
         },
-        "mostNotableChallengePosition": 1
+        "mostNotableChallengePosition": 102
     },
     {
-        "name": "Zantes#EUNE",
-        "score": 22060,
-        "region": "EUNE",
-        "completed": 174,
+        "name": "Toasteri#EUW",
+        "score": 22825,
+        "region": "EUW",
+        "completed": 193,
         "legacyCompleted": 41,
         "mostNotableChallenge": {
-            "id": 303403,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 25,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 14,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a heal or shield. Self-heals and self-shields do not count",
-                "name": "We Protec",
-                "shortDescription": "Win with a 5-stack of 3+ champs with heals or shields. "
-            },
-            "reversed": false,
-            "queueIds": [
-                400,
-                420,
-                430,
-                440,
-                700,
-                401,
-                402,
-                411,
-                412,
-                421,
-                422,
-                431,
-                432,
-                441,
-                442,
-                490
-            ],
-            "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'heal' in @.abilities[*].traits[*] || 'shield' in @.abilities[*].traits[*])].id",
-                "source": "EOGD"
-            },
-            "parent": "303400",
-            "parentCategory": "4",
-            "percentiles": {
-                "MASTER": 0.003,
-                "GRANDMASTER": 0.001,
-                "CHALLENGER": 0,
-                "SILVER": 0,
-                "IRON": 0,
-                "DIAMOND": 0.007,
-                "NONE": 1,
-                "GOLD": 0.045,
-                "PLATINUM": 0.014,
-                "BRONZE": 0
-            },
-            "leaderboardThresholds": [
-                179,
-                1,
-                25,
-                2305,
-                14,
-                11520
-            ]
-        },
-        "mostNotableChallengePosition": 16
-    },
-    {
-        "name": "Abe no Seimei#1102",
-        "score": 22155,
-        "region": "VN",
-        "completed": 198,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
             "id": 401102,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 3500,
-                "CHALLENGER": 8388756,
-                "MASTER": 5000000,
+                "GRANDMASTER": 6602411,
+                "CHALLENGER": 8426315,
+                "SILVER": 35000,
                 "PLATINUM": 900000,
-                "GRANDMASTER": 6580601,
-                "DIAMOND": 2500000,
+                "BRONZE": 3500,
                 "IRON": 1200,
+                "MASTER": 5000000,
                 "GOLD": 220000,
-                "SILVER": 35000
+                "DIAMOND": 2500000
             },
             "translation": {
                 "description": "Earn total Mastery Points",
@@ -5694,107 +2892,53 @@ var page5 = [
             "parent": "401100",
             "parentCategory": "3",
             "percentiles": {
-                "BRONZE": 0.383,
-                "MASTER": 0.006,
-                "PLATINUM": 0.123,
+                "NONE": 1,
                 "CHALLENGER": 0,
-                "DIAMOND": 0.043,
-                "IRON": 0.412,
                 "GRANDMASTER": 0.002,
-                "GOLD": 0.202,
-                "NONE": 1,
-                "SILVER": 0.29
+                "DIAMOND": 0.042,
+                "BRONZE": 0.376,
+                "GOLD": 0.196,
+                "IRON": 0.405,
+                "SILVER": 0.283,
+                "MASTER": 0.006,
+                "PLATINUM": 0.119
             },
             "leaderboardThresholds": [
-                21069510,
+                21528393,
                 1,
-                8388756,
-                4713,
-                6580601,
-                23557
+                8426315,
+                4941,
+                6602411,
+                24698
             ]
         },
-        "mostNotableChallengePosition": 21
+        "mostNotableChallengePosition": 156
     },
     {
-        "name": "Làm Sao A Có Thể#1102",
-        "score": 21765,
-        "region": "VN",
-        "completed": 189,
-        "legacyCompleted": 39,
+        "name": "MS Bgerü#大傻逼",
+        "score": 22830,
+        "region": "TW",
+        "completed": 191,
+        "legacyCompleted": 42,
         "mostNotableChallenge": {
-            "id": 501001,
+            "id": 202105,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
+                "GRANDMASTER": 393,
+                "CHALLENGER": 590,
+                "SILVER": 10,
+                "PLATINUM": 75,
+                "BRONZE": 4,
+                "IRON": 1,
+                "MASTER": 240,
+                "GOLD": 25,
+                "DIAMOND": 135
             },
             "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 19
-    },
-    {
-        "name": "Tchikachu#NA1",
-        "score": 21370,
-        "region": "NA",
-        "completed": 178,
-        "legacyCompleted": 40,
-        "mostNotableChallenge": {
-            "id": 303401,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 31,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 17,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with a global ability",
-                "name": "Nowhere to Hide",
-                "shortDescription": "Win with a 5-stack of champs with 3+ global abilities"
+                "description": "Earn a three or more level lead over your role opponent at any point in the game",
+                "name": "On Another Level",
+                "shortDescription": "Be up three more levels than role opponent at any point"
             },
             "reversed": false,
             "queueIds": [
@@ -5816,52 +2960,52 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'global' in @.abilities[*].traits[*])].id",
+                "parent": "202100",
+                "priority": "50",
                 "source": "EOGD"
             },
-            "parent": "303400",
-            "parentCategory": "4",
+            "parent": "202100",
+            "parentCategory": "2",
             "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.018,
-                "BRONZE": 0,
-                "GOLD": 0.068,
-                "IRON": 0,
-                "GRANDMASTER": 0.003,
-                "SILVER": 0,
-                "CHALLENGER": 0.001,
+                "SILVER": 0.163,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.028,
                 "MASTER": 0.01,
-                "PLATINUM": 0.03
+                "PLATINUM": 0.054,
+                "GOLD": 0.112,
+                "GRANDMASTER": 0.002,
+                "BRONZE": 0.219,
+                "IRON": 0.313,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                236,
+                2538,
                 1,
-                31,
-                7677,
-                17,
-                38377
+                590,
+                7871,
+                393,
+                39348
             ]
         },
-        "mostNotableChallengePosition": 1
+        "mostNotableChallengePosition": 2
     },
     {
-        "name": "PrinzKarneval#EUW",
-        "score": 21940,
-        "region": "EUW",
-        "completed": 176,
-        "legacyCompleted": 30,
+        "name": "Muh Fake#1002",
+        "score": 22705,
+        "region": "VN",
+        "completed": 185,
+        "legacyCompleted": 36,
         "mostNotableChallenge": {
             "id": 303407,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
                 "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
                 "description": "As a premade 5, win games with 5 champions with a summon or a pet",
@@ -5895,16 +3039,16 @@ var page5 = [
             "parent": "303400",
             "parentCategory": "4",
             "percentiles": {
-                "MASTER": 0,
                 "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0,
                 "IRON": 0,
-                "DIAMOND": 0,
                 "NONE": 1,
-                "GOLD": 0,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
                 "PLATINUM": 0,
-                "BRONZE": 0
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
             },
             "leaderboardThresholds": [
                 29,
@@ -5915,154 +3059,33 @@ var page5 = [
                 36
             ]
         },
-        "mostNotableChallengePosition": 35
+        "mostNotableChallengePosition": 3
     },
     {
-        "name": "monkey30000#Lyff",
-        "score": 22140,
+        "name": "Clymbax#NA1",
+        "score": 22695,
         "region": "NA",
         "completed": 187,
-        "legacyCompleted": 43,
+        "legacyCompleted": 32,
         "mostNotableChallenge": {
-            "id": 401300,
+            "id": 302202,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 690,
-                "MASTER": 475,
-                "PLATINUM": 160,
-                "GRANDMASTER": 570,
-                "DIAMOND": 290,
-                "IRON": 15,
-                "GOLD": 100,
-                "SILVER": 45
+                "GRANDMASTER": 267,
+                "CHALLENGER": 450,
+                "SILVER": 7,
+                "PLATINUM": 45,
+                "BRONZE": 3,
+                "IRON": 1,
+                "MASTER": 150,
+                "GOLD": 20,
+                "DIAMOND": 90
             },
             "translation": {
-                "description": "Earn points from challenges in the Ace group",
-                "name": "Ace",
-                "shortDescription": "Earn points from challenges in the Ace group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "401000",
-            "parentCategory": "3",
-            "title": "Just Better",
-            "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0.083,
-                "IRON": 0.137,
-                "DIAMOND": 0.006,
-                "NONE": 1,
-                "GOLD": 0.056,
-                "PLATINUM": 0.024,
-                "BRONZE": 0.1
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                600,
-                1,
-                560,
-                577
-            ]
-        },
-        "mostNotableChallengePosition": 377
-    },
-    {
-        "name": "iFancyName#NA1",
-        "score": 22180,
-        "region": "NA",
-        "completed": 174,
-        "legacyCompleted": 45,
-        "mostNotableChallenge": {
-            "id": 101205,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 1,
-                "CHALLENGER": 97,
-                "MASTER": 30,
-                "PLATINUM": 9,
-                "GRANDMASTER": 53,
-                "DIAMOND": 18,
-                "GOLD": 4,
-                "SILVER": 2
-            },
-            "translation": {
-                "description": "Successfully Execute to the outer turret before 10 minutes in ARAM",
-                "name": "Free Ticket to Base",
-                "shortDescription": "Execute to turret before 10 min"
-            },
-            "reversed": false,
-            "queueIds": [
-                450,
-                930,
-                451,
-                452,
-                860,
-                931,
-                720,
-                721
-            ],
-            "tags": {
-                "parent": "101200",
-                "source": "EOGD"
-            },
-            "parent": "101200",
-            "parentCategory": "1",
-            "percentiles": {
-                "BRONZE": 0.111,
-                "MASTER": 0.003,
-                "CHALLENGER": 0,
-                "PLATINUM": 0.021,
-                "GRANDMASTER": 0.001,
-                "DIAMOND": 0.008,
-                "IRON": 0,
-                "GOLD": 0.048,
-                "NONE": 1,
-                "SILVER": 0.077
-            },
-            "leaderboardThresholds": [
-                7885,
-                1,
-                97,
-                2285,
-                53,
-                11417
-            ]
-        },
-        "mostNotableChallengePosition": 302
-    },
-    {
-        "name": "TheJwow#RITO",
-        "score": 22355,
-        "region": "NA",
-        "completed": 175,
-        "legacyCompleted": 46,
-        "mostNotableChallenge": {
-            "id": 303407,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 17,
-                "MASTER": 8,
-                "PLATINUM": 3,
-                "GRANDMASTER": 10,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
-                "name": "Summoners on the Rift",
-                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+                "description": "Destroy turrets before Turret Plates fall.",
+                "name": "Shattered Plates",
+                "shortDescription": "Destroy turrets before plates fall"
             },
             "reversed": false,
             "queueIds": [
@@ -6084,119 +3107,284 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "303400",
-                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "parent": "302200",
                 "source": "EOGD"
             },
-            "parent": "303400",
+            "parent": "302200",
             "parentCategory": "4",
+            "title": "Lumberjack",
             "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0,
-                "IRON": 0,
-                "DIAMOND": 0,
-                "NONE": 1,
-                "GOLD": 0,
-                "PLATINUM": 0,
-                "BRONZE": 0
+                "SILVER": 0.159,
+                "CHALLENGER": 0.001,
+                "DIAMOND": 0.026,
+                "MASTER": 0.011,
+                "PLATINUM": 0.055,
+                "GOLD": 0.098,
+                "GRANDMASTER": 0.003,
+                "BRONZE": 0.215,
+                "IRON": 0.289,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                29,
+                3758,
                 1,
-                17,
-                8,
-                10,
-                36
+                449,
+                8169,
+                267,
+                44688
+            ]
+        },
+        "mostNotableChallengePosition": 983
+    },
+    {
+        "name": "twink towers#fartd",
+        "score": 22755,
+        "region": "NA",
+        "completed": 198,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 204103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 519,
+                "CHALLENGER": 913,
+                "SILVER": 12,
+                "PLATINUM": 75,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 250,
+                "GOLD": 25,
+                "DIAMOND": 150
+            },
+            "translation": {
+                "description": "Fully complete a support item quest (1000g) in less than 14 minutes",
+                "name": "Support Subsidy",
+                "shortDescription": "Fully complete your support quest in 14 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "204100",
+                "source": "EOGD"
+            },
+            "parent": "204100",
+            "parentCategory": "2",
+            "percentiles": {
+                "SILVER": 0.083,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.012,
+                "MASTER": 0.006,
+                "PLATINUM": 0.025,
+                "GOLD": 0.057,
+                "GRANDMASTER": 0.002,
+                "BRONZE": 0.119,
+                "IRON": 0.203,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                4442,
+                1,
+                913,
+                4853,
+                519,
+                24257
+            ]
+        },
+        "mostNotableChallengePosition": 129
+    },
+    {
+        "name": "Enlighten#pasta",
+        "score": 22785,
+        "region": "NA",
+        "completed": 202,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 204202,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 504,
+                "CHALLENGER": 759,
+                "SILVER": 12,
+                "PLATINUM": 75,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 300,
+                "GOLD": 25,
+                "DIAMOND": 150
+            },
+            "translation": {
+                "description": "Protect wards by being nearby when an enemy damages it but it survives",
+                "name": "Ward Ward-en",
+                "shortDescription": "Protect wards"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "204200",
+                "source": "EOGD"
+            },
+            "parent": "204200",
+            "parentCategory": "2",
+            "title": "Ward Warden",
+            "percentiles": {
+                "CHALLENGER": 0.001,
+                "GRANDMASTER": 0.003,
+                "PLATINUM": 0.072,
+                "IRON": 0.298,
+                "SILVER": 0.162,
+                "NONE": 1,
+                "BRONZE": 0.206,
+                "DIAMOND": 0.04,
+                "MASTER": 0.014,
+                "GOLD": 0.126
+            },
+            "leaderboardThresholds": [
+                3086,
+                1,
+                759,
+                10985,
+                504,
+                54918
+            ]
+        },
+        "mostNotableChallengePosition": 119
+    },
+    {
+        "name": "Хъючь#Huge",
+        "score": 22785,
+        "region": "RU",
+        "completed": 184,
+        "legacyCompleted": 38,
+        "mostNotableChallenge": {
+            "id": 210001,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 166,
+                "CHALLENGER": 170,
+                "SILVER": 15,
+                "PLATINUM": 50,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 150,
+                "GOLD": 30,
+                "DIAMOND": 100
+            },
+            "translation": {
+                "description": "Earn an S+ grade on different champions",
+                "name": "Perfectionist",
+                "shortDescription": "Earn an S+ grade with different champions"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "210000",
+                "priority": "50",
+                "championQuery": "$[*].id",
+                "source": "EOGD"
+            },
+            "parent": "210000",
+            "parentCategory": "2",
+            "title": "S+",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "SILVER": 0.028,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.001,
+                "IRON": 0.22,
+                "BRONZE": 0.091,
+                "MASTER": 0,
+                "NONE": 1,
+                "GOLD": 0.007,
+                "DIAMOND": 0
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                167,
+                1,
+                166,
+                9
             ]
         },
         "mostNotableChallengePosition": 1
     },
     {
-        "name": "익사체#익사체",
-        "score": 22190,
-        "region": "KR",
-        "completed": 175,
-        "legacyCompleted": 39,
+        "name": "鞠大帥#666",
+        "score": 22600,
+        "region": "TW",
+        "completed": 199,
+        "legacyCompleted": 35,
         "mostNotableChallenge": {
-            "id": 401300,
+            "id": 203403,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 30,
-                "CHALLENGER": 690,
-                "MASTER": 475,
-                "PLATINUM": 160,
-                "GRANDMASTER": 570,
-                "DIAMOND": 290,
-                "IRON": 15,
-                "GOLD": 100,
-                "SILVER": 45
+                "GRANDMASTER": 62,
+                "CHALLENGER": 140,
+                "SILVER": 1,
+                "PLATINUM": 9,
+                "MASTER": 25,
+                "GOLD": 4,
+                "DIAMOND": 15
             },
             "translation": {
-                "description": "Earn points from challenges in the Ace group",
-                "name": "Ace",
-                "shortDescription": "Earn points from challenges in the Ace group"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "401000",
-                "isCapstone": "Y",
-                "source": "CHALLENGES"
-            },
-            "parent": "401000",
-            "parentCategory": "3",
-            "title": "Just Better",
-            "percentiles": {
-                "MASTER": 0,
-                "GRANDMASTER": 0,
-                "CHALLENGER": 0,
-                "SILVER": 0.083,
-                "IRON": 0.137,
-                "DIAMOND": 0.006,
-                "NONE": 1,
-                "GOLD": 0.056,
-                "PLATINUM": 0.024,
-                "BRONZE": 0.1
-            },
-            "leaderboardThresholds": [
-                0,
-                0,
-                600,
-                1,
-                560,
-                577
-            ]
-        },
-        "mostNotableChallengePosition": 100
-    },
-    {
-        "name": "scrubnoob#ragne",
-        "score": 22035,
-        "region": "VN",
-        "completed": 186,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
-            "id": 203401,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 5,
-                "CHALLENGER": 703,
-                "MASTER": 300,
-                "PLATINUM": 75,
-                "GRANDMASTER": 452,
-                "DIAMOND": 150,
-                "IRON": 1,
-                "GOLD": 25,
-                "SILVER": 10
-            },
-            "translation": {
-                "description": "Assist in taking the first dragon before 8 minutes",
-                "name": "Dragon On Too Long",
-                "shortDescription": "Take down first dragon before eight minutes"
+                "description": "As jungler, get 70 CS from jungle monsters before 10 minutes",
+                "name": "Clean Clears",
+                "shortDescription": "Get 70 CS from jungle monsters before 10 minutes"
             },
             "reversed": false,
             "queueIds": [
@@ -6219,52 +3407,182 @@ var page5 = [
             ],
             "tags": {
                 "parent": "203400",
-                "priority": "50",
                 "source": "EOGD"
             },
             "parent": "203400",
             "parentCategory": "2",
             "percentiles": {
-                "SILVER": 0.117,
+                "SILVER": 0.061,
                 "CHALLENGER": 0,
-                "DIAMOND": 0.006,
-                "MASTER": 0.001,
-                "PLATINUM": 0.022,
-                "GRANDMASTER": 0,
-                "GOLD": 0.071,
-                "BRONZE": 0.153,
-                "IRON": 0.25,
+                "DIAMOND": 0.007,
+                "MASTER": 0.004,
+                "PLATINUM": 0.012,
+                "GOLD": 0.024,
+                "GRANDMASTER": 0.001,
+                "BRONZE": 0,
+                "IRON": 0,
                 "NONE": 1
             },
             "leaderboardThresholds": [
-                3139,
+                1494,
                 1,
-                703,
-                639,
-                452,
-                3190
+                140,
+                3136,
+                62,
+                15673
             ]
         },
-        "mostNotableChallengePosition": 3
+        "mostNotableChallengePosition": 97
     },
     {
-        "name": "TDA Deathwing#6572",
-        "score": 22130,
+        "name": "lowlife#lol",
+        "score": 22580,
+        "region": "EUW",
+        "completed": 180,
+        "legacyCompleted": 42,
+        "mostNotableChallenge": {
+            "id": 303406,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 19,
+                "CHALLENGER": 37,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more \"poke\" champions",
+                "name": "We're Good Over Here",
+                "shortDescription": "Win with a 5-stack with 3+ poke champs"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'poke' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "PLATINUM": 0.035,
+                "IRON": 0,
+                "GOLD": 0.073,
+                "MASTER": 0.013,
+                "GRANDMASTER": 0.003,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0,
+                "SILVER": 0,
+                "DIAMOND": 0.022,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                468,
+                1,
+                37,
+                10736,
+                19,
+                53676
+            ]
+        },
+        "mostNotableChallengePosition": 1135
+    },
+    {
+        "name": "Vaalouu#SICK",
+        "score": 22415,
+        "region": "EUW",
+        "completed": 193,
+        "legacyCompleted": 48,
+        "mostNotableChallenge": {
+            "id": 402200,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 960,
+                "CHALLENGER": 1160,
+                "SILVER": 75,
+                "PLATINUM": 265,
+                "BRONZE": 50,
+                "IRON": 25,
+                "MASTER": 800,
+                "GOLD": 165,
+                "DIAMOND": 480
+            },
+            "translation": {
+                "description": "Earn points from challenges in the Commando group",
+                "name": "Commando",
+                "shortDescription": "Earn points from challenges in the Commando group"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "402000",
+                "isCapstone": "Y",
+                "source": "CHALLENGES"
+            },
+            "parent": "402000",
+            "parentCategory": "3",
+            "title": "Commando",
+            "percentiles": {
+                "SILVER": 0.174,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.021,
+                "MASTER": 0.002,
+                "PLATINUM": 0.058,
+                "GOLD": 0.102,
+                "GRANDMASTER": 0,
+                "BRONZE": 0.208,
+                "IRON": 0.255,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                1000,
+                1,
+                940,
+                6571
+            ]
+        },
+        "mostNotableChallengePosition": 15
+    },
+    {
+        "name": "iseul#2511",
+        "score": 22695,
         "region": "VN",
-        "completed": 188,
-        "legacyCompleted": 39,
+        "completed": 187,
+        "legacyCompleted": 37,
         "mostNotableChallenge": {
             "id": 201003,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
+                "GRANDMASTER": 49,
                 "CHALLENGER": 100,
-                "MASTER": 25,
+                "SILVER": 1,
                 "PLATINUM": 7,
-                "GRANDMASTER": 48,
-                "DIAMOND": 15,
+                "MASTER": 25,
                 "GOLD": 3,
-                "SILVER": 1
+                "DIAMOND": 15
             },
             "translation": {
                 "description": "Win games without dying and with at least 30% kill participation",
@@ -6299,50 +3617,50 @@ var page5 = [
             "parentCategory": "2",
             "title": "Unkillable Demon",
             "percentiles": {
-                "GOLD": 0.132,
-                "NONE": 1,
-                "BRONZE": 0,
-                "MASTER": 0.019,
+                "SILVER": 0.21,
                 "CHALLENGER": 0.001,
-                "IRON": 0,
-                "PLATINUM": 0.08,
-                "DIAMOND": 0.04,
+                "DIAMOND": 0.041,
+                "MASTER": 0.02,
+                "PLATINUM": 0.081,
+                "GOLD": 0.131,
                 "GRANDMASTER": 0.005,
-                "SILVER": 0.213
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                1056,
+                1106,
                 1,
                 99,
-                7775,
-                48,
-                74227
+                9236,
+                49,
+                81367
             ]
         },
-        "mostNotableChallengePosition": 45
+        "mostNotableChallengePosition": 70
     },
     {
-        "name": "Falko#Lucky",
-        "score": 22025,
+        "name": "Zera#God",
+        "score": 22730,
         "region": "EUNE",
-        "completed": 189,
-        "legacyCompleted": 44,
+        "completed": 197,
+        "legacyCompleted": 40,
         "mostNotableChallenge": {
-            "id": 303402,
+            "id": 303407,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "CHALLENGER": 86,
-                "MASTER": 8,
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
                 "PLATINUM": 3,
-                "GRANDMASTER": 36,
-                "DIAMOND": 5,
-                "GOLD": 1
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
-                "description": "As a premade 5, win games with 3 or more champions with an ultimate with a large Area of Effect",
-                "name": "It Has \"Ultimate\" In the Name!",
-                "shortDescription": "Win with a 5-stack with 3+ champs with a large AOE ult"
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
             },
             "reversed": false,
             "queueIds": [
@@ -6365,54 +3683,272 @@ var page5 = [
             ],
             "tags": {
                 "parent": "303400",
-                "championQuery": "$[?( 'largeAoe' in @.abilities[*].traits[*])].id",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
                 "source": "EOGD"
             },
             "parent": "303400",
             "parentCategory": "4",
             "percentiles": {
+                "GRANDMASTER": 0,
                 "IRON": 0,
-                "GRANDMASTER": 0.012,
-                "MASTER": 0.047,
-                "SILVER": 0,
                 "NONE": 1,
-                "PLATINUM": 0.079,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
                 "BRONZE": 0,
-                "CHALLENGER": 0.002,
-                "GOLD": 0.123,
-                "DIAMOND": 0.062
+                "GOLD": 0,
+                "CHALLENGER": 0
             },
             "leaderboardThresholds": [
-                956,
+                29,
                 1,
-                86,
-                36131,
-                36,
-                180647
+                17,
+                8,
+                10,
+                36
             ]
         },
-        "mostNotableChallengePosition": 27
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "IveBeenTraining#ALDAY",
+        "score": 22660,
+        "region": "NA",
+        "completed": 194,
+        "legacyCompleted": 42,
+        "mostNotableChallenge": {
+            "id": 303410,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 12,
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with a trap",
+                "name": "It's a Trap!",
+                "shortDescription": "Win with a 5-stack with 3+  champs with traps"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                703,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'trap' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0,
+                "PLATINUM": 0,
+                "IRON": 0,
+                "SILVER": 0,
+                "NONE": 1,
+                "BRONZE": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "GOLD": 0.007
+            },
+            "leaderboardThresholds": [
+                45,
+                1,
+                20,
+                28,
+                12,
+                132
+            ]
+        },
+        "mostNotableChallengePosition": 46
+    },
+    {
+        "name": "Shausur#EUW",
+        "score": 22730,
+        "region": "EUW",
+        "completed": 193,
+        "legacyCompleted": 42,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 72
+    },
+    {
+        "name": "Khamikaze Lizzn#1337",
+        "score": 22650,
+        "region": "EUW",
+        "completed": 195,
+        "legacyCompleted": 50,
+        "mostNotableChallenge": {
+            "id": 203105,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 48,
+                "CHALLENGER": 90,
+                "SILVER": 1,
+                "PLATINUM": 8,
+                "MASTER": 25,
+                "GOLD": 3,
+                "DIAMOND": 13
+            },
+            "translation": {
+                "description": "Fully stack Mejai's Soulstealer before 20 minutes",
+                "name": "Stacks on Stacks on Stacks",
+                "shortDescription": "Fully stack Mejai's before 20 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203100",
+                "source": "EOGD"
+            },
+            "parent": "203100",
+            "parentCategory": "2",
+            "percentiles": {
+                "SILVER": 0.051,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.003,
+                "MASTER": 0.001,
+                "PLATINUM": 0.006,
+                "GOLD": 0.019,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                528,
+                1,
+                90,
+                845,
+                48,
+                4218
+            ]
+        },
+        "mostNotableChallengePosition": 144
     },
     {
         "name": "Mina kawaii#NPQA",
-        "score": 22080,
+        "score": 22715,
         "region": "VN",
-        "completed": 175,
-        "legacyCompleted": 38,
+        "completed": 186,
+        "legacyCompleted": 42,
         "mostNotableChallenge": {
             "id": 402501,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 24000,
-                "CHALLENGER": 7489404,
-                "MASTER": 1400000,
+                "GRANDMASTER": 3501553,
+                "CHALLENGER": 7689107,
+                "SILVER": 72000,
                 "PLATINUM": 450000,
-                "GRANDMASTER": 3464023,
-                "DIAMOND": 800000,
+                "BRONZE": 24000,
                 "IRON": 6000,
+                "MASTER": 1400000,
                 "GOLD": 150000,
-                "SILVER": 72000
+                "DIAMOND": 800000
             },
             "translation": {
                 "description": "Do effective healing or shielding on your allies (self healing/shield doesn't count). Effective healing must actually restore health, and effective shielding must actually block damage",
@@ -6446,174 +3982,50 @@ var page5 = [
             "parentCategory": "3",
             "title": "Protector",
             "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.019,
-                "BRONZE": 0.161,
+                "PLATINUM": 0.035,
+                "IRON": 0.221,
                 "GOLD": 0.077,
-                "IRON": 0.224,
-                "GRANDMASTER": 0.002,
-                "SILVER": 0.11,
-                "CHALLENGER": 0,
                 "MASTER": 0.01,
-                "PLATINUM": 0.035
-            },
-            "leaderboardThresholds": [
-                77051135,
-                1,
-                7489404,
-                7431,
-                3464023,
-                37147
-            ]
-        },
-        "mostNotableChallengePosition": 441
-    },
-    {
-        "name": "XYŁIAN#EUW",
-        "score": 22115,
-        "region": "EUW",
-        "completed": 186,
-        "legacyCompleted": 40,
-        "mostNotableChallenge": {
-            "id": 501001,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "BRONZE": 7,
-                "CHALLENGER": 4369,
-                "MASTER": 1250,
-                "PLATINUM": 150,
-                "GRANDMASTER": 2582,
-                "DIAMOND": 600,
-                "IRON": 3,
-                "GOLD": 75,
-                "SILVER": 15
-            },
-            "translation": {
-                "description": "Earn milestones on any Eternal",
-                "name": "Mile Marker",
-                "shortDescription": "Earn milestones on any Eternal"
-            },
-            "reversed": false,
-            "queueIds": [],
-            "tags": {
-                "parent": "501000",
-                "source": "ETERNALS"
-            },
-            "parent": "501000",
-            "parentCategory": "5",
-            "percentiles": {
-                "NONE": 1,
-                "DIAMOND": 0.034,
-                "BRONZE": 0.131,
-                "GOLD": 0.078,
-                "IRON": 0.146,
-                "GRANDMASTER": 0.004,
-                "SILVER": 0.114,
-                "CHALLENGER": 0.001,
-                "MASTER": 0.017,
-                "PLATINUM": 0.063
-            },
-            "leaderboardThresholds": [
-                198422,
-                1,
-                4369,
-                12805,
-                2582,
-                64018
-            ]
-        },
-        "mostNotableChallengePosition": 102
-    },
-    {
-        "name": "GennaroBullo#UwU",
-        "score": 22050,
-        "region": "EUW",
-        "completed": 181,
-        "legacyCompleted": 37,
-        "mostNotableChallenge": {
-            "id": 101108,
-            "state": "ENABLED",
-            "leaderboard": true,
-            "thresholds": {
-                "CHALLENGER": 42,
-                "MASTER": 7,
-                "PLATINUM": 3,
-                "GRANDMASTER": 17,
-                "DIAMOND": 5,
-                "GOLD": 1
-            },
-            "translation": {
-                "description": "Deal 40% or more of your team's damage to champions in ARAM",
-                "name": "Solo Carry",
-                "shortDescription": "Deal 40%+ of your team's champion damage"
-            },
-            "reversed": false,
-            "queueIds": [
-                450,
-                930,
-                451,
-                452,
-                860,
-                931,
-                720,
-                721
-            ],
-            "tags": {
-                "parent": "101100",
-                "priority": "50",
-                "source": "EOGD"
-            },
-            "parent": "101100",
-            "parentCategory": "1",
-            "percentiles": {
-                "IRON": 0,
                 "GRANDMASTER": 0.003,
-                "MASTER": 0.013,
-                "SILVER": 0,
-                "NONE": 1,
-                "PLATINUM": 0.034,
-                "BRONZE": 0,
                 "CHALLENGER": 0.001,
-                "GOLD": 0.082,
-                "DIAMOND": 0.02
+                "BRONZE": 0.159,
+                "SILVER": 0.109,
+                "DIAMOND": 0.02,
+                "NONE": 1
             },
             "leaderboardThresholds": [
-                1161,
+                84654526,
                 1,
-                42,
-                9796,
-                17,
-                48972
+                7689107,
+                8100,
+                3501553,
+                40494
             ]
         },
-        "mostNotableChallengePosition": 153
+        "mostNotableChallengePosition": 210
     },
     {
-        "name": "別管我先殺輔助ü#0528",
-        "score": 22045,
-        "region": "TW",
-        "completed": 192,
-        "legacyCompleted": 45,
+        "name": "Bakaboy#8198",
+        "score": 22605,
+        "region": "BR",
+        "completed": 182,
+        "legacyCompleted": 43,
         "mostNotableChallenge": {
-            "id": 103102,
+            "id": 303407,
             "state": "ENABLED",
             "leaderboard": true,
             "thresholds": {
-                "BRONZE": 2,
-                "CHALLENGER": 231,
-                "MASTER": 100,
-                "PLATINUM": 30,
-                "GRANDMASTER": 157,
-                "DIAMOND": 60,
-                "IRON": 1,
-                "GOLD": 10,
-                "SILVER": 5
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
             },
             "translation": {
-                "description": "Get takedowns within 5 seconds of gaining a level advantage in the first 10 minutes of a game",
-                "name": "Get On My Level",
-                "shortDescription": "Get takedowns after gaining an early level advantage"
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
             },
             "reversed": false,
             "queueIds": [
@@ -6635,32 +4047,3016 @@ var page5 = [
                 490
             ],
             "tags": {
-                "parent": "103100",
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
                 "source": "EOGD"
             },
-            "parent": "103100",
-            "parentCategory": "1",
+            "parent": "303400",
+            "parentCategory": "4",
             "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
                 "NONE": 1,
-                "DIAMOND": 0.017,
-                "BRONZE": 0.177,
-                "GOLD": 0.09,
-                "IRON": 0.22,
-                "GRANDMASTER": 0.002,
-                "SILVER": 0.125,
-                "CHALLENGER": 0,
-                "MASTER": 0.006,
-                "PLATINUM": 0.041
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
             },
             "leaderboardThresholds": [
-                970,
+                29,
                 1,
-                231,
-                4645,
-                157,
-                23217
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "qonoxzzr#GTBSG",
+        "score": 22705,
+        "region": "EUW",
+        "completed": 194,
+        "legacyCompleted": 41,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 99
+    },
+    {
+        "name": "hipsu#001",
+        "score": 22515,
+        "region": "EUW",
+        "completed": 189,
+        "legacyCompleted": 32,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 73
+    },
+    {
+        "name": "Wynore#0000",
+        "score": 22250,
+        "region": "TR",
+        "completed": 185,
+        "legacyCompleted": 36,
+        "mostNotableChallenge": {
+            "id": 203303,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 3026,
+                "CHALLENGER": 4600,
+                "SILVER": 90,
+                "PLATINUM": 540,
+                "BRONZE": 30,
+                "IRON": 10,
+                "MASTER": 1800,
+                "GOLD": 180,
+                "DIAMOND": 1080
+            },
+            "translation": {
+                "description": "Kill enemy champions while they are near their own turret",
+                "name": "No Quarter",
+                "shortDescription": "Kill champions under their own turret"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203300",
+                "source": "EOGD"
+            },
+            "parent": "203300",
+            "parentCategory": "2",
+            "percentiles": {
+                "CHALLENGER": 0.001,
+                "GRANDMASTER": 0.003,
+                "PLATINUM": 0.058,
+                "IRON": 0.27,
+                "SILVER": 0.152,
+                "NONE": 1,
+                "BRONZE": 0.211,
+                "DIAMOND": 0.028,
+                "MASTER": 0.011,
+                "GOLD": 0.115
+            },
+            "leaderboardThresholds": [
+                21231,
+                1,
+                4600,
+                9110,
+                3026,
+                45546
+            ]
+        },
+        "mostNotableChallengePosition": 2
+    },
+    {
+        "name": "Kurumi Ebisuzawa#PALA",
+        "score": 22690,
+        "region": "EUW",
+        "completed": 202,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 203302,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2947,
+                "CHALLENGER": 4448,
+                "SILVER": 90,
+                "PLATINUM": 540,
+                "BRONZE": 30,
+                "IRON": 10,
+                "MASTER": 1800,
+                "GOLD": 180,
+                "DIAMOND": 1080
+            },
+            "translation": {
+                "description": "Get kills while more enemy champions than friendly ones are nearby",
+                "name": "Never Tell Me the Odds",
+                "shortDescription": "Get kills while outnumbered"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203300",
+                "source": "EOGD"
+            },
+            "parent": "203300",
+            "parentCategory": "2",
+            "title": "Lucky",
+            "percentiles": {
+                "GRANDMASTER": 0.002,
+                "SILVER": 0.142,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.051,
+                "IRON": 0.26,
+                "BRONZE": 0.201,
+                "MASTER": 0.009,
+                "NONE": 1,
+                "GOLD": 0.106,
+                "DIAMOND": 0.023
+            },
+            "leaderboardThresholds": [
+                20375,
+                1,
+                4448,
+                7060,
+                2947,
+                35295
+            ]
+        },
+        "mostNotableChallengePosition": 214
+    },
+    {
+        "name": "aberholla#Sexy",
+        "score": 22735,
+        "region": "EUW",
+        "completed": 184,
+        "legacyCompleted": 42,
+        "mostNotableChallenge": {
+            "id": 203302,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2947,
+                "CHALLENGER": 4448,
+                "SILVER": 90,
+                "PLATINUM": 540,
+                "BRONZE": 30,
+                "IRON": 10,
+                "MASTER": 1800,
+                "GOLD": 180,
+                "DIAMOND": 1080
+            },
+            "translation": {
+                "description": "Get kills while more enemy champions than friendly ones are nearby",
+                "name": "Never Tell Me the Odds",
+                "shortDescription": "Get kills while outnumbered"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203300",
+                "source": "EOGD"
+            },
+            "parent": "203300",
+            "parentCategory": "2",
+            "title": "Lucky",
+            "percentiles": {
+                "GRANDMASTER": 0.002,
+                "SILVER": 0.142,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.051,
+                "IRON": 0.26,
+                "BRONZE": 0.201,
+                "MASTER": 0.009,
+                "NONE": 1,
+                "GOLD": 0.106,
+                "DIAMOND": 0.023
+            },
+            "leaderboardThresholds": [
+                20375,
+                1,
+                4448,
+                7060,
+                2947,
+                35295
+            ]
+        },
+        "mostNotableChallengePosition": 17
+    },
+    {
+        "name": "Žed Raïsęr#Tïnn",
+        "score": 22755,
+        "region": "VN",
+        "completed": 205,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 501001,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2626,
+                "CHALLENGER": 4473,
+                "SILVER": 15,
+                "PLATINUM": 150,
+                "BRONZE": 7,
+                "IRON": 3,
+                "MASTER": 1250,
+                "GOLD": 75,
+                "DIAMOND": 600
+            },
+            "translation": {
+                "description": "Earn milestones on any Eternal",
+                "name": "Mile Marker",
+                "shortDescription": "Earn milestones on any Eternal"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "501000",
+                "source": "ETERNALS"
+            },
+            "parent": "501000",
+            "parentCategory": "5",
+            "percentiles": {
+                "SILVER": 0.111,
+                "CHALLENGER": 0.001,
+                "DIAMOND": 0.033,
+                "MASTER": 0.017,
+                "PLATINUM": 0.061,
+                "GOLD": 0.076,
+                "GRANDMASTER": 0.004,
+                "BRONZE": 0.127,
+                "IRON": 0.142,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                198422,
+                1,
+                4473,
+                13422,
+                2626,
+                67102
+            ]
+        },
+        "mostNotableChallengePosition": 30
+    },
+    {
+        "name": "Happy#005",
+        "score": 22695,
+        "region": "EUW",
+        "completed": 183,
+        "legacyCompleted": 38,
+        "mostNotableChallenge": {
+            "id": 402401,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 4775,
+                "CHALLENGER": 8099,
+                "SILVER": 100,
+                "PLATINUM": 600,
+                "BRONZE": 50,
+                "IRON": 10,
+                "MASTER": 2400,
+                "GOLD": 200,
+                "DIAMOND": 1200
+            },
+            "translation": {
+                "description": "Take down wards",
+                "name": "Darkness is Everywhere",
+                "shortDescription": "Take down wards"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402400",
+                "source": "EOGD"
+            },
+            "parent": "402400",
+            "parentCategory": "3",
+            "percentiles": {
+                "PLATINUM": 0.081,
+                "IRON": 0.267,
+                "GOLD": 0.132,
+                "MASTER": 0.022,
+                "GRANDMASTER": 0.005,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0.195,
+                "SILVER": 0.163,
+                "DIAMOND": 0.049,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                72616,
+                1,
+                8099,
+                17360,
+                4775,
+                86793
+            ]
+        },
+        "mostNotableChallengePosition": 153
+    },
+    {
+        "name": "Rocky#DIFFF",
+        "score": 22595,
+        "region": "EUW",
+        "completed": 184,
+        "legacyCompleted": 33,
+        "mostNotableChallenge": {
+            "id": 301304,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 15,
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "Score aces after minions spawn but before 15 minutes",
+                "name": "Team Diff",
+                "shortDescription": "Score aces between minion spawn and 15 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "301300",
+                "source": "EOGD"
+            },
+            "parent": "301300",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0.001,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.046,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0.004,
+                "NONE": 1,
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
+            },
+            "leaderboardThresholds": [
+                929,
+                1,
+                20,
+                3330,
+                14,
+                14069
+            ]
+        },
+        "mostNotableChallengePosition": 75
+    },
+    {
+        "name": "Zantes#EUNE",
+        "score": 22695,
+        "region": "EUNE",
+        "completed": 181,
+        "legacyCompleted": 47,
+        "mostNotableChallenge": {
+            "id": 303403,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 14,
+                "CHALLENGER": 26,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with a heal or shield. Self-heals and self-shields do not count",
+                "name": "We Protec",
+                "shortDescription": "Win with a 5-stack of 3+ champs with heals or shields. "
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'heal' in @.abilities[*].traits[*] || 'shield' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "PLATINUM": 0.015,
+                "IRON": 0,
+                "GOLD": 0.045,
+                "MASTER": 0.003,
+                "GRANDMASTER": 0.001,
+                "CHALLENGER": 0,
+                "BRONZE": 0,
+                "SILVER": 0,
+                "DIAMOND": 0.008,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                209,
+                1,
+                26,
+                2726,
+                14,
+                13622
+            ]
+        },
+        "mostNotableChallengePosition": 18
+    },
+    {
+        "name": "MåÐKïñg#Lord",
+        "score": 22665,
+        "region": "RU",
+        "completed": 197,
+        "legacyCompleted": 49,
+        "mostNotableChallenge": {
+            "id": 201004,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 80,
+                "CHALLENGER": 129,
+                "SILVER": 2,
+                "PLATINUM": 12,
+                "BRONZE": 1,
+                "MASTER": 48,
+                "GOLD": 5,
+                "DIAMOND": 28
+            },
+            "translation": {
+                "description": "Get 12 Takedowns (kill or assist) on enemy champions by 15 minutes",
+                "name": "Death Incarnate",
+                "shortDescription": "Take down 12 champions within 15 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "201000",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "201000",
+            "parentCategory": "2",
+            "percentiles": {
+                "PLATINUM": 0.039,
+                "IRON": 0,
+                "GOLD": 0.081,
+                "MASTER": 0.004,
+                "GRANDMASTER": 0.001,
+                "CHALLENGER": 0,
+                "BRONZE": 0.193,
+                "SILVER": 0.139,
+                "DIAMOND": 0.012,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                720,
+                1,
+                129,
+                3259,
+                80,
+                16291
+            ]
+        },
+        "mostNotableChallengePosition": 9
+    },
+    {
+        "name": "Janoooo#EUNE",
+        "score": 22820,
+        "region": "EUNE",
+        "completed": 191,
+        "legacyCompleted": 39,
+        "mostNotableChallenge": {
+            "id": 401102,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 6602411,
+                "CHALLENGER": 8426315,
+                "SILVER": 35000,
+                "PLATINUM": 900000,
+                "BRONZE": 3500,
+                "IRON": 1200,
+                "MASTER": 5000000,
+                "GOLD": 220000,
+                "DIAMOND": 2500000
+            },
+            "translation": {
+                "description": "Earn total Mastery Points",
+                "name": "Wise Master",
+                "shortDescription": "Earn Mastery Points"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "401100",
+                "priority": ".1",
+                "source": "EOGD"
+            },
+            "parent": "401100",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.002,
+                "DIAMOND": 0.042,
+                "BRONZE": 0.376,
+                "GOLD": 0.196,
+                "IRON": 0.405,
+                "SILVER": 0.283,
+                "MASTER": 0.006,
+                "PLATINUM": 0.119
+            },
+            "leaderboardThresholds": [
+                21528393,
+                1,
+                8426315,
+                4941,
+                6602411,
+                24698
+            ]
+        },
+        "mostNotableChallengePosition": 178
+    },
+    {
+        "name": "Niffin#UwU",
+        "score": 22650,
+        "region": "EUNE",
+        "completed": 191,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 303408,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 23,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
+                "name": "Variety's Overrated",
+                "shortDescription": "Win with a 5-stack of all one class"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.001,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0,
+                "NONE": 1,
+                "GOLD": 0.012,
+                "DIAMOND": 0
+            },
+            "leaderboardThresholds": [
+                97,
+                1,
+                23,
+                45,
+                10,
+                220
+            ]
+        },
+        "mostNotableChallengePosition": 112
+    },
+    {
+        "name": "Hallòween#9225",
+        "score": 22635,
+        "region": "EUW",
+        "completed": 193,
+        "legacyCompleted": 44,
+        "mostNotableChallenge": {
+            "id": 303407,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
+                "NONE": 1,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
+            },
+            "leaderboardThresholds": [
+                29,
+                1,
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "ClappityBunny#cope",
+        "score": 22635,
+        "region": "NA",
+        "completed": 194,
+        "legacyCompleted": 40,
+        "mostNotableChallenge": {
+            "id": 303408,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 23,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
+                "name": "Variety's Overrated",
+                "shortDescription": "Win with a 5-stack of all one class"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.001,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0,
+                "NONE": 1,
+                "GOLD": 0.012,
+                "DIAMOND": 0
+            },
+            "leaderboardThresholds": [
+                97,
+                1,
+                23,
+                45,
+                10,
+                220
+            ]
+        },
+        "mostNotableChallengePosition": 12
+    },
+    {
+        "name": "Akali#102",
+        "score": 22680,
+        "region": "VN",
+        "completed": 191,
+        "legacyCompleted": 35,
+        "mostNotableChallenge": {
+            "id": 303407,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
+                "NONE": 1,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
+            },
+            "leaderboardThresholds": [
+                29,
+                1,
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 7
+    },
+    {
+        "name": "iu Mymyy#Hbe",
+        "score": 22425,
+        "region": "VN",
+        "completed": 202,
+        "legacyCompleted": 47,
+        "mostNotableChallenge": {
+            "id": 402400,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 780,
+                "CHALLENGER": 940,
+                "SILVER": 60,
+                "PLATINUM": 215,
+                "BRONZE": 40,
+                "IRON": 20,
+                "MASTER": 650,
+                "GOLD": 135,
+                "DIAMOND": 380
+            },
+            "translation": {
+                "description": "Earn points from challenges in the Resourceful group",
+                "name": "Resourceful",
+                "shortDescription": "Earn points from challenges in the Resourceful group"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "402000",
+                "isCapstone": "Y",
+                "source": "CHALLENGES"
+            },
+            "parent": "402000",
+            "parentCategory": "3",
+            "title": "Resourceful",
+            "percentiles": {
+                "PLATINUM": 0.084,
+                "IRON": 0.284,
+                "GOLD": 0.129,
+                "MASTER": 0.007,
+                "GRANDMASTER": 0.001,
+                "CHALLENGER": 0,
+                "BRONZE": 0.235,
+                "SILVER": 0.201,
+                "DIAMOND": 0.04,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                800,
+                1,
+                760,
+                12541
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "aAa Hazriel#SPF",
+        "score": 22615,
+        "region": "EUW",
+        "completed": 198,
+        "legacyCompleted": 49,
+        "mostNotableChallenge": {
+            "id": 402402,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 24074,
+                "CHALLENGER": 37554,
+                "SILVER": 750,
+                "PLATINUM": 3750,
+                "BRONZE": 300,
+                "IRON": 75,
+                "MASTER": 15000,
+                "GOLD": 1500,
+                "DIAMOND": 9000
+            },
+            "translation": {
+                "description": "Place useful Stealth Wards. A useful ward is one that contributes to your Vision Score.",
+                "name": "Little Inanimate Spies",
+                "shortDescription": "Place Stealth Wards"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402400",
+                "source": "EOGD"
+            },
+            "parent": "402400",
+            "parentCategory": "3",
+            "percentiles": {
+                "GRANDMASTER": 0.001,
+                "SILVER": 0.132,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.054,
+                "IRON": 0.247,
+                "BRONZE": 0.177,
+                "MASTER": 0.006,
+                "NONE": 1,
+                "GOLD": 0.099,
+                "DIAMOND": 0.017
+            },
+            "leaderboardThresholds": [
+                155336,
+                1,
+                37554,
+                4516,
+                24074,
+                22572
+            ]
+        },
+        "mostNotableChallengePosition": 8
+    },
+    {
+        "name": "ghoduck#666",
+        "score": 22595,
+        "region": "RU",
+        "completed": 192,
+        "legacyCompleted": 41,
+        "mostNotableChallenge": {
+            "id": 303404,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 15,
+                "CHALLENGER": 26,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with a revive, immunity, or zombie ability",
+                "name": "They Just... Don't... DIE!",
+                "shortDescription": "Win in a full party with 3+ champs that defy death"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'revive' in @.abilities[*].traits[*] || 'immunity' in @.abilities[*].traits[*] || 'zombie' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.01,
+                "MASTER": 0.005,
+                "PLATINUM": 0.019,
+                "GOLD": 0.051,
+                "GRANDMASTER": 0.001,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                168,
+                1,
+                26,
+                3786,
+                15,
+                18924
+            ]
+        },
+        "mostNotableChallengePosition": 11
+    },
+    {
+        "name": "zawaa#EUNE",
+        "score": 22615,
+        "region": "EUNE",
+        "completed": 190,
+        "legacyCompleted": 49,
+        "mostNotableChallenge": {
+            "id": 501001,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2626,
+                "CHALLENGER": 4473,
+                "SILVER": 15,
+                "PLATINUM": 150,
+                "BRONZE": 7,
+                "IRON": 3,
+                "MASTER": 1250,
+                "GOLD": 75,
+                "DIAMOND": 600
+            },
+            "translation": {
+                "description": "Earn milestones on any Eternal",
+                "name": "Mile Marker",
+                "shortDescription": "Earn milestones on any Eternal"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "501000",
+                "source": "ETERNALS"
+            },
+            "parent": "501000",
+            "parentCategory": "5",
+            "percentiles": {
+                "SILVER": 0.111,
+                "CHALLENGER": 0.001,
+                "DIAMOND": 0.033,
+                "MASTER": 0.017,
+                "PLATINUM": 0.061,
+                "GOLD": 0.076,
+                "GRANDMASTER": 0.004,
+                "BRONZE": 0.127,
+                "IRON": 0.142,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                198422,
+                1,
+                4473,
+                13422,
+                2626,
+                67102
+            ]
+        },
+        "mostNotableChallengePosition": 187
+    },
+    {
+        "name": "毀天滅地的派大星#0616",
+        "score": 22570,
+        "region": "TW",
+        "completed": 198,
+        "legacyCompleted": 40,
+        "mostNotableChallenge": {
+            "id": 402103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 200,
+                "CHALLENGER": 302,
+                "SILVER": 5,
+                "PLATINUM": 25,
+                "BRONZE": 1,
+                "MASTER": 125,
+                "GOLD": 10,
+                "DIAMOND": 65
+            },
+            "translation": {
+                "description": "Become Legendary (8-0 kill streak)",
+                "name": "Legendary Legend",
+                "shortDescription": "Become Legendary"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402100",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "402100",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.001,
+                "DIAMOND": 0.017,
+                "BRONZE": 0.232,
+                "GOLD": 0.097,
+                "IRON": 0,
+                "SILVER": 0.134,
+                "MASTER": 0.005,
+                "PLATINUM": 0.052
+            },
+            "leaderboardThresholds": [
+                1494,
+                1,
+                302,
+                3783,
+                200,
+                18909
+            ]
+        },
+        "mostNotableChallengePosition": 96
+    },
+    {
+        "name": "Waty#Waty",
+        "score": 22610,
+        "region": "EUW",
+        "completed": 195,
+        "legacyCompleted": 40,
+        "mostNotableChallenge": {
+            "id": 210001,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 166,
+                "CHALLENGER": 170,
+                "SILVER": 15,
+                "PLATINUM": 50,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 150,
+                "GOLD": 30,
+                "DIAMOND": 100
+            },
+            "translation": {
+                "description": "Earn an S+ grade on different champions",
+                "name": "Perfectionist",
+                "shortDescription": "Earn an S+ grade with different champions"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "210000",
+                "priority": "50",
+                "championQuery": "$[*].id",
+                "source": "EOGD"
+            },
+            "parent": "210000",
+            "parentCategory": "2",
+            "title": "S+",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "SILVER": 0.028,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.001,
+                "IRON": 0.22,
+                "BRONZE": 0.091,
+                "MASTER": 0,
+                "NONE": 1,
+                "GOLD": 0.007,
+                "DIAMOND": 0
+            },
+            "leaderboardThresholds": [
+                0,
+                0,
+                167,
+                1,
+                166,
+                9
             ]
         },
         "mostNotableChallengePosition": 3
+    },
+    {
+        "name": "RULER#CHRIS",
+        "score": 22590,
+        "region": "NA",
+        "completed": 185,
+        "legacyCompleted": 48,
+        "mostNotableChallenge": {
+            "id": 302401,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 500,
+                "CHALLENGER": 750,
+                "SILVER": 15,
+                "PLATINUM": 90,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 300,
+                "GOLD": 35,
+                "DIAMOND": 170
+            },
+            "translation": {
+                "description": "Ace the enemy team with no allied deaths",
+                "name": "Flawless Ace",
+                "shortDescription": "Ace the enemy team with no allied deaths"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302400",
+                "source": "EOGD"
+            },
+            "parent": "302400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0.147,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.024,
+                "MASTER": 0.006,
+                "PLATINUM": 0.054,
+                "GOLD": 0.102,
+                "GRANDMASTER": 0.001,
+                "BRONZE": 0.209,
+                "IRON": 0.309,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                4581,
+                1,
+                749,
+                1327,
+                499,
+                13479
+            ]
+        },
+        "mostNotableChallengePosition": 70
+    },
+    {
+        "name": "Diffy Koul#1111",
+        "score": 22575,
+        "region": "VN",
+        "completed": 206,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 402103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 200,
+                "CHALLENGER": 302,
+                "SILVER": 5,
+                "PLATINUM": 25,
+                "BRONZE": 1,
+                "MASTER": 125,
+                "GOLD": 10,
+                "DIAMOND": 65
+            },
+            "translation": {
+                "description": "Become Legendary (8-0 kill streak)",
+                "name": "Legendary Legend",
+                "shortDescription": "Become Legendary"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402100",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "402100",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.001,
+                "DIAMOND": 0.017,
+                "BRONZE": 0.232,
+                "GOLD": 0.097,
+                "IRON": 0,
+                "SILVER": 0.134,
+                "MASTER": 0.005,
+                "PLATINUM": 0.052
+            },
+            "leaderboardThresholds": [
+                1494,
+                1,
+                302,
+                3783,
+                200,
+                18909
+            ]
+        },
+        "mostNotableChallengePosition": 420
+    },
+    {
+        "name": "LordSuteo#хрыч",
+        "score": 22570,
+        "region": "RU",
+        "completed": 185,
+        "legacyCompleted": 37,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 7
+    },
+    {
+        "name": "perma cooming#bman",
+        "score": 22600,
+        "region": "EUW",
+        "completed": 181,
+        "legacyCompleted": 50,
+        "mostNotableChallenge": {
+            "id": 402210,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 3269,
+                "CHALLENGER": 5077,
+                "SILVER": 100,
+                "PLATINUM": 600,
+                "BRONZE": 35,
+                "IRON": 10,
+                "MASTER": 1800,
+                "GOLD": 200,
+                "DIAMOND": 1350
+            },
+            "translation": {
+                "description": "Take down turrets",
+                "name": "Turret Toppler",
+                "shortDescription": "Destroy turrets"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402200",
+                "source": "EOGD"
+            },
+            "parent": "402200",
+            "parentCategory": "3",
+            "percentiles": {
+                "PLATINUM": 0.072,
+                "IRON": 0.292,
+                "GOLD": 0.129,
+                "MASTER": 0.022,
+                "GRANDMASTER": 0.005,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0.222,
+                "SILVER": 0.165,
+                "DIAMOND": 0.033,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                26053,
+                1,
+                5077,
+                17305,
+                3269,
+                86520
+            ]
+        },
+        "mostNotableChallengePosition": 358
+    },
+    {
+        "name": "朝比奈白星#1345",
+        "score": 22845,
+        "region": "TW",
+        "completed": 191,
+        "legacyCompleted": 39,
+        "mostNotableChallenge": {
+            "id": 202202,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 635,
+                "CHALLENGER": 962,
+                "SILVER": 18,
+                "PLATINUM": 120,
+                "BRONZE": 6,
+                "IRON": 3,
+                "MASTER": 400,
+                "GOLD": 36,
+                "DIAMOND": 240
+            },
+            "translation": {
+                "description": "Take down the most wards in the game (you must take down at least one ward)",
+                "name": "Darkness Distributer",
+                "shortDescription": "Take down the most wards in the game"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "202200",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "202200",
+            "parentCategory": "2",
+            "title": "Scout",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.001,
+                "DIAMOND": 0.008,
+                "BRONZE": 0.165,
+                "GOLD": 0.073,
+                "IRON": 0.205,
+                "SILVER": 0.107,
+                "MASTER": 0.002,
+                "PLATINUM": 0.024
+            },
+            "leaderboardThresholds": [
+                4211,
+                1,
+                962,
+                1982,
+                635,
+                9904
+            ]
+        },
+        "mostNotableChallengePosition": 18
+    },
+    {
+        "name": "Mad Sunflower#HOOK",
+        "score": 22590,
+        "region": "BR",
+        "completed": 181,
+        "legacyCompleted": 39,
+        "mostNotableChallenge": {
+            "id": 301304,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 15,
+                "CHALLENGER": 20,
+                "PLATINUM": 3,
+                "MASTER": 10,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "Score aces after minions spawn but before 15 minutes",
+                "name": "Team Diff",
+                "shortDescription": "Score aces between minion spawn and 15 minutes"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "301300",
+                "source": "EOGD"
+            },
+            "parent": "301300",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0.001,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.046,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0.004,
+                "NONE": 1,
+                "GOLD": 0.12,
+                "DIAMOND": 0.022
+            },
+            "leaderboardThresholds": [
+                929,
+                1,
+                20,
+                3330,
+                14,
+                14069
+            ]
+        },
+        "mostNotableChallengePosition": 15
+    },
+    {
+        "name": "Reni230#EUW",
+        "score": 22585,
+        "region": "EUW",
+        "completed": 188,
+        "legacyCompleted": 38,
+        "mostNotableChallenge": {
+            "id": 302103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 5,
+                "CHALLENGER": 6,
+                "PLATINUM": 2,
+                "MASTER": 4,
+                "GOLD": 1,
+                "DIAMOND": 3
+            },
+            "translation": {
+                "description": "As a laner, in a single game, get kills before 10 minutes outside your lane (anyone but your lane opponent)",
+                "name": "Overwhelming Presence",
+                "shortDescription": "As a laner, in 1 game, get kills outside your lane before 10 min"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302100",
+                "source": "EOGD"
+            },
+            "parent": "302100",
+            "parentCategory": "4",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0.001,
+                "GRANDMASTER": 0.005,
+                "DIAMOND": 0.051,
+                "BRONZE": 0.256,
+                "GOLD": 0.151,
+                "IRON": 0,
+                "SILVER": 0.072,
+                "MASTER": 0.021,
+                "PLATINUM": 0.1
+            },
+            "leaderboardThresholds": [
+                105,
+                1,
+                6,
+                16407,
+                5,
+                82029
+            ]
+        },
+        "mostNotableChallengePosition": 16
+    },
+    {
+        "name": "Jade#yours",
+        "score": 22380,
+        "region": "EUW",
+        "completed": 181,
+        "legacyCompleted": 45,
+        "mostNotableChallenge": {
+            "id": 303408,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 23,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade of 5, win games as 5 champions of one class (assassin, mage, marksman, tank, support, or fighter)",
+                "name": "Variety's Overrated",
+                "shortDescription": "Win with a 5-stack of all one class"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.001,
+                "IRON": 0,
+                "BRONZE": 0,
+                "MASTER": 0,
+                "NONE": 1,
+                "GOLD": 0.012,
+                "DIAMOND": 0
+            },
+            "leaderboardThresholds": [
+                97,
+                1,
+                23,
+                45,
+                10,
+                220
+            ]
+        },
+        "mostNotableChallengePosition": 28
+    },
+    {
+        "name": "Amai#Doku",
+        "score": 22560,
+        "region": "NA",
+        "completed": 195,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 302301,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 3075,
+                "CHALLENGER": 4557,
+                "SILVER": 64,
+                "PLATINUM": 400,
+                "BRONZE": 32,
+                "IRON": 8,
+                "MASTER": 1920,
+                "GOLD": 160,
+                "DIAMOND": 1080
+            },
+            "translation": {
+                "description": "Take down champions after waiting in a brush with at least one ally for at least 3 seconds",
+                "name": "Brush Fanatic",
+                "shortDescription": "Get takedowns with an ally after hiding in brush for 3+s"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302300",
+                "source": "EOGD"
+            },
+            "parent": "302300",
+            "parentCategory": "4",
+            "title": "Fanatic",
+            "percentiles": {
+                "PLATINUM": 0.081,
+                "IRON": 0.283,
+                "GOLD": 0.127,
+                "MASTER": 0.011,
+                "GRANDMASTER": 0.003,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0.209,
+                "SILVER": 0.173,
+                "DIAMOND": 0.032,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                20518,
+                1,
+                4557,
+                9126,
+                3075,
+                45624
+            ]
+        },
+        "mostNotableChallengePosition": 17
+    },
+    {
+        "name": "druzhok pirozhok#GACHI",
+        "score": 22620,
+        "region": "EUNE",
+        "completed": 185,
+        "legacyCompleted": 40,
+        "mostNotableChallenge": {
+            "id": 401102,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 6602411,
+                "CHALLENGER": 8426315,
+                "SILVER": 35000,
+                "PLATINUM": 900000,
+                "BRONZE": 3500,
+                "IRON": 1200,
+                "MASTER": 5000000,
+                "GOLD": 220000,
+                "DIAMOND": 2500000
+            },
+            "translation": {
+                "description": "Earn total Mastery Points",
+                "name": "Wise Master",
+                "shortDescription": "Earn Mastery Points"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "401100",
+                "priority": ".1",
+                "source": "EOGD"
+            },
+            "parent": "401100",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.002,
+                "DIAMOND": 0.042,
+                "BRONZE": 0.376,
+                "GOLD": 0.196,
+                "IRON": 0.405,
+                "SILVER": 0.283,
+                "MASTER": 0.006,
+                "PLATINUM": 0.119
+            },
+            "leaderboardThresholds": [
+                21528393,
+                1,
+                8426315,
+                4941,
+                6602411,
+                24698
+            ]
+        },
+        "mostNotableChallengePosition": 1094
+    },
+    {
+        "name": "Ножки Гвен#Feet",
+        "score": 22365,
+        "region": "EUNE",
+        "completed": 186,
+        "legacyCompleted": 23,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 33
+    },
+    {
+        "name": "Mickey o CIgano#BR1",
+        "score": 22465,
+        "region": "BR",
+        "completed": 190,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 302106,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 504,
+                "CHALLENGER": 757,
+                "SILVER": 10,
+                "PLATINUM": 75,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 300,
+                "GOLD": 25,
+                "DIAMOND": 150
+            },
+            "translation": {
+                "description": "Generate a 2500 gold advantage during your Baron Buff",
+                "name": "Baron Power Play",
+                "shortDescription": "Generate 2500 gold advantage with Baron Buff"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302100",
+                "source": "EOGD"
+            },
+            "parent": "302100",
+            "parentCategory": "4",
+            "percentiles": {
+                "PLATINUM": 0.075,
+                "IRON": 0.31,
+                "GOLD": 0.13,
+                "MASTER": 0.014,
+                "GRANDMASTER": 0.004,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0.213,
+                "SILVER": 0.176,
+                "DIAMOND": 0.041,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                3163,
+                1,
+                757,
+                11389,
+                504,
+                56938
+            ]
+        },
+        "mostNotableChallengePosition": 69
+    },
+    {
+        "name": "Mòe Xám of Hân#1999",
+        "score": 22750,
+        "region": "VN",
+        "completed": 198,
+        "legacyCompleted": 45,
+        "mostNotableChallenge": {
+            "id": 302102,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 415,
+                "CHALLENGER": 704,
+                "SILVER": 10,
+                "PLATINUM": 75,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 225,
+                "GOLD": 25,
+                "DIAMOND": 125
+            },
+            "translation": {
+                "description": "As a Jungler, get takedowns on laners before 10 minutes",
+                "name": "Farm Champs not Camps",
+                "shortDescription": "As jungler, get takedowns on laners before 10min"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302100",
+                "source": "EOGD"
+            },
+            "parent": "302100",
+            "parentCategory": "4",
+            "title": "Champ Farmer",
+            "percentiles": {
+                "GRANDMASTER": 0.001,
+                "SILVER": 0.07,
+                "CHALLENGER": 0,
+                "PLATINUM": 0.016,
+                "IRON": 0.225,
+                "BRONZE": 0.106,
+                "MASTER": 0.003,
+                "NONE": 1,
+                "GOLD": 0.041,
+                "DIAMOND": 0.008
+            },
+            "leaderboardThresholds": [
+                3076,
+                1,
+                704,
+                2455,
+                415,
+                12269
+            ]
+        },
+        "mostNotableChallengePosition": 3
+    },
+    {
+        "name": "Vex Femboy#TWEET",
+        "score": 22575,
+        "region": "EUNE",
+        "completed": 176,
+        "legacyCompleted": 39,
+        "mostNotableChallenge": {
+            "id": 303407,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 10,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 5 champions with a summon or a pet",
+                "name": "Summoners on the Rift",
+                "shortDescription": "Win with a 5-stack of champs with a summon or pet"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'summon' in @.abilities[*].traits[*] || 'pet' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "GRANDMASTER": 0,
+                "IRON": 0,
+                "NONE": 1,
+                "MASTER": 0,
+                "SILVER": 0,
+                "DIAMOND": 0,
+                "PLATINUM": 0,
+                "BRONZE": 0,
+                "GOLD": 0,
+                "CHALLENGER": 0
+            },
+            "leaderboardThresholds": [
+                29,
+                1,
+                17,
+                8,
+                10,
+                36
+            ]
+        },
+        "mostNotableChallengePosition": 10
+    },
+    {
+        "name": "Mem#hers",
+        "score": 22500,
+        "region": "NA",
+        "completed": 195,
+        "legacyCompleted": 46,
+        "mostNotableChallenge": {
+            "id": 402103,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 200,
+                "CHALLENGER": 302,
+                "SILVER": 5,
+                "PLATINUM": 25,
+                "BRONZE": 1,
+                "MASTER": 125,
+                "GOLD": 10,
+                "DIAMOND": 65
+            },
+            "translation": {
+                "description": "Become Legendary (8-0 kill streak)",
+                "name": "Legendary Legend",
+                "shortDescription": "Become Legendary"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "402100",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "402100",
+            "parentCategory": "3",
+            "percentiles": {
+                "NONE": 1,
+                "CHALLENGER": 0,
+                "GRANDMASTER": 0.001,
+                "DIAMOND": 0.017,
+                "BRONZE": 0.232,
+                "GOLD": 0.097,
+                "IRON": 0,
+                "SILVER": 0.134,
+                "MASTER": 0.005,
+                "PLATINUM": 0.052
+            },
+            "leaderboardThresholds": [
+                1494,
+                1,
+                302,
+                3783,
+                200,
+                18909
+            ]
+        },
+        "mostNotableChallengePosition": 167
+    },
+    {
+        "name": "Bolx#3965",
+        "score": 22550,
+        "region": "LAS",
+        "completed": 194,
+        "legacyCompleted": 48,
+        "mostNotableChallenge": {
+            "id": 501001,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 2626,
+                "CHALLENGER": 4473,
+                "SILVER": 15,
+                "PLATINUM": 150,
+                "BRONZE": 7,
+                "IRON": 3,
+                "MASTER": 1250,
+                "GOLD": 75,
+                "DIAMOND": 600
+            },
+            "translation": {
+                "description": "Earn milestones on any Eternal",
+                "name": "Mile Marker",
+                "shortDescription": "Earn milestones on any Eternal"
+            },
+            "reversed": false,
+            "queueIds": [],
+            "tags": {
+                "parent": "501000",
+                "source": "ETERNALS"
+            },
+            "parent": "501000",
+            "parentCategory": "5",
+            "percentiles": {
+                "SILVER": 0.111,
+                "CHALLENGER": 0.001,
+                "DIAMOND": 0.033,
+                "MASTER": 0.017,
+                "PLATINUM": 0.061,
+                "GOLD": 0.076,
+                "GRANDMASTER": 0.004,
+                "BRONZE": 0.127,
+                "IRON": 0.142,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                198422,
+                1,
+                4473,
+                13422,
+                2626,
+                67102
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "BanKuYi ded#1Yi",
+        "score": 22380,
+        "region": "RU",
+        "completed": 193,
+        "legacyCompleted": 45,
+        "mostNotableChallenge": {
+            "id": 303411,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 11,
+                "CHALLENGER": 17,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more champions with the ability to create terrain",
+                "name": "I'm Helping",
+                "shortDescription": "Win with a 5-stack of champs with 3+ champs with terrain creation"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                704,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'terrainCreation' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.003,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                28,
+                1,
+                17,
+                11,
+                11,
+                47
+            ]
+        },
+        "mostNotableChallengePosition": 1
+    },
+    {
+        "name": "아르메#KR1",
+        "score": 22515,
+        "region": "KR",
+        "completed": 193,
+        "legacyCompleted": 45,
+        "mostNotableChallenge": {
+            "id": 303303,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 1694,
+                "CHALLENGER": 2298,
+                "SILVER": 75,
+                "PLATINUM": 250,
+                "BRONZE": 25,
+                "IRON": 5,
+                "MASTER": 1200,
+                "GOLD": 135,
+                "DIAMOND": 600
+            },
+            "translation": {
+                "description": "Play games with a premade group of any size",
+                "name": "Fun with Friends",
+                "shortDescription": "Play games with a group"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303300",
+                "source": "EOGD"
+            },
+            "parent": "303300",
+            "parentCategory": "4",
+            "percentiles": {
+                "SILVER": 0.103,
+                "CHALLENGER": 0,
+                "DIAMOND": 0.018,
+                "MASTER": 0.003,
+                "PLATINUM": 0.051,
+                "GOLD": 0.077,
+                "GRANDMASTER": 0.001,
+                "BRONZE": 0.154,
+                "IRON": 0.234,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                6357,
+                1,
+                2298,
+                2731,
+                1694,
+                13648
+            ]
+        },
+        "mostNotableChallengePosition": 390
+    },
+    {
+        "name": "FLX Trazx#TRAZX",
+        "score": 22535,
+        "region": "LAN",
+        "completed": 182,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 303406,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 19,
+                "CHALLENGER": 37,
+                "PLATINUM": 3,
+                "MASTER": 8,
+                "GOLD": 1,
+                "DIAMOND": 5
+            },
+            "translation": {
+                "description": "As a premade 5, win games with 3 or more \"poke\" champions",
+                "name": "We're Good Over Here",
+                "shortDescription": "Win with a 5-stack with 3+ poke champs"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "303400",
+                "championQuery": "$[?( 'poke' in @.abilities[*].traits[*])].id",
+                "source": "EOGD"
+            },
+            "parent": "303400",
+            "parentCategory": "4",
+            "percentiles": {
+                "PLATINUM": 0.035,
+                "IRON": 0,
+                "GOLD": 0.073,
+                "MASTER": 0.013,
+                "GRANDMASTER": 0.003,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0,
+                "SILVER": 0,
+                "DIAMOND": 0.022,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                468,
+                1,
+                37,
+                10736,
+                19,
+                53676
+            ]
+        },
+        "mostNotableChallengePosition": 78
+    },
+    {
+        "name": "Halliphax#HLLPX",
+        "score": 22410,
+        "region": "PH",
+        "completed": 200,
+        "legacyCompleted": 43,
+        "mostNotableChallenge": {
+            "id": 302106,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 504,
+                "CHALLENGER": 757,
+                "SILVER": 10,
+                "PLATINUM": 75,
+                "BRONZE": 5,
+                "IRON": 1,
+                "MASTER": 300,
+                "GOLD": 25,
+                "DIAMOND": 150
+            },
+            "translation": {
+                "description": "Generate a 2500 gold advantage during your Baron Buff",
+                "name": "Baron Power Play",
+                "shortDescription": "Generate 2500 gold advantage with Baron Buff"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "302100",
+                "source": "EOGD"
+            },
+            "parent": "302100",
+            "parentCategory": "4",
+            "percentiles": {
+                "PLATINUM": 0.075,
+                "IRON": 0.31,
+                "GOLD": 0.13,
+                "MASTER": 0.014,
+                "GRANDMASTER": 0.004,
+                "CHALLENGER": 0.001,
+                "BRONZE": 0.213,
+                "SILVER": 0.176,
+                "DIAMOND": 0.041,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                3163,
+                1,
+                757,
+                11389,
+                504,
+                56938
+            ]
+        },
+        "mostNotableChallengePosition": 2
+    },
+    {
+        "name": "우리원딜은꼭못해#KR1",
+        "score": 20565,
+        "region": "KR",
+        "completed": 162,
+        "legacyCompleted": 32,
+        "mostNotableChallenge": {
+            "id": 203202,
+            "state": "ENABLED",
+            "leaderboard": true,
+            "thresholds": {
+                "GRANDMASTER": 17,
+                "CHALLENGER": 25,
+                "SILVER": 1,
+                "PLATINUM": 5,
+                "MASTER": 12,
+                "GOLD": 2,
+                "DIAMOND": 8
+            },
+            "translation": {
+                "description": "Get kills while taking damage from all five enemy champions and survive",
+                "name": "Damage Sponge",
+                "shortDescription": "Get kills while tanking all five enemies and survive"
+            },
+            "reversed": false,
+            "queueIds": [
+                400,
+                420,
+                430,
+                440,
+                700,
+                401,
+                402,
+                411,
+                412,
+                421,
+                422,
+                431,
+                432,
+                441,
+                442,
+                490
+            ],
+            "tags": {
+                "parent": "203200",
+                "priority": "50",
+                "source": "EOGD"
+            },
+            "parent": "203200",
+            "parentCategory": "2",
+            "percentiles": {
+                "SILVER": 0.109,
+                "CHALLENGER": 0,
+                "DIAMOND": 0,
+                "MASTER": 0,
+                "PLATINUM": 0,
+                "GOLD": 0.031,
+                "GRANDMASTER": 0,
+                "BRONZE": 0,
+                "IRON": 0,
+                "NONE": 1
+            },
+            "leaderboardThresholds": [
+                51,
+                1,
+                18,
+                3,
+                16,
+                6
+            ]
+        },
+        "mostNotableChallengePosition": 5
     }
 ];
