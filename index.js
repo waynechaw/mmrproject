@@ -20947,6 +20947,9 @@ let challengeData = // 20240417203423
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
 
+let apikey = process.env.key;
+
+
 
 
 const api = new RiotApi({
