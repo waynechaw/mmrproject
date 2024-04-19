@@ -20947,9 +20947,6 @@ let challengeData = // 20240417203423
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
 
-let apikey = 'RGAPI-36231895-8e16-4eb8-9a6a-364f508f2c71';
-
-
 
 
 const api = new RiotApi({
