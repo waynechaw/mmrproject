@@ -21471,7 +21471,7 @@ export async function getMastery(name, tag, region, regionGroup, req, res) {
 
 export async function getMasteryFull(name, tag, region, regionGroup, req, res) {
 
-
+    console.log(name, tag, regionGroup);
 
   try {
 
