@@ -9774,6 +9774,7 @@ function getMasteryData(name, tag, selectedMappedRegion) {
       }
 
       getMasteryChallengeData(name, tag, selectedMappedRegion);
+      getMasteryDataForCatch(name, tag, selectedMappedRegion);
 
       let objKey = resp.id;
 
@@ -9800,7 +9801,6 @@ function getMasteryData(name, tag, selectedMappedRegion) {
 
             localStorage.setItem("activeprofile", objKey);
 
-            activeProfile = objKey;
 
 
       masteryData.forEach(item=> {
@@ -9812,57 +9812,10 @@ function getMasteryData(name, tag, selectedMappedRegion) {
         })
       })
 
-      parseData();
 
-
-      let currentTotal = 0;
-
-      masteryData.forEach(item => {
-        let pointsEarned = 0;
-
-        if (item.championPoints >= nextUpgrade) {
-         pointsEarned = nextUpgrade;
-
-        } else {
-         pointsEarned = item.championPoints;
-        }
-        currentTotal = currentTotal + parseInt(pointsEarned);
-      })
-
-
-      let startingEXP;
-      let updatedEXP;
-      let expEarned;
-
-      let currentDate = new Date();
-
-
-      if (!profiles[objKey]) {
-
-        startingEXP = currentTotal;
-
-        profiles[objKey] = {
-          name: name,
-          tag: tag,
-          region: selectedMappedRegion,
-          data: masteryData,
-          dateStarted: currentDate,
-          startingEXP: startingEXP,
-        }
-
-        localStorage.setItem("profiles", JSON.stringify(profiles));
-
-
-      } else {
-        updatedEXP = currentTotal;
-        expEarned = currentTotal - profiles[objKey].startingEXP;
-      }
 
 
       $('.champions-list').empty();
-
-
-      console.log(hideM7);
 
       filteredList = masteryData.filter(item => {
         if (hideM7 ) {
@@ -9979,6 +9932,150 @@ function getMasteryData(name, tag, selectedMappedRegion) {
   });
 
 }
+
+var nextUpgrade;
+
+
+function getMasteryDataForCatch(name, tag, selectedMappedRegion) {
+
+  $.ajax({
+    url: '/catch/' + name + '/' + tag + '/' + selectedMappedRegion,
+    type: 'GET',
+    contentType: 'application/json',
+    success: function(resp) {
+
+      if (resp.error) {
+
+
+
+        return;
+
+      }
+
+
+
+
+      let objKey = resp.id;
+
+
+      masteryData = resp.data;
+
+      if (masteryData.length == 0) {
+
+
+
+        return;
+      }
+
+
+
+            localStorage.setItem("activeprofile", objKey);
+
+            activeProfile = objKey;
+
+
+      masteryData.forEach(item=> {
+        let id = item.championId;
+        ChampDataLanes.forEach(champ => {
+          if (id == champ.id) {
+            item.lanes = champ.roles;
+          }
+        })
+      })
+
+
+      score = masteryData[resp.data.length - 1].championPoints;
+
+
+      parseData();
+
+
+
+      let currentTotal = 0;
+
+      masteryData.forEach(item => {
+        let pointsEarned = 0;
+
+        if (item.championPoints >= nextUpgrade) {
+         pointsEarned = nextUpgrade;
+
+        } else {
+         pointsEarned = item.championPoints;
+        }
+        currentTotal = currentTotal + parseInt(pointsEarned);
+      })
+
+
+      let startingEXP;
+      let updatedEXP;
+      let expEarned;
+
+      let currentDate = new Date();
+
+
+      if (!profiles[objKey]) {
+
+        startingEXP = currentTotal;
+
+        profiles[objKey] = {
+          name: name,
+          tag: tag,
+          region: selectedMappedRegion,
+          data: masteryData,
+          dateStarted: currentDate,
+          startingEXP: startingEXP,
+        }
+
+        localStorage.setItem("profiles", JSON.stringify(profiles));
+
+
+      } else {
+        updatedEXP = currentTotal;
+        expEarned = currentTotal - profiles[objKey].startingEXP;
+      }
+
+      console.log('startingEXP', profiles[objKey].startingEXP);
+      console.log('updatedEXP', updatedEXP);
+      console.log('expEarned', expEarned);
+
+      let timeElapsed;
+
+      if ((currentDate - new Date(profiles[objKey].dateStarted))  < (24 * 60 * 60 * 1000)) {
+        timeElapsed = 24 * 60 * 60 * 1000;
+      } else {
+        timeElapsed = currentDate - new Date(profiles[objKey].dateStarted);
+      }
+
+      if (!expEarned) {
+        $('.points-earned').text('0');
+        $('.appd').text('0');
+        $('.ppd').text('0');
+        $('.estimated-time').text('NA');
+      } else {
+        $('.points-earned').text(expEarned.toLocaleString());
+        let avgPointsPerDay = expEarned / (timeElapsed / (24 * 60 * 60 * 1000));
+        $('.appd').text(  Math.round(avgPointsPerDay*100)/100 );
+        let percentProgressPerDay = ((avgPointsPerDay / (nextUpgrade * 150)) * 100 ).toFixed(3) ;
+        $('.ppd').text( percentProgressPerDay + '%' );
+        $('.estimated-time').text( (     ((nextUpgrade * 150) - currentTotal)    / avgPointsPerDay).toFixed(0) + ' days');
+      }
+
+
+
+
+
+
+
+    },
+    error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+
+
+    }
+  });
+}
+
+
 
 function getMasteryChallengeData(name, tag, selectedMappedRegion) {
 
@@ -10457,119 +10554,41 @@ $("#userName").keypress(function(event){
 })
 
 
-
 function parseData () {
 
   if (score < 100) {
-    currentRank = 'Unranked';
-    nextRank = 'Iron';
+
     nextUpgrade = '100';
-    $('.current-rank').css('color', '#2e2e2e');
+
   } else if (score >= 100 && score < 500) {
-    currentRank = 'Iron';
-    nextRank = 'Bronze';
+
     nextUpgrade = '500';
-    $('.current-rank').css('color', '#646464');
+
   } else if (score >= 500 && score < 1000) {
-    currentRank = 'Bronze';
-    nextRank = 'Silver';
+
     nextUpgrade = '1000';
-    $('.current-rank').css('color', '#CD7F32');
+
   } else if (score >= 1000 && score < 5000) {
-    currentRank = 'Silver';
-    nextRank = 'Gold';
+
     nextUpgrade = '5000';
-    $('.current-rank').css('color', 'silver');
+
   } else if (score >= 5000 && score < 10000) {
-    currentRank = 'Gold';
-    nextRank = 'Platinum';
+
     nextUpgrade = '10000';
-    $('.current-rank').css('color', 'gold');
+
   } else if (score >= 10000 && score < 50000) {
-    currentRank = 'Platinum';
-    nextRank = 'Diamond';
+
     nextUpgrade = '50000';
-    $('.current-rank').css('color', '#00b389');
+
   } else if (score >= 50000 && score < 100000) {
-    currentRank = 'Diamond';
-    nextRank = 'Master';
+
     nextUpgrade = '100000';
-    $('.current-rank').css('color', '#CCFFFF');
+
   } else if (score >= 100000) {
-    currentRank = 'Master';
-    nextRank = null;
+
     nextUpgrade = null;
-    $('.current-rank').css('color', 'purple');
+
   }
 
-  $('.current-rank').text(currentRank);
-  if (nextRank) {
-    $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
-  } else {
-    $('.next-rank').text('');
-  }
-
-  renderSetGoal();
 
 }
-
-function renderSetGoal () {
-
-  $('.goal-menu').empty();
-
-  if (score < 100) {
-
-    $('.goal-menu').append(`
-      <a class="dropdown-item iron-option" href="#">Iron</a>
-      <a class="dropdown-item bronze-option" href="#">Bronze</a>
-      <a class="dropdown-item silver-option" href="#">Silver</a>
-      <a class="dropdown-item gold-option" href="#">Gold</a>
-      <a class="dropdown-item platinum-option" href="#">Platinum</a>
-      <a class="dropdown-item diamond-option" href="#">Diamond</a>
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-
-  } else if (score >= 100 && score < 500) {
-    $('.goal-menu').append(`
-      <a class="dropdown-item bronze-option" href="#">Bronze</a>
-      <a class="dropdown-item silver-option" href="#">Silver</a>
-      <a class="dropdown-item gold-option" href="#">Gold</a>
-      <a class="dropdown-item platinum-option" href="#">Platinum</a>
-      <a class="dropdown-item diamond-option" href="#">Diamond</a>
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-  } else if (score >= 500 && score < 1000) {
-    $('.goal-menu').append(`
-      <a class="dropdown-item silver-option" href="#">Silver</a>
-      <a class="dropdown-item gold-option" href="#">Gold</a>
-      <a class="dropdown-item platinum-option" href="#">Platinum</a>
-      <a class="dropdown-item diamond-option" href="#">Diamond</a>
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-  } else if (score >= 1000 && score < 5000) {
-    $('.goal-menu').append(`
-      <a class="dropdown-item gold-option" href="#">Gold</a>
-      <a class="dropdown-item platinum-option" href="#">Platinum</a>
-      <a class="dropdown-item diamond-option" href="#">Diamond</a>
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-  } else if (score >= 5000 && score < 10000) {
-    $('.goal-menu').append(`
-      <a class="dropdown-item platinum-option" href="#">Platinum</a>
-      <a class="dropdown-item diamond-option" href="#">Diamond</a>
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-  } else if (score >= 10000 && score < 50000) {
-    $('.goal-menu').append(`
-      <a class="dropdown-item diamond-option" href="#">Diamond</a>
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-  } else if (score >= 50000 && score < 100000) {
-    $('.goal-menu').append(`
-      <a class="dropdown-item master-option" href="#">Master</a>
-    `);
-  } else if (score >= 100000) {
-
-  }
-}
-
