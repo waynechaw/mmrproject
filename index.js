@@ -20946,10 +20946,7 @@ let challengeData = // 20240417203423
 
 import { LolApi, RiotApi, Constants  } from 'twisted';
 
-
 let apikey = process.env.key;
-
-
 
 
 const api = new RiotApi({
@@ -21142,9 +21139,6 @@ export async function getScore(region, name, tag, puuid) {
       mostNotableChallengePosition: mostNotableChallengePosition
 
     });
-
-
-
 }
 
 export async function getWhaleScore(region, name, tag, puuid) {
@@ -21332,8 +21326,6 @@ export async function getAccountbyPuuid(puuid, region) {
 
 }
 
-
-
 app.get('/table', function (req, res) {
 
   data.forEach((item, index) => {
@@ -21477,6 +21469,91 @@ export async function getMastery(name, tag, region, regionGroup, req, res) {
 
 }
 
+export async function getMasteryFull(name, tag, region, regionGroup, req, res) {
+
+
+
+  try {
+
+   const resByRiotId = (await api.Account.getByRiotId(name, tag, regionGroup)).response;
+   const response = await fetch(`https://${region}.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-puuid/${resByRiotId.puuid}?api_key=${apikey}`)
+   const data = await response.json();
+
+    return res.json({
+      error: false,
+      data: data,
+      id: resByRiotId.puuid
+    });
+
+  } catch (error) {
+
+    if (error && error.body && error.status) {
+
+      return res.json({
+        error: true,
+        errorDetail: error
+      });
+
+    } else {
+      return res.json({
+        error: true,
+        errorDetail: error.message
+      });
+    }
+  }
+
+}
+
+export async function getMasteryChallenges(name, tag, region, regionGroup, req, res) {
+
+
+    try {
+
+       const resByRiotId = (await api.Account.getByRiotId(name, tag, regionGroup)).response;
+       const response = await fetch(`https://${region}.api.riotgames.com/lol/challenges/v1/player-data/${resByRiotId.puuid}?api_key=${apikey}`);
+       const data = await response.json();
+
+       let masterYourself = data.challenges.find(item => item.challengeId == 401104);
+       let masterEnemy = data.challenges.find(item => item.challengeId == 401105);
+
+       let masterTank = data.challenges.find(item => item.challengeId == 401206);
+       let masterMarksman = data.challenges.find(item => item.challengeId == 401204);
+       let masterSupport = data.challenges.find(item => item.challengeId == 401205);
+       let masterFighter = data.challenges.find(item => item.challengeId == 401202);
+       let masterMage = data.challenges.find(item => item.challengeId == 401203);
+       let masterAssassin = data.challenges.find(item => item.challengeId == 401201);
+
+
+        return res.json({
+          error: false,
+          data: {
+            masterYourself: masterYourself,
+            masterEnemy:masterEnemy, 
+            masterMarksman : masterMarksman,
+            masterSupport: masterSupport,
+            masterFighter: masterFighter,
+            masterMage: masterMage,
+            masterAssassin: masterAssassin,
+            masterTank: masterTank
+
+
+
+          },
+          id: resByRiotId.puuid
+        });
+
+
+    } catch (error) {
+
+        console.log(error);
+
+      return;
+    }
+
+}
+
+
+
 
 app.get('/catch/:name/:tag/:region', function (req, res) {
 
@@ -21487,6 +21564,32 @@ app.get('/catch/:name/:tag/:region', function (req, res) {
   let regionGroup = Constants.regionToRegionGroup(region);
 
   getMastery(name, tag, region, regionGroup, req, res);
+
+})
+
+app.get('/mastery/:name/:tag/:region', function (req, res) {
+
+  let name = req.params.name;
+  let tag = req.params.tag;
+  let region = req.params.region;
+
+  let regionGroup = Constants.regionToRegionGroup(region);
+
+  getMasteryFull(name, tag, region, regionGroup, req, res);
+
+})
+
+app.get('/masterychallenges/:name/:tag/:region', function (req, res) {
+
+  let name = req.params.name;
+  let tag = req.params.tag;
+  let region = req.params.region;
+
+  let regionGroup = Constants.regionToRegionGroup(region);
+
+  console.log(name, tag, region, regionGroup);
+
+  getMasteryChallenges(name, tag, region, regionGroup, req, res);
 
 })
 

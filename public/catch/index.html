@@ -3,10 +3,9 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Mastery Viewer</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="style.css">
+    <title>Catchem All Tracker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
 
     <style>
 
@@ -122,9 +121,9 @@
 
     .info-block {
       background: #8fa7ff75;
-      width: 12%;
+      width: 23%;
       height: 102px;
-      padding: 1%;
+      padding: 2% 2% 2% 2%;
       border-radius: 8px;
       margin-bottom: 10px;
     }
@@ -158,10 +157,8 @@ color: white;
       padding: 10px 6px;
       border-radius: 8px;
       margin-bottom: 10px;
-    width: 12%;
-    margin-left: 2%;
-    position: relative;
-        height: 200px;
+width: 18%;
+    margin-right: 2%;
 
     }
 
@@ -178,7 +175,6 @@ color: white;
       height: 5rem;
       overflow: hidden;
       margin: 0 auto;
-      margin-bottom: 9px;
     }
 
     .img-wrapper img {
@@ -187,37 +183,26 @@ color: white;
       transform: scale(1.15);
     }
 
-    .champion-item .progress-bar-text {
+    .champion-item h4 {
     color: #ffc966;
     margin-top: 11px;
     margin-bottom: 4px;
-    font-size: 16px;
-
-    position: relative;
-    z-index: 1;
-    top: 10px;
-
+    font-size: 14px;
     }
 
     .progress-box {
 background: gray;
-    height: 28px;
+    width: 100%;
+    height: 20px;
     margin: 0 auto;
     border-radius: 12px;
     display: flex;
     align-items: center;
-
-    position: absolute;
-
-    bottom: 6px;
-    left: 2%;
-    width: 96%;
-
     }
 
     .progress-bar {
 background: #000c9d94;
-    height: 18px;
+    height: 10px;
     width: 90%;
     /* line-height: 20px; */
     border-radius: 12px;
@@ -254,58 +239,10 @@ background: #000c9d94;
 }
 
 .main-content {
-  width: 99%
+  width: 57%
 }
 
 
-
-  .page-title {
-    display: none;
-  }
-
-  .center-div .page-title {
-    display: block;
-  }
-
-  .maxed {
-margin-top: 7px;
-    color: #ffc966;
-  }
-
-  .level7 {
-    color: #f4b5ff;
-  }
-
-  .level6 {
-    color: #b5e0ff;
-  }
-
-
-  .level5 {
-    color: #b5ffe4;
-  }
-
-  .level4 {
-    color: #fff7b5;
-  }
-
-  .level3 {
-    color: #ffd3d3;
-  }
-  .level2 {
-    color: #d7c0c0;
-  }
-  .level1 {
-    color: #8d8d8d;
-  }
-
-  .tokens-container {
-    height: 16px; 
-  }
-
-  .rank {
-
-  }
 
 
 @media (max-width: 600px) {
@@ -345,6 +282,7 @@ margin-top: 7px;
   }
 
 
+
 }
 
   
@@ -367,7 +305,7 @@ margin-top: 7px;
 
     <div class="lookup-container">
         <div style="font-size: 20px; margin-bottom: 10px;"  class="page-title">
-          Champion Mastery Viewer
+          Catch'em All Tracker
         </div>
         <div style="display: none;margin-top: 100px" id="status"></div>
         <div style="align-items: center; display: flex; position: relative;width: 95%;margin: 0 auto;">
@@ -397,6 +335,46 @@ margin-top: 7px;
   <div class="checkbox-container" style="display: flex;">
 
 
+    <div class="challenge-progress">
+            <h3 class="name"></h3>
+            <div class="current-rank"></div>
+            <div class="next-rank"></div>
+
+            <div class="dropdown mr-4 ml-4">
+              <button class="btn btn-secondary dropdown-toggle goal-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Check Higher Ranks
+              </button>
+              <div class="dropdown-menu goal-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item iron-option" href="#">Iron</a>
+                <a class="dropdown-item bronze-option" href="#">Bronze</a>
+                <a class="dropdown-item silver-option" href="#">Silver</a>
+                <a class="dropdown-item gold-option" href="#">Gold</a>
+                <a class="dropdown-item platinum-option" href="#">Platinum</a>
+                <a class="dropdown-item diamond-option" href="#">Diamond</a>
+                <a class="dropdown-item master-option" href="#">Master</a>
+              </div>
+            </div>
+
+            <hr>
+
+            <div class="tracking">
+              <div style="margin-bottom: 12px;" class="start-date">
+                <h4>Tracking Start Date: </h4>
+                <span class="start-date-value info-text"></span>
+              </div>
+              <div class="elapsed">
+                <h4>Time Elapsed: </h4>
+                <span class="elapsed-value info-text"></span>
+              </div>
+            </div>
+
+
+            <div>
+              <button style="margin-right: 8px; background: #565895; border-color: #565895" type="button" class="refresh btn btn-primary">Refresh Data</button>
+              <button style="margin-right: 8px"  type="button" class="btn btn-warning reset-tracking">Reset Tracking</button>
+              <button type="button" class="btn btn-primary new-search">New Search</button>
+            </div>
+    </div>
 
     <div class="main-content">
       
@@ -404,52 +382,44 @@ margin-top: 7px;
 
               <div style="width: 100%; justify-content: space-around; flex-wrap: wrap;height: 26%;" class="d-flex">
 
-                <div class="yourself info-block">
-                    <h5>Master Yourself</h5>
-                    <h4 class="rank"> </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>Total points required for next rank</h5>
+                    <span class="value total-required"></span>
                 </div>
 
-                <div class="enemy info-block">
-                    <h5>Master the Enemy</h5>
-                    <h4 class="rank">  </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>Total points of top 150 Champions</h5>
+                    <span class="value current-total"></span>
                 </div>
 
-                <div class="tank info-block">
-                    <h5>Master Tank</h5>
-                    <h4 class="rank"> </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>Total points deficit for next rank</h5>
+                    <span class="value deficit-points"></span>
                 </div>
 
-                <div class="marksman info-block">
-                    <h5>Master Marksman</h5>
-                    <h4 class="rank">  </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>% points earned until next rank</h5>
+                    <span class="value percent-done"></span>
                 </div>
 
-                <div class="support info-block">
-                    <h5>Master Support</h5>
-                    <h4 class="rank">  </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>Points earned since tracking initiated</h5>
+                    <span class="value points-earned"></span>
                 </div>
 
-                <div class="fighter info-block">
-                    <h5>Master Fighter</h5>
-                    <h4 class="rank">  </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>Average Mastery Points / Day</h5>
+                    <span class="value appd"></span>
                 </div>
 
-                <div class="mage info-block">
-                    <h5>Master Mage</h5>
-                    <h4 class="rank">  </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>% Progress Completed / Day</h5>
+                    <span class="value ppd"></span>
                 </div>
 
-                <div class="assasin info-block">
-                    <h5>Master Assassin</h5>
-                    <h4 class="rank">  </h4>
-                    <span class="value"></span>
+                <div class="info-block">
+                    <h5>Estimated time to reach next rank</h5>
+                    <span class="value estimated-time"></span>
                 </div>
 
               </div>
@@ -460,59 +430,37 @@ margin-top: 7px;
 
       
             <div class="checklist champion-suggestions">
+              <h1>Champions Closest to Meet Requirement</h1>
 
 
               <i style="font-size: 50px;color: gray; margin-top: 4%;margin-bottom: 4%;" class="champ-loading fa-solid fa-spinner fa-spin"></i>
 
-              <div>
+              <div class="role-container">
+                <span class="role-option all selected">
+                  <img src="/roles/all.svg"/>
+                </span>
+                <span class="role-option top">
+                  <img src="/roles/top.svg"/>
+                </span>
+                <span class="role-option jg">
+                  <img src="/roles/jg.svg"/>
+                </span>
 
-                  <div class="role-container">
-                    <span class="role-option all selected">
-                      <img src="/roles/all.svg"/>
-                    </span>
-                    <span class="role-option top">
-                      <img src="/roles/top.svg"/>
-                    </span>
-                    <span class="role-option jg">
-                      <img src="/roles/jg.svg"/>
-                    </span>
+                <span class="role-option mid">
+                  <img src="/roles/mid.svg"/>
+                </span>
+                <span class="role-option bot">
+                  <img src="/roles/bot.svg"/>
+                </span>
+                <span class="role-option sup">
+                  <img src="/roles/sup.svg"/>
+                </span>
 
-                    <span class="role-option mid">
-                      <img src="/roles/mid.svg"/>
-                    </span>
-                    <span class="role-option bot">
-                      <img src="/roles/bot.svg"/>
-                    </span>
-                    <span class="role-option sup">
-                      <img src="/roles/sup.svg"/>
-                    </span>
-                  </div>
-
-                  <div class="toggles" style="display: flex;justify-content: center;     zoom: 2;">
-                      <div class="form-check form-switch d-flex align-items-center" style="margin-right: 16px;">
-                        <input style="margin-right: 8px ; margin-top: -3px;" class="form-check-input" type="checkbox" role="switch" id="hidem7">
-                        <label style="color: white" class="form-check-label" for="hidem7">Hide M7</label>
-                      </div>
-
-
-                      <div class="form-check form-switch d-flex align-items-center" style="margin-right: 16px;">
-                        <input style="margin-right: 8px ; margin-top: -3px;" class="form-check-input" type="checkbox" role="switch" id="hidem6">
-                        <label style="color: white" class="form-check-label" for="hidem6">Hide M6</label>
-                      </div>
-
-
-                      <div class="form-check form-switch d-flex align-items-center" style="margin-right: 16px;">
-                        <input style="margin-right: 8px ; margin-top: -3px;" class="form-check-input" type="checkbox" role="switch" id="hidem5">
-                        <label style="color: white" class="form-check-label" for="hidem5">Hide M5</label>
-                      </div>
-
-
-                  </div>
 
 
               </div>
 
-              <div style="flex-wrap: wrap; " class="champions-list d-flex">
+              <div style="flex-wrap: wrap;" class="champions-list d-flex">
                 
 
 
@@ -525,7 +473,35 @@ margin-top: 7px;
 
 
 
+    <div class="challenge-progress">
 
+
+      <div>
+        <h4 style="margin-bottom: 16px;">
+          Challenge Requirement
+        </h4>
+        <span class="info-text">
+          <span class="highlight">150</span> champions with at least <span class="highlight"><span class="next-upgrade"></span> points</span> for next rank
+        </span>
+
+        <br>
+        <br>
+
+        <span class="info-text">
+          <span class="highlight met-req-count"></span> champions met requirement, <span class="highlight deficit-count"></span> more champions needed
+        </span>
+
+        
+
+      </div>
+
+      <hr>
+
+
+      <div  class="info-text">
+        Your <span class="highlight last-champ-index"></span> highest mastery (<span class="highlight score"></span> mastery points) champion is <span class="highlight last-champ"></span>
+      </div>
+    </div>
 
 
 
@@ -538,10 +514,10 @@ https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <script src="mastery.js"></script>
-    <script src="background.js"></script>
+    <script src="catch.js"></script>
+    <script src="../background.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </body>
