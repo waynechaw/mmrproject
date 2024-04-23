@@ -2,7 +2,6 @@ let profiles = localStorage.getItem("profiles");
 
 if (!profiles) {
     profiles = {};
-    $('.checkbox-container').hide();
     $('.lookup-container').addClass('center-div');
 
 } else {
@@ -23,9 +22,10 @@ if (!selectedRegion) {
 let activeProfile = localStorage.getItem("activeprofile");
 
 if (activeProfile && activeProfile != 'undefined' && profiles[activeProfile]) {
-    $('.lookup-container').hide();
     let activeProfileInfo = profiles[activeProfile];
     getMasteryData(activeProfileInfo.name, activeProfileInfo.tag, activeProfileInfo.region);
+} else {
+  $('.lookup-container-home').show();
 }
 
 const regionMap = {
@@ -172,6 +172,12 @@ function getMasteryData(name, tag, selectedMappedRegion) {
 
             }
 
+            $('.lookup-container-home').hide();
+            $('.checkbox-container').show();
+
+            document.title = `${name}#${tag}'s Champion Masteries and Challenge Progress`;
+            $('#userName2').val(`${name}#${tag}`);
+
             getMasteryChallengeData(name, tag, selectedMappedRegion);
             getMasteryDataForCatch(name, tag, selectedMappedRegion);
 
@@ -193,7 +199,7 @@ function getMasteryData(name, tag, selectedMappedRegion) {
                 return;
             }
 
-            $('.checkbox-container').show();
+            
             $('.toggles').show();
             $('.lookup-container').removeClass('center-div');
             $('.lookup-container').hide();
@@ -219,10 +225,12 @@ function getMasteryData(name, tag, selectedMappedRegion) {
             $('.fa-magnifying-glass').show();
             $('.fa-spinner').hide();
 
-            $('.lookup-container').show();
+            $('.lookup-container-small').show();
             $('.checkbox-container').css('margin-top', '0');
             $('.lookup-container').css('margin-top', '5%');
             $('.role-container').show();
+
+            $('lookup-container-home').hide();
 
 
         },
@@ -865,12 +873,48 @@ function renderChampions(type) {
 
 }
 
+$( "#userName2").keypress(function(event) {
+
+    if (event.keyCode == 13) {
+        $(this).prop("disabled", true);
+
+
+
+        let inputText = $("#userName2").val();
+
+        let parsed = inputText.split('#');
+
+        if (!parsed[0] || !parsed[1]) {
+            let errorText = 'Invalid input';
+            $(this).prop("disabled", false);
+            $(this).attr("placeholder", errorText);
+            $("#userName2").val('');
+            return;
+        }
+
+        let name = parsed[0];
+        let tag = parsed[1]
+
+        loading = true;
+        $('.fa-magnifying-glass').hide();
+        $('.fa-spinner').show();
+
+        selectedMappedRegion = regionMap[selectedRegion];
+
+
+        getMasteryData(name, tag, selectedMappedRegion);
+
+
+    } else {
+        $(this).attr("placeholder", 'name#tag');
+    }
+
+})
 
 $("#userName").keypress(function(event) {
 
     if (event.keyCode == 13) {
         $(this).prop("disabled", true);
-
 
 
         let inputText = $("#userName").val();
@@ -893,7 +937,6 @@ $("#userName").keypress(function(event) {
         $('.fa-spinner').show();
 
         selectedMappedRegion = regionMap[selectedRegion];
-
 
         getMasteryData(name, tag, selectedMappedRegion);
 
