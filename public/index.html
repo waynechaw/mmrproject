@@ -4,43 +4,36 @@
   <head>
     <meta charset="UTF-8">
     <title>Mastery Viewer</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
     <style>
+      .lookup-container {
 
-
-
-
-
-.lookup-container {
-
-    text-align: center;
+        text-align: center;
         margin: 1% auto 1%;
-    width: 500px;
-    padding: 15px;
-    color: white;
-    border-radius: 5px;
+        width: 500px;
+        padding: 15px;
+        color: white;
+        border-radius: 5px;
 
-    font-size: 0.8em;
-    background-color: #111111c4;
-}
+        font-size: 0.8em;
+        background-color: #111111c4;
+      }
 
-.lookup-container input {
-    border-style: hidden;
-    outline: none;
-    transition: width ease 1s;
-    text-indent: 40px;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    border-radius: 24px;
-    padding: 10px 10px;
-    width: 100%;
-    color: white;
-    background: #00000059;
-    color-scheme: dark;
-}
+      .lookup-container input {
+        border-style: hidden;
+        outline: none;
+        transition: width ease 1s;
+        text-indent: 40px;
+        font-size: 16px;
+        letter-spacing: 1.5px;
+        border-radius: 24px;
+        padding: 10px 10px;
+        width: 100%;
+        color: white;
+        background: #00000059;
+        color-scheme: dark;
+      }
 
       .checkbox-container {
         margin-top: 6%;
@@ -50,304 +43,296 @@
 
       }
 
-.current-rank {
-    font-size: 35px;
-    margin-bottom: 5px;
-}
+      .current-rank {
+        font-size: 35px;
+        margin-bottom: 5px;
+      }
 
 
-    .checklist {
-    flex-wrap: wrap;
-    background: #0a0218eb;
-    padding: 14px;
- 
-    font-size: 11px;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-bottom: 10px;
-    border-radius: 8px;
+      .checklist {
+        flex-wrap: wrap;
+        background: #0a0218eb;
+        padding: 14px;
 
-    }
+        font-size: 11px;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-bottom: 10px;
+        border-radius: 8px;
 
-    .challenge-progress {
-      width: 19%;
-      background: #0a0218eb;
-    color: white;
-    padding: 20px;
-    border-radius: 8px
+      }
 
-    }
+      .challenge-progress {
+        width: 19%;
+        background: #0a0218eb;
+        color: white;
+        padding: 20px;
+        border-radius: 8px
+      }
 
-    .challenge-progress h3 {
-      margin: 0 0 5px 0;
-      font-size: 18px;
-    }
+      .challenge-progress h3 {
+        margin: 0 0 5px 0;
+        font-size: 18px;
+      }
 
-    .current-rank {
-      font-size: 33px;
-      margin-bottom: 5px;
-    }
-
-
-    a:hover {
-      color: white;
-      text-decoration: none;
-    }
-
-    .highlight {
-    font-size: 14px;
-    color: #ffc966;
-    }
-
-    hr {
-      border-top: 1px solid rgb(147 147 147 / 50%);
-    }
-
-    h4 {
-      margin-bottom: 0;
-      font-size: 19px;
-    }
-
-    .info-text {
-    font-size: 16px;
-    color: #b3b4d0;
-    }
+      .current-rank {
+        font-size: 33px;
+        margin-bottom: 5px;
+      }
 
 
-    .challenge-progress .btn {
-      font-size: 13px;
-      padding: 4px 5px;
-      margin-top: 19px;
-    }
+      a:hover {
+        color: white;
+        text-decoration: none;
+      }
 
-    .info-block {
-      background: #8fa7ff75;
-      width: 12%;
-      height: 102px;
-      padding: 1%;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    }
+      .highlight {
+        font-size: 14px;
+        color: #ffc966;
+      }
 
-    h5 {
-color: white;
-    font-size: 13px;
-    }
+      hr {
+        border-top: 1px solid rgb(147 147 147 / 50%);
+      }
 
-    .value {
-      color: #ffc966;
-      font-size: 22px;
-    }
+      h4 {
+        margin-bottom: 0;
+        font-size: 19px;
+      }
 
-    .center-div {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
+      .info-text {
+        font-size: 16px;
+        color: #b3b4d0;
+      }
 
-    .champion-suggestions h1 {
-      margin: 0 auto;
-      text-align: center;
-      color: white;
-      font-size: 20px;
-    }
 
-    .champion-item {
-      background: #8fa7ff75;
-      padding: 10px 6px;
-      border-radius: 8px;
-      margin-bottom: 10px;
-    width: 12%;
-    margin-left: 2%;
-    position: relative;
+      .challenge-progress .btn {
+        font-size: 13px;
+        padding: 4px 5px;
+        margin-top: 19px;
+      }
+
+      .info-block {
+        background: #8fa7ff75;
+        width: 12%;
+        height: 102px;
+        padding: 1%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+
+      h5 {
+        color: white;
+        font-size: 13px;
+      }
+
+      .value {
+        color: #ffc966;
+        font-size: 22px;
+      }
+
+      .center-div {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .champion-suggestions h1 {
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+      }
+
+      .champion-item {
+        background: #8fa7ff75;
+        padding: 10px 6px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        width: 12%;
+        margin-left: 2%;
+        position: relative;
         height: 216px;
 
-    }
+      }
 
-    .champion-item h2 {
-      color: white;
-      font-size: 18px;
-    }
+      .champion-item h2 {
+        color: white;
+        font-size: 18px;
+      }
 
-    .img-wrapper {
-      display: block;
-      border-radius: 50%;
-      border: 4px solid black;
-      width: 5rem;
-      height: 5rem;
-      overflow: hidden;
-      margin: 0 auto;
-      margin-bottom: 9px;
-    }
+      .img-wrapper {
+        display: block;
+        border-radius: 50%;
+        border: 4px solid black;
+        width: 5rem;
+        height: 5rem;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 9px;
+      }
 
-    .img-wrapper img {
-      display: block;
-      width: 100%;
-      transform: scale(1.15);
-    }
+      .img-wrapper img {
+        display: block;
+        width: 100%;
+        transform: scale(1.15);
+      }
 
-    .champion-item .progress-bar-text {
-    color: #ffc966;
-    margin-top: 11px;
-    margin-bottom: 4px;
-    font-size: 16px;
+      .champion-item .progress-bar-text {
+        color: #ffc966;
+        margin-top: 11px;
+        margin-bottom: 4px;
+        font-size: 16px;
 
-    position: relative;
-    z-index: 1;
-    top: 26px;
+        position: relative;
+        z-index: 1;
+        top: 26px;
 
-    }
+      }
 
-    .progress-box {
-background: gray;
-    height: 28px;
-    margin: 0 auto;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
+      .progress-box {
+        background: gray;
+        height: 28px;
+        margin: 0 auto;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
 
-    position: absolute;
+        position: absolute;
 
-    bottom: 6px;
-    left: 2%;
-    width: 96%;
+        bottom: 6px;
+        left: 2%;
+        width: 96%;
 
-    }
+      }
 
-    .progress-bar {
-background: #000c9d94;
-    height: 18px;
-    width: 90%;
-    /* line-height: 20px; */
-    border-radius: 12px;
-    margin-left: 5%;
-    }
-
-
-.role-container {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: center;
-
-}
-
-.role-option {
-      padding: 9px;
-    display: block;
-    border: 1px solid transparent;
-    cursor: pointer;
-}
-
-.role-option.selected {
-    border: 1px solid white;
-}
+      .progress-bar {
+        background: #000c9d94;
+        height: 18px;
+        width: 90%;
+        /* line-height: 20px; */
+        border-radius: 12px;
+        margin-left: 5%;
+      }
 
 
-.role-option img {
-  width: 22px;
-}
+      .role-container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
 
-.role-option img:hover {
-  filter: brightness(3.0);
-}
+      }
 
-.main-content {
-  width: 99%
-}
+      .role-option {
+        padding: 9px;
+        display: block;
+        border: 1px solid transparent;
+        cursor: pointer;
+      }
 
-
-
-  .page-title {
-    display: none;
-  }
-
-  .center-div .page-title {
-    display: block;
-  }
-
-  .maxed {
-margin-top: 7px;
-    color: #ffc966;
-  }
-
-  .level7 {
-    color: #f4b5ff;
-  }
-
-  .level6 {
-    color: #b5e0ff;
-  }
+      .role-option.selected {
+        border: 1px solid white;
+      }
 
 
-  .level5 {
-    color: #b5ffe4;
-  }
+      .role-option img {
+        width: 22px;
+      }
 
-  .level4 {
-    color: #fff7b5;
-  }
+      .role-option img:hover {
+        filter: brightness(3.0);
+      }
 
-  .level3 {
-    color: #ffd3d3;
-  }
-  .level2 {
-    color: #d7c0c0;
-  }
-  .level1 {
-    color: #8d8d8d;
-  }
-
-  .tokens-container {
-    height: 26px; 
-  }
-
-  .rank {
-
-  }
+      .main-content {
+        width: 99%
+      }
 
 
-@media (max-width: 600px) {
-  .challenge-progress {
-    width: 100%;
-    border-radius: 0px;
-  }
+      .page-title {
+        display: none;
+      }
 
-  .main-content {
-    width: 100%
-  }
+      .center-div .page-title {
+        display: block;
+      }
 
-  .checklist {
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    border-radius: 0;
+      .maxed {
+        margin-top: 7px;
+        color: #ffc966;
+      }
 
-  }
+      .level7 {
+        color: #f4b5ff;
+      }
 
-  .info-block {
-    width: 45%;
-  }
+      .level6 {
+        color: #b5e0ff;
+      }
 
-  .img-wrapper {
-      width: 4rem;
-      height: 4rem;
-  }
+      .level5 {
+        color: #b5ffe4;
+      }
 
-  .checkbox-container {
-    flex-wrap: wrap;
-    margin-top: 0;
-  }
+      .level4 {
+        color: #fff7b5;
+      }
 
-  .navigation {
-    display: none;
-  }
+      .level3 {
+        color: #ffd3d3;
+      }
+
+      .level2 {
+        color: #d7c0c0;
+      }
+
+      .level1 {
+        color: #8d8d8d;
+      }
+
+      .tokens-container {
+        height: 26px;
+      }
+
+      @media (max-width: 600px) {
+        .challenge-progress {
+          width: 100%;
+          border-radius: 0px;
+        }
+
+        .main-content {
+          width: 100%
+        }
+
+        .checklist {
+          margin-left: 0;
+          margin-right: 0;
+          margin-bottom: 0;
+          border-radius: 0;
+
+        }
+
+        .info-block {
+          width: 45%;
+        }
+
+        .img-wrapper {
+          width: 4rem;
+          height: 4rem;
+        }
+
+        .checkbox-container {
+          flex-wrap: wrap;
+          margin-top: 0;
+        }
+
+        .navigation {
+          display: none;
+        }
 
 
-}
-
-  
+      }
 
     </style>
   </head>
@@ -363,6 +348,19 @@ margin-top: 7px;
         <a href="/checklist">Items Checklist</a>
         <a href="/leaderboard">Challenge Leaders</a>
         <a href="/leagueofwhales">Whales Leaders</a>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+
     </div>
 
     <div class="lookup-container">
@@ -544,6 +542,8 @@ https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+    <script src="championdata.js"></script>
+    <script src="lanedata.js"></script>
     <script src="mastery.js"></script>
     <script src="background.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
