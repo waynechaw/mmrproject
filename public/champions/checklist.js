@@ -1600,6 +1600,8 @@ function renderInfo(challenge) {
   }
     $('.info-text').text(championsChecklistData[selectedChallenge].description);
 
+    console.log(currentRank, nextRank);
+
     $('.current-rank').text(currentRank);
     if (nextRank) {
       $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
@@ -1983,56 +1985,7 @@ function geInvincibleScore () {
       }
     })
 
-    if (score < 2) {
-      currentRank = 'Unranked';
-      nextRank = 'Iron';
-      nextUpgrade = '2';
-       $('.current-rank').css('color', '#2e2e2e');
-    } else if (score >= 2 && score < 5) {
-      currentRank = 'Iron';
-      nextRank = 'Bronze';
-      nextUpgrade = '5';
-       $('.current-rank').css('color', '#646464');
-    } else if (score >= 5 && score < 10) {
-      currentRank = 'Bronze';
-      nextRank = 'Silver';
-      nextUpgrade = '10';
-      $('.current-rank').css('color', '#CD7F32');
-    } else if (score >= 10 && score < 15) {
-      currentRank = 'Silver';
-      nextRank = 'Gold';
-      nextUpgrade = '15';
-      $('.current-rank').css('color', 'silver');
-    } else if (score >= 15 && score < 30) {
-      currentRank = 'Gold';
-      nextRank = 'Platinum';
-      nextUpgrade = '30';
-      $('.current-rank').css('color', 'gold');
-    } else if (score >= 30 && score < 50) {
-      currentRank = 'Platinum';
-      nextRank = 'Diamond';
-      nextUpgrade = '50';
-      $('.current-rank').css('color', '#00b389');
-    } else if (score >= 50 && score < 70) {
-      currentRank = 'Diamond';
-      nextRank = 'Master';
-      nextUpgrade = '75';
-      $('.current-rank').css('color', '#CCFFFF');
-    } else if (score >= 74) {
-      currentRank = 'Master';
-      nextRank = null;
-      nextUpgrade = null;
-      $('.current-rank').css('color', 'purple');
-    }
-}
-
-function geInvincibleScore () {
-    score = 0;
-    championsChecklistData['Invincible'].data.forEach(item => {
-      if (item.checked) {
-        score++;
-      }
-    })
+console.log(score);
 
     if (score < 2) {
       currentRank = 'Unranked';
@@ -2064,19 +2017,18 @@ function geInvincibleScore () {
       nextRank = 'Diamond';
       nextUpgrade = '50';
       $('.current-rank').css('color', '#00b389');
-    } else if (score >= 50 && score < 70) {
+    } else if (score >= 50 && score < 74) {
       currentRank = 'Diamond';
       nextRank = 'Master';
       nextUpgrade = '75';
       $('.current-rank').css('color', '#CCFFFF');
-    } else if (score >= 70) {
+    } else if (score >= 75) {
       currentRank = 'Master';
       nextRank = null;
       nextUpgrade = null;
       $('.current-rank').css('color', 'purple');
     }
 }
-  
 
 function getJackScore () {
     score = 0;
