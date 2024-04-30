@@ -1606,7 +1606,7 @@ function renderInfo(challenge) {
     if (nextRank) {
       $('.next-rank').text(`${score} / ${nextUpgrade} to ${nextRank}`);
     } else {
-      $('.next-rank').text('');
+      $('.next-rank').text(`${score}`);
     }
 }
 
